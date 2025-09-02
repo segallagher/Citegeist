@@ -2,10 +2,13 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 import pandas as pd
 import shutil
 from pathlib import Path
+from dotenv import load_dotenv
+import os
 
-## PARAMETERS
-data_path = Path("./data")
-dataset_name = "dataset.csv"
+# load parameters
+load_dotenv(override=True)
+data_path = Path("./") /os.environ["DATA_DIR"]
+dataset_name = os.environ["DATASET_FILE"]
 
 # initialize dataset
 dataset: pd.DataFrame = pd.DataFrame(columns=[
