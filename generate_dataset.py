@@ -7,7 +7,7 @@ import os
 
 # load parameters
 load_dotenv(override=True)
-data_path = Path("./") /os.environ["DATA_DIR"]
+data_path = Path(os.environ["DATA_DIR"])
 dataset_name = os.environ["DATASET_FILE"]
 
 # initialize dataset
