@@ -68,4 +68,3 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
     for i in tqdm(range(0, len(documents), batch_size), desc="Inserting documents"):
         batch = documents[i : i + batch_size]
         db.add_documents(batch)
-
