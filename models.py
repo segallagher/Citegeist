@@ -32,7 +32,7 @@ def embedding_model() -> Embeddings:
     else:
         raise ValueError(f"Unsupported embedding model type: {model_type}")
 
-def llm_model() -> BaseChatModel:
+def llm_model(temperature: int=None) -> BaseChatModel:
     """
     Returns a chat model fron environment configuration.
 

@@ -20,6 +20,11 @@ dataset: pd.DataFrame = pd.DataFrame(columns=[
     "abstract",
     ])
 
+### JUSTIFICATION
+## We want to get metadata on arxiv research articles
+## we cannot use the existing "Arxiv.org AI Research Papers Dataset" dataset since it is out of date
+## We cannot skip this step by using LangChains ArxivRetriever since it does not provide highly relevant data
+
 # initialize kaggle api
 api = KaggleApi()
 api.authenticate()
