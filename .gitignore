@@ -3,3 +3,4 @@ data
 __pycache__
 chroma_store
 .env
+ai_papers
