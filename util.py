@@ -194,6 +194,9 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
     print(f"Dataset at {dataset_path} loaded")
     print(f"Datset shape: {dataset.shape}")
 
+    # Simplify characters
+    ## convert stuff like é to e
+
     # Convert dataset to documents
     documents = df_to_documents(dataset, text_column=primary_column)
 

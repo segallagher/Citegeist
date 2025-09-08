@@ -17,20 +17,18 @@ vectorstore: Chroma = Chroma(
 )
 
 # Create retriever
-# retriever: VectorStoreRetriever = vectorstore.as_retriever(search_kwargs={"k": 2})
-retriever = ArxivRetriever(
-    top_k_results=5,
-    get_full_documents=True,
-)
+retriever: VectorStoreRetriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+# retriever = ArxivRetriever(
+#     top_k_results=5,
+#     get_full_documents=True,
+# )
 
 question = "What is a good model for semantic segmentation of an image?"
 question = "How does GoogLeNet work? Why is it so much faster than other models?"
 question = "How does GoogLeNet model work?"
+question = "How can we explain how AI models decide what they make?"
 # question = "What is the ImageBind model?"
 docs = retriever.invoke(question)
-
-# for doc in docs:
-#     print(doc.metadata["title"])
 
 def format_docs(docs):
     print(docs[0])

@@ -4,4 +4,4 @@ __pycache__
 chroma_store
 vectorstore
 .env
-ai_papers
+arxiv_papers
