@@ -1,6 +1,7 @@
 ## To Use Scraper
 create `.env` file with values
-- `DOWNLOAD_DIR` = your output director
+- `DOWNLOAD_DIR` = your output directory
+- `CATEGORY` = your arxiv category to download
 - `START_YEAR` = set to the first year you want to download as an integer
 - `END_YEAR_INCLUSIVE` = set to the last year you want to download as an integer
 
