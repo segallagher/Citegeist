@@ -2,5 +2,6 @@
 data
 __pycache__
 chroma_store
+vectorstore
 .env
 ai_papers
