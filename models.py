@@ -49,11 +49,11 @@ def llm_model(temperature: int=None) -> BaseChatModel:
 
     if model_type == "ollama":
         from langchain_ollama import ChatOllama
-        return ChatOllama(model=os.environ["LLM_MODEL"])
+        return ChatOllama(model=os.environ["LLM_MODEL"], temperature=temperature)
     
     elif model_type == "openai":
         from langchain_openai import ChatOpenAI
-        return ChatOpenAI(model=os.environ["LLM_MODEL"])
+        return ChatOpenAI(model=os.environ["LLM_MODEL"], temperature=temperature)
     
     elif model_type == "huggingface":
         from langchain_community.chat_models import ChatHuggingFace
