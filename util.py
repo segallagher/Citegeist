@@ -191,6 +191,9 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
     # load dataset into documents
     dataset = pd.read_csv(dataset_path)
 
+    print(f"Dataset at {dataset_path} loaded")
+    print(f"Datset shape: {dataset.shape}")
+
     # Convert dataset to documents
     documents = df_to_documents(dataset, text_column=primary_column)
 
@@ -200,6 +203,8 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
         persist_directory=str(persist_directory),
     )
 
-    for i in tqdm(range(0, len(documents), batch_size), desc="Inserting documents"):
+    pbar = tqdm(total=len(documents), desc="Inserting documents")
+    for i in range(0, len(documents), batch_size):
         batch = documents[i : i + batch_size]
         db.add_documents(batch)
+        pbar.update(batch_size)
