@@ -207,4 +207,5 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
     for i in range(0, len(documents), batch_size):
         batch = documents[i : i + batch_size]
         db.add_documents(batch)
-        pbar.update(batch_size)
+        pbar.update(len(batch))
+    pbar.close()
