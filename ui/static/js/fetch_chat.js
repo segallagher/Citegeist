@@ -1,5 +1,14 @@
-const chatForm = document.getElementById('chatForm')
-const chatHistory = document.getElementById('chatHistory')
+const chatForm = document.getElementById('chatForm');
+const messageInput = chatForm.querySelector('textarea');
+const chatHistory = document.getElementById('chatHistory');
+
+messageInput.addEventListener('keydown', (e) => {
+    // Check for Enter without Shift
+    if (e.key === 'Enter' && !e.shiftKey){
+        e.preventDefault();
+        chatForm.requestSubmit();
+    }
+});
 
 chatForm.addEventListener('submit', async (e) => {
     e.preventDefault();
