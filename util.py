@@ -10,7 +10,7 @@ from typing import Any
 import time
 import random
 
-from models import embedding_model
+from ui.util.models import embedding_model
 
 def scrape_delay(delay: int=None, delay_lower_bound: int=None, delay_upper_bound:int=None):
     """

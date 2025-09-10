@@ -1,0 +1,72 @@
+<head>
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        .chat-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .message-box {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #e1e1e1;
+            word-wrap: break-word;
+        }
+
+        .you {
+            justify-content: flex-end;
+        }
+
+        .you .message-content {
+            background-color: #cce5ff;
+            text-align: right;
+        }
+
+        .other {
+            justify-content: flex-start;
+        }
+
+        .chat-history {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            height: 400px;
+            overflow-y: auto;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            resize: vertical;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>

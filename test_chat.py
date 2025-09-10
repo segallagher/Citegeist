@@ -1,12 +1,10 @@
 from langchain_chroma import Chroma
 from langchain_core.vectorstores import VectorStoreRetriever
-from langchain_core.runnables import RunnableLambda
-from langchain_community.retrievers import ArxivRetriever
 import os
 from dotenv import load_dotenv
 
-from models import embedding_model, llm_model
-from prompts import Prompts
+from ui.util.models import embedding_model, llm_model
+from ui.util.prompts import Prompts
 
 # load parameters
 load_dotenv(override=True)
