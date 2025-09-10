@@ -2,16 +2,18 @@
 <html>
 {% include './head.j2' %}
 <body>
-    <div class="chat-container">
-        <h2>Chat</h2>
+    <div class="horizontal-container">
+        <div class="chat-container">
+            <h2>Chat</h2>
 
-        <div class="chat-history" id="chatHistory"></div>
+            <div class="chat-history" id="chatHistory"></div>
 
-        <form method="post" id="chatForm">
-            <input name="username" value="human" hidden>
-            <textarea name="message" rows="3" required placeholder="Type your message..."></textarea><br>
-            <button type="submit">Send</button>
-        </form>
+            <form method="post" id="chatForm">
+                <input name="username" value="human" hidden>
+                <textarea name="message" rows="3" required placeholder="Type your message..."></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </div>
     {% include './scripts.j2' %}
 </body>

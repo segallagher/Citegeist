@@ -37,20 +37,46 @@ async function fetchMessages(){
         return;
     }
 
-    console.log("Time to Update")
     // Update message count
     lastMessageCount = messages.length;
 
-    // Re-render messages
+    // Re-render messages and context
     chatHistory.innerHTML = '';
+
     messages.forEach(msg => {
-        const div = document.createElement('div');
-        div.classList.add('message-box', msg.sender === 'human' ? 'you' : 'other');
-        div.innerHTML = `<div class="message-content">${msg.message}</div>`;
-        chatHistory.appendChild(div);
+        // Initialize message div
+        const message_div = document.createElement('div');
+        // Set Class
+        message_div.classList.add('message-box', msg.sender === 'human' ? 'you' : 'other');
+        // Generate context links if machine user, otherwise blank string
+        var links_section = ""
+        if(msg.sender === 'machine'){
+            var link_tags = ""
+            for(let i=0; i<msg.context.length; i++){
+                link_tags = link_tags +  `<a class="document-link" href="${msg.context[i].url}" target="_blank" rel="noopener noreferrer">${msg.context[i].title}</a>\n`
+            }
+
+            links_section = `
+            <p class="document-list-title">Response Context</p>
+            ${link_tags}
+            `;
+
+        }
+        // Add message and message links to message div
+        message_div.innerHTML = `
+            <div class="message-content">
+                ${msg.message}
+                ${links_section}
+            </div>
+        `;
+        // Add message div to page
+        chatHistory.appendChild(message_div);
     });
+
+    // Scroll to new messages
     chatHistory.scrollTop = chatHistory.scrollHeight;
 }
 
+// Fetch messages on load and every 2 seconds
 setInterval(fetchMessages, 2000);
 fetchMessages();
