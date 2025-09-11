@@ -1,0 +1,43 @@
+services:
+  web:
+    build: 
+      context: ./ui
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      EMBED_MODEL_TYPE: "ollama"
+      EMBED_MODEL: "mxbai-embed-large:latest"
+      LLM_MODEL_TYPE: "ollama"
+      LLM_MODEL: "llama3.2:3b"
+      OLLAMA_HOST: "http://ollama:11434"
+      VECTORSTORE_DIR: "vectorstore"
+    volumes:
+      - ./vectorstore:/app/vectorstore
+  
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      # - ollama-models:/root/.ollama
+      - ./entrypoint.sh:/entrypoint.sh
+    entrypoint: ["/entrypoint.sh"]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "test", "-f", "models_ready"]
+      interval: 10s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  ollama-models:
