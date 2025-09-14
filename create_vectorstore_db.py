@@ -1,15 +1,14 @@
-from dotenv import load_dotenv
 import os
 from pathlib import Path
 
-from util import create_vectorstore
+from dataset_creation.vectorstore_utils import create_vectorstore
 
-
-# load parameters
-load_dotenv(override=True)
+# Requires env vars
+# DATASET_PATH
+# VECTORSTORE_DIR
 
 create_vectorstore(
-    dataset_path=Path(os.environ["DATA_DIR"]) / os.environ["DATASET_FILE"],
+    dataset_path=Path(os.environ["DATASET_PATH"]),
     persist_directory=os.environ["VECTORSTORE_DIR"],
     primary_column="abstract",
     batch_size=64,

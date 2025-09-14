@@ -1,7 +1,7 @@
 services:
   web:
     build: 
-      context: ./ui
+      context: .
       dockerfile: Dockerfile
     ports:
       - "80:80"
@@ -23,7 +23,7 @@ services:
     ports:
       - "11434:11434"
     volumes:
-      # - ollama-models:/root/.ollama
+      - ollama-models:/root/.ollama
       - ./entrypoint.sh:/entrypoint.sh
     entrypoint: ["/entrypoint.sh"]
     deploy:

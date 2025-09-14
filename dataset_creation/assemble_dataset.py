@@ -7,13 +7,16 @@ import json
 # load parameters
 load_dotenv(override=True)
 
+# PAPER_DIR
+# DATASET_PATH
+
 # Initialize dataframe
 condensed_df = pd.DataFrame()
 
 # Fill dataframe
 # Get each category
-for category in [ f.name for f in os.scandir(os.environ.get("DOWNLOAD_DIR")) if f.is_dir()]:
-    category_path = Path(os.environ.get("DOWNLOAD_DIR")) / category
+for category in [ f.name for f in os.scandir(os.environ.get("PAPER_DIR")) if f.is_dir()]:
+    category_path = Path(os.environ.get("PAPER_DIR")) / category
     # Get each File in category
     for file_name in os.listdir(category_path)[:10]:
         if file_name.endswith(".json"):
@@ -41,8 +44,8 @@ for category in [ f.name for f in os.scandir(os.environ.get("DOWNLOAD_DIR")) if 
                 condensed_df = pd.concat([condensed_df, current_df], axis=0)
 
 # Save to file
-os.makedirs(Path(os.environ.get("DATASET_DIR")), exist_ok=True)
-dataset_path = Path(os.environ.get("DATASET_DIR")) / "dataset.csv"
+os.makedirs(Path(os.environ.get("DATASET_PATH")).parent, exist_ok=True)
+dataset_path = Path(os.environ.get("DATASET_PATH"))
 condensed_df.to_csv(dataset_path, index=False)
 print(f"Dataset created at {dataset_path}")
 print(f"Num Rows: {condensed_df.shape[0]}\nNum Cols: {condensed_df.shape[1]}")

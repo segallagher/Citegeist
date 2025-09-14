@@ -4,8 +4,8 @@ from langchain_core.documents import Document
 import os
 from dotenv import load_dotenv
 
-from util.models import embedding_model, llm_model
-from util.prompts import Prompts
+from rag.models import embedding_model, llm_model
+from rag.prompts import Prompts
 
 from flask import Flask, render_template, request, jsonify
 from markdown import markdown
