@@ -8,6 +8,7 @@ from app.rag.pipeline import retrieve_context
 from app.rag.models import llm_model
 from app.rag.prompts import Prompts
 
+
 def evaluate_retrieval(question_ground_truth_pairs:list[dict], vectorstore:Chroma, n_docs:int=5):
     hits = 0
     for pair in question_ground_truth_pairs:
@@ -23,10 +24,10 @@ def evaluate_retrieval(question_ground_truth_pairs:list[dict], vectorstore:Chrom
     recall_at_k = hits / len(question_ground_truth_pairs)
     return recall_at_k
 
+
 def evaluate_retrieval_llm(questions: list[str],
                            vectorstore:Chroma,
                            n_docs:int=5,
-                           save_dir:str=None
                         ) -> pd.DataFrame:
     # Setup dataframe
     schema = {
@@ -73,23 +74,20 @@ def evaluate_retrieval_llm(questions: list[str],
             ignore_index=True
         )
     
-    # Save if save_dir provided
-    if save_dir:
-        score_df.to_csv(save_dir, index=False)
-    
     # https://www.evidentlyai.com/llm-guide/rag-evaluation
     return score_df
+
 
 def evaluate_response_llm(questions: list[str],
                           vectorstore:Chroma=None,
                           n_docs:int=5,
-                          save_dir:str=None
                         ) -> pd.DataFrame:
     # Setup dataframe
     schema = {
         'question': str,
         'response': str,
-        'answers_question': str,
+        'response_answers_question': str,
+        'reason': str,
     }
     response_df: pd.DataFrame = pd.DataFrame(columns=schema).astype(schema)
 
@@ -109,23 +107,16 @@ def evaluate_response_llm(questions: list[str],
 
         # Grade responses
         chain = Prompts.DOES_RESPONSE_ANSWER_QUESTION | llm_model()
-        answers_question = chain.invoke({"response": response, "question": question})
-        # Lowercase and remove punctuation
-        normalized_answers_question:str = ''.join([char for char in answers_question.content.lower() if char not in string.punctuation])
-        # convert to integer and Append to relevance_scores
-        if normalized_answers_question == "yes":
-            good_answer = 1
-        elif normalized_answers_question == "no":
-            good_answer = 0
-        else:
-            print(f"Invalid llm output: {normalized_answers_question}")
-            # raise Exception(f"Invalid llm output: {normalized_answers_question}")
-        
+        judge_response = chain.invoke({"response": response, "question": question})
+
+        does_response_answer_question, reason = [part.strip() for part in judge_response.content.split('|', 1)]
+
         response_df = pd.concat([
                     pd.DataFrame([[
                             question,
                             response.content,
-                            good_answer,
+                            does_response_answer_question,
+                            reason,
                         ]],
                         columns=response_df.columns
                     ),
@@ -135,21 +126,19 @@ def evaluate_response_llm(questions: list[str],
         )
         pbar.update(1)
 
-    # Save if save_dir provided
-    if save_dir:
-        response_df.to_csv(save_dir, index=False)
-
     return response_df
+
 
 def comparitive_llm_judge(questions: list[str],
                           vectorstore:Chroma=None,
                           n_docs:int=5,
                          ) -> pd.DataFrame:
+    # Initialize values
     schema = {
         'question': str,
         'response_no_context': str,
         'response_with_context': str,
-        'prefered_answer': str,
+        'preferred_answer': str,
         'reason': str,
     }
     judge_df: pd.DataFrame = pd.DataFrame(columns=schema).astype(schema)
@@ -158,6 +147,7 @@ def comparitive_llm_judge(questions: list[str],
     time_with_context = timedelta()
     time_judge = timedelta()
 
+    # Ask the same question twice and see which answer is preferred
     pbar = tqdm(total=len(questions), desc="Rating Context")
     for question in questions:
         # Get Response with retrieval
@@ -184,7 +174,7 @@ def comparitive_llm_judge(questions: list[str],
         end_time = datetime.now()
         time_judge += end_time - start_time
 
-        prefered_answer, reason = [part.strip() for part in judge_response.content.split('|', 1)]
+        preferred_answer, reason = [part.strip() for part in judge_response.content.split('|', 1)]
 
         # update judge_df
         judge_df = pd.concat([
@@ -192,7 +182,7 @@ def comparitive_llm_judge(questions: list[str],
                             question,
                             response_no_context.content,
                             response_with_context.content,
-                            "no_context" if '1' in prefered_answer.lower() else "context",
+                            "no_context" if '1' in preferred_answer.lower() else "context" if '2' in preferred_answer.lower() else "unknown",
                             reason,
                         ]],
                         columns=judge_df.columns
@@ -202,6 +192,9 @@ def comparitive_llm_judge(questions: list[str],
             ignore_index=True
         )
         pbar.update(1)
+
+    print(f"Total LLM Time: {time_no_context + time_with_context + time_judge}")
+    print(f"Time No Context: {time_no_context}")
+    print(f"Time With Context: {time_with_context}")
+    print(f"Time Judging: {time_judge}")
     return judge_df
-
-

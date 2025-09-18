@@ -52,11 +52,15 @@ class Prompts():
 
     DOES_RESPONSE_ANSWER_QUESTION = ChatPromptTemplate.from_template(
         """
-        Determine if the following RESPONSE answers the QUESTION sufficiently.
-        A response that answers the question will answer each part of the question fully.
-        Your answer will start with Yes or No followed by the symbol |
-        After the | symbol you will provide your reasoning for your Yes or No answer
-        Always start your response with either "Yes |" or "No |" followed by your reasoning
+        Determine if the following RESPONSE answers the QUESTION sufficiently **from a research-informed perspective**.
+
+        A sufficient response will:
+        - Address all parts of the question clearly and directly
+        - Demonstrate understanding of the academic context or literature
+        - Provide supporting evidence, comparisons, or examples when appropriate
+
+        Your answer must begin with either "Yes |" or "No |" followed by your reasoning.
+
         QUESTION: {question}
 
         RESPONSE: {response}

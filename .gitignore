@@ -5,3 +5,5 @@ chroma_store
 vectorstore
 .env
 arxiv_papers
+outputs
+*.zip
