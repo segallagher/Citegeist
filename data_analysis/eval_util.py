@@ -192,7 +192,7 @@ def comparitive_llm_judge(questions: list[str],
                             question,
                             response_no_context.content,
                             response_with_context.content,
-                            "no_context" if prefered_answer.lower().contains('1') else "context",
+                            "no_context" if '1' in prefered_answer.lower() else "context",
                             reason,
                         ]],
                         columns=judge_df.columns
