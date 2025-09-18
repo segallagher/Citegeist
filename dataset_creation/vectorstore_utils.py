@@ -2,6 +2,7 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 import pandas as pd
 from tqdm import tqdm
+import unicodedata
 
 from app.rag.models import embedding_model
 
@@ -36,6 +37,12 @@ def df_to_documents(df: pd.DataFrame, text_column:str, metadata_columns: list[st
     ]
     return docs
 
+def convert_to_ascii(text:str):
+    if isinstance(text, str):
+        normalized = unicodedata.normalize('NFKD', text)
+        return normalized.encode('ASCII', 'ignore').decode('ASCII')
+    return text
+
 def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:str="abstract", batch_size:int=100) -> None:
     """
     Creates a persistant Croma vector store from a dataset.
@@ -54,13 +61,13 @@ def create_vectorstore(dataset_path:str, persist_directory:str, primary_column:s
     """
 
     # load dataset into documents
-    dataset = pd.read_csv(dataset_path)
+    dataset: pd.DataFrame = pd.read_csv(dataset_path)
 
     print(f"Dataset at {dataset_path} loaded")
     print(f"Datset shape: {dataset.shape}")
 
-    # Simplify characters
-    ## convert stuff like é to e
+    # Simplify characters to ascii values
+    dataset = dataset.map(convert_to_ascii)
 
     # Convert dataset to documents
     documents = df_to_documents(dataset, text_column=primary_column)

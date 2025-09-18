@@ -32,7 +32,7 @@ def embedding_model() -> Embeddings:
     else:
         raise ValueError(f"Unsupported embedding model type: {model_type}")
 
-def llm_model(temperature: int=None) -> BaseChatModel:
+def llm_model(temperature: int=None, model:str=None) -> BaseChatModel:
     """
     Returns a chat model fron environment configuration.
 
@@ -49,7 +49,7 @@ def llm_model(temperature: int=None) -> BaseChatModel:
 
     if model_type == "ollama":
         from langchain_ollama import ChatOllama
-        return ChatOllama(model=os.environ["LLM_MODEL"], temperature=temperature)
+        return ChatOllama(model=model if model else os.environ["LLM_MODEL"], temperature=temperature)
     
     elif model_type == "openai":
         from langchain_openai import ChatOpenAI

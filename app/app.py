@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 from rag.models import embedding_model, llm_model
 from rag.prompts import Prompts
+from rag.pipeline import retrieve_context
 
 from flask import Flask, render_template, request, jsonify
 from markdown import markdown
@@ -77,8 +78,7 @@ def ask_llm(message:str) -> None:
     Side Effects:
         Adds machine response to global `chat_log`
     """
-    retriever: VectorStoreRetriever = vectorstore.as_retriever(search_kwargs={"k": 5})
-    docs = retriever.invoke(message)
+    docs = retrieve_context(message, vectorstore, n_docs=5)
     
     chain = Prompts.CITES_SOURCES | llm_model()
     response = chain.invoke({"context": docs, "question": message})

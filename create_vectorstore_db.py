@@ -3,6 +3,10 @@ from pathlib import Path
 
 from dataset_creation.vectorstore_utils import create_vectorstore
 
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
+
 # Requires env vars
 # DATASET_PATH
 # VECTORSTORE_DIR

@@ -7,12 +7,12 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Add ui files
-COPY ui.static static
-COPY ui.templates templates
-COPY ui.app.py app.py
+COPY app/static static
+COPY app/templates templates
+COPY app/app.py app.py
 
 # Add rag files
-COPY rag rag
+COPY app/rag rag
 
 # Add dataset creation files
 COPY dataset_creation dataset_creation

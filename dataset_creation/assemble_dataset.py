@@ -16,9 +16,10 @@ condensed_df = pd.DataFrame()
 # Fill dataframe
 # Get each category
 for category in [ f.name for f in os.scandir(os.environ.get("PAPER_DIR")) if f.is_dir()]:
+    print(f"Getting papers from {category} category")
     category_path = Path(os.environ.get("PAPER_DIR")) / category
     # Get each File in category
-    for file_name in os.listdir(category_path)[:10]:
+    for file_name in os.listdir(category_path):
         if file_name.endswith(".json"):
             file_path = Path(category_path) / file_name
 
@@ -37,7 +38,7 @@ for category in [ f.name for f in os.scandir(os.environ.get("PAPER_DIR")) if f.i
                             "abstract":row["abstract"].strip(),
                             "category":category, 
                         }
-                        for row in data
+                        for row in clean_data
                     ]
 
                 current_df = pd.DataFrame(clean_data)
