@@ -1,0 +1,290 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0501078",
+        "title": "Multi-document Biography Summarization",
+        "authors": [
+            "Liang Zhou",
+            "Miruna Ticrea",
+            "Eduard Hovy"
+        ],
+        "abstract": "  In this paper we describe a biography summarization system using sentence classification and ideas from information retrieval. Although the individual techniques are not new, assembling and applying them to generate multi-document biographies is new. Our system was evaluated in DUC2004. It is among the top performers in task 5-short summaries focused by person questions.\n    ",
+        "submission_date": "2005-01-26T00:00:00",
+        "last_modified_date": "2005-01-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503033",
+        "title": "An Introduction to the Summarization of Evolving Events: Linear and Non-linear Evolution",
+        "authors": [
+            "Stergos D. Afantenos",
+            "Konstantina Liontou",
+            "Maria Salapata",
+            "Vangelis Karkaletsis"
+        ],
+        "abstract": "  This paper examines the summarization of events that evolve through time. It discusses different types of evolution taking into account the time in which the incidents of an event are happening and the different sources reporting on the specific event. It proposes an approach for multi-document summarization which employs ``messages'' for representing the incidents of an event and cross-document relations that hold between messages according to certain conditions. The paper also outlines the current version of the summarization system we are implementing to realize this approach.\n    ",
+        "submission_date": "2005-03-15T00:00:00",
+        "last_modified_date": "2005-03-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503077",
+        "title": "Weighted Automata in Text and Speech Processing",
+        "authors": [
+            "Mehryar Mohri",
+            "Fernando Pereira",
+            "Michael Riley"
+        ],
+        "abstract": "  Finite-state automata are a very effective tool in natural language processing. However, in a variety of applications and especially in speech precessing, it is necessary to consider more general machines in which arcs are assigned weights or costs. We briefly describe some of the main theoretical and algorithmic aspects of these machines. In particular, we describe an efficient composition algorithm for weighted transducers, and give examples illustrating the value of determinization and minimization algorithms for weighted automata.\n    ",
+        "submission_date": "2005-03-29T00:00:00",
+        "last_modified_date": "2005-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504022",
+        "title": "A Matter of Opinion: Sentiment Analysis and Business Intelligence (position paper)",
+        "authors": [
+            "Lillian Lee"
+        ],
+        "abstract": "  A general-audience introduction to the area of \"sentiment analysis\", the computational treatment of subjective, opinion-oriented language (an example application is determining whether a review is \"thumbs up\" or \"thumbs down\"). Some challenges, applications to business-intelligence tasks, and potential future directions are described.\n    ",
+        "submission_date": "2005-04-06T00:00:00",
+        "last_modified_date": "2005-04-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504061",
+        "title": "Summarization from Medical Documents: A Survey",
+        "authors": [
+            "Stergos D. Afantenos",
+            "Vangelis Karkaletsis",
+            "Panagiotis Stamatopoulos"
+        ],
+        "abstract": "  Objective:\n",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504074",
+        "title": "Metalinguistic Information Extraction for Terminology",
+        "authors": [
+            "Carlos Rodriguez"
+        ],
+        "abstract": "  This paper describes and evaluates the Metalinguistic Operation Processor (MOP) system for automatic compilation of metalinguistic information from technical and scientific documents. This system is designed to extract non-standard terminological resources that we have called Metalinguistic Information Databases (or MIDs), in order to help update changing glossaries, knowledge bases and ontologies, as well as to reflect the metastable dynamics of special-domain knowledge.\n    ",
+        "submission_date": "2005-04-15T00:00:00",
+        "last_modified_date": "2005-04-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506075",
+        "title": "Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales",
+        "authors": [
+            "Bo Pang",
+            "Lillian Lee"
+        ],
+        "abstract": "  We address the rating-inference problem, wherein rather than simply decide whether a review is \"thumbs up\" or \"thumbs down\", as in previous sentiment analysis work, one must determine an author's evaluation with respect to a multi-point scale (e.g., one to five \"stars\"). This task represents an interesting twist on standard multi-class text categorization because there are several different degrees of similarity between class labels; for example, \"three stars\" is intuitively closer to \"four stars\" than to \"one star\". We first evaluate human performance at the task. Then, we apply a meta-algorithm, based on a metric labeling formulation of the problem, that alters a given n-ary classifier's output in an explicit attempt to ensure that similar items receive similar labels. We show that the meta-algorithm can provide significant improvements over both multi-class and regression versions of SVMs when we employ a novel similarity measure appropriate to the problem.\n    ",
+        "submission_date": "2005-06-17T00:00:00",
+        "last_modified_date": "2005-06-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507022",
+        "title": "On Hilberg's Law and Its Links with Guiraud's Law",
+        "authors": [
+            "\u0141ukasz D\u0229bowski"
+        ],
+        "abstract": "  Hilberg (1990) supposed that finite-order excess entropy of a random human text is proportional to the square root of the text length. Assuming that Hilberg's hypothesis is true, we derive Guiraud's law, which states that the number of word types in a text is greater than proportional to the square root of the text length. Our derivation is based on some mathematical conjecture in coding theory and on several experiments suggesting that words can be defined approximately as the nonterminals of the shortest context-free grammar for the text. Such operational definition of words can be applied even to texts deprived of spaces, which do not allow for Mandelbrot's ``intermittent silence'' explanation of Zipf's and Guiraud's laws. In contrast to Mandelbrot's, our model assumes some probabilistic long-memory effects in human narration and might be capable of explaining Menzerath's law.\n    ",
+        "submission_date": "2005-07-07T00:00:00",
+        "last_modified_date": "2005-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508092",
+        "title": "Summarizing Reports on Evolving Events; Part I: Linear Evolution",
+        "authors": [
+            "Stergos D. Afantenos",
+            "Vangelis Karkaletsis",
+            "Panagiotis Stamatopoulos"
+        ],
+        "abstract": "  We present an approach for summarization from multiple documents which report on events that evolve through time, taking into account the different document sources. We distinguish the evolution of an event into linear and non-linear. According to our approach, each document is represented by a collection of messages which are then used in order to instantiate the cross-document relations that determine the summary content. The paper presents the summarization system that implements this approach through a case study on linear evolution.\n    ",
+        "submission_date": "2005-08-22T00:00:00",
+        "last_modified_date": "2005-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509092",
+        "title": "Automatic extraction of paraphrastic phrases from medium size corpora",
+        "authors": [
+            "Thierry Poibeau"
+        ],
+        "abstract": "  This paper presents a versatile system intended to acquire paraphrastic phrases from a representative corpus. In order to decrease the time spent on the elaboration of resources for NLP system (for example Information Extraction, IE hereafter), we suggest to use a machine learning system that helps defining new templates and associated resources. This knowledge is automatically derived from the text collection, in interaction with a large semantic network.\n    ",
+        "submission_date": "2005-09-28T00:00:00",
+        "last_modified_date": "2005-09-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510015",
+        "title": "Word sense disambiguation criteria: a systematic study",
+        "authors": [
+            "Laurent Audibert"
+        ],
+        "abstract": "  This article describes the results of a systematic in-depth study of the criteria used for word sense disambiguation. Our study is based on 60 target words: 20 nouns, 20 adjectives and 20 verbs. Our results are not always in line with some practices in the field. For example, we show that omitting non-content words decreases performance and that bigrams yield better results than unigrams.\n    ",
+        "submission_date": "2005-10-05T00:00:00",
+        "last_modified_date": "2005-10-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511076",
+        "title": "Using phonetic constraints in acoustic-to-articulatory inversion",
+        "authors": [
+            "Blaise Potard",
+            "Yves Laprie"
+        ],
+        "abstract": "  The goal of this work is to recover articulatory information from the speech signal by acoustic-to-articulatory inversion. One of the main difficulties with inversion is that the problem is underdetermined and inversion methods generally offer no guarantee on the phonetical realism of the inverse solutions. A way to adress this issue is to use additional phonetic constraints. Knowledge of the phonetic caracteristics of French vowels enable the derivation of reasonable articulatory domains in the space of Maeda parameters: given the formants frequencies (F1,F2,F3) of a speech sample, and thus the vowel identity, an \"ideal\" articulatory domain can be derived. The space of formants frequencies is partitioned into vowels, using either speaker-specific data or generic information on formants. Then, to each articulatory vector can be associated a phonetic score varying with the distance to the \"ideal domain\" associated with the corresponding vowel. Inversion experiments were conducted on isolated vowels and vowel-to-vowel transitions. Articulatory parameters were compared with those obtained without using these constraints and those measured from X-ray data.\n    ",
+        "submission_date": "2005-11-21T00:00:00",
+        "last_modified_date": "2005-11-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511079",
+        "title": "An elitist approach for extracting automatically well-realized speech sounds with high confidence",
+        "authors": [
+            "Jean-Baptiste Maj",
+            "Anne Bonneau",
+            "Dominique Fohr",
+            "Yves Laprie"
+        ],
+        "abstract": "  This paper presents an \"elitist approach\" for extracting automatically well-realized speech sounds with high confidence. The elitist approach uses a speech recognition system based on Hidden Markov Models (HMM). The HMM are trained on speech sounds which are systematically well-detected in an iterative procedure. The results show that, by using the HMM models defined in the training phase, the speech recognizer detects reliably specific speech sounds with a small rate of errors.\n    ",
+        "submission_date": "2005-11-22T00:00:00",
+        "last_modified_date": "2005-11-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512102",
+        "title": "Statistical Parameters of the Novel \"Perekhresni stezhky\" (\"The Cross-Paths\") by Ivan Franko",
+        "authors": [
+            "Solomija Buk",
+            "Andrij Rovenchak"
+        ],
+        "abstract": "  In the paper, a complex statistical characteristics of a Ukrainian novel is given for the first time. The distribution of word-forms with respect to their size is studied. The linguistic laws by Zipf-Mandelbrot and Altmann-Menzerath are analyzed.\n    ",
+        "submission_date": "2005-12-28T00:00:00",
+        "last_modified_date": "2005-12-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501018",
+        "title": "Combining Independent Modules in Lexical Multiple-Choice Problems",
+        "authors": [
+            "Peter D. Turney",
+            "Michael L. Littman",
+            "Jeffrey Bigham",
+            "Victor Shnayder"
+        ],
+        "abstract": "  Existing statistical approaches to natural language problems are very coarse approximations to the true complexity of language processing. As such, no single technique will be best for all problem instances. Many researchers are examining ensemble methods that combine the output of multiple modules to create more accurate solutions. This paper examines three merging rules for combining probability distributions: the familiar mixture rule, the logarithmic rule, and a novel product rule. These rules were applied with state-of-the-art results to two problems used to assess human mastery of lexical semantics -- synonym questions and analogy questions. All three merging rules result in ensembles that are more accurate than any of their component modules. The differences among the three rules are not statistically significant, but it is suggestive that the popular mixture rule is not the best rule for either of the two problems.\n    ",
+        "submission_date": "2005-01-10T00:00:00",
+        "last_modified_date": "2005-01-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501077",
+        "title": "Ontology-Based Users & Requests Clustering in Customer Service Management System",
+        "authors": [
+            "Alexander Smirnov",
+            "Mikhail Pashkin",
+            "Nikolai Chilov",
+            "Tatiana Levashova",
+            "Andrew Krizhanovsky",
+            "Alexey Kashevnik"
+        ],
+        "abstract": "  Customer Service Management is one of major business activities to better serve company customers through the introduction of reliable processes and procedures. Today this kind of activities is implemented through e-services to directly involve customers into business processes. Traditionally Customer Service Management involves application of data mining techniques to discover usage patterns from the company knowledge memory. Hence grouping of customers/requests to clusters is one of major technique to improve the level of company customization. The goal of this paper is to present an efficient for implementation approach for clustering users and their requests. The approach uses ontology as knowledge representation model to improve the semantic interoperability between units of the company and customers. Some fragments of the approach tested in an industrial company are also presented in the paper.\n    ",
+        "submission_date": "2005-01-26T00:00:00",
+        "last_modified_date": "2005-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502086",
+        "title": "The Self-Organization of Speech Sounds",
+        "authors": [
+            "Pierre-Yves Oudeyer"
+        ],
+        "abstract": "  The speech code is a vehicle of language: it defines a set of forms used by a community to carry information. Such a code is necessary to support the linguistic interactions that allow humans to communicate. How then may a speech code be formed prior to the existence of linguistic interactions? Moreover, the human speech code is discrete and compositional, shared by all the individuals of a community but different across communities, and phoneme inventories are characterized by statistical regularities. How can a speech code with these properties form? We try to approach these questions in the paper, using the \"methodology of the artificial\". We build a society of artificial agents, and detail a mechanism that shows the formation of a discrete speech code without pre-supposing the existence of linguistic capacities or of coordinated interactions. The mechanism is based on a low-level model of sensory-motor interactions. We show that the integration of certain very simple and non language-specific neural devices leads to the formation of a speech code that has properties similar to the human speech code. This result relies on the self-organizing properties of a generic coupling between perception and production within agents, and on the interactions between agents. The artificial system helps us to develop better intuitions on how speech might have appeared, by showing how self-organization might have helped natural selection to find speech.\n    ",
+        "submission_date": "2005-02-22T00:00:00",
+        "last_modified_date": "2005-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503024",
+        "title": "Fine-Grained Word Sense Disambiguation Based on Parallel Corpora, Word Alignment, Word Clustering and Aligned Wordnets",
+        "authors": [
+            "Dan Tufis",
+            "Radu Ion",
+            "Nancy Ide"
+        ],
+        "abstract": "  The paper presents a method for word sense disambiguation based on parallel corpora. The method exploits recent advances in word alignment and word clustering based on automatic extraction of translation equivalents and being supported by available aligned wordnets for the languages in the corpus. The wordnets are aligned to the Princeton Wordnet, according to the principles established by EuroWordNet. The evaluation of the WSD system, implementing the method described herein showed very encouraging results. The same system used in a validation mode, can be used to check and spot alignment errors in multilingually aligned wordnets as BalkaNet and EuroWordNet.\n    ",
+        "submission_date": "2005-03-10T00:00:00",
+        "last_modified_date": "2005-03-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503030",
+        "title": "A Suffix Tree Approach to Email Filtering",
+        "authors": [
+            "Rajesh M. Pampapathi",
+            "Boris Mirkin",
+            "Mark Levene"
+        ],
+        "abstract": "  We present an approach to email filtering based on the suffix tree data structure. A method for the scoring of emails using the suffix tree is developed and a number of scoring and score normalisation functions are tested. Our results show that the character level representation of emails and classes facilitated by the suffix tree can significantly improve classification accuracy when compared with the currently popular methods, such as naive Bayes. We believe the method can be extended to the classification of documents in other domains.\n    ",
+        "submission_date": "2005-03-14T00:00:00",
+        "last_modified_date": "2005-12-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504089",
+        "title": "Universal Similarity",
+        "authors": [
+            "Paul Vitanyi"
+        ],
+        "abstract": "  We survey a new area of parameter-free similarity distance measures useful in data-mining, pattern recognition, learning and automatic semantics extraction. Given a family of distances on a set of objects, a distance is universal up to a certain precision for that family if it minorizes every distance in the family between every two objects in the set, up to the stated precision (we do not require the universal distance to be an element of the family). We consider similarity distances for two types of objects: literal objects that as such contain all of their meaning, like genomes or books, and names for objects. The latter may have literal embodyments like the first type, but may also be abstract like ``red'' or ``christianity.'' For the first type we consider a family of computable distance measures corresponding to parameters expressing similarity according to particular features between pairs of literal objects. For the second type we consider similarity distances generated by web users corresponding to particular semantic relations between the (names for) the designated objects. For both families we give universal similarity distance measures, incorporating all particular distance measures in the family. In the first case the universal distance is based on compression and in the second case it is based on Google page counts related to search terms. In both cases experiments on a massive scale give evidence of the viability of the approaches.\n    ",
+        "submission_date": "2005-04-20T00:00:00",
+        "last_modified_date": "2005-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506101",
+        "title": "Efficient Multiclass Implementations of L1-Regularized Maximum Entropy",
+        "authors": [
+            "Patrick Haffner",
+            "Steven Phillips",
+            "Rob Schapire"
+        ],
+        "abstract": "  This paper discusses the application of L1-regularized maximum entropy modeling or SL1-Max [9] to multiclass categorization problems. A new modification to the SL1-Max fast sequential learning algorithm is proposed to handle conditional distributions. Furthermore, unlike most previous studies, the present research goes beyond a single type of conditional distribution. It describes and compares a variety of modeling assumptions about the class distribution (independent or exclusive) and various types of joint or conditional distributions. It results in a new methodology for combining binary regularized classifiers to achieve multiclass categorization. In this context, Maximum Entropy can be considered as a generic and efficient regularized classification tool that matches or outperforms the state-of-the art represented by AdaBoost and SVMs.\n    ",
+        "submission_date": "2005-06-29T00:00:00",
+        "last_modified_date": "2005-06-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507056",
+        "title": "Explorations in engagement for humans and robots",
+        "authors": [
+            "Candace L. Sidner",
+            "Christopher Lee",
+            "Cory Kidd",
+            "Neal Lesh",
+            "Charles Rich"
+        ],
+        "abstract": "  This paper explores the concept of engagement, the process by which individuals in an interaction start, maintain and end their perceived connection to one another. The paper reports on one aspect of engagement among human interactors--the effect of tracking faces during an interaction. It also describes the architecture of a robot that can participate in conversational, collaborative interactions with engagement gestures. Finally, the paper reports on findings of experiments with human participants who interacted with a robot when it either performed or did not perform engagement gestures. Results of the human-robot studies indicate that people become engaged with robots: they direct their attention to the robot more often in interactions where engagement gestures are present, and they find interactions more appropriate when engagement gestures are present than when they are not.\n    ",
+        "submission_date": "2005-07-21T00:00:00",
+        "last_modified_date": "2005-07-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508053",
+        "title": "Measuring Semantic Similarity by Latent Relational Analysis",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  This paper introduces Latent Relational Analysis (LRA), a method for measuring semantic similarity. LRA measures similarity in the semantic relations between two pairs of words. When two pairs have a high degree of relational similarity, they are analogous. For example, the pair cat:meow is analogous to the pair dog:bark. There is evidence from cognitive science that relational similarity is fundamental to many cognitive and linguistic tasks (e.g., analogical reasoning). In the Vector Space Model (VSM) approach to measuring relational similarity, the similarity between two pairs is calculated by the cosine of the angle between the vectors that represent the two pairs. The elements in the vectors are based on the frequencies of manually constructed patterns in a large corpus. LRA extends the VSM approach in three ways: (1) patterns are derived automatically from the corpus, (2) Singular Value Decomposition is used to smooth the frequency data, and (3) synonyms are used to reformulate word pairs. This paper describes the LRA algorithm and experimentally compares LRA to VSM on two tasks, answering college-level multiple-choice word analogy questions and classifying semantic relations in noun-modifier expressions. LRA achieves state-of-the-art results, reaching human-level performance on the analogy questions and significantly exceeding VSM performance on both tasks.\n    ",
+        "submission_date": "2005-08-10T00:00:00",
+        "last_modified_date": "2005-08-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508103",
+        "title": "Corpus-based Learning of Analogies and Semantic Relations",
+        "authors": [
+            "Peter D. Turney",
+            "Michael L. Littman"
+        ],
+        "abstract": "  We present an algorithm for learning from unlabeled text, based on the Vector Space Model (VSM) of information retrieval, that can solve verbal analogy questions of the kind found in the SAT college entrance exam. A verbal analogy has the form A:B::C:D, meaning \"A is to B as C is to D\"; for example, mason:stone::carpenter:wood. SAT analogy questions provide a word pair, A:B, and the problem is to select the most analogous word pair, C:D, from a set of five choices. The VSM algorithm correctly answers 47% of a collection of 374 college-level analogy questions (random guessing would yield 20% correct; the average college-bound senior high school student answers about 57% correctly). We motivate this research by applying it to a difficult problem in natural language processing, determining semantic relations in noun-modifier pairs. The problem is to classify a noun-modifier pair, such as \"laser printer\", according to the semantic relation between the noun (printer) and the modifier (laser). We use a supervised nearest-neighbour algorithm that assigns a class to a given noun-modifier pair by finding the most analogous noun-modifier pair in the training data. With 30 classes of semantic relations, on a collection of 600 labeled noun-modifier pairs, the learning algorithm attains an F value of 26.5% (random guessing: 3.3%). With 5 classes of semantic relations, the F value is 43.2% (random: 20%). The performance is state-of-the-art for both verbal analogies and noun-modifier relations.\n    ",
+        "submission_date": "2005-08-23T00:00:00",
+        "last_modified_date": "2005-08-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510054",
+        "title": "The Nature of Novelty Detection",
+        "authors": [
+            "Le Zhao",
+            "Min Zhang",
+            "Shaoping Ma"
+        ],
+        "abstract": "  Sentence level novelty detection aims at reducing redundant sentences from a sentence list. In the task, sentences appearing later in the list with no new meanings are eliminated. Aiming at a better accuracy for detecting redundancy, this paper reveals the nature of the novelty detection task currently overlooked by the Novelty community $-$ Novelty as a combination of the partial overlap (PO, two sentences sharing common facts) and complete overlap (CO, the first sentence covers all the facts of the second sentence) relations. By formalizing novelty detection as a combination of the two relations between sentences, new viewpoints toward techniques dealing with Novelty are proposed. Among the methods discussed, the similarity, overlap, pool and language modeling approaches are commonly used. Furthermore, a novel approach, selected pool method is provided, which is immediate following the nature of the task. Experimental results obtained on all the three currently available novelty datasets showed that selected pool is significantly better or no worse than the current methods. Knowledge about the nature of the task also affects the evaluation methodologies. We propose new evaluation measures for Novelty according to the nature of the task, as well as possible directions for future study.\n    ",
+        "submission_date": "2005-10-19T00:00:00",
+        "last_modified_date": "2005-10-19T00:00:00"
+    }
+]

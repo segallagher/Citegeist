@@ -1,0 +1,1441 @@
+[
+    {
+        "url": "https://arxiv.org/abs/1101.0309",
+        "title": "Concrete Sentence Spaces for Compositional Distributional Models of Meaning",
+        "authors": [
+            "Edward Grefenstette",
+            "Mehrnoosh Sadrzadeh",
+            "Stephen Clark",
+            "Bob Coecke",
+            "Stephen Pulman"
+        ],
+        "abstract": "Coecke, Sadrzadeh, and Clark (",
+        "submission_date": "2010-12-31T00:00:00",
+        "last_modified_date": "2010-12-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.4479",
+        "title": "A Context-theoretic Framework for Compositionality in Distributional Semantics",
+        "authors": [
+            "Daoud Clarke"
+        ],
+        "abstract": "Techniques in which words are represented as vectors have proved useful in many applications in computational linguistics, however there is currently no general semantic formalism for representing meaning in terms of vectors. We present a framework for natural language semantics in which words, phrases and sentences are all represented as vectors, based on a theoretical analysis which assumes that meaning is determined by context.\n",
+        "submission_date": "2011-01-24T00:00:00",
+        "last_modified_date": "2011-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.5076",
+        "title": "Geometric representations for minimalist grammars",
+        "authors": [
+            "Peter beim Graben",
+            "Sabrina Gerth"
+        ],
+        "abstract": "We reformulate minimalist grammars as partial functions on term algebras for strings and trees. Using filler/role bindings and tensor product representations, we construct homomorphisms for these data structures into geometric vector spaces. We prove that the structure-building functions as well as simple processors for minimalist languages can be realized by piecewise linear operators in representation space. We also propose harmony, i.e. the distance of an intermediate processing step from the final well-formed state in representation space, as a measure of processing complexity. Finally, we illustrate our findings by means of two particular arithmetic and fractal representations.\n    ",
+        "submission_date": "2011-01-26T00:00:00",
+        "last_modified_date": "2012-06-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.5494",
+        "title": "Developing a New Approach for Arabic Morphological Analysis and Generation",
+        "authors": [
+            "Mourad Gridach",
+            "Noureddine Chenfour"
+        ],
+        "abstract": "Arabic morphological analysis is one of the essential stages in Arabic Natural Language Processing. In this paper we present an approach for Arabic morphological analysis. This approach is based on Arabic morphological automaton (AMAUT). The proposed technique uses a morphological database realized using XMODEL language. Arabic morphology represents a special type of morphological systems because it is based on the concept of scheme to represent Arabic words. We use this concept to develop the Arabic morphological automata. The proposed approach has development standardization aspect. It can be exploited by NLP applications such as syntactic and semantic analysis, information retrieval, machine translation and orthographical correction. The proposed approach is compared with Xerox Arabic Analyzer and Smrz Arabic Analyzer.\n    ",
+        "submission_date": "2011-01-28T00:00:00",
+        "last_modified_date": "2011-01-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.5757",
+        "title": "Polarized Montagovian Semantics for the Lambek-Grishin calculus",
+        "authors": [
+            "Arno Bastenhof"
+        ],
+        "abstract": "Grishin proposed enriching the Lambek calculus with multiplicative disjunction (par) and coresiduals. Applications to linguistics were discussed by Moortgat, who spoke of the Lambek-Grishin calculus (LG). In this paper, we adapt Girard's polarity-sensitive double negation embedding for classical logic to extract a compositional Montagovian semantics from a display calculus for focused proof search in LG. We seize the opportunity to illustrate our approach alongside an analysis of extraction, providing linguistic motivation for linear distributivity of tensor over par, thus answering a question of Kurtonina&Moortgat. We conclude by comparing our proposal to the continuation semantics of Bernardi&Moortgat, corresponding to call-by- name and call-by-value evaluation strategies.\n    ",
+        "submission_date": "2011-01-30T00:00:00",
+        "last_modified_date": "2011-01-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1102.2180",
+        "title": "Malagasy Dialects and the Peopling of Madagascar",
+        "authors": [
+            "M. Serva",
+            "F. Petroni",
+            "D. Volchenkov",
+            "S. Wichmann"
+        ],
+        "abstract": "The origin of Malagasy DNA is half African and half Indonesian, nevertheless the Malagasy language, spoken by the entire population, belongs to the Austronesian family. The language most closely related to Malagasy is Maanyan (Greater Barito East group of the Austronesian family), but related languages are also in Sulawesi, Malaysia and Sumatra. For this reason, and because Maanyan is spoken by a population which lives along the Barito river in Kalimantan and which does not possess the necessary skill for long maritime navigation, the ethnic composition of the Indonesian colonizers is still unclear.\n",
+        "submission_date": "2011-02-10T00:00:00",
+        "last_modified_date": "2011-02-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1102.2831",
+        "title": "The effect of linguistic constraints on the large scale organization of language",
+        "authors": [
+            "Madhav Krishna",
+            "Ahmed Hassan",
+            "Yang Liu",
+            "Dragomir Radev"
+        ],
+        "abstract": "This paper studies the effect of linguistic constraints on the large scale organization of language. It describes the properties of linguistic networks built using texts of written language with the words randomized. These properties are compared to those obtained for a network built over the text in natural order. It is observed that the \"random\" networks too exhibit small-world and scale-free characteristics. They also show a high degree of clustering. This is indeed a surprising result - one that has not been addressed adequately in the literature. We hypothesize that many of the network statistics reported here studied are in fact functions of the distribution of the underlying data from which the network is built and may not be indicative of the nature of the concerned network.\n    ",
+        "submission_date": "2011-02-14T00:00:00",
+        "last_modified_date": "2011-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1102.5185",
+        "title": "Universal Higher Order Grammar",
+        "authors": [
+            "Victor Gluzberg"
+        ],
+        "abstract": "We examine the class of languages that can be defined entirely in terms of provability in an extension of the sorted type theory (Ty_n) by embedding the logic of phonologies, without introduction of special types for syntactic entities. This class is proven to precisely coincide with the class of logically closed languages that may be thought of as functions from expressions to sets of logically equivalent Ty_n terms. For a specific sub-class of logically closed languages that are described by finite sets of rules or rule schemata, we find effective procedures for building a compact Ty_n representation, involving a finite number of axioms or axiom schemata. The proposed formalism is characterized by some useful features unavailable in a two-component architecture of a language model. A further specialization and extension of the formalism with a context type enable effective account of intensional and dynamic semantics.\n    ",
+        "submission_date": "2011-02-25T00:00:00",
+        "last_modified_date": "2011-02-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.1898",
+        "title": "Recognizing Uncertainty in Speech",
+        "authors": [
+            "Heather Pon-Barry",
+            "Stuart M. Shieber"
+        ],
+        "abstract": "We address the problem of inferring a speaker's level of certainty based on prosodic information in the speech signal, which has application in speech-based dialogue systems. We show that using phrase-level prosodic features centered around the phrases causing uncertainty, in addition to utterance-level prosodic features, improves our model's level of certainty classification. In addition, our models can be used to predict which phrase a person is uncertain about. These results rely on a novel method for eliciting utterances of varying levels of certainty that allows us to compare the utility of contextually-based feature sets. We elicit level of certainty ratings from both the speakers themselves and a panel of listeners, finding that there is often a mismatch between speakers' internal states and their perceived states, and highlighting the importance of this distinction.\n    ",
+        "submission_date": "2011-03-09T00:00:00",
+        "last_modified_date": "2011-03-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.2325",
+        "title": "Self reference in word definitions",
+        "authors": [
+            "David Levary",
+            "Jean-Pierre Eckmann",
+            "Elisha Moses",
+            "Tsvi Tlusty"
+        ],
+        "abstract": "Dictionaries are inherently circular in nature. A given word is linked to a set of alternative words (the definition) which in turn point to further descendants. Iterating through definitions in this way, one typically finds that definitions loop back upon themselves. The graph formed by such definitional relations is our object of study. By eliminating those links which are not in loops, we arrive at a core subgraph of highly connected nodes.\n",
+        "submission_date": "2011-03-11T00:00:00",
+        "last_modified_date": "2011-03-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.2950",
+        "title": "Fitting Ranked English and Spanish Letter Frequency Distribution in U.S. and Mexican Presidential Speeches",
+        "authors": [
+            "Wentian Li",
+            "Pedro Miramontes"
+        ],
+        "abstract": "The limited range in its abscissa of ranked letter frequency distributions causes multiple functions to fit the observed distribution reasonably well. In order to critically compare various functions, we apply the statistical model selections on ten functions, using the texts of U.S. and Mexican presidential speeches in the last 1-2 centuries. Dispite minor switching of ranking order of certain letters during the temporal evolution for both datasets, the letter usage is generally stable. The best fitting function, judged by either least-square-error or by AIC/BIC model selection, is the Cocho/Beta function. We also use a novel method to discover clusters of letters by their observed-over-expected frequency ratios.\n    ",
+        "submission_date": "2011-03-15T00:00:00",
+        "last_modified_date": "2011-03-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.5676",
+        "title": "Codeco: A Grammar Notation for Controlled Natural Language in Predictive Editors",
+        "authors": [
+            "Tobias Kuhn"
+        ],
+        "abstract": "Existing grammar frameworks do not work out particularly well for controlled natural languages (CNL), especially if they are to be used in predictive editors. I introduce in this paper a new grammar notation, called Codeco, which is designed specifically for CNLs and predictive editors. Two different parsers have been implemented and a large subset of Attempto Controlled English (ACE) has been represented in Codeco. The results show that Codeco is practical, adequate and efficient.\n    ",
+        "submission_date": "2011-03-29T00:00:00",
+        "last_modified_date": "2011-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.2034",
+        "title": "Materials to the Russian-Bulgarian Comparative Dictionary \"EAD\"",
+        "authors": [
+            "Yavor Angelov Parvanov"
+        ],
+        "abstract": "This article presents a fragment of a new comparative dictionary \"A comparative dictionary of names of expansive action in Russian and Bulgarian languages\". Main features of the new web-based comparative dictionary are placed, the principles of its formation are shown, primary links between the word-matches are classified. The principal difference between translation dictionaries and the model of double comparison is also shown. The classification scheme of the pages is proposed. New concepts and keywords have been introduced. The real prototype of the dictionary with a few key pages is published. The broad debate about the possibility of this prototype to become a version of Russian-Bulgarian comparative dictionary of a new generation is available.\n    ",
+        "submission_date": "2011-04-11T00:00:00",
+        "last_modified_date": "2011-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.2086",
+        "title": "A Universal Part-of-Speech Tagset",
+        "authors": [
+            "Slav Petrov",
+            "Dipanjan Das",
+            "Ryan McDonald"
+        ],
+        "abstract": "To facilitate future research in unsupervised induction of syntactic structure and to standardize best-practices, we propose a tagset that consists of twelve universal part-of-speech categories. In addition to the tagset, we develop a mapping from 25 different treebank tagsets to this universal set. As a result, when combined with the original treebank data, this universal tagset and mapping produce a dataset consisting of common parts-of-speech for 22 different languages. We highlight the use of this resource via two experiments, including one that reports competitive accuracies for unsupervised grammar induction without gold standard part-of-speech tags.\n    ",
+        "submission_date": "2011-04-11T00:00:00",
+        "last_modified_date": "2011-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.4321",
+        "title": "Seeking Meaning in a Space Made out of Strokes, Radicals, Characters and Compounds",
+        "authors": [
+            "Yannis Haralambous"
+        ],
+        "abstract": "Chinese characters can be compared to a molecular structure: a character is analogous to a molecule, radicals are like atoms, calligraphic strokes correspond to elementary particles, and when characters form compounds, they are like molecular structures. In chemistry the conjunction of all of these structural levels produces what we perceive as matter. In language, the conjunction of strokes, radicals, characters, and compounds produces meaning. But when does meaning arise? We all know that radicals are, in some sense, the basic semantic components of Chinese script, but what about strokes? Considering the fact that many characters are made by adding individual strokes to (combinations of) radicals, we can legitimately ask the question whether strokes carry meaning, or not. In this talk I will present my project of extending traditional NLP techniques to radicals and strokes, aiming to obtain a deeper understanding of the way ideographic languages model the world.\n    ",
+        "submission_date": "2011-04-21T00:00:00",
+        "last_modified_date": "2011-04-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.4426",
+        "title": "Phylogeny and geometry of languages from normalized Levenshtein distance",
+        "authors": [
+            "Maurizio Serva"
+        ],
+        "abstract": "The idea that the distance among pairs of languages can be evaluated from lexical differences seems to have its roots in the work of the French explorer Dumont D'Urville. He collected comparative words lists of various languages during his voyages aboard the Astrolabe from 1826 to 1829 and, in his work about the geographical division of the Pacific, he proposed a method to measure the degree of relation between languages.\n",
+        "submission_date": "2011-04-22T00:00:00",
+        "last_modified_date": "2011-04-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.4681",
+        "title": "Performance Evaluation of Statistical Approaches for Text Independent Speaker Recognition Using Source Feature",
+        "authors": [
+            "R. Rajeswara Rao",
+            "V. Kamakshi Prasad",
+            "A. Nagesh"
+        ],
+        "abstract": " This paper introduces the performance evaluation of statistical approaches for TextIndependent speaker recognition system using source feature. Linear prediction LP residual is used as a representation of excitation information in speech. The speaker-specific information in the excitation of voiced speech is captured using statistical approaches such as Gaussian Mixture Models GMMs and Hidden Markov Models HMMs. The decrease in the error during training and recognizing speakers during testing phase close to 100 percent accuracy demonstrates that the excitation component of speech contains speaker-specific information and is indeed being effectively captured by continuous Ergodic HMM than GMM. The performance of the speaker recognition system is evaluated on GMM and 2 state ergodic HMM with different mixture components and test speech duration. We demonstrate the speaker recognition studies on TIMIT database for both GMM and Ergodic HMM.\n    ",
+        "submission_date": "2011-04-25T00:00:00",
+        "last_modified_date": "2011-04-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.0673",
+        "title": "Mark My Words! Linguistic Style Accommodation in Social Media",
+        "authors": [
+            "Cristian Danescu-Niculescu-Mizil",
+            "Michael Gamon",
+            "Susan Dumais"
+        ],
+        "abstract": "The psycholinguistic theory of communication accommodation accounts for the general observation that participants in conversations tend to converge to one another's communicative behavior: they coordinate in a variety of dimensions including choice of words, syntax, utterance length, pitch and gestures. In its almost forty years of existence, this theory has been empirically supported exclusively through small-scale or controlled laboratory studies. Here we address this phenomenon in the context of Twitter conversations. Undoubtedly, this setting is unlike any other in which accommodation was observed and, thus, challenging to the theory. Its novelty comes not only from its size, but also from the non real-time nature of conversations, from the 140 character length restriction, from the wide variety of social relation types, and from a design that was initially not geared towards conversation at all. Given such constraints, it is not clear a priori whether accommodation is robust enough to occur given the constraints of this new environment. To investigate this, we develop a probabilistic framework that can model accommodation and measure its effects. We apply it to a large Twitter conversational dataset specifically developed for this task. This is the first time the hypothesis of linguistic style accommodation has been examined (and verified) in a large scale, real world setting. Furthermore, when investigating concepts such as stylistic influence and symmetry of accommodation, we discover a complexity of the phenomenon which was never observed before. We also explore the potential relation between stylistic influence and network features commonly associated with social status.\n    ",
+        "submission_date": "2011-05-03T00:00:00",
+        "last_modified_date": "2011-05-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.1072",
+        "title": "English-Lithuanian-English Machine Translation lexicon and engine: current state and future work",
+        "authors": [
+            "G. Barisevi\u010dius",
+            "B. Tamulynas"
+        ],
+        "abstract": "This article overviews the current state of the English-Lithuanian-English machine translation system. The first part of the article describes the problems that system poses today and what actions will be taken to solve them in the future. The second part of the article tackles the main issue of the translation process. Article briefly overviews the word sense disambiguation for MT technique using Google.\n    ",
+        "submission_date": "2011-05-05T00:00:00",
+        "last_modified_date": "2011-05-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.1226",
+        "title": "Multilingual lexicon design tool and database management system for MT",
+        "authors": [
+            "G. Barisevi\u010dius",
+            "B. Tamulynas"
+        ],
+        "abstract": "The paper presents the design and development of English-Lithuanian-English dictionarylexicon tool and lexicon database management system for MT. The system is oriented to support two main requirements: to be open to the user and to describe much more attributes of speech parts as a regular dictionary that are required for the MT. Programming language Java and database management system MySql is used to implement the designing tool and lexicon database respectively. This solution allows easily deploying this system in the Internet. The system is able to run on various OS such as: Windows, Linux, Mac and other OS where Java Virtual Machine is supported. Since the modern lexicon database managing system is used, it is not a problem accessing the same database for several users.\n    ",
+        "submission_date": "2011-05-06T00:00:00",
+        "last_modified_date": "2011-05-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.1702",
+        "title": "A Compositional Distributional Semantics, Two Concrete Constructions, and some Experimental Evaluations",
+        "authors": [
+            "Mehrnoosh Sadrzadeh",
+            "Edward Grefenstette"
+        ],
+        "abstract": "We provide an overview of the hybrid compositional distributional model of meaning, developed in Coecke et al. (",
+        "submission_date": "2011-05-09T00:00:00",
+        "last_modified_date": "2011-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.4582",
+        "title": "Perception of Personality and Naturalness through Dialogues by Native Speakers of American English and Arabic",
+        "authors": [
+            "Maxim Makatchev",
+            "Reid Simmons"
+        ],
+        "abstract": "Linguistic markers of personality traits have been studied extensively, but few cross-cultural studies exist. In this paper, we evaluate how native speakers of American English and Arabic perceive personality traits and naturalness of English utterances that vary along the dimensions of verbosity, hedging, lexical and syntactic alignment, and formality. The utterances are the turns within dialogue fragments that are presented as text transcripts to the workers of Amazon's Mechanical Turk. The results of the study suggest that all four dimensions can be used as linguistic markers of all personality traits by both language communities. A further comparative analysis shows cross-cultural differences for some combinations of measures of personality traits and naturalness, the dimensions of linguistic variability and dialogue acts.\n    ",
+        "submission_date": "2011-05-23T00:00:00",
+        "last_modified_date": "2011-05-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.6162",
+        "title": "A statistical learning algorithm for word segmentation",
+        "authors": [
+            "Jerry R. Van Aken"
+        ],
+        "abstract": "In natural speech, the speaker does not pause between words, yet a human listener somehow perceives this continuous stream of phonemes as a series of distinct words. The detection of boundaries between spoken words is an instance of a general capability of the human neocortex to remember and to recognize recurring sequences. This paper describes a computer algorithm that is designed to solve the problem of locating word boundaries in blocks of English text from which the spaces have been removed. This problem avoids the complexities of speech processing but requires similar capabilities for detecting recurring sequences. The algorithm relies entirely on statistical relationships between letters in the input stream to infer the locations of word boundaries. A Viterbi trellis is used to simultaneously evaluate a set of hypothetical segmentations of a block of adjacent words. This technique improves accuracy but incurs a small latency between the arrival of letters in the input stream and the sending of words to the output stream. The source code for a C++ version of this algorithm is presented in an appendix.\n    ",
+        "submission_date": "2011-05-31T00:00:00",
+        "last_modified_date": "2011-06-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.0411",
+        "title": "Quantum-Like Uncertain Conditionals for Text Analysis",
+        "authors": [
+            "Alvaro Francisco Huertas-Rosero",
+            "C. J. van Rijsbergen"
+        ],
+        "abstract": "Simple representations of documents based on the occurrences of terms are ubiquitous in areas like Information Retrieval, and also frequent in Natural Language Processing. In this work we propose a logical-probabilistic approach to the analysis of natural language text based in the concept of Uncertain Conditional, on top of a formulation of lexical measurements inspired in the theoretical concept of ideal quantum measurements. The proposed concept can be used for generating topic-specific representations of text, aiming to match in a simple way the perception of a user with a pre-established idea of what the usage of terms in the text should be. A simple example is developed with two versions of a text in two languages, showing how regularities in the use of terms are detected and easily represented.\n    ",
+        "submission_date": "2011-06-02T00:00:00",
+        "last_modified_date": "2011-06-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.0673",
+        "title": "Computational Approach to Anaphora Resolution in Spanish Dialogues",
+        "authors": [
+            "P. Martinez-Barco",
+            "M. Palomar"
+        ],
+        "abstract": "This paper presents an algorithm for identifying noun-phrase    antecedents of pronouns and adjectival anaphors in Spanish    dialogues. We believe that anaphora resolution requires numerous    sources of information in order to find the correct antecedent of the    anaphor. These sources can be of different kinds, e.g., linguistic    information, discourse/dialogue structure information, or topic    information. For this reason, our algorithm uses various different    kinds of information (hybrid information). The algorithm is based on    linguistic constraints and preferences and uses an anaphoric    accessibility space within which the algorithm finds the noun    phrase. We present some experiments related to this algorithm and this    space using a corpus of 204 dialogues. The algorithm is implemented in    Prolog. According to this study, 95.9% of antecedents were located in    the proposed space, a precision of 81.3% was obtained for pronominal    anaphora resolution, and 81.5% for adjectival anaphora.\n    ",
+        "submission_date": "2011-06-03T00:00:00",
+        "last_modified_date": "2011-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.3077",
+        "title": "Chameleons in imagined conversations: A new approach to understanding coordination of linguistic style in dialogs",
+        "authors": [
+            "Cristian Danescu-Niculescu-Mizil",
+            "Lillian Lee"
+        ],
+        "abstract": "Conversational participants tend to immediately and unconsciously adapt to each other's language styles: a speaker will even adjust the number of articles and other function words in their next utterance in response to the number in their partner's immediately preceding utterance. This striking level of coordination is thought to have arisen as a way to achieve social goals, such as gaining approval or emphasizing difference in status. But has the adaptation mechanism become so deeply embedded in the language-generation process as to become a reflex? We argue that fictional dialogs offer a way to study this question, since authors create the conversations but don't receive the social benefits (rather, the imagined characters do). Indeed, we find significant coordination across many families of function words in our large movie-script corpus. We also report suggestive preliminary findings on the effects of gender and other features; e.g., surprisingly, for articles, on average, characters adapt more to females than to males.\n    ",
+        "submission_date": "2011-06-15T00:00:00",
+        "last_modified_date": "2011-06-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.4058",
+        "title": "Experimental Support for a Categorical Compositional Distributional Model of Meaning",
+        "authors": [
+            "Edward Grefenstette",
+            "Mehrnoosh Sadrzadeh"
+        ],
+        "abstract": "Modelling compositional meaning for sentences using empirical distributional methods has been a challenge for computational linguists. We implement the abstract categorical model of Coecke et al. (",
+        "submission_date": "2011-06-20T00:00:00",
+        "last_modified_date": "2011-06-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.4571",
+        "title": "Acquiring Word-Meaning Mappings for Natural Language Interfaces",
+        "authors": [
+            "C. Thompson"
+        ],
+        "abstract": "This paper focuses on a system, WOLFIE (WOrd Learning From    Interpreted Examples), that acquires a semantic lexicon from a corpus    of sentences paired with semantic representations.  The lexicon    learned consists of phrases paired with meaning representations.    WOLFIE is part of an integrated system that learns to transform    sentences into representations such as logical database queries.        Experimental results are presented demonstrating WOLFIE's ability to    learn useful lexicons for a database interface in four different    natural languages.  The usefulness of the lexicons learned by WOLFIE    are compared to those acquired by a similar system, with results    favorable to WOLFIE.  A second set of experiments demonstrates    WOLFIE's ability to scale to larger and more difficult, albeit    artificially generated, corpora.           In natural language acquisition, it is difficult to gather the    annotated data needed for supervised learning; however, unannotated    data is fairly plentiful.  Active learning methods attempt to select    for annotation and training only the most informative examples, and    therefore are potentially very useful in natural language    applications.  However, most results to date for active learning have    only considered standard classification tasks.  To reduce annotation    effort while maintaining accuracy, we apply active learning to    semantic lexicons.  We show that active learning can significantly    reduce the number of annotated examples required to achieve a given    level of performance.\n    ",
+        "submission_date": "2011-06-22T00:00:00",
+        "last_modified_date": "2011-06-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.4862",
+        "title": "Translation of Pronominal Anaphora between English and Spanish: Discrepancies and Evaluation",
+        "authors": [
+            "A. Ferrandez",
+            "J. Peral"
+        ],
+        "abstract": "This paper evaluates the different tasks carried out in the translation of pronominal anaphora in a machine translation (MT) system. The MT interlingua approach named AGIR (Anaphora Generation with an Interlingua Representation) improves upon other proposals presented to date because it is able to translate intersentential anaphors, detect co-reference chains, and translate Spanish zero pronouns into English---issues hardly considered by other systems. The paper presents the resolution and evaluation of these anaphora problems in AGIR with the use of different kinds of knowledge (lexical, morphological, syntactic, and semantic). The translation of English and Spanish anaphoric third-person personal pronouns (including Spanish zero pronouns) into the target language has been evaluated on unrestricted corpora. We have obtained a precision of 80.4% and 84.8% in the translation of Spanish and English pronouns, respectively. Although we have only studied the Spanish and English languages, our approach can be easily extended to other languages such as Portuguese, Italian, or Japanese.\n    ",
+        "submission_date": "2011-06-24T00:00:00",
+        "last_modified_date": "2011-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.5264",
+        "title": "Acquiring Correct Knowledge for Natural Language Generation",
+        "authors": [
+            "E. Reiter",
+            "R. Robertson",
+            "S. G. Sripada"
+        ],
+        "abstract": "Natural language generation (NLG) systems are computer software systems that produce texts in English and other human languages, often from non-linguistic input data. NLG systems, like most AI systems, need substantial amounts of knowledge. However, our experience in two NLG projects suggests that it is difficult to acquire correct knowledge for NLG systems; indeed, every knowledge acquisition (KA) technique we tried had significant problems. In general terms, these problems were due to the complexity, novelty, and poorly understood nature of the tasks our systems attempted, and were worsened by the fact that people write so differently. This meant in particular that corpus-based KA approaches suffered because it was impossible to assemble a sizable corpus of high-quality consistent manually written texts in our domains; and structured expert-oriented KA techniques suffered because experts disagreed and because we could not get enough information about special and unusual cases to build robust systems. We believe that such problems are likely to affect many other NLG systems as well. In the long term, we hope that new KA techniques may emerge to help NLG system builders. In the shorter term, we believe that understanding how individual KA techniques can fail, and using a mixture of different KA techniques with different strengths and weaknesses, can help developers acquire NLG knowledge that is mostly correct.\n    ",
+        "submission_date": "2011-06-26T00:00:00",
+        "last_modified_date": "2011-06-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.5973",
+        "title": "Entropy of Telugu",
+        "authors": [
+            "Venkata Ravinder Paruchuri"
+        ],
+        "abstract": "This paper presents an investigation of the entropy of the Telugu script. Since this script is syllabic, and not alphabetic, the computation of entropy is somewhat complicated.\n    ",
+        "submission_date": "2011-06-27T00:00:00",
+        "last_modified_date": "2011-06-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.0193",
+        "title": "On the origin of ambiguity in efficient communication",
+        "authors": [
+            "Jordi Fortuny",
+            "Bernat Corominas-Murtra"
+        ],
+        "abstract": "This article studies the emergence of ambiguity in communication through the concept of logical irreversibility and within the framework of Shannon's information theory. This leads us to a precise and general expression of the intuition behind Zipf's vocabulary balance in terms of a symmetry equation between the complexities of the coding and the decoding processes that imposes an unavoidable amount of logical uncertainty in natural communication. Accordingly, the emergence of irreversible computations is required if the complexities of the coding and the decoding processes are balanced in a symmetric scenario, which means that the emergence of ambiguous codes is a necessary condition for natural communication to succeed.\n    ",
+        "submission_date": "2011-07-01T00:00:00",
+        "last_modified_date": "2013-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.1753",
+        "title": "Notes on Electronic Lexicography",
+        "authors": [
+            "Yavor Parvanov"
+        ],
+        "abstract": "These notes are a continuation of topics covered by V. Selegej in his article \"Electronic Dictionaries and Computational lexicography\". How can an electronic dictionary have as its object the description of closely related languages? Obviously, such a question allows multiple answers.\n    ",
+        "submission_date": "2011-07-09T00:00:00",
+        "last_modified_date": "2011-07-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.3119",
+        "title": "Experimenting with Transitive Verbs in a DisCoCat",
+        "authors": [
+            "Edward Grefenstette",
+            "Mehrnoosh Sadrzadeh"
+        ],
+        "abstract": "Formal and distributional semantic models offer complementary benefits in modeling meaning. The categorical compositional distributional (DisCoCat) model of meaning of Coecke et al. (",
+        "submission_date": "2011-07-15T00:00:00",
+        "last_modified_date": "2011-07-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4218",
+        "title": "The settlement of Madagascar: what dialects and languages can tell",
+        "authors": [
+            "Maurizio Serva"
+        ],
+        "abstract": "The dialects of Madagascar belong to the Greater Barito East group of the Austronesian family and it is widely accepted that the Island was colonized by Indonesian sailors after a maritime trek which probably took place around 650 CE. The language most closely related to Malagasy dialects is Maanyan but also Malay is strongly related especially for what concerns navigation terms. Since the Maanyan Dayaks live along the Barito river in Kalimantan (Borneo) and they do not possess the necessary skill for long maritime navigation, probably they were brought as subordinates by Malay sailors.\n",
+        "submission_date": "2011-07-21T00:00:00",
+        "last_modified_date": "2011-07-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4557",
+        "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+        "authors": [
+            "Myle Ott",
+            "Yejin Choi",
+            "Claire Cardie",
+            "Jeffrey T. Hancock"
+        ],
+        "abstract": "Consumers increasingly rate, review and research products online. Consequently, websites containing consumer reviews are becoming targets of opinion spam. While recent work has focused primarily on manually identifiable instances of opinion spam, in this work we study deceptive opinion spam---fictitious opinions that have been deliberately written to sound authentic. Integrating work from psychology and computational linguistics, we develop and compare three approaches to detecting deceptive opinion spam, and ultimately develop a classifier that is nearly 90% accurate on our gold-standard opinion spam dataset. Based on feature analysis of our learned models, we additionally make several theoretical contributions, including revealing a relationship between deceptive opinions and imaginative writing.\n    ",
+        "submission_date": "2011-07-22T00:00:00",
+        "last_modified_date": "2011-07-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4687",
+        "title": "Fence - An Efficient Parser with Ambiguity Support for Model-Driven Language Specification",
+        "authors": [
+            "Luis Quesada",
+            "Fernando Berzal",
+            "Francisco J. Cortijo"
+        ],
+        "abstract": "Model-based language specification has applications in the implementation of language processors, the design of domain-specific languages, model-driven software development, data integration, text mining, natural language processing, and corpus-based induction of models. Model-based language specification decouples language design from language processing and, unlike traditional grammar-driven approaches, which constrain language designers to specific kinds of grammars, it needs general parser generators able to deal with ambiguities. In this paper, we propose Fence, an efficient bottom-up parsing algorithm with lexical and syntactic ambiguity support that enables the use of model-based language specification in practice.\n    ",
+        "submission_date": "2011-07-23T00:00:00",
+        "last_modified_date": "2011-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4723",
+        "title": "A Semantic Relatedness Measure Based on Combined Encyclopedic, Ontological and Collocational Knowledge",
+        "authors": [
+            "Yannis Haralambous",
+            "Vitaly Klyuev"
+        ],
+        "abstract": "We describe a new semantic relatedness measure combining the Wikipedia-based Explicit Semantic Analysis measure, the WordNet path measure and the mixed collocation index. Our measure achieves the currently highest results on the WS-353 test: a Spearman rho coefficient of 0.79 (vs. 0.75 in (Gabrilovich and Markovitch, 2007)) when applying the measure directly, and a value of 0.87 (vs. 0.78 in (Agirre et al., 2009)) when using the prediction of a polynomial SVM classifier trained on our measure.\n",
+        "submission_date": "2011-07-24T00:00:00",
+        "last_modified_date": "2011-08-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4734",
+        "title": "Design of Arabic Diacritical Marks",
+        "authors": [
+            "Mohamed Hssini",
+            "Azzeddine Lazrek"
+        ],
+        "abstract": "Diacritical marks play a crucial role in meeting the criteria of usability of typographic text, such as: homogeneity, clarity and legibility. To change the diacritic of a letter in a word could completely change its semantic. The situation is very complicated with multilingual text. Indeed, the problem of design becomes more difficult by the presence of diacritics that come from various scripts; they are used for different purposes, and are controlled by various typographic rules. It is quite challenging to adapt rules from one script to another. This paper aims to study the placement and sizing of diacritical marks in Arabic script, with a comparison with the Latin's case. The Arabic script is cursive and runs from right-to-left; its criteria and rules are quite distinct from those of the Latin script. In the beginning, we compare the difficulty of processing diacritics in both scripts. After, we will study the limits of Latin resolution strategies when applied to Arabic. At the end, we propose an approach to resolve the problem for positioning and resizing diacritics. This strategy includes creating an Arabic font, designed in OpenType format, along with suitable justification in TEX.\n    ",
+        "submission_date": "2011-07-24T00:00:00",
+        "last_modified_date": "2011-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4796",
+        "title": "Use Pronunciation by Analogy for text to speech system in Persian language",
+        "authors": [
+            "Ali Jowharpour",
+            "Masha allah abbasi dezfuli",
+            "Mohammad hosein Yektaee"
+        ],
+        "abstract": "  The interest in text to speech synthesis increased in the world .text to speech have been developed formany popular languages such as English, Spanish and French and many researches and developmentshave been applied to those languages. Persian on the other hand, has been given little attentioncompared to other languages of similar importance and the research in Persian is still in its ",
+        "submission_date": "2011-07-24T00:00:00",
+        "last_modified_date": "2011-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.5743",
+        "title": "NEMO: Extraction and normalization of organization names from PubMed affiliation strings",
+        "authors": [
+            "Siddhartha Jonnalagadda",
+            "Philip Topham"
+        ],
+        "abstract": "We propose NEMO, a system for extracting organization names in the affiliation and normalizing them to a canonical organization name. Our parsing process involves multi-layered rule matching with multiple dictionaries. The system achieves more than 98% f-score in extracting organization names. Our process of normalization that involves clustering based on local sequence alignment metrics and local learning based on finding connected components. A high precision was also observed in normalization. NEMO is the missing link in associating each biomedical paper and its authors to an organization name in its canonical form and the Geopolitical location of the organization. This research could potentially help in analyzing large social networks of organizations for landscaping a particular topic, improving performance of author disambiguation, adding weak links in the co-author network of authors, augmenting NLM's MARS system for correcting errors in OCR output of affiliation field, and automatically indexing the PubMed citations with the normalized organization name and country. Our system is available as a graphical user interface available for download along with this paper.\n    ",
+        "submission_date": "2011-07-28T00:00:00",
+        "last_modified_date": "2011-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.5744",
+        "title": "BioSimplify: an open source sentence simplification engine to improve recall in automatic biomedical information extraction",
+        "authors": [
+            "Siddhartha Jonnalagadda",
+            "Graciela Gonzalez"
+        ],
+        "abstract": "BioSimplify is an open source tool written in Java that introduces and facilitates the use of a novel model for sentence simplification tuned for automatic discourse analysis and information extraction (as opposed to sentence simplification for improving human readability). The model is based on a \"shot-gun\" approach that produces many different (simpler) versions of the original sentence by combining variants of its constituent elements. This tool is optimized for processing biomedical scientific literature such as the abstracts indexed in PubMed. We tested our tool on its impact to the task of PPI extraction and it improved the f-score of the PPI tool by around 7%, with an improvement in recall of around 20%. The BioSimplify tool and test corpus can be downloaded from ",
+        "submission_date": "2011-07-28T00:00:00",
+        "last_modified_date": "2011-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.5752",
+        "title": "An Effective Approach to Biomedical Information Extraction with Limited Training Data",
+        "authors": [
+            "Siddhartha Jonnalagadda"
+        ],
+        "abstract": "Overall, the two main contributions of this work include the application of sentence simplification to association extraction as described above, and the use of distributional semantics for concept extraction. The proposed work on concept extraction amalgamates for the first time two diverse research areas -distributional semantics and information extraction. This approach renders all the advantages offered in other semi-supervised machine learning systems, and, unlike other proposed semi-supervised approaches, it can be used on top of different basic frameworks and algorithms. ",
+        "submission_date": "2011-07-28T00:00:00",
+        "last_modified_date": "2011-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.0353",
+        "title": "Cross-moments computation for stochastic context-free grammars",
+        "authors": [
+            "Velimir M. Ilic",
+            "Miroslav D. Ciric",
+            "Miomir S. Stankovic"
+        ],
+        "abstract": "In this paper we consider the problem of efficient computation of cross-moments of a vector random variable represented by a stochastic context-free grammar. Two types of cross-moments are discussed. The sample space for the first one is the set of all derivations of the context-free grammar, and the sample space for the second one is the set of all derivations which generate a string belonging to the language of the grammar. In the past, this problem was widely studied, but mainly for the cross-moments of scalar variables and up to the second order. This paper presents new algorithms for computing the cross-moments of an arbitrary order, and the previously developed ones are derived as special cases.\n    ",
+        "submission_date": "2011-08-01T00:00:00",
+        "last_modified_date": "2013-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.0631",
+        "title": "Serialising the ISO SynAF Syntactic Object Model",
+        "authors": [
+            "Laurent Romary",
+            "Amir Zeldes",
+            "Florian Zipser"
+        ],
+        "abstract": "This paper introduces, an XML format developed to serialise the object model defined by the ISO Syntactic Annotation Framework SynAF. Based on widespread best practices we adapt a popular XML format for syntactic annotation, TigerXML, with additional features to support a variety of syntactic phenomena including constituent and dependency structures, binding, and different node types such as compounds or empty elements. We also define interfaces to other formats and standards including the Morpho-syntactic Annotation Framework MAF and the ISOCat Data Category Registry. Finally a case study of the German Treebank TueBa-D/Z is presented, showcasing the handling of constituent structures, topological fields and coreference annotation in tandem.\n    ",
+        "submission_date": "2011-08-02T00:00:00",
+        "last_modified_date": "2014-09-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.1966",
+        "title": "A Concise Query Language with Search and Transform Operations for Corpora with Multiple Levels of Annotation",
+        "authors": [
+            "Anil Kumar Singh"
+        ],
+        "abstract": "The usefulness of annotated corpora is greatly increased if there is an associated tool that can allow various kinds of operations to be performed in a simple way. Different kinds of annotation frameworks and many query languages for them have been proposed, including some to deal with multiple layers of annotation. We present here an easy to learn query language for a particular kind of annotation framework based on 'threaded trees', which are somewhere between the complete order of a tree and the anarchy of a graph. Through 'typed' threads, they can allow multiple levels of annotation in the same document. Our language has a simple, intuitive and concise syntax and high expressive power. It allows not only to search for complicated patterns with short queries but also allows data manipulation and specification of arbitrary return values. Many of the commonly used tasks that otherwise require writing programs, can be performed with one or more queries. We compare the language with some others and try to evaluate it.\n    ",
+        "submission_date": "2011-08-09T00:00:00",
+        "last_modified_date": "2011-08-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.3843",
+        "title": "Using Inverse lambda and Generalization to Translate English to Formal Languages",
+        "authors": [
+            "Chitta Baral",
+            "Juraj Dzifcak",
+            "Marcos Alvarez Gonzalez",
+            "Jiayu Zhou"
+        ],
+        "abstract": "We present a system to translate natural language sentences to formulas in a formal or a knowledge representation language. Our system uses two inverse lambda-calculus operators and using them can take as input the semantic representation of some words, phrases and sentences and from that derive the semantic representation of other words and phrases. Our inverse lambda operator works on many formal languages including first order logic, database query languages and answer set programming. Our system uses a syntactic combinatorial categorial parser to parse natural language sentences and also to construct the semantic meaning of the sentences as directed by their parsing. The same parser is used for both. In addition to the inverse lambda-calculus operators, our system uses a notion of generalization to learn semantic representation of words from the semantic representation of other words that are of the same category. Together with this, we use an existing statistical learning approach to assign weights to deal with multiple meanings of words. Our system produces improved results on standard corpora on natural language interfaces for robot command and control and database queries.\n    ",
+        "submission_date": "2011-08-18T00:00:00",
+        "last_modified_date": "2011-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.3848",
+        "title": "Language understanding as a step towards human level intelligence - automatizing the construction of the initial dictionary from example sentences",
+        "authors": [
+            "Chitta Baral",
+            "Juraj Dzifcak"
+        ],
+        "abstract": "For a system to understand natural language, it needs to be able to take natural language text and answer questions given in natural language with respect to that text; it also needs to be able to follow instructions given in natural language. To achieve this, a system must be able to process natural language and be able to capture the knowledge within that text. Thus it needs to be able to translate natural language text into a formal language. We discuss our approach to do this, where the translation is achieved by composing the meaning of words in a sentence. Our initial approach uses an inverse lambda method that we developed (and other methods) to learn meaning of words from meaning of sentences and an initial lexicon. We then present an improved method where the initial lexicon is also learned by analyzing the training sentence and meaning pairs. We evaluate our methods and compare them with other existing methods on a corpora of database querying and robot command and control.\n    ",
+        "submission_date": "2011-08-18T00:00:00",
+        "last_modified_date": "2011-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.3850",
+        "title": "Solving puzzles described in English by automated translation to answer set programming and learning how to do that translation",
+        "authors": [
+            "Chitta Baral",
+            "Juraj Dzifcak"
+        ],
+        "abstract": "We present a system capable of automatically solving combinatorial logic puzzles given in (simplified) English. It involves translating the English descriptions of the puzzles into answer set programming(ASP) and using ASP solvers to provide solutions of the puzzles. To translate the descriptions, we use a lambda-calculus based approach using Probabilistic Combinatorial Categorial Grammars (PCCG) where the meanings of words are associated with parameters to be able to distinguish between multiple meanings of the same word. Meaning of many words and the parameters are learned. The puzzles are represented in ASP using an ontology which is applicable to a large set of logic puzzles.\n    ",
+        "submission_date": "2011-08-18T00:00:00",
+        "last_modified_date": "2011-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.4052",
+        "title": "Query Expansion: Term Selection using the EWC Semantic Relatedness Measure",
+        "authors": [
+            "Vitaly Klyuev",
+            "Yannis Haralambous"
+        ],
+        "abstract": "This paper investigates the efficiency of the EWC semantic relatedness measure in an ad-hoc retrieval task. This measure combines the Wikipedia-based Explicit Semantic Analysis measure, the WordNet path measure and the mixed collocation index. In the experiments, the open source search engine Terrier was utilised as a tool to index and retrieve data. The proposed technique was tested on the NTCIR data collection. The experiments demonstrated promising results.\n    ",
+        "submission_date": "2011-08-19T00:00:00",
+        "last_modified_date": "2011-08-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.4297",
+        "title": "Why is language well-designed for communication? (Commentary on Christiansen and Chater: 'Language as shaped by the brain')",
+        "authors": [
+            "Jean-Louis Dessalles"
+        ],
+        "abstract": "Selection through iterated learning explains no more than other non-functional accounts, such as universal grammar, why language is so well-designed for communicative efficiency. It does not predict several distinctive features of language like central embedding, large lexicons or the lack of iconicity, that seem to serve communication purposes at the expense of learnability.\n    ",
+        "submission_date": "2011-08-22T00:00:00",
+        "last_modified_date": "2011-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5016",
+        "title": "Une analyse bas\u00e9e sur la S-DRT pour la mod\u00e9lisation de dialogues pathologiques",
+        "authors": [
+            "Maxime Amblard",
+            "Musiol Michel",
+            "Rebuschi Manuel"
+        ],
+        "abstract": "In this article, we present a corpus of dialogues between a schizophrenic speaker and an interlocutor who drives the dialogue. We had identified specific discontinuities for paranoid schizophrenics. We propose a modeling of these discontinuities with S-DRT (its pragmatic part)\n    ",
+        "submission_date": "2011-08-25T00:00:00",
+        "last_modified_date": "2011-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5017",
+        "title": "Event in Compositional Dynamic Semantics",
+        "authors": [
+            "Sai Qian",
+            "Maxime Amblard"
+        ],
+        "abstract": "We present a framework which constructs an event-style dis- course semantics. The discourse dynamics are encoded in continuation semantics and various rhetorical relations are embedded in the resulting interpretation of the framework. We assume discourse and sentence are distinct semantic objects, that play different roles in meaning evalua- tion. Moreover, two sets of composition functions, for handling different discourse relations, are introduced. The paper first gives the necessary background and motivation for event and dynamic semantics, then the framework with detailed examples will be introduced.\n    ",
+        "submission_date": "2011-08-25T00:00:00",
+        "last_modified_date": "2011-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5027",
+        "title": "Encoding Phases using Commutativity and Non-commutativity in a Logical Framework",
+        "authors": [
+            "Maxime Amblard"
+        ],
+        "abstract": "This article presents an extension of Minimalist Categorial Gram- mars (MCG) to encode Chomsky's phases. These grammars are based on Par- tially Commutative Logic (PCL) and encode properties of Minimalist Grammars (MG) of Stabler. The first implementation of MCG were using both non- commutative properties (to respect the linear word order in an utterance) and commutative ones (to model features of different constituents). Here, we pro- pose to adding Chomsky's phases with the non-commutative tensor product of the logic. Then we could give account of the PIC just by using logical prop- erties of the framework.\n    ",
+        "submission_date": "2011-08-25T00:00:00",
+        "last_modified_date": "2011-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5096",
+        "title": "Minimalist Grammars and Minimalist Categorial Grammars, definitions toward inclusion of generated languages",
+        "authors": [
+            "Maxime Amblard"
+        ],
+        "abstract": "Stabler proposes an implementation of the Chomskyan Minimalist Program, Chomsky 95 with Minimalist Grammars - MG, Stabler 97. This framework inherits a long linguistic tradition. But the semantic calculus is more easily added if one uses the Curry-Howard isomorphism. Minimalist Categorial Grammars - MCG, based on an extension of the Lambek calculus, the mixed logic, were introduced to provide a theoretically-motivated syntax-semantics interface, Amblard 07. In this article, we give full definitions of MG with algebraic tree descriptions and of MCG, and take the first steps towards giving a proof of inclusion of their generated languages.\n    ",
+        "submission_date": "2011-08-25T00:00:00",
+        "last_modified_date": "2011-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5974",
+        "title": "Emotional Analysis of Blogs and Forums Data",
+        "authors": [
+            "Pawe\u0142 Wero\u0144ski",
+            "Julian Sienkiewicz",
+            "Georgios Paltoglou",
+            "Kevan Buckley",
+            "Mike Thelwall",
+            "Janusz A. Ho\u0142yst"
+        ],
+        "abstract": "We perform a statistical analysis of emotionally annotated comments in two large online datasets, examining chains of consecutive posts in the discussions. Using comparisons with randomised data we show that there is a high level of correlation for the emotional content of messages.\n    ",
+        "submission_date": "2011-08-30T00:00:00",
+        "last_modified_date": "2011-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.0069",
+        "title": "Inter-rater Agreement on Sentence Formality",
+        "authors": [
+            "Shibamouli Lahiri",
+            "Xiaofei Lu"
+        ],
+        "abstract": "Formality is one of the most important dimensions of writing style variation. In this study we conducted an inter-rater reliability experiment for assessing sentence formality on a five-point Likert scale, and obtained good agreement results as well as different rating distributions for different sentence categories. We also performed a difficulty analysis to identify the bottlenecks of our rating procedure. Our main objective is to design an automatic scoring mechanism for sentence-level formality, and this study is important for that purpose.\n    ",
+        "submission_date": "2011-09-01T00:00:00",
+        "last_modified_date": "2014-04-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.0624",
+        "title": "Building Ontologies to Understand Spoken Tunisian Dialect",
+        "authors": [
+            "Marwa Graja",
+            "Maher Jaoua",
+            "Lamia Hadrich Belguith"
+        ],
+        "abstract": "This paper presents a method to understand spoken Tunisian dialect based on lexical semantic. This method takes into account the specificity of the Tunisian dialect which has no linguistic processing tools. This method is ontology-based which allows exploiting the ontological concepts for semantic annotation and ontological relations for speech interpretation. This combination increases the rate of comprehension and limits the dependence on linguistic resources. This paper also details the process of building the ontology used for annotation and interpretation of Tunisian dialect in the context of speech understanding in dialogue systems for restricted domain.\n    ",
+        "submission_date": "2011-09-03T00:00:00",
+        "last_modified_date": "2011-09-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.2128",
+        "title": "LexRank: Graph-based Lexical Centrality as Salience in Text Summarization",
+        "authors": [
+            "Gunes Erkan",
+            "Dragomir R. Radev"
+        ],
+        "abstract": "We introduce a stochastic graph-based method for computing relative importance of textual units for Natural Language Processing. We test the technique on the problem of Text Summarization (TS). Extractive TS relies on the concept of sentence salience to identify the most important sentences in a document or set of documents. Salience is typically defined in terms of the presence of particular important words or in terms of similarity to a centroid pseudo-sentence. We consider a new approach, LexRank, for computing sentence importance based on the concept of eigenvector centrality in a graph representation of sentences. In this model, a connectivity matrix based on intra-sentence cosine similarity is used as the adjacency matrix of the graph representation of sentences. Our system, based on LexRank ranked in first place in more than one task in the recent DUC 2004 evaluation. In this paper we present a detailed analysis of our approach and apply it to a larger data set including data from earlier DUC evaluations. We discuss several methods to compute centrality using the similarity graph. The results show that degree-based methods (including LexRank) outperform both centroid-based methods and other systems participating in DUC in most of the cases. Furthermore, the LexRank with threshold method outperforms the other degree-based techniques including continuous LexRank. We also show that our approach is quite insensitive to the noise in the data that may result from an imperfect topical clustering of documents.\n    ",
+        "submission_date": "2011-09-09T00:00:00",
+        "last_modified_date": "2011-09-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.2130",
+        "title": "Combining Knowledge- and Corpus-based Word-Sense-Disambiguation Methods",
+        "authors": [
+            "A. Montoyo",
+            "M. Palomar",
+            "G. Rigau",
+            "A. Suarez"
+        ],
+        "abstract": "In this paper we concentrate on the resolution of the lexical ambiguity that arises when a given word has several different meanings. This specific task is commonly referred to as word sense disambiguation (WSD). The task of WSD consists of assigning the correct sense to words using an electronic dictionary as the source of word definitions. We present two WSD methods based on two main methodological approaches in this research area: a knowledge-based method and a corpus-based method. Our hypothesis is that word-sense disambiguation requires several knowledge sources in order to solve the semantic ambiguity of the words. These sources can be of different kinds--- for example, syntagmatic, paradigmatic or statistical information. Our approach combines various sources of knowledge, through combinations of the two WSD methods mentioned above. Mainly, the paper concentrates on how to combine these methods and sources of information in order to achieve good results in the disambiguation. Finally, this paper presents a comprehensive study and experimental work on evaluation of the methods and their combinations.\n    ",
+        "submission_date": "2011-09-09T00:00:00",
+        "last_modified_date": "2011-09-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.2136",
+        "title": "Learning Content Selection Rules for Generating Object Descriptions in Dialogue",
+        "authors": [
+            "P. W. Jordan",
+            "M. A. Walker"
+        ],
+        "abstract": "A fundamental requirement of any task-oriented dialogue system is the ability to generate object descriptions that refer to objects in the task domain. The subproblem of content selection for object descriptions in task-oriented dialogue has been the focus of much previous work and a large number of models have been proposed. In this paper, we use the annotated COCONUT corpus of task-oriented design dialogues to develop feature sets based on Dale and Reiters (1995) incremental model, Brennan and Clarks (1996) conceptual pact model, and Jordans (2000b) intentional influences model, and use these feature sets in a machine learning experiment to automatically learn a model of content selection for object descriptions.  Since Dale and Reiters model requires a representation of discourse structure, the corpus annotations are used to derive a representation based on Grosz and Sidners (1986) theory of the intentional structure of discourse, as well as two very simple representations of discourse structure based purely on recency. We then apply the rule-induction program RIPPER to train and test the content selection component of an object description generator on a set of 393 object descriptions from the corpus. To our knowledge, this is the first reported experiment of a trainable content selection component for object description generation in dialogue. Three separate content selection models that are based on the three theoretical models, all independently achieve accuracies significantly above the majority class baseline (17%) on unseen test data, with the intentional influences model (42.4%) performing significantly better than either the incremental model (30.4%) or the conceptual pact model (28.9%). But the best performing models combine all the feature sets, achieving accuracies near 60%. Surprisingly, a simple recency-based representation of discourse structure does as well as one based on intentional structure.  To our knowledge, this is also the first empirical comparison of a representation of Grosz and Sidners model of discourse structure with a simpler model for any generation task.\n    ",
+        "submission_date": "2011-09-09T00:00:00",
+        "last_modified_date": "2011-09-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.2657",
+        "title": "From Contracts in Structured English to CL Specifications",
+        "authors": [
+            "Seyed M. Montazeri",
+            "Nivir K.S. Roy",
+            "Gerardo Schneider"
+        ],
+        "abstract": "In this paper we present a framework to analyze conflicts of contracts written in structured English. A contract that has manually been rewritten in a structured English is automatically translated into a formal language using the Grammatical Framework (GF). In particular we use the contract language CL as a target formal language for this translation. In our framework CL specifications could then be input into the tool CLAN to detect the presence of conflicts (whether there are contradictory obligations, permissions, and prohibitions. We also use GF to get a version in (restricted) English of CL formulae. We discuss the implementation of such a framework.\n    ",
+        "submission_date": "2011-09-13T00:00:00",
+        "last_modified_date": "2011-09-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.4531",
+        "title": "A Probabilistic Approach to Pronunciation by Analogy",
+        "authors": [
+            "Janne V. Kujala",
+            "Aleksi Keurulainen"
+        ],
+        "abstract": "The relationship between written and spoken words is convoluted in languages with a deep orthography such as English and therefore it is difficult to devise explicit rules for generating the pronunciations for unseen words. Pronunciation by analogy (PbA) is a data-driven method of constructing pronunciations for novel words from concatenated segments of known words and their pronunciations. PbA performs relatively well with English and outperforms several other proposed methods. However, the best published word accuracy of 65.5% (for the 20,000 word NETtalk corpus) suggests there is much room for improvement in it.\n",
+        "submission_date": "2011-09-21T00:00:00",
+        "last_modified_date": "2011-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.4906",
+        "title": "Automatic transcription of 17th century English text in Contemporary English with NooJ: Method and Evaluation",
+        "authors": [
+            "Odile Piton",
+            "Slim Mesfar",
+            "H\u00e9l\u00e8ne Pignot"
+        ],
+        "abstract": "Since 2006 we have undertaken to describe the differences between 17th century English and contemporary English thanks to NLP software. Studying a corpus spanning the whole century (tales of English travellers in the Ottoman Empire in the 17th century, Mary Astell's essay A Serious Proposal to the Ladies and other literary texts) has enabled us to highlight various lexical, morphological or grammatical singularities. Thanks to the NooJ linguistic platform, we created dictionaries indexing the lexical variants and their transcription in CE. The latter is often the result of the validation of forms recognized dynamically by morphological graphs. We also built syntactical graphs aimed at transcribing certain archaic forms in contemporary English. Our previous research implied a succession of elementary steps alternating textual analysis and result validation. We managed to provide examples of transcriptions, but we have not created a global tool for automatic transcription. Therefore we need to focus on the results we have obtained so far, study the conditions for creating such a tool, and analyze possible difficulties. In this paper, we will be discussing the technical and linguistic aspects we have not yet covered in our previous work. We are using the results of previous research and proposing a transcription method for words or sequences identified as archaic.\n    ",
+        "submission_date": "2011-09-22T00:00:00",
+        "last_modified_date": "2011-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.5798",
+        "title": "Object-oriented semantics of English in natural language understanding system",
+        "authors": [
+            "Yuriy Ostapov"
+        ],
+        "abstract": "A new approach to the problem of natural language understanding is proposed. The knowledge domain under consideration is the social behavior of people. English sentences are translated into set of predicates of a semantic database, which describe persons, occupations, organizations, projects, actions, events, messages, machines, things, animals, location and time of actions, relations between objects, thoughts, cause-and-effect relations, abstract objects. There is a knowledge base containing the description of semantics of objects (functions and structure), actions (motives and causes), and operations.\n    ",
+        "submission_date": "2011-09-27T00:00:00",
+        "last_modified_date": "2011-09-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.6018",
+        "title": "User-level sentiment analysis incorporating social networks",
+        "authors": [
+            "Chenhao Tan",
+            "Lillian Lee",
+            "Jie Tang",
+            "Long Jiang",
+            "Ming Zhou",
+            "Ping Li"
+        ],
+        "abstract": "We show that information about social relationships can be used to improve user-level sentiment analysis. The main motivation behind our approach is that users that are somehow \"connected\" may be more likely to hold similar opinions; therefore, relationship information can complement what we can extract about a user's viewpoints from their utterances. Employing Twitter as a source for our experimental data, and working within a semi-supervised framework, we propose models that are induced either from the Twitter follower/followee network or from the network in Twitter formed by users referring to each other using \"@\" mentions. Our transductive learning results reveal that incorporating social-network information can indeed lead to statistically significant sentiment-classification improvements over the performance of an approach based on Support Vector Machines having access only to textual features.\n    ",
+        "submission_date": "2011-09-27T00:00:00",
+        "last_modified_date": "2011-09-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.1391",
+        "title": "A Comparison of Different Machine Transliteration Models",
+        "authors": [
+            "K. Choi",
+            "H. Isahara",
+            "J. Oh"
+        ],
+        "abstract": "Machine transliteration is a method for automatically converting words in one language into phonetically equivalent ones in another language. Machine transliteration plays an important role in natural language applications such as information retrieval and machine translation, especially for handling proper nouns and technical terms. Four machine transliteration models -- grapheme-based transliteration model, phoneme-based transliteration model, hybrid transliteration model, and correspondence-based transliteration model -- have been proposed by several researchers. To date, however, there has been little research on a framework in which multiple transliteration models can operate simultaneously. Furthermore, there has been no comparison of the four models within the same framework and using the same data. We addressed these problems by 1) modeling the four models within the same framework, 2) comparing them under the same conditions, and 3) developing a way to improve machine transliteration through this comparison. Our comparison showed that the hybrid and correspondence-based models were the most effective and that the four models can be used in a complementary manner to improve machine transliteration performance.\n    ",
+        "submission_date": "2011-10-06T00:00:00",
+        "last_modified_date": "2011-10-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.1394",
+        "title": "Learning Sentence-internal Temporal Relations",
+        "authors": [
+            "M. Lapata",
+            "A. Lascarides"
+        ],
+        "abstract": "In this paper we propose a data intensive approach for inferring sentence-internal temporal relations. Temporal inference is relevant for practical NLP applications which either extract or synthesize temporal information (e.g., summarisation, question answering).  Our method bypasses the need for manual coding by exploiting the presence of markers like after\", which overtly signal a temporal relation. We first show that models trained on main and subordinate clauses connected with a temporal marker achieve good performance on a pseudo-disambiguation task simulating temporal inference (during testing the temporal marker is treated as unseen and the models must select the right marker from a set of possible candidates).  Secondly, we assess whether the proposed approach holds promise for the semi-automatic creation of temporal annotations.  Specifically, we use a model trained on noisy and approximate data (i.e., main and subordinate clauses) to predict intra-sentential relations present in TimeBank, a corpus annotated rich temporal information.  Our experiments compare and contrast several probabilistic models differing in their feature space, linguistic assumptions and data requirements.  We evaluate performance against gold standard corpora and also against human subjects.\n    ",
+        "submission_date": "2011-10-06T00:00:00",
+        "last_modified_date": "2011-10-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.1428",
+        "title": "Product Review Summarization based on Facet Identification and Sentence Clustering",
+        "authors": [
+            "Duy Khang Ly",
+            "Kazunari Sugiyama",
+            "Ziheng Lin",
+            "Min-Yen Kan"
+        ],
+        "abstract": "Product review nowadays has become an important source of information, not only for customers to find opinions about products easily and share their reviews with peers, but also for product manufacturers to get feedback on their products. As the number of product reviews grows, it becomes difficult for users to search and utilize these resources in an efficient way. In this work, we build a product review summarization system that can automatically process a large collection of reviews and aggregate them to generate a concise summary. More importantly, the drawback of existing product summarization systems is that they cannot provide the underlying reasons to justify users' opinions. In our method, we solve this problem by applying clustering, prior to selecting representative candidates for summarization.\n    ",
+        "submission_date": "2011-10-07T00:00:00",
+        "last_modified_date": "2011-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.1470",
+        "title": "A Constraint-Satisfaction Parser for Context-Free Grammars",
+        "authors": [
+            "Luis Quesada",
+            "Fernando Berzal",
+            "Francisco J. Cortijo"
+        ],
+        "abstract": "Traditional language processing tools constrain language designers to specific kinds of grammars. In contrast, model-based language specification decouples language design from language processing. As a consequence, model-based language specification tools need general parsers able to parse unrestricted context-free grammars. As languages specified following this approach may be ambiguous, parsers must deal with ambiguities. Model-based language specification also allows the definition of associativity, precedence, and custom constraints. Therefore parsers generated by model-driven language specification tools need to enforce constraints. In this paper, we propose Fence, an efficient bottom-up chart parser with lexical and syntactic ambiguity support that allows the specification of constraints and, therefore, enables the use of model-based language specification in practice.\n    ",
+        "submission_date": "2011-10-07T00:00:00",
+        "last_modified_date": "2012-02-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.1758",
+        "title": "Data formats for phonological corpora",
+        "authors": [
+            "Laurent Romary",
+            "Andreas Witt"
+        ],
+        "abstract": "The goal of the present chapter is to explore the possibility of providing the research (but also the industrial) community that commonly uses spoken corpora with a stable portfolio of well-documented standardised formats that allow a high re-use rate of annotated spoken resources and, as a consequence, better interoperability across tools used to produce or exploit such resources.\n    ",
+        "submission_date": "2011-10-08T00:00:00",
+        "last_modified_date": "2012-03-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.2215",
+        "title": "NP Animacy Identification for Anaphora Resolution",
+        "authors": [
+            "R. J. Evans",
+            "C. Orasan"
+        ],
+        "abstract": "In anaphora resolution for English, animacy identification can play an integral role in the application of agreement restrictions between pronouns and candidates, and as a result, can improve the accuracy of anaphora resolution systems. In this paper, two methods for animacy identification are proposed and evaluated using intrinsic and extrinsic measures. The first method is a rule-based one which uses information about the unique beginners in WordNet to classify NPs on the basis of their animacy. The second method relies on a machine learning algorithm which exploits a WordNet enriched with animacy information for each sense. The effect of word sense disambiguation on the two methods is also assessed. The intrinsic evaluation reveals that the machine learning method reaches human levels of performance. The extrinsic evaluation demonstrates that animacy identification can be beneficial in anaphora resolution, especially in the cases where animate entities are identified with high precision.\n    ",
+        "submission_date": "2011-10-10T00:00:00",
+        "last_modified_date": "2011-10-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.3088",
+        "title": "Towards cross-lingual alerting for bursty epidemic events",
+        "authors": [
+            "Nigel Collier"
+        ],
+        "abstract": "Background: Online news reports are increasingly becoming a source for event based early warning systems that detect natural disasters. Harnessing the massive volume of information available from multilingual newswire presents as many challenges as opportunities due to the patterns of reporting complex spatiotemporal events. Results: In this article we study the problem of utilising correlated event reports across languages. We track the evolution of 16 disease outbreaks using 5 temporal aberration detection algorithms on text-mined events classified according to disease and outbreak country. Using ProMED reports as a silver standard, comparative analysis of news data for 13 languages over a 129 day trial period showed improved sensitivity, F1 and timeliness across most models using cross-lingual events. We report a detailed case study analysis for Cholera in Angola 2010 which highlights the challenges faced in correlating news events with the silver standard. Conclusions: The results show that automated health surveillance using multilingual text mining has the potential to turn low value news into high value alerts if informed choices are used to govern the selection of models and data sources. An implementation of the C2 alerting algorithm using multilingual news is available at the BioCaster portal ",
+        "submission_date": "2011-10-13T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.3089",
+        "title": "OMG U got flu? Analysis of shared health messages for bio-surveillance",
+        "authors": [
+            "Nigel Collier",
+            "Nguyen Truong Son",
+            "Ngoc Mai Nguyen"
+        ],
+        "abstract": "Background: Micro-blogging services such as Twitter offer the potential to crowdsource epidemics in real-time. However, Twitter posts ('tweets') are often ambiguous and reactive to media trends. In order to ground user messages in epidemic response we focused on tracking reports of self-protective behaviour such as avoiding public gatherings or increased sanitation as the basis for further risk analysis. Results: We created guidelines for tagging self protective behaviour based on Jones and Salath\u00e9 (2009)'s behaviour response survey. Applying the guidelines to a corpus of 5283 Twitter messages related to influenza like illness showed a high level of inter-annotator agreement (kappa 0.86). We employed supervised learning using unigrams, bigrams and regular expressions as features with two supervised classifiers (SVM and Naive Bayes) to classify tweets into 4 self-reported protective behaviour categories plus a self-reported diagnosis. In addition to classification performance we report moderately strong Spearman's Rho correlation by comparing classifier output against WHO/NREVSS laboratory data for A(H1N1) in the USA during the 2009-2010 influenza season. Conclusions: The study adds to evidence supporting a high degree of correlation between pre-diagnostic social media signals and diagnostic influenza case data, pointing the way towards low cost sensor networks. We believe that the signals we have modelled may be applicable to a wide range of diseases.\n    ",
+        "submission_date": "2011-10-13T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.3091",
+        "title": "What's unusual in online disease outbreak news?",
+        "authors": [
+            "Nigel Collier"
+        ],
+        "abstract": "Background: Accurate and timely detection of public health events of international concern is necessary to help support risk assessment and response and save lives. Novel event-based methods that use the World Wide Web as a signal source offer potential to extend health surveillance into areas where traditional indicator networks are lacking. In this paper we address the issue of systematically evaluating online health news to support automatic alerting using daily disease-country counts text mined from real world data using BioCaster. For 18 data sets produced by BioCaster, we compare 5 aberration detection algorithms (EARS C2, C3, W2, F-statistic and EWMA) for performance against expert moderated ProMED-mail postings. Results: We report sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), mean alerts/100 days and F1, at 95% confidence interval (CI) for 287 ProMED-mail postings on 18 outbreaks across 14 countries over a 366 day period. Results indicate that W2 had the best F1 with a slight benefit for day of week effect over C2. In drill down analysis we indicate issues arising from the granular choice of country-level modeling, sudden drops in reporting due to day of week effects and reporting bias. Automatic alerting has been implemented in BioCaster available from ",
+        "submission_date": "2011-10-13T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.3094",
+        "title": "Syndromic classification of Twitter messages",
+        "authors": [
+            "Nigel Collier",
+            "Son Doan"
+        ],
+        "abstract": "Recent studies have shown strong correlation between social networking data and national influenza rates. We expanded upon this success to develop an automated text mining system that classifies Twitter messages in real time into six syndromic categories based on key terms from a public health ontology. 10-fold cross validation tests were used to compare Naive Bayes (NB) and Support Vector Machine (SVM) models on a corpus of 7431 Twitter messages. SVM performed better than NB on 4 out of 6 syndromes. The best performing classifiers showed moderately strong F1 scores: respiratory = 86.2 (NB); gastrointestinal = 85.4 (SVM polynomial kernel degree 2); neurological = 88.6 (SVM polynomial kernel degree 1); rash = 86.0 (SVM polynomial kernel degree 1); constitutional = 89.3 (SVM polynomial kernel degree 1); hemorrhagic = 89.9 (NB). The resulting classifiers were deployed together with an EARS C2 aberration detection algorithm in an experimental online system.\n    ",
+        "submission_date": "2011-10-13T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.4123",
+        "title": "Positive words carry less information than negative words",
+        "authors": [
+            "David Garcia",
+            "Antonios Garas",
+            "Frank Schweitzer"
+        ],
+        "abstract": "We show that the frequency of word use is not only determined by the word length \\cite{Zipf1935} and the average information content \\cite{Piantadosi2011}, but also by its emotional content. We have analyzed three established lexica of affective word usage in English, German, and Spanish, to verify that these lexica have a neutral, unbiased, emotional content. Taking into account the frequency of word usage, we find that words with a positive emotional content are more frequently used. This lends support to Pollyanna hypothesis \\cite{Boucher1969} that there should be a positive bias in human expression. We also find that negative words contain more information than positive words, as the informativeness of a word increases uniformly with its valence decrease. Our findings support earlier conjectures about (i) the relation between word frequency and information content, and (ii) the impact of positive emotions on communication and social links.\n    ",
+        "submission_date": "2011-10-18T00:00:00",
+        "last_modified_date": "2012-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.4248",
+        "title": "Ideogram Based Chinese Sentiment Word Orientation Computation",
+        "authors": [
+            "Luojie Xiang"
+        ],
+        "abstract": "This paper presents a novel algorithm to compute sentiment orientation of Chinese sentiment word. The algorithm uses ideograms which are a distinguishing feature of Chinese language. The proposed algorithm can be applied to any sentiment classification scheme. To compute a word's sentiment orientation using the proposed algorithm, only the word itself and a precomputed character ontology is required, rather than a corpus. The influence of three parameters over the algorithm performance is analyzed and verified by experiment. Experiment also shows that proposed algorithm achieves an F Measure of 85.02% outperforming existing ideogram based algorithm.\n    ",
+        "submission_date": "2011-10-19T00:00:00",
+        "last_modified_date": "2011-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.0048",
+        "title": "Individual and Domain Adaptation in Sentence Planning for Dialogue",
+        "authors": [
+            "F. Mairesse",
+            "R. Prasad",
+            "A. Stent",
+            "M. A. Walker"
+        ],
+        "abstract": "One of the biggest challenges in the development and deployment of spoken dialogue systems is the design of the spoken language generation module. This challenge arises from the need for the generator to adapt to many features of the dialogue domain, user population, and dialogue context.  A promising approach is trainable generation, which uses general-purpose linguistic knowledge that is automatically adapted to the features of interest, such as the application domain, individual user, or user group.  In this paper we present and evaluate a trainable sentence planner for providing restaurant information in the MATCH dialogue system.  We show that trainable sentence planning can produce complex information presentations whose quality is comparable to the output of a template-based generator tuned to this domain.  We also show that our method easily supports adapting the sentence planner to individuals, and that the individualized sentence planners generally perform better than models trained and tested on a population of individuals. Previous work has documented and utilized individual preferences for content selection, but to our knowledge, these results provide the first demonstration of individual preferences for sentence planning operations, affecting the content order, discourse structure and sentence structure of system responses. Finally, we evaluate the contribution of different feature sets, and show that, in our application, n-gram features often do as well as features based on higher-level linguistic representations.\n    ",
+        "submission_date": "2011-10-31T00:00:00",
+        "last_modified_date": "2011-10-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.1673",
+        "title": "Algebras over a field and semantics for context based reasoning",
+        "authors": [
+            "Daoud Clarke"
+        ],
+        "abstract": "This paper introduces context algebras and demonstrates their application to combining logical and vector-based representations of meaning. Other approaches to this problem attempt to reproduce aspects of logical semantics within new frameworks. The approach we present here is different: We show how logical semantics can be embedded within a vector space framework, and use this to combine distributional semantics, in which the meanings of words are represented as vectors, with logical semantics, in which the meaning of a sentence is represented as a logical form.\n    ",
+        "submission_date": "2011-11-07T00:00:00",
+        "last_modified_date": "2011-11-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.2399",
+        "title": "Genetic Algorithm (GA) in Feature Selection for CRF Based Manipuri Multiword Expression (MWE) Identification",
+        "authors": [
+            "Kishorjit Nongmeikapam",
+            "Sivaji Bandyopadhyay"
+        ],
+        "abstract": "This paper deals with the identification of Multiword Expressions (MWEs) in Manipuri, a highly agglutinative Indian Language. Manipuri is listed in the Eight Schedule of Indian Constitution. MWE plays an important role in the applications of Natural Language Processing(NLP) like Machine Translation, Part of Speech tagging, Information Retrieval, Question Answering etc. Feature selection is an important factor in the recognition of Manipuri MWEs using Conditional Random Field (CRF). The disadvantage of manual selection and choosing of the appropriate features for running CRF motivates us to think of Genetic Algorithm (GA). Using GA we are able to find the optimal features to run the CRF. We have tried with fifty generations in feature selection along with three fold cross validation as fitness function. This model demonstrated the Recall (R) of 64.08%, Precision (P) of 86.84% and F-measure (F) of 73.74%, showing an improvement over the CRF based Manipuri MWE identification without GA application.\n    ",
+        "submission_date": "2011-11-10T00:00:00",
+        "last_modified_date": "2011-11-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.3122",
+        "title": "ESLO: from transcription to speakers' personal information annotation",
+        "authors": [
+            "Iris Eshkol",
+            "D. Maurel",
+            "Nathalie Friburger"
+        ],
+        "abstract": "This paper presents the preliminary works to put online a French oral corpus and its transcription. This corpus is the Socio-Linguistic Survey in Orleans, realized in 1968. First, we numerized the corpus, then we handwritten transcribed it with the Transcriber software adding different tags about speakers, time, noise, etc. Each document (audio file and XML file of the transcription) was described by a set of metadata stored in an XML format to allow an easy consultation. Second, we added different levels of annotations, recognition of named entities and annotation of personal information about speakers. This two annotation tasks used the CasSys system of transducer cascades. We used and modified a first cascade to recognize named entities. Then we built a second cascade to annote the designating entities, i.e. information about the speaker. These second cascade parsed the named entity annotated corpus. The objective is to locate information about the speaker and, also, what kind of information can designate him/her. These two cascades was evaluated with precision and recall measures.\n    ",
+        "submission_date": "2011-11-14T00:00:00",
+        "last_modified_date": "2011-11-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.3152",
+        "title": "\u00c9valuation de lexiques syntaxiques par leur int\u00e9gartion dans l'analyseur syntaxiques FRMG",
+        "authors": [
+            "Elsa Tolone",
+            "\u00c9ric De La Clergerie",
+            "Sagot Benoit"
+        ],
+        "abstract": "In this paper, we evaluate various French lexica with the parser FRMG: the Lefff, LGLex, the lexicon built from the tables of the French Lexicon-Grammar, the lexicon DICOVALENCE and a new version of the verbal entries of the Lefff, obtained by merging with DICOVALENCE and partial manual validation. For this, all these lexica have been converted to the format of the Lefff, Alexina format. The evaluation was made on the part of the EASy corpus used in the first evaluation campaign Passage.\n    ",
+        "submission_date": "2011-11-14T00:00:00",
+        "last_modified_date": "2011-11-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.3153",
+        "title": "Construction du lexique LGLex \u00e0 partir des tables du Lexique-Grammaire des verbes du grec moderne",
+        "authors": [
+            "Kyriaki Ioannidou",
+            "Elsa Tolone"
+        ],
+        "abstract": "In this paper, we summerize the work done on the resources of Modern Greek on the Lexicon-Grammar of verbs. We detail the definitional features of each table, and all changes made to the names of features to make them consistent. Through the development of the table of classes, including all the features, we have considered the conversion of tables in a syntactic lexicon: LGLex. The lexicon, in plain text format or XML, is generated by the LGExtract tool (Constant & Tolone, 2010). This format is directly usable in applications of Natural Language Processing (NLP).\n    ",
+        "submission_date": "2011-11-14T00:00:00",
+        "last_modified_date": "2011-11-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.3462",
+        "title": "Extending the adverbial coverage of a NLP oriented resource for French",
+        "authors": [
+            "Elsa Tolone",
+            "Voyatzi Stavroula"
+        ],
+        "abstract": "This paper presents a work on extending the adverbial entries of LGLex: a NLP oriented syntactic resource for French. Adverbs were extracted from the Lexicon-Grammar tables of both simple adverbs ending in -ment '-ly' (Molinier and Levrier, 2000) and compound adverbs (Gross, 1986; 1990). This work relies on the exploitation of fine-grained linguistic information provided in existing resources. Various features are encoded in both LG tables and they haven't been exploited yet. They describe the relations of deleting, permuting, intensifying and paraphrasing that associate, on the one hand, the simple and compound adverbs and, on the other hand, different types of compound adverbs. The resulting syntactic resource is manually evaluated and freely available under the LGPL-LR license.\n    ",
+        "submission_date": "2011-11-15T00:00:00",
+        "last_modified_date": "2011-11-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.4343",
+        "title": "Question Answering in a Natural Language Understanding System Based on Object-Oriented Semantics",
+        "authors": [
+            "Yuriy Ostapov"
+        ],
+        "abstract": "Algorithms of question answering in a computer system oriented on input and logical processing of text information are presented. A knowledge domain under consideration is social behavior of a person. A database of the system includes an internal representation of natural language sentences and supplemental information. The answer {\\it Yes} or {\\it No} is formed for a general question. A special question containing an interrogative word or group of interrogative words permits to find a subject, object, place, time, cause, purpose and way of action or event. Answer generation is based on identification algorithms of persons, organizations, machines, things, places, and times. Proposed algorithms of question answering can be realized in information systems closely connected with text processing (criminology, operation of business, medicine, document systems).\n    ",
+        "submission_date": "2011-11-18T00:00:00",
+        "last_modified_date": "2011-11-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.5293",
+        "title": "Rule based Part of speech Tagger for Homoeopathy Clinical realm",
+        "authors": [
+            "Sanjay K. Dwivedi",
+            "Pramod P. Sukhadeve"
+        ],
+        "abstract": "A tagger is a mandatory segment of most text scrutiny systems, as it consigned a s yntax class (e.g., noun, verb, adjective, and adverb) to every word in a sentence. In this paper, we present a simple part of speech tagger for homoeopathy clinical language. This paper reports about the anticipated part of speech tagger for homoeopathy clinical language. It exploit standard pattern for evaluating sentences, untagged clinical corpus of 20085 words is used, from which we had selected 125 sentences (2322 tokens). The problem of tagging in natural language processing is to find a way to tag every word in a text as a meticulous part of speech. The basic idea is to apply a set of rules on clinical sentences and on each word, Accuracy is the leading factor in evaluating any POS tagger so the accuracy of proposed tagger is also conversed.\n    ",
+        "submission_date": "2011-11-13T00:00:00",
+        "last_modified_date": "2011-11-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.6553",
+        "title": "Exploring Twitter Hashtags",
+        "authors": [
+            "Jan P\u00f6schko"
+        ],
+        "abstract": "Twitter messages often contain so-called hashtags to denote keywords related to them. Using a dataset of 29 million messages, I explore relations among these hashtags with respect to co-occurrences. Furthermore, I present an attempt to classify hashtags into five intuitive classes, using a machine-learning approach. The overall outcome is an interactive Web application to explore Twitter hashtags.\n    ",
+        "submission_date": "2011-11-28T00:00:00",
+        "last_modified_date": "2011-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.0168",
+        "title": "Statistical Sign Language Machine Translation: from English written text to American Sign Language Gloss",
+        "authors": [
+            "Achraf Othman",
+            "Mohamed Jemni"
+        ],
+        "abstract": "This works aims to design a statistical machine translation from English text to American Sign Language (ASL). The system is based on Moses tool with some modifications and the results are synthesized through a 3D avatar for interpretation. First, we translate the input text to gloss, a written form of ASL. Second, we pass the output to the WebSign Plug-in to play the sign. Contributions of this work are the use of a new couple of language English/ASL and an improvement of statistical machine translation based on string matching thanks to Jaro-distance.\n    ",
+        "submission_date": "2011-12-01T00:00:00",
+        "last_modified_date": "2011-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.0396",
+        "title": "Grammatical Relations of Myanmar Sentences Augmented by Transformation-Based Learning of Function Tagging",
+        "authors": [
+            "Win Win Thant",
+            "Tin Myat Htwe",
+            "Ni Lar Thein"
+        ],
+        "abstract": "In this paper we describe function tagging using Transformation Based Learning (TBL) for Myanmar that is a method of extensions to the previous statistics-based function tagger. Contextual and lexical rules (developed using TBL) were critical in achieving good results. First, we describe a method for expressing lexical relations in function tagging that statistical function tagging are currently unable to express. Function tagging is the preprocessing step to show grammatical relations of the sentences. Then we use the context free grammar technique to clarify the grammatical relations in Myanmar sentences or to output the parse trees. The grammatical relations are the functional structure of a language. They rely very much on the function tag of the tokens. We augment the grammatical relations of Myanmar sentences with transformation-based learning of function tagging.\n    ",
+        "submission_date": "2011-12-02T00:00:00",
+        "last_modified_date": "2011-12-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.2468",
+        "title": "Creating a Live, Public Short Message Service Corpus: The NUS SMS Corpus",
+        "authors": [
+            "Tao Chen",
+            "Min-Yen Kan"
+        ],
+        "abstract": "  Short Message Service (SMS) messages are largely sent directly from one person to another from their mobile phones. They represent a means of personal communication that is an important communicative artifact in our current digital era. As most existing studies have used private access to SMS corpora, comparative studies using the same raw SMS data has not been possible up to now. We describe our efforts to collect a public SMS corpus to address this problem. We use a battery of methodologies to collect the corpus, paying particular attention to privacy issues to address contributors' concerns. Our live project collects new SMS message submissions, checks their quality and adds the valid messages, releasing the resultant corpus as XML and as SQL dumps, along with corpus statistics, every month. We opportunistically collect as much metadata about the messages and their sender as possible, so as to enable different types of analyses. To date, we have collected about 60,000 messages, focusing on English and Mandarin Chinese.\n    ",
+        "submission_date": "2011-12-12T00:00:00",
+        "last_modified_date": "2011-12-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.6286",
+        "title": "Visualization and Analysis of Frames in Collections of Messages: Content Analysis and the Measurement of Meaning",
+        "authors": [
+            "Esther Vlieger",
+            "Loet Leydesdorff"
+        ],
+        "abstract": "A step-to-step introduction is provided on how to generate a semantic map from a collection of messages (full texts, paragraphs or statements) using freely available software and/or SPSS for the relevant statistics and the visualization. The techniques are discussed in the various theoretical contexts of (i) linguistics (e.g., Latent Semantic Analysis), (ii) sociocybernetics and social systems theory (e.g., the communication of meaning), and (iii) communication studies (e.g., framing and agenda-setting). We distinguish between the communication of information in the network space (social network analysis) and the communication of meaning in the vector space. The vector space can be considered a generated as an architecture by the network of relations in the network space; words are then not only related, but also positioned. These positions are expected rather than observed and therefore one can communicate meaning. Knowledge can be generated when these meanings can recursively be communicated and therefore also further codified.\n    ",
+        "submission_date": "2011-12-29T00:00:00",
+        "last_modified_date": "2011-12-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.6384",
+        "title": "Proof nets for the Lambek-Grishin calculus",
+        "authors": [
+            "Michael Moortgat",
+            "Richard Moot"
+        ],
+        "abstract": "Grishin's generalization of Lambek's Syntactic Calculus combines a non-commutative multiplicative conjunction and its residuals (product, left and right division) with a dual family: multiplicative disjunction, right and left difference. Interaction between these two families takes the form of linear distributivity principles. We study proof nets for the Lambek-Grishin calculus and the correspondence between these nets and unfocused and focused versions of its sequent calculus.\n    ",
+        "submission_date": "2011-12-29T00:00:00",
+        "last_modified_date": "2011-12-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.0510",
+        "title": "Good Friends, Bad News - Affect and Virality in Twitter",
+        "authors": [
+            "Lars Kai Hansen",
+            "Adam Arvidsson",
+            "Finn \u00c5rup Nielsen",
+            "Elanor Colleoni",
+            "Michael Etter"
+        ],
+        "abstract": "The link between affect, defined as the capacity for sentimental arousal on the part of a message, and virality, defined as the probability that it be sent along, is of significant theoretical and practical importance, e.g. for viral marketing. A quantitative study of emailing of articles from the NY Times finds a strong link between positive affect and virality, and, based on psychological theories it is concluded that this relation is universally valid. The conclusion appears to be in contrast with classic theory of diffusion in news media emphasizing negative affect as promoting propagation. In this paper we explore the apparent paradox in a quantitative analysis of information diffusion on Twitter. Twitter is interesting in this context as it has been shown to present both the characteristics social and news media. The basic measure of virality in Twitter is the probability of retweet. Twitter is different from email in that retweeting does not depend on pre-existing social relations, but often occur among strangers, thus in this respect Twitter may be more similar to traditional news media. We therefore hypothesize that negative news content is more likely to be retweeted, while for non-news tweets positive sentiments support virality. To test the hypothesis we analyze three corpora: A complete sample of tweets about the COP15 climate summit, a random sample of tweets, and a general text corpus including news. The latter allows us to train a classifier that can distinguish tweets that carry news and non-news information. We present evidence that negative sentiment enhances virality in the news segment, but not in the non-news segment. We conclude that the relation between affect and virality is more complex than expected based on the findings of Berger and Milkman (2010), in short 'if you want to be cited: Sweet talk your friends or serve bad news to the public'.\n    ",
+        "submission_date": "2011-01-03T00:00:00",
+        "last_modified_date": "2011-01-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.2804",
+        "title": "Aging in language dynamics",
+        "authors": [
+            "Animesh Mukherjee",
+            "Francesca Tria",
+            "Andrea Baronchelli",
+            "Andrea Puglisi",
+            "Vittorio Loreto"
+        ],
+        "abstract": "Human languages evolve continuously, and a puzzling problem is how to reconcile the apparent robustness of most of the deep linguistic structures we use with the evidence that they undergo possibly slow, yet ceaseless, changes. Is the state in which we observe languages today closer to what would be a dynamical attractor with statistically stationary properties or rather closer to a non-steady state slowly evolving in time? Here we address this question in the framework of the emergence of shared linguistic categories in a population of individuals interacting through language games. The observed emerging asymptotic categorization, which has been previously tested - with success - against experimental data from human languages, corresponds to a metastable state where global shifts are always possible but progressively more unlikely and the response properties depend on the age of the system. This aging mechanism exhibits striking quantitative analogies to what is observed in the statistical mechanics of glassy systems. We argue that this can be a general scenario in language dynamics where shared linguistic conventions would not emerge as attractors, but rather as metastable states.\n    ",
+        "submission_date": "2011-01-14T00:00:00",
+        "last_modified_date": "2011-01-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1101.3578",
+        "title": "Infinity in computable probability",
+        "authors": [
+            "Maarten McKubre-Jordens",
+            "Phillip L. Wilson"
+        ],
+        "abstract": "Does combining a finite collection of objects infinitely many times guarantee the construction of a particular object? Here we use recursive function theory to examine the popular scenario of an infinite collection of typing monkeys reproducing the works of Shakespeare. Our main result is to show that it is possible to assign typing probabilities in such a way that while it is impossible that no monkey reproduces Shakespeare's works, the probability of any finite collection of monkeys doing so is arbitrarily small. We extend our results to target-free writing, and end with a broad discussion and pointers to future work.\n    ",
+        "submission_date": "2011-01-18T00:00:00",
+        "last_modified_date": "2020-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.0398",
+        "title": "Natural Language Processing (almost) from Scratch",
+        "authors": [
+            "Ronan Collobert",
+            "Jason Weston",
+            "Leon Bottou",
+            "Michael Karlen",
+            "Koray Kavukcuoglu",
+            "Pavel Kuksa"
+        ],
+        "abstract": "We propose a unified neural network architecture and learning algorithm that can be applied to various natural language processing tasks including: part-of-speech tagging, chunking, named entity recognition, and semantic role labeling. This versatility is achieved by trying to avoid task-specific engineering and therefore disregarding a lot of prior knowledge. Instead of exploiting man-made input features carefully optimized for each task, our system learns internal representations on the basis of vast amounts of mostly unlabeled training data. This work is then used as a basis for building a freely available tagging system with good performance and minimal computational requirements.\n    ",
+        "submission_date": "2011-03-02T00:00:00",
+        "last_modified_date": "2011-03-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.0784",
+        "title": "Happiness is assortative in online social networks",
+        "authors": [
+            "Johan Bollen",
+            "Bruno Goncalves",
+            "Guangchen Ruan",
+            "Huina Mao"
+        ],
+        "abstract": "Social networks tend to disproportionally favor connections between individuals with either similar or dissimilar characteristics. This propensity, referred to as assortative mixing or homophily, is expressed as the correlation between attribute values of nearest neighbour vertices in a graph. Recent results indicate that beyond demographic features such as age, sex and race, even psychological states such as \"loneliness\" can be assortative in a social network. In spite of the increasing societal importance of online social networks it is unknown whether assortative mixing of psychological states takes place in situations where social ties are mediated solely by online networking services in the absence of physical contact. Here, we show that general happiness or Subjective Well-Being (SWB) of Twitter users, as measured from a 6 month record of their individual tweets, is indeed assortative across the Twitter social network. To our knowledge this is the first result that shows assortative mixing in online networks at the level of SWB. Our results imply that online social networks may be equally subject to the social mechanisms that cause assortative mixing in real social networks and that such assortative mixing takes place at the level of SWB. Given the increasing prevalence of online social networks, their propensity to connect users with similar levels of SWB may be an important instrument in better understanding how both positive and negative sentiments spread through online social ties. Future research may focus on how event-specific mood states can propagate and influence user behavior in \"real life\".\n    ",
+        "submission_date": "2011-03-03T00:00:00",
+        "last_modified_date": "2011-03-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.0890",
+        "title": "Efficient Multi-Template Learning for Structured Prediction",
+        "authors": [
+            "Qi Mao",
+            "Ivor W. Tsang"
+        ],
+        "abstract": "Conditional random field (CRF) and Structural Support Vector Machine (Structural SVM) are two state-of-the-art methods for structured prediction which captures the interdependencies among output variables. The success of these methods is attributed to the fact that their discriminative models are able to account for overlapping features on the whole input observations. These features are usually generated by applying a given set of templates on labeled data, but improper templates may lead to degraded performance. To alleviate this issue, in this paper, we propose a novel multiple template learning paradigm to learn structured prediction and the importance of each template simultaneously, so that hundreds of arbitrary templates could be added into the learning model without caution. This paradigm can be formulated as a special multiple kernel learning problem with exponential number of constraints. Then we introduce an efficient cutting plane algorithm to solve this problem in the primal, and its convergence is presented. We also evaluate the proposed learning paradigm on two widely-studied structured prediction tasks, \\emph{i.e.} sequence labeling and dependency parsing. Extensive experimental results show that the proposed method outperforms CRFs and Structural SVMs due to exploiting the importance of each template. Our complexity analysis and empirical results also show that our proposed method is more efficient than OnlineMKL on very sparse and high-dimensional data. We further extend this paradigm for structured prediction using generalized $p$-block norm regularization with $p>1$, and experiments show competitive performances when $p \\in [1,2)$.\n    ",
+        "submission_date": "2011-03-04T00:00:00",
+        "last_modified_date": "2013-05-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.2681",
+        "title": "A Paradoxical Property of the Monkey Book",
+        "authors": [
+            "Sebastian Bernhardsson",
+            "Seung Ki Baek",
+            "Petter Minnhagen"
+        ],
+        "abstract": "A \"monkey book\" is a book consisting of a random distribution of letters and blanks, where a group of letters surrounded by two blanks is defined as a word. We compare the statistics of the word distribution for a monkey book with the corresponding distribution for the general class of random books, where the latter are books for which the words are randomly distributed. It is shown that the word distribution statistics for the monkey book is different and quite distinct from a typical sampled book or real book. In particular the monkey book obeys Heaps' power law to an extraordinary good approximation, in contrast to the word distributions for sampled and real books, which deviate from Heaps' law in a characteristics way. The somewhat counter-intuitive conclusion is that a \"monkey book\" obeys Heaps' power law precisely because its word-frequency distribution is not a smooth power law, contrary to the expectation based on simple mathematical arguments that if one is a power law, so is the other.\n    ",
+        "submission_date": "2011-03-14T00:00:00",
+        "last_modified_date": "2011-03-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.2903",
+        "title": "A new ANEW: Evaluation of a word list for sentiment analysis in microblogs",
+        "authors": [
+            "Finn \u00c5rup Nielsen"
+        ],
+        "abstract": "Sentiment analysis of microblogs such as Twitter has recently gained a fair amount of attention. One of the simplest sentiment analysis approaches compares the words of a posting against a labeled word list, where each word has been scored for valence, -- a 'sentiment lexicon' or 'affective word lists'. There exist several affective word lists, e.g., ANEW (Affective Norms for English Words) developed before the advent of microblogging and sentiment analysis. I wanted to examine how well ANEW and other word lists performs for the detection of sentiment strength in microblog posts in comparison with a new word list specifically constructed for microblogs. I used manually labeled postings from Twitter scored for sentiment. Using a simple word matching I show that the new word list may perform better than ANEW, though not as good as the more elaborate approach found in SentiStrength.\n    ",
+        "submission_date": "2011-03-15T00:00:00",
+        "last_modified_date": "2011-03-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.3585",
+        "title": "Incremental dimension reduction of tensors with random index",
+        "authors": [
+            "Fredrik Sandin",
+            "Blerim Emruli",
+            "Magnus Sahlgren"
+        ],
+        "abstract": "We present an incremental, scalable and efficient dimension reduction technique for tensors that is based on sparse random linear coding. Data is stored in a compactified representation with fixed size, which makes memory requirements low and predictable. Component encoding and decoding are performed on-line without computationally expensive re-analysis of the data set. The range of tensor indices can be extended dynamically without modifying the component representation. This idea originates from a mathematical model of semantic memory and a method known as random indexing in natural language processing. We generalize the random-indexing algorithm to tensors and present signal-to-noise-ratio simulations for representations of vectors and matrices. We present also a mathematical analysis of the approximate orthogonality of high-dimensional ternary vectors, which is a property that underpins this and other similar random-coding approaches to dimension reduction. To further demonstrate the properties of random indexing we present results of a synonym identification task. The method presented here has some similarities with random projection and Tucker decomposition, but it performs well at high dimensionality only (n>10^3). Random indexing is useful for a range of complex practical problems, e.g., in natural language processing, data mining, pattern recognition, event detection, graph searching and search engines. Prototype software is provided. It supports encoding and decoding of tensors of order >= 1 in a unified framework, i.e., vectors, matrices and higher order tensors.\n    ",
+        "submission_date": "2011-03-18T00:00:00",
+        "last_modified_date": "2011-03-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.3952",
+        "title": "Mixing, Ergodic, and Nonergodic Processes with Rapidly Growing Information between Blocks",
+        "authors": [
+            "\u0141ukasz D\u0119bowski"
+        ],
+        "abstract": "We construct mixing processes over an infinite alphabet and ergodic processes over a finite alphabet for which Shannon mutual information between adjacent blocks of length $n$ grows as $n^\\beta$, where $\\beta\\in(0,1)$. The processes are a modification of nonergodic Santa Fe processes, which were introduced in the context of natural language modeling. The rates of mutual information for the latter processes are alike and also established in this paper. As an auxiliary result, it is shown that infinite direct products of mixing processes are also mixing.\n    ",
+        "submission_date": "2011-03-21T00:00:00",
+        "last_modified_date": "2011-11-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.4012",
+        "title": "On the accuracy of language trees",
+        "authors": [
+            "Simone Pompei",
+            "Vittorio Loreto",
+            "Francesca Tria"
+        ],
+        "abstract": "Historical linguistics aims at inferring the most likely language phylogenetic tree starting from information concerning the evolutionary relatedness of languages. The available information are typically lists of homologous (lexical, phonological, syntactic) features or characters for many different languages.\n",
+        "submission_date": "2011-03-21T00:00:00",
+        "last_modified_date": "2011-03-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1103.4090",
+        "title": "A Linear Classifier Based on Entity Recognition Tools and a Statistical Approach to Method Extraction in the Protein-Protein Interaction Literature",
+        "authors": [
+            "An\u00e1lia Louren\u00e7o",
+            "Michael Conover",
+            "Andrew Wong",
+            "Azadeh Nematzadeh",
+            "Fengxia Pan",
+            "Hagit Shatkay",
+            "Luis M. Rocha"
+        ],
+        "abstract": "We participated, in the Article Classification and the Interaction Method subtasks (ACT and IMT, respectively) of the Protein-Protein Interaction task of the BioCreative III Challenge. For the ACT, we pursued an extensive testing of available Named Entity Recognition and dictionary tools, and used the most promising ones to extend our Variable Trigonometric Threshold linear classifier. For the IMT, we experimented with a primarily statistical approach, as opposed to employing a deeper natural language processing strategy. Finally, we also studied the benefits of integrating the method extraction approach that we have used for the IMT into the ACT pipeline. For the ACT, our linear article classifier leads to a ranking and classification performance significantly higher than all the reported submissions. For the IMT, our results are comparable to those of other systems, which took very different approaches. For the ACT, we show that the use of named entity recognition tools leads to a substantial improvement in the ranking and classification of articles relevant to protein-protein interaction. Thus, we show that our substantially expanded linear classifier is a very competitive classifier in this domain. Moreover, this classifier produces interpretable surfaces that can be understood as \"rules\" for human understanding of the classification. In terms of the IMT task, in contrast to other participants, our approach focused on identifying sentences that are likely to bear evidence for the application of a PPI detection method, rather than on classifying a document as relevant to a method. As BioCreative III did not perform an evaluation of the evidence provided by the system, we have conducted a separate assessment; the evaluators agree that our tool is indeed effective in detecting relevant evidence for PPI detection methods.\n    ",
+        "submission_date": "2011-03-21T00:00:00",
+        "last_modified_date": "2011-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.4950",
+        "title": "A Machine Learning Based Analytical Framework for Semantic Annotation Requirements",
+        "authors": [
+            "Hamed Hassanzadeh",
+            "MohammadReza Keyvanpour"
+        ],
+        "abstract": "The Semantic Web is an extension of the current web in which information is given well-defined meaning. The perspective of Semantic Web is to promote the quality and intelligence of the current web by changing its contents into machine understandable form. Therefore, semantic level information is one of the cornerstones of the Semantic Web. The process of adding semantic metadata to web resources is called Semantic Annotation. There are many obstacles against the Semantic Annotation, such as multilinguality, scalability, and issues which are related to diversity and inconsistency in content of different web pages. Due to the wide range of domains and the dynamic environments that the Semantic Annotation systems must be performed on, the problem of automating annotation process is one of the significant challenges in this domain. To overcome this problem, different machine learning approaches such as supervised learning, unsupervised learning and more recent ones like, semi-supervised learning and active learning have been utilized. In this paper we present an inclusive layered classification of Semantic Annotation challenges and discuss the most important issues in this field. Also, we review and analyze machine learning applications for solving semantic annotation problems. For this goal, the article tries to closely study and categorize related researches for better understanding and to reach a framework that can map machine learning techniques into the Semantic Annotation challenges and requirements.\n    ",
+        "submission_date": "2011-04-26T00:00:00",
+        "last_modified_date": "2011-04-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1104.5362",
+        "title": "Selected Operations, Algorithms, and Applications of n-Tape Weighted Finite-State Machines",
+        "authors": [
+            "Andr\u00e9 Kempe"
+        ],
+        "abstract": "A weighted finite-state machine with n tapes (n-WFSM) defines a rational relation on n strings. It is a generalization of weighted acceptors (one tape) and transducers (two tapes).\n",
+        "submission_date": "2011-04-28T00:00:00",
+        "last_modified_date": "2011-04-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1105.1306",
+        "title": "Excess entropy in natural language: present state and perspectives",
+        "authors": [
+            "\u0141ukasz D\u0119bowski"
+        ],
+        "abstract": "We review recent progress in understanding the meaning of mutual information in natural language. Let us define words in a text as strings that occur sufficiently often. In a few previous papers, we have shown that a power-law distribution for so defined words (a.k.a. Herdan's law) is obeyed if there is a similar power-law growth of (algorithmic) mutual information between adjacent portions of texts of increasing length. Moreover, the power-law growth of information holds if texts describe a complicated infinite (algorithmically) random object in a highly repetitive way, according to an analogous power-law distribution. The described object may be immutable (like a mathematical or physical constant) or may evolve slowly in time (like cultural heritage). Here we reflect on the respective mathematical results in a less technical way. We also discuss feasibility of deciding to what extent these results apply to the actual human communication.\n    ",
+        "submission_date": "2011-05-06T00:00:00",
+        "last_modified_date": "2011-08-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.0107",
+        "title": "Handwritten Character Recognition of South Indian Scripts: A Review",
+        "authors": [
+            "John Jomy",
+            "K. V. Pramod",
+            "Balakrishnan Kannan"
+        ],
+        "abstract": "Handwritten character recognition is always a frontier area of research in the field of pattern recognition and image processing and there is a large demand for OCR on hand written documents. Even though, sufficient studies have performed in foreign scripts like Chinese, Japanese and Arabic characters, only a very few work can be traced for handwritten character recognition of Indian scripts especially for the South Indian scripts. This paper provides an overview of offline handwritten character recognition in South Indian Scripts, namely Malayalam, Tamil, Kannada and Telungu.\n    ",
+        "submission_date": "2011-06-01T00:00:00",
+        "last_modified_date": "2011-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1106.5308",
+        "title": "Clasificarea distribuita a mesajelor de e-mail",
+        "authors": [
+            "Florin Pop",
+            "Diana Petrescu",
+            "\u015etefan Trau\u015fan-Matu"
+        ],
+        "abstract": "A basic component in Internet applications is the electronic mail and its various implications. The paper proposes a mechanism for automatically classifying emails and create dynamic groups that belong to these messages. Proposed mechanisms will be based on natural language processing techniques and will be designed to facilitate human-machine interaction in this direction.\n    ",
+        "submission_date": "2011-06-27T00:00:00",
+        "last_modified_date": "2011-06-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.3263",
+        "title": "Naming Game on Adaptive Weighted Networks",
+        "authors": [
+            "Dorota Lipowska",
+            "Adam Lipowski"
+        ],
+        "abstract": "We examine a naming game on an adaptive weighted network. A weight of connection for a given pair of agents depends on their communication success rate and determines the probability with which the agents communicate. In some cases, depending on the parameters of the model, the preference toward successfully communicating agents is basically negligible and the model behaves similarly to the naming game on a complete graph. In particular, it quickly reaches a single-language state, albeit some details of the dynamics are different from the complete-graph version. In some other cases, the preference toward successfully communicating agents becomes much more relevant and the model gets trapped in a multi-language regime. In this case gradual coarsening and extinction of languages lead to the emergence of a dominant language, albeit with some other languages still being present. A comparison of distribution of languages in our model and in the human population is discussed.\n    ",
+        "submission_date": "2011-07-16T00:00:00",
+        "last_modified_date": "2012-03-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.3707",
+        "title": "Statistical Laws Governing Fluctuations in Word Use from Word Birth to Word Death",
+        "authors": [
+            "Alexander M. Petersen",
+            "Joel Tenenbaum",
+            "Shlomo Havlin",
+            "H. Eugene Stanley"
+        ],
+        "abstract": "We analyze the dynamic properties of 10^7 words recorded in English, Spanish and Hebrew over the period 1800--2008 in order to gain insight into the coevolution of language and culture. We report language independent patterns useful as benchmarks for theoretical models of language evolution. A significantly decreasing (increasing) trend in the birth (death) rate of words indicates a recent shift in the selection laws governing word use. For new words, we observe a peak in the growth-rate fluctuations around 40 years after introduction, consistent with the typical entry time into standard dictionaries and the human generational timescale. Pronounced changes in the dynamics of language during periods of war shows that word correlations, occurring across time and between words, are largely influenced by coevolutionary social, technological, and political factors. We quantify cultural memory by analyzing the long-term correlations in the use of individual words using detrended fluctuation analysis.\n    ",
+        "submission_date": "2011-07-19T00:00:00",
+        "last_modified_date": "2012-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1107.4573",
+        "title": "Analogy perception applied to seven tests of word comprehension",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "It has been argued that analogy is the core of cognition. In AI research, algorithms for analogy are often limited by the need for hand-coded high-level representations as input. An alternative approach is to use high-level perception, in which high-level representations are automatically generated from raw data. Analogy perception is the process of recognizing analogies using high-level perception. We present PairClass, an algorithm for analogy perception that recognizes lexical proportional analogies using representations that are automatically generated from a large corpus of raw textual data. A proportional analogy is an analogy of the form A:B::C:D, meaning \"A is to B as C is to D\". A lexical proportional analogy is a proportional analogy with words, such as carpenter:wood::mason:stone. PairClass represents the semantic relations between two words using a high-dimensional feature vector, in which the elements are based on frequencies of patterns in the corpus. PairClass recognizes analogies by applying standard supervised machine learning techniques to the feature vectors. We show how seven different tests of word comprehension can be framed as problems of analogy perception and we then apply PairClass to the seven resulting sets of analogy perception problems. We achieve competitive results on all seven tests. This is the first time a uniform approach has handled such a range of tests of word comprehension.\n    ",
+        "submission_date": "2011-07-22T00:00:00",
+        "last_modified_date": "2011-07-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5192",
+        "title": "Positivity of the English language",
+        "authors": [
+            "Isabel M. Kloumann",
+            "Christopher M. Danforth",
+            "Kameron Decker Harris",
+            "Catherine A. Bliss",
+            "Peter Sheridan Dodds"
+        ],
+        "abstract": "Over the last million years, human language has emerged and evolved as a fundamental instrument of social communication and semiotic representation. People use language in part to convey emotional information, leading to the central and contingent questions: (1) What is the emotional spectrum of natural language? and (2) Are natural languages neutrally, positively, or negatively biased? Here, we report that the human-perceived positivity of over 10,000 of the most frequently used English words exhibits a clear positive bias. More deeply, we characterize and quantify distributions of word positivity for four large and distinct corpora, demonstrating that their form is broadly invariant with respect to frequency of word use.\n    ",
+        "submission_date": "2011-08-25T00:00:00",
+        "last_modified_date": "2012-01-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5520",
+        "title": "A sentiment analysis of Singapore Presidential Election 2011 using Twitter data with census correction",
+        "authors": [
+            "Murphy Choy",
+            "Michelle L.F. Cheong",
+            "Ma Nang Laik",
+            "Koo Ping Shung"
+        ],
+        "abstract": "Sentiment analysis is a new area in text analytics where it focuses on the analysis and understanding of the emotions from the text patterns. This new form of analysis has been widely adopted in customer relation management especially in the context of complaint management. With increasing level of interest in this technology, more and more companies are adopting it and using it to champion their marketing efforts. However, sentiment analysis using twitter has remained extremely difficult to manage due to the sampling bias. In this paper, we will discuss about the application of using reweighting techniques in conjunction with online sentiment divisions to predict the vote percentage that individual candidate will receive. There will be in depth discussion about the various aspects using sentiment analysis to predict outcomes as well as the potential pitfalls in the estimation due to the anonymous nature of the internet.\n    ",
+        "submission_date": "2011-08-29T00:00:00",
+        "last_modified_date": "2011-08-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1108.5567",
+        "title": "Parsing Combinatory Categorial Grammar with Answer Set Programming: Preliminary Report",
+        "authors": [
+            "Yuliya Lierler",
+            "Peter Sch\u00fcller"
+        ],
+        "abstract": "Combinatory categorial grammar (CCG) is a grammar formalism used for natural language parsing. CCG assigns structured lexical categories to words and uses a small set of combinatory rules to combine these categories to parse a sentence. In this work we propose and implement a new approach to CCG parsing that relies on a prominent knowledge representation formalism, answer set programming (ASP) - a declarative programming paradigm. We formulate the task of CCG parsing as a planning problem and use an ASP computational tool to compute solutions that correspond to valid parses. Compared to other approaches, there is no need to implement a specific parsing algorithm using such a declarative method. Our approach aims at producing all semantically distinct parse trees for a given sentence. From this goal, normalization and efficiency issues arise, and we deal with them by combining and extending existing strategies. We have implemented a CCG parsing tool kit - AspCcgTk - that uses ASP as its main computational means. The C&C supertagger can be used as a preprocessor within AspCcgTk, which allows us to achieve wide-coverage natural language parsing.\n    ",
+        "submission_date": "2011-08-29T00:00:00",
+        "last_modified_date": "2011-08-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.1618",
+        "title": "An analysis of Twitter messages in the 2011 Tohoku Earthquake",
+        "authors": [
+            "Son Doan",
+            "Bao-Khanh Ho Vo",
+            "Nigel Collier"
+        ],
+        "abstract": "Social media such as Facebook and Twitter have proven to be a useful resource to understand public opinion towards real world events. In this paper, we investigate over 1.5 million Twitter messages (tweets) for the period 9th March 2011 to 31st May 2011 in order to track awareness and anxiety levels in the Tokyo metropolitan district to the 2011 Tohoku Earthquake and subsequent tsunami and nuclear emergencies. These three events were tracked using both English and Japanese tweets. Preliminary results indicated: 1) close correspondence between Twitter data and earthquake events, 2) strong correlation between English and Japanese tweets on the same events, 3) tweets in the native language play an important roles in early warning, 4) tweets showed how quickly Japanese people's anxiety returned to normal levels after the earthquake event. Several distinctions between English and Japanese tweets on earthquake events are also discussed. The results suggest that Twitter data can be used as a useful resource for tracking the public mood of populations affected by natural disasters as well as an early warning system.\n    ",
+        "submission_date": "2011-09-08T00:00:00",
+        "last_modified_date": "2011-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1109.6341",
+        "title": "Domain Adaptation for Statistical Classifiers",
+        "authors": [
+            "H. Daume III",
+            "D. Marcu"
+        ],
+        "abstract": "The most basic assumption used in statistical learning theory is that training data and test data are drawn from the same underlying distribution.  Unfortunately, in many applications, the \"in-domain\" test data is drawn from a distribution that is related, but not identical, to the \"out-of-domain\" distribution of the training data. We consider the common case in which labeled out-of-domain data is plentiful, but labeled in-domain data is scarce.  We introduce a statistical formulation of this problem in terms of a simple mixture model and present an instantiation of this framework to maximum entropy classifiers and their linear chain counterparts.  We present efficient inference algorithms for this special case based on the technique of conditional expectation maximization.  Our experimental results show that our approach leads to improved performance on three real world tasks on four different data sets from the natural language processing domain.\n    ",
+        "submission_date": "2011-09-28T00:00:00",
+        "last_modified_date": "2011-09-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.2162",
+        "title": "Large-Margin Learning of Submodular Summarization Methods",
+        "authors": [
+            "Ruben Sipos",
+            "Pannaga Shivaswamy",
+            "Thorsten Joachims"
+        ],
+        "abstract": "In this paper, we present a supervised learning approach to training submodular scoring functions for extractive multi-document summarization. By taking a structured predicition approach, we provide a large-margin method that directly optimizes a convex relaxation of the desired performance measure. The learning method applies to all submodular summarization methods, and we demonstrate its effectiveness for both pairwise as well as coverage-based scoring functions on multiple datasets. Compared to state-of-the-art functions that were tuned manually, our method significantly improves performance and enables high-fidelity models with numbers of parameters well beyond what could reasonbly be tuned by hand.\n    ",
+        "submission_date": "2011-10-10T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1110.6200",
+        "title": "TopicViz: Semantic Navigation of Document Collections",
+        "authors": [
+            "Jacob Eisenstein",
+            "Duen Horng \"Polo\" Chau",
+            "Aniket Kittur",
+            "Eric P. Xing"
+        ],
+        "abstract": "When people explore and manage information, they think in terms of topics and themes. However, the software that supports information exploration sees text at only the surface level. In this paper we show how topic modeling -- a technique for identifying latent themes across large collections of documents -- can support semantic exploration. We present TopicViz, an interactive environment for information exploration. TopicViz combines traditional search and citation-graph functionality with a range of novel interactive visualizations, centered around a force-directed layout that links documents to the latent themes discovered by the topic model. We describe several use scenarios in which TopicViz supports rapid sensemaking on large document collections.\n    ",
+        "submission_date": "2011-10-27T00:00:00",
+        "last_modified_date": "2011-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.1648",
+        "title": "Sentiment Analysis of Document Based on Annotation",
+        "authors": [
+            "Archana Shukla"
+        ],
+        "abstract": "I present a tool which tells the quality of document or its usefulness based on annotations. Annotation may include comments, notes, observation, highlights, underline, explanation, question or help etc. comments are used for evaluative purpose while others are used for summarization or for expansion also. Further these comments may be on another annotation. Such annotations are referred as meta-annotation. All annotation may not get equal weightage. My tool considered highlights, underline as well as comments to infer the collective sentiment of annotators. Collective sentiments of annotators are classified as positive, negative, objectivity. My tool computes collective sentiment of annotations in two manners. It counts all the annotation present on the documents as well as it also computes sentiment scores of all annotation which includes comments to obtain the collective sentiments about the document or to judge the quality of document. I demonstrate the use of tool on research paper.\n    ",
+        "submission_date": "2011-11-07T00:00:00",
+        "last_modified_date": "2011-11-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.4316",
+        "title": "Semantic Navigation on the Web of Data: Specification of Routes, Web Fragments and Actions",
+        "authors": [
+            "Valeria Fionda",
+            "Claudio Gutierrez",
+            "Giuseppe Pirr\u00f3"
+        ],
+        "abstract": "The massive semantic data sources linked in the Web of Data give new meaning to old features like navigation; introduce new challenges like semantic specification of Web fragments; and make it possible to specify actions relying on semantic data. In this paper we introduce a declarative language to face these challenges. Based on navigational features, it is designed to specify fragments of the Web of Data and actions to be performed based on these data. We implement it in a centralized fashion, and show its power and performance. Finally, we explore the same ideas in a distributed setting, showing their feasibility, potentialities and challenges.\n    ",
+        "submission_date": "2011-11-18T00:00:00",
+        "last_modified_date": "2011-11-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1111.7190",
+        "title": "Developing Embodied Multisensory Dialogue Agents",
+        "authors": [
+            "Micha\u0142 B. Paradowski"
+        ],
+        "abstract": "A few decades of work in the AI field have focused efforts on developing a new generation of systems which can acquire knowledge via interaction with the world. Yet, until very recently, most such attempts were underpinned by research which predominantly regarded linguistic phenomena as separated from the brain and body. This could lead one into believing that to emulate linguistic behaviour, it suffices to develop 'software' operating on abstract representations that will work on any computational machine. This picture is inaccurate for several reasons, which are elucidated in this paper and extend beyond sensorimotor and semantic resonance. Beginning with a review of research, I list several heterogeneous arguments against disembodied language, in an attempt to draw conclusions for developing embodied multisensory agents which communicate verbally and non-verbally with their environment. Without taking into account both the architecture of the human brain, and embodiment, it is unrealistic to replicate accurately the processes which take place during language acquisition, comprehension, production, or during non-linguistic actions. While robots are far from isomorphic with humans, they could benefit from strengthened associative connections in the optimization of their processes and their reactivity and sensitivity to environmental stimuli, and in situated human-machine interaction. The concept of multisensory integration should be extended to cover linguistic input and the complementary information combined from temporally coincident sensory impressions.\n    ",
+        "submission_date": "2011-11-29T00:00:00",
+        "last_modified_date": "2012-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.3670",
+        "title": "Echoes of power: Language effects and power differences in social interaction",
+        "authors": [
+            "Cristian Danescu-Niculescu-Mizil",
+            "Lillian Lee",
+            "Bo Pang",
+            "Jon Kleinberg"
+        ],
+        "abstract": "Understanding social interaction within groups is key to analyzing online communities. Most current work focuses on structural properties: who talks to whom, and how such interactions form larger network structures. The interactions themselves, however, generally take place in the form of natural language --- either spoken or written --- and one could reasonably suppose that signals manifested in language might also provide information about roles, status, and other aspects of the group's dynamics. To date, however, finding such domain-independent language-based signals has been a challenge.\n",
+        "submission_date": "2011-12-15T00:00:00",
+        "last_modified_date": "2012-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.5947",
+        "title": "Random Context and Semi-Conditional Insertion-Deletion Systems",
+        "authors": [
+            "Sergiu Ivanov",
+            "Sergey Verlan"
+        ],
+        "abstract": "In this article we introduce the operations of insertion and deletion working in a random-context and semi-conditional manner. We show that the conditional use of rules strictly increase the computational power. In the case of semi-conditional insertion-deletion systems context-free insertion and deletion rules of one symbol are sufficient to get the computational completeness. In the random context case our results expose an asymmetry between the computational power of insertion and deletion rules: systems of size $(2,0,0; 1,1,0)$ are computationally complete, while systems of size $(1,1,0;2,0,0)$ (and more generally of size $(1,1,0;p,1,1)$) are not. This is particularly interesting because other control mechanisms like graph-control or matrix control used together with insertion-deletion systems do not present such asymmetry.\n    ",
+        "submission_date": "2011-12-27T00:00:00",
+        "last_modified_date": "2011-12-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/1112.6045",
+        "title": "Comparing intermittency and network measurements of words and their dependency on authorship",
+        "authors": [
+            "Diego R. Amancio",
+            "Eduardo G. Altmann",
+            "Osvaldo N. Oliveira Jr.",
+            "Luciano da F. Costa"
+        ],
+        "abstract": "Many features from texts and languages can now be inferred from statistical analyses using concepts from complex networks and dynamical systems. In this paper we quantify how topological properties of word co-occurrence networks and intermittency (or burstiness) in word distribution depend on the style of authors. Our database contains 40 books from 8 authors who lived in the 19th and 20th centuries, for which the following network measurements were obtained: clustering coefficient, average shortest path lengths, and betweenness. We found that the two factors with stronger dependency on the authors were the skewness in the distribution of word intermittency and the average shortest paths. Other factors such as the betweeness and the Zipf's law exponent show only weak dependency on authorship. Also assessed was the contribution from each measurement to authorship recognition using three machine learning methods. The best performance was a ca. 65 % accuracy upon combining complex network and intermittency features with the nearest neighbor algorithm. From a detailed analysis of the interdependence of the various metrics it is concluded that the methods used here are complementary for providing short- and long-scale perspectives of texts, which are useful for applications such as identification of topical words and information retrieval.\n    ",
+        "submission_date": "2011-12-28T00:00:00",
+        "last_modified_date": "2011-12-28T00:00:00"
+    }
+]

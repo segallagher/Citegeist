@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9908017",
+        "title": "A Differential Invariant for Zooming",
+        "authors": [
+            "Andreas Siebert"
+        ],
+        "abstract": "  This paper presents an invariant under scaling and linear brightness change. The invariant is based on differentials and therefore is a local feature. Rotationally invariant 2-d differential Gaussian operators up to third order are proposed for the implementation of the invariant. The performance is analyzed by simulating a camera zoom-out.\n    ",
+        "submission_date": "1999-08-26T00:00:00",
+        "last_modified_date": "1999-08-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9905013",
+        "title": "Robust Combining of Disparate Classifiers through Order Statistics",
+        "authors": [
+            "Kagan Tumer",
+            "Joydeep Ghosh"
+        ],
+        "abstract": "  Integrating the outputs of multiple classifiers via combiners or meta-learners has led to substantial improvements in several difficult pattern recognition problems. In the typical setting investigated till now, each classifier is trained on data taken or resampled from a common data set, or (almost) randomly selected subsets thereof, and thus experiences similar quality of training data. However, in certain situations where data is acquired and analyzed on-line at several geographically distributed locations, the quality of data may vary substantially, leading to large discrepancies in performance of individual classifiers. In this article we introduce and investigate a family of classifiers based on order statistics, for robust handling of such cases. Based on a mathematical modeling of how the decision boundaries are affected by order statistic combiners, we derive expressions for the reductions in error expected when such combiners are used. We show analytically that the selection of the median, the maximum and in general, the $i^{th}$ order statistic improves classification performance. Furthermore, we introduce the trim and spread combiners, both based on linear combinations of the ordered classifier outputs, and show that they are quite beneficial in presence of outliers or uneven classifier performance. Experimental results on several public domain data sets corroborate these findings.\n    ",
+        "submission_date": "1999-05-20T00:00:00",
+        "last_modified_date": "1999-05-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math-ph/9903036",
+        "title": "Numerically Invariant Signature Curves",
+        "authors": [
+            "Mireille Boutin"
+        ],
+        "abstract": "  Corrected versions of the numerically invariant expressions for the affine and Euclidean signature of a planar curve proposed by ",
+        "submission_date": "1999-03-18T00:00:00",
+        "last_modified_date": "1999-03-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/9905165",
+        "title": "Perception games, the image understanding and interpretational geometry",
+        "authors": [
+            "Denis V. Juriev"
+        ],
+        "abstract": "  The interactive game theoretical approach to the description of perception processes is proposed. The subject is treated formally in terms of a new class of the verbalizable interactive games which are called the perception games. An application of the previously elaborated formalism of dialogues and verbalizable interactive games to the visual perception allows to combine the linguistic (such as formal grammars), psycholinguistic and (interactive) game theoretical methods for analysis of the image understanding by a human that may be also useful for the elaboration of computer vision systems. By the way the interactive game theoretical aspects of interpretational geometries are clarified.\n    ",
+        "submission_date": "1999-05-26T00:00:00",
+        "last_modified_date": "1999-05-26T00:00:00"
+    }
+]

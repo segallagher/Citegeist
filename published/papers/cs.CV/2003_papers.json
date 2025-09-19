@@ -1,0 +1,283 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0301001",
+        "title": "Least squares fitting of circles and lines",
+        "authors": [
+            "N. Chernov",
+            "C. Lesort"
+        ],
+        "abstract": "  We study theoretical and computational aspects of the least squares fit (LSF) of circles and circular arcs. First we discuss the existence and uniqueness of LSF and various parametrization schemes. Then we evaluate several popular circle fitting algorithms and propose a new one that surpasses the existing methods in reliability. We also discuss and compare direct (algebraic) circle fits.\n    ",
+        "submission_date": "2003-01-01T00:00:00",
+        "last_modified_date": "2003-01-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0303015",
+        "title": "Statistical efficiency of curve fitting algorithms",
+        "authors": [
+            "N. Chernov",
+            "C. Lesort"
+        ],
+        "abstract": "  We study the problem of fitting parametrized curves to noisy data. Under certain assumptions (known as Cartesian and radial functional models), we derive asymptotic expressions for the bias and the covariance matrix of the parameter estimates. We also extend Kanatani's version of the Cramer-Rao lower bound, which he proved for unbiased estimates only, to more general estimates that include many popular algorithms (most notably, the orthogonal least squares and algebraic fits). We then show that the gradient-weighted algebraic fit is statistically efficient and describe all other statistically efficient algebraic fits.\n    ",
+        "submission_date": "2003-03-18T00:00:00",
+        "last_modified_date": "2003-03-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0303024",
+        "title": "Differential Methods in Catadioptric Sensor Design with Applications to Panoramic Imaging",
+        "authors": [
+            "R. Andrew Hicks"
+        ],
+        "abstract": "  We discuss design techniques for catadioptric sensors that realize given projections. In general, these problems do not have solutions, but approximate solutions may often be found that are visually acceptable. There are several methods to approach this problem, but here we focus on what we call the ``vector field approach''. An application is given where a true panoramic mirror is derived, i.e. a mirror that yields a cylindrical projection to the viewer without any digital unwarping.\n    ",
+        "submission_date": "2003-03-24T00:00:00",
+        "last_modified_date": "2003-03-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307038",
+        "title": "Manifold Learning with Geodesic Minimal Spanning Trees",
+        "authors": [
+            "Jose Costa",
+            "Alfred Hero"
+        ],
+        "abstract": "  In the manifold learning problem one seeks to discover a smooth low dimensional surface, i.e., a manifold embedded in a higher dimensional linear vector space, based on a set of measured sample points on the surface. In this paper we consider the closely related problem of estimating the manifold's intrinsic dimension and the intrinsic entropy of the sample points. Specifically, we view the sample points as realizations of an unknown multivariate density supported on an unknown smooth manifold. We present a novel geometrical probability approach, called the geodesic-minimal-spanning-tree (GMST), to obtaining asymptotically consistent estimates of the manifold dimension and the R\u00e9nyi $\\alpha$-entropy of the sample density on the manifold. The GMST approach is striking in its simplicity and does not require reconstructing the manifold or estimating the multivariate density of the samples. The GMST method simply constructs a minimal spanning tree (MST) sequence using a geodesic edge matrix and uses the overall lengths of the MSTs to simultaneously estimate manifold dimension and entropy. We illustrate the GMST approach for dimension and entropy estimation of a human face dataset.\n    ",
+        "submission_date": "2003-07-16T00:00:00",
+        "last_modified_date": "2003-07-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307045",
+        "title": "Flexible Camera Calibration Using a New Analytical Radial Undistortion Formula with Application to Mobile Robot Localization",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  Most algorithms in 3D computer vision rely on the pinhole camera model because of its simplicity, whereas virtually all imaging devices introduce certain amount of nonlinear distortion, where the radial distortion is the most severe part. Common approach to radial distortion is by the means of polynomial approximation, which introduces distortion-specific parameters into the camera model and requires estimation of these distortion parameters. The task of estimating radial distortion is to find a radial distortion model that allows easy undistortion as well as satisfactory accuracy. This paper presents a new radial distortion model with an easy analytical undistortion formula, which also belongs to the polynomial approximation category. Experimental results are presented to show that with this radial distortion model, satisfactory accuracy is achieved. An application of the new radial distortion model is non-iterative yellow line alignment with a calibrated camera on ODIS, a robot built in our CSOIS.\n    ",
+        "submission_date": "2003-07-20T00:00:00",
+        "last_modified_date": "2003-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307046",
+        "title": "A New Analytical Radial Distortion Model for Camera Calibration",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  Common approach to radial distortion is by the means of polynomial approximation, which introduces distortion-specific parameters into the camera model and requires estimation of these distortion parameters. The task of estimating radial distortion is to find a radial distortion model that allows easy undistortion as well as satisfactory accuracy. This paper presents a new radial distortion model with an easy analytical undistortion formula, which also belongs to the polynomial approximation category. Experimental results are presented to show that with this radial distortion model, satisfactory accuracy is achieved.\n    ",
+        "submission_date": "2003-07-20T00:00:00",
+        "last_modified_date": "2003-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307047",
+        "title": "Rational Radial Distortion Models with Analytical Undistortion Formulae",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  The common approach to radial distortion is by the means of polynomial approximation, which introduces distortion-specific parameters into the camera model and requires estimation of these distortion parameters. The task of estimating radial distortion is to find a radial distortion model that allows easy undistortion as well as satisfactory accuracy. This paper presents a new class of rational radial distortion models with easy analytical undistortion formulae. Experimental results are presented to show that with this class of rational radial distortion models, satisfactory and comparable accuracy is achieved.\n    ",
+        "submission_date": "2003-07-20T00:00:00",
+        "last_modified_date": "2003-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307051",
+        "title": "An Analytical Piecewise Radial Distortion Model for Precision Camera Calibration",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  The common approach to radial distortion is by the means of polynomial approximation, which introduces distortion-specific parameters into the camera model and requires estimation of these distortion parameters. The task of estimating radial distortion is to find a radial distortion model that allows easy undistortion as well as satisfactory accuracy. This paper presents a new piecewise radial distortion model with easy analytical undistortion formula. The motivation for seeking a piecewise radial distortion model is that, when a camera is resulted in a low quality during manufacturing, the nonlinear radial distortion can be complex. Using low order polynomials to approximate the radial distortion might not be precise enough. On the other hand, higher order polynomials suffer from the inverse problem. With the new piecewise radial distortion function, more flexibility is obtained and the radial undistortion can be performed analytically. Experimental results are presented to show that with this new piecewise radial distortion model, better performance is achieved than that using the single function. Furthermore, a comparable performance with the conventional polynomial model using 2 coefficients can also be accomplished.\n    ",
+        "submission_date": "2003-07-21T00:00:00",
+        "last_modified_date": "2003-07-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307072",
+        "title": "Camera Calibration: a USU Implementation",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  The task of camera calibration is to estimate the intrinsic and extrinsic parameters of a camera model. Though there are some restricted techniques to infer the 3-D information about the scene from uncalibrated cameras, effective camera calibration procedures will open up the possibility of using a wide range of existing algorithms for 3-D reconstruction and recognition.\n",
+        "submission_date": "2003-07-31T00:00:00",
+        "last_modified_date": "2003-07-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308003",
+        "title": "A Family of Simplified Geometric Distortion Models for Camera Calibration",
+        "authors": [
+            "Lili Ma",
+            "YangQuan Chen",
+            "Kevin L. Moore"
+        ],
+        "abstract": "  The commonly used radial distortion model for camera calibration is in fact an assumption or a restriction. In practice, camera distortion could happen in a general geometrical manner that is not limited to the radial sense. This paper proposes a simplified geometrical distortion modeling method by using two different radial distortion functions in the two image axes. A family of simplified geometric distortion models is proposed, which are either simple polynomials or the rational functions of polynomials. Analytical geometric undistortion is possible using two of the distortion functions discussed in this paper and their performance can be improved by applying a piecewise fitting idea. Our experimental results show that the geometrical distortion models always perform better than their radial distortion counterparts. Furthermore, the proposed geometric modeling method is more appropriate for cameras whose distortion is not perfectly radially symmetric around the center of distortion.\n    ",
+        "submission_date": "2003-08-02T00:00:00",
+        "last_modified_date": "2003-08-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308034",
+        "title": "Fingerprint based bio-starter and bio-access",
+        "authors": [
+            "G.Iovane",
+            "P.Giordano",
+            "C.Iovane",
+            "F.Rotulo"
+        ],
+        "abstract": "  In the paper will be presented a safety and security system based on fingerprint technology. The results suggest a new scenario where the new cars can use a fingerprint sensor integrated in car handle to allow access and in the dashboard as starter button.\n    ",
+        "submission_date": "2003-08-21T00:00:00",
+        "last_modified_date": "2003-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308035",
+        "title": "IS (Iris Security)",
+        "authors": [
+            "G.Iovane",
+            "F.S.Tortoriello"
+        ],
+        "abstract": "  In the paper will be presented a safety system based on iridology. The results suggest a new scenario where the security problem in supervised and unsupervised areas can be treat with the present system and the iris image recognition.\n    ",
+        "submission_date": "2003-08-21T00:00:00",
+        "last_modified_date": "2003-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308037",
+        "title": "Distributed and Parallel Net Imaging",
+        "authors": [
+            "G.Iovane"
+        ],
+        "abstract": "  A very complex vision system is developed to detect luminosity variations connected with the discovery of new planets in the Universe. The traditional imaging system can not manage a so large load. A private net is implemented to perform an automatic vision and decision architecture. It lets to carry out an on-line discrimination of interesting events by using two levels of triggers. This system can even manage many Tbytes of data per day. The architecture avails itself of a distributed parallel network system based on a maximum of 256 standard workstations with Microsoft Window as OS.\n    ",
+        "submission_date": "2003-08-22T00:00:00",
+        "last_modified_date": "2003-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308038",
+        "title": "Image Analysis in Astronomy for very large vision machine",
+        "authors": [
+            "G.Iovane"
+        ],
+        "abstract": "  It is developed a very complex system (hardware/software) to detect luminosity variations connected with the discovery of new planets outside the Solar System. Traditional imaging approaches are very demanding in terms of computing time; then, the implementation of an automatic vision and decision software architecture is presented. It allows to perform an on-line discrimination of interesting events by using two levels of triggers. A fundamental challenge was to work with very large CCD camera (even 16k*16k pixels) in line with very large telescopes. Then, the architecture can use a distributed parallel network system based on a maximum of 256 standard workstations.\n    ",
+        "submission_date": "2003-08-22T00:00:00",
+        "last_modified_date": "2003-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0311012",
+        "title": "A rigorous definition of axial lines: ridges on isovist fields",
+        "authors": [
+            "Rui Carvalho",
+            "Michael Batty"
+        ],
+        "abstract": "  We suggest that 'axial lines' defined by (Hillier and Hanson, 1984) as lines of uninterrupted movement within urban streetscapes or buildings, appear as ridges in isovist fields (Benedikt, 1979). These are formed from the maximum diametric lengths of the individual isovists, sometimes called viewsheds, that make up these fields (Batty and Rana, 2004). We present an image processing technique for the identification of lines from ridges, discuss current strengths and weaknesses of the method, and show how it can be implemented easily and effectively.\n    ",
+        "submission_date": "2003-11-12T00:00:00",
+        "last_modified_date": "2003-11-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312044",
+        "title": "Clustering by compression",
+        "authors": [
+            "Rudi Cilibrasi",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  We present a new method for clustering based on compression. The method doesn't use subject-specific features or background knowledge, and works as follows: First, we determine a universal similarity distance, the normalized compression distance or NCD, computed from the lengths of compressed data files (singly and in pairwise concatenation). Second, we apply a hierarchical clustering method. The NCD is universal in that it is not restricted to a specific application area, and works across application area boundaries. A theoretical precursor, the normalized information distance, co-developed by one of the authors, is provably optimal but uses the non-computable notion of Kolmogorov complexity. We propose precise notions of similarity metric, normal compressor, and show that the NCD based on a normal compressor is a similarity metric that approximates universality. To extract a hierarchy of clusters from the distance matrix, we determine a dendrogram (binary tree) by a new quartet method and a fast heuristic to implement it. The method is implemented and available as public software, and is robust under choice of different compressors. To substantiate our claims of universality and robustness, we report evidence of successful application in areas as diverse as genomics, virology, languages, literature, music, handwritten digits, astronomy, and combinations of objects from completely different domains, using statistical, dictionary, and block sorting compressors. In genomics we presented new evidence for major questions in Mammalian evolution, based on whole-mitochondrial genomic analysis: the Eutherian orders and the Marsupionta hypothesis against the Theria hypothesis.\n    ",
+        "submission_date": "2003-12-19T00:00:00",
+        "last_modified_date": "2004-04-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/0305681",
+        "title": "Seven clusters in genomic triplet distributions",
+        "authors": [
+            "A. N. Gorban",
+            "A. Yu. Zinovyev",
+            "T. G. Popova"
+        ],
+        "abstract": "  In several recent papers new gene-detection algorithms were proposed for detecting protein-coding regions without requiring learning dataset of already known genes. The fact that unsupervised gene-detection is possible closely connected to existence of a cluster structure in oligomer frequency distributions. In this paper we study cluster structure of several genomes in the space of their triplet frequencies, using pure data exploration strategy. Several complete genomic sequences were analyzed, using visualization of tables of triplet frequencies in a sliding window. The distribution of 64-dimensional vectors of triplet frequencies displays a well-detectable cluster structure. The structure was found to consist of seven clusters, corresponding to protein-coding information in three possible phases in one of the two complementary strands and in the non-coding regions with high accuracy (higher than 90% on the nucleotide level). Visualizing and understanding the structure allows to analyze effectively performance of different gene-prediction tools. Since the method does not require extraction of ORFs, it can be applied even for unassembled genomes. The information content of the triplet distributions and the validity of the mean-field models are analysed.\n    ",
+        "submission_date": "2003-05-29T00:00:00",
+        "last_modified_date": "2004-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0302023",
+        "title": "Segmentation, Indexing, and Visualization of Extended Instructional Videos",
+        "authors": [
+            "Alexander Haubold",
+            "John R. Kender"
+        ],
+        "abstract": "  We present a new method for segmenting, and a new user interface for indexing and visualizing, the semantic content of extended instructional videos. Given a series of key frames from the video, we generate a condensed view of the data by clustering frames according to media type and visual similarities. Using various visual filters, key frames are first assigned a media type (board, class, computer, illustration, podium, and sheet). Key frames of media type board and sheet are then clustered based on contents via an algorithm with near-linear cost. A novel user interface, the result of two user studies, displays related topics using icons linked topologically, allowing users to quickly locate semantically related portions of the video. We analyze the accuracy of the segmentation tool on 17 instructional videos, each of which is from 75 to 150 minutes in duration (a total of 40 hours); the classification accuracy exceeds 96%.\n    ",
+        "submission_date": "2003-02-16T00:00:00",
+        "last_modified_date": "2003-02-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0302024",
+        "title": "Analysis and Interface for Instructional Video",
+        "authors": [
+            "Alexander Haubold",
+            "John R. Kender"
+        ],
+        "abstract": "  We present a new method for segmenting, and a new user interface for indexing and visualizing, the semantic content of extended instructional videos. Using various visual filters, key frames are first assigned a media type (board, class, computer, illustration, podium, and sheet). Key frames of media type board and sheet are then clustered based on contents via an algorithm with near-linear cost. A novel user interface, the result of two user studies, displays related topics using icons linked topologically, allowing users to quickly locate semantically related portions of the video. We analyze the accuracy of the segmentation tool on 17 instructional videos, each of which is from 75 to 150 minutes in duration (a total of 40 hours); it exceeds 96%.\n    ",
+        "submission_date": "2003-02-16T00:00:00",
+        "last_modified_date": "2003-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0305048",
+        "title": "2D Electrophoresis Gel Image and Diagnosis of a Disease",
+        "authors": [
+            "Gene Kim",
+            "MyungHo Kim"
+        ],
+        "abstract": "  The process of diagnosing a disease from the 2D gel electrophoresis image is a challenging problem. This is due to technical difficulties of generating reproducible images with a normalized form and the effect of negative stain. In this paper, we will discuss a new concept of interpreting the 2D images and overcoming the aforementioned technical difficulties using mathematical transformation. The method makes use of 2D gel images of proteins in serums and we explain a way of representing the images into vectors in order to apply machine-learning methods, such as the support vector machine.\n    ",
+        "submission_date": "2003-05-28T00:00:00",
+        "last_modified_date": "2003-05-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308009",
+        "title": "The Generalized Riemann or Henstock Integral Underpinning Multivariate Data Analysis: Application to Faint Structure Finding in Price Processes",
+        "authors": [
+            "Pat Muldowney",
+            "Fionn Murtagh"
+        ],
+        "abstract": "  Practical data analysis involves many implicit or explicit assumptions about the good behavior of the data, and excludes consideration of various potentially pathological or limit cases. In this work, we present a new general theory of data, and of data processing, to bypass some of these assumptions. The new framework presented is focused on integration, and has direct applicability to expectation, distance, correlation, and aggregation. In a case study, we seek to reveal faint structure in financial data. Our new foundation for data encoding and handling offers increased justification for our conclusions.\n    ",
+        "submission_date": "2003-08-05T00:00:00",
+        "last_modified_date": "2008-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308023",
+        "title": "On the complexity of curve fitting algorithms",
+        "authors": [
+            "N. Chernov",
+            "C. Lesort",
+            "N. Simanyi"
+        ],
+        "abstract": "  We study a popular algorithm for fitting polynomial curves to scattered data based on the least squares with gradient weights. We show that sometimes this algorithm admits a substantial reduction of complexity, and, furthermore, find precise conditions under which this is possible. It turns out that this is, indeed, possible when one fits circles but not ellipses or hyperbolas.\n    ",
+        "submission_date": "2003-08-15T00:00:00",
+        "last_modified_date": "2003-08-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0309041",
+        "title": "Fast Verification of Convexity of Piecewise-linear Surfaces",
+        "authors": [
+            "Konstantin Rybnikov"
+        ],
+        "abstract": "  We show that a realization of a closed connected PL-manifold of dimension n-1 in n-dimensional Euclidean space (n>2) is the boundary of a convex polyhedron (finite or infinite) if and only if the interior of each (n-3)-face has a point, which has a neighborhood lying on the boundary of an n-dimensional convex body. No initial assumptions about the topology or orientability of the input surface are made. The theorem is derived from a refinement and generalization of Van Heijenoort's theorem on locally convex manifolds to spherical spaces. Our convexity criterion for PL-manifolds implies an easy polynomial-time algorithm for checking convexity of a given PL-surface in n-dimensional Euclidean or spherical space, n>2. The algorithm is worst case optimal with respect to both the number of operations and the algebraic degree. The algorithm works under significantly weaker assumptions and is easier to implement than convexity verification algorithms suggested by Mehlhorn et al (1996-1999), and Devillers et al.(1998). A paradigm of approximate convexity is suggested and a simplified algorithm of smaller degree and complexity is suggested for approximate floating point convexity verification.\n    ",
+        "submission_date": "2003-09-23T00:00:00",
+        "last_modified_date": "2003-11-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0304192",
+        "title": "On reconstructing n-point configurations from the distribution of distances or areas",
+        "authors": [
+            "Mireille Boutin",
+            "Gregor Kemper"
+        ],
+        "abstract": "  One way to characterize configurations of points up to congruence is by considering the distribution of all mutual distances between points. This paper deals with the question if point configurations are uniquely determined by this distribution. After giving some counterexamples, we prove that this is the case for the vast majority of configurations. In the second part of the paper, the distribution of areas of sub-triangles is used for characterizing point configurations. Again it turns out that most configurations are reconstructible from the distribution of areas, though there are counterexamples.\n    ",
+        "submission_date": "2003-04-15T00:00:00",
+        "last_modified_date": "2003-04-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0311004",
+        "title": "Which Point Configurations are Determined by the Distribution of their Pairwise Distances?",
+        "authors": [
+            "Mireille Boutin",
+            "Gregor Kemper"
+        ],
+        "abstract": "  In a previous paper we showed that, for any $n \\ge m+2$, most sets of $n$ points in $\\RR^m$ are determined (up to rotations, reflections, translations and relabeling of the points) by the distribution of their pairwise distances. But there are some exceptional point configurations which are not reconstructible from the distribution of distances in the above sense. In this paper, we present a reconstructibility test with running time $O(n^{11})$. The cases of orientation preserving rigid motions (rotations and translations) and scalings are also discussed.\n    ",
+        "submission_date": "2003-11-02T00:00:00",
+        "last_modified_date": "2003-11-02T00:00:00"
+    }
+]

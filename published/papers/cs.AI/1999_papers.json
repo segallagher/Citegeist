@@ -1,0 +1,373 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9903016",
+        "title": "Modeling Belief in Dynamic Systems, Part II: Revision and Update",
+        "authors": [
+            "N Friedman",
+            "J.Y. Halpern"
+        ],
+        "abstract": "  The study of belief change has been an active area in philosophy and AI. In recent years two special cases of belief change, belief revision and belief update, have been studied in detail. In a companion paper (Friedman & Halpern, 1997), we introduce a new framework to model belief change. This framework combines temporal and epistemic modalities with a notion of plausibility, allowing us to examine the change of beliefs over time. In this paper, we show how belief revision and belief update can be captured in our framework. This allows us to compare the assumptions made by each method, and to better understand the principles underlying them. In particular, it shows that Katsuno and Mendelzon's notion of belief update (Katsuno & Mendelzon, 1991a) depends on several strong assumptions that may limit its applicability in artificial intelligence. Finally, our analysis allow us to identify a notion of minimal change that underlies a broad range of belief change operations including revision and update.\n    ",
+        "submission_date": "1999-03-24T00:00:00",
+        "last_modified_date": "1999-03-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906002",
+        "title": "The Symbol Grounding Problem",
+        "authors": [
+            "Stevan Harnad"
+        ],
+        "abstract": "  How can the semantic interpretation of a formal symbol system be made intrinsic to the system, rather than just parasitic on the meanings in our heads? How can the meanings of the meaningless symbol tokens, manipulated solely on the basis of their (arbitrary) shapes, be grounded in anything but other meaningless symbols? The problem is analogous to trying to learn Chinese from a Chinese/Chinese dictionary alone. A candidate solution is sketched: Symbolic representations must be grounded bottom-up in nonsymbolic representations of two kinds: (1) \"iconic representations,\" which are analogs of the proximal sensory projections of distal objects and events, and (2) \"categorical representations,\" which are learned and innate feature-detectors that pick out the invariant features of object and event categories from their sensory projections. Elementary symbols are the names of these object and event categories, assigned on the basis of their (nonsymbolic) categorical representations. Higher-order (3) \"symbolic representations,\" grounded in these elementary symbols, consist of symbol strings describing category membership relations (e.g., \"An X is a Y that is Z\").\n    ",
+        "submission_date": "1999-06-01T00:00:00",
+        "last_modified_date": "1999-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906016",
+        "title": "Automatically Selecting Useful Phrases for Dialogue Act Tagging",
+        "authors": [
+            "Ken Samuel",
+            "Sandra Carberry",
+            "K. Vijay-Shanker"
+        ],
+        "abstract": "  We present an empirical investigation of various ways to automatically identify phrases in a tagged corpus that are useful for dialogue act tagging. We found that a new method (which measures a phrase's deviation from an optimally-predictive phrase), enhanced with a lexical filtering mechanism, produces significantly better cues than manually-selected cue phrases, the exhaustive set of phrases in a training corpus, and phrases chosen by traditional metrics, like mutual information and information gain.\n    ",
+        "submission_date": "1999-06-18T00:00:00",
+        "last_modified_date": "1999-06-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9909003",
+        "title": "Iterative Deepening Branch and Bound",
+        "authors": [
+            "S. Mohanty",
+            "R.N. Behera"
+        ],
+        "abstract": "  In tree search problem the best-first search algorithm needs too much of space . To remove such drawbacks of these algorithms the IDA* was developed which is both space and time cost efficient. But again IDA* can give an optimal solution for real valued problems like Flow shop scheduling, Travelling Salesman and 0/1 Knapsack due to their real valued cost estimates. Thus further modifications are done on it and the Iterative Deepening Branch and Bound Search Algorithms is developed which meets the requirements. We have tried using this algorithm for the Flow Shop Scheduling Problem and have found that it is quite effective.\n    ",
+        "submission_date": "1999-09-03T00:00:00",
+        "last_modified_date": "1999-09-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9909009",
+        "title": "The Rough Guide to Constraint Propagation",
+        "authors": [
+            "Krzysztof R. Apt"
+        ],
+        "abstract": "  We provide here a simple, yet very general framework that allows us to explain several constraint propagation algorithms in a systematic way. In particular, using the notions commutativity and semi-commutativity, we show how the well-known AC-3, PC-2, DAC and DPC algorithms are instances of a single generic algorithm. The work reported here extends and simplifies that of Apt, ",
+        "submission_date": "1999-09-08T00:00:00",
+        "last_modified_date": "1999-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9909010",
+        "title": "Automatic Generation of Constraint Propagation Algorithms for Small Finite Domains",
+        "authors": [
+            "Krzysztof R. Apt",
+            "Eric Monfroy"
+        ],
+        "abstract": "  We study here constraint satisfaction problems that are based on predefined, explicitly given finite constraints. To solve them we propose a notion of rule consistency that can be expressed in terms of rules derived from the explicit representation of the initial constraints.\n",
+        "submission_date": "1999-09-08T00:00:00",
+        "last_modified_date": "1999-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9910016",
+        "title": "Probabilistic Agent Programs",
+        "authors": [
+            "Juergen Dix",
+            "Mirco Nanni",
+            "VS Subrahmanian"
+        ],
+        "abstract": "  Agents are small programs that autonomously take actions based on changes in their environment or ``state.'' Over the last few years, there have been an increasing number of efforts to build agents that can interact and/or collaborate with other agents. In one of these efforts, Eiter, Subrahmanian amd Pick (AIJ, 108(1-2), pages 179-255) have shown how agents may be built on top of legacy code. However, their framework assumes that agent states are completely determined, and there is no uncertainty in an agent's state. Thus, their framework allows an agent developer to specify how his agents will react when the agent is 100% sure about what is true/false in the world state. In this paper, we propose the concept of a \\emph{probabilistic agent program} and show how, given an arbitrary program written in any imperative language, we may build a declarative ``probabilistic'' agent program on top of it which supports decision making in the presence of uncertainty. We provide two alternative semantics for probabilistic agent programs. We show that the second semantics, though more epistemically appealing, is more complex to compute. We provide sound and complete algorithms to compute the semantics of \\emph{positive} agent programs.\n    ",
+        "submission_date": "1999-10-21T00:00:00",
+        "last_modified_date": "1999-10-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9911012",
+        "title": "Cox's Theorem Revisited",
+        "authors": [
+            "Joseph Y. Halpern"
+        ],
+        "abstract": "  The assumptions needed to prove Cox's Theorem are discussed and examined. Various sets of assumptions under which a Cox-style theorem can be proved are provided, although all are rather strong and, arguably, not natural.\n    ",
+        "submission_date": "1999-11-27T00:00:00",
+        "last_modified_date": "1999-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9912008",
+        "title": "New Error Bounds for Solomonoff Prediction",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  Solomonoff sequence prediction is a scheme to predict digits of binary strings without knowing the underlying probability distribution. We call a prediction scheme informed when it knows the true probability distribution of the sequence. Several new relations between universal Solomonoff sequence prediction and informed prediction and general probabilistic prediction schemes will be proved. Among others, they show that the number of errors in Solomonoff prediction is finite for computable distributions, if finite in the informed case. Deterministic variants will also be studied. The most interesting result is that the deterministic variant of Solomonoff prediction is optimal compared to any other probabilistic or deterministic prediction scheme apart from additive square root corrections only. This makes it well suited even for difficult prediction problems, where it does not suffice when the number of errors is minimal to within some factor greater than one. Solomonoff's original bound and the ones presented here complement each other in a useful way.\n    ",
+        "submission_date": "1999-12-13T00:00:00",
+        "last_modified_date": "2001-01-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901001",
+        "title": "TDLeaf(lambda): Combining Temporal Difference Learning with Game-Tree Search",
+        "authors": [
+            "Jonathan Baxter",
+            "Andrew Tridgell",
+            "Lex Weaver"
+        ],
+        "abstract": "  In this paper we present TDLeaf(lambda), a variation on the TD(lambda) algorithm that enables it to be used in conjunction with minimax search. We present some experiments in both chess and backgammon which demonstrate its utility and provide comparisons with TD(lambda) and another less radical variant, TD-directed(lambda). In particular, our chess program, ``KnightCap,'' used TDLeaf(lambda) to learn its evaluation function while playing on the Free Internet Chess Server (FICS, ",
+        "submission_date": "1999-01-05T00:00:00",
+        "last_modified_date": "1999-01-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901002",
+        "title": "KnightCap: A chess program that learns by combining TD(lambda) with game-tree search",
+        "authors": [
+            "Jonathan Baxter",
+            "Andrew Tridgell",
+            "Lex Weaver"
+        ],
+        "abstract": "  In this paper we present TDLeaf(lambda), a variation on the TD(lambda) algorithm that enables it to be used in conjunction with game-tree search. We present some experiments in which our chess program ``KnightCap'' used TDLeaf(lambda) to learn its evaluation function while playing on the Free Internet Chess Server (FICS, ",
+        "submission_date": "1999-01-10T00:00:00",
+        "last_modified_date": "1999-01-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901003",
+        "title": "Fixpoint 3-valued semantics for autoepistemic logic",
+        "authors": [
+            "M. Denecker",
+            "V. Marek",
+            "M. Truszczynski"
+        ],
+        "abstract": "  The paper presents a constructive fixpoint semantics for autoepistemic logic (AEL). This fixpoint characterizes a unique but possibly three-valued belief set of an autoepistemic theory. It may be three-valued in the sense that for a subclass of formulas F, the fixpoint may not specify whether F is believed or not. The paper presents a constructive 3-valued semantics for autoepistemic logic (AEL). We introduce a derivation operator and define the semantics as its least fixpoint. The semantics is 3-valued in the sense that, for some formulas, the least fixpoint does not specify whether they are believed or not. We show that complete fixpoints of the derivation operator correspond to Moore's stable expansions. In the case of modal representations of logic programs our least fixpoint semantics expresses well-founded semantics or 3-valued Fitting-Kunen semantics (depending on the embedding used). We show that, computationally, our semantics is simpler than the semantics proposed by Moore (assuming that the polynomial hierarchy does not collapse).\n    ",
+        "submission_date": "1999-01-12T00:00:00",
+        "last_modified_date": "1999-01-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901012",
+        "title": "Extremal problems in logic programming and stable model computation",
+        "authors": [
+            "Pawel Cholewinski",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  We study the following problem: given a class of logic programs C, determine the maximum number of stable models of a program from C. We establish the maximum for the class of all logic programs with at most n clauses, and for the class of all logic programs of size at most n. We also characterize the programs for which the maxima are attained. We obtain similar results for the class of all disjunctive logic programs with at most n clauses, each of length at most m, and for the class of all disjunctive logic programs of size at most n. Our results on logic programs have direct implication for the design of algorithms to compute stable models. Several such algorithms, similar in spirit to the Davis-Putnam procedure, are described in the paper. Our results imply that there is an algorithm that finds all stable models of a program with n clauses after considering the search space of size O(3^{n/3}) in the worst case. Our results also provide some insights into the question of representability of families of sets as families of stable models of logic programs.\n    ",
+        "submission_date": "1999-01-25T00:00:00",
+        "last_modified_date": "1999-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901014",
+        "title": "Minimum Description Length Induction, Bayesianism, and Kolmogorov Complexity",
+        "authors": [
+            "Paul Vitanyi",
+            "Ming Li"
+        ],
+        "abstract": "  The relationship between the Bayesian approach and the minimum description length approach is established. We sharpen and clarify the general modeling principles MDL and MML, abstracted as the ideal MDL principle and defined from Bayes's rule by means of Kolmogorov complexity. The basic condition under which the ideal principle should be applied is encapsulated as the Fundamental Inequality, which in broad terms states that the principle is valid when the data are random, relative to every contemplated hypothesis and also these hypotheses are random relative to the (universal) prior. Basically, the ideal principle states that the prior probability associated with the hypothesis should be given by the algorithmic universal probability, and the sum of the log universal probability of the model plus the log of the probability of the data given the model should be minimized. If we restrict the model class to the finite sets then application of the ideal principle turns into Kolmogorov's minimal sufficient statistic. In general we show that data compression is almost always the best strategy, both in hypothesis identification and prediction.\n    ",
+        "submission_date": "1999-01-27T00:00:00",
+        "last_modified_date": "1999-01-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9901016",
+        "title": "Representation Theory for Default Logic",
+        "authors": [
+            "Victor Marek",
+            "Jan Treur",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  Default logic can be regarded as a mechanism to represent families of belief sets of a reasoning agent. As such, it is inherently second-order. In this paper, we study the problem of representability of a family of theories as the set of extensions of a default theory. We give a complete solution to the representability by means of normal default theories. We obtain partial results on representability by arbitrary default theories. We construct examples of denumerable families of non-including theories that are not representable. We also study the concept of equivalence between default theories.\n    ",
+        "submission_date": "1999-01-28T00:00:00",
+        "last_modified_date": "1999-01-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9902006",
+        "title": "A Discipline of Evolutionary Programming",
+        "authors": [
+            "Paul Vitanyi"
+        ],
+        "abstract": "  Genetic fitness optimization using small populations or small population updates across generations generally suffers from randomly diverging evolutions. We propose a notion of highly probable fitness optimization through feasible evolutionary computing runs on small size populations. Based on rapidly mixing Markov chains, the approach pertains to most types of evolutionary genetic algorithms, genetic programming and the like. We establish that for systems having associated rapidly mixing Markov chains and appropriate stationary distributions the new method finds optimal programs (individuals) with probability almost 1. To make the method useful would require a structured design methodology where the development of the program and the guarantee of the rapidly mixing property go hand in hand. We analyze a simple example to show that the method is implementable. More significant examples require theoretical advances, for example with respect to the Metropolis filter.\n    ",
+        "submission_date": "1999-02-02T00:00:00",
+        "last_modified_date": "1999-02-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9902015",
+        "title": "Resource Discovery in Trilogy",
+        "authors": [
+            "Franck Chevalier",
+            "David Harle",
+            "Geoffrey Smith"
+        ],
+        "abstract": "  Trilogy is a collaborative project whose key aim is the development of an integrated virtual laboratory to support research training within each institution and collaborative projects between the partners. In this paper, the architecture and underpinning platform of the system is described with particular emphasis being placed on the structure and the integration of the distributed database. A key element is the ontology that provides the multi-agent system with a conceptualisation specification of the domain; this ontology is explained, accompanied by a discussion how such a system is integrated and used within the virtual laboratory. Although in this paper, Telecommunications and in particular Broadband networks are used as exemplars, the underlying system principles are applicable to any domain where a combination of experimental and literature-based resources are required.\n    ",
+        "submission_date": "1999-02-08T00:00:00",
+        "last_modified_date": "1999-02-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9903002",
+        "title": "An Algebraic Programming Style for Numerical Software and its Optimization",
+        "authors": [
+            "T. B. Dinesh",
+            "M. Haveraaen",
+            "J. Heering"
+        ],
+        "abstract": "  The abstract mathematical theory of partial differential equations (PDEs) is formulated in terms of manifolds, scalar fields, tensors, and the like, but these algebraic structures are hardly recognizable in actual PDE solvers. The general aim of the Sophus programming style is to bridge the gap between theory and practice in the domain of PDE solvers. Its main ingredients are a library of abstract datatypes corresponding to the algebraic structures used in the mathematical theory and an algebraic expression style similar to the expression style used in the mathematical theory. Because of its emphasis on abstract datatypes, Sophus is most naturally combined with object-oriented languages or other languages supporting abstract datatypes. The resulting source code patterns are beyond the scope of current compiler optimizations, but are sufficiently specific for a dedicated source-to-source optimizer. The limited, domain-specific, character of Sophus is the key to success here. This kind of optimization has been tested on computationally intensive Sophus style code with promising results. The general approach may be useful for other styles and in other application domains as well.\n    ",
+        "submission_date": "1999-03-01T00:00:00",
+        "last_modified_date": "1999-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9903011",
+        "title": "A complete anytime algorithm for balanced number partitioning",
+        "authors": [
+            "Stephan Mertens"
+        ],
+        "abstract": "  Given a set of numbers, the balanced partioning problem is to divide them into two subsets, so that the sum of the numbers in each subset are as nearly equal as possible, subject to the constraint that the cardinalities of the subsets be within one of each other. We combine the balanced largest differencing method (BLDM) and Korf's complete Karmarkar-Karp algorithm to get a new algorithm that optimally solves the balanced partitioning problem. For numbers with twelve significant digits or less, the algorithm can optimally solve balanced partioning problems of arbitrary size in practice. For numbers with greater precision, it first returns the BLDM solution, then continues to find better solutions as time allows.\n    ",
+        "submission_date": "1999-03-11T00:00:00",
+        "last_modified_date": "1999-03-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9904004",
+        "title": "Mixing Metaphors",
+        "authors": [
+            "Mark Lee",
+            "John Barnden"
+        ],
+        "abstract": "  Mixed metaphors have been neglected in recent metaphor research. This paper suggests that such neglect is short-sighted. Though mixing is a more complex phenomenon than straight metaphors, the same kinds of reasoning and knowledge structures are required. This paper provides an analysis of both parallel and serial mixed metaphors within the framework of an AI system which is already capable of reasoning about straight metaphorical manifestations and argues that the processes underlying mixing are central to metaphorical meaning. Therefore, any theory of metaphors must be able to account for mixing.\n    ",
+        "submission_date": "1999-04-12T00:00:00",
+        "last_modified_date": "1999-04-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9905008",
+        "title": "Inducing a Semantically Annotated Lexicon via EM-Based Clustering",
+        "authors": [
+            "Mats Rooth",
+            "Stefan Riezler",
+            "Detlef Prescher",
+            "Glenn Carroll",
+            "Franz Beil"
+        ],
+        "abstract": "  We present a technique for automatic induction of slot annotations for subcategorization frames, based on induction of hidden classes in the EM framework of statistical estimation. The models are empirically evalutated by a general decision test. Induction of slot labeling for subcategorization frames is accomplished by a further application of EM, and applied experimentally on frame observations derived from parsing large corpora. We outline an interpretation of the learned representations as theoretical-linguistic decompositional lexical entries.\n    ",
+        "submission_date": "1999-05-19T00:00:00",
+        "last_modified_date": "1999-05-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906006",
+        "title": "Learning Efficient Disambiguation",
+        "authors": [
+            "Khalil Sima'an"
+        ],
+        "abstract": "  This dissertation analyses the computational properties of current performance-models of natural language parsing, in particular Data Oriented Parsing (DOP), points out some of their major shortcomings and suggests suitable solutions. It provides proofs that various problems of probabilistic disambiguation are NP-Complete under instances of these performance-models, and it argues that none of these models accounts for attractive efficiency properties of human language processing in limited domains, e.g. that frequent inputs are usually processed faster than infrequent ones. The central hypothesis of this dissertation is that these shortcomings can be eliminated by specializing the performance-models to the limited domains. The dissertation addresses \"grammar and model specialization\" and presents a new framework, the Ambiguity-Reduction Specialization (ARS) framework, that formulates the necessary and sufficient conditions for successful specialization. The framework is instantiated into specialization algorithms and applied to specializing DOP. Novelties of these learning algorithms are 1) they limit the hypotheses-space to include only \"safe\" models, 2) are expressed as constrained optimization formulae that minimize the entropy of the training tree-bank given the specialized grammar, under the constraint that the size of the specialized model does not exceed a predefined maximum, and 3) they enable integrating the specialized model with the original one in a complementary manner. The dissertation provides experiments with initial implementations and compares the resulting Specialized DOP (SDOP) models to the original DOP models with encouraging results.\n    ",
+        "submission_date": "1999-06-02T00:00:00",
+        "last_modified_date": "1999-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906010",
+        "title": "Predicate Logic with Definitions",
+        "authors": [
+            "Victor Makarov"
+        ],
+        "abstract": "  Predicate Logic with Definitions (PLD or D-logic) is a modification of first-order logic intended mostly for practical formalization of mathematics. The main syntactic constructs of D-logic are terms, formulas and definitions. A definition is a definition of variables, a definition of constants, or a composite definition (D-logic has also abbreviation definitions called abbreviations). Definitions can be used inside terms and formulas. This possibility alleviates introducing new quantifier-like names. Composite definitions allow constructing new definitions from existing ones.\n    ",
+        "submission_date": "1999-06-07T00:00:00",
+        "last_modified_date": "1999-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906019",
+        "title": "Resolving Part-of-Speech Ambiguity in the Greek Language Using Learning Techniques",
+        "authors": [
+            "G. Petasis",
+            "G. Paliouras",
+            "V. Karkaletsis",
+            "C. D. Spyropoulos",
+            "I. Androutsopoulos"
+        ],
+        "abstract": "  This article investigates the use of Transformation-Based Error-Driven learning for resolving part-of-speech ambiguity in the Greek language. The aim is not only to study the performance, but also to examine its dependence on different thematic domains. Results are presented here for two different test cases: a corpus on \"management succession events\" and a general-theme corpus. The two experiments show that the performance of this method does not depend on the thematic domain of the corpus, and its accuracy for the Greek language is around 95%.\n    ",
+        "submission_date": "1999-06-22T00:00:00",
+        "last_modified_date": "1999-06-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9906029",
+        "title": "Events in Property Patterns",
+        "authors": [
+            "M.Chechik",
+            "D.Paun"
+        ],
+        "abstract": "  A pattern-based approach to the presentation, codification and reuse of property specifications for finite-state verification was proposed by Dwyer and his collegues. The patterns enable non-experts to read and write formal specifications for realistic systems and facilitate easy conversion of specifications between formalisms, such as LTL, CTL, QRE. In this paper, we extend the pattern system with events - changes of values of variables in the context of LTL.\n    ",
+        "submission_date": "1999-06-28T00:00:00",
+        "last_modified_date": "1999-06-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9907026",
+        "title": "Mixing representation levels: The hybrid approach to automatic text generation",
+        "authors": [
+            "Emanuele Pianta",
+            "Lucia M. Tovena"
+        ],
+        "abstract": "  Natural language generation systems (NLG) map non-linguistic representations into strings of words through a number of steps using intermediate representations of various levels of abstraction. Template based systems, by contrast, tend to use only one representation level, i.e. fixed strings, which are combined, possibly in a sophisticated way, to generate the final text.\n",
+        "submission_date": "1999-07-16T00:00:00",
+        "last_modified_date": "1999-07-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9907032",
+        "title": "Clausal Temporal Resolution",
+        "authors": [
+            "Michael Fisher",
+            "Clare Dixon",
+            "Martin Peim"
+        ],
+        "abstract": "  In this article, we examine how clausal resolution can be applied to a specific, but widely used, non-classical logic, namely discrete linear temporal logic. Thus, we first define a normal form for temporal formulae and show how arbitrary temporal formulae can be translated into the normal form, while preserving satisfiability. We then introduce novel resolution rules that can be applied to formulae in this normal form, provide a range of examples and examine the correctness and complexity of this approach is examined and. This clausal resolution approach. Finally, we describe related work and future developments concerning this work.\n    ",
+        "submission_date": "1999-07-21T00:00:00",
+        "last_modified_date": "2000-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9908004",
+        "title": "Extending the Stable Model Semantics with More Expressive Rules",
+        "authors": [
+            "Patrik Simons"
+        ],
+        "abstract": "  The rules associated with propositional logic programs and the stable model semantics are not expressive enough to let one write concise programs. This problem is alleviated by introducing some new types of propositional rules. Together with a decision procedure that has been used as a base for an efficient implementation, the new rules supplant the standard ones in practical applications of the stable model semantics.\n    ",
+        "submission_date": "1999-08-06T00:00:00",
+        "last_modified_date": "1999-08-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9908013",
+        "title": "Collective Intelligence for Control of Distributed Dynamical Systems",
+        "authors": [
+            "David H. Wolpert",
+            "Kevin R. Wheeler",
+            "Kagan Tumer"
+        ],
+        "abstract": "  We consider the El Farol bar problem, also known as the minority game (W. B. Arthur, ``The American Economic Review'', 84(2): 406--411 (1994), D. Challet and Y.C. Zhang, ``Physica A'', 256:514 (1998)). We view it as an instance of the general problem of how to configure the nodal elements of a distributed dynamical system so that they do not ``work at cross purposes'', in that their collective dynamics avoids frustration and thereby achieves a provided global goal. We summarize a mathematical theory for such configuration applicable when (as in the bar problem) the global goal can be expressed as minimizing a global energy function and the nodes can be expressed as minimizers of local free energy functions. We show that a system designed with that theory performs nearly optimally for the bar problem.\n    ",
+        "submission_date": "1999-08-17T00:00:00",
+        "last_modified_date": "1999-08-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9908015",
+        "title": "Representing Scholarly Claims in Internet Digital Libraries: A Knowledge Modelling Approach",
+        "authors": [
+            "Simon Buckingham Shum",
+            "Enrico Motta",
+            "John Domingue"
+        ],
+        "abstract": "  This paper is concerned with tracking and interpreting scholarly documents in distributed research communities. We argue that current approaches to document description, and current technological infrastructures particularly over the World Wide Web, provide poor support for these tasks. We describe the design of a digital library server which will enable authors to submit a summary of the contributions they claim their documents makes, and its relations to the literature. We describe a knowledge-based Web environment to support the emergence of such a community-constructed semantic hypertext, and the services it could provide to assist the interpretation of an idea or document in the context of its literature. The discussion considers in detail how the approach addresses usability issues associated with knowledge structuring environments.\n    ",
+        "submission_date": "1999-08-19T00:00:00",
+        "last_modified_date": "1999-08-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9909014",
+        "title": "Reasoning About Common Knowledge with Infinitely Many Agents",
+        "authors": [
+            "Joseph Y. Halpern",
+            "Richard A. Shore"
+        ],
+        "abstract": "  Complete axiomatizations and exponential-time decision procedures are provided for reasoning about knowledge and common knowledge when there are infinitely many agents. The results show that reasoning about knowledge and common knowledge with infinitely many agents is no harder than when there are finitely many agents, provided that we can check the cardinality of certain set differences G - G', where G and G' are sets of agents. Since our complexity results are independent of the cardinality of the sets G involved, they represent improvements over the previous results even with the sets of agents involved are finite. Moreover, our results make clear the extent to which issues of complexity and completeness depend on how the sets of agents involved are represented.\n    ",
+        "submission_date": "1999-09-21T00:00:00",
+        "last_modified_date": "1999-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9909019",
+        "title": "Knowledge in Multi-Agent Systems: Initial Configurations and Broadcast",
+        "authors": [
+            "A. R. Lomuscio",
+            "R. van der Meyden",
+            "M. D. Ryan"
+        ],
+        "abstract": "  The semantic framework for the modal logic of knowledge due to Halpern and Moses provides a way to ascribe knowledge to agents in distributed and multi-agent systems. In this paper we study two special cases of this framework: full systems and hypercubes. Both model static situations in which no agent has any information about another agent's state. Full systems and hypercubes are an appropriate model for the initial configurations of many systems of interest. We establish a correspondence between full systems and hypercube systems and certain classes of Kripke frames. We show that these classes of systems correspond to the same logic. Moreover, this logic is also the same as that generated by the larger class of weakly directed frames. We provide a sound and complete axiomatization, S5WDn, of this logic. Finally, we show that under certain natural assumptions, in a model where knowledge evolves over time, S5WDn characterizes the properties of knowledge not just at the initial configuration, but also at all later configurations. In particular, this holds for homogeneous broadcast systems, which capture settings in which agents are initially ignorant of each others local states, operate synchronously, have perfect recall and can communicate only by broadcasting.\n    ",
+        "submission_date": "1999-09-30T00:00:00",
+        "last_modified_date": "1999-09-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9910015",
+        "title": "PIPE: Personalizing Recommendations via Partial Evaluation",
+        "authors": [
+            "Naren Ramakrishnan"
+        ],
+        "abstract": "  It is shown that personalization of web content can be advantageously viewed as a form of partial evaluation --- a technique well known in the programming languages community. The basic idea is to model a recommendation space as a program, then partially evaluate this program with respect to user preferences (and features) to obtain specialized content. This technique supports both content-based and collaborative approaches, and is applicable to a range of applications that require automatic information integration from multiple web sources. The effectiveness of this methodology is illustrated by two example applications --- (i) personalizing content for visitors to the Blacksburg Electronic Village (",
+        "submission_date": "1999-10-18T00:00:00",
+        "last_modified_date": "2000-04-26T00:00:00"
+    }
+]

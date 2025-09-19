@@ -1,0 +1,1806 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0501025",
+        "title": "A Logic for Non-Monotone Inductive Definitions",
+        "authors": [
+            "Marc Denecker",
+            "Eugenia Ternovska"
+        ],
+        "abstract": "  Well-known principles of induction include monotone induction and different sorts of non-monotone induction such as inflationary induction, induction over well-founded sets and iterated induction. In this work, we define a logic formalizing induction over well-founded sets and monotone and iterated induction. Just as the principle of positive induction has been formalized in FO(LFP), and the principle of inflationary induction has been formalized in FO(IFP), this paper formalizes the principle of iterated induction in a new logic for Non-Monotone Inductive Definitions (ID-logic). The semantics of the logic is strongly influenced by the well-founded semantics of logic programming. Our main result concerns the modularity properties of inductive definitions in ID-logic. Specifically, we formulate conditions under which a simultaneous definition $\\D$ of several relations is logically equivalent to a conjunction of smaller definitions $\\D_1 \\land ... \\land \\D_n$ with disjoint sets of defined predicates. The difficulty of the result comes from the fact that predicates $P_i$ and $P_j$ defined in $\\D_i$ and $\\D_j$, respectively, may be mutually connected by simultaneous induction. Since logic programming and abductive logic programming under well-founded semantics are proper fragments of our logic, our modularity results are applicable there as well.\n    ",
+        "submission_date": "2005-01-13T00:00:00",
+        "last_modified_date": "2005-01-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501068",
+        "title": "Learning to automatically detect features for mobile robots using second-order Hidden Markov Models",
+        "authors": [
+            "Olivier Aycard",
+            "Jean-Francois Mari",
+            "Richard Washington"
+        ],
+        "abstract": "  In this paper, we propose a new method based on Hidden Markov Models to interpret temporal sequences of sensor data from mobile robots to automatically detect features. Hidden Markov Models have been used for a long time in pattern recognition, especially in speech recognition. Their main advantages over other methods (such as neural networks) are their ability to model noisy temporal signals of variable length. We show in this paper that this approach is well suited for interpretation of temporal sequences of mobile-robot sensor data. We present two distinct experiments and results: the first one in an indoor environment where a mobile robot learns to detect features like open doors or T-intersections, the second one in an outdoor environment where a different mobile robot has to identify situations like climbing a hill or crossing a rock.\n    ",
+        "submission_date": "2005-01-24T00:00:00",
+        "last_modified_date": "2005-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501072",
+        "title": "Inferring knowledge from a large semantic network",
+        "authors": [
+            "Dominique Dutoit",
+            "Thierry Poibeau"
+        ],
+        "abstract": "  In this paper, we present a rich semantic network based on a differential analysis. We then detail implemented measures that take into account common and differential features between words. In a last section, we describe some industrial applications.\n    ",
+        "submission_date": "2005-01-25T00:00:00",
+        "last_modified_date": "2005-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501084",
+        "title": "Towards Automated Integration of Guess and Check Programs in Answer Set Programming: A Meta-Interpreter and Applications",
+        "authors": [
+            "Thomas Eiter",
+            "Axel Polleres"
+        ],
+        "abstract": "  Answer set programming (ASP) with disjunction offers a powerful tool for declaratively representing and solving hard problems. Many NP-complete problems can be encoded in the answer set semantics of logic programs in a very concise and intuitive way, where the encoding reflects the typical \"guess and check\" nature of NP problems: The property is encoded in a way such that polynomial size certificates for it correspond to stable models of a program. However, the problem-solving capacity of full disjunctive logic programs (DLPs) is beyond NP, and captures a class of problems at the second level of the polynomial hierarchy. While these problems also have a clear \"guess and check\" structure, finding an encoding in a DLP reflecting this structure may sometimes be a non-obvious task, in particular if the \"check\" itself is a coNP-complete problem; usually, such problems are solved by interleaving separate guess and check programs, where the check is expressed by inconsistency of the check program. In this paper, we present general transformations of head-cycle free (extended) disjunctive logic programs into stratified and positive (extended) disjunctive logic programs based on meta-interpretation techniques. The answer sets of the original and the transformed program are in simple correspondence, and, moreover, inconsistency of the original program is indicated by a designated answer set of the transformed program. Our transformations facilitate the integration of separate \"guess\" and \"check\" programs, which are often easy to obtain, automatically into a single disjunctive logic program. Our results complement recent results on meta-interpretation in ASP, and extend methods and techniques for a declarative \"guess and check\" problem solving paradigm through ASP.\n    ",
+        "submission_date": "2005-01-28T00:00:00",
+        "last_modified_date": "2005-01-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501086",
+        "title": "Clever Search: A WordNet Based Wrapper for Internet Search Engines",
+        "authors": [
+            "Peter M. Kruse",
+            "Andre Naujoks",
+            "Dietmar Roesner",
+            "Manuela Kunze"
+        ],
+        "abstract": "  This paper presents an approach to enhance search engines with information about word senses available in WordNet. The approach exploits information about the conceptual relations within the lexical-semantic net. In the wrapper for search engines presented, WordNet information is used to specify user's request or to classify the results of a publicly available web search engine, like google, yahoo, etc.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501089",
+        "title": "Issues in Exploiting GermaNet as a Resource in Real Applications",
+        "authors": [
+            "Manuela Kunze",
+            "Dietmar Roesner"
+        ],
+        "abstract": "  This paper reports about experiments with GermaNet as a resource within domain specific document analysis. The main question to be answered is: How is the coverage of GermaNet in a specific domain? We report about results of a field test of GermaNet for analyses of autopsy protocols and present a sketch about the integration of GermaNet inside XDOC. Our remarks will contribute to a GermaNet user's wish list.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501093",
+        "title": "Transforming Business Rules Into Natural Language Text",
+        "authors": [
+            "Manuela Kunze",
+            "Dietmar Roesner"
+        ],
+        "abstract": "  The aim of the project presented in this paper is to design a system for an NLG architecture, which supports the documentation process of eBusiness models. A major task is to enrich the formal description of an eBusiness model with additional information needed in an NLG task.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501094",
+        "title": "Corpus based Enrichment of GermaNet Verb Frames",
+        "authors": [
+            "Manuela Kunze",
+            "Dietmar Roesner"
+        ],
+        "abstract": "  Lexical semantic resources, like WordNet, are often used in real applications of natural language document processing. For example, we integrated GermaNet in our document suite XDOC of processing of German forensic autopsy protocols. In addition to the hypernymy and synonymy relation, we want to adapt GermaNet's verb frames for our analysis. In this paper we outline an approach for the domain related enrichment of GermaNet verb frames by corpus based syntactic and co-occurred data analyses of real documents.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-02-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501095",
+        "title": "Context Related Derivation of Word Senses",
+        "authors": [
+            "Manuela Kunze",
+            "Dietmar Roesner"
+        ],
+        "abstract": "  Real applications of natural language document processing are very often confronted with domain specific lexical gaps during the analysis of documents of a new domain. This paper describes an approach for the derivation of domain specific concepts for the extension of an existing ontology. As resources we need an initial ontology and a partially processed corpus of a domain. We exploit the specific characteristic of the sublanguage in the corpus. Our approach is based on syntactical structures (noun phrases) and compound analyses to extract information required for the extension of GermaNet's lexical resources.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501096",
+        "title": "Transforming and Enriching Documents for the Semantic Web",
+        "authors": [
+            "Dietmar Roesner",
+            "Manuela Kunze",
+            "Sylke Kroetzsch"
+        ],
+        "abstract": "  We suggest to employ techniques from Natural Language Processing (NLP) and Knowledge Representation (KR) to transform existing documents into documents amenable for the Semantic Web. Semantic Web documents have at least part of their semantics and pragmatics marked up explicitly in both a machine processable as well as human readable manner. XML and its related standards (XSLT, RDF, Topic Maps etc.) are the unifying platform for the tools and methodologies developed for different application scenarios.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502006",
+        "title": "Neural network ensembles: Evaluation of aggregation algorithms",
+        "authors": [
+            "P.M. Granitto",
+            "P.F. Verdes",
+            "H.A. Ceccatto"
+        ],
+        "abstract": "  Ensembles of artificial neural networks show improved generalization capabilities that outperform those of single networks. However, for aggregation to be effective, the individual networks must be as accurate and diverse as possible. An important problem is, then, how to tune the aggregate members in order to have an optimal compromise between these two conflicting conditions. We present here an extensive evaluation of several algorithms for ensemble construction, including new proposals and comparing them with standard methods in the literature. We also discuss a potential problem with sequential aggregation algorithms: the non-frequent but damaging selection through their heuristics of particularly bad ensemble members. We introduce modified algorithms that cope with this problem by allowing individual weighting of aggregate members. Our algorithms and their weighted modifications are favorably tested against other methods in the literature, producing a sensible improvement in performance on most of the standard statistical databases used as benchmarks.\n    ",
+        "submission_date": "2005-02-01T00:00:00",
+        "last_modified_date": "2005-02-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502020",
+        "title": "Population Sizing for Genetic Programming Based Upon Decision Making",
+        "authors": [
+            "K. Sastry",
+            "U.-M. O'Reilly",
+            "D. E. Goldberg"
+        ],
+        "abstract": "  This paper derives a population sizing relationship for genetic programming (GP). Following the population-sizing derivation for genetic algorithms in Goldberg, Deb, and Clark (1992), it considers building block decision making as a key facet. The analysis yields a GP-unique relationship because it has to account for bloat and for the fact that GP solutions often use subsolution multiple times. The population-sizing relationship depends upon tree size, solution complexity, problem difficulty and building block expression probability. The relationship is used to analyze and empirically investigate population sizing for three model GP problems named ORDER, ON-OFF and LOUD. These problems exhibit bloat to differing extents and differ in whether their solutions require the use of a building block multiple times.\n    ",
+        "submission_date": "2005-02-04T00:00:00",
+        "last_modified_date": "2005-02-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502060",
+        "title": "Perspectives for Strong Artificial Life",
+        "authors": [
+            "J.-Ph Rennard"
+        ],
+        "abstract": "  This text introduces the twin deadlocks of strong artificial life. Conceptualization of life is a deadlock both because of the existence of a continuum between the inert and the living, and because we only know one instance of life. Computationalism is a second deadlock since it remains a matter of faith. Nevertheless, artificial life realizations quickly progress and recent constructions embed an always growing set of the intuitive properties of life. This growing gap between theory and realizations should sooner or later crystallize in some kind of paradigm shift and then give clues to break the twin deadlocks.\n    ",
+        "submission_date": "2005-02-13T00:00:00",
+        "last_modified_date": "2005-02-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502078",
+        "title": "Semantical Characterizations and Complexity of Equivalences in Answer Set Programming",
+        "authors": [
+            "Thomas Eiter",
+            "Michael Fink",
+            "Stefan Woltran"
+        ],
+        "abstract": "  In recent research on non-monotonic logic programming, repeatedly strong equivalence of logic programs P and Q has been considered, which holds if the programs P union R and Q union R have the same answer sets for any other program R. This property strengthens equivalence of P and Q with respect to answer sets (which is the particular case for R is the empty set), and has its applications in program optimization, verification, and modular logic programming. In this paper, we consider more liberal notions of strong equivalence, in which the actual form of R may be syntactically restricted. On the one hand, we consider uniform equivalence, where R is a set of facts rather than a set of rules. This notion, which is well known in the area of deductive databases, is particularly useful for assessing whether programs P and Q are equivalent as components of a logic program which is modularly structured. On the other hand, we consider relativized notions of equivalence, where R ranges over rules over a fixed alphabet, and thus generalize our results to relativized notions of strong and uniform equivalence. For all these notions, we consider disjunctive logic programs in the propositional (ground) case, as well as some restricted classes, provide semantical characterizations and analyze the computational complexity. Our results, which naturally extend to answer set semantics for programs with strong negation, complement the results on strong equivalence of logic programs and pave the way for optimizations in answer set solvers as a tool for input-based problem solving.\n    ",
+        "submission_date": "2005-02-18T00:00:00",
+        "last_modified_date": "2005-02-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502082",
+        "title": "Graphs and colorings for answer set programming",
+        "authors": [
+            "Kathrin Konczak",
+            "Thomas Linke",
+            "Torsten Schaub"
+        ],
+        "abstract": "  We investigate the usage of rule dependency graphs and their colorings for characterizing and computing answer sets of logic programs. This approach provides us with insights into the interplay between rules when inducing answer sets. We start with different characterizations of answer sets in terms of totally colored dependency graphs that differ in graph-theoretical aspects. We then develop a series of operational characterizations of answer sets in terms of operators on partial colorings. In analogy to the notion of a derivation in proof theory, our operational characterizations are expressed as (non-deterministically formed) sequences of colorings, turning an uncolored graph into a totally colored one. In this way, we obtain an operational framework in which different combinations of operators result in different formal properties. Among others, we identify the basic strategy employed by the noMoRe system and justify its algorithmic approach. Furthermore, we distinguish operations corresponding to Fitting's operator as well as to well-founded semantics. (To appear in Theory and Practice of Logic Programming (TPLP))\n    ",
+        "submission_date": "2005-02-21T00:00:00",
+        "last_modified_date": "2005-02-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502088",
+        "title": "Towards a Systematic Account of Different Semantics for Logic Programs",
+        "authors": [
+            "Pascal Hitzler"
+        ],
+        "abstract": "  In [Hitzler and Wendt 2002, 2005], a new methodology has been proposed which allows to derive uniform characterizations of different declarative semantics for logic programs with negation. One result from this work is that the well-founded semantics can formally be understood as a stratified version of the Fitting (or Kripke-Kleene) semantics. The constructions leading to this result, however, show a certain asymmetry which is not readily understood. We will study this situation here with the result that we will obtain a coherent picture of relations between different semantics for normal logic programs.\n    ",
+        "submission_date": "2005-02-22T00:00:00",
+        "last_modified_date": "2005-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503018",
+        "title": "Probabilistic Algorithmic Knowledge",
+        "authors": [
+            "Joseph Y. Halpern",
+            "Riccardo Pucella"
+        ],
+        "abstract": "  The framework of algorithmic knowledge assumes that agents use deterministic knowledge algorithms to compute the facts they explicitly know. We extend the framework to allow for randomized knowledge algorithms. We then characterize the information provided by a randomized knowledge algorithm when its answers have some probability of being incorrect. We formalize this information in terms of evidence; a randomized knowledge algorithm returning ``Yes'' to a query about a fact \\phi provides evidence for \\phi being true. Finally, we discuss the extent to which this evidence can be used as a basis for decisions.\n    ",
+        "submission_date": "2005-03-08T00:00:00",
+        "last_modified_date": "2005-12-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503024",
+        "title": "Fine-Grained Word Sense Disambiguation Based on Parallel Corpora, Word Alignment, Word Clustering and Aligned Wordnets",
+        "authors": [
+            "Dan Tufis",
+            "Radu Ion",
+            "Nancy Ide"
+        ],
+        "abstract": "  The paper presents a method for word sense disambiguation based on parallel corpora. The method exploits recent advances in word alignment and word clustering based on automatic extraction of translation equivalents and being supported by available aligned wordnets for the languages in the corpus. The wordnets are aligned to the Princeton Wordnet, according to the principles established by EuroWordNet. The evaluation of the WSD system, implementing the method described herein showed very encouraging results. The same system used in a validation mode, can be used to check and spot alignment errors in multilingually aligned wordnets as BalkaNet and EuroWordNet.\n    ",
+        "submission_date": "2005-03-10T00:00:00",
+        "last_modified_date": "2005-03-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503030",
+        "title": "A Suffix Tree Approach to Email Filtering",
+        "authors": [
+            "Rajesh M. Pampapathi",
+            "Boris Mirkin",
+            "Mark Levene"
+        ],
+        "abstract": "  We present an approach to email filtering based on the suffix tree data structure. A method for the scoring of emails using the suffix tree is developed and a number of scoring and score normalisation functions are tested. Our results show that the character level representation of emails and classes facilitated by the suffix tree can significantly improve classification accuracy when compared with the currently popular methods, such as naive Bayes. We believe the method can be extended to the classification of documents in other domains.\n    ",
+        "submission_date": "2005-03-14T00:00:00",
+        "last_modified_date": "2005-12-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503043",
+        "title": "Complexity Issues in Finding Succinct Solutions of PSPACE-Complete Problems",
+        "authors": [
+            "Paolo Liberatore"
+        ],
+        "abstract": "  We study the problem of deciding whether some PSPACE-complete problems have models of bounded size. Contrary to problems in NP, models of PSPACE-complete problems may be exponentially large. However, such models may take polynomial space in a succinct representation. For example, the models of a QBF are explicitely represented by and-or trees (which are always of exponential size) but can be succinctely represented by circuits (which can be polynomial or exponential). We investigate the complexity of deciding the existence of such succinct models when a bound on size is given.\n    ",
+        "submission_date": "2005-03-18T00:00:00",
+        "last_modified_date": "2005-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503044",
+        "title": "Generating Hard Satisfiable Formulas by Hiding Solutions Deceptively",
+        "authors": [
+            "Haixia Jia",
+            "Cristopher Moore",
+            "Doug Strain"
+        ],
+        "abstract": "  To test incomplete search algorithms for constraint satisfaction problems such as 3-SAT, we need a source of hard, but satisfiable, benchmark instances. A simple way to do this is to choose a random truth assignment A, and then choose clauses randomly from among those satisfied by A. However, this method tends to produce easy problems, since the majority of literals point toward the ``hidden'' assignment A. Last year, Achlioptas, Jia and Moore proposed a problem generator that cancels this effect by hiding both A and its complement. While the resulting formulas appear to be just as hard for DPLL algorithms as random 3-SAT formulas with no hidden assignment, they can be solved by WalkSAT in only polynomial time. Here we propose a new method to cancel the attraction to A, by choosing a clause with t > 0 literals satisfied by A with probability proportional to q^t for some q < 1. By varying q, we can generate formulas whose variables have no bias, i.e., which are equally likely to be true or false; we can even cause the formula to ``deceptively'' point away from A. We present theoretical and experimental results suggesting that these formulas are exponentially hard both for DPLL algorithms and for incomplete algorithms such as WalkSAT.\n    ",
+        "submission_date": "2005-03-18T00:00:00",
+        "last_modified_date": "2005-03-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503046",
+        "title": "Hiding Satisfying Assignments: Two are Better than One",
+        "authors": [
+            "Dimitris Achlioptas",
+            "Haixia Jia",
+            "Cristopher Moore"
+        ],
+        "abstract": "  The evaluation of incomplete satisfiability solvers depends critically on the availability of hard satisfiable instances. A plausible source of such instances consists of random k-SAT formulas whose clauses are chosen uniformly from among all clauses satisfying some randomly chosen truth assignment A. Unfortunately, instances generated in this manner tend to be relatively easy and can be solved efficiently by practical heuristics. Roughly speaking, as the formula's density increases, for a number of different algorithms, A acts as a stronger and stronger attractor. Motivated by recent results on the geometry of the space of satisfying truth assignments of random k-SAT and NAE-k-SAT formulas, we introduce a simple twist on this basic model, which appears to dramatically increase its hardness. Namely, in addition to forbidding the clauses violated by the hidden assignment A, we also forbid the clauses violated by its complement, so that both A and complement of A are satisfying. It appears that under this \"symmetrization'' the effects of the two attractors largely cancel out, making it much harder for algorithms to find any truth assignment. We give theoretical and experimental evidence supporting this assertion.\n    ",
+        "submission_date": "2005-03-20T00:00:00",
+        "last_modified_date": "2005-03-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503059",
+        "title": "Les repr\u00e9sentations g\u00e9n\u00e9tiques d'objets : simples analogies ou mod\u00e8les pertinents ? Le point de vue de l' \"\u00e9volutique\".<br>&ndash;&ndash;&ndash;<br>Genetic representations of objects : simple analogies or efficient models ? The \"evolutic\" point of view",
+        "authors": [
+            "Laurent Kr\u00e4henb\u00fchl"
+        ],
+        "abstract": "  Depuis une trentaine d'ann\u00e9es, les ing\u00e9nieurs utilisent couramment des analogies avec l'\u00e9volution naturelle pour optimiser des dispositifs techniques. Le plus souvent, ces m\u00e9thodes \"g\u00e9n\u00e9tiques\" ou \"\u00e9volutionnaires\" sont consid\u00e9r\u00e9es uniquement du point de vue pratique, comme des m\u00e9thodes d'optimisation performantes, qu'on peut utiliser \u00e0 la place d'autres m\u00e9thodes (gradients, simplexes, ...). Dans cet article, nous essayons de montrer que les sciences et les techniques, mais aussi les organisations humaines, et g\u00e9n\u00e9ralement tous les syst\u00e8mes complexes, ob\u00e9issent \u00e0 des lois d'\u00e9volution dont la g\u00e9n\u00e9tique est un bon mod\u00e8le repr\u00e9sentatif, m\u00eame si g\u00eanes et chromosomes sont \"virtuels\" : ainsi loin d'\u00eatre seulement un outil ponctuel d'aide \u00e0 la synth\u00e8se de solutions technologiques, la repr\u00e9sentation g\u00e9n\u00e9tique est-elle un mod\u00e8le dynamique global de l'\u00e9volution du monde fa\u00e7onn\u00e9 par l'agitation humaine.&ndash;&ndash;&ndash;&ndash;For thirty years, engineers commonly use analogies with natural evolution to optimize technical devices. More often that not, these \"genetic\" or \"evolutionary\" methods are only view as efficient tools, which could replace other optimization techniques (gradient methods, simplex, ...). In this paper, we try to show that sciences, techniques, human organizations, and more generally all complex systems, obey to evolution rules, whose the genetic is a good representative model, even if genes and chromosomes are \"virtual\". Thus, the genetic representation is not only a specific tool helping for the design of technological solutions, but also a global and dynamic model for the action of the human agitation on our world.\n    ",
+        "submission_date": "2005-03-23T00:00:00",
+        "last_modified_date": "2006-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504024",
+        "title": "Constraint-Based Qualitative Simulation",
+        "authors": [
+            "Krzysztof R. Apt",
+            "Sebastian Brand"
+        ],
+        "abstract": "  We consider qualitative simulation involving a finite set of qualitative relations in presence of complete knowledge about their interrelationship. We show how it can be naturally captured by means of constraints expressed in temporal logic and constraint satisfaction problems. The constraints relate at each stage the 'past' of a simulation with its 'future'. The benefit of this approach is that it readily leads to an implementation based on constraint technology that can be used to generate simulations and to answer queries about them.\n    ",
+        "submission_date": "2005-04-07T00:00:00",
+        "last_modified_date": "2005-04-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504041",
+        "title": "Learning Polynomial Networks for Classification of Clinical Electroencephalograms",
+        "authors": [
+            "Vitaly Schetinin",
+            "Joachim Schult"
+        ],
+        "abstract": "  We describe a polynomial network technique developed for learning to classify clinical electroencephalograms (EEGs) presented by noisy features. Using an evolutionary strategy implemented within Group Method of Data Handling, we learn classification models which are comprehensively described by sets of short-term polynomials. The polynomial models were learnt to classify the EEGs recorded from Alzheimer and healthy patients and recognize the EEG artifacts. Comparing the performances of our technique and some machine learning methods we conclude that our technique can learn well-suited polynomial models which experts can find easy-to-understand.\n    ",
+        "submission_date": "2005-04-11T00:00:00",
+        "last_modified_date": "2005-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504042",
+        "title": "The Bayesian Decision Tree Technique with a Sweeping Strategy",
+        "authors": [
+            "V. Schetinin",
+            "J.E. Fieldsend",
+            "D. Partridge",
+            "W.J. Krzanowski",
+            "R.M. Everson",
+            "T.C. Bailey",
+            "A. Hernandez"
+        ],
+        "abstract": "  The uncertainty of classification outcomes is of crucial importance for many safety critical applications including, for example, medical diagnostics. In such applications the uncertainty of classification can be reliably estimated within a Bayesian model averaging technique that allows the use of prior information. Decision Tree (DT) classification models used within such a technique gives experts additional information by making this classification scheme observable. The use of the Markov Chain Monte Carlo (MCMC) methodology of stochastic sampling makes the Bayesian DT technique feasible to perform. However, in practice, the MCMC technique may become stuck in a particular DT which is far away from a region with a maximal posterior. Sampling such DTs causes bias in the posterior estimates, and as a result the evaluation of classification uncertainty may be incorrect. In a particular case, the negative effect of such sampling may be reduced by giving additional prior information on the shape of DTs. In this paper we describe a new approach based on sweeping the DTs without additional priors on the favorite shape of DTs. The performances of Bayesian DT techniques with the standard and sweeping strategies are compared on a synthetic data as well as on real datasets. Quantitatively evaluating the uncertainty in terms of entropy of class posterior probabilities, we found that the sweeping strategy is superior to the standard strategy.\n    ",
+        "submission_date": "2005-04-11T00:00:00",
+        "last_modified_date": "2005-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504043",
+        "title": "Experimental Comparison of Classification Uncertainty for Randomised and Bayesian Decision Tree Ensembles",
+        "authors": [
+            "V. Schetinin",
+            "D. Partridge",
+            "W.J. Krzanowski",
+            "R.M. Everson",
+            "J.E. Fieldsend",
+            "T.C. Bailey",
+            "A. Hernandez"
+        ],
+        "abstract": "  In this paper we experimentally compare the classification uncertainty of the randomised Decision Tree (DT) ensemble technique and the Bayesian DT technique with a restarting strategy on a synthetic dataset as well as on some datasets commonly used in the machine learning community. For quantitative evaluation of classification uncertainty, we use an Uncertainty Envelope dealing with the class posterior distribution and a given confidence probability. Counting the classifier outcomes, this technique produces feasible evaluations of the classification uncertainty. Using this technique in our experiments, we found that the Bayesian DT technique is superior to the randomised DT ensemble technique.\n    ",
+        "submission_date": "2005-04-11T00:00:00",
+        "last_modified_date": "2005-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504064",
+        "title": "Neural-Network Techniques for Visual Mining Clinical Electroencephalograms",
+        "authors": [
+            "Vitaly Schetinin",
+            "Joachim Schult",
+            "Anatoly Brazhnikov"
+        ],
+        "abstract": "  In this chapter we describe new neural-network techniques developed for visual mining clinical electroencephalograms (EEGs), the weak electrical potentials invoked by brain activity. These techniques exploit fruitful ideas of Group Method of Data Handling (GMDH). Section 2 briefly describes the standard neural-network techniques which are able to learn well-suited classification modes from data presented by relevant features. Section 3 introduces an evolving cascade neural network technique which adds new input nodes as well as new neurons to the network while the training error decreases. This algorithm is applied to recognize artifacts in the clinical EEGs. Section 4 presents the GMDH-type polynomial networks learnt from data. We applied this technique to distinguish the EEGs recorded from an Alzheimer and a healthy patient as well as recognize EEG artifacts. Section 5 describes the new neural-network technique developed to induce multi-class concepts from data. We used this technique for inducing a 16-class concept from the large-scale clinical EEG data. Finally we discuss perspectives of applying the neural-network techniques to clinical EEGs.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504065",
+        "title": "Estimating Classification Uncertainty of Bayesian Decision Tree Technique on Financial Data",
+        "authors": [
+            "Vitaly Schetinin",
+            "Jonathan E. Fieldsend",
+            "Derek Partridge",
+            "Wojtek J. Krzanowski",
+            "Richard M. Everson",
+            "Trevor C. Bailey",
+            "Adolfo Hernandez"
+        ],
+        "abstract": "  Bayesian averaging over classification models allows the uncertainty of classification outcomes to be evaluated, which is of crucial importance for making reliable decisions in applications such as financial in which risks have to be estimated. The uncertainty of classification is determined by a trade-off between the amount of data available for training, the diversity of a classifier ensemble and the required performance. The interpretability of classification models can also give useful information for experts responsible for making reliable classifications. For this reason Decision Trees (DTs) seem to be attractive classification models. The required diversity of the DT ensemble can be achieved by using the Bayesian model averaging all possible DTs. In practice, the Bayesian approach can be implemented on the base of a Markov Chain Monte Carlo (MCMC) technique of random sampling from the posterior distribution. For sampling large DTs, the MCMC method is extended by Reversible Jump technique which allows inducing DTs under given priors. For the case when the prior information on the DT size is unavailable, the sweeping technique defining the prior implicitly reveals a better performance. Within this Chapter we explore the classification uncertainty of the Bayesian MCMC techniques on some datasets from the StatLog Repository and real financial data. The classification uncertainty is compared within an Uncertainty Envelope technique dealing with the class posterior distribution and a given confidence probability. This technique provides realistic estimates of the classification uncertainty which can be easily interpreted in statistical terms with the aim of risk evaluation.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504066",
+        "title": "Comparison of the Bayesian and Randomised Decision Tree Ensembles within an Uncertainty Envelope Technique",
+        "authors": [
+            "Vitaly Schetinin",
+            "Jonathan E. Fieldsend",
+            "Derek Partridge",
+            "Wojtek J. Krzanowski",
+            "Richard M. Everson",
+            "Trevor C. Bailey",
+            "Adolfo Hernandez"
+        ],
+        "abstract": "  Multiple Classifier Systems (MCSs) allow evaluation of the uncertainty of classification outcomes that is of crucial importance for safety critical applications. The uncertainty of classification is determined by a trade-off between the amount of data available for training, the classifier diversity and the required performance. The interpretability of MCSs can also give useful information for experts responsible for making reliable classifications. For this reason Decision Trees (DTs) seem to be attractive classification models for experts. The required diversity of MCSs exploiting such classification models can be achieved by using two techniques, the Bayesian model averaging and the randomised DT ensemble. Both techniques have revealed promising results when applied to real-world problems. In this paper we experimentally compare the classification uncertainty of the Bayesian model averaging with a restarting strategy and the randomised DT ensemble on a synthetic dataset and some domain problems commonly used in the machine learning community. To make the Bayesian DT averaging feasible, we use a Markov Chain Monte Carlo technique. The classification uncertainty is evaluated within an Uncertainty Envelope technique dealing with the class posterior distribution and a given confidence probability. Exploring a full posterior distribution, this technique produces realistic estimates which can be easily interpreted in statistical terms. In our experiments we found out that the Bayesian DTs are superior to the randomised DT ensembles within the Uncertainty Envelope technique.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504071",
+        "title": "Proceedings of the Pacific Knowledge Acquisition Workshop 2004",
+        "authors": [
+            "Byeong Ho Kang",
+            "Achim Hoffmann",
+            "Takahira Yamaguchi",
+            "Wai Kiang Yeap"
+        ],
+        "abstract": "  Artificial intelligence (AI) research has evolved over the last few decades and knowledge acquisition research is at the core of AI research. PKAW-04 is one of three international knowledge acquisition workshops held in the Pacific-Rim, Canada and Europe over the last two decades. PKAW-04 has a strong emphasis on incremental knowledge acquisition, machine learning, neural nets and active mining.\n",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504072",
+        "title": "Knowledge Representation Issues in Semantic Graphs for Relationship Detection",
+        "authors": [
+            "Marc Barthelemy",
+            "Edmond Chow",
+            "Tina Eliassi-Rad"
+        ],
+        "abstract": "  An important task for Homeland Security is the prediction of threat vulnerabilities, such as through the detection of relationships between seemingly disjoint entities. A structure used for this task is a \"semantic graph\", also known as a \"relational data graph\" or an \"attributed relational graph\". These graphs encode relationships as \"typed\" links between a pair of \"typed\" nodes. Indeed, semantic graphs are very similar to semantic networks used in AI. The node and link types are related through an ontology graph (also known as a schema). Furthermore, each node has a set of attributes associated with it (e.g., \"age\" may be an attribute of a node of type \"person\"). Unfortunately, the selection of types and attributes for both nodes and links depends on human expertise and is somewhat subjective and even arbitrary. This subjectiveness introduces biases into any algorithm that operates on semantic graphs. Here, we raise some knowledge representation issues for semantic graphs and provide some possible solutions using recently developed ideas in the field of complex networks. In particular, we use the concept of transitivity to evaluate the relevance of individual links in the semantic graph for detecting relationships. We also propose new statistical measures for semantic graphs and illustrate these semantic measures on graphs constructed from movies and terrorism data.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504078",
+        "title": "Adaptive Online Prediction by Following the Perturbed Leader",
+        "authors": [
+            "Marcus Hutter",
+            "Jan Poland"
+        ],
+        "abstract": "  When applying aggregating strategies to Prediction with Expert Advice, the learning rate must be adaptively tuned. The natural choice of sqrt(complexity/current loss) renders the analysis of Weighted Majority derivatives quite complicated. In particular, for arbitrary weights there have been no results proven so far. The analysis of the alternative \"Follow the Perturbed Leader\" (FPL) algorithm from Kalai & Vempala (2003) (based on Hannan's algorithm) is easier. We derive loss bounds for adaptive learning rate and both finite expert classes with uniform weights and countable expert classes with arbitrary weights. For the former setup, our loss bounds match the best known results so far, while for the latter our results are new.\n    ",
+        "submission_date": "2005-04-16T00:00:00",
+        "last_modified_date": "2005-04-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504101",
+        "title": "Single-solution Random 3-SAT Instances",
+        "authors": [
+            "Marko Znidaric"
+        ],
+        "abstract": "  We study a class of random 3-SAT instances having exactly one solution. The properties of this ensemble considerably differ from those of a random 3-SAT ensemble. It is numerically shown that the running time of several complete and stochastic local search algorithms monotonically increases as the clause density is decreased. Therefore, there is no easy-hard-easy pattern of hardness as for standard random 3-SAT ensemble. Furthermore, the running time for short single-solution formulas increases with the problem size much faster than for random 3-SAT formulas from the phase transition region.\n    ",
+        "submission_date": "2005-04-25T00:00:00",
+        "last_modified_date": "2005-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504108",
+        "title": "Cooperative Game Theory within Multi-Agent Systems for Systems Scheduling",
+        "authors": [
+            "Derek Messie",
+            "Jae C. Oh"
+        ],
+        "abstract": "  Research concerning organization and coordination within multi-agent systems continues to draw from a variety of architectures and methodologies. The work presented in this paper combines techniques from game theory and multi-agent systems to produce self-organizing, polymorphic, lightweight, embedded agents for systems scheduling within a large-scale real-time systems environment. Results show how this approach is used to experimentally produce optimum real-time scheduling through the emergent behavior of thousands of agents. These results are obtained using a SWARM simulation of systems scheduling within a High Energy Physics experiment consisting of 2500 digital signal processors.\n    ",
+        "submission_date": "2005-04-29T00:00:00",
+        "last_modified_date": "2005-04-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505018",
+        "title": "Temporal and Spatial Data Mining with Second-Order Hidden Models",
+        "authors": [
+            "Jean-Francois Mari",
+            "Florence Le Ber"
+        ],
+        "abstract": "  In the frame of designing a knowledge discovery system, we have developed stochastic models based on high-order hidden Markov models. These models are capable to map sequences of data into a Markov chain in which the transitions between the states depend on the \\texttt{n} previous states according to the order of the model. We study the process of achieving information extraction fromspatial and temporal data by means of an unsupervised classification. We use therefore a French national database related to the land use of a region, named Teruti, which describes the land use both in the spatial and temporal domain. Land-use categories (wheat, corn, forest, ...) are logged every year on each site regularly spaced in the region. They constitute a temporal sequence of images in which we look for spatial and temporal dependencies. The temporal segmentation of the data is done by means of a second-order Hidden Markov Model (\\hmmd) that appears to have very good capabilities to locate stationary segments, as shown in our previous work in speech recognition. Thespatial classification is performed by defining a fractal scanning ofthe images with the help of a Hilbert-Peano curve that introduces atotal order on the sites, preserving the relation ofneighborhood between the sites. We show that the \\hmmd performs aclassification that is meaningful for the ",
+        "submission_date": "2005-05-09T00:00:00",
+        "last_modified_date": "2005-05-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505041",
+        "title": "Relational reasoning in the region connection calculus",
+        "authors": [
+            "Yongming Li",
+            "Sanjiang Li",
+            "Mingsheng Ying"
+        ],
+        "abstract": "  This paper is mainly concerned with the relation-algebraical aspects of the well-known Region Connection Calculus (RCC). We show that the contact relation algebra (CRA) of certain RCC model is not atomic complete and hence infinite. So in general an extensional composition table for the RCC cannot be obtained by simply refining the RCC8 relations. After having shown that each RCC model is a consistent model of the RCC11 CT, we give an exhaustive investigation about extensional interpretation of the RCC11 CT. More important, we show the complemented closed disk algebra is a representation for the relation algebra determined by the RCC11 table. The domain of this algebra contains two classes of regions, the closed disks and closures of their complements in the real plane.\n    ",
+        "submission_date": "2005-05-14T00:00:00",
+        "last_modified_date": "2005-05-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505080",
+        "title": "Dominance Based Crossover Operator for Evolutionary Multi-objective Algorithms",
+        "authors": [
+            "Olga Roudenko",
+            "Marc Schoenauer"
+        ],
+        "abstract": "  In spite of the recent quick growth of the Evolutionary Multi-objective Optimization (EMO) research field, there has been few trials to adapt the general variation operators to the particular context of the quest for the Pareto-optimal set. The only exceptions are some mating restrictions that take in account the distance between the potential mates - but contradictory conclusions have been reported. This paper introduces a particular mating restriction for Evolutionary Multi-objective Algorithms, based on the Pareto dominance relation: the partner of a non-dominated individual will be preferably chosen among the individuals of the population that it dominates. Coupled with the BLX crossover operator, two different ways of generating offspring are proposed. This recombination scheme is validated within the well-known NSGA-II framework on three bi-objective benchmark problems and one real-world bi-objective constrained optimization problem. An acceleration of the progress of the population toward the Pareto set is observed on all problems.\n    ",
+        "submission_date": "2005-05-29T00:00:00",
+        "last_modified_date": "2005-05-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505081",
+        "title": "An ontological approach to the construction of problem-solving models",
+        "authors": [
+            "Sabine Bruaux",
+            "Gilles Kassel",
+            "Gilles Morel"
+        ],
+        "abstract": "  Our ongoing work aims at defining an ontology-centered approach for building expertise models for the CommonKADS methodology. This approach (which we have named \"OntoKADS\") is founded on a core problem-solving ontology which distinguishes between two conceptualization levels: at an object level, a set of concepts enable us to define classes of problem-solving situations, and at a meta level, a set of meta-concepts represent modeling primitives. In this article, our presentation of OntoKADS will focus on the core ontology and, in particular, on roles - the primitive situated at the interface between domain knowledge and reasoning, and whose ontological status is still much debated. We first propose a coherent, global, ontological framework which enables us to account for this primitive. We then show how this novel characterization of the primitive allows definition of new rules for the construction of expertise models.\n    ",
+        "submission_date": "2005-05-30T00:00:00",
+        "last_modified_date": "2005-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506030",
+        "title": "Preferential and Preferential-discriminative Consequence relations",
+        "authors": [
+            "Jonathan Ben-Naim"
+        ],
+        "abstract": "  The present paper investigates consequence relations that are both non-monotonic and paraconsistent. More precisely, we put the focus on preferential consequence relations, i.e. those relations that can be defined by a binary preference relation on states labelled by valuations. We worked with a general notion of valuation that covers e.g. the classical valuations as well as certain kinds of many-valued valuations. In the many-valued cases, preferential consequence relations are paraconsistant (in addition to be non-monotonic), i.e. they are capable of drawing reasonable conclusions which contain contradictions. The first purpose of this paper is to provide in our general framework syntactic characterizations of several families of preferential relations. The second and main purpose is to provide, again in our general framework, characterizations of several families of preferential discriminative consequence relations. They are defined exactly as the plain version, but any conclusion such that its negation is also a conclusion is rejected (these relations bring something new essentially in the many-valued cases).\n    ",
+        "submission_date": "2005-06-09T00:00:00",
+        "last_modified_date": "2007-04-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506031",
+        "title": "A Constrained Object Model for Configuration Based Workflow Composition",
+        "authors": [
+            "Patrick Albert",
+            "Laurent Henocque",
+            "Mathias Kleiner"
+        ],
+        "abstract": "  Automatic or assisted workflow composition is a field of intense research for applications to the world wide web or to business process modeling. Workflow composition is traditionally addressed in various ways, generally via theorem proving techniques. Recent research observed that building a composite workflow bears strong relationships with finite model search, and that some workflow languages can be defined as constrained object metamodels . This lead to consider the viability of applying configuration techniques to this problem, which was proven feasible. Constrained based configuration expects a constrained object model as input. The purpose of this document is to formally specify the constrained object model involved in ongoing experiments and research using the Z specification language.\n    ",
+        "submission_date": "2005-06-09T00:00:00",
+        "last_modified_date": "2005-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506074",
+        "title": "Redundancy in Logic II: 2CNF and Horn Propositional Formulae",
+        "authors": [
+            "Paolo Liberatore"
+        ],
+        "abstract": "  We report complexity results about redundancy of formulae in 2CNF form. We first consider the problem of checking redundancy and show some algorithms that are slightly better than the trivial one. We then analyze problems related to finding irredundant equivalent subsets (I.E.S.) of a given set. The concept of cyclicity proved to be relevant to the complexity of these problems. Some results about Horn formulae are also shown.\n    ",
+        "submission_date": "2005-06-17T00:00:00",
+        "last_modified_date": "2005-06-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506095",
+        "title": "Deriving a Stationary Dynamic Bayesian Network from a Logic Program with Recursive Loops",
+        "authors": [
+            "Y. D. Shen",
+            "Q. Yang",
+            "J. H. You",
+            "L. Y. Yuan"
+        ],
+        "abstract": "  Recursive loops in a logic program present a challenging problem to the PLP framework. On the one hand, they loop forever so that the PLP backward-chaining inferences would never stop. On the other hand, they generate cyclic influences, which are disallowed in Bayesian networks. Therefore, in existing PLP approaches logic programs with recursive loops are considered to be problematic and thus are excluded. In this paper, we propose an approach that makes use of recursive loops to build a stationary dynamic Bayesian network. Our work stems from an observation that recursive loops in a logic program imply a time sequence and thus can be used to model a stationary dynamic Bayesian network without using explicit time parameters. We introduce a Bayesian knowledge base with logic clauses of the form $A \\leftarrow A_1,...,A_l, true, Context, Types$, which naturally represents the knowledge that the $A_i$s have direct influences on $A$ in the context $Context$ under the type constraints $Types$. We then use the well-founded model of a logic program to define the direct influence relation and apply SLG-resolution to compute the space of random variables together with their parental connections. We introduce a novel notion of influence clauses, based on which a declarative semantics for a Bayesian knowledge base is established and algorithms for building a two-slice dynamic Bayesian network from a logic program are developed.\n    ",
+        "submission_date": "2005-06-27T00:00:00",
+        "last_modified_date": "2005-06-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507010",
+        "title": "A Study for the Feature Core of Dynamic Reduct",
+        "authors": [
+            "Jiayang Wang"
+        ],
+        "abstract": "  To the reduct problems of decision system, the paper proposes the notion of dynamic core according to the dynamic reduct model. It describes various formal definitions of dynamic core, and discusses some properties about dynamic core. All of these show that dynamic core possesses the essential characters of the feature core.\n    ",
+        "submission_date": "2005-07-05T00:00:00",
+        "last_modified_date": "2005-07-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507023",
+        "title": "Two-dimensional cellular automata and the analysis of correlated time series",
+        "authors": [
+            "Luis O. Rigo Jr.",
+            "Valmir C. Barbosa"
+        ],
+        "abstract": "  Correlated time series are time series that, by virtue of the underlying process to which they refer, are expected to influence each other strongly. We introduce a novel approach to handle such time series, one that models their interaction as a two-dimensional cellular automaton and therefore allows them to be treated as a single entity. We apply our approach to the problems of filling gaps and predicting values in rainfall time series. Computational results show that the new approach compares favorably to Kalman smoothing and filtering.\n    ",
+        "submission_date": "2005-07-08T00:00:00",
+        "last_modified_date": "2005-07-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507029",
+        "title": "ATNoSFERES revisited",
+        "authors": [
+            "Samuel Landau",
+            "Olivier Sigaud",
+            "Marc Schoenauer"
+        ],
+        "abstract": "  ATNoSFERES is a Pittsburgh style Learning Classifier System (LCS) in which the rules are represented as edges of an Augmented Transition Network. Genotypes are strings of tokens of a stack-based language, whose execution builds the labeled graph. The original ATNoSFERES, using a bitstring to represent the language tokens, has been favorably compared in previous work to several Michigan style LCSs architectures in the context of Non Markov problems. Several modifications of ATNoSFERES are proposed here: the most important one conceptually being a representational change: each token is now represented by an integer, hence the genotype is a string of integers; several other modifications of the underlying grammar language are also proposed. The resulting ATNoSFERES-II is validated on several standard animat Non Markov problems, on which it outperforms all previously published results in the LCS literature. The reasons for these improvement are carefully analyzed, and some assumptions are proposed on the underlying mechanisms in order to explain these good results.\n    ",
+        "submission_date": "2005-07-11T00:00:00",
+        "last_modified_date": "2005-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507056",
+        "title": "Explorations in engagement for humans and robots",
+        "authors": [
+            "Candace L. Sidner",
+            "Christopher Lee",
+            "Cory Kidd",
+            "Neal Lesh",
+            "Charles Rich"
+        ],
+        "abstract": "  This paper explores the concept of engagement, the process by which individuals in an interaction start, maintain and end their perceived connection to one another. The paper reports on one aspect of engagement among human interactors--the effect of tracking faces during an interaction. It also describes the architecture of a robot that can participate in conversational, collaborative interactions with engagement gestures. Finally, the paper reports on findings of experiments with human participants who interacted with a robot when it either performed or did not perform engagement gestures. Results of the human-robot studies indicate that people become engaged with robots: they direct their attention to the robot more often in interactions where engagement gestures are present, and they find interactions more appropriate when engagement gestures are present than when they are not.\n    ",
+        "submission_date": "2005-07-21T00:00:00",
+        "last_modified_date": "2005-07-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508032",
+        "title": "Polymorphic Self-* Agents for Stigmergic Fault Mitigation in Large-Scale Real-Time Embedded Systems",
+        "authors": [
+            "Derek Messie",
+            "Jae C. Oh"
+        ],
+        "abstract": "  Organization and coordination of agents within large-scale, complex, distributed environments is one of the primary challenges in the field of multi-agent systems. A lot of interest has surfaced recently around self-* (self-organizing, self-managing, self-optimizing, self-protecting) agents. This paper presents polymorphic self-* agents that evolve a core set of roles and behavior based on environmental cues. The agents adapt these roles based on the changing demands of the environment, and are directly implementable in computer systems applications. The design combines strategies from game theory, stigmergy, and other biologically inspired models to address fault mitigation in large-scale, real-time, distributed systems. The agents are embedded within the individual digital signal processors of BTeV, a High Energy Physics experiment consisting of 2500 such processors. Results obtained using a SWARM simulation of the BTeV environment demonstrate the polymorphic character of the agents, and show how this design exceeds performance and reliability metrics obtained from comparable centralized, and even traditional decentralized approaches.\n    ",
+        "submission_date": "2005-08-04T00:00:00",
+        "last_modified_date": "2005-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508100",
+        "title": "A primer on Answer Set Programming",
+        "authors": [
+            "Alessandro Provetti"
+        ],
+        "abstract": "  A introduction to the syntax and Semantics of Answer Set Programming intended as an handout to [under]graduate students taking Artificial Intlligence or Logic Programming classes.\n    ",
+        "submission_date": "2005-08-23T00:00:00",
+        "last_modified_date": "2005-08-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508132",
+        "title": "Planning with Preferences using Logic Programming",
+        "authors": [
+            "Tran Cao Son",
+            "Enrico Pontelli"
+        ],
+        "abstract": "  We present a declarative language, PP, for the high-level specification of preferences between possible solutions (or trajectories) of a planning problem. This novel language allows users to elegantly express non-trivial, multi-dimensional preferences and priorities over such preferences. The semantics of PP allows the identification of most preferred trajectories for a given goal. We also provide an answer set programming implementation of planning problems with PP preferences.\n    ",
+        "submission_date": "2005-08-31T00:00:00",
+        "last_modified_date": "2005-08-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509011",
+        "title": "Clustering Mixed Numeric and Categorical Data: A Cluster Ensemble Approach",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  Clustering is a widely used technique in data mining applications for discovering patterns in underlying data. Most traditional clustering algorithms are limited to handling datasets that contain either numeric or categorical attributes. However, datasets with mixed types of attributes are common in real life data mining applications. In this paper, we propose a novel divide-and-conquer technique to solve this problem. First, the original mixed dataset is divided into two sub-datasets: the pure categorical dataset and the pure numeric dataset. Next, existing well established clustering algorithms designed for different types of datasets are employed to produce corresponding clusters. Last, the clustering results on the categorical and numeric dataset are combined as a categorical dataset, on which the categorical data clustering algorithm is used to get the final clusters. Our contribution in this paper is to provide an algorithm framework for the mixed attributes clustering problem, in which existing clustering algorithms can be easily integrated, the capabilities of different kinds of clustering algorithms and characteristics of different types of datasets could be fully exploited. Comparisons with other clustering algorithms on real life datasets illustrate the superiority of our approach.\n    ",
+        "submission_date": "2005-09-05T00:00:00",
+        "last_modified_date": "2005-09-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509025",
+        "title": "A formally verified proof of the prime number theorem",
+        "authors": [
+            "Jeremy Avigad",
+            "Kevin Donnelly",
+            "David Gray",
+            "Paul Raff"
+        ],
+        "abstract": "  The prime number theorem, established by Hadamard and de la Vall'ee Poussin independently in 1896, asserts that the density of primes in the positive integers is asymptotic to 1 / ln x. Whereas their proofs made serious use of the methods of complex analysis, elementary proofs were provided by Selberg and Erd\"os in 1948. We describe a formally verified version of Selberg's proof, obtained using the Isabelle proof assistant.\n    ",
+        "submission_date": "2005-09-09T00:00:00",
+        "last_modified_date": "2006-04-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509032",
+        "title": "A Simple Model to Generate Hard Satisfiable Instances",
+        "authors": [
+            "Ke Xu",
+            "Frederic Boussemart",
+            "Fred Hemery",
+            "Christophe Lecoutre"
+        ],
+        "abstract": "  In this paper, we try to further demonstrate that the models of random CSP instances proposed by [Xu and Li, 2000; 2003] are of theoretical and practical interest. Indeed, these models, called RB and RD, present several nice features. First, it is quite easy to generate random instances of any arity since no particular structure has to be integrated, or property enforced, in such instances. Then, the existence of an asymptotic phase transition can be guaranteed while applying a limited restriction on domain size and on constraint tightness. In that case, a threshold point can be precisely located and all instances have the guarantee to be hard at the threshold, i.e., to have an exponential tree-resolution complexity. Next, a formal analysis shows that it is possible to generate forced satisfiable instances whose hardness is similar to unforced satisfiable ones. This analysis is supported by some representative results taken from an intensive experimentation that we have carried out, using complete and incomplete search methods.\n    ",
+        "submission_date": "2005-09-12T00:00:00",
+        "last_modified_date": "2005-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509033",
+        "title": "K-Histograms: An Efficient Clustering Algorithm for Categorical Dataset",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng",
+            "Bin Dong"
+        ],
+        "abstract": "  Clustering categorical data is an integral part of data mining and has attracted much attention recently. In this paper, we present k-histogram, a new efficient algorithm for clustering categorical data. The k-histogram algorithm extends the k-means algorithm to categorical domain by replacing the means of clusters with histograms, and dynamically updates histograms in the clustering process. Experimental results on real datasets show that k-histogram algorithm can produce better clustering results than k-modes algorithm, the one related with our work most closely.\n    ",
+        "submission_date": "2005-09-13T00:00:00",
+        "last_modified_date": "2005-09-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509040",
+        "title": "Authoring case based training by document data extraction",
+        "authors": [
+            "Christian Betz",
+            "Alexander Hoernlein",
+            "Frank Puppe"
+        ],
+        "abstract": "  In this paper, we propose an scalable approach to modeling based upon word processing documents, and we describe the tool Phoenix providing the technical infrastructure.\n",
+        "submission_date": "2005-09-14T00:00:00",
+        "last_modified_date": "2005-09-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509058",
+        "title": "Interactive Unawareness Revisited",
+        "authors": [
+            "Joseph Y. Halpern",
+            "Leandro C. Rego"
+        ],
+        "abstract": "  We analyze a model of interactive unawareness introduced by Heifetz, Meier and Schipper (HMS). We consider two axiomatizations for their model, which capture different notions of validity. These axiomatizations allow us to compare the HMS approach to both the standard (S5) epistemic logic and two other approaches to unawareness: that of Fagin and Halpern and that of Modica and Rustichini. We show that the differences between the HMS approach and the others are mainly due to the notion of validity used and the fact that the HMS is based on a 3-valued propositional logic.\n    ",
+        "submission_date": "2005-09-19T00:00:00",
+        "last_modified_date": "2005-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510020",
+        "title": "Sur le statut r\u00e9f\u00e9rentiel des entit\u00e9s nomm\u00e9es",
+        "authors": [
+            "Thierry Poibeau"
+        ],
+        "abstract": "  We show in this paper that, on the one hand, named entities can be designated using different denominations and that, on the second hand, names denoting named entities are polysemous. The analysis cannot be limited to reference resolution but should take into account naming strategies, which are mainly based on two linguistic operations: synecdoche and metonymy. Lastly, we present a model that explicitly represents the different denominations in discourse, unifying the way to represent linguistic knowledge and world knowledge.\n    ",
+        "submission_date": "2005-10-07T00:00:00",
+        "last_modified_date": "2005-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510050",
+        "title": "Integration of the DOLCE top-level ontology into the OntoSpec methodology",
+        "authors": [
+            "Gilles Kassel"
+        ],
+        "abstract": "  This report describes a new version of the OntoSpec methodology for ontology building. Defined by the LaRIA Knowledge Engineering Team (University of Picardie Jules Verne, Amiens, France), OntoSpec aims at helping builders to model ontological knowledge (upstream of formal representation). The methodology relies on a set of rigorously-defined modelling primitives and principles. Its application leads to the elaboration of a semi-informal ontology, which is independent of knowledge representation languages. We recently enriched the OntoSpec methodology by endowing it with a new resource, the DOLCE top-level ontology defined at the LOA (IST-CNR, Trento, Italy). The goal of this integration is to provide modellers with additional help in structuring application ontologies, while maintaining independence vis-\u00e0-vis formal representation languages. In this report, we first provide an overview of the OntoSpec methodology's general principles and then describe the DOLCE re-engineering process. A complete version of DOLCE-OS (i.e. a specification of DOLCE in the semi-informal OntoSpec language) is presented in an appendix.\n    ",
+        "submission_date": "2005-10-18T00:00:00",
+        "last_modified_date": "2005-10-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510062",
+        "title": "Using Interval Particle Filtering for Marker less 3D Human Motion Capture",
+        "authors": [
+            "Jamal Saboune",
+            "Fran\u00e7ois Charpillet"
+        ],
+        "abstract": "  In this paper we present a new approach for marker less human motion capture from conventional camera feeds. The aim of our study is to recover 3D positions of key points of the body that can serve for gait analysis. Our approach is based on foreground segmentation, an articulated body model and particle filters. In order to be generic and simple no restrictive dynamic modelling was used. A new modified particle filtering algorithm was introduced. It is used efficiently to search the model configuration space. This new algorithm which we call Interval Particle Filtering reorganizes the configurations search space in an optimal deterministic way and proved to be efficient in tracking natural human movement. Results for human motion capture from a single camera are presented and compared to results obtained from a marker based system. The system proved to be able to track motion successfully even in partial occlusions.\n    ",
+        "submission_date": "2005-10-21T00:00:00",
+        "last_modified_date": "2005-10-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510063",
+        "title": "Markerless Human Motion Capture for Gait Analysis",
+        "authors": [
+            "Jamal Saboune",
+            "Fran\u00e7ois Charpillet"
+        ],
+        "abstract": "  The aim of our study is to detect balance disorders and a tendency towards the falls in the elderly, knowing gait parameters. In this paper we present a new tool for gait analysis based on markerless human motion capture, from camera feeds. The system introduced here, recovers the 3D positions of several key points of the human body while walking. Foreground segmentation, an articulated body model and particle filtering are basic elements of our approach. No dynamic model is used thus this system can be described as generic and simple to implement. A modified particle filtering algorithm, which we call Interval Particle Filtering, is used to reorganise and search through the model's configurations search space in a deterministic optimal way. This algorithm was able to perform human movement tracking with success. Results from the treatment of a single cam feeds are shown and compared to results obtained using a marker based human motion capture system.\n    ",
+        "submission_date": "2005-10-21T00:00:00",
+        "last_modified_date": "2005-10-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510076",
+        "title": "Applying Evolutionary Optimisation to Robot Obstacle Avoidance",
+        "authors": [
+            "Olivier Pauplin",
+            "Jean Louchet",
+            "Evelyne Lutton",
+            "Michel Parent"
+        ],
+        "abstract": "  This paper presents an artificial evolutionbased method for stereo image analysis and its application to real-time obstacle detection and avoidance for a mobile robot. It uses the Parisian approach, which consists here in splitting the representation of the robot's environment into a large number of simple primitives, the \"flies\", which are evolved following a biologically inspired scheme and give a fast, low-cost solution to the obstacle detection problem in mobile robotics.\n    ",
+        "submission_date": "2005-10-25T00:00:00",
+        "last_modified_date": "2005-10-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510079",
+        "title": "Evidence with Uncertain Likelihoods",
+        "authors": [
+            "Joseph Y. Halpern",
+            "Riccardo Pucella"
+        ],
+        "abstract": "  An agent often has a number of hypotheses, and must choose among them based on observations, or outcomes of experiments. Each of these observations can be viewed as providing evidence for or against various hypotheses. All the attempts to formalize this intuition up to now have assumed that associated with each hypothesis h there is a likelihood function \\mu_h, which is a probability measure that intuitively describes how likely each observation is, conditional on h being the correct hypothesis. We consider an extension of this framework where there is uncertainty as to which of a number of likelihood functions is appropriate, and discuss how one formal approach to defining evidence, which views evidence as a function from priors to posteriors, can be generalized to accommodate this uncertainty.\n    ",
+        "submission_date": "2005-10-25T00:00:00",
+        "last_modified_date": "2006-08-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510080",
+        "title": "When Ignorance is Bliss",
+        "authors": [
+            "Peter D. Grunwald",
+            "Joseph Y. Halpern"
+        ],
+        "abstract": "  It is commonly-accepted wisdom that more information is better, and that information should never be ignored. Here we argue, using both a Bayesian and a non-Bayesian analysis, that in some situations you are better off ignoring information if your uncertainty is represented by a set of probability measures. These include situations in which the information is relevant for the prediction task at hand. In the non-Bayesian analysis, we show how ignoring information avoids dilation, the phenomenon that additional pieces of information sometimes lead to an increase in uncertainty. In the Bayesian analysis, we show that for small sample sizes and certain prediction tasks, the Bayesian posterior based on a noninformative prior yields worse predictions than simply ignoring the given information.\n    ",
+        "submission_date": "2005-10-25T00:00:00",
+        "last_modified_date": "2005-10-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510083",
+        "title": "Neuronal Spectral Analysis of EEG and Expert Knowledge Integration for Automatic Classification of Sleep Stages",
+        "authors": [
+            "Nizar Kerkeni",
+            "Frederic Alexandre",
+            "Mohamed Hedi Bedoui",
+            "Laurent Bougrain",
+            "Mohamed Dogui"
+        ],
+        "abstract": "  Being able to analyze and interpret signal coming from electroencephalogram (EEG) recording can be of high interest for many applications including medical diagnosis and Brain-Computer Interfaces. Indeed, human experts are today able to extract from this signal many hints related to physiological as well as cognitive states of the recorded subject and it would be very interesting to perform such task automatically but today no completely automatic system exists. In previous studies, we have compared human expertise and automatic processing tools, including artificial neural networks (ANN), to better understand the competences of each and determine which are the difficult aspects to integrate in a fully automatic system. In this paper, we bring more elements to that study in reporting the main results of a practical experiment which was carried out in an hospital for sleep pathology study. An EEG recording was studied and labeled by a human expert and an ANN. We describe here the characteristics of the experiment, both human and neuronal procedure of analysis, compare their performances and point out the main limitations which arise from this study.\n    ",
+        "submission_date": "2005-10-26T00:00:00",
+        "last_modified_date": "2005-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510091",
+        "title": "An efficient memetic, permutation-based evolutionary algorithm for real-world train timetabling",
+        "authors": [
+            "Marc Schoenauer",
+            "Yann Semet"
+        ],
+        "abstract": "  Train timetabling is a difficult and very tightly constrained combinatorial problem that deals with the construction of train schedules. We focus on the particular problem of local reconstruction of the schedule following a small perturbation, seeking minimisation of the total accumulated delay by adapting times of departure and arrival for each train and allocation of resources (tracks, routing nodes, etc.). We describe a permutation-based evolutionary algorithm that relies on a semi-greedy heuristic to gradually reconstruct the schedule by inserting trains one after the other following the permutation. This algorithm can be hybridised with ILOG commercial MIP programming tool CPLEX in a coarse-grained manner: the evolutionary part is used to quickly obtain a good but suboptimal solution and this intermediate solution is refined using CPLEX. Experimental results are presented on a large real-world case involving more than one million variables and 2 million constraints. Results are surprisingly good as the evolutionary algorithm, alone or hybridised, produces excellent solutions much faster than CPLEX alone.\n    ",
+        "submission_date": "2005-10-31T00:00:00",
+        "last_modified_date": "2005-10-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511004",
+        "title": "Evolutionary Computing",
+        "authors": [
+            "Aguston E. Eiben",
+            "Marc Schoenauer"
+        ],
+        "abstract": "  Evolutionary computing (EC) is an exciting development in Computer Science. It amounts to building, applying and studying algorithms based on the Darwinian principles of natural selection. In this paper we briefly introduce the main concepts behind evolutionary computing. We present the main components all evolutionary algorithms (EA), sketch the differences between different types of EAs and survey application areas ranging from optimization, modeling and simulation to entertainment.\n    ",
+        "submission_date": "2005-11-01T00:00:00",
+        "last_modified_date": "2005-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511013",
+        "title": "K-ANMI: A Mutual Information Based Clustering Algorithm for Categorical Data",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  Clustering categorical data is an integral part of data mining and has attracted much attention recently. In this paper, we present k-ANMI, a new efficient algorithm for clustering categorical data. The k-ANMI algorithm works in a way that is similar to the popular k-means algorithm, and the goodness of clustering in each step is evaluated using a mutual information based criterion (namely, Average Normalized Mutual Information-ANMI) borrowed from cluster ensemble. Experimental results on real datasets show that k-ANMI algorithm is competitive with those state-of-art categorical data clustering algorithms with respect to clustering accuracy.\n    ",
+        "submission_date": "2005-11-03T00:00:00",
+        "last_modified_date": "2005-11-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511015",
+        "title": "Towards a Hierarchical Model of Consciousness, Intelligence, Mind and Body",
+        "authors": [
+            "Prashant"
+        ],
+        "abstract": "  This article is taken out.\n    ",
+        "submission_date": "2005-11-03T00:00:00",
+        "last_modified_date": "2007-01-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511038",
+        "title": "Towards a unified theory of logic programming semantics: Level mapping characterizations of selector generated models",
+        "authors": [
+            "Pascal Hitzler",
+            "Sibylle Schwarz"
+        ],
+        "abstract": "  Currently, the variety of expressive extensions and different semantics created for logic programs with negation is diverse and heterogeneous, and there is a lack of comprehensive comparative studies which map out the multitude of perspectives in a uniform way. Most recently, however, new methodologies have been proposed which allow one to derive uniform characterizations of different declarative semantics for logic programs with negation. In this paper, we study the relationship between two of these approaches, namely the level mapping characterizations due to [Hitzler and Wendt 2005], and the selector generated models due to [Schwarz 2004]. We will show that the latter can be captured by means of the former, thereby supporting the claim that level mappings provide a very flexible framework which is applicable to very diversely defined semantics.\n    ",
+        "submission_date": "2005-11-09T00:00:00",
+        "last_modified_date": "2005-11-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511042",
+        "title": "Dimensions of Neural-symbolic Integration - A Structured Survey",
+        "authors": [
+            "Sebastian Bader",
+            "Pascal Hitzler"
+        ],
+        "abstract": "  Research on integrated neural-symbolic systems has made significant progress in the recent past. In particular the understanding of ways to deal with symbolic knowledge within connectionist systems (also called artificial neural networks) has reached a critical mass which enables the community to strive for applicable implementations and use cases. Recent work has covered a great variety of logics used in artificial intelligence and provides a multitude of techniques for dealing with them within the context of artificial neural networks. We present a comprehensive survey of the field of neural-symbolic integration, including a new classification of system according to their architectures and abilities.\n    ",
+        "submission_date": "2005-11-10T00:00:00",
+        "last_modified_date": "2005-11-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511073",
+        "title": "Stochastic Process Semantics for Dynamical Grammar Syntax: An Overview",
+        "authors": [
+            "Eric Mjolsness"
+        ],
+        "abstract": "  We define a class of probabilistic models in terms of an operator algebra of stochastic processes, and a representation for this class in terms of stochastic parameterized grammars. A syntactic specification of a grammar is mapped to semantics given in terms of a ring of operators, so that grammatical composition corresponds to operator addition or multiplication. The operators are generators for the time-evolution of stochastic processes. Within this modeling framework one can express data clustering models, logic programs, ordinary and stochastic differential equations, graph grammars, and stochastic chemical reaction kinetics. This mathematical formulation connects these apparently distant fields to one another and to mathematical methods from quantum field theory and operator algebra.\n    ",
+        "submission_date": "2005-11-20T00:00:00",
+        "last_modified_date": "2005-11-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511091",
+        "title": "Evolution of Voronoi based Fuzzy Recurrent Controllers",
+        "authors": [
+            "Carlos Kavka",
+            "Patricia Roggero",
+            "Marc Schoenauer"
+        ],
+        "abstract": "  A fuzzy controller is usually designed by formulating the knowledge of a human expert into a set of linguistic variables and fuzzy rules. Among the most successful methods to automate the fuzzy controllers development process are evolutionary algorithms. In this work, we propose the Recurrent Fuzzy Voronoi (RFV) model, a representation for recurrent fuzzy systems. It is an extension of the FV model proposed by Kavka and Schoenauer that extends the application domain to include temporal problems. The FV model is a representation for fuzzy controllers based on Voronoi diagrams that can represent fuzzy systems with synergistic rules, fulfilling the $\\epsilon$-completeness property and providing a simple way to introduce a priory knowledge. In the proposed representation, the temporal relations are embedded by including internal units that provide feedback by connecting outputs to inputs. These internal units act as memory elements. In the RFV model, the semantic of the internal units can be specified together with the a priori rules. The geometric interpretation of the rules allows the use of geometric variational operators during the evolution. The representation and the algorithms are validated in two problems in the area of system identification and evolutionary robotics.\n    ",
+        "submission_date": "2005-11-28T00:00:00",
+        "last_modified_date": "2005-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512010",
+        "title": "A geometry of information, I: Nerves, posets and differential forms",
+        "authors": [
+            "Jonathan Gratus",
+            "Timothy Porter"
+        ],
+        "abstract": "  The main theme of this workshop (Dagstuhl seminar 04351) is `Spatial Representation: Continuous vs. Discrete'. Spatial representation has two contrasting but interacting aspects (i) representation of spaces' and (ii) representation by spaces. In this paper, we will examine two aspects that are common to both interpretations of the theme, namely nerve constructions and refinement. Representations change, data changes, spaces change. We will examine the possibility of a `differential geometry' of spatial representations of both types, and in the sequel give an algebra of differential forms that has the potential to handle the dynamical aspect of such a geometry. We will discuss briefly a conjectured class of spaces, generalising the Cantor set which would seem ideal as a test-bed for the set of tools we are developing.\n    ",
+        "submission_date": "2005-12-02T00:00:00",
+        "last_modified_date": "2005-12-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512045",
+        "title": "Branch-and-Prune Search Strategies for Numerical Constraint Solving",
+        "authors": [
+            "Xuan-Ha Vu",
+            "Marius-Calin Silaghi",
+            "Djamila Sam-Haroud",
+            "Boi Faltings"
+        ],
+        "abstract": "  When solving numerical constraints such as nonlinear equations and inequalities, solvers often exploit pruning techniques, which remove redundant value combinations from the domains of variables, at pruning steps. To find the complete solution set, most of these solvers alternate the pruning steps with branching steps, which split each problem into subproblems. This forms the so-called branch-and-prune framework, well known among the approaches for solving numerical constraints. The basic branch-and-prune search strategy that uses domain bisections in place of the branching steps is called the bisection search. In general, the bisection search works well in case (i) the solutions are isolated, but it can be improved further in case (ii) there are continuums of solutions (this often occurs when inequalities are involved). In this paper, we propose a new branch-and-prune search strategy along with several variants, which not only allow yielding better branching decisions in the latter case, but also work as well as the bisection search does in the former case. These new search algorithms enable us to employ various pruning techniques in the construction of inner and outer approximations of the solution set. Our experiments show that these algorithms speed up the solving process often by one order of magnitude or more when solving problems with continuums of solutions, while keeping the same performance as the bisection search when the solutions are isolated.\n    ",
+        "submission_date": "2005-12-11T00:00:00",
+        "last_modified_date": "2007-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512047",
+        "title": "Processing Uncertainty and Indeterminacy in Information Systems success mapping",
+        "authors": [
+            "Jose L. Salmeron",
+            "Florentin Smarandache"
+        ],
+        "abstract": "  IS success is a complex concept, and its evaluation is complicated, unstructured and not readily quantifiable. Numerous scientific publications address the issue of success in the IS field as well as in other fields. But, little efforts have been done for processing indeterminacy and uncertainty in success research. This paper shows a formal method for mapping success using Neutrosophic Success Map. This is an emerging tool for processing indeterminacy and uncertainty in success research. EIS success have been analyzed using this tool.\n    ",
+        "submission_date": "2005-12-13T00:00:00",
+        "last_modified_date": "2005-12-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512071",
+        "title": "\"Going back to our roots\": second generation biocomputing",
+        "authors": [
+            "Jon Timmis",
+            "Martyn Amos",
+            "Wolfgang Banzhaf",
+            "Andy Tyrrell"
+        ],
+        "abstract": "  Researchers in the field of biocomputing have, for many years, successfully \"harvested and exploited\" the natural world for inspiration in developing systems that are robust, adaptable and capable of generating novel and even \"creative\" solutions to human-defined problems. However, in this position paper we argue that the time has now come for a reassessment of how we exploit biology to generate new computational systems. Previous solutions (the \"first generation\" of biocomputing techniques), whilst reasonably effective, are crude analogues of actual biological systems. We believe that a new, inherently inter-disciplinary approach is needed for the development of the emerging \"second generation\" of bio-inspired methods. This new modus operandi will require much closer interaction between the engineering and life sciences communities, as well as a bidirectional flow of concepts, applications and expertise. We support our argument by examining, in this new light, three existing areas of biocomputing (genetic programming, artificial immune systems and evolvable hardware), as well as an emerging area (natural genetic engineering) which may provide useful pointers as to the way forward.\n    ",
+        "submission_date": "2005-12-16T00:00:00",
+        "last_modified_date": "2005-12-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512099",
+        "title": "Mathematical Models in Schema Theory",
+        "authors": [
+            "Mark Burgin"
+        ],
+        "abstract": "  In this paper, a mathematical schema theory is developed. This theory has three roots: brain theory schemas, grid automata, and block-shemas. In Section 2 of this paper, elements of the theory of grid automata necessary for the mathematical schema theory are presented. In Section 3, elements of brain theory necessary for the mathematical schema theory are presented. In Section 4, other types of schemas are considered. In Section 5, the mathematical schema theory is developed. The achieved level of schema representation allows one to model by mathematical tools virtually any type of schemas considered before, including schemas in neurophisiology, psychology, computer science, Internet technology, databases, logic, and mathematics.\n    ",
+        "submission_date": "2005-12-27T00:00:00",
+        "last_modified_date": "2005-12-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/astro-ph/0506110",
+        "title": "Galactic Gradients, Postbiological Evolution and the Apparent Failure of SETI",
+        "authors": [
+            "Milan M. Cirkovic",
+            "Robert J. Bradbury"
+        ],
+        "abstract": "  Motivated by recent developments impacting our view of Fermi's paradox (absence of extraterrestrials and their manifestations from our past light cone), we suggest a reassessment of the problem itself, as well as of strategies employed by SETI projects so far. The need for such reevaluation is fueled not only by the failure of searches thus far, but also by great advances recently made in astrophysics, astrobiology, computer science and future studies, which have remained largely ignored in SETI practice. As an example of the new approach, we consider the effects of the observed metallicity and temperature gradients in the Milky Way on the spatial distribution of hypothetical advanced extraterrestrial intelligent communities. While, obviously, properties of such communities and their sociological and technological preferences are entirely unknown, we assume that (1) they operate in agreement with the known laws of physics, and (2) that at some point they typically become motivated by a meta-principle embodying the central role of information-processing; a prototype of the latter is the recently suggested Intelligence Principle of Steven J. Dick. There are specific conclusions of practical interest to be drawn from coupling of these reasonable assumptions with the astrophysical and astrochemical structure of the Galaxy. In particular, we suggest that the outer regions of the Galactic disk are most likely locations for advanced SETI targets, and that intelligent communities will tend to migrate outward through the Galaxy as their capacities of information-processing increase, for both thermodynamical and astrochemical reasons. This can also be regarded as a possible generalization of the Galactic Habitable Zone, concept currently much investigated in astrobiology.\n    ",
+        "submission_date": "2005-06-06T00:00:00",
+        "last_modified_date": "2005-06-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501031",
+        "title": "From truth to computability II",
+        "authors": [
+            "Giorgi Japaridze"
+        ],
+        "abstract": "  Computability logic is a formal theory of computational tasks and resources. Formulas in it represent interactive computational problems, and \"truth\" is understood as algorithmic solvability. Interactive computational problems, in turn, are defined as a certain sort games between a machine and its environment, with logical operators standing for operations on such games. Within the ambitious program of finding axiomatizations for incrementally rich fragments of this semantically introduced logic, the earlier article \"From truth to computability I\" proved soundness and completeness for system CL3, whose language has the so called parallel connectives (including negation), choice connectives, choice quantifiers, and blind quantifiers. The present paper extends that result to the significantly more expressive system CL4 with the same collection of logical operators. What makes CL4 expressive is the presence of two sorts of atoms in its language: elementary atoms, representing elementary computational problems (i.e. predicates, i.e. problems of zero degree of interactivity), and general atoms, representing arbitrary computational problems. CL4 conservatively extends CL3, with the latter being nothing but the general-atom-free fragment of the former. Removing the blind (classical) group of quantifiers from the language of CL4 is shown to yield a decidable logic despite the fact that the latter is still first-order. A comprehensive online source on computability logic can be found at ",
+        "submission_date": "2005-01-16T00:00:00",
+        "last_modified_date": "2005-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501079",
+        "title": "Data Mining for Actionable Knowledge: A Survey",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  The data mining process consists of a series of steps ranging from data cleaning, data selection and transformation, to pattern evaluation and visualization. One of the central problems in data mining is to make the mined patterns or knowledge actionable. Here, the term actionable refers to the mined patterns suggest concrete and profitable actions to the decision-maker. That is, the user can do something to bring direct benefits (increase in profits, reduction in cost, improvement in efficiency, etc.) to the organization's advantage. However, there has been written no comprehensive survey available on this topic. The goal of this paper is to fill the void.\n",
+        "submission_date": "2005-01-27T00:00:00",
+        "last_modified_date": "2005-01-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0501092",
+        "title": "Multi-Vehicle Cooperative Control Using Mixed Integer Linear Programming",
+        "authors": [
+            "Matthew G. Earl",
+            "Raffaello D'Andrea"
+        ],
+        "abstract": "  We present methods to synthesize cooperative strategies for multi-vehicle control problems using mixed integer linear programming. Complex multi-vehicle control problems are expressed as mixed logical dynamical systems. Optimal strategies for these systems are then solved for using mixed integer linear programming. We motivate the methods on problems derived from an adversarial game between two teams of robots called RoboFlag. We assume the strategy for one team is fixed and governed by state machines. The strategy for the other team is generated using our methods. Finally, we perform an average case computational complexity study on our approach.\n    ",
+        "submission_date": "2005-01-31T00:00:00",
+        "last_modified_date": "2005-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502017",
+        "title": "Estimating mutual information and multi--information in large networks",
+        "authors": [
+            "Noam Slonim",
+            "Gurinder S. Atwal",
+            "Gasper Tkacik",
+            "William Bialek"
+        ],
+        "abstract": "  We address the practical problems of estimating the information relations that characterize large networks. Building on methods developed for analysis of the neural code, we show that reliable estimates of mutual information can be obtained with manageable computational effort. The same methods allow estimation of higher order, multi--information terms. These ideas are illustrated by analyses of gene expression, financial markets, and consumer preferences. In each case, information theoretic measures correlate with independent, intuitive measures of the underlying structures in the system.\n    ",
+        "submission_date": "2005-02-03T00:00:00",
+        "last_modified_date": "2005-02-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502021",
+        "title": "Oiling the Wheels of Change: The Role of Adaptive Automatic Problem Decomposition in Non--Stationary Environments",
+        "authors": [
+            "H. A. Abbass",
+            "K. Sastry",
+            "D. E. Goldberg"
+        ],
+        "abstract": "  Genetic algorithms (GAs) that solve hard problems quickly, reliably and accurately are called competent GAs. When the fitness landscape of a problem changes overtime, the problem is called non--stationary, dynamic or time--variant problem. This paper investigates the use of competent GAs for optimizing non--stationary optimization problems. More specifically, we use an information theoretic approach based on the minimum description length principle to adaptively identify regularities and substructures that can be exploited to respond quickly to changes in the environment. We also develop a special type of problems with bounded difficulties to test non--stationary optimization problems. The results provide new insights into non-stationary optimization problems and show that a search algorithm which automatically identifies and exploits possible decompositions is more robust and responds quickly to changes than a simple genetic algorithm.\n    ",
+        "submission_date": "2005-02-04T00:00:00",
+        "last_modified_date": "2005-02-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502022",
+        "title": "Sub-Structural Niching in Non-Stationary Environments",
+        "authors": [
+            "K. Sastry",
+            "H. A. Abbass",
+            "D. E. Goldberg"
+        ],
+        "abstract": "  Niching enables a genetic algorithm (GA) to maintain diversity in a population. It is particularly useful when the problem has multiple optima where the aim is to find all or as many as possible of these optima. When the fitness landscape of a problem changes overtime, the problem is called non--stationary, dynamic or time--variant problem. In these problems, niching can maintain useful solutions to respond quickly, reliably and accurately to a change in the environment. In this paper, we present a niching method that works on the problem substructures rather than the whole solution, therefore it has less space complexity than previously known niching mechanisms. We show that the method is responding accurately when environmental changes occur.\n    ",
+        "submission_date": "2005-02-04T00:00:00",
+        "last_modified_date": "2005-02-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502023",
+        "title": "Sub-structural Niching in Estimation of Distribution Algorithms",
+        "authors": [
+            "K. Sastry",
+            "H. A. Abbass",
+            "D. E. Goldberg",
+            "D. D. Johnson"
+        ],
+        "abstract": "  We propose a sub-structural niching method that fully exploits the problem decomposition capability of linkage-learning methods such as the estimation of distribution algorithms and concentrate on maintaining diversity at the sub-structural level. The proposed method consists of three key components: (1) Problem decomposition and sub-structure identification, (2) sub-structure fitness estimation, and (3) sub-structural niche preservation. The sub-structural niching method is compared to restricted tournament selection (RTS)--a niching method used in hierarchical Bayesian optimization algorithm--with special emphasis on sustained preservation of multiple global solutions of a class of boundedly-difficult, additively-separable multimodal problems. The results show that sub-structural niching successfully maintains multiple global optima over large number of generations and does so with significantly less population than RTS. Additionally, the market share of each of the niche is much closer to the expected level in sub-structural niching when compared to RTS.\n    ",
+        "submission_date": "2005-02-04T00:00:00",
+        "last_modified_date": "2005-02-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502029",
+        "title": "Scalability of Genetic Programming and Probabilistic Incremental Program Evolution",
+        "authors": [
+            "Radovan Ondas",
+            "Martin Pelikan",
+            "Kumara Sastry"
+        ],
+        "abstract": "  This paper discusses scalability of standard genetic programming (GP) and the probabilistic incremental program evolution (PIPE). To investigate the need for both effective mixing and linkage learning, two test problems are considered: ORDER problem, which is rather easy for any recombination-based GP, and TRAP or the deceptive trap problem, which requires the algorithm to learn interactions among subsets of terminals. The scalability results show that both GP and PIPE scale up polynomially with problem size on the simple ORDER problem, but they both scale up exponentially on the deceptive problem. This indicates that while standard recombination is sufficient when no interactions need to be considered, for some problems linkage learning is necessary. These results are in agreement with the lessons learned in the domain of binary-string genetic algorithms (GAs). Furthermore, the paper investigates the effects of introducing utnnecessary and irrelevant primitives on the performance of GP and PIPE.\n    ",
+        "submission_date": "2005-02-07T00:00:00",
+        "last_modified_date": "2005-02-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502034",
+        "title": "Multiobjective hBOA, Clustering, and Scalability",
+        "authors": [
+            "Martin Pelikan",
+            "Kumara Sastry",
+            "David E. Goldberg"
+        ],
+        "abstract": "  This paper describes a scalable algorithm for solving multiobjective decomposable problems by combining the hierarchical Bayesian optimization algorithm (hBOA) with the nondominated sorting genetic algorithm (NSGA-II) and clustering in the objective space. It is first argued that for good scalability, clustering or some other form of niching in the objective space is necessary and the size of each niche should be approximately equal. Multiobjective hBOA (mohBOA) is then described that combines hBOA, NSGA-II and clustering in the objective space. The algorithm mohBOA differs from the multiobjective variants of BOA and hBOA proposed in the past by including clustering in the objective space and allocating an approximately equally sized portion of the population to each cluster. The algorithm mohBOA is shown to scale up well on a number of problems on which standard multiobjective evolutionary algorithms perform poorly.\n    ",
+        "submission_date": "2005-02-07T00:00:00",
+        "last_modified_date": "2005-02-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502057",
+        "title": "Decomposable Problems, Niching, and Scalability of Multiobjective Estimation of Distribution Algorithms",
+        "authors": [
+            "Kumara Sastry",
+            "Martin Pelikan",
+            "David E. Goldberg"
+        ],
+        "abstract": "  The paper analyzes the scalability of multiobjective estimation of distribution algorithms (MOEDAs) on a class of boundedly-difficult additively-separable multiobjective optimization problems. The paper illustrates that even if the linkage is correctly identified, massive multimodality of the search problems can easily overwhelm the nicher and lead to exponential scale-up. Facetwise models are subsequently used to propose a growth rate of the number of differing substructures between the two objectives to avoid the niching method from being overwhelmed and lead to polynomial scalability of MOEDAs.\n    ",
+        "submission_date": "2005-02-12T00:00:00",
+        "last_modified_date": "2005-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502067",
+        "title": "Master Algorithms for Active Experts Problems based on Increasing Loss Values",
+        "authors": [
+            "Jan Poland",
+            "Marcus Hutter"
+        ],
+        "abstract": "  We specify an experts algorithm with the following characteristics: (a) it uses only feedback from the actions actually chosen (bandit setup), (b) it can be applied with countably infinite expert classes, and (c) it copes with losses that may grow in time appropriately slowly. We prove loss bounds against an adaptive adversary. From this, we obtain master algorithms for \"active experts problems\", which means that the master's actions may influence the behavior of the adversary. Our algorithm can significantly outperform standard experts algorithms on such problems. Finally, we combine it with a universal expert class. This results in a (computationally infeasible) universal master algorithm which performs - in a certain sense - almost as well as any computable strategy, for any online problem.\n    ",
+        "submission_date": "2005-02-15T00:00:00",
+        "last_modified_date": "2005-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502086",
+        "title": "The Self-Organization of Speech Sounds",
+        "authors": [
+            "Pierre-Yves Oudeyer"
+        ],
+        "abstract": "  The speech code is a vehicle of language: it defines a set of forms used by a community to carry information. Such a code is necessary to support the linguistic interactions that allow humans to communicate. How then may a speech code be formed prior to the existence of linguistic interactions? Moreover, the human speech code is discrete and compositional, shared by all the individuals of a community but different across communities, and phoneme inventories are characterized by statistical regularities. How can a speech code with these properties form? We try to approach these questions in the paper, using the \"methodology of the artificial\". We build a society of artificial agents, and detail a mechanism that shows the formation of a discrete speech code without pre-supposing the existence of linguistic capacities or of coordinated interactions. The mechanism is based on a low-level model of sensory-motor interactions. We show that the integration of certain very simple and non language-specific neural devices leads to the formation of a speech code that has properties similar to the human speech code. This result relies on the self-organizing properties of a generic coupling between perception and production within agents, and on the interactions between agents. The artificial system helps us to develop better intuitions on how speech might have appeared, by showing how self-organization might have helped natural selection to find speech.\n    ",
+        "submission_date": "2005-02-22T00:00:00",
+        "last_modified_date": "2005-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0502096",
+        "title": "Property analysis of symmetric travelling salesman problem instances acquired through evolution",
+        "authors": [
+            "J.I. van Hemert"
+        ],
+        "abstract": "  We show how an evolutionary algorithm can successfully be used to evolve a set of difficult to solve symmetric travelling salesman problem instances for two variants of the Lin-Kernighan algorithm. Then we analyse the instances in those sets to guide us towards deferring general knowledge about the efficiency of the two variants in relation to structural properties of the symmetric travelling sale sman problem.\n    ",
+        "submission_date": "2005-02-28T00:00:00",
+        "last_modified_date": "2005-02-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503037",
+        "title": "Mining Top-k Approximate Frequent Patterns",
+        "authors": [
+            "Zengyou He"
+        ],
+        "abstract": "  Frequent pattern (itemset) mining in transactional databases is one of the most well-studied problems in data mining. One obstacle that limits the practical usage of frequent pattern mining is the extremely large number of patterns generated. Such a large size of the output collection makes it difficult for users to understand and use in practice. Even restricting the output to the border of the frequent itemset collection does not help much in alleviating the problem. In this paper we address the issue of overwhelmingly large output size by introducing and studying the following problem: mining top-k approximate frequent patterns. The union of the power sets of these k sets should satisfy the following conditions: (1) including itemsets with larger support as many as possible and (2) including itemsets with smaller support as less as possible. An integrated objective function is designed to combine these two objectives. Consequently, we derive the upper bounds on objective function and present an approximate branch-and-bound method for finding the feasible solution. We give empirical evidence showing that our formulation and approximation methods work well in practice.\n    ",
+        "submission_date": "2005-03-17T00:00:00",
+        "last_modified_date": "2005-03-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503081",
+        "title": "An Optimization Model for Outlier Detection in Categorical Data",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  The task of outlier detection is to find small groups of data objects that are exceptional when compared with rest large amount of data. Detection of such outliers is important for many applications such as fraud detection and customer migration. Most existing methods are designed for numeric data. They will encounter problems with real-life applications that contain categorical data. In this paper, we formally define the problem of outlier detection in categorical data as an optimization problem from a global viewpoint. Moreover, we present a local-search heuristic based algorithm for efficiently finding feasible solutions. Experimental results on real datasets and large synthetic datasets demonstrate the superiority of our model and algorithm.\n    ",
+        "submission_date": "2005-03-29T00:00:00",
+        "last_modified_date": "2005-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503082",
+        "title": "Spines of Random Constraint Satisfaction Problems: Definition and Connection with Computational Complexity",
+        "authors": [
+            "Gabriel Istrate",
+            "Stefan Boettcher",
+            "Allon G. Percus"
+        ],
+        "abstract": "  We study the connection between the order of phase transitions in combinatorial problems and the complexity of decision algorithms for such problems. We rigorously show that, for a class of random constraint satisfaction problems, a limited connection between the two phenomena indeed exists. Specifically, we extend the definition of the spine order parameter of Bollobas et al. to random constraint satisfaction problems, rigorously showing that for such problems a discontinuity of the spine is associated with a $2^{\\Omega(n)}$ resolution complexity (and thus a $2^{\\Omega(n)}$ complexity of DPLL algorithms) on random instances. The two phenomena have a common underlying cause: the emergence of ``large'' (linear size) minimally unsatisfiable subformulas of a random formula at the satisfiability phase transition.\n",
+        "submission_date": "2005-03-29T00:00:00",
+        "last_modified_date": "2005-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0503092",
+        "title": "Monotonic and Nonmonotonic Preference Revision",
+        "authors": [
+            "Jan Chomicki",
+            "Joyce Song"
+        ],
+        "abstract": "  We study here preference revision, considering both the monotonic case where the original preferences are preserved and the nonmonotonic case where the new preferences may override the original ones. We use a relational framework in which preferences are represented using binary relations (not necessarily finite). We identify several classes of revisions that preserve order axioms, for example the axioms of strict partial or weak orders. We consider applications of our results to preference querying in relational databases.\n    ",
+        "submission_date": "2005-03-31T00:00:00",
+        "last_modified_date": "2005-03-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504030",
+        "title": "Sufficient conditions for convergence of the Sum-Product Algorithm",
+        "authors": [
+            "Joris M. Mooij",
+            "Hilbert J. Kappen"
+        ],
+        "abstract": "  We derive novel conditions that guarantee convergence of the Sum-Product algorithm (also known as Loopy Belief Propagation or simply Belief Propagation) to a unique fixed point, irrespective of the initial messages. The computational complexity of the conditions is polynomial in the number of variables. In contrast with previously existing conditions, our results are directly applicable to arbitrary factor graphs (with discrete variables) and are shown to be valid also in the case of factors containing zeros, under some additional conditions. We compare our bounds with existing ones, numerically and, if possible, analytically. For binary variables with pairwise interactions, we derive sufficient conditions that take into account local evidence (i.e., single variable factors) and the type of pair interactions (attractive or repulsive). It is shown empirically that this bound outperforms existing bounds.\n    ",
+        "submission_date": "2005-04-08T00:00:00",
+        "last_modified_date": "2007-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504035",
+        "title": "Fitness Uniform Deletion: A Simple Way to Preserve Diversity",
+        "authors": [
+            "Shane Legg",
+            "Marcus Hutter"
+        ],
+        "abstract": "  A commonly experienced problem with population based optimisation methods is the gradual decline in population diversity that tends to occur over time. This can slow a system's progress or even halt it completely if the population converges on a local optimum from which it cannot escape. In this paper we present the Fitness Uniform Deletion Scheme (FUDS), a simple but somewhat unconventional approach to this problem. Under FUDS the deletion operation is modified to only delete those individuals which are \"common\" in the sense that there exist many other individuals of similar fitness in the population. This makes it impossible for the population to collapse to a collection of highly related individuals with similar fitness. Our experimental results on a range of optimisation problems confirm this, in particular for deceptive optimisation problems the performance is significantly more robust to variation in the selection intensity.\n    ",
+        "submission_date": "2005-04-11T00:00:00",
+        "last_modified_date": "2005-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504055",
+        "title": "A Learning Algorithm for Evolving Cascade Neural Networks",
+        "authors": [
+            "Vitaly Schetinin"
+        ],
+        "abstract": "  A new learning algorithm for Evolving Cascade Neural Networks (ECNNs) is described. An ECNN starts to learn with one input node and then adding new inputs as well as new hidden neurons evolves it. The trained ECNN has a nearly minimal number of input and hidden neurons as well as connections. The algorithm was successfully applied to classify artifacts and normal segments in clinical electroencephalograms (EEGs). The EEG segments were visually labeled by EEG-viewer. The trained ECNN has correctly classified 96.69% of the testing segments. It is slightly better than a standard fully connected neural network.\n    ",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504056",
+        "title": "Self-Organizing Multilayered Neural Networks of Optimal Complexity",
+        "authors": [
+            "V. Schetinin"
+        ],
+        "abstract": "  The principles of self-organizing the neural networks of optimal complexity is considered under the unrepresentative learning set. The method of self-organizing the multi-layered neural networks is offered and used to train the logical neural networks which were applied to the medical diagnostics.\n    ",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504057",
+        "title": "Diagnostic Rule Extraction Using Neural Networks",
+        "authors": [
+            "Vitaly Schetinin",
+            "Anatoly Brazhnikov"
+        ],
+        "abstract": "  The neural networks have trained on incomplete sets that a doctor could collect. Trained neural networks have correctly classified all the presented instances. The number of intervals entered for encoding the quantitative variables is equal two. The number of features as well as the number of neurons and layers in trained neural networks was minimal. Trained neural networks are adequately represented as a set of logical formulas that more comprehensible and easy-to-understand. These formulas are as the syndrome-complexes, which may be easily tabulated and represented as a diagnostic table that the doctors usually use. Decision rules provide the evaluations of their confidence in which interested a doctor. Conducted clinical researches have shown that iagnostic decisions produced by symbolic rules have coincided with the doctor's conclusions.\n    ",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504058",
+        "title": "Polynomial Neural Networks Learnt to Classify EEG Signals",
+        "authors": [
+            "Vitaly Schetinin"
+        ],
+        "abstract": "  A neural network based technique is presented, which is able to successfully extract polynomial classification rules from labeled electroencephalogram (EEG) signals. To represent the classification rules in an analytical form, we use the polynomial neural networks trained by a modified Group Method of Data Handling (GMDH). The classification rules were extracted from clinical EEG data that were recorded from an Alzheimer patient and the sudden death risk patients. The third data is EEG recordings that include the normal and artifact segments. These EEG data were visually identified by medical experts. The extracted polynomial rules verified on the testing EEG data allow to correctly classify 72% of the risk group patients and 96.5% of the segments. These rules performs slightly better than standard feedforward neural networks.\n    ",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504059",
+        "title": "A Neural Network Decision Tree for Learning Concepts from EEG Data",
+        "authors": [
+            "Vitaly Schetinin"
+        ],
+        "abstract": "  To learn the multi-class conceptions from the electroencephalogram (EEG) data we developed a neural network decision tree (DT), that performs the linear tests, and a new training algorithm. We found that the known methods fail inducting the classification models when the data are presented by the features some of them are irrelevant, and the classes are heavily overlapped. To train the DT, our algorithm exploits a bottom up search of the features that provide the best classification accuracy of the linear tests. We applied the developed algorithm to induce the DT from the large EEG dataset consisted of 65 patients belonging to 16 age groups. In these recordings each EEG segment was represented by 72 calculated features. The DT correctly classified 80.8% of the training and 80.1% of the testing examples. Correspondingly it correctly classified 89.2% and 87.7% of the EEG recordings.\n    ",
+        "submission_date": "2005-04-13T00:00:00",
+        "last_modified_date": "2005-04-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504067",
+        "title": "An Evolving Cascade Neural Network Technique for Cleaning Sleep Electroencephalograms",
+        "authors": [
+            "Vitaly Schetinin"
+        ],
+        "abstract": "  Evolving Cascade Neural Networks (ECNNs) and a new training algorithm capable of selecting informative features are described. The ECNN initially learns with one input node and then evolves by adding new inputs as well as new hidden neurons. The resultant ECNN has a near minimal number of hidden neurons and inputs. The algorithm is successfully used for training ECNN to recognise artefacts in sleep electroencephalograms (EEGs) which were visually labelled by EEG-viewers. In our experiments, the ECNN outperforms the standard neural-network as well as evolutionary techniques.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504068",
+        "title": "Self-Organization of the Neuron Collective of Optimal Complexity",
+        "authors": [
+            "V. Schetinin",
+            "A. Kostunin"
+        ],
+        "abstract": "  The optimal complexity of neural networks is achieved when the self-organization principles is used to eliminate the contradictions existing in accordance with the K. Godel theorem about incompleteness of the systems based on axiomatics. The principle of S. Beer exterior addition the Heuristic Group Method of Data Handling by A. Ivakhnenko realized is used.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504069",
+        "title": "A Neural-Network Technique to Learn Concepts from Electroencephalograms",
+        "authors": [
+            "Vitaly Schetinin",
+            "Joachim Schult"
+        ],
+        "abstract": "  A new technique is presented developed to learn multi-class concepts from clinical electroencephalograms. A desired concept is represented as a neuronal computational model consisting of the input, hidden, and output neurons. In this model the hidden neurons learn independently to classify the electroencephalogram segments presented by spectral and statistical features. This technique has been applied to the electroencephalogram data recorded from 65 sleeping healthy newborns in order to learn a brain maturation concept of newborns aged between 35 and 51 weeks. The 39399 and 19670 segments from these data have been used for learning and testing the concept, respectively. As a result, the concept has correctly classified 80.1% of the testing segments or 87.7% of the 65 records.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504070",
+        "title": "The Combined Technique for Detection of Artifacts in Clinical Electroencephalograms of Sleeping Newborns",
+        "authors": [
+            "Vitaly Schetinin",
+            "Joachim Schult"
+        ],
+        "abstract": "  In this paper we describe a new method combining the polynomial neural network and decision tree techniques in order to derive comprehensible classification rules from clinical electroencephalograms (EEGs) recorded from sleeping newborns. These EEGs are heavily corrupted by cardiac, eye movement, muscle and noise artifacts and as a consequence some EEG features are irrelevant to classification problems. Combining the polynomial network and decision tree techniques, we discover comprehensible classification rules whilst also attempting to keep their classification error down. This technique is shown to outperform a number of commonly used machine learning technique applied to automatically recognize artifacts in the sleep EEGs.\n    ",
+        "submission_date": "2005-04-14T00:00:00",
+        "last_modified_date": "2005-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504074",
+        "title": "Metalinguistic Information Extraction for Terminology",
+        "authors": [
+            "Carlos Rodriguez"
+        ],
+        "abstract": "  This paper describes and evaluates the Metalinguistic Operation Processor (MOP) system for automatic compilation of metalinguistic information from technical and scientific documents. This system is designed to extract non-standard terminological resources that we have called Metalinguistic Information Databases (or MIDs), in order to help update changing glossaries, knowledge bases and ontologies, as well as to reflect the metastable dynamics of special-domain knowledge.\n    ",
+        "submission_date": "2005-04-15T00:00:00",
+        "last_modified_date": "2005-04-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504086",
+        "title": "Componentwise Least Squares Support Vector Machines",
+        "authors": [
+            "Kristiaan Pelckmans",
+            "Ivan Goethals",
+            "Jos De Brabanter",
+            "Johan A.K. Suykens",
+            "Bart De Moor"
+        ],
+        "abstract": "  This chapter describes componentwise Least Squares Support Vector Machines (LS-SVMs) for the estimation of additive models consisting of a sum of nonlinear components. The primal-dual derivations characterizing LS-SVMs for the estimation of the additive model result in a single set of linear equations with size growing in the number of data-points. The derivation is elaborated for the classification as well as the regression case. Furthermore, different techniques are proposed to discover structure in the data by looking for sparse components in the model based on dedicated regularization schemes on the one hand and fusion of the componentwise LS-SVMs training with a validation criterion on the other hand. (keywords: LS-SVMs, additive models, regularization, structure detection)\n    ",
+        "submission_date": "2005-04-19T00:00:00",
+        "last_modified_date": "2005-04-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0504089",
+        "title": "Universal Similarity",
+        "authors": [
+            "Paul Vitanyi"
+        ],
+        "abstract": "  We survey a new area of parameter-free similarity distance measures useful in data-mining, pattern recognition, learning and automatic semantics extraction. Given a family of distances on a set of objects, a distance is universal up to a certain precision for that family if it minorizes every distance in the family between every two objects in the set, up to the stated precision (we do not require the universal distance to be an element of the family). We consider similarity distances for two types of objects: literal objects that as such contain all of their meaning, like genomes or books, and names for objects. The latter may have literal embodyments like the first type, but may also be abstract like ``red'' or ``christianity.'' For the first type we consider a family of computable distance measures corresponding to parameters expressing similarity according to particular features between pairs of literal objects. For the second type we consider similarity distances generated by web users corresponding to particular semantic relations between the (names for) the designated objects. For both families we give universal similarity distance measures, incorporating all particular distance measures in the family. In the first case the universal distance is based on compression and in the second case it is based on Google page counts related to search terms. In both cases experiments on a massive scale give evidence of the viability of the approaches.\n    ",
+        "submission_date": "2005-04-20T00:00:00",
+        "last_modified_date": "2005-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505035",
+        "title": "Beyond Hypertree Width: Decomposition Methods Without Decompositions",
+        "authors": [
+            "Hubie Chen",
+            "Victor Dalmau"
+        ],
+        "abstract": "  The general intractability of the constraint satisfaction problem has motivated the study of restrictions on this problem that permit polynomial-time solvability. One major line of work has focused on structural restrictions, which arise from restricting the interaction among constraint scopes. In this paper, we engage in a mathematical investigation of generalized hypertree width, a structural measure that has up to recently eluded study. We obtain a number of computational results, including a simple proof of the tractability of CSP instances having bounded generalized hypertree width.\n    ",
+        "submission_date": "2005-05-12T00:00:00",
+        "last_modified_date": "2005-05-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505044",
+        "title": "Separating a Real-Life Nonlinear Image Mixture",
+        "authors": [
+            "Luis B. Almeida"
+        ],
+        "abstract": "  When acquiring an image of a paper document, the image printed on the back page sometimes shows through. The mixture of the front- and back-page images thus obtained is markedly nonlinear, and thus constitutes a good real-life test case for nonlinear blind source separation.\n",
+        "submission_date": "2005-05-16T00:00:00",
+        "last_modified_date": "2005-05-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505058",
+        "title": "The Cyborg Astrobiologist: Scouting Red Beds for Uncommon Features with Geological Significance",
+        "authors": [
+            "Patrick C. McGuire",
+            "Enrique Diaz-Martinez",
+            "Jens Ormo",
+            "Javier Gomez-Elvira",
+            "Jose A. Rodriguez-Manfredi",
+            "Eduardo Sebastian-Martinez",
+            "Helge Ritter",
+            "Robert Haschke",
+            "Markus Oesker",
+            "Joerg Ontrup"
+        ],
+        "abstract": "  The `Cyborg Astrobiologist' (CA) has undergone a second geological field trial, at a red sandstone site in northern Guadalajara, Spain, near Riba de Santiuste. The Cyborg Astrobiologist is a wearable computer and video camera system that has demonstrated a capability to find uncommon interest points in geological imagery in real-time in the field. The first (of three) geological structures that we studied was an outcrop of nearly homogeneous sandstone, which exhibits oxidized-iron impurities in red and and an absence of these iron impurities in white. The white areas in these ``red beds'' have turned white because the iron has been removed by chemical reduction, perhaps by a biological agent. The computer vision system found in one instance several (iron-free) white spots to be uncommon and therefore interesting, as well as several small and dark nodules. The second geological structure contained white, textured mineral deposits on the surface of the sandstone, which were found by the CA to be interesting. The third geological structure was a 50 cm thick paleosol layer, with fossilized root structures of some plants, which were found by the CA to be interesting. A quasi-blind comparison of the Cyborg Astrobiologist's interest points for these images with the interest points determined afterwards by a human geologist shows that the Cyborg Astrobiologist concurred with the human geologist 68% of the time (true positive rate), with a 32% false positive rate and a 32% false negative rate.\n",
+        "submission_date": "2005-05-23T00:00:00",
+        "last_modified_date": "2005-05-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505060",
+        "title": "A Unified Subspace Outlier Ensemble Framework for Outlier Detection in High Dimensional Spaces",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  The task of outlier detection is to find small groups of data objects that are exceptional when compared with rest large amount of data. Detection of such outliers is important for many applications such as fraud detection and customer migration. Most such applications are high dimensional domains in which the data may contain hundreds of dimensions. However, the outlier detection problem itself is not well defined and none of the existing definitions are widely accepted, especially in high dimensional space. In this paper, our first contribution is to propose a unified framework for outlier detection in high dimensional spaces from an ensemble-learning viewpoint. In our new framework, the outlying-ness of each data object is measured by fusing outlier factors in different subspaces using a combination function. Accordingly, we show that all existing researches on outlier detection can be regarded as special cases in the unified framework with respect to the set of subspaces considered and the type of combination function used. In addition, to demonstrate the usefulness of the ensemble-learning based outlier detection framework, we developed a very simple and fast algorithm, namely SOE1 (Subspace Outlier Ensemble using 1-dimensional Subspaces) in which only subspaces with one dimension is used for mining outliers from large categorical datasets. The SOE1 algorithm needs only two scans over the dataset and hence is very appealing in real data mining applications. Experimental results on real datasets and large synthetic datasets show that: (1) SOE1 has comparable performance with respect to those state-of-art outlier detection algorithms on identifying true outliers and (2) SOE1 can be an order of magnitude faster than one of the fastest outlier detection algorithms known so far.\n    ",
+        "submission_date": "2005-05-24T00:00:00",
+        "last_modified_date": "2005-05-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505064",
+        "title": "Multi-Modal Human-Machine Communication for Instructing Robot Grasping Tasks",
+        "authors": [
+            "P.C. McGuire",
+            "J. Fritsch",
+            "J. J. Steil",
+            "F. Roethling",
+            "G. A. Fink",
+            "S. Wachsmuth",
+            "G. Sagerer",
+            "H. Ritter"
+        ],
+        "abstract": "  A major challenge for the realization of intelligent robots is to supply them with cognitive abilities in order to allow ordinary users to program them easily and intuitively. One way of such programming is teaching work tasks by interactive demonstration. To make this effective and convenient for the user, the machine must be capable to establish a common focus of attention and be able to use and integrate spoken instructions, visual perceptions, and non-verbal clues like gestural commands. We report progress in building a hybrid architecture that combines statistical methods, neural networks, and finite state machines into an integrated system for instructing grasping tasks by man-machine interaction. The system combines the GRAVIS-robot for visual attention and gestural instruction with an intelligent interface for speech recognition and linguistic interpretation, and an modality fusion module to allow multi-modal task-oriented man-machine communication with respect to dextrous robot manipulation of objects.\n    ",
+        "submission_date": "2005-05-24T00:00:00",
+        "last_modified_date": "2005-05-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505071",
+        "title": "Summarization Techniques for Pattern Collections in Data Mining",
+        "authors": [
+            "Taneli Mielik\u00e4inen"
+        ],
+        "abstract": "  Discovering patterns from data is an important task in data mining. There exist techniques to find large collections of many kinds of patterns from data very efficiently. A collection of patterns can be regarded as a summary of the data. A major difficulty with patterns is that pattern collections summarizing the data well are often very large.\n",
+        "submission_date": "2005-05-26T00:00:00",
+        "last_modified_date": "2005-05-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0505083",
+        "title": "Defensive forecasting",
+        "authors": [
+            "Vladimir Vovk",
+            "Akimichi Takemura",
+            "Glenn Shafer"
+        ],
+        "abstract": "  We consider how to make probability forecasts of binary labels. Our main mathematical result is that for any continuous gambling strategy used for detecting disagreement between the forecasts and the actual labels, there exists a forecasting strategy whose forecasts are ideal as far as this gambling strategy is concerned. A forecasting strategy obtained in this way from a gambling strategy demonstrating a strong law of large numbers is simplified and studied empirically.\n    ",
+        "submission_date": "2005-05-30T00:00:00",
+        "last_modified_date": "2005-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506023",
+        "title": "Sparse Covariance Selection via Robust Maximum Likelihood Estimation",
+        "authors": [
+            "Onureena Banerjee",
+            "Alexandre d'Aspremont",
+            "Laurent El Ghaoui"
+        ],
+        "abstract": "  We address a problem of covariance selection, where we seek a trade-off between a high likelihood against the number of non-zero elements in the inverse covariance matrix. We solve a maximum likelihood problem with a penalty term given by the sum of absolute values of the elements of the inverse covariance matrix, and allow for imposing bounds on the condition number of the solution. The problem is directly amenable to now standard interior-point algorithms for convex optimization, but remains challenging due to its size. We first give some results on the theoretical computational complexity of the problem, by showing that a recent methodology for non-smooth convex optimization due to Nesterov can be applied to this problem, to greatly improve on the complexity estimate given by interior-point algorithms. We then examine two practical algorithms aimed at solving large-scale, noisy (hence dense) instances: one is based on a block-coordinate descent approach, where columns and rows are updated sequentially, another applies a dual version of Nesterov's method.\n    ",
+        "submission_date": "2005-06-08T00:00:00",
+        "last_modified_date": "2005-06-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506024",
+        "title": "The Hyper-Cortex of Human Collective-Intelligence Systems",
+        "authors": [
+            "Marko A. Rodriguez"
+        ],
+        "abstract": "  Individual-intelligence research, from a neurological perspective, discusses the hierarchical layers of the cortex as a structure that performs conceptual abstraction and specification. This theory has been used to explain how motor-cortex regions responsible for different behavioral modalities such as writing and speaking can be utilized to express the same general concept represented higher in the cortical hierarchy. For example, the concept of a dog, represented across a region of high-level cortical-neurons, can either be written or spoken about depending on the individual's context. The higher-layer cortical areas project down the hierarchy, sending abstract information to specific regions of the motor-cortex for contextual implementation. In this paper, this idea is expanded to incorporate collective-intelligence within a hyper-cortical construct. This hyper-cortex is a multi-layered network used to represent abstract collective concepts. These ideas play an important role in understanding how collective-intelligence systems can be engineered to handle problem abstraction and solution specification. Finally, a collection of common problems in the scientific community are solved using an artificial hyper-cortex generated from digital-library metadata.\n    ",
+        "submission_date": "2005-06-08T00:00:00",
+        "last_modified_date": "2005-06-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506041",
+        "title": "Competitive on-line learning with a convex loss function",
+        "authors": [
+            "Vladimir Vovk"
+        ],
+        "abstract": "  We consider the problem of sequential decision making under uncertainty in which the loss caused by a decision depends on the following binary observation. In competitive on-line learning, the goal is to design decision algorithms that are almost as good as the best decision rules in a wide benchmark class, without making any assumptions about the way the observations are generated. However, standard algorithms in this area can only deal with finite-dimensional (often countable) benchmark classes. In this paper we give similar results for decision rules ranging over an arbitrary reproducing kernel Hilbert space. For example, it is shown that for a wide class of loss functions (including the standard square, absolute, and log loss functions) the average loss of the master algorithm, over the first $N$ observations, does not exceed the average loss of the best decision rule with a bounded norm plus $O(N^{-1/2})$. Our proof technique is very different from the standard ones and is based on recent results about defensive forecasting. Given the probabilities produced by a defensive forecasting algorithm, which are known to be well calibrated and to have good resolution in the long run, we use the expected loss minimization principle to find a suitable decision.\n    ",
+        "submission_date": "2005-06-11T00:00:00",
+        "last_modified_date": "2005-09-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0506089",
+        "title": "Field geology with a wearable computer: 1st results of the Cyborg Astrobiologist System",
+        "authors": [
+            "Patrick C. McGuire",
+            "Javier Gomez-Elvira",
+            "Jose Antonio Rodriguez-Manfredi",
+            "Eduardo Sebastian-Martinez",
+            "Jens Ormo",
+            "Enrique Diaz-Martinez",
+            "Markus Oesker",
+            "Robert Haschke",
+            "Joerg Ontrup",
+            "Helge Ritter"
+        ],
+        "abstract": "  We present results from the first geological field tests of the `Cyborg Astrobiologist', which is a wearable computer and video camcorder system that we are using to test and train a computer-vision system towards having some of the autonomous decision-making capabilities of a field-geologist. The Cyborg Astrobiologist platform has thus far been used for testing and development of these algorithms and systems: robotic acquisition of quasi-mosaics of images, real-time image segmentation, and real-time determination of interesting points in the image mosaics. This work is more of a test of the whole system, rather than of any one part of the system. However, beyond the concept of the system itself, the uncommon map (despite its simplicity) is the main innovative part of the system. The uncommon map helps to determine interest-points in a context-free manner. Overall, the hardware and software systems function reliably, and the computer-vision algorithms are adequate for the first field tests. In addition to the proof-of-concept aspect of these field tests, the main result of these field tests is the enumeration of those issues that we can improve in the future, including: dealing with structural shadow and microtexture, and also, controlling the camera's zoom lens in an intelligent manner. Nonetheless, despite these and other technical inadequacies, this Cyborg Astrobiologist system, consisting of a camera-equipped wearable-computer and its computer-vision algorithms, has demonstrated its ability of finding genuinely interesting points in real-time in the geological scenery, and then gathering more information about these interest points in an automated manner. We use these capabilities for autonomous guidance towards geological points-of-interest.\n    ",
+        "submission_date": "2005-06-24T00:00:00",
+        "last_modified_date": "2005-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507035",
+        "title": "Enhancing Global SLS-Resolution with Loop Cutting and Tabling Mechanisms",
+        "authors": [
+            "Yi-Dong Shen",
+            "Jia-Huai You",
+            "Li-Yan Yuan"
+        ],
+        "abstract": "  Global SLS-resolution is a well-known procedural semantics for top-down computation of queries under the well-founded model. It inherits from SLDNF-resolution the {\\em linearity} property of derivations, which makes it easy and efficient to implement using a simple stack-based memory structure. However, like SLDNF-resolution it suffers from the problem of infinite loops and redundant computations. To resolve this problem, in this paper we develop a new procedural semantics, called {\\em SLTNF-resolution}, by enhancing Global SLS-resolution with loop cutting and tabling mechanisms. SLTNF-resolution is sound and complete w.r.t. the well-founded semantics for logic programs with the bounded-term-size property, and is superior to existing linear tabling procedural semantics such as SLT-resolution.\n    ",
+        "submission_date": "2005-07-14T00:00:00",
+        "last_modified_date": "2005-07-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507039",
+        "title": "Distributed Regression in Sensor Networks: Training Distributively with Alternating Projections",
+        "authors": [
+            "Joel B. Predd",
+            "Sanjeev R. Kulkarni",
+            "H. Vincent Poor"
+        ],
+        "abstract": "  Wireless sensor networks (WSNs) have attracted considerable attention in recent years and motivate a host of new challenges for distributed signal processing. The problem of distributed or decentralized estimation has often been considered in the context of parametric models. However, the success of parametric methods is limited by the appropriateness of the strong statistical assumptions made by the models. In this paper, a more flexible nonparametric model for distributed regression is considered that is applicable in a variety of WSN applications including field estimation. Here, starting with the standard regularized kernel least-squares estimator, a message-passing algorithm for distributed estimation in WSNs is derived. The algorithm can be viewed as an instantiation of the successive orthogonal projection (SOP) algorithm. Various practical aspects of the algorithm are discussed and several numerical simulations validate the potential of the approach.\n    ",
+        "submission_date": "2005-07-18T00:00:00",
+        "last_modified_date": "2005-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507040",
+        "title": "Pattern Recognition for Conditionally Independent Data",
+        "authors": [
+            "Daniil Ryabko"
+        ],
+        "abstract": "  In this work we consider the task of relaxing the i.i.d assumption in pattern recognition (or classification), aiming to make existing learning algorithms applicable to a wider range of tasks. Pattern recognition is guessing a discrete label of some object based on a set of given examples (pairs of objects and labels). We consider the case of deterministically defined labels. Traditionally, this task is studied under the assumption that examples are independent and identically distributed. However, it turns out that many results of pattern recognition theory carry over a weaker assumption. Namely, under the assumption of conditional independence and identical distribution of objects, while the only assumption on the distribution of labels is that the rate of occurrence of each label should be above some positive threshold.\n",
+        "submission_date": "2005-07-18T00:00:00",
+        "last_modified_date": "2005-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507041",
+        "title": "Monotone Conditional Complexity Bounds on Future Prediction Errors",
+        "authors": [
+            "Alexey Chernov",
+            "Marcus Hutter"
+        ],
+        "abstract": "  We bound the future loss when predicting any (computably) stochastic sequence online. Solomonoff finitely bounded the total deviation of his universal predictor M from the true distribution m by the algorithmic complexity of m. Here we assume we are at a time t>1 and already observed x=x_1...x_t. We bound the future prediction performance on x_{t+1}x_{t+2}... by a new variant of algorithmic complexity of m given x, plus the complexity of the randomness deficiency of x. The new complexity is monotone in its condition in the sense that this complexity can only decrease if the condition is prolonged. We also briefly discuss potential generalizations to Bayesian model classes and to classification problems.\n    ",
+        "submission_date": "2005-07-18T00:00:00",
+        "last_modified_date": "2005-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507045",
+        "title": "In the beginning was game semantics",
+        "authors": [
+            "Giorgi Japaridze"
+        ],
+        "abstract": "  This article presents an overview of computability logic -- the game-semantically constructed logic of interactive computational tasks and resources. There is only one non-overview, technical section in it, devoted to a proof of the soundness of affine logic with respect to the semantics of computability logic. A comprehensive online source on the subject can be found at ",
+        "submission_date": "2005-07-18T00:00:00",
+        "last_modified_date": "2008-10-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507048",
+        "title": "Redundancy in Logic III: Non-Mononotonic Reasoning",
+        "authors": [
+            "Paolo Liberatore"
+        ],
+        "abstract": "  Results about the redundancy of circumscriptive and default theories are presented. In particular, the complexity of establishing whether a given theory is redundant is establihsed.\n    ",
+        "submission_date": "2005-07-19T00:00:00",
+        "last_modified_date": "2005-10-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507053",
+        "title": "Nonrepetitive Paths and Cycles in Graphs with Application to Sudoku",
+        "authors": [
+            "David Eppstein"
+        ],
+        "abstract": "  We provide a simple linear time transformation from a directed or undirected graph with labeled edges to an unlabeled digraph, such that paths in the input graph in which no two consecutive edges have the same label correspond to paths in the transformed graph and vice versa. Using this transformation, we provide efficient algorithms for finding paths and cycles with no two consecutive equal labels. We also consider related problems where the paths and cycles are required to be simple; we find efficient algorithms for the undirected case of these problems but show the directed case to be NP-complete. We apply our path and cycle finding algorithms in a program for generating and solving Sudoku puzzles, and show experimentally that they lead to effective puzzle-solving rules that may also be of interest to human Sudoku puzzle solvers.\n    ",
+        "submission_date": "2005-07-20T00:00:00",
+        "last_modified_date": "2005-07-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507059",
+        "title": "Data complexity of answering conjunctive queries over SHIQ knowledge bases",
+        "authors": [
+            "M. Magdalena Ortiz de la Fuente",
+            "Diego Calvanese",
+            "Thomas Eiter",
+            "Enrico Franconi"
+        ],
+        "abstract": "  An algorithm for answering conjunctive queries over SHIQ knowledge bases that is coNP in data complexity is given. The algorithm is based on the tableau algorithm for reasoning with individuals in SHIQ. The blocking conditions of the tableau are weakened in such a way that the set of models the modified algorithm yields suffices to check query entailment. The modified blocking conditions are based on the ones proposed by Levy and Rousset for reasoning with Horn Rules in the description logic ALCNR.\n    ",
+        "submission_date": "2005-07-22T00:00:00",
+        "last_modified_date": "2005-07-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507065",
+        "title": "A Fast Greedy Algorithm for Outlier Mining",
+        "authors": [
+            "Zengyou He",
+            "Xiaofei Xu",
+            "Shengchun Deng"
+        ],
+        "abstract": "  The task of outlier detection is to find small groups of data objects that are exceptional when compared with rest large amount of data. In [38], the problem of outlier detection in categorical data is defined as an optimization problem and a local-search heuristic based algorithm (LSA) is presented. However, as is the case with most iterative type algorithms, the LSA algorithm is still very time-consuming on very large datasets. In this paper, we present a very fast greedy algorithm for mining outliers under the same optimization model. Experimental results on real datasets and large synthetic datasets show that: (1) Our algorithm has comparable performance with respect to those state-of-art outlier detection algorithms on identifying true outliers and (2) Our algorithm can be an order of magnitude faster than LSA algorithm.\n    ",
+        "submission_date": "2005-07-27T00:00:00",
+        "last_modified_date": "2005-07-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0507067",
+        "title": "Conjunctive Query Containment and Answering under Description Logics Constraints",
+        "authors": [
+            "Diego Calvanese",
+            "Giuseppe De Giacomo",
+            "Maurizio Lenzerini"
+        ],
+        "abstract": "  Query containment and query answering are two important computational tasks in databases. While query answering amounts to compute the result of a query over a database, query containment is the problem of checking whether for every database, the result of one query is a subset of the result of another query.\n",
+        "submission_date": "2005-07-28T00:00:00",
+        "last_modified_date": "2005-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508007",
+        "title": "Regularity of Position Sequences",
+        "authors": [
+            "Manfred Harringer"
+        ],
+        "abstract": "A person is given a numbered sequence of positions on a sheet of paper. The person is asked, \"Which will be the next (or the next after that) position?\" Everyone has an opinion as to how he or she would proceed. There are regular sequences for which there is general agreement on how to continue. However, there are less regular sequences for which this assessment is less certain. There are sequences for which every continuation is perceived to be arbitrary. I would like to present a mathematical model that reflects these opinions and perceptions with the aid of a valuation function. It is necessary to apply a rich set of invariant features of position sequences to ensure the quality of this model. All other properties of the model are arbitrary.\n    ",
+        "submission_date": "2005-08-01T00:00:00",
+        "last_modified_date": "2010-12-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508068",
+        "title": "Lossy source encoding via message-passing and decimation over generalized codewords of LDGM codes",
+        "authors": [
+            "Martin J. Wainwright",
+            "Elitza Maneva"
+        ],
+        "abstract": "  We describe message-passing and decimation approaches for lossy source coding using low-density generator matrix (LDGM) codes. In particular, this paper addresses the problem of encoding a Bernoulli(0.5) source: for randomly generated LDGM codes with suitably irregular degree distributions, our methods yield performance very close to the rate distortion limit over a range of rates. Our approach is inspired by the survey propagation (SP) algorithm, originally developed by Mezard et al. for solving random satisfiability problems. Previous work by Maneva et al. shows how SP can be understood as belief propagation (BP) for an alternative representation of satisfiability problems. In analogy to this connection, our approach is to define a family of Markov random fields over generalized codewords, from which local message-passing rules can be derived in the standard way. The overall source encoding method is based on message-passing, setting a subset of bits to their preferred values (decimation), and reducing the code.\n    ",
+        "submission_date": "2005-08-15T00:00:00",
+        "last_modified_date": "2005-08-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508070",
+        "title": "MAP estimation via agreement on (hyper)trees: Message-passing and linear programming",
+        "authors": [
+            "Martin J. Wainwright",
+            "Tommi S. Jaakkola",
+            "Alan S. Willsky"
+        ],
+        "abstract": "  We develop and analyze methods for computing provably optimal {\\em maximum a posteriori} (MAP) configurations for a subclass of Markov random fields defined on graphs with cycles. By decomposing the original distribution into a convex combination of tree-structured distributions, we obtain an upper bound on the optimal value of the original problem (i.e., the log probability of the MAP assignment) in terms of the combined optimal values of the tree problems. We prove that this upper bound is tight if and only if all the tree distributions share an optimal configuration in common. An important implication is that any such shared configuration must also be a MAP configuration for the original distribution. Next we develop two approaches to attempting to obtain tight upper bounds: (a) a {\\em tree-relaxed linear program} (LP), which is derived from the Lagrangian dual of the upper bounds; and (b) a {\\em tree-reweighted max-product message-passing algorithm} that is related to but distinct from the max-product algorithm. In this way, we establish a connection between a certain LP relaxation of the mode-finding problem, and a reweighted form of the max-product (min-sum) message-passing algorithm.\n    ",
+        "submission_date": "2005-08-15T00:00:00",
+        "last_modified_date": "2005-08-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508073",
+        "title": "Universal Learning of Repeated Matrix Games",
+        "authors": [
+            "Jan Poland",
+            "Marcus Hutter"
+        ],
+        "abstract": "  We study and compare the learning dynamics of two universal learning algorithms, one based on Bayesian learning and the other on prediction with expert advice. Both approaches have strong asymptotic performance guarantees. When confronted with the task of finding good long-term strategies in repeated 2x2 matrix games, they behave quite differently.\n    ",
+        "submission_date": "2005-08-16T00:00:00",
+        "last_modified_date": "2005-08-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508101",
+        "title": "Maximum Weight Matching via Max-Product Belief Propagation",
+        "authors": [
+            "Mohsen Bayati",
+            "Devavrat Shah",
+            "Mayank Sharma"
+        ],
+        "abstract": "  Max-product \"belief propagation\" is an iterative, local, message-passing algorithm for finding the maximum a posteriori (MAP) assignment of a discrete probability distribution specified by a graphical model. Despite the spectacular success of the algorithm in many application areas such as iterative decoding, computer vision and combinatorial optimization which involve graphs with many cycles, theoretical results about both correctness and convergence of the algorithm are known in few cases (Weiss-Freeman Wainwright, Yeddidia-Weiss-Freeman, Richardson-Urbanke}.\n",
+        "submission_date": "2005-08-23T00:00:00",
+        "last_modified_date": "2007-04-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0508129",
+        "title": "Temporal Phylogenetic Networks and Logic Programming",
+        "authors": [
+            "Esra Erdem",
+            "Vladimir Lifschitz",
+            "Don Ringe"
+        ],
+        "abstract": "  The concept of a temporal phylogenetic network is a mathematical model of evolution of a family of natural languages. It takes into account the fact that languages can trade their characteristics with each other when linguistic communities are in contact, and also that a contact is only possible when the languages are spoken at the same time. We show how computational methods of answer set programming and constraint logic programming can be used to generate plausible conjectures about contacts between prehistoric linguistic communities, and illustrate our approach by applying it to the evolutionary history of Indo-European languages.\n",
+        "submission_date": "2005-08-30T00:00:00",
+        "last_modified_date": "2005-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509020",
+        "title": "Transitive Text Mining for Information Extraction and Hypothesis Generation",
+        "authors": [
+            "Johannes Stegmann",
+            "Guenter Grohmann"
+        ],
+        "abstract": "  Transitive text mining - also named Swanson Linking (SL) after its primary and principal researcher - tries to establish meaningful links between literature sets which are virtually disjoint in the sense that each does not mention the main concept of the other. If successful, SL may give rise to the development of new hypotheses. In this communication we describe our approach to transitive text mining which employs co-occurrence analysis of the medical subject headings (MeSH), the descriptors assigned to papers indexed in PubMed. In addition, we will outline the current state of our web-based information system which will enable our users to perform literature-driven hypothesis building on their own.\n    ",
+        "submission_date": "2005-09-07T00:00:00",
+        "last_modified_date": "2005-09-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509071",
+        "title": "CP-nets and Nash equilibria",
+        "authors": [
+            "Krzysztof R. Apt",
+            "Francesca Rossi",
+            "K. Brent Venable"
+        ],
+        "abstract": "  We relate here two formalisms that are used for different purposes in reasoning about multi-agent systems. One of them are strategic games that are used to capture the idea that agents interact with each other while pursuing their own interest. The other are CP-nets that were introduced to express qualitative and conditional preferences of the users and which aim at facilitating the process of preference elicitation. To relate these two formalisms we introduce a natural, qualitative, extension of the notion of a strategic game. We show then that the optimal outcomes of a CP-net are exactly the Nash equilibria of an appropriately defined strategic game in the above sense. This allows us to use the techniques of game theory to search for optimal outcomes of CP-nets and vice-versa, to use techniques developed for CP-nets to search for Nash equilibria of the considered games.\n    ",
+        "submission_date": "2005-09-22T00:00:00",
+        "last_modified_date": "2005-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0509092",
+        "title": "Automatic extraction of paraphrastic phrases from medium size corpora",
+        "authors": [
+            "Thierry Poibeau"
+        ],
+        "abstract": "  This paper presents a versatile system intended to acquire paraphrastic phrases from a representative corpus. In order to decrease the time spent on the elaboration of resources for NLP system (for example Information Extraction, IE hereafter), we suggest to use a machine learning system that helps defining new templates and associated resources. This knowledge is automatically derived from the text collection, in interaction with a large semantic network.\n    ",
+        "submission_date": "2005-09-28T00:00:00",
+        "last_modified_date": "2005-09-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510036",
+        "title": "Semantic Optimization Techniques for Preference Queries",
+        "authors": [
+            "Jan Chomicki"
+        ],
+        "abstract": "  Preference queries are relational algebra or SQL queries that contain occurrences of the winnow operator (\"find the most preferred tuples in a given relation\"). Such queries are parameterized by specific preference relations. Semantic optimization techniques make use of integrity constraints holding in the database. In the context of semantic optimization of preference queries, we identify two fundamental properties: containment of preference relations relative to integrity constraints and satisfaction of order axioms relative to integrity constraints. We show numerous applications of those notions to preference query evaluation and optimization. As integrity constraints, we consider constraint-generating dependencies, a class generalizing functional dependencies. We demonstrate that the problems of containment and satisfaction of order axioms can be captured as specific instances of constraint-generating dependency entailment. This makes it possible to formulate necessary and sufficient conditions for the applicability of our techniques as constraint validity problems. We characterize the computational complexity of such problems.\n    ",
+        "submission_date": "2005-10-14T00:00:00",
+        "last_modified_date": "2005-10-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510037",
+        "title": "Hi\u00e9rarchisation des r\u00e8gles d'association en fouille de textes",
+        "authors": [
+            "Rokia Bendaoud",
+            "Yannick Toussaint",
+            "Amedeo Napoli"
+        ],
+        "abstract": "  Extraction of association rules is widely used as a data mining method. However, one of the limit of this approach comes from the large number of extracted rules and the difficulty for a human expert to deal with the totality of these rules. We propose to solve this problem by structuring the set of rules into hierarchy. The expert can then therefore explore the rules, access from one rule to another one more general when we raise up in the hierarchy, and in other hand, or a more specific rules. Rules are structured at two levels. The global level aims at building a hierarchy from the set of rules extracted. Thus we define a first type of rule-subsomption relying on Galois lattices. The second level consists in a local and more detailed analysis of each rule. It generate for a given rule a set of generalization rules structured into a local hierarchy. This leads to the definition of a second type of subsomption. This subsomption comes from inductive logic programming and integrates a terminological model.\n    ",
+        "submission_date": "2005-10-14T00:00:00",
+        "last_modified_date": "2005-10-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0510056",
+        "title": "First-Order Modeling and Stability Analysis of Illusory Contours",
+        "authors": [
+            "Yoon-Mo Jung",
+            "Jianhong Shen"
+        ],
+        "abstract": "  In visual cognition, illusions help elucidate certain intriguing latent perceptual functions of the human vision system, and their proper mathematical modeling and computational simulation are therefore deeply beneficial to both biological and computer vision. Inspired by existent prior works, the current paper proposes a first-order energy-based model for analyzing and simulating illusory contours. The lower complexity of the proposed model facilitates rigorous mathematical analysis on the detailed geometric structures of illusory contours. After being asymptotically approximated by classical active contours, the proposed model is then robustly computed using the celebrated level-set method of Osher and Sethian (J. Comput. Phys., 79:12-49, 1988) with a natural supervising scheme. Potential cognitive implications of the mathematical results are addressed, and generic computational examples are demonstrated and discussed.\n    ",
+        "submission_date": "2005-10-19T00:00:00",
+        "last_modified_date": "2005-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511075",
+        "title": "Identifying Interaction Sites in \"Recalcitrant\" Proteins: Predicted Protein and Rna Binding Sites in Rev Proteins of Hiv-1 and Eiav Agree with Experimental Data",
+        "authors": [
+            "Michael Terribilini",
+            "Jae-Hyung Lee",
+            "Changhui Yan",
+            "Robert L. Jernigan",
+            "Susan Carpenter",
+            "Vasant Honavar",
+            "Drena Dobbs"
+        ],
+        "abstract": "  Protein-protein and protein nucleic acid interactions are vitally important for a wide range of biological processes, including regulation of gene expression, protein synthesis, and replication and assembly of many viruses. We have developed machine learning approaches for predicting which amino acids of a protein participate in its interactions with other proteins and/or nucleic acids, using only the protein sequence as input. In this paper, we describe an application of classifiers trained on datasets of well-characterized protein-protein and protein-RNA complexes for which experimental structures are available. We apply these classifiers to the problem of predicting protein and RNA binding sites in the sequence of a clinically important protein for which the structure is not known: the regulatory protein Rev, essential for the replication of HIV-1 and other lentiviruses. We compare our predictions with published biochemical, genetic and partial structural information for HIV-1 and EIAV Rev and with our own published experimental mapping of RNA binding sites in EIAV Rev. The predicted and experimentally determined binding sites are in very good agreement. The ability to predict reliably the residues of a protein that directly contribute to specific binding events - without the requirement for structural information regarding either the protein or complexes in which it participates - can potentially generate new disease intervention strategies.\n    ",
+        "submission_date": "2005-11-21T00:00:00",
+        "last_modified_date": "2005-11-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511087",
+        "title": "Robust Inference of Trees",
+        "authors": [
+            "Marco Zaffalon",
+            "Marcus Hutter"
+        ],
+        "abstract": "  This paper is concerned with the reliable inference of optimal tree-approximations to the dependency structure of an unknown distribution generating data. The traditional approach to the problem measures the dependency strength between random variables by the index called mutual information. In this paper reliability is achieved by Walley's imprecise Dirichlet model, which generalizes Bayesian learning with Dirichlet priors. Adopting the imprecise Dirichlet model results in posterior interval expectation for mutual information, and in a set of plausible trees consistent with the data. Reliable inference about the actual tree is achieved by focusing on the substructure common to all the plausible trees. We develop an exact algorithm that infers the substructure in time O(m^4), m being the number of random variables. The new algorithm is applied to a set of data sampled from a known distribution. The method is shown to reliably infer edges of the actual tree even when the data are very scarce, unlike the traditional approach. Finally, we provide lower and upper credibility limits for mutual information under the imprecise Dirichlet model. These enable the previous developments to be extended to a full inferential method for trees.\n    ",
+        "submission_date": "2005-11-25T00:00:00",
+        "last_modified_date": "2005-11-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511090",
+        "title": "Integration of Declarative and Constraint Programming",
+        "authors": [
+            "Petra Hofstedt",
+            "Peter Pepper"
+        ],
+        "abstract": "  Combining a set of existing constraint solvers into an integrated system of cooperating solvers is a useful and economic principle to solve hybrid constraint problems. In this paper we show that this approach can also be used to integrate different language paradigms into a unified framework. Furthermore, we study the syntactic, semantic and operational impacts of this idea for the amalgamation of declarative and constraint programming.\n    ",
+        "submission_date": "2005-11-27T00:00:00",
+        "last_modified_date": "2006-01-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0511093",
+        "title": "Artificial Agents and Speculative Bubbles",
+        "authors": [
+            "Yann Semet",
+            "Sylvain Gelly",
+            "Marc Schoenauer",
+            "Mich\u00e8le Sebag"
+        ],
+        "abstract": "  Pertaining to Agent-based Computational Economics (ACE), this work presents two models for the rise and downfall of speculative bubbles through an exchange price fixing based on double auction mechanisms. The first model is based on a finite time horizon context, where the expected dividends decrease along time. The second model follows the {\\em greater fool} hypothesis; the agent behaviour depends on the comparison of the estimated risk with the greater fool's. Simulations shed some light on the influent parameters and the necessary conditions for the apparition of speculative bubbles in an asset market within the considered framework.\n    ",
+        "submission_date": "2005-11-28T00:00:00",
+        "last_modified_date": "2005-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512002",
+        "title": "On Self-Regulated Swarms, Societal Memory, Speed and Dynamics",
+        "authors": [
+            "Vitorino Ramos",
+            "Carlos Fernandes",
+            "Agostinho C. Rosa"
+        ],
+        "abstract": "  We propose a Self-Regulated Swarm (SRS) algorithm which hybridizes the advantageous characteristics of Swarm Intelligence as the emergence of a societal environmental memory or cognitive map via collective pheromone laying in the landscape (properly balancing the exploration/exploitation nature of our dynamic search strategy), with a simple Evolutionary mechanism that trough a direct reproduction procedure linked to local environmental features is able to self-regulate the above exploratory swarm population, speeding it up globally. In order to test his adaptive response and robustness, we have recurred to different dynamic multimodal complex functions as well as to Dynamic Optimization Control problems, measuring reaction speeds and performance. Final comparisons were made with standard Genetic Algorithms (GAs), Bacterial Foraging strategies (BFOA), as well as with recent Co-Evolutionary approaches. SRS's were able to demonstrate quick adaptive responses, while outperforming the results obtained by the other approaches. Additionally, some successful behaviors were found. One of the most interesting illustrate that the present SRS collective swarm of bio-inspired ant-like agents is able to track about 65% of moving peaks traveling up to ten times faster than the velocity of a single individual composing that precise swarm tracking system.\n    ",
+        "submission_date": "2005-12-01T00:00:00",
+        "last_modified_date": "2005-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512003",
+        "title": "Societal Implicit Memory and his Speed on Tracking Extrema over Dynamic Environments using Self-Regulatory Swarms",
+        "authors": [
+            "Vitorino Ramos",
+            "Carlos Fernandes",
+            "Agostinho C. Rosa"
+        ],
+        "abstract": "  In order to overcome difficult dynamic optimization and environment extrema tracking problems, We propose a Self-Regulated Swarm (SRS) algorithm which hybridizes the advantageous characteristics of Swarm Intelligence as the emergence of a societal environmental memory or cognitive map via collective pheromone laying in the landscape (properly balancing the exploration/exploitation nature of our dynamic search strategy), with a simple Evolutionary mechanism that trough a direct reproduction procedure linked to local environmental features is able to self-regulate the above exploratory swarm population, speeding it up globally. In order to test his adaptive response and robustness, we have recurred to different dynamic multimodal complex functions as well as to Dynamic Optimization Control problems, measuring reaction speeds and performance. Final comparisons were made with standard Genetic Algorithms (GAs), Bacterial Foraging strategies (BFOA), as well as with recent Co-Evolutionary approaches. SRS's were able to demonstrate quick adaptive responses, while outperforming the results obtained by the other approaches. Additionally, some successful behaviors were found. One of the most interesting illustrate that the present SRS collective swarm of bio-inspired ant-like agents is able to track about 65% of moving peaks traveling up to ten times faster than the velocity of a single individual composing that precise swarm tracking system.\n    ",
+        "submission_date": "2005-12-01T00:00:00",
+        "last_modified_date": "2005-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512004",
+        "title": "Self-Regulated Artificial Ant Colonies on Digital Image Habitats",
+        "authors": [
+            "Carlos Fernandes",
+            "Vitorino Ramos",
+            "Agostinho C. Rosa"
+        ],
+        "abstract": "  Artificial life models, swarm intelligent and evolutionary computation algorithms are usually built on fixed size populations. Some studies indicate however that varying the population size can increase the adaptability of these systems and their capability to react to changing environments. In this paper we present an extended model of an artificial ant colony system designed to evolve on digital image habitats. We will show that the present swarm can adapt the size of the population according to the type of image on which it is evolving and reacting faster to changing images, thus converging more rapidly to the new desired regions, regulating the number of his image foraging agents. Finally, we will show evidences that the model can be associated with the Mathematical Morphology Watershed algorithm to improve the segmentation of digital grey-scale images. KEYWORDS: Swarm Intelligence, Perception and Image Processing, Pattern Recognition, Mathematical Morphology, Social Cognitive Maps, Social Foraging, Self-Organization, Distributed Search.\n    ",
+        "submission_date": "2005-12-01T00:00:00",
+        "last_modified_date": "2005-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512037",
+        "title": "Evolving Stochastic Learning Algorithm Based on Tsallis Entropic Index",
+        "authors": [
+            "Aristoklis D. Anastasiadis",
+            "George D. Magoulas"
+        ],
+        "abstract": "  In this paper, inspired from our previous algorithm, which was based on the theory of Tsallis statistical mechanics, we develop a new evolving stochastic learning algorithm for neural networks. The new algorithm combines deterministic and stochastic search steps by employing a different adaptive stepsize for each network weight, and applies a form of noise that is characterized by the nonextensive entropic index q, regulated by a weight decay term. The behavior of the learning algorithm can be made more stochastic or deterministic depending on the trade off between the temperature T and the q values. This is achieved by introducing a formula that defines a time--dependent relationship between these two important learning parameters. Our experimental study verifies that there are indeed improvements in the convergence speed of this new evolving stochastic learning algorithm, which makes learning faster than using the original Hybrid Learning Scheme (HLS). In addition, experiments are conducted to explore the influence of the entropic index q and temperature T on the convergence speed and stability of the proposed method.\n    ",
+        "submission_date": "2005-12-09T00:00:00",
+        "last_modified_date": "2005-12-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0512100",
+        "title": "The logic of interactive Turing reduction",
+        "authors": [
+            "Giorgi Japaridze"
+        ],
+        "abstract": "  The paper gives a soundness and completeness proof for the implicative fragment of intuitionistic calculus with respect to the semantics of computability logic, which understands intuitionistic implication as interactive algorithmic reduction. This concept -- more precisely, the associated concept of reducibility -- is a generalization of Turing reducibility from the traditional, input/output sorts of problems to computational tasks of arbitrary degrees of interactivity. See ",
+        "submission_date": "2005-12-28T00:00:00",
+        "last_modified_date": "2006-02-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0502315",
+        "title": "Strong Asymptotic Assertions for Discrete MDL in Regression and Classification",
+        "authors": [
+            "Jan Poland",
+            "Marcus Hutter"
+        ],
+        "abstract": "  We study the properties of the MDL (or maximum penalized complexity) estimator for Regression and Classification, where the underlying model class is countable. We show in particular a finite bound on the Hellinger losses under the only assumption that there is a \"true\" model contained in the class. This implies almost sure convergence of the predictive distribution to the true one at a fast rate. It corresponds to Solomonoff's central theorem of universal induction, however with a bound that is exponentially larger.\n    ",
+        "submission_date": "2005-02-15T00:00:00",
+        "last_modified_date": "2005-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0510276",
+        "title": "An algorithmic and a geometric characterization of Coarsening At Random",
+        "authors": [
+            "Richard D. Gill",
+            "Peter D. Grunwald"
+        ],
+        "abstract": "  We show that the class of conditional distributions satisfying the coarsening at Random (CAR) property for discrete data has a simple and robust algorithmic description based on randomized uniform multicovers: combinatorial objects generalizing the notion of partition of a set. However, the complexity of a given CAR mechanism can be large: the maximal \"height\" of the needed multicovers can be exponential in the number of points in the sample space. The results stem from a geometric interpretation of the set of CAR distributions as a convex polytope and a characterization of its extreme points. The hierarchy of CAR models defined in this way could be useful in parsimonious statistical modelling of CAR mechanisms, though the results also raise doubts in applied work as to the meaningfulness of the CAR assumption in its full generality.\n    ",
+        "submission_date": "2005-10-13T00:00:00",
+        "last_modified_date": "2007-09-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/nlin/0509007",
+        "title": "Lattices for Dynamic, Hierarchic & Overlapping Categorization: the Case of Epistemic Communities",
+        "authors": [
+            "Camille Roth",
+            "Paul Bourgine"
+        ],
+        "abstract": "  We present a method for hierarchic categorization and taxonomy evolution description. We focus on the structure of epistemic communities (ECs), or groups of agents sharing common knowledge concerns. Introducing a formal framework based on Galois lattices, we categorize ECs in an automated and hierarchically structured way and propose criteria for selecting the most relevant epistemic communities - for instance, ECs gathering a certain proportion of agents and thus prototypical of major fields. This process produces a manageable, insightful taxonomy of the community. Then, the longitudinal study of these static pictures makes possible an historical description. In particular, we capture stylized facts such as field progress, decline, specialization, interaction (merging or splitting), and paradigm emergence. The detection of such patterns in social networks could fruitfully be applied to other contexts.\n    ",
+        "submission_date": "2005-09-04T00:00:00",
+        "last_modified_date": "2005-09-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/q-bio/0511046",
+        "title": "Improving ecological niche models by data mining large environmental datasets for surrogate models",
+        "authors": [
+            "David R.B. Stockwell"
+        ],
+        "abstract": "  WhyWhere is a new ecological niche modeling (ENM) algorithm for mapping and explaining the distribution of species. The algorithm uses image processing methods to efficiently sift through large amounts of data to find the few variables that best predict species occurrence. The purpose of this paper is to describe and justify the main parameterizations and to show preliminary success at rapidly providing accurate, scalable, and simple ENMs. Preliminary results for 6 species of plants and animals in different regions indicate a significant (p<0.01) 14% increase in accuracy over the GARP algorithm using models with few, typically two, variables. The increase is attributed to access to additional data, particularly monthly vs. annual climate averages. WhyWhere is also 6 times faster than GARP on large data sets. A data mining based approach with transparent access to remote data archives is a new paradigm for ENM, particularly suited to finding correlates in large databases of fine resolution surfaces. Software for WhyWhere is freely available, both as a service and in a desktop downloadable form from the web site ",
+        "submission_date": "2005-11-28T00:00:00",
+        "last_modified_date": "2005-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/quant-ph/0507231",
+        "title": "Algebras of Measurements: the logical structure of Quantum Mechanics",
+        "authors": [
+            "Daniel Lehmann",
+            "Kurt Engesser",
+            "Dov M. Gabbay"
+        ],
+        "abstract": "  In Quantum Physics, a measurement is represented by a projection on some closed subspace of a Hilbert space. We study algebras of operators that abstract from the algebra of projections on closed subspaces of a Hilbert space. The properties of such operators are justified on epistemological grounds. Commutation of measurements is a central topic of interest. Classical logical systems may be viewed as measurement algebras in which all measurements commute. Keywords: Quantum measurements, Measurement algebras, Quantum Logic. PACS: 02.10.-v.\n    ",
+        "submission_date": "2005-07-24T00:00:00",
+        "last_modified_date": "2005-12-08T00:00:00"
+    }
+]

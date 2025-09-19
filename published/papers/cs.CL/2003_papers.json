@@ -1,0 +1,620 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0302014",
+        "title": "An Algorithm for Aligning Sentences in Bilingual Corpora Using Lexical Information",
+        "authors": [
+            "Akshar Bharati",
+            "V.Sriram",
+            "A.Vamshi Krishna",
+            "Rajeev Sangal",
+            "S.M.Bendre"
+        ],
+        "abstract": "  In this paper we describe an algorithm for aligning sentences with their translations in a bilingual corpus using lexical information of the languages. Existing efficient algorithms ignore word identities and consider only the sentence lengths (Brown, 1991; Gale and Church, 1993). For a sentence in the source language text, the proposed algorithm picks the most likely translation from the target language text using lexical information and certain heuristics. It does not do statistical analysis using sentence lengths. The algorithm is language independent. It also aids in detecting addition and deletion of text in translations. The algorithm gives comparable results with the existing algorithms in most of the cases while it does better in cases where statistical algorithms do not give good results.\n    ",
+        "submission_date": "2003-02-12T00:00:00",
+        "last_modified_date": "2003-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0302021",
+        "title": "Building an Open Language Archives Community on the OAI Foundation",
+        "authors": [
+            "Gary Simons",
+            "Steven Bird"
+        ],
+        "abstract": "  The Open Language Archives Community (OLAC) is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources. The Dublin Core (DC) Element Set and the OAI Protocol have provided a solid foundation for the OLAC framework. However, we need more precision in community-specific aspects of resource description than is offered by DC. Furthermore, many of the institutions and individuals who might participate in OLAC do not have the technical resources to support the OAI protocol. This paper presents our solutions to these two problems. To address the first, we have developed an extensible application profile for language resource metadata. To address the second, we have implemented Vida (the virtual data provider) and Viser (the virtual service provider), which permit community members to provide data and services without having to implement the OAI protocol. These solutions are generic and could be adopted by other specialized subcommunities.\n    ",
+        "submission_date": "2003-02-14T00:00:00",
+        "last_modified_date": "2003-02-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0302032",
+        "title": "Empirical Methods for Compound Splitting",
+        "authors": [
+            "Philipp Koehn",
+            "Kevin Knight"
+        ],
+        "abstract": "  Compounded words are a challenge for NLP applications such as machine translation (MT). We introduce methods to learn splitting rules from monolingual and parallel corpora. We evaluate them against a gold standard and measure their impact on performance of statistical MT systems. Results show accuracy of 99.1% and performance gains for MT of 0.039 BLEU on a German-English noun phrase translation task.\n    ",
+        "submission_date": "2003-02-22T00:00:00",
+        "last_modified_date": "2003-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0303002",
+        "title": "About compression of vocabulary in computer oriented languages",
+        "authors": [
+            "V. P. Maslov"
+        ],
+        "abstract": "  The author uses the entropy of the ideal Bose-Einstein gas to minimize losses in computer-oriented languages.\n    ",
+        "submission_date": "2003-03-05T00:00:00",
+        "last_modified_date": "2003-03-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0303007",
+        "title": "Glottochronology and problems of protolanguage reconstruction",
+        "authors": [
+            "Kromer Victor"
+        ],
+        "abstract": "  A method of languages genealogical trees construction is proposed.\n    ",
+        "submission_date": "2003-03-14T00:00:00",
+        "last_modified_date": "2003-03-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304006",
+        "title": "Learning to Paraphrase: An Unsupervised Approach Using Multiple-Sequence Alignment",
+        "authors": [
+            "Regina Barzilay",
+            "Lillian Lee"
+        ],
+        "abstract": "  We address the text-to-text generation problem of sentence-level paraphrasing -- a phenomenon distinct from and more difficult than word- or phrase-level paraphrasing. Our approach applies multiple-sequence alignment to sentences gathered from unannotated comparable corpora: it learns a set of paraphrasing patterns represented by word lattice pairs and automatically determines how to apply these patterns to rewrite new sentences. The results of our evaluation experiments show that the system derives accurate paraphrases, outperforming baseline systems.\n    ",
+        "submission_date": "2003-04-02T00:00:00",
+        "last_modified_date": "2003-04-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304019",
+        "title": "Blind Normalization of Speech From Different Channels",
+        "authors": [
+            "David N. Levin"
+        ],
+        "abstract": "  We show how to construct a channel-independent representation of speech that has propagated through a noisy reverberant channel. This is done by blindly rescaling the cepstral time series by a non-linear function, with the form of this scale function being determined by previously encountered cepstra from that channel. The rescaled form of the time series is an invariant property of it in the following sense: it is unaffected if the time series is transformed by any time-independent invertible distortion. Because a linear channel with stationary noise and impulse response transforms cepstra in this way, the new technique can be used to remove the channel dependence of a cepstral time series. In experiments, the method achieved greater channel-independence than cepstral mean normalization, and it was comparable to the combination of cepstral mean normalization and spectral subtraction, despite the fact that no measurements of channel noise or reverberations were required (unlike spectral subtraction).\n    ",
+        "submission_date": "2003-04-10T00:00:00",
+        "last_modified_date": "2003-04-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304024",
+        "title": "Glottochronologic Retrognostic of Language System",
+        "authors": [
+            "Kromer Victor"
+        ],
+        "abstract": "  A glottochronologic retrognostic of language system is proposed\n    ",
+        "submission_date": "2003-04-17T00:00:00",
+        "last_modified_date": "2003-04-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304027",
+        "title": "\"I'm sorry Dave, I'm afraid I can't do that\": Linguistics, Statistics, and Natural Language Processing circa 2001",
+        "authors": [
+            "Lillian Lee"
+        ],
+        "abstract": "  A brief, general-audience overview of the history of natural language processing, focusing on data-driven ",
+        "submission_date": "2003-04-21T00:00:00",
+        "last_modified_date": "2003-04-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304029",
+        "title": "An XML based Document Suite",
+        "authors": [
+            "Dietmar Roesner",
+            "Manuela Kunze"
+        ],
+        "abstract": "  We report about the current state of development of a document suite and its applications. This collection of tools for the flexible and robust processing of documents in German is based on the use of XML as unifying formalism for encoding input and output data as well as process information. It is organized in modules with limited responsibilities that can easily be combined into pipelines to solve complex tasks. Strong emphasis is laid on a number of techniques to deal with lexical and conceptual gaps that are typical when starting a new application.\n    ",
+        "submission_date": "2003-04-22T00:00:00",
+        "last_modified_date": "2003-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304035",
+        "title": "Exploiting Sublanguage and Domain Characteristics in a Bootstrapping Approach to Lexicon and Ontology Creation",
+        "authors": [
+            "Dietmar Roesner",
+            "Manuela Kunze"
+        ],
+        "abstract": "  It is very costly to build up lexical resources and domain ontologies. Especially when confronted with a new application domain lexical gaps and a poor coverage of domain concepts are a problem for the successful exploitation of natural language document analysis systems that need and exploit such knowledge sources. In this paper we report about ongoing experiments with `bootstrapping techniques' for lexicon and ontology creation.\n    ",
+        "submission_date": "2003-04-23T00:00:00",
+        "last_modified_date": "2003-04-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304036",
+        "title": "An Approach for Resource Sharing in Multilingual NLP",
+        "authors": [
+            "Manuela Kunze",
+            "Chun Xiao"
+        ],
+        "abstract": "  In this paper we describe an approach for the analysis of documents in German and English with a shared pool of resources. For the analysis of German documents we use a document suite, which supports the user in tasks like information retrieval and information extraction. The core of the document suite is based on our tool XDOC. Now we want to exploit these methods for the analysis of English documents as well. For this aim we need a multilingual presentation format of the resources. These resources must be transformed into an unified format, in which we can set additional information about linguistic characteristics of the language depending on the analyzed documents. In this paper we describe our approach for such an exchange model for multilingual resources based on XML.\n    ",
+        "submission_date": "2003-04-23T00:00:00",
+        "last_modified_date": "2003-04-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0305004",
+        "title": "Approximate Grammar for Information Extraction",
+        "authors": [
+            "V.Sriram",
+            "B. Ravi Sekar Reddy",
+            "R. Sangal"
+        ],
+        "abstract": "  In this paper, we present the concept of Approximate grammar and how it can be used to extract information from a documemt. As the structure of informational strings cannot be defined well in a document, we cannot use the conventional grammar rules to represent the information. Hence, the need arises to design an approximate grammar that can be used effectively to accomplish the task of Information extraction. Approximate grammars are a novel step in this direction. The rules of an approximate grammar can be given by a user or the machine can learn the rules from an annotated document. We have performed our experiments in both the above areas and the results have been impressive.\n    ",
+        "submission_date": "2003-05-06T00:00:00",
+        "last_modified_date": "2003-05-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0305041",
+        "title": "Factorization of Language Models through Backing-Off Lattices",
+        "authors": [
+            "Wei Wang"
+        ],
+        "abstract": "  Factorization of statistical language models is the task that we resolve the most discriminative model into factored models and determine a new model by combining them so as to provide better estimate. Most of previous works mainly focus on factorizing models of sequential events, each of which allows only one factorization manner. To enable parallel factorization, which allows a model event to be resolved in more than one ways at the same time, we propose a general framework, where we adopt a backing-off lattice to reflect parallel factorizations and to define the paths along which a model is resolved into factored models, we use a mixture model to combine parallel paths in the lattice, and generalize Katz's backing-off method to integrate all the mixture models got by traversing the entire lattice. Based on this framework, we formulate two types of model factorizations that are used in natural language modeling.\n    ",
+        "submission_date": "2003-05-23T00:00:00",
+        "last_modified_date": "2003-05-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306022",
+        "title": "Techniques for effective vocabulary selection",
+        "authors": [
+            "Anand Venkataraman",
+            "Wen Wang"
+        ],
+        "abstract": "  The vocabulary of a continuous speech recognition (CSR) system is a significant factor in determining its performance. In this paper, we present three principled approaches to select the target vocabulary for a particular domain by trading off between the target out-of-vocabulary (OOV) rate and vocabulary size. We evaluate these approaches against an ad-hoc baseline strategy. Results are presented in the form of OOV rate graphs plotted against increasing vocabulary size for each technique.\n    ",
+        "submission_date": "2003-06-04T00:00:00",
+        "last_modified_date": "2003-06-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306039",
+        "title": "Bayesian Information Extraction Network",
+        "authors": [
+            "Leonid Peshkin",
+            "Avi Pfeffer"
+        ],
+        "abstract": "  Dynamic Bayesian networks (DBNs) offer an elegant way to integrate various aspects of language in one model. Many existing algorithms developed for learning and inference in DBNs are applicable to probabilistic language modeling. To demonstrate the potential of DBNs for natural language processing, we employ a DBN in an information extraction task. We show how to assemble wealth of emerging linguistic instruments for shallow parsing, syntactic and semantic tagging, morphological decomposition, named entity recognition etc. in order to incrementally build a robust information extraction system. Our method outperforms previously published results on an established benchmark domain.\n    ",
+        "submission_date": "2003-06-10T00:00:00",
+        "last_modified_date": "2003-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306040",
+        "title": "The Open Language Archives Community: An infrastructure for distributed archiving of language resources",
+        "authors": [
+            "Gary Simons",
+            "Steven Bird"
+        ],
+        "abstract": "  New ways of documenting and describing language via electronic media coupled with new ways of distributing the results via the World-Wide Web offer a degree of access to language resources that is unparalleled in history. At the same time, the proliferation of approaches to using these new technologies is causing serious problems relating to resource discovery and resource creation. This article describes the infrastructure that the Open Language Archives Community (OLAC) has built in order to address these problems. Its technical and usage infrastructures address problems of resource discovery by constructing a single virtual library of distributed resources. Its governance infrastructure addresses problems of resource creation by providing a mechanism through which the language-resource community can express its consensus on recommended best practices.\n    ",
+        "submission_date": "2003-06-10T00:00:00",
+        "last_modified_date": "2003-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306050",
+        "title": "Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition",
+        "authors": [
+            "Erik F. Tjong Kim Sang",
+            "Fien De Meulder"
+        ],
+        "abstract": "  We describe the CoNLL-2003 shared task: language-independent named entity recognition. We give background information on the data sets (English and German) and the evaluation method, present a general overview of the systems that have taken part in the task and discuss their performance.\n    ",
+        "submission_date": "2003-06-12T00:00:00",
+        "last_modified_date": "2003-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306062",
+        "title": "Learning to Order Facts for Discourse Planning in Natural Language Generation",
+        "authors": [
+            "Aggeliki Dimitromanolaki",
+            "Ion Androutsopoulos"
+        ],
+        "abstract": "  This paper presents a machine learning approach to discourse planning in natural language generation. More specifically, we address the problem of learning the most natural ordering of facts in discourse plans for a specific domain. We discuss our methodology and how it was instantiated using two different machine learning algorithms. A quantitative evaluation performed in the domain of museum exhibit descriptions indicates that our approach performs significantly better than manually constructed ordering rules. Being retrainable, the resulting planners can be ported easily to other similar domains, without requiring language technology expertise.\n    ",
+        "submission_date": "2003-06-13T00:00:00",
+        "last_modified_date": "2003-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306099",
+        "title": "An Improved k-Nearest Neighbor Algorithm for Text Categorization",
+        "authors": [
+            "Baoli Li",
+            "Shiwen Yu",
+            "Qin Lu"
+        ],
+        "abstract": "  k is the most important parameter in a text categorization system based on k-Nearest Neighbor algorithm (kNN).In the classification process, k nearest documents to the test one in the training set are determined firstly. Then, the predication can be made according to the category distribution among these k nearest neighbors. Generally speaking, the class distribution in the training set is uneven. Some classes may have more samples than others. Therefore, the system performance is very sensitive to the choice of the parameter k. And it is very likely that a fixed k value will result in a bias on large categories. To deal with these problems, we propose an improved kNN algorithm, which uses different numbers of nearest neighbors for different categories, rather than a fixed number across all categories. More samples (nearest neighbors) will be used for deciding whether a test document should be classified to a category, which has more samples in the training set. Preliminary experiments on Chinese text categorization show that our method is less sensitive to the parameter k than the traditional one, and it can properly classify documents belonging to smaller classes with a large k. The method is promising for some cases, where estimating the parameter k via cross-validation is not allowed.\n    ",
+        "submission_date": "2003-06-16T00:00:00",
+        "last_modified_date": "2003-06-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0306130",
+        "title": "Anusaaraka: Machine Translation in Stages",
+        "authors": [
+            "Akshar Bharati",
+            "Vineet Chaitanya",
+            "Amba P. Kulkarni",
+            "Rajeev Sangal"
+        ],
+        "abstract": "  Fully-automatic general-purpose high-quality machine translation systems (FGH-MT) are extremely difficult to build. In fact, there is no system in the world for any pair of languages which qualifies to be called FGH-MT. The reasons are not far to seek. Translation is a creative process which involves interpretation of the given text by the translator. Translation would also vary depending on the audience and the purpose for which it is meant. This would explain the difficulty of building a machine translation system. Since, the machine is not capable of interpreting a general text with sufficient accuracy automatically at present - let alone re-expressing it for a given audience, it fails to perform as FGH-MT. FOOTNOTE{The major difficulty that the machine faces in interpreting a given text is the lack of general world knowledge or common sense knowledge.}\n    ",
+        "submission_date": "2003-06-25T00:00:00",
+        "last_modified_date": "2003-06-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307028",
+        "title": "Issues in Communication Game",
+        "authors": [
+            "Koiti Hasida"
+        ],
+        "abstract": "  As interaction between autonomous agents, communication can be analyzed in game-theoretic terms. Meaning game is proposed to formalize the core of intended communication in which the sender sends a message and the receiver attempts to infer its meaning intended by the sender. Basic issues involved in the game of natural language communication are discussed, such as salience, grammaticality, common sense, and common belief, together with some demonstration of the feasibility of game-theoretic account of language.\n    ",
+        "submission_date": "2003-07-11T00:00:00",
+        "last_modified_date": "2003-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307030",
+        "title": "Parsing and Generation with Tabulation and Compilation",
+        "authors": [
+            "Koiti Hasida",
+            "Takashi Miyata"
+        ],
+        "abstract": "  The standard tabulation techniques for logic programming presuppose fixed order of computation. Some data-driven control should be introduced in order to deal with diverse contexts. The present paper describes a data-driven method of constraint transformation with a sort of compilation which subsumes accessibility check and last-call optimization, which characterize standard natural-language parsing techniques, semantic-head-driven generation, etc.\n    ",
+        "submission_date": "2003-07-11T00:00:00",
+        "last_modified_date": "2003-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307044",
+        "title": "The Linguistic DS: Linguisitic Description in MPEG-7",
+        "authors": [
+            "Koiti Hasida"
+        ],
+        "abstract": "  MPEG-7 (Moving Picture Experts Group Phase 7) is an XML-based international standard on semantic description of multimedia content. This document discusses the Linguistic DS and related tools. The linguistic DS is a tool, based on the GDA tag set (",
+        "submission_date": "2003-07-19T00:00:00",
+        "last_modified_date": "2003-07-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308016",
+        "title": "Collaborative Creation of Digital Content in Indian Languages",
+        "authors": [
+            "Akshar Bharati",
+            "Rajeev Sangal"
+        ],
+        "abstract": "  The world is passing through a major revolution called the information revolution, in which information and knowledge is becoming available to people in unprecedented amounts wherever and whenever they need it. Those societies which fail to take advantage of the new technology will be left behind, just like in the industrial revolution.\n",
+        "submission_date": "2003-08-07T00:00:00",
+        "last_modified_date": "2003-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308017",
+        "title": "Information Revolution",
+        "authors": [
+            "Akshar Bharati",
+            "Vineet Chaitanya",
+            "Rajeev Sangal"
+        ],
+        "abstract": "  The world is passing through a major revolution called the information revolution, in which information and knowledge is becoming available to people in unprecedented amounts wherever and whenever they need it. Those societies which fail to take advantage of the new technology will be left behind, just like in the industrial revolution.\n",
+        "submission_date": "2003-08-07T00:00:00",
+        "last_modified_date": "2003-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308018",
+        "title": "Anusaaraka: Overcoming the Language Barrier in India",
+        "authors": [
+            "Akshar Bharati",
+            "Vineet Chaitanya",
+            "Amba P. Kulkarni",
+            "Rajeev Sangal",
+            "G Umamaheshwara Rao"
+        ],
+        "abstract": "  The anusaaraka system makes text in one Indian language accessible in another Indian language. In the anusaaraka approach, the load is so divided between man and computer that the language load is taken by the machine, and the interpretation of the text is left to the man. The machine presents an image of the source text in a language close to the target ",
+        "submission_date": "2003-08-07T00:00:00",
+        "last_modified_date": "2003-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308019",
+        "title": "Language Access: An Information Based Approach",
+        "authors": [
+            "Akshar Bharati",
+            "Vineet Chaitanya",
+            "Amba P. Kulkarni",
+            "Rajeev Sangal"
+        ],
+        "abstract": "  The anusaaraka system (a kind of machine translation system) makes text in one Indian language accessible through another Indian language. The machine presents an image of the source text in a language close to the target language. In the image, some constructions of the source language (which do not have equivalents in the target language) spill over to the output. Some special notation is also devised.\n",
+        "submission_date": "2003-08-07T00:00:00",
+        "last_modified_date": "2003-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308020",
+        "title": "LERIL : Collaborative Effort for Creating Lexical Resources",
+        "authors": [
+            "Akshar Bharati",
+            "Dipti M Sharma",
+            "Vineet Chaitanya",
+            "Amba P Kulkarni",
+            "Rajeev Sangal",
+            "Durgesh D Rao"
+        ],
+        "abstract": "  The paper reports on efforts taken to create lexical resources pertaining to Indian languages, using the collaborative model. The lexical resources being developed are: (1) Transfer lexicon and grammar from English to several Indian languages. (2) Dependencey tree bank of annotated corpora for several Indian languages. The dependency trees are based on the Paninian model. (3) Bilingual dictionary of 'core meanings'.\n    ",
+        "submission_date": "2003-08-07T00:00:00",
+        "last_modified_date": "2003-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308022",
+        "title": "Extending Dublin Core Metadata to Support the Description and Discovery of Language Resources",
+        "authors": [
+            "Steven Bird",
+            "Gary Simons"
+        ],
+        "abstract": "  As language data and associated technologies proliferate and as the language resources community expands, it is becoming increasingly difficult to locate and reuse existing resources. Are there any lexical resources for such-and-such a language? What tool works with transcripts in this particular format? What is a good format to use for linguistic data of this type? Questions like these dominate many mailing lists, since web search engines are an unreliable way to find language resources. This paper reports on a new digital infrastructure for discovering language resources being developed by the Open Language Archives Community (OLAC). At the core of OLAC is its metadata format, which is designed to facilitate description and discovery of all kinds of language resources, including data, tools, or advice. The paper describes OLAC metadata, its relationship to Dublin Core metadata, and its dissemination using the metadata harvesting protocol of the Open Archives Initiative.\n    ",
+        "submission_date": "2003-08-14T00:00:00",
+        "last_modified_date": "2003-08-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308032",
+        "title": "Evaluation of text data mining for database curation: lessons learned from the KDD Challenge Cup",
+        "authors": [
+            "Alexander S. Yeh",
+            "Lynette Hirschman",
+            "Alexander A. Morgan"
+        ],
+        "abstract": "  MOTIVATION: The biological literature is a major repository of knowledge. Many biological databases draw much of their content from a careful curation of this literature. However, as the volume of literature increases, the burden of curation increases. Text mining may provide useful tools to assist in the curation process. To date, the lack of standards has made it impossible to determine whether text mining techniques are sufficiently mature to be useful.\n",
+        "submission_date": "2003-08-20T00:00:00",
+        "last_modified_date": "2003-08-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0309019",
+        "title": "Building a Test Collection for Speech-Driven Web Retrieval",
+        "authors": [
+            "Atsushi Fujii",
+            "Katunobu Itou"
+        ],
+        "abstract": "  This paper describes a test collection (benchmark data) for retrieval systems driven by spoken queries. This collection was produced in the subtask of the NTCIR-3 Web retrieval task, which was performed in a TREC-style evaluation workshop. The search topics and document collection for the Web retrieval task were used to produce spoken queries and language models for speech recognition, respectively. We used this collection to evaluate the performance of our retrieval system. Experimental results showed that (a) the use of target documents for language modeling and (b) enhancement of the vocabulary size in speech recognition were effective in improving the system performance.\n    ",
+        "submission_date": "2003-09-12T00:00:00",
+        "last_modified_date": "2003-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0309021",
+        "title": "A Cross-media Retrieval System for Lecture Videos",
+        "authors": [
+            "Atsushi Fujii",
+            "Katunobu Itou",
+            "Tomoyosi Akiba",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  We propose a cross-media lecture-on-demand system, in which users can selectively view specific segments of lecture videos by submitting text queries. Users can easily formulate queries by using the textbook associated with a target lecture, even if they cannot come up with effective keywords. Our system extracts the audio track from a target lecture video, generates a transcription by large vocabulary continuous speech recognition, and produces a text index. Experimental results showed that by adapting speech recognition to the topic of the lecture, the recognition accuracy increased and the retrieval accuracy was comparable with that obtained by human transcription.\n    ",
+        "submission_date": "2003-09-13T00:00:00",
+        "last_modified_date": "2003-09-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0309034",
+        "title": "Measuring Praise and Criticism: Inference of Semantic Orientation from Association",
+        "authors": [
+            "Peter D. Turney",
+            "Michael L. Littman"
+        ],
+        "abstract": "  The evaluative character of a word is called its semantic orientation. Positive semantic orientation indicates praise (e.g., \"honest\", \"intrepid\") and negative semantic orientation indicates criticism (e.g., \"disturbing\", \"superfluous\"). Semantic orientation varies in both direction (positive or negative) and degree (mild to strong). An automated system for measuring semantic orientation would have application in text classification, text filtering, tracking opinions in online discussions, analysis of survey responses, and automated chat systems (chatbots). This paper introduces a method for inferring the semantic orientation of a word from its statistical association with a set of positive and negative paradigm words. Two instances of this approach are evaluated, based on two different statistical measures of word association: pointwise mutual information (PMI) and latent semantic analysis (LSA). The method is experimentally tested with 3,596 words (including adjectives, adverbs, nouns, and verbs) that have been manually labeled positive (1,614 words) and negative (1,982 words). The method attains an accuracy of 82.8% on the full test set, but the accuracy rises above 95% when the algorithm is allowed to abstain from classifying mild words.\n    ",
+        "submission_date": "2003-09-19T00:00:00",
+        "last_modified_date": "2003-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0309035",
+        "title": "Combining Independent Modules to Solve Multiple-choice Synonym and Analogy Problems",
+        "authors": [
+            "Peter D. Turney",
+            "Michael L. Littman",
+            "Jeffrey Bigham",
+            "Victor Shnayder"
+        ],
+        "abstract": "  Existing statistical approaches to natural language problems are very coarse approximations to the true complexity of language processing. As such, no single technique will be best for all problem instances. Many researchers are examining ensemble methods that combine the output of successful, separately developed modules to create more accurate solutions. This paper examines three merging rules for combining probability distributions: the well known mixture rule, the logarithmic rule, and a novel product rule. These rules were applied with state-of-the-art results to two problems commonly used to assess human mastery of lexical semantics -- synonym questions and analogy questions. All three merging rules result in ensembles that are more accurate than any of their component modules. The differences among the three rules are not statistically significant, but it is suggestive that the popular mixture rule is not the best rule for either of the two problems.\n    ",
+        "submission_date": "2003-09-19T00:00:00",
+        "last_modified_date": "2003-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0310014",
+        "title": "Effective XML Representation for Spoken Language in Organisations",
+        "authors": [
+            "Rodney J. Clarke",
+            "Philip C. Windridge",
+            "Dali Dong"
+        ],
+        "abstract": "  Spoken Language can be used to provide insights into organisational processes, unfortunately transcription and coding stages are very time consuming and expensive. The concept of partial transcription and coding is proposed in which spoken language is indexed prior to any subsequent processing. The functional linguistic theory of texture is used to describe the effects of partial transcription on observational records. The standard used to encode transcript context and metadata is called CHAT, but a previous XML schema developed to implement it contains design assumptions that make it difficult to support partial transcription for example. This paper describes a more effective XML schema that overcomes many of these problems and is intended for use in applications that support the rapid development of spoken language deliverables.\n    ",
+        "submission_date": "2003-10-08T00:00:00",
+        "last_modified_date": "2003-10-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0310041",
+        "title": "A Dynamic Programming Algorithm for the Segmentation of Greek Texts",
+        "authors": [
+            "Pavlina Fragkou"
+        ],
+        "abstract": "  In this paper we introduce a dynamic programming algorithm to perform linear text segmentation by global minimization of a segmentation cost function which consists of: (a) within-segment word similarity and (b) prior information about segment length. The evaluation of the segmentation accuracy of the algorithm on a text collection consisting of Greek texts showed that the algorithm achieves high segmentation accuracy and appears to be very innovating and promissing.\n    ",
+        "submission_date": "2003-10-21T00:00:00",
+        "last_modified_date": "2003-10-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0310058",
+        "title": "Application Architecture for Spoken Language Resources in Organisational Settings",
+        "authors": [
+            "Rodney J. Clarke",
+            "Dali Dong",
+            "Philip C. Windridge"
+        ],
+        "abstract": "  Special technologies need to be used to take advantage of, and overcome, the challenges associated with acquiring, transforming, storing, processing, and distributing spoken language resources in organisations. This paper introduces an application architecture consisting of tools and supporting utilities for indexing and transcription, and describes how these tools, together with downstream processing and distribution systems, can be integrated into a workflow. Two sample applications for this architecture are outlined- the analysis of decision-making processes in organisations and the deployment of systems development methods by designers in the field.\n    ",
+        "submission_date": "2003-10-29T00:00:00",
+        "last_modified_date": "2003-10-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0311033",
+        "title": "The Rank-Frequency Analysis for the Functional Style Corpora in the Ukrainian Language",
+        "authors": [
+            "Solomija N. Buk",
+            "Andrij A. Rovenchak"
+        ],
+        "abstract": "  We use the rank-frequency analysis for the estimation of Kernel Vocabulary size within specific corpora of Ukrainian. The extrapolation of high-rank behaviour is utilized for estimation of the total vocabulary size.\n    ",
+        "submission_date": "2003-11-21T00:00:00",
+        "last_modified_date": "2003-11-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0311036",
+        "title": "Measuring the Functional Load of Phonological Contrasts",
+        "authors": [
+            "Dinoj Surendran",
+            "Partha Niyogi"
+        ],
+        "abstract": "  Frequency counts are a measure of how much use a language makes of a linguistic unit, such as a phoneme or word. However, what is often important is not the units themselves, but the contrasts between them. A measure is therefore needed for how much use a language makes of a contrast, i.e. the functional load (FL) of the contrast. We generalize previous work in linguistics and speech recognition and propose a family of measures for the FL of several phonological contrasts, including phonemic oppositions, distinctive features, suprasegmentals, and phonological rules. We then test it for robustness to changes of corpora. Finally, we provide examples in Cantonese, Dutch, English, German and Mandarin, in the context of historical linguistics, language acquisition and speech recognition. More information can be found at ",
+        "submission_date": "2003-11-24T00:00:00",
+        "last_modified_date": "2003-11-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312008",
+        "title": "Embedding Web-based Statistical Translation Models in Cross-Language Information Retrieval",
+        "authors": [
+            "Wessel Kraaij",
+            "Jian-Yun Nie",
+            "Michel Simard"
+        ],
+        "abstract": "  Although more and more language pairs are covered by machine translation services, there are still many pairs that lack translation resources. Cross-language information retrieval (CLIR) is an application which needs translation functionality of a relatively low level of sophistication since current models for information retrieval (IR) are still based on a bag-of-words. The Web provides a vast resource for the automatic construction of parallel corpora which can be used to train statistical translation models automatically. The resulting translation models can be embedded in several ways in a retrieval model. In this paper, we will investigate the problem of automatically mining parallel texts from the Web and different ways of integrating the translation models within the retrieval process. Our experiments on standard test collections for CLIR show that the Web-based translation models can surpass commercial MT systems in CLIR tasks. These results open the perspective of constructing a fully automatic query translation device for CLIR at a very low cost.\n    ",
+        "submission_date": "2003-12-03T00:00:00",
+        "last_modified_date": "2003-12-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312050",
+        "title": "A Flexible Pragmatics-driven Language Generator for Animated Agents",
+        "authors": [
+            "Paul Piwek"
+        ],
+        "abstract": "  This paper describes the NECA MNLG; a fully implemented Multimodal Natural Language Generation module. The MNLG is deployed as part of the NECA system which generates dialogues between animated agents. The generation module supports the seamless integration of full grammar rules, templates and canned text. The generator takes input which allows for the specification of syntactic, semantic and pragmatic constraints on the output.\n    ",
+        "submission_date": "2003-12-22T00:00:00",
+        "last_modified_date": "2003-12-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312051",
+        "title": "Towards Automated Generation of Scripted Dialogue: Some Time-Honoured Strategies",
+        "authors": [
+            "Paul Piwek",
+            "Kees van Deemter"
+        ],
+        "abstract": "  The main aim of this paper is to introduce automated generation of scripted dialogue as a worthwhile topic of investigation. In particular the fact that scripted dialogue involves two layers of communication, i.e., uni-directional communication between the author and the audience of a scripted dialogue and bi-directional pretended communication between the characters featuring in the dialogue, is argued to raise some interesting issues. Our hope is that the combined study of the two layers will forge links between research in text generation and dialogue processing. The paper presents a first attempt at creating such links by studying three types of strategies for the automated generation of scripted dialogue. The strategies are derived from examples of human-authored and naturally occurring dialogue.\n    ",
+        "submission_date": "2003-12-22T00:00:00",
+        "last_modified_date": "2003-12-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312052",
+        "title": "Dialogue as Discourse: Controlling Global Properties of Scripted Dialogue",
+        "authors": [
+            "Paul Piwek",
+            "Kees van Deemter"
+        ],
+        "abstract": "  This paper explains why scripted dialogue shares some crucial properties with discourse. In particular, when scripted dialogues are generated by a Natural Language Generation system, the generator can apply revision strategies that cannot normally be used when the dialogue results from an interaction between autonomous agents (i.e., when the dialogue is not scripted). The paper explains that the relevant revision operators are best applied at the level of a dialogue plan and discusses how the generator may decide when to apply a given revision operator.\n    ",
+        "submission_date": "2003-12-22T00:00:00",
+        "last_modified_date": "2003-12-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312058",
+        "title": "Acquiring Lexical Paraphrases from a Single Corpus",
+        "authors": [
+            "Oren Glickman",
+            "Ido Dagan"
+        ],
+        "abstract": "  This paper studies the potential of identifying lexical paraphrases within a single corpus, focusing on the extraction of verb paraphrases. Most previous approaches detect individual paraphrase instances within a pair (or set) of comparable corpora, each of them containing roughly the same information, and rely on the substantial level of correspondence of such corpora. We present a novel method that successfully detects isolated paraphrase instances within a single corpus without relying on any a-priori structure and information. A comparison suggests that an instance-based approach may be combined with a vector based approach in order to assess better the paraphrase likelihood for many verb pairs.\n    ",
+        "submission_date": "2003-12-25T00:00:00",
+        "last_modified_date": "2003-12-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0312060",
+        "title": "Part-of-Speech Tagging with Minimal Lexicalization",
+        "authors": [
+            "Virginia Savova",
+            "Leonid Peshkin"
+        ],
+        "abstract": "  We use a Dynamic Bayesian Network to represent compactly a variety of sublexical and contextual features relevant to Part-of-Speech (PoS) tagging. The outcome is a flexible tagger (LegoTag) with state-of-the-art performance (3.6% error on a benchmark corpus). We explore the effect of eliminating redundancy and radically reducing the size of feature vocabularies. We find that a small but linguistically motivated set of suffixes results in improved cross-corpora generalization. We also show that a minimal lexicon limited to function words is sufficient to ensure reasonable performance.\n    ",
+        "submission_date": "2003-12-27T00:00:00",
+        "last_modified_date": "2003-12-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0304028",
+        "title": "Grid-Enabling Natural Language Engineering By Stealth",
+        "authors": [
+            "Baden Hughes",
+            "Steven Bird"
+        ],
+        "abstract": "  We describe a proposal for an extensible, component-based software architecture for natural language engineering applications. Our model leverages existing linguistic resource description and discovery mechanisms based on extended Dublin Core metadata. In addition, the application design is flexible, allowing disparate components to be combined to suit the overall application functionality. An application specification language provides abstraction from the programming environment and allows ease of interface with computational grids via a broker.\n    ",
+        "submission_date": "2003-04-22T00:00:00",
+        "last_modified_date": "2003-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0305053",
+        "title": "Developing Open Data Models for Linguistic Field Data",
+        "authors": [
+            "Baden Hughes"
+        ],
+        "abstract": "  The UQ Flint Archive houses the field notes and elicitation recordings made by Elwyn Flint in the 1950's and 1960's during extensive linguistic survey work across Queensland, Australia.\n",
+        "submission_date": "2003-05-29T00:00:00",
+        "last_modified_date": "2003-05-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307014",
+        "title": "Syntax, Parsing and Production of Natural Language in a Framework of Information Compression by Multiple Alignment, Unification and Search",
+        "authors": [
+            "J Gerard Wolff"
+        ],
+        "abstract": "  This article introduces the idea that \"information compression by multiple alignment, unification and search\" (ICMAUS) provides a framework within which natural language syntax may be represented in a simple format and the parsing and production of natural language may be performed in a transparent manner.\n",
+        "submission_date": "2003-07-07T00:00:00",
+        "last_modified_date": "2003-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0307055",
+        "title": "Learning Analogies and Semantic Relations",
+        "authors": [
+            "Peter D. Turney",
+            "Michael L. Littman"
+        ],
+        "abstract": "  We present an algorithm for learning from unlabeled text, based on the Vector Space Model (VSM) of information retrieval, that can solve verbal analogy questions of the kind found in the Scholastic Aptitude Test (SAT). A verbal analogy has the form A:B::C:D, meaning \"A is to B as C is to D\"; for example, mason:stone::carpenter:wood. SAT analogy questions provide a word pair, A:B, and the problem is to select the most analogous word pair, C:D, from a set of five choices. The VSM algorithm correctly answers 47% of a collection of 374 college-level analogy questions (random guessing would yield 20% correct). We motivate this research by relating it to work in cognitive science and linguistics, and by applying it to a difficult problem in natural language processing, determining semantic relations in noun-modifier pairs. The problem is to classify a noun-modifier pair, such as \"laser printer\", according to the semantic relation between the noun (printer) and the modifier (laser). We use a supervised nearest-neighbour algorithm that assigns a class to a given noun-modifier pair by finding the most analogous noun-modifier pair in the training data. With 30 classes of semantic relations, on a collection of 600 labeled noun-modifier pairs, the learning algorithm attains an F value of 26.5% (random guessing: 3.3%). With 5 classes of semantic relations, the F value is 43.2% (random: 20%). The performance is state-of-the-art for these challenging problems.\n    ",
+        "submission_date": "2003-07-24T00:00:00",
+        "last_modified_date": "2003-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308008",
+        "title": "A Grid Based Architecture for High-Performance NLP",
+        "authors": [
+            "Baden Hughes",
+            "Steven Bird"
+        ],
+        "abstract": "  We describe the design and early implementation of an extensible, component-based software architecture for natural language engineering applications which interfaces with high performance distributed computing services. The architecture leverages existing linguistic resource description and discovery mechanisms based on metadata descriptions, combining these in a compatible fashion with other software definition abstractions. Within this architecture, application design is highly flexible, allowing disparate components to be combined to suit the overall application functionality, and formally described independently of processing concerns. An application specification language provides abstraction from the programming environment and allows ease of interface with high performance computational grids via a broker.\n    ",
+        "submission_date": "2003-08-05T00:00:00",
+        "last_modified_date": "2003-08-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0308033",
+        "title": "Coherent Keyphrase Extraction via Web Mining",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  Keyphrases are useful for a variety of purposes, including summarizing, indexing, labeling, categorizing, clustering, highlighting, browsing, and searching. The task of automatic keyphrase extraction is to select keyphrases from within the text of a given document. Automatic keyphrase extraction makes it feasible to generate keyphrases for the huge number of documents that do not have manually assigned keyphrases. A limitation of previous keyphrase extraction algorithms is that the selected keyphrases are occasionally incoherent. That is, the majority of the output keyphrases may fit together well, but there may be a minority that appear to be outliers, with no clear semantic relation to the majority or to each other. This paper presents enhancements to the Kea keyphrase extraction algorithm that are designed to increase the coherence of the extracted keyphrases. The approach is to use the degree of statistical association among candidate keyphrases as evidence that they may be semantically related. The statistical association is measured using web mining. Experiments demonstrate that the enhancements improve the quality of the extracted keyphrases. Furthermore, the enhancements are not domain-specific: the algorithm generalizes well when it is trained on one domain (computer science documents) and tested on another (physics documents).\n    ",
+        "submission_date": "2003-08-20T00:00:00",
+        "last_modified_date": "2003-08-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0310018",
+        "title": "The Study of the Application of a Keywords-based Chatbot System on the Teaching of Foreign Languages",
+        "authors": [
+            "Jiyou Jia"
+        ],
+        "abstract": "  This paper reports the findings of a study conducted on the application of an on-line human-computer dialog system with natural language (chatbot) on the teaching of foreign languages. A keywords-based human-computer dialog system makes it possible that the user could chat with the computer using a natural language, i.e. in English or in German to some extent. So an experiment has been made using this system online to work as a chat partner with the users learning the foreign languages. Dialogs between the users and the chatbot are collected. Findings indicate that the dialogs between the human and the computer are mostly very short because the user finds the responses from the computer are mostly repeated and irrelevant with the topics and context and the program does not understand the language at all. With analysis of the keywords or pattern-matching mechanism used in this chatbot it can be concluded that this kind of system can not work as a teaching assistant program in foreign language learning.\n    ",
+        "submission_date": "2003-10-10T00:00:00",
+        "last_modified_date": "2003-10-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/physics/0307117",
+        "title": "Symbolic stochastic dynamical systems viewed as binary N-step Markov chains",
+        "authors": [
+            "O. V. Usatenko",
+            "V. A. Yampol'skii",
+            "K. E. Kechedzhy",
+            "S. S. Mel'nyk"
+        ],
+        "abstract": "  A theory of systems with long-range correlations based on the consideration of binary N-step Markov chains is developed. In the model, the conditional probability that the i-th symbol in the chain equals zero (or unity) is a linear function of the number of unities among the preceding N symbols. The correlation and distribution functions as well as the variance of number of symbols in the words of arbitrary length L are obtained analytically and numerically. A self-similarity of the studied stochastic process is revealed and the similarity group transformation of the chain parameters is presented. The diffusion Fokker-Planck equation governing the distribution function of the L-words is explored. If the persistent correlations are not extremely strong, the distribution function is shown to be the Gaussian with the variance being nonlinearly dependent on L. The applicability of the developed theory to the coarse-grained written and DNA texts is discussed.\n    ",
+        "submission_date": "2003-07-23T00:00:00",
+        "last_modified_date": "2003-07-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/quant-ph/0309022",
+        "title": "Quantum Aspects of Semantic Analysis and Symbolic Artificial Intelligence",
+        "authors": [
+            "Diederik Aerts",
+            "Marek Czachor"
+        ],
+        "abstract": "  Modern approaches to semanic analysis if reformulated as Hilbert-space problems reveal formal structures known from quantum mechanics. Similar situation is found in distributed representations of cognitive structures developed for the purposes of neural networks. We take a closer look at similarites and differences between the above two fields and quantum information theory.\n    ",
+        "submission_date": "2003-09-01T00:00:00",
+        "last_modified_date": "2004-02-19T00:00:00"
+    }
+]

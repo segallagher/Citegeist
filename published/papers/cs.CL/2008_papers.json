@@ -1,0 +1,797 @@
+[
+    {
+        "url": "https://arxiv.org/abs/0801.1415",
+        "title": "The emerging field of language dynamics",
+        "authors": [
+            "S. Wichmann"
+        ],
+        "abstract": "  A simple review by a linguist, citing many articles by physicists: Quantitative methods, agent-based computer simulations, language dynamics, language typology, historical linguistics\n    ",
+        "submission_date": "2008-01-09T00:00:00",
+        "last_modified_date": "2008-01-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.2510",
+        "title": "A Comparison of natural (english) and artificial (esperanto) languages. A Multifractal method based analysis",
+        "authors": [
+            "J. Gillet",
+            "M. Ausloos"
+        ],
+        "abstract": "  We present a comparison of two english texts, written by Lewis Carroll, one (Alice in wonderland) and the other (Through a looking glass), the former translated into esperanto, in order to observe whether natural and artificial languages significantly differ from each other. We construct one dimensional time series like signals using either word lengths or word frequencies. We use the multifractal ideas for sorting out correlations in the writings. In order to check the robustness of the methods we also write the corresponding shuffled texts. We compare characteristic functions and e.g. observe marked differences in the (far from parabolic) f(alpha) curves, differences which we attribute to Tsallis non extensive statistical features in the ''frequency time series'' and ''length time series''. The esperanto text has more extreme vallues. A very rough approximation consists in modeling the texts as a random Cantor set if resulting from a binomial cascade of long and short words (or words and blanks). This leads to parameters characterizing the text style, and most likely in fine the author writings.\n    ",
+        "submission_date": "2008-01-16T00:00:00",
+        "last_modified_date": "2008-01-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.3239",
+        "title": "Online-concordance \"Perekhresni stezhky\" (\"The Cross-Paths\"), a novel by Ivan Franko",
+        "authors": [
+            "Solomiya Buk",
+            "Andrij Rovenchak"
+        ],
+        "abstract": "  In the article, theoretical principles and practical realization for the compilation of the concordance to \"Perekhresni stezhky\" (\"The Cross-Paths\"), a novel by Ivan Franko, are described. Two forms for the context presentation are proposed. The electronic version of this lexicographic work is available online.\n    ",
+        "submission_date": "2008-01-21T00:00:00",
+        "last_modified_date": "2008-01-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.3817",
+        "title": "Robustness Evaluation of Two CCG, a PCFG and a Link Grammar Parsers",
+        "authors": [
+            "Tuomo Kakkonen"
+        ],
+        "abstract": "  Robustness in a parser refers to an ability to deal with exceptional phenomena. A parser is robust if it deals with phenomena outside its normal range of inputs. This paper reports on a series of robustness evaluations of state-of-the-art parsers in which we concentrated on one aspect of robustness: its ability to parse sentences containing misspelled words. We propose two measures for robustness evaluation based on a comparison of a parser's output for grammatical input sentences and their noisy counterparts. In this paper, we use these measures to compare the overall robustness of the four evaluated parsers, and we present an analysis of the decline in parser performance with increasing error levels. Our results indicate that performance typically declines tens of percentage units when parsers are presented with texts containing misspellings. When it was tested on our purpose-built test set of 443 sentences, the best parser in the experiment (C&C parser) was able to return exactly the same parse tree for the grammatical and ungrammatical sentences for 60.8%, 34.0% and 14.9% of the sentences with one, two or three misspelled words respectively.\n    ",
+        "submission_date": "2008-01-24T00:00:00",
+        "last_modified_date": "2008-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.3864",
+        "title": "Between conjecture and memento: shaping a collective emotional perception of the future",
+        "authors": [
+            "Alberto Pepe",
+            "Johan Bollen"
+        ],
+        "abstract": "  Large scale surveys of public mood are costly and often impractical to perform. However, the web is awash with material indicative of public mood such as blogs, emails, and web queries. Inexpensive content analysis on such extensive corpora can be used to assess public mood fluctuations. The work presented here is concerned with the analysis of the public mood towards the future. Using an extension of the Profile of Mood States questionnaire, we have extracted mood indicators from 10,741 emails submitted in 2006 to ",
+        "submission_date": "2008-01-25T00:00:00",
+        "last_modified_date": "2008-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.4716",
+        "title": "Methods to integrate a language model with semantic information for a word prediction component",
+        "authors": [
+            "Tonio Wandmacher",
+            "Jean-Yves Antoine"
+        ],
+        "abstract": "  Most current word prediction systems make use of n-gram language models (LM) to estimate the probability of the following word in a phrase. In the past years there have been many attempts to enrich such language models with further syntactic or semantic information. We want to explore the predictive powers of Latent Semantic Analysis (LSA), a method that has been shown to provide reliable information on long-distance semantic dependencies between words in a context. We present and evaluate here several methods that integrate LSA-based information with a standard language model: a semantic cache, partial reranking, and different forms of interpolation. We found that all methods show significant improvements, compared to the 4-gram baseline, and most of them to a simple cache model as well.\n    ",
+        "submission_date": "2008-01-30T00:00:00",
+        "last_modified_date": "2008-01-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.4746",
+        "title": "Concerning Olga, the Beautiful Little Street Dancer (Adjectives as Higher-Order Polymorphic Functions)",
+        "authors": [
+            "Walid S. Saba"
+        ],
+        "abstract": "  In this paper we suggest a typed compositional seman-tics for nominal compounds of the form [Adj Noun] that models adjectives as higher-order polymorphic functions, and where types are assumed to represent concepts in an ontology that reflects our commonsense view of the world and the way we talk about it in or-dinary language. In addition to [Adj Noun] compounds our proposal seems also to suggest a plausible explana-tion for well known adjective ordering restrictions.\n    ",
+        "submission_date": "2008-01-30T00:00:00",
+        "last_modified_date": "2008-02-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.2234",
+        "title": "Textual Fingerprinting with Texts from Parkin, Bassewitz, and Leander",
+        "authors": [
+            "Christoph Schommer",
+            "Conny Uhde"
+        ],
+        "abstract": "  Current research in author profiling to discover a legal author's fingerprint does not only follow examinations based on statistical parameters only but include more and more dynamic methods that can learn and that react adaptable to the specific behavior of an author. But the question on how to appropriately represent a text is still one of the fundamental tasks, and the problem of which attribute should be used to fingerprint the author's style is still not exactly defined. In this work, we focus on linguistic selection of attributes to fingerprint the style of the authors Parkin, Bassewitz and Leander. We use texts of the genre Fairy Tale as it has a clear style and texts of a shorter size with a straightforward story-line and a simple language.\n    ",
+        "submission_date": "2008-02-15T00:00:00",
+        "last_modified_date": "2008-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.4198",
+        "title": "Some properties of the Ukrainian writing system",
+        "authors": [
+            "Solomija Buk",
+            "J\u00e1n Ma\u010dutek",
+            "Andrij Rovenchak"
+        ],
+        "abstract": "  We investigate the grapheme-phoneme relation in Ukrainian and some properties of the Ukrainian version of the Cyrillic alphabet.\n    ",
+        "submission_date": "2008-02-28T00:00:00",
+        "last_modified_date": "2008-02-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.4326",
+        "title": "The Generation of Textual Entailment with NLML in an Intelligent Dialogue system for Language Learning CSIEC",
+        "authors": [
+            "Jiyou Jia"
+        ],
+        "abstract": "  This research report introduces the generation of textual entailment within the project CSIEC (Computer Simulation in Educational Communication), an interactive web-based human-computer dialogue system with natural language for English instruction. The generation of textual entailment (GTE) is critical to the further improvement of CSIEC project. Up to now we have found few literatures related with GTE. Simulating the process that a human being learns English as a foreign language we explore our naive approach to tackle the GTE problem and its algorithm within the framework of CSIEC, i.e. rule annotation in NLML, pattern recognition (matching), and entailment transformation. The time and space complexity of our algorithm is tested with some entailment examples. Further works include the rules annotation based on the English textbooks and a GUI interface for normal users to edit the entailment rules.\n    ",
+        "submission_date": "2008-02-29T00:00:00",
+        "last_modified_date": "2008-02-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.2856",
+        "title": "Figuring out Actors in Text Streams: Using Collocations to establish Incremental Mind-maps",
+        "authors": [
+            "T. Rothenberger",
+            "S. Oez",
+            "E. Tahirovic",
+            "C. Schommer"
+        ],
+        "abstract": "  The recognition, involvement, and description of main actors influences the story line of the whole text. This is of higher importance as the text per se represents a flow of words and expressions that once it is read it is lost. In this respect, the understanding of a text and moreover on how the actor exactly behaves is not only a major concern: as human beings try to store a given input on short-term memory while associating diverse aspects and actors with incidents, the following approach represents a virtual architecture, where collocations are concerned and taken as the associative completion of the actors' acting. Once that collocations are discovered, they become managed in separated memory blocks broken down by the actors. As for human beings, the memory blocks refer to associative mind-maps. We then present several priority functions to represent the actual temporal situation inside a mind-map to enable the user to reconstruct the recent events from the discovered temporal results.\n    ",
+        "submission_date": "2008-03-19T00:00:00",
+        "last_modified_date": "2008-03-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.0143",
+        "title": "Effects of High-Order Co-occurrences on Word Semantic Similarities",
+        "authors": [
+            "Beno\u00eet Lemaire",
+            "Guy Denhi\u00e8re"
+        ],
+        "abstract": "  A computational model of the construction of word meaning through exposure to texts is built in order to simulate the effects of co-occurrence values on word semantic similarities, paragraph by paragraph. Semantic similarity is here viewed as association. It turns out that the similarity between two words W1 and W2 strongly increases with a co-occurrence, decreases with the occurrence of W1 without W2 or W2 without W1, and slightly increases with high-order co-occurrences. Therefore, operationalizing similarity as a frequency of co-occurrence probably introduces a bias: first, there are cases in which there is similarity without co-occurrence and, second, the frequency of co-occurrence overestimates similarity.\n    ",
+        "submission_date": "2008-04-01T00:00:00",
+        "last_modified_date": "2008-04-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.0317",
+        "title": "Parts-of-Speech Tagger Errors Do Not Necessarily Degrade Accuracy in Extracting Information from Biomedical Text",
+        "authors": [
+            "Maurice HT Ling",
+            "Christophe Lefevre",
+            "Kevin R. Nicholas"
+        ],
+        "abstract": "  A recent study reported development of Muscorian, a generic text processing tool for extracting protein-protein interactions from text that achieved comparable performance to biomedical-specific text processing tools. This result was unexpected since potential errors from a series of text analysis processes is likely to adversely affect the outcome of the entire process. Most biomedical entity relationship extraction tools have used biomedical-specific parts-of-speech (POS) tagger as errors in POS tagging and are likely to affect subsequent semantic analysis of the text, such as shallow parsing. This study aims to evaluate the parts-of-speech (POS) tagging accuracy and attempts to explore whether a comparable performance is obtained when a generic POS tagger, MontyTagger, was used in place of MedPost, a tagger trained in biomedical text. Our results demonstrated that MontyTagger, Muscorian's POS tagger, has a POS tagging accuracy of 83.1% when tested on biomedical text. Replacing MontyTagger with MedPost did not result in a significant improvement in entity relationship extraction from text; precision of 55.6% from MontyTagger versus 56.8% from MedPost on directional relationships and 86.1% from MontyTagger compared to 81.8% from MedPost on nondirectional relationships. This is unexpected as the potential for poor POS tagging by MontyTagger is likely to affect the outcome of the information extraction. An analysis of POS tagging errors demonstrated that 78.5% of tagging errors are being compensated by shallow parsing. Thus, despite 83.1% tagging accuracy, MontyTagger has a functional tagging accuracy of 94.6%.\n    ",
+        "submission_date": "2008-04-02T00:00:00",
+        "last_modified_date": "2008-04-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.1033",
+        "title": "A Semi-Automatic Framework to Discover Epistemic Modalities in Scientific Articles",
+        "authors": [
+            "Sviatlana Danilava",
+            "Christoph Schommer"
+        ],
+        "abstract": "  Documents in scientific newspapers are often marked by attitudes and opinions of the author and/or other persons, who contribute with objective and subjective statements and arguments as well. In this respect, the attitude is often accomplished by a linguistic modality. As in languages like english, french and german, the modality is expressed by special verbs like can, must, may, etc. and the subjunctive mood, an occurrence of modalities often induces that these verbs take over the role of modality. This is not correct as it is proven that modality is the instrument of the whole sentence where both the adverbs, modal particles, punctuation marks, and the intonation of a sentence contribute. Often, a combination of all these instruments are necessary to express a modality. In this work, we concern with the finding of modal verbs in scientific texts as a pre-step towards the discovery of the attitude of an author. Whereas the input will be an arbitrary text, the output consists of zones representing modalities.\n    ",
+        "submission_date": "2008-04-07T00:00:00",
+        "last_modified_date": "2008-04-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.3269",
+        "title": "Phoneme recognition in TIMIT with BLSTM-CTC",
+        "authors": [
+            "Santiago Fern\u00e1ndez",
+            "Alex Graves",
+            "Juergen Schmidhuber"
+        ],
+        "abstract": "  We compare the performance of a recurrent neural network with the best results published so far on phoneme recognition in the TIMIT database. These published results have been obtained with a combination of classifiers. However, in this paper we apply a single recurrent neural network to the same task. Our recurrent neural network attains an error rate of 24.6%. This result is not significantly different from that obtained by the other best methods, but they rely on a combination of classifiers for achieving comparable performance.\n    ",
+        "submission_date": "2008-04-21T00:00:00",
+        "last_modified_date": "2008-04-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.4584",
+        "title": "Feature Unification in TAG Derivation Trees",
+        "authors": [
+            "Sylvain Schmitz",
+            "Joseph Le Roux"
+        ],
+        "abstract": "  The derivation trees of a tree adjoining grammar provide a first insight into the sentence semantics, and are thus prime targets for generation systems. We define a formalism, feature-based regular tree grammars, and a translation from feature based tree adjoining grammars into this new formalism. The translation preserves the derivation structures of the original grammar, and accounts for feature unification.\n    ",
+        "submission_date": "2008-04-29T00:00:00",
+        "last_modified_date": "2008-04-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.2303",
+        "title": "Graph Algorithms for Improving Type-Logical Proof Search",
+        "authors": [
+            "Richard Moot"
+        ],
+        "abstract": "  Proof nets are a graph theoretical representation of proofs in various fragments of type-logical grammar. In spite of this basis in graph theory, there has been relatively little attention to the use of graph theoretic algorithms for type-logical proof search. In this paper we will look at several ways in which standard graph theoretic algorithms can be used to restrict the search space. In particular, we will provide an O(n4) algorithm for selecting an optimal axiom link at any stage in the proof search as well as a O(kn3) algorithm for selecting the k best proof candidates.\n    ",
+        "submission_date": "2008-05-15T00:00:00",
+        "last_modified_date": "2008-05-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.2537",
+        "title": "A toolkit for a generative lexicon",
+        "authors": [
+            "Patrick Henry",
+            "Christian Bassac"
+        ],
+        "abstract": "  In this paper we describe the conception of a software toolkit designed for the construction, maintenance and collaborative use of a Generative Lexicon. In order to ease its portability and spreading use, this tool was built with free and open source products. We eventually tested the toolkit and showed it filters the adequate form of anaphoric reference to the modifier in endocentric compounds.\n    ",
+        "submission_date": "2008-05-16T00:00:00",
+        "last_modified_date": "2008-05-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.3366",
+        "title": "Computational Representation of Linguistic Structures using Domain-Specific Languages",
+        "authors": [
+            "Fabian Steeg",
+            "Christoph Benden",
+            "Paul O. Samuelsdorff"
+        ],
+        "abstract": "  We describe a modular system for generating sentences from formal definitions of underlying linguistic structures using domain-specific languages. The system uses Java in general, Prolog for lexical entries and custom domain-specific languages based on Functional Grammar and Functional Discourse Grammar notation, implemented using the ANTLR parser generator. We show how linguistic and technological parts can be brought together in a natural language processing system and how domain-specific languages can be used as a tool for consistent formal notation in linguistic description.\n    ",
+        "submission_date": "2008-05-21T00:00:00",
+        "last_modified_date": "2008-05-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.3410",
+        "title": "Exploring a type-theoretic approach to accessibility constraint modelling",
+        "authors": [
+            "Sylvain Pogodalla"
+        ],
+        "abstract": "  The type-theoretic modelling of DRT that [degroote06] proposed features continuations for the management of the context in which a clause has to be interpreted. This approach, while keeping the standard definitions of quantifier scope, translates the rules of the accessibility constraints of discourse referents inside the semantic recipes. In this paper, we deal with additional rules for these accessibility constraints. In particular in the case of discourse referents introduced by proper nouns, that negation does not block, and in the case of rhetorical relations that structure discourses. We show how this continuation-based approach applies to those accessibility constraints and how we can consider the parallel management of various principles.\n    ",
+        "submission_date": "2008-05-22T00:00:00",
+        "last_modified_date": "2008-05-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.4369",
+        "title": "A semantic space for modeling children's semantic memory",
+        "authors": [
+            "Guy Denhi\u00e8re",
+            "Beno\u00eet Lemaire",
+            "C\u00e9drick Bellissens",
+            "Sandra Jhean"
+        ],
+        "abstract": "  The goal of this paper is to present a model of children's semantic memory, which is based on a corpus reproducing the kinds of texts children are exposed to. After presenting the literature in the development of the semantic memory, a preliminary French corpus of 3.2 million words is described. Similarities in the resulting semantic space are compared to human data on four tests: association norms, vocabulary test, semantic judgments and memory tasks. A second corpus is described, which is composed of subcorpora corresponding to various ages. This stratified corpus is intended as a basis for developmental studies. Finally, two applications of these models of semantic memory are presented: the first one aims at tracing the development of semantic similarities paragraph by paragraph; the second one describes an implementation of a model of text comprehension derived from the Construction-integration model (Kintsch, 1988, 1998) and based on such models of semantic memory.\n    ",
+        "submission_date": "2008-05-28T00:00:00",
+        "last_modified_date": "2008-05-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.4521",
+        "title": "Textual Entailment Recognizing by Theorem Proving Approach",
+        "authors": [
+            "Doina Tatar",
+            "Militon Frentiu"
+        ],
+        "abstract": "  In this paper we present two original methods for recognizing textual inference. First one is a modified resolution method such that some linguistic considerations are introduced in the unification of two atoms. The approach is possible due to the recent methods of transforming texts in logic formulas. Second one is based on semantic relations in text, as presented in WordNet. Some similarities between these two methods are remarked.\n    ",
+        "submission_date": "2008-05-29T00:00:00",
+        "last_modified_date": "2008-05-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.2581",
+        "title": "A chain dictionary method for Word Sense Disambiguation and applications",
+        "authors": [
+            "Doina Tatar",
+            "Gabriela Serban",
+            "Andreea Mihis",
+            "Mihaiela Lupea",
+            "Dana Lupsa",
+            "Militon Frentiu"
+        ],
+        "abstract": "  A large class of unsupervised algorithms for Word Sense Disambiguation (WSD) is that of dictionary-based methods. Various algorithms have as the root Lesk's algorithm, which exploits the sense definitions in the dictionary directly. Our approach uses the lexical base WordNet for a new algorithm originated in Lesk's, namely \"chain algorithm for disambiguation of all words\", CHAD. We show how translation from a language into another one and also text entailment verification could be accomplished by this disambiguation.\n    ",
+        "submission_date": "2008-06-16T00:00:00",
+        "last_modified_date": "2008-06-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3710",
+        "title": "How Is Meaning Grounded in Dictionary Definitions?",
+        "authors": [
+            "A. Blondin Masse",
+            "G. Chicoisne",
+            "Y. Gargouri",
+            "S. Harnad",
+            "O. Picard",
+            "O. Marcotte"
+        ],
+        "abstract": "  Meaning cannot be based on dictionary definitions all the way down: at some point the circularity of definitions must be broken in some way, by grounding the meanings of certain words in sensorimotor categories learned from experience or shaped by evolution. This is the \"symbol grounding problem.\" We introduce the concept of a reachable set -- a larger vocabulary whose meanings can be learned from a smaller vocabulary through definition alone, as long as the meanings of the smaller vocabulary are themselves already grounded. We provide simple algorithms to compute reachable sets for any given dictionary.\n    ",
+        "submission_date": "2008-06-23T00:00:00",
+        "last_modified_date": "2008-07-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3787",
+        "title": "Computational Approaches to Measuring the Similarity of Short Contexts : A Review of Applications and Methods",
+        "authors": [
+            "Ted Pedersen"
+        ],
+        "abstract": "Measuring the similarity of short written contexts is a fundamental problem in Natural Language Processing. This article provides a unifying framework by which short context problems can be categorized both by their intended application and proposed solution. The goal is to show that various problems and methodologies that appear quite different on the surface are in fact very closely related. The axes by which these categorizations are made include the format of the contexts (headed versus headless), the way in which the contexts are to be measured (first-order versus second-order similarity), and the information used to represent the features in the contexts (micro versus macro views). The unifying thread that binds together many short context applications and methods is the fact that similarity decisions must be made between contexts that share few (if any) words in common.\n    ",
+        "submission_date": "2008-06-23T00:00:00",
+        "last_modified_date": "2010-10-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.0311",
+        "title": "About the creation of a parallel bilingual corpora of web-publications",
+        "authors": [
+            "D.V. Lande",
+            "V.V. Zhygalo"
+        ],
+        "abstract": "  The algorithm of the creation texts parallel corpora was presented. The algorithm is based on the use of \"key words\" in text documents, and on the means of their automated translation. Key words were singled out by means of using Russian and Ukrainian morphological dictionaries, as well as dictionaries of the translation of nouns for the Russian and Ukrainianlanguages. Besides, to calculate the weights of the terms in the documents, empiric-statistic rules were used. The algorithm under consideration was realized in the form of a program complex, integrated into the content-monitoring InfoStream system. As a result, a parallel bilingual corpora of web-publications containing about 30 thousand documents, was created\n    ",
+        "submission_date": "2008-07-02T00:00:00",
+        "last_modified_date": "2008-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.3622",
+        "title": "TuLiPA: Towards a Multi-Formalism Parsing Environment for Grammar Engineering",
+        "authors": [
+            "Laura Kallmeyer",
+            "Timm Lichte",
+            "Wolfgang Maier",
+            "Yannick Parmentier",
+            "Johannes Dellert",
+            "Kilian Evang"
+        ],
+        "abstract": "  In this paper, we present an open-source parsing environment (Tuebingen Linguistic Parsing Architecture, TuLiPA) which uses Range Concatenation Grammar (RCG) as a pivot formalism, thus opening the way to the parsing of several mildly context-sensitive formalisms. This environment currently supports tree-based grammars (namely Tree-Adjoining Grammars, TAG) and Multi-Component Tree-Adjoining Grammars with Tree Tuples (TT-MCTAG)) and allows computation not only of syntactic structures, but also of the corresponding semantic representations. It is used for the development of a tree-based grammar for German.\n    ",
+        "submission_date": "2008-07-23T00:00:00",
+        "last_modified_date": "2008-07-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.3845",
+        "title": "Formal semantics of language and the Richard-Berry paradox",
+        "authors": [
+            "Stefano Crespi Reghizzi"
+        ],
+        "abstract": "  The classical logical antinomy known as Richard-Berry paradox is combined with plausible assumptions about the size i.e. the descriptional complexity of Turing machines formalizing certain sentences, to show that formalization of language leads to contradiction.\n    ",
+        "submission_date": "2008-07-24T00:00:00",
+        "last_modified_date": "2008-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.2904",
+        "title": "Investigation of the Zipf-plot of the extinct Meroitic language",
+        "authors": [
+            "Reginald D. Smith"
+        ],
+        "abstract": "  The ancient and extinct language Meroitic is investigated using Zipf's Law. In particular, since Meroitic is still undeciphered, the Zipf law analysis allows us to assess the quality of current texts and possible avenues for future investigation using statistical techniques.\n    ",
+        "submission_date": "2008-08-21T00:00:00",
+        "last_modified_date": "2008-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.3563",
+        "title": "What It Feels Like To Hear Voices: Fond Memories of Julian Jaynes",
+        "authors": [
+            "Stevan Harnad"
+        ],
+        "abstract": "  Julian Jaynes's profound humanitarian convictions not only prevented him from going to war, but would have prevented him from ever kicking a dog. Yet according to his theory, not only are language-less dogs unconscious, but so too were the speaking/hearing Greeks in the Bicameral Era, when they heard gods' voices telling them what to do rather than thinking for themselves. I argue that to be conscious is to be able to feel, and that all mammals (and probably lower vertebrates and invertebrates too) feel, hence are conscious. Julian Jaynes's brilliant analysis of our concepts of consciousness nevertheless keeps inspiring ever more inquiry and insights into the age-old mind/body problem and its relation to cognition and language.\n    ",
+        "submission_date": "2008-08-26T00:00:00",
+        "last_modified_date": "2008-08-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.3616",
+        "title": "Constructing word similarities in Meroitic as an aid to decipherment",
+        "authors": [
+            "Reginald D. Smith"
+        ],
+        "abstract": "  Meroitic is the still undeciphered language of the ancient civilization of Kush. Over the years, various techniques for decipherment such as finding a bilingual text or cognates from modern or other ancient languages in the Sudan and surrounding areas has not been successful. Using techniques borrowed from information theory and natural language statistics, similar words are paired and attempts are made to use currently defined words to extract at least partial meaning from unknown words.\n    ",
+        "submission_date": "2008-08-27T00:00:00",
+        "last_modified_date": "2009-03-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.3889",
+        "title": "Open architecture for multilingual parallel texts",
+        "authors": [
+            "M.T. Carrasco Benitez"
+        ],
+        "abstract": "  Multilingual parallel texts (abbreviated to parallel texts) are linguistic versions of the same content (\"translations\"); e.g., the Maastricht Treaty in English and Spanish are parallel texts. This document is about creating an open architecture for the whole Authoring, Translation and Publishing Chain (ATP-chain) for the processing of parallel texts.\n    ",
+        "submission_date": "2008-08-28T00:00:00",
+        "last_modified_date": "2008-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.0103",
+        "title": "On the nature of long-range letter correlations in texts",
+        "authors": [
+            "Dmitrii Y. Manin"
+        ],
+        "abstract": "  The origin of long-range letter correlations in natural texts is studied using random walk analysis and Jensen-Shannon divergence. It is concluded that they result from slow variations in letter frequency distribution, which are a consequence of slow variations in lexical composition within the text. These correlations are preserved by random letter shuffling within a moving window. As such, they do reflect structural properties of the text, but in a very indirect manner.\n    ",
+        "submission_date": "2008-08-31T00:00:00",
+        "last_modified_date": "2008-08-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.0124",
+        "title": "A Uniform Approach to Analogies, Synonyms, Antonyms, and Associations",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  Recognizing analogies, synonyms, antonyms, and associations appear to be four distinct tasks, requiring distinct NLP algorithms. In the past, the four tasks have been treated independently, using a wide variety of algorithms. These four semantic classes, however, are a tiny sample of the full range of semantic phenomena, and we cannot afford to create ad hoc algorithms for each semantic phenomenon; we need to seek a unified approach. We propose to subsume a broad range of phenomena under analogies. To limit the scope of this paper, we restrict our attention to the subsumption of synonyms, antonyms, and associations. We introduce a supervised corpus-based machine learning algorithm for classifying analogous word pairs, and we show that it can solve multiple-choice SAT analogy questions, TOEFL synonym questions, ESL synonym-antonym questions, and similar-associated-both questions from cognitive psychology.\n    ",
+        "submission_date": "2008-08-31T00:00:00",
+        "last_modified_date": "2008-08-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.3250",
+        "title": "Using descriptive mark-up to formalize translation quality assessment",
+        "authors": [
+            "Andrey Kutuzov"
+        ],
+        "abstract": "  The paper deals with using descriptive mark-up to emphasize translation mistakes. The author postulates the necessity to develop a standard and formal XML-based way of describing translation mistakes. It is considered to be important for achieving impersonal translation quality assessment. Marked-up translations can be used in corpus translation studies; moreover, automatic translation assessment based on marked-up mistakes is possible. The paper concludes with setting up guidelines for further activity within the described field.\n    ",
+        "submission_date": "2008-09-18T00:00:00",
+        "last_modified_date": "2008-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.0200",
+        "title": "Distribution of complexities in the Vai script",
+        "authors": [
+            "Andrij Rovenchak",
+            "J\u00e1n Ma\u010dutek",
+            "Charles Riley"
+        ],
+        "abstract": "  In the paper, we analyze the distribution of complexities in the Vai script, an indigenous syllabic writing system from Liberia. It is found that the uniformity hypothesis for complexities fails for this script. The models using Poisson distribution for the number of components and hyper-Poisson distribution for connections provide good fits in the case of the Vai script.\n    ",
+        "submission_date": "2008-10-01T00:00:00",
+        "last_modified_date": "2008-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.1199",
+        "title": "Une grammaire formelle du cr\u00e9ole martiniquais pour la g\u00e9n\u00e9ration automatique",
+        "authors": [
+            "Pascal Vaillant"
+        ],
+        "abstract": "  In this article, some first elements of a computational modelling of the grammar of the Martiniquese French Creole dialect are presented. The sources of inspiration for the modelling is the functional description given by Damoiseau (1984), and Pinalie's & Bernabe's (1999) grammar manual. Based on earlier works in text generation (Vaillant, 1997), a unification grammar formalism, namely Tree Adjoining Grammars (TAG), and a modelling of lexical functional categories based on syntactic and semantic properties, are used to implement a grammar of Martiniquese Creole which is used in a prototype of text generation system. One of the main applications of the system could be its use as a tool software supporting the task of learning Creole as a second language. -- Nous pr\u00e9senterons dans cette communication les premiers travaux de mod\u00e9lisation informatique d'une grammaire de la langue cr\u00e9ole martiniquaise, en nous inspirant des descriptions fonctionnelles de Damoiseau (1984) ainsi que du manuel de Pinalie & Bernab\u00e9 (1999). Prenant appui sur des travaux ant\u00e9rieurs en g\u00e9n\u00e9ration de texte (Vaillant, 1997), nous utilisons un formalisme de grammaires d'unification, les grammaires d'adjonction d'arbres (TAG d'apr\u00e8s l'acronyme anglais), ainsi qu'une mod\u00e9lisation de cat\u00e9gories lexicales fonctionnelles \u00e0 base syntaxico-s\u00e9mantique, pour mettre en oeuvre une grammaire du cr\u00e9ole martiniquais utilisable dans une maquette de syst\u00e8me de g\u00e9n\u00e9ration automatique. L'un des int\u00e9r\u00eats principaux de ce syst\u00e8me pourrait \u00eatre son utilisation comme logiciel outil pour l'aide \u00e0 l'apprentissage du cr\u00e9ole en tant que langue seconde.\n    ",
+        "submission_date": "2008-10-07T00:00:00",
+        "last_modified_date": "2008-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.1207",
+        "title": "A Layered Grammar Model: Using Tree-Adjoining Grammars to Build a Common Syntactic Kernel for Related Dialects",
+        "authors": [
+            "Pascal Vaillant"
+        ],
+        "abstract": "  This article describes the design of a common syntactic description for the core grammar of a group of related dialects. The common description does not rely on an abstract sub-linguistic structure like a metagrammar: it consists in a single FS-LTAG where the actual specific language is included as one of the attributes in the set of attribute types defined for the features. When the lang attribute is instantiated, the selected subset of the grammar is equivalent to the grammar of one dialect. When it is not, we have a model of a hybrid multidialectal linguistic system. This principle is used for a group of creole languages of the West-Atlantic area, namely the French-based Creoles of Haiti, Guadeloupe, Martinique and French Guiana.\n    ",
+        "submission_date": "2008-10-07T00:00:00",
+        "last_modified_date": "2008-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.1212",
+        "title": "Analyse spectrale des textes: d\u00e9tection automatique des fronti\u00e8res de langue et de discours",
+        "authors": [
+            "Pascal Vaillant",
+            "Richard Nock",
+            "Claudia Henry"
+        ],
+        "abstract": "  We propose a theoretical framework within which information on the vocabulary of a given corpus can be inferred on the basis of statistical information gathered on that corpus. Inferences can be made on the categories of the words in the vocabulary, and on their syntactical properties within particular languages. Based on the same statistical data, it is possible to build matrices of syntagmatic similarity (bigram transition matrices) or paradigmatic similarity (probability for any pair of words to share common contexts). When clustered with respect to their syntagmatic similarity, words tend to group into sublanguage vocabularies, and when clustered with respect to their paradigmatic similarity, into syntactic or semantic classes. Experiments have explored the first of these two possibilities. Their results are interpreted in the frame of a Markov chain modelling of the corpus' generative processe(s): we show that the results of a spectral analysis of the transition matrix can be interpreted as probability distributions of words within clusters. This method yields a soft clustering of the vocabulary into sublanguages which contribute to the generation of heterogeneous corpora. As an application, we show how multilingual texts can be visually segmented into linguistically homogeneous segments. Our method is specifically useful in the case of related languages which happened to be mixed in corpora.\n    ",
+        "submission_date": "2008-10-07T00:00:00",
+        "last_modified_date": "2008-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.1261",
+        "title": "Soft Uncoupling of Markov Chains for Permeable Language Distinction: A New Algorithm",
+        "authors": [
+            "Richard Nock",
+            "Pascal Vaillant",
+            "Frank Nielsen",
+            "Claudia Henry"
+        ],
+        "abstract": "  Without prior knowledge, distinguishing different languages may be a hard task, especially when their borders are permeable. We develop an extension of spectral clustering -- a powerful unsupervised classification toolbox -- that is shown to resolve accurately the task of soft language distinction. At the heart of our approach, we replace the usual hard membership assignment of spectral clustering by a soft, probabilistic assignment, which also presents the advantage to bypass a well-known complexity bottleneck of the method. Furthermore, our approach relies on a novel, convenient construction of a Markov chain out of a corpus. Extensive experiments with a readily available system clearly display the potential of the method, which brings a visually appealing soft distinction of languages that may define altogether a whole corpus.\n    ",
+        "submission_date": "2008-10-07T00:00:00",
+        "last_modified_date": "2008-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3416",
+        "title": "Text as Statistical Mechanics Object",
+        "authors": [
+            "K.Koroutchev",
+            "E.Korutcheva"
+        ],
+        "abstract": "  In this article we present a model of human written text based on statistical mechanics approach by deriving the potential energy for different parts of the text using large text corpus. We have checked the results numerically and found that the specific heat parameter effectively separates the closed class words from the specific terms used in the text.\n    ",
+        "submission_date": "2008-10-19T00:00:00",
+        "last_modified_date": "2008-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3442",
+        "title": "Language structure in the n-object naming game",
+        "authors": [
+            "Adam Lipowski",
+            "Dorota Lipowska"
+        ],
+        "abstract": "  We examine a naming game with two agents trying to establish a common vocabulary for n objects. Such efforts lead to the emergence of language that allows for an efficient communication and exhibits some degree of homonymy and synonymy. Although homonymy reduces the communication efficiency, it seems to be a dynamical trap that persists for a long, and perhaps indefinite, time. On the other hand, synonymy does not reduce the efficiency of communication, but appears to be only a transient feature of the language. Thus, in our model the role of synonymy decreases and in the long-time limit it becomes negligible. A similar rareness of synonymy is observed in present natural languages. The role of noise, that distorts the communicated words, is also examined. Although, in general, the noise reduces the communication efficiency, it also regroups the words so that they are more evenly distributed within the available \"verbal\" space.\n    ",
+        "submission_date": "2008-10-19T00:00:00",
+        "last_modified_date": "2009-11-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.4616",
+        "title": "Assembling Actor-based Mind-Maps from Text Stream",
+        "authors": [
+            "Claudine Brucks",
+            "Christoph Schommer"
+        ],
+        "abstract": "  For human beings, the processing of text streams of unknown size leads generally to problems because e.g. noise must be selected out, information be tested for its relevance or redundancy, and linguistic phenomenon like ambiguity or the resolution of pronouns be advanced. Putting this into simulation by using an artificial mind-map is a challenge, which offers the gate for a wide field of applications like automatic text summarization or punctual retrieval. In this work we present a framework that is a first step towards an automatic intellect. It aims at assembling a mind-map based on incoming text streams and on a subject-verb-object strategy, having the verb as an interconnection between the adjacent nouns. The mind-map's performance is enriched by a pronoun resolution engine that bases on the work of D. Klein, and C. D. Manning.\n    ",
+        "submission_date": "2008-10-25T00:00:00",
+        "last_modified_date": "2008-10-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.0453",
+        "title": "CoZo+ - A Content Zoning Engine for textual documents",
+        "authors": [
+            "Cynthia Wagner",
+            "Christoph Schommer"
+        ],
+        "abstract": "  Content zoning can be understood as a segmentation of textual documents into zones. This is inspired by [6] who initially proposed an approach for the argumentative zoning of textual documents. With the prototypical CoZo+ engine, we focus on content zoning towards an automatic processing of textual streams while considering only the actors as the zones. We gain information that can be used to realize an automatic recognition of content for pre-defined actors. We understand CoZo+ as a necessary pre-step towards an automatic generation of summaries and to make intellectual ownership of documents detectable.\n    ",
+        "submission_date": "2008-11-04T00:00:00",
+        "last_modified_date": "2008-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.0579",
+        "title": "UNL-French deconversion as transfer & generation from an interlingua with possible quality enhancement through offline human interaction",
+        "authors": [
+            "Gilles s\u00e9rasset",
+            "Christian Boitet"
+        ],
+        "abstract": "  We present the architecture of the UNL-French deconverter, which \"generates\" from the UNL interlingua by first\"localizing\" the UNL form for French, within UNL, and then applying slightly adapted but classical transfer and generation techniques, implemented in GETA's Ariane-G5 environment, supplemented by some UNL-specific tools. Online interaction can be used during deconversion to enhance output quality and is now used for development purposes. We show how interaction could be delayed and embedded in the postedition phase, which would then interact not directly with the output text, but indirectly with several components of the deconverter. Interacting online or offline can improve the quality not only of the utterance at hand, but also of the utterances processed later, as various preferences may be automatically changed to let the deconverter \"learn\".\n    ",
+        "submission_date": "2008-11-04T00:00:00",
+        "last_modified_date": "2008-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.1260",
+        "title": "The Application of Fuzzy Logic to Collocation Extraction",
+        "authors": [
+            "Raj Kishor Bisht",
+            "H.S.Dhami"
+        ],
+        "abstract": "  Collocations are important for many tasks of Natural language processing such as information retrieval, machine translation, computational lexicography etc. So far many statistical methods have been used for collocation extraction. Almost all the methods form a classical crisp set of collocation. We propose a fuzzy logic approach of collocation extraction to form a fuzzy set of collocations in which each word combination has a certain grade of membership for being collocation. Fuzzy logic provides an easy way to express natural language into fuzzy logic rules. Two existing methods; Mutual information and t-test have been utilized for the input of the fuzzy inference system. The resulting membership function could be easily seen and demonstrated. To show the utility of the fuzzy logic some word pairs have been examined as an example. The working data has been based on a corpus of about one million words contained in different novels constituting project Gutenberg available on ",
+        "submission_date": "2008-11-08T00:00:00",
+        "last_modified_date": "2008-11-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.3070",
+        "title": "A Computational Model to Disentangle Semantic Information Embedded in Word Association Norms",
+        "authors": [
+            "J. Borge",
+            "A. Arenas"
+        ],
+        "abstract": "  Two well-known databases of semantic relationships between pairs of words used in psycholinguistics, feature-based and association-based, are studied as complex networks. We propose an algorithm to disentangle feature based relationships from free association semantic networks. The algorithm uses the rich topology of the free association semantic network to produce a new set of relationships between words similar to those observed in feature production norms.\n    ",
+        "submission_date": "2008-12-16T00:00:00",
+        "last_modified_date": "2008-12-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.4446",
+        "title": "The Latent Relation Mapping Engine: Algorithm and Experiments",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  Many AI researchers and cognitive scientists have argued that analogy is the core of cognition. The most influential work on computational modeling of analogy-making is Structure Mapping Theory (SMT) and its implementation in the Structure Mapping Engine (SME). A limitation of SME is the requirement for complex hand-coded representations. We introduce the Latent Relation Mapping Engine (LRME), which combines ideas from SME and Latent Relational Analysis (LRA) in order to remove the requirement for hand-coded representations. LRME builds analogical mappings between lists of words, using a large corpus of raw text to automatically discover the semantic relations among the words. We evaluate LRME on a set of twenty analogical mapping problems, ten based on scientific analogies and ten based on common metaphors. LRME achieves human-level performance on the twenty problems. We compare LRME with a variety of alternative approaches and find that they are not able to reach the same level of performance.\n    ",
+        "submission_date": "2008-12-23T00:00:00",
+        "last_modified_date": "2008-12-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.0253",
+        "title": "Toward a statistical mechanics of four letter words",
+        "authors": [
+            "Greg J. Stephens",
+            "William Bialek"
+        ],
+        "abstract": "  We consider words as a network of interacting letters, and approximate the probability distribution of states taken on by this network. Despite the intuition that the rules of English spelling are highly combinatorial (and arbitrary), we find that maximum entropy models consistent with pairwise correlations among letters provide a surprisingly good approximation to the full statistics of four letter words, capturing ~92% of the multi-information among letters and even \"discovering\" real words that were not represented in the data from which the pairwise correlations were estimated. The maximum entropy model defines an energy landscape on the space of possible words, and local minima in this landscape account for nearly two-thirds of words used in written English.\n    ",
+        "submission_date": "2007-12-31T00:00:00",
+        "last_modified_date": "2007-12-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.1179",
+        "title": "Corpus sp{\u00e9}cialis{\u00e9} et ressource de sp{\u00e9}cialit{\u00e9}",
+        "authors": [
+            "Bernard Jacquemin",
+            "Sabine Ploux"
+        ],
+        "abstract": "\"Semantic Atlas\" is a mathematic and statistic model to visualise word senses according to relations between words. The model, that has been applied to proximity relations from a corpus, has shown its ability to distinguish word senses as the corpus' contributors comprehend them. We propose to use the model and a specialised corpus in order to create automatically a specialised dictionary relative to the corpus' domain. A morpho-syntactic analysis performed on the corpus makes it possible to create the dictionary from syntactic relations between lexical units. The semantic resource can be used to navigate semantically - and not only lexically - through the corpus, to create classical dictionaries or for diachronic studies of the language.\n    ",
+        "submission_date": "2008-01-08T00:00:00",
+        "last_modified_date": "2015-06-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.1658",
+        "title": "Computational approach to the emergence and evolution of language - evolutionary naming game model",
+        "authors": [
+            "Adam Lipowski",
+            "Dorota Lipowska"
+        ],
+        "abstract": "  Computational modelling with multi-agent systems is becoming an important technique of studying language evolution. We present a brief introduction into this rapidly developing field, as well as our own contributions that include an analysis of the evolutionary naming-game model. In this model communicating agents, that try to establish a common vocabulary, are equipped with an evolutionarily selected learning ability. Such a coupling of biological and linguistic ingredients results in an abrupt transition: upon a small change of the model control parameter a poorly communicating group of linguistically unskilled agents transforms into almost perfectly communicating group with large learning abilities. Genetic imprinting of the learning abilities proceeds via Baldwin effect: initially unskilled communicating agents learn a language and that creates a niche in which there is an evolutionary pressure for the increase of learning ability. Under the assumption that communication intensity increases continuously with finite speed, the transition is split into several transition-like changes. It shows that the speed of cultural changes, that sets an additional characteristic timescale, might be yet another factor affecting the evolution of language. In our opinion, this model shows that linguistic and biological processes have a strong influence on each other and this effect certainly has contributed to an explosive development of our species.\n    ",
+        "submission_date": "2008-01-10T00:00:00",
+        "last_modified_date": "2010-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.4112",
+        "title": "Hubs in Languages: Scale Free Networks of Synonyms",
+        "authors": [
+            "Hanna E. Makaruk",
+            "Robert Owczarek"
+        ],
+        "abstract": "  Natural languages are described in this paper in terms of networks of synonyms: a word is identified with a node, and synonyms are connected by undirected links. Our statistical analysis of the network of synonyms in Polish language showed it is scale-free; similar to what is known for English. The statistical properties of the networks are also similar. Thus, the statistical aspects of the networks are good candidates for culture independent elements of human language. We hypothesize that optimization for robustness and efficiency is responsible for this universality. Despite the statistical similarity, there is no one-to-one mapping between networks of these two languages. Although many hubs in Polish are translated into similarly highly connected hubs in English, there are also hubs specific to one of these languages only: a single word in one language is equivalent to many different and disconnected words in the other, in accordance with the Whorf hypothesis about language relativity. Identifying language-specific hubs is vitally important for automatic translation, and for understanding contextual, culturally related messages that are frequently missed or twisted in a naive, literary translation.\n    ",
+        "submission_date": "2008-02-28T00:00:00",
+        "last_modified_date": "2008-02-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.4215",
+        "title": "Equilibrium (Zipf) and Dynamic (Grasseberg-Procaccia) method based analyses of human texts. A comparison of natural (english) and artificial (esperanto) languages",
+        "authors": [
+            "M. Ausloos"
+        ],
+        "abstract": "  A comparison of two english texts from Lewis Carroll, one (Alice in wonderland), also translated into esperanto, the other (Through a looking glass) are discussed in order to observe whether natural and artificial languages significantly differ from each other. One dimensional time series like signals are constructed using only word frequencies (FTS) or word lengths (LTS). The data is studied through (i) a Zipf method for sorting out correlations in the FTS and (ii) a Grassberger-Procaccia (GP) technique based method for finding correlations in LTS. Features are compared : different power laws are observed with characteristic exponents for the ranking properties, and the {\\it phase space attractor dimensionality}. The Zipf exponent can take values much less than unity ($ca.$ 0.50 or 0.30) depending on how a sentence is defined. This non-universality is conjectured to be a measure of the author $style$. Moreover the attractor dimension $r$ is a simple function of the so called phase space dimension $n$, i.e., $r = n^{\\lambda}$, with $\\lambda = 0.79$. Such an exponent should also conjecture to be a measure of the author $creativity$. However, even though there are quantitative differences between the original english text and its esperanto translation, the qualitative differences are very minutes, indicating in this case a translation relatively well respecting, along our analysis lines, the content of the author writing.\n    ",
+        "submission_date": "2008-02-28T00:00:00",
+        "last_modified_date": "2008-02-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.2354",
+        "title": "Information filtering based on wiki index database",
+        "authors": [
+            "A. V. Smirnov",
+            "A. A. Krizhanovsky"
+        ],
+        "abstract": "  In this paper we present a profile-based approach to information filtering by an analysis of the content of text documents. The Wikipedia index database is created and used to automatically generate the user profile from the user document collection. The problem-oriented Wikipedia subcorpora are created (using knowledge extracted from the user profile) for each topic of user interests. The index databases of these subcorpora are applied to filtering information flow (e.g., mails, news). Thus, the analyzed texts are classified into several topics explicitly presented in the user profile. The paper concentrates on the indexing part of the approach. The architecture of an application implementing the Wikipedia indexing is described. The indexing method is evaluated using the Russian and Simple English Wikipedia.\n    ",
+        "submission_date": "2008-04-15T00:00:00",
+        "last_modified_date": "2008-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.3599",
+        "title": "Respect My Authority! HITS Without Hyperlinks, Utilizing Cluster-Based Language Models",
+        "authors": [
+            "Oren Kurland",
+            "Lillian Lee"
+        ],
+        "abstract": "  We present an approach to improving the precision of an initial document ranking wherein we utilize cluster information within a graph-based framework. The main idea is to perform re-ranking based on centrality within bipartite graphs of documents (on one side) and clusters (on the other side), on the premise that these are mutually reinforcing entities. Links between entities are created via consideration of language models induced from them.\n",
+        "submission_date": "2008-04-22T00:00:00",
+        "last_modified_date": "2008-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.1030",
+        "title": "Decomposition Techniques for Subgraph Matching",
+        "authors": [
+            "Stephane Zampelli",
+            "Martin Mann",
+            "Yves Deville",
+            "Rolf Backofen"
+        ],
+        "abstract": "  In the constraint programming framework, state-of-the-art static and dynamic decomposition techniques are hard to apply to problems with complete initial constraint graphs. For such problems, we propose a hybrid approach of these techniques in the presence of global constraints. In particular, we solve the subgraph isomorphism problem. Further we design specific heuristics for this hard problem, exploiting its special structure to achieve decomposition. The underlying idea is to precompute a static heuristic on a subset of its constraint network, to follow this static ordering until a first problem decomposition is available, and to switch afterwards to a fully propagated, dynamically decomposing search. Experimental results show that, for sparse graphs, our decomposition method solves more instances than dedicated, state-of-the-art matching algorithms or standard constraint programming approaches.\n    ",
+        "submission_date": "2008-05-07T00:00:00",
+        "last_modified_date": "2008-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.4101",
+        "title": "Goal-oriented Dialog as a Collaborative Subordinated Activity involving Collective Acceptance",
+        "authors": [
+            "Sylvie Saget",
+            "Marc Guyomard"
+        ],
+        "abstract": "  Modeling dialog as a collaborative activity consists notably in specifying the content of the Conversational Common Ground and the kind of social mental state involved. In previous work (Saget, 2006), we claim that Collective Acceptance is the proper social attitude for modeling Conversational Common Ground in the particular case of goal-oriented dialog. In this paper, a formalization of Collective Acceptance is shown, besides elements in order to integrate this attitude in a rational model of dialog are provided; and finally, a model of referential acts as being part of a collaborative activity is presented. The particular case of reference has been chosen in order to exemplify our claims.\n    ",
+        "submission_date": "2008-05-27T00:00:00",
+        "last_modified_date": "2008-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.4722",
+        "title": "La fiabilit\u00e9 des informations sur le web",
+        "authors": [
+            "Bernard Jacquemin",
+            "Aur\u00e9lien Lauf",
+            "C\u00e9line Poudat",
+            "Martine Hurault-Plantet",
+            "Nicolas Auray"
+        ],
+        "abstract": "  Online IR tools have to take into account new phenomena linked to the appearance of blogs, wiki and other collaborative publications. Among these collaborative sites, Wikipedia represents a crucial source of information. However, the quality of this information has been recently questionned. A better knowledge of the contributors' behaviors should help users navigate through information whose quality may vary from one source to another. In order to explore this idea, we present an analysis of the role of different types of contributors in the control of the publication of conflictual articles.\n    ",
+        "submission_date": "2008-05-30T00:00:00",
+        "last_modified_date": "2008-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.4754",
+        "title": "Managing conflicts between users in Wikipedia",
+        "authors": [
+            "Bernard Jacquemin",
+            "Aur\u00e9lien Lauf",
+            "C\u00e9line Poudat",
+            "Martine Hurault-Plantet",
+            "Nicolas Auray"
+        ],
+        "abstract": "  Wikipedia is nowadays a widely used encyclopedia, and one of the most visible sites on the Internet. Its strong principle of collaborative work and free editing sometimes generates disputes due to disagreements between users. In this article we study how the wikipedian community resolves the conflicts and which roles do wikipedian choose in this process. We observed the users behavior both in the article talk pages, and in the Arbitration Committee pages specifically dedicated to serious disputes. We first set up a users typology according to their involvement in conflicts and their publishing and management activity in the encyclopedia. We then used those user types to describe users behavior in contributing to articles that are tagged by the wikipedian community as being in conflict with the official guidelines of Wikipedia, or conversely as being well featured.\n    ",
+        "submission_date": "2008-05-30T00:00:00",
+        "last_modified_date": "2008-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.0565",
+        "title": "Music, Complexity, Information",
+        "authors": [
+            "Damian H. Zanette"
+        ],
+        "abstract": "  These are the preparatory notes for a Science & Music essay, \"Playing by numbers\", appeared in Nature 453 (2008) 988-989.\n    ",
+        "submission_date": "2008-07-03T00:00:00",
+        "last_modified_date": "2008-07-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.1560",
+        "title": "Scientific Paper Summarization Using Citation Summary Networks",
+        "authors": [
+            "Vahed Qazvinian",
+            "Dragomir R. Radev"
+        ],
+        "abstract": "  Quickly moving to a new area of research is painful for researchers due to the vast amount of scientific literature in each field of study. One possible way to overcome this problem is to summarize a scientific topic. In this paper, we propose a model of summarizing a single article, which can be further used to summarize an entire topic. Our model is based on analyzing others' viewpoint of the target article's contributions and the study of its citation summary network using a clustering approach.\n    ",
+        "submission_date": "2008-07-10T00:00:00",
+        "last_modified_date": "2008-07-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.0521",
+        "title": "Logics for the Relational Syllogistic",
+        "authors": [
+            "Ian Pratt-Hartmann",
+            "Lawrence S. Moss"
+        ],
+        "abstract": "  The Aristotelian syllogistic cannot account for the validity of many inferences involving relational facts. In this paper, we investigate the prospects for providing a relational syllogistic. We identify several fragments based on (a) whether negation is permitted on all nouns, including those in the subject of a sentence; and (b) whether the subject noun phrase may contain a relative clause. The logics we present are extensions of the classical syllogistic, and we pay special attention to the question of whether reductio ad absurdum is needed. Thus our main goal is to derive results on the existence (or non-existence) of syllogistic proof systems for relational fragments. We also determine the computational complexity of all our fragments.\n    ",
+        "submission_date": "2008-08-04T00:00:00",
+        "last_modified_date": "2008-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.1211",
+        "title": "Commonsense Knowledge, Ontology and Ordinary Language",
+        "authors": [
+            "Walid S. Saba"
+        ],
+        "abstract": "  Over two decades ago a \"quite revolution\" overwhelmingly replaced knowledgebased approaches in natural language processing (NLP) by quantitative (e.g., statistical, corpus-based, machine learning) methods. Although it is our firm belief that purely quantitative approaches cannot be the only paradigm for NLP, dissatisfaction with purely engineering approaches to the construction of large knowledge bases for NLP are somewhat justified. In this paper we hope to demonstrate that both trends are partly misguided and that the time has come to enrich logical semantics with an ontological structure that reflects our commonsense view of the world and the way we talk about in ordinary language. In this paper it will be demonstrated that assuming such an ontological structure a number of challenges in the semantics of natural language (e.g., metonymy, intensionality, copredication, nominal compounds, etc.) can be properly and uniformly addressed.\n    ",
+        "submission_date": "2008-08-08T00:00:00",
+        "last_modified_date": "2008-08-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.1753",
+        "title": "Index wiki database: design and experiments",
+        "authors": [
+            "A. A. Krizhanovsky"
+        ],
+        "abstract": "  With the fantastic growth of Internet usage, information search in documents of a special type called a \"wiki page\" that is written using a simple markup language, has become an important problem. This paper describes the software architectural model for indexing wiki texts in three languages (Russian, English, and German) and the interaction between the software components (GATE, Lemmatizer, and Synarcher). The inverted file index database was designed using visual tool DBDesigner. The rules for parsing Wikipedia texts are illustrated by examples. Two index databases of Russian Wikipedia (RW) and Simple English Wikipedia (SEW) are built and compared. The size of RW is by order of magnitude higher than SEW (number of words, lexemes), though the growth rate of number of pages in SEW was found to be 14% higher than in Russian, and the rate of acquisition of new words in SEW lexicon was 7% higher during a period of five months (from September 2007 to February 2008). The Zipf's law was tested with both Russian and Simple Wikipedias. The entire source code of the indexing software and the generated index databases are freely available under GPL (GNU General Public License).\n    ",
+        "submission_date": "2008-08-12T00:00:00",
+        "last_modified_date": "2008-09-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.3569",
+        "title": "Offloading Cognition onto Cognitive Technology",
+        "authors": [
+            "Itiel Dror",
+            "Stevan Harnad"
+        ],
+        "abstract": "  \"Cognizing\" (e.g., thinking, understanding, and knowing) is a mental state. Systems without mental states, such as cognitive technology, can sometimes contribute to human cognition, but that does not make them cognizers. Cognizers can offload some of their cognitive functions onto cognitive technology, thereby extending their performance capacity beyond the limits of their own brain power. Language itself is a form of cognitive technology that allows cognizers to offload some of their cognitive functions onto the brains of other cognizers. Language also extends cognizers' individual and joint performance powers, distributing the load through interactive and collaborative cognition. Reading, writing, print, telecommunications and computing further extend cognizers' capacities. And now the web, with its network of cognizers, digital databases and software agents, all accessible anytime, anywhere, has become our 'Cognitive Commons,' in which distributed cognizers and cognitive technology can interoperate globally with a speed, scope and degree of interactivity inconceivable through local individual cognition alone. And as with language, the cognitive tool par excellence, such technological changes are not merely instrumental and quantitative: they can have profound effects on how we think and encode information, on how we communicate with one another, on our mental states, and on our very nature.\n    ",
+        "submission_date": "2008-08-26T00:00:00",
+        "last_modified_date": "2008-09-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.4122",
+        "title": "Swapping Lemmas for Regular and Context-Free Languages",
+        "authors": [
+            "Tomoyuki Yamakami"
+        ],
+        "abstract": "  In formal language theory, one of the most fundamental tools, known as pumping lemmas, is extremely useful for regular and context-free languages. However, there are natural properties for which the pumping lemmas are of little use. One of such examples concerns a notion of advice, which depends only on the size of an underlying input. A standard pumping lemma encounters difficulty in proving that a given language is not regular in the presence of advice. We develop its substitution, called a swapping lemma for regular languages, to demonstrate the non-regularity of a target language with advice. For context-free languages, we also present a similar form of swapping lemma, which serves as a technical tool to show that certain languages are not context-free with advice.\n    ",
+        "submission_date": "2008-08-29T00:00:00",
+        "last_modified_date": "2009-03-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.0360",
+        "title": "The Complexity of Enriched Mu-Calculi",
+        "authors": [
+            "Piero A. Bonatti",
+            "Carsten Lutz",
+            "Aniello Murano",
+            "Moshe Y. Vardi"
+        ],
+        "abstract": "  The fully enriched &mu;-calculus is the extension of the propositional &mu;-calculus with inverse programs, graded modalities, and nominals. While satisfiability in several expressive fragments of the fully enriched &mu;-calculus is known to be decidable and ExpTime-complete, it has recently been proved that the full calculus is undecidable. In this paper, we study the fragments of the fully enriched &mu;-calculus that are obtained by dropping at least one of the additional constructs. We show that, in all fragments obtained in this way, satisfiability is decidable and ExpTime-complete. Thus, we identify a family of decidable logics that are maximal (and incomparable) in expressive power. Our results are obtained by introducing two new automata models, showing that their emptiness problems are ExpTime-complete, and then reducing satisfiability in the relevant logics to these problems. The automata models we introduce are two-way graded alternating parity automata over infinite trees (2GAPTs) and fully enriched automata (FEAs) over infinite forests. The former are a common generalization of two incomparable automata models from the literature. The latter extend alternating automata in a similar way as the fully enriched &mu;-calculus extends the standard &mu;-calculus.\n    ",
+        "submission_date": "2008-09-02T00:00:00",
+        "last_modified_date": "2008-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.4530",
+        "title": "Mining Meaning from Wikipedia",
+        "authors": [
+            "Olena Medelyan",
+            "David Milne",
+            "Catherine Legg",
+            "Ian H. Witten"
+        ],
+        "abstract": "  Wikipedia is a goldmine of information; not just for its many readers, but also for the growing community of researchers who recognize it as a resource of exceptional scale and utility. It represents a vast investment of manual effort and judgment: a huge, constantly evolving tapestry of concepts and relations that is being applied to a host of tasks.\n",
+        "submission_date": "2008-09-26T00:00:00",
+        "last_modified_date": "2009-05-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3125",
+        "title": "On the Vocabulary of Grammar-Based Codes and the Logical Consistency of Texts",
+        "authors": [
+            "\u0141ukasz D\u0119bowski"
+        ],
+        "abstract": "The article presents a new interpretation for Zipf-Mandelbrot's law in natural language which rests on two areas of information theory. Firstly, we construct a new class of grammar-based codes and, secondly, we investigate properties of strongly nonergodic stationary processes. The motivation for the joint discussion is to prove a proposition with a simple informal statement: If a text of length $n$ describes $n^\\beta$ independent facts in a repetitive way then the text contains at least $n^\\beta/\\log n$ different words, under suitable conditions on $n$. In the formal statement, two modeling postulates are adopted. Firstly, the words are understood as nonterminal symbols of the shortest grammar-based encoding of the text. Secondly, the text is assumed to be emitted by a finite-energy strongly nonergodic source whereas the facts are binary IID variables predictable in a shift-invariant way.\n    ",
+        "submission_date": "2008-10-17T00:00:00",
+        "last_modified_date": "2011-02-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.4952",
+        "title": "Computational modelling of evolution: ecosystems and language",
+        "authors": [
+            "Adam Lipowski",
+            "Dorota Lipowska"
+        ],
+        "abstract": "  Recently, computational modelling became a very important research tool that enables us to study problems that for decades evaded scientific analysis. Evolutionary systems are certainly examples of such problems: they are composed of many units that might reproduce, diffuse, mutate, die, or in some cases for example communicate. These processes might be of some adaptive value, they influence each other and occur on various time scales. That is why such systems are so difficult to study. In this paper we briefly review some computational approaches, as well as our contributions, to the evolution of ecosystems and language. We start from Lotka-Volterra equations and the modelling of simple two-species prey-predator systems. Such systems are canonical example for studying oscillatory behaviour in competitive populations. Then we describe various approaches to study long-term evolution of multi-species ecosystems. We emphasize the need to use models that take into account both ecological and evolutionary processes. Finally, we address the problem of the emergence and development of language. It is becoming more and more evident that any theory of language origin and development must be consistent with darwinian principles of evolution. Consequently, a number of techniques developed for modelling evolution of complex ecosystems are being applied to the problem of language. We briefly review some of these approaches.\n    ",
+        "submission_date": "2008-10-27T00:00:00",
+        "last_modified_date": "2008-10-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.4717",
+        "title": "Prospective Study for Semantic Inter-Media Fusion in Content-Based Medical Image Retrieval",
+        "authors": [
+            "Roxana Teodorescu",
+            "Daniel Racoceanu",
+            "Wee-Kheng Leow",
+            "Vladimir Cretu"
+        ],
+        "abstract": "  One important challenge in modern Content-Based Medical Image Retrieval (CBMIR) approaches is represented by the semantic gap, related to the complexity of the medical knowledge. Among the methods that are able to close this gap in CBMIR, the use of medical thesauri/ontologies has interesting perspectives due to the possibility of accessing on-line updated relevant webservices and to extract real-time medical semantic structured information. The CBMIR approach proposed in this paper uses the Unified Medical Language System's (UMLS) Metathesaurus to perform a semantic indexing and fusion of medical media. This fusion operates before the query processing (retrieval) and works at an UMLS-compliant conceptual indexing level. Our purpose is to study various techniques related to semantic data alignment, preprocessing, fusion, clustering and retrieval, by evaluating the various techniques and highlighting future research directions. The alignment and the preprocessing are based on partial text/image retrieval feedback and on the data structure. We analyze various probabilistic, fuzzy and evidence-based approaches for the fusion process and different similarity functions for the retrieval process. All the proposed methods are evaluated on the Cross Language Evaluation Forum's (CLEF) medical image retrieval benchmark, by focusing also on a more homogeneous component medical image database: the Pathology Education Instructional Resource (PEIR).\n    ",
+        "submission_date": "2008-11-28T00:00:00",
+        "last_modified_date": "2008-11-28T00:00:00"
+    }
+]

@@ -1,0 +1,330 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9801101",
+        "title": "Incremental Recompilation of Knowledge",
+        "authors": [
+            "G. Gogic",
+            "C. H. Papadimitriou",
+            "M. Sideri"
+        ],
+        "abstract": "  Approximating a general formula from above and below by Horn formulas (its Horn envelope and Horn core, respectively) was proposed by Selman and Kautz (1991, 1996) as a form of ``knowledge compilation,'' supporting rapid approximate reasoning; on the negative side, this scheme is static in that it supports no updates, and has certain complexity drawbacks pointed out by Kavvadias, Papadimitriou and Sideri (1993). On the other hand, the many frameworks and schemes proposed in the literature for theory update and revision are plagued by serious complexity-theoretic impediments, even in the Horn case, as was pointed out by Eiter and Gottlob (1992), and is further demonstrated in the present paper. More fundamentally, these schemes are not inductive, in that they may lose in a single update any positive properties of the represented sets of formulas (small size, Horn structure, etc.). In this paper we propose a new scheme, incremental recompilation, which combines Horn approximation and model-based updates; this scheme is inductive and very efficient, free of the problems facing its constituents. A set of formulas is represented by an upper and lower Horn approximation. To update, we replace the upper Horn formula by the Horn envelope of its minimum-change update, and similarly the lower one by the Horn core of its update; the key fact which enables this scheme is that Horn envelopes and cores are easy to compute when the underlying formula is the result of a minimum-change update of a Horn formula by a clause. We conjecture that efficient algorithms are possible for more complex updates.\n    ",
+        "submission_date": "1998-01-01T00:00:00",
+        "last_modified_date": "1998-01-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9801102",
+        "title": "Monotonicity and Persistence in Preferential Logics",
+        "authors": [
+            "J. Engelfriet"
+        ],
+        "abstract": "  An important characteristic of many logics for Artificial Intelligence is their nonmonotonicity. This means that adding a formula to the premises can invalidate some of the consequences. There may, however, exist formulae that can always be safely added to the premises without destroying any of the consequences: we say they respect monotonicity. Also, there may be formulae that, when they are a consequence, can not be invalidated when adding any formula to the premises: we call them conservative. We study these two classes of formulae for preferential logics, and show that they are closely linked to the formulae whose truth-value is preserved along the (preferential) ordering. We will consider some preferential logics for illustration, and prove syntactic characterization results for them. The results in this paper may improve the efficiency of theorem provers for preferential logics.\n    ",
+        "submission_date": "1998-01-01T00:00:00",
+        "last_modified_date": "1998-01-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9803101",
+        "title": "Synthesizing Customized Planners from Specifications",
+        "authors": [
+            "B. Srivastava",
+            "S. Kambhampati"
+        ],
+        "abstract": "  Existing plan synthesis approaches in artificial intelligence fall into two categories -- domain independent and domain dependent. The domain independent approaches are applicable across a variety of domains, but may not be very efficient in any one given domain. The domain dependent approaches need to be (re)designed for each domain separately, but can be very efficient in the domain for which they are designed. One enticing alternative to these approaches is to automatically synthesize domain independent planners given the knowledge about the domain and the theory of planning. In this paper, we investigate the feasibility of using existing automated software synthesis tools to support such synthesis. Specifically, we describe an architecture called CLAY in which the Kestrel Interactive Development System (KIDS) is used to derive a domain-customized planner through a semi-automatic combination of a declarative theory of planning, and the declarative control knowledge specific to a given domain, to semi-automatically combine them to derive domain-customized planners. We discuss what it means to write a declarative theory of planning and control knowledge for KIDS, and illustrate our approach by generating a class of domain-specific planners using state space refinements. Our experiments show that the synthesized planners can outperform classical refinement planners (implemented as instantiations of UCP, Kambhampati & Srivastava, 1995), using the same control knowledge. We will contrast the costs and benefits of the synthesis approach with conventional methods for customizing domain independent planners.\n    ",
+        "submission_date": "1998-03-01T00:00:00",
+        "last_modified_date": "1998-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9803102",
+        "title": "Cached Sufficient Statistics for Efficient Machine Learning with Large Datasets",
+        "authors": [
+            "A. Moore",
+            "M. S. Lee"
+        ],
+        "abstract": "  This paper introduces new algorithms and data structures for quick counting for machine learning datasets. We focus on the counting task of constructing contingency tables, but our approach is also applicable to counting the number of records in a dataset that match conjunctive queries. Subject to certain assumptions, the costs of these operations can be shown to be independent of the number of records in the dataset and loglinear in the number of non-zero entries in the contingency table. We provide a very sparse data structure, the ADtree, to minimize memory use. We provide analytical worst-case bounds for this structure for several models of data distribution. We empirically demonstrate that tractably-sized data structures can be produced for large real-world datasets by (a) using a sparse tree structure that never allocates memory for counts of zero, (b) never allocating memory for counts that can be deduced from other counts, and (c) not bothering to expand the tree fully near its leaves. We show how the ADtree can be used to accelerate Bayes net structure finding algorithms, rule learning algorithms, and feature selection algorithms, and we provide a number of empirical results comparing ADtree methods against traditional direct counting approaches. We also discuss the possible uses of ADtrees in other machine learning methods, and discuss the merits of ADtrees in comparison with alternative representations such as kd-trees, R-trees and Frequent Sets.\n    ",
+        "submission_date": "1998-03-01T00:00:00",
+        "last_modified_date": "1998-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9803103",
+        "title": "Tractability of Theory Patching",
+        "authors": [
+            "S. Argamon-Engelson",
+            "M. Koppel"
+        ],
+        "abstract": "  In this paper we consider the problem of `theory patching', in which we are given a domain theory, some of whose components are indicated to be possibly flawed, and a set of labeled training examples for the domain concept. The theory patching problem is to revise only the indicated components of the theory, such that the resulting theory correctly classifies all the training examples. Theory patching is thus a type of theory revision in which revisions are made to individual components of the theory. Our concern in this paper is to determine for which classes of logical domain theories the theory patching problem is tractable. We consider both propositional and first-order domain theories, and show that the theory patching problem is equivalent to that of determining what information contained in a theory is `stable' regardless of what revisions might be performed to the theory. We show that determining stability is tractable if the input theory satisfies two conditions: that revisions to each theory component have monotonic effects on the classification of examples, and that theory components act independently in the classification of examples in the theory. We also show how the concepts introduced can be used to determine the soundness and completeness of particular theory patching algorithms.\n    ",
+        "submission_date": "1998-03-01T00:00:00",
+        "last_modified_date": "1998-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9805101",
+        "title": "Integrative Windowing",
+        "authors": [
+            "J. F\u00fcrnkranz"
+        ],
+        "abstract": "  In this paper we re-investigate windowing for rule learning algorithms. We show that, contrary to previous results for decision tree learning, windowing can in fact achieve significant run-time gains in noise-free domains and explain the different behavior of rule learning algorithms by the fact that they learn each rule independently. The main contribution of this paper is integrative windowing, a new type of algorithm that further exploits this property by integrating good rules into the final theory right after they have been discovered. Thus it avoids re-learning these rules in subsequent iterations of the windowing process. Experimental evidence in a variety of noise-free domains shows that integrative windowing can in fact achieve substantial run-time gains. Furthermore, we discuss the problem of noise in windowing and present an algorithm that is able to achieve run-time gains in a set of experiments in a simple domain with artificial noise.\n    ",
+        "submission_date": "1998-05-01T00:00:00",
+        "last_modified_date": "1998-05-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9806101",
+        "title": "Model-Based Diagnosis using Structured System Descriptions",
+        "authors": [
+            "A. Darwiche"
+        ],
+        "abstract": "  This paper presents a comprehensive approach for model-based diagnosis which includes proposals for characterizing and computing preferred diagnoses, assuming that the system description is augmented with a system structure (a directed graph explicating the interconnections between system components). Specifically, we first introduce the notion of a consequence, which is a syntactically unconstrained propositional sentence that characterizes all consistency-based diagnoses and show that standard characterizations of diagnoses, such as minimal conflicts, correspond to syntactic variations on a consequence. Second, we propose a new syntactic variation on the consequence known as negation normal form (NNF) and discuss its merits compared to standard variations. Third, we introduce a basic algorithm for computing consequences in NNF given a structured system description. We show that if the system structure does not contain cycles, then there is always a linear-size consequence in NNF which can be computed in linear time. For arbitrary system structures, we show a precise connection between the complexity of computing consequences and the topology of the underlying system structure. Finally, we present an algorithm that enumerates the preferred diagnoses characterized by a consequence. The algorithm is shown to take linear time in the size of the consequence if the preference criterion satisfies some general conditions.\n    ",
+        "submission_date": "1998-06-01T00:00:00",
+        "last_modified_date": "1998-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9806102",
+        "title": "A Selective Macro-learning Algorithm and its Application to the NxN Sliding-Tile Puzzle",
+        "authors": [
+            "L. Finkelstein",
+            "S. Markovitch"
+        ],
+        "abstract": "  One of the most common mechanisms used for speeding up problem solvers is macro-learning. Macros are sequences of basic operators acquired during problem solving. Macros are used by the problem solver as if they were basic operators. The major problem that macro-learning presents is the vast number of macros that are available for acquisition. Macros increase the branching factor of the search space and can severely degrade problem-solving efficiency. To make macro learning useful, a program must be selective in acquiring and utilizing macros. This paper describes a general method for selective acquisition of macros. Solvable training problems are generated in increasing order of difficulty. The only macros acquired are those that take the problem solver out of a local minimum to a better state. The utility of the method is demonstrated in several domains, including the domain of NxN sliding-tile puzzles. After learning on small puzzles, the system is able to efficiently solve puzzles of any size.\n    ",
+        "submission_date": "1998-06-01T00:00:00",
+        "last_modified_date": "1998-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9808005",
+        "title": "First-Order Conditional Logic Revisited",
+        "authors": [
+            "Nir Friedman",
+            "Joseph Y. Halpern",
+            "Daphne Koller"
+        ],
+        "abstract": "  Conditional logics play an important role in recent attempts to formulate theories of default reasoning. This paper investigates first-order conditional logic. We show that, as for first-order probabilistic logic, it is important not to confound statistical conditionals over the domain (such as ``most birds fly''), and subjective conditionals over possible worlds (such as ``I believe that Tweety is unlikely to fly''). We then address the issue of ascribing semantics to first-order conditional logic. As in the propositional case, there are many possible semantics. To study the problem in a coherent way, we use plausibility structures. These provide us with a general framework in which many of the standard approaches can be embedded. We show that while these standard approaches are all the same at the propositional level, they are significantly different in the context of a first-order language. Furthermore, we show that plausibilities provide the most natural extension of conditional logic to the first-order case: We provide a sound and complete axiomatization that contains only the KLM properties and standard axioms of first-order modal logic. We show that most of the other approaches have additional properties, which result in an inappropriate treatment of an infinitary version of the lottery paradox.\n    ",
+        "submission_date": "1998-08-28T00:00:00",
+        "last_modified_date": "1998-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9808006",
+        "title": "Set-Theoretic Completeness for Epistemic and Conditional Logic",
+        "authors": [
+            "Joseph Y. Halpern"
+        ],
+        "abstract": "  The standard approach to logic in the literature in philosophy and mathematics, which has also been adopted in computer science, is to define a language (the syntax), an appropriate class of models together with an interpretation of formulas in the language (the semantics), a collection of axioms and rules of inference characterizing reasoning (the proof theory), and then relate the proof theory to the semantics via soundness and completeness results. Here we consider an approach that is more common in the economics literature, which works purely at the semantic, set-theoretic level. We provide set-theoretic completeness results for a number of epistemic and conditional logics, and contrast the expressive power of the syntactic and set-theoretic approaches\n    ",
+        "submission_date": "1998-08-28T00:00:00",
+        "last_modified_date": "2000-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9808007",
+        "title": "Plausibility Measures and Default Reasoning",
+        "authors": [
+            "Nir Friedman",
+            "Joseph Y. Halpern"
+        ],
+        "abstract": "  We introduce a new approach to modeling uncertainty based on plausibility measures. This approach is easily seen to generalize other approaches to modeling uncertainty, such as probability measures, belief functions, and possibility measures. We focus on one application of plausibility measures in this paper: default reasoning. In recent years, a number of different semantics for defaults have been proposed, such as preferential structures, $\\epsilon$-semantics, possibilistic structures, and $\\kappa$-rankings, that have been shown to be characterized by the same set of axioms, known as the KLM properties. While this was viewed as a surprise, we show here that it is almost inevitable. In the framework of plausibility measures, we can give a necessary condition for the KLM axioms to be sound, and an additional condition necessary and sufficient to ensure that the KLM axioms are complete. This additional condition is so weak that it is almost always met whenever the axioms are sound. In particular, it is easily seen to hold for all the proposals made in the literature.\n    ",
+        "submission_date": "1998-08-29T00:00:00",
+        "last_modified_date": "1998-08-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9808101",
+        "title": "The Computational Complexity of Probabilistic Planning",
+        "authors": [
+            "M. L. Littman",
+            "J. Goldsmith",
+            "M. Mundhenk"
+        ],
+        "abstract": "  We examine the computational complexity of testing and finding small plans in probabilistic planning domains with both flat and propositional representations. The complexity of plan evaluation and existence varies with the plan type sought; we examine totally ordered plans, acyclic plans, and looping plans, and partially ordered plans under three natural definitions of plan value. We show that problems of interest are complete for a variety of complexity classes: PL, P, NP, co-NP, PP, NP^PP, co-NP^PP, and PSPACE. In the process of proving that certain planning problems are complete for NP^PP, we introduce a new basic NP^PP-complete problem, E-MAJSAT, which generalizes the standard Boolean satisfiability problem to computations involving probabilistic quantities; our results suggest that the development of good heuristics for E-MAJSAT could be important for the creation of efficient algorithms for a wide variety of problems.\n    ",
+        "submission_date": "1998-08-01T00:00:00",
+        "last_modified_date": "1998-08-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809013",
+        "title": "Reasoning about Noisy Sensors and Effectors in the Situation Calculus",
+        "authors": [
+            "Fahiem Bacchus",
+            "Joseph Y. Halpern",
+            "Hector J. Levesque"
+        ],
+        "abstract": "  Agents interacting with an incompletely known world need to be able to reason about the effects of their actions, and to gain further information about that world they need to use sensors of some sort. Unfortunately, both the effects of actions and the information returned from sensors are subject to error. To cope with such uncertainties, the agent can maintain probabilistic beliefs about the state of the world. With probabilistic beliefs the agent will be able to quantify the likelihood of the various outcomes of its actions and is better able to utilize the information gathered from its error-prone actions and sensors. In this paper, we present a model in which we can reason about an agent's probabilistic degrees of belief and the manner in which these beliefs change as various actions are executed. We build on a general logical theory of action developed by Reiter and others, formalized in the situation calculus. We propose a simple axiomatization that captures an agent's state of belief and the manner in which these beliefs change when actions are executed. Our model displays a number of intuitively reasonable properties.\n    ",
+        "submission_date": "1998-09-09T00:00:00",
+        "last_modified_date": "1998-09-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9810016",
+        "title": "SYNERGY: A Linear Planner Based on Genetic Programming",
+        "authors": [
+            "Ion Muslea"
+        ],
+        "abstract": "  In this paper we describe SYNERGY, which is a highly parallelizable, linear planning system that is based on the genetic programming paradigm. Rather than reasoning about the world it is planning for, SYNERGY uses artificial selection, recombination and fitness measure to generate linear plans that solve conjunctive goals. We ran SYNERGY on several domains (e.g., the briefcase problem and a few variants of the robot navigation problem), and the experimental results show that our planner is capable of handling problem instances that are one to two orders of magnitude larger than the ones solved by UCPOP. In order to facilitate the search reduction and to enhance the expressive power of SYNERGY, we also propose two major extensions to our planning system: a formalism for using hierarchical planning operators, and a framework for planning in dynamic environments.\n    ",
+        "submission_date": "1998-10-16T00:00:00",
+        "last_modified_date": "1998-10-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9810018",
+        "title": "A Proof Theoretic View of Constraint Programming",
+        "authors": [
+            "Krzysztof R. Apt"
+        ],
+        "abstract": "  We provide here a proof theoretic account of constraint programming that attempts to capture the essential ingredients of this programming style. We exemplify it by presenting proof rules for linear constraints over interval domains, and illustrate their use by analyzing the constraint propagation process for the {\\tt SEND + MORE = MONEY} puzzle. We also show how this approach allows one to build new constraint solvers.\n    ",
+        "submission_date": "1998-10-20T00:00:00",
+        "last_modified_date": "1998-10-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9811024",
+        "title": "The Essence of Constraint Propagation",
+        "authors": [
+            "Krzysztof R. Apt"
+        ],
+        "abstract": "  We show that several constraint propagation algorithms (also called (local) consistency, consistency enforcing, Waltz, filtering or narrowing algorithms) are instances of algorithms that deal with chaotic iteration. To this end we propose a simple abstract framework that allows us to classify and compare these algorithms and to establish in a uniform way their basic properties.\n    ",
+        "submission_date": "1998-11-13T00:00:00",
+        "last_modified_date": "1998-11-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9812010",
+        "title": "Towards a computational theory of human daydreaming",
+        "authors": [
+            "Erik T. Mueller",
+            "Michael G. Dyer"
+        ],
+        "abstract": "  This paper examines the phenomenon of daydreaming: spontaneously recalling or imagining personal or vicarious experiences in the past or future. The following important roles of daydreaming in human cognition are postulated: plan preparation and rehearsal, learning from failures and successes, support for processes of creativity, emotion regulation, and motivation.\n",
+        "submission_date": "1998-12-10T00:00:00",
+        "last_modified_date": "1998-12-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9812017",
+        "title": "A reusable iterative optimization software library to solve combinatorial problems with approximate reasoning",
+        "authors": [
+            "Andreas Raggl",
+            "Wolfgang Slany"
+        ],
+        "abstract": "  Real world combinatorial optimization problems such as scheduling are typically too complex to solve with exact methods. Additionally, the problems often have to observe vaguely specified constraints of different importance, the available data may be uncertain, and compromises between antagonistic criteria may be necessary. We present a combination of approximate reasoning based constraints and iterative optimization based heuristics that help to model and solve such problems in a framework of C++ software libraries called StarFLIP++. While initially developed to schedule continuous caster units in steel plants, we present in this paper results from reusing the library components in a shift scheduling system for the workforce of an industrial production plant.\n    ",
+        "submission_date": "1998-12-15T00:00:00",
+        "last_modified_date": "1998-12-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/9810144",
+        "title": "Relaxation in graph coloring and satisfiability problems",
+        "authors": [
+            "Pontus Svenson",
+            "Mats G. Nordahl"
+        ],
+        "abstract": "  Using T=0 Monte Carlo simulation, we study the relaxation of graph coloring (K-COL) and satisfiability (K-SAT), two hard problems that have recently been shown to possess a phase transition in solvability as a parameter is varied. A change from exponentially fast to power law relaxation, and a transition to freezing behavior are found. These changes take place for smaller values of the parameter than the solvability transition. Results for the coloring problem for colorable and clustered graphs and for the fraction of persistent spins for satisfiability are also presented.\n    ",
+        "submission_date": "1998-10-13T00:00:00",
+        "last_modified_date": "1999-01-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9808001",
+        "title": "Chess Pure Strategies are Probably Chaotic",
+        "authors": [
+            "M. Chaves"
+        ],
+        "abstract": "  It is odd that chess grandmasters often disagree in their analysis of positions, sometimes even of simple ones, and that a grandmaster can hold his own against an powerful analytic machine such as Deep Blue. The fact that there must exist pure winning strategies for chess is used to construct a control strategy function. It is then shown that chess strategy is equivalent to an autonomous system of differential equations, and conjectured that the system is chaotic. If true the conjecture would explain the forenamed peculiarities and would also imply that there cannot exist a static evaluator for chess.\n    ",
+        "submission_date": "1998-08-21T00:00:00",
+        "last_modified_date": "1998-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809032",
+        "title": "Stable models and an alternative logic programming paradigm",
+        "authors": [
+            "Victor W. Marek",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  In this paper we reexamine the place and role of stable model semantics in logic programming and contrast it with a least Herbrand model approach to Horn programs. We demonstrate that inherent features of stable model semantics naturally lead to a logic programming system that offers an interesting alternative to more traditional logic programming styles of Horn logic programming, stratified logic programming and logic programming with well-founded semantics. The proposed approach is based on the interpretation of program clauses as constraints. In this setting programs do not describe a single intended model, but a family of stable models. These stable models encode solutions to the constraint satisfaction problem described by the program. Our approach imposes restrictions on the syntax of logic programs. In particular, function symbols are eliminated from the language. We argue that the resulting logic programming system is well-attuned to problems in the class NP, has a well-defined domain of applications, and an emerging methodology of programming. We point out that what makes the whole approach viable is recent progress in implementations of algorithms to compute stable models of propositional logic programs.\n    ",
+        "submission_date": "1998-09-18T00:00:00",
+        "last_modified_date": "1998-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809034",
+        "title": "Semantics and Conversations for an Agent Communication Language",
+        "authors": [
+            "Yannis Labrou",
+            "Tim Finin"
+        ],
+        "abstract": "  We address the issues of semantics and conversations for agent communication languages and the Knowledge Query Manipulation Language (KQML) in particular. Based on ideas from speech act theory, we present a semantic description for KQML that associates ``cognitive'' states of the agent with the use of the language's primitives (performatives). We have used this approach to describe the semantics for the whole set of reserved KQML performatives. Building on the semantics, we devise the conversation policies, i.e., a formal description of how KQML performatives may be combined into KQML exchanges (conversations), using a Definite Clause Grammar. Our research offers methods for a speech act theory-based semantic description of a language of communication acts and for the specification of the protocols associated with these acts. Languages of communication acts address the issue of communication among software applications at a level of abstraction that is useful to the emerging software agents paradigm.\n    ",
+        "submission_date": "1998-09-18T00:00:00",
+        "last_modified_date": "1998-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809108",
+        "title": "Learning Nested Agent Models in an Information Economy",
+        "authors": [
+            "Jose M. Vidal",
+            "Edmund H. Durfee"
+        ],
+        "abstract": "  We present our approach to the problem of how an agent, within an economic Multi-Agent System, can determine when it should behave strategically (i.e. learn and use models of other agents), and when it should act as a simple price-taker. We provide a framework for the incremental implementation of modeling capabilities in agents, and a description of the forms of knowledge required. The agents were implemented and different populations simulated in order to learn more about their behavior and the merits of using and learning agent models. Our results show, among other lessons, how savvy buyers can avoid being ``cheated'' by sellers, how price volatility can be used to quantitatively predict the benefits of deeper models, and how specific types of agent populations influence system behavior.\n    ",
+        "submission_date": "1998-09-26T00:00:00",
+        "last_modified_date": "1998-09-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809110",
+        "title": "Similarity-Based Models of Word Cooccurrence Probabilities",
+        "authors": [
+            "Ido Dagan",
+            "Lillian Lee",
+            "Fernando C. N. Pereira"
+        ],
+        "abstract": "  In many applications of natural language processing (NLP) it is necessary to determine the likelihood of a given word combination. For example, a speech recognizer may need to determine which of the two word combinations ``eat a peach'' and ``eat a beach'' is more likely. Statistical NLP methods determine the likelihood of a word combination from its frequency in a training corpus. However, the nature of language is such that many word combinations are infrequent and do not occur in any given corpus. In this work we propose a method for estimating the probability of such previously unseen word combinations using available information on ``most similar'' words.\n",
+        "submission_date": "1998-09-27T00:00:00",
+        "last_modified_date": "1998-09-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9809121",
+        "title": "Using Local Optimality Criteria for Efficient Information Retrieval with Redundant Information Filters",
+        "authors": [
+            "Neil C. Rowe"
+        ],
+        "abstract": "  We consider information retrieval when the data, for instance multimedia, is coputationally expensive to fetch. Our approach uses \"information filters\" to considerably narrow the universe of possiblities before retrieval. We are especially interested in redundant information filters that save time over more general but more costly filters. Efficient retrieval requires that decision must be made about the necessity, order, and concurrent processing of proposed filters (an \"execution plan\"). We develop simple polynomial-time local criteria for optimal execution plans, and show that most forms of concurrency are suboptimal with information filters. Although the general problem of finding an optimal execution plan is likely exponential in the number of filters, we show experimentally that our local optimality criteria, used in a polynomial-time algorithm, nearly always find the global optimum with 15 filters or less, a sufficient number of filters for most applications. Our methods do not require special hardware and avoid the high processor idleness that is characteristic of massive parallelism solutions to this problem. We apply our ideas to an important application, information retrieval of cpationed data using natural-language understanding, a problem for which the natural-language processing can be the bottleneck if not implemented well.\n    ",
+        "submission_date": "1998-09-29T00:00:00",
+        "last_modified_date": "1998-09-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9810005",
+        "title": "Anytime Coalition Structure Generation with Worst Case Guarantees",
+        "authors": [
+            "Tuomas Sandholm",
+            "Kate Larson",
+            "Martin Andersson",
+            "Onn Shehory",
+            "Fernando Tohme"
+        ],
+        "abstract": "  Coalition formation is a key topic in multiagent systems. One would prefer a coalition structure that maximizes the sum of the values of the coalitions, but often the number of coalition structures is too large to allow exhaustive search for the optimal one. But then, can the coalition structure found via a partial search be guaranteed to be within a bound from optimum? We show that none of the previous coalition structure generation algorithms can establish any bound because they search fewer nodes than a threshold that we show necessary for establishing a bound. We present an algorithm that establishes a tight bound within this minimal amount of search, and show that any other algorithm would have to search strictly more. The fraction of nodes needed to be searched approaches zero as the number of agents grows. If additional time remains, our anytime algorithm searches further, and establishes a progressively lower tight bound. Surprisingly, just searching one more node drops the bound in half. As desired, our algorithm lowers the bound rapidly early on, and exhibits diminishing returns to computation. It also drastically outperforms its obvious contenders. Finally, we show how to distribute the desired search across self-interested manipulative agents.\n    ",
+        "submission_date": "1998-10-05T00:00:00",
+        "last_modified_date": "1998-10-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9810020",
+        "title": "Computational Geometry Column 33",
+        "authors": [
+            "Joseph O'Rourke"
+        ],
+        "abstract": "  Several recent SIGGRAPH papers on surface simplification are described.\n    ",
+        "submission_date": "1998-10-22T00:00:00",
+        "last_modified_date": "1998-10-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9811029",
+        "title": "A Human - machine interface for teleoperation of arm manipulators in a complex environment",
+        "authors": [
+            "I. Ivanisevic",
+            "V. Lumelsky"
+        ],
+        "abstract": "  This paper discusses the feasibility of using configuration space (C-space) as a means of visualization and control in operator-guided real-time motion of a robot arm manipulator. The motivation is to improve performance of the human operator in tasks involving the manipulator motion in an environment with obstacles. Unlike some other motion planning tasks, operators are known to make expensive mistakes in such tasks, even in a simpler two-dimensional case. They have difficulty learning better procedures and their performance improves very little with practice. Using an example of a two-dimensional arm manipulator, we show that translating the problem into C-space improves the operator performance rather remarkably, on the order of magnitude compared to the usual work space control. An interface that makes the transfer possible is described, and an example of its use in a virtual environment is shown.\n    ",
+        "submission_date": "1998-11-20T00:00:00",
+        "last_modified_date": "1998-11-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9812004",
+        "title": "Name Strategy: Its Existence and Implications",
+        "authors": [
+            "Mark D. Roberts"
+        ],
+        "abstract": "  It is argued that colour name strategy, object name strategy, and chunking strategy in memory are all aspects of the same general phenomena, called stereotyping. It is pointed out that the Berlin-Kay universal partial ordering of colours and the frequency of traffic accidents classified by colour are surprisingly similar. Some consequences of the existence of a name strategy for the philosophy of language and mathematics are discussed. It is argued that real valued quantities occur {\\it ab initio}. The implication of real valued truth quantities is that the {\\bf Continuum Hypothesis} of pure mathematics is side-stepped. The existence of name strategy shows that thought/sememes and talk/phonemes can be separate, and this vindicates the assumption of thought occurring before talk used in psycholinguistic speech production models.\n    ",
+        "submission_date": "1998-12-04T00:00:00",
+        "last_modified_date": "1998-12-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9812022",
+        "title": "Hypertree Decompositions and Tractable Queries",
+        "authors": [
+            "G. Gottlob",
+            "N. Leone",
+            "F. Scarcello"
+        ],
+        "abstract": "  Several important decision problems on conjunctive queries (CQs) are NP-complete in general but become tractable, and actually highly parallelizable, if restricted to acyclic or nearly acyclic queries. Examples are the evaluation of Boolean CQs and query containment. These problems were shown tractable for conjunctive queries of bounded treewidth and of bounded degree of cyclicity. The so far most general concept of nearly acyclic queries was the notion of queries of bounded query-width introduced by Chekuri and Rajaraman (1997). While CQs of bounded query width are tractable, it remained unclear whether such queries are efficiently recognizable. Chekuri and Rajaraman stated as an open problem whether for each constant k it can be determined in polynomial time if a query has query width less than or equal to k. We give a negative answer by proving this problem NP-complete (specifically, for k=4). In order to circumvent this difficulty, we introduce the new concept of hypertree decomposition of a query and the corresponding notion of hypertree width. We prove: (a) for each k, the class of queries with query width bounded by k is properly contained in the class of queries whose hypertree width is bounded by k; (b) unlike query width, constant hypertree-width is efficiently recognizable; (c) Boolean queries of constant hypertree width can be efficiently evaluated.\n    ",
+        "submission_date": "1998-12-28T00:00:00",
+        "last_modified_date": "1998-12-28T00:00:00"
+    }
+]

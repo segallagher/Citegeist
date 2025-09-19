@@ -1,0 +1,757 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0101019",
+        "title": "General Loss Bounds for Universal Sequence Prediction",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  The Bayesian framework is ideally suited for induction problems. The probability of observing $x_t$ at time $t$, given past observations $x_1...x_{t-1}$ can be computed with Bayes' rule if the true distribution $\\mu$ of the sequences $x_1x_2x_3...$ is known. The problem, however, is that in many cases one does not even have a reasonable estimate of the true distribution. In order to overcome this problem a universal distribution $\\xi$ is defined as a weighted sum of distributions $\\mu_i\\inM$, where $M$ is any countable set of distributions including $\\mu$. This is a generalization of Solomonoff induction, in which $M$ is the set of all enumerable semi-measures. Systems which predict $y_t$, given $x_1...x_{t-1}$ and which receive loss $l_{x_t y_t}$ if $x_t$ is the true next symbol of the sequence are considered. It is proven that using the universal $\\xi$ as a prior is nearly as good as using the unknown true distribution $\\mu$. Furthermore, games of chance, defined as a sequence of bets, observations, and rewards are studied. The time needed to reach the winning zone is bounded in terms of the relative entropy of $\\mu$ and $\\xi$. Extensions to arbitrary alphabets, partial and delayed prediction, and more active systems are discussed.\n    ",
+        "submission_date": "2001-01-21T00:00:00",
+        "last_modified_date": "2001-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0102027",
+        "title": "Gene Expression Programming: a New Adaptive Algorithm for Solving Problems",
+        "authors": [
+            "Candida Ferreira"
+        ],
+        "abstract": "  Gene expression programming, a genotype/phenotype genetic algorithm (linear and ramified), is presented here for the first time as a new technique for the creation of computer programs. Gene expression programming uses character linear chromosomes composed of genes structurally organized in a head and a tail. The chromosomes function as a genome and are subjected to modification by means of mutation, transposition, root transposition, gene transposition, gene recombination, and one- and two-point recombination. The chromosomes encode expression trees which are the object of selection. The creation of these separate entities (genome and expression tree) with distinct functions allows the algorithm to perform with high efficiency that greatly surpasses existing adaptive techniques. The suite of problems chosen to illustrate the power and versatility of gene expression programming includes symbolic regression, sequence induction with and without constant creation, block stacking, cellular automata rules for the density-classification problem, and two problems of boolean concept learning: the 11-multiplexer and the GP rule problem.\n    ",
+        "submission_date": "2001-02-25T00:00:00",
+        "last_modified_date": "2001-12-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0103015",
+        "title": "Fitness Uniform Selection to Preserve Genetic Diversity",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  In evolutionary algorithms, the fitness of a population increases with time by mutating and recombining individuals and by a biased selection of more fit individuals. The right selection pressure is critical in ensuring sufficient optimization progress on the one hand and in preserving genetic diversity to be able to escape from local optima on the other. We propose a new selection scheme, which is uniform in the fitness values. It generates selection pressure towards sparsely populated fitness regions, not necessarily towards higher fitness, as is the case for all other selection schemes. We show that the new selection scheme can be much more effective than standard selection schemes.\n    ",
+        "submission_date": "2001-03-14T00:00:00",
+        "last_modified_date": "2001-03-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0103020",
+        "title": "Belief Revision: A Critique",
+        "authors": [
+            "Nir Friedman",
+            "Joseph Y. Halpern"
+        ],
+        "abstract": "  We examine carefully the rationale underlying the approaches to belief change taken in the literature, and highlight what we view as methodological problems. We argue that to study belief change carefully, we must be quite explicit about the ``ontology'' or scenario underlying the belief change process. This is something that has been missing in previous work, with its focus on postulates. Our analysis shows that we must pay particular attention to two issues that have often been taken for granted: The first is how we model the agent's epistemic state. (Do we use a set of beliefs, or a richer structure, such as an ordering on worlds? And if we use a set of beliefs, in what language are these beliefs are expressed?) We show that even postulates that have been called ``beyond controversy'' are unreasonable when the agent's beliefs include beliefs about her own epistemic state as well as the external world. The second is the status of observations. (Are observations known to be true, or just believed? In the latter case, how firm is the belief?) Issues regarding the status of observations arise particularly when we consider iterated belief revision, and we must confront the possibility of revising by p and then by not-p.\n    ",
+        "submission_date": "2001-03-27T00:00:00",
+        "last_modified_date": "2001-03-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105022",
+        "title": "Multi-Channel Parallel Adaptation Theory for Rule Discovery",
+        "authors": [
+            "Li Min Fu"
+        ],
+        "abstract": "  In this paper, we introduce a new machine learning theory based on multi-channel parallel adaptation for rule discovery. This theory is distinguished from the familiar parallel-distributed adaptation theory of neural networks in terms of channel-based convergence to the target rules. We show how to realize this theory in a learning system named CFRule. CFRule is a parallel weight-based model, but it departs from traditional neural computing in that its internal knowledge is comprehensible. Furthermore, when the model converges upon training, each channel converges to a target rule. The model adaptation rule is derived by multi-level parallel weight optimization based on gradient descent. Since, however, gradient descent only guarantees local optimization, a multi-channel regression-based optimization strategy is developed to effectively deal with this problem. Formally, we prove that the CFRule model can explicitly and precisely encode any given rule set. Also, we prove a property related to asynchronous parallel convergence, which is a critical element of the multi-channel parallel adaptation theory for rule learning. Thanks to the quantizability nature of the CFRule model, rules can be extracted completely and soundly via a threshold-based mechanism. Finally, the practical application of the theory is demonstrated in DNA promoter recognition and hepatitis prognosis prediction.\n    ",
+        "submission_date": "2001-05-11T00:00:00",
+        "last_modified_date": "2001-05-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105025",
+        "title": "Market-Based Reinforcement Learning in Partially Observable Worlds",
+        "authors": [
+            "Ivo Kwee",
+            "Marcus Hutter",
+            "Juergen Schmidhuber"
+        ],
+        "abstract": "  Unlike traditional reinforcement learning (RL), market-based RL is in principle applicable to worlds described by partially observable Markov Decision Processes (POMDPs), where an agent needs to learn short-term memories of relevant previous events in order to execute optimal actions. Most previous work, however, has focused on reactive settings (MDPs) instead of POMDPs. Here we reimplement a recent approach to market-based RL and for the first time evaluate it in a toy POMDP setting.\n    ",
+        "submission_date": "2001-05-15T00:00:00",
+        "last_modified_date": "2001-05-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106004",
+        "title": "Soft Scheduling",
+        "authors": [
+            "Hana Rudova"
+        ],
+        "abstract": "  Classical notions of disjunctive and cumulative scheduling are studied from the point of view of soft constraint satisfaction. Soft disjunctive scheduling is introduced as an instance of soft CSP and preferences included in this problem are applied to generate a lower bound based on existing discrete capacity resource. Timetabling problems at Purdue University and Faculty of Informatics at Masaryk University considering individual course requirements of students demonstrate practical problems which are solved via proposed methods. Implementation of general preference constraint solver is discussed and first computational results for timetabling problem are presented.\n    ",
+        "submission_date": "2001-06-02T00:00:00",
+        "last_modified_date": "2001-06-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106005",
+        "title": "The Representation of Legal Contracts",
+        "authors": [
+            "Aspassia Daskalopulu",
+            "Marek Sergot"
+        ],
+        "abstract": "  The paper outlines ongoing research on logic-based tools for the analysis and representation of legal contracts of the kind frequently encountered in large-scale engineering projects and complex, long-term trading agreements. We consider both contract formation and contract performance, in each case identifying the representational issues and the prospects for providing automated support tools.\n    ",
+        "submission_date": "2001-06-07T00:00:00",
+        "last_modified_date": "2001-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106006",
+        "title": "A Constraint-Driven System for Contract Assembly",
+        "authors": [
+            "Aspassia Daskalopulu",
+            "Marek Sergot"
+        ],
+        "abstract": "  We present an approach for modelling the structure and coarse content of legal documents with a view to providing automated support for the drafting of contracts and contract database retrieval. The approach is designed to be applicable where contract drafting is based on model-form contracts or on existing examples of a similar type. The main features of the approach are: (1) the representation addresses the structure and the interrelationships between the constituent parts of contracts, but not the text of the document itself; (2) the representation of documents is separated from the mechanisms that manipulate it; and (3) the drafting process is subject to a collection of explicitly stated constraints that govern the structure of the documents. We describe the representation of document instances and of 'generic documents', which are data structures used to drive the creation of new document instances, and we show extracts from a sample session to illustrate the features of a prototype system implemented in MacProlog.\n    ",
+        "submission_date": "2001-06-07T00:00:00",
+        "last_modified_date": "2001-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106007",
+        "title": "Modelling Contractual Arguments",
+        "authors": [
+            "Chris Reed",
+            "Aspassia Daskalopulu"
+        ],
+        "abstract": "  One influential approach to assessing the \"goodness\" of arguments is offered by the Pragma-Dialectical school (p-d) (Eemeren & Grootendorst 1992). This can be compared with Rhetorical Structure Theory (RST) (Mann & Thompson 1988), an approach that originates in discourse analysis. In p-d terms an argument is good if it avoids committing a fallacy, whereas in RST terms an argument is good if it is coherent. RST has been criticised (Snoeck Henkemans 1997) for providing only a partially functional account of argument, and similar criticisms have been raised in the Natural Language Generation (NLG) community-particularly by Moore & Pollack (1992)- with regards to its account of intentionality in text in general. Mann and Thompson themselves note that although RST can be successfully applied to a wide range of texts from diverse domains, it fails to characterise some types of text, most notably legal contracts. There is ongoing research in the Artificial Intelligence and Law community exploring the potential for providing electronic support to contract negotiators, focusing on long-term, complex engineering agreements (see for example Daskalopulu & Sergot 1997). This paper provides a brief introduction to RST and illustrates its shortcomings with respect to contractual text. An alternative approach for modelling argument structure is presented which not only caters for contractual text, but also overcomes the aforementioned limitations of RST.\n    ",
+        "submission_date": "2001-06-07T00:00:00",
+        "last_modified_date": "2001-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106010",
+        "title": "Modelling Legal Contracts as Processes",
+        "authors": [
+            "Aspassia Daskalopulu"
+        ],
+        "abstract": "  This paper concentrates on the representation of the legal relations that obtain between parties once they have entered a contractual agreement and their evolution as the agreement progresses through time. Contracts are regarded as process and they are analysed in terms of the obligations that are active at various points during their life span. An informal notation is introduced that summarizes conveniently the states of an agreement as it evolves over time. Such a representation enables us to determine what the status of an agreement is, given an event or a sequence of events that concern the performance of actions by the agents involved. This is useful both in the context of contract drafting (where parties might wish to preview how their agreement might evolve) and in the context of contract performance monitoring (where parties might with to establish what their legal positions are once their agreement is in force). The discussion is based on an example that illustrates some typical patterns of contractual obligations.\n    ",
+        "submission_date": "2001-06-07T00:00:00",
+        "last_modified_date": "2001-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106025",
+        "title": "Information Integration and Computational Logic",
+        "authors": [
+            "Yannis Dimopoulos",
+            "Antonis Kakas"
+        ],
+        "abstract": "  Information Integration is a young and exciting field with enormous research and commercial significance in the new world of the Information Society. It stands at the crossroad of Databases and Artificial Intelligence requiring novel techniques that bring together different methods from these fields. Information from disparate heterogeneous sources often with no a-priori common schema needs to be synthesized in a flexible, transparent and intelligent way in order to respond to the demands of a query thus enabling a more informed decision by the user or application program. The field although relatively young has already found many practical applications particularly for integrating information over the World Wide Web. This paper gives a brief introduction of the field highlighting some of the main current and future research issues and application areas. It attempts to evaluate the current and potential role of Computational Logic in this and suggests some of the problems where logic-based techniques could be used.\n    ",
+        "submission_date": "2001-06-11T00:00:00",
+        "last_modified_date": "2001-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106044",
+        "title": "A Sequential Model for Multi-Class Classification",
+        "authors": [
+            "Yair Even-Zohar",
+            "Dan Roth"
+        ],
+        "abstract": "  Many classification problems require decisions among a large number of competing classes. These tasks, however, are not handled well by general purpose learning methods and are usually addressed in an ad-hoc fashion. We suggest a general approach -- a sequential learning model that utilizes classifiers to sequentially restrict the number of competing classes while maintaining, with high probability, the presence of the true outcome in the candidates set. Some theoretical and computational properties of the model are discussed and we argue that these are important in NLP-like domains. The advantages of the model are illustrated in an experiment in part-of-speech tagging.\n    ",
+        "submission_date": "2001-06-20T00:00:00",
+        "last_modified_date": "2001-06-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106054",
+        "title": "Software Toolkit for Building Embedded and Distributed Knowledge-based Systems",
+        "authors": [
+            "Dmitri Soshnikov"
+        ],
+        "abstract": "  The paper discusses the basic principles and the architecture of the software toolkit for constructing knowledge-based systems which can be used cooperatively over computer networks and also embedded into larger software systems in different ways. Presented architecture is based on frame knowledge representation and production rules, which also allows to interface high-level programming languages and relational databases by exposing corresponding classes or database tables as frames. Frames located on the remote computers can also be transparently accessed and used in inference, and the dynamic knowledge for specific frames can also be transferred over the network. The issues of implementation of such a system are addressed, which use Java programming language, CORBA and XML for external knowledge representation. Finally, some applications of the toolkit are considered, including e-business approach to knowledge sharing, intelligent web behaviours, etc.\n    ",
+        "submission_date": "2001-06-26T00:00:00",
+        "last_modified_date": "2001-06-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107002",
+        "title": "Enhancing Constraint Propagation with Composition Operators",
+        "authors": [
+            "Laurent Granvilliers",
+            "Eric Monfroy"
+        ],
+        "abstract": "  Constraint propagation is a general algorithmic approach for pruning the search space of a CSP. In a uniform way, K. R. Apt has defined a computation as an iteration of reduction functions over a domain. He has also demonstrated the need for integrating static properties of reduction functions (commutativity and semi-commutativity) to design specialized algorithms such as AC3 and DAC. We introduce here a set of operators for modeling compositions of reduction functions. Two of the major goals are to tackle parallel computations, and dynamic behaviours (such as slow convergence).\n    ",
+        "submission_date": "2001-07-02T00:00:00",
+        "last_modified_date": "2001-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107026",
+        "title": "Annotated revision programs",
+        "authors": [
+            "Victor Marek",
+            "Inna Pivkina",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  Revision programming is a formalism to describe and enforce updates of belief sets and databases. That formalism was extended by Fitting who assigned annotations to revision atoms. Annotations provide a way to quantify the confidence (probability) that a revision atom holds. The main goal of our paper is to reexamine the work of Fitting, argue that his semantics does not always provide results consistent with intuition, and to propose an alternative treatment of annotated revision programs. Our approach differs from that proposed by Fitting in two key aspects: we change the notion of a model of a program and we change the notion of a justified revision. We show that under this new approach fundamental properties of justified revisions of standard revision programs extend to the annotated case.\n    ",
+        "submission_date": "2001-07-19T00:00:00",
+        "last_modified_date": "2001-07-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107028",
+        "title": "Propositional satisfiability in answer-set programming",
+        "authors": [
+            "Deborah East",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  We show that propositional logic and its extensions can support answer-set programming in the same way stable logic programming and disjunctive logic programming do. To this end, we introduce a logic based on the logic of propositional schemata and on a version of the Closed World Assumption. We call it the extended logic of propositional schemata with CWA (PS+, in symbols). An important feature of this logic is that it supports explicit modeling of constraints on cardinalities of sets. In the paper, we characterize the class of problems that can be solved by finite PS+ theories. We implement a programming system based on the logic PS+ and design and implement a solver for processing theories in PS+. We present encouraging performance results for our approach --- we show it to be competitive with smodels, a state-of-the-art answer-set programming system based on stable logic programming.\n    ",
+        "submission_date": "2001-07-19T00:00:00",
+        "last_modified_date": "2001-07-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107029",
+        "title": "aspps --- an implementation of answer-set programming with propositional schemata",
+        "authors": [
+            "Deborah East. Miroslaw Truszczynski"
+        ],
+        "abstract": "  We present an implementation of an answer-set programming paradigm, called aspps (short for answer-set programming with propositional schemata). The system aspps is designed to process PS+ theories. It consists of two basic modules. The first module, psgrnd, grounds an PS+ theory. The second module, referred to as aspps, is a solver. It computes models of ground PS+ theories.\n    ",
+        "submission_date": "2001-07-19T00:00:00",
+        "last_modified_date": "2001-07-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109006",
+        "title": "On Properties of Update Sequences Based on Causal Rejection",
+        "authors": [
+            "T. Eiter",
+            "M. Fink",
+            "G. Sabbatini",
+            "H. Tompits"
+        ],
+        "abstract": "  We consider an approach to update nonmonotonic knowledge bases represented as extended logic programs under answer set semantics. New information is incorporated into the current knowledge base subject to a causal rejection principle enforcing that, in case of conflicts, more recent rules are preferred and older rules are overridden. Such a rejection principle is also exploited in other approaches to update logic programs, e.g., in dynamic logic programming by Alferes et al. We give a thorough analysis of properties of our approach, to get a better understanding of the causal rejection principle. We review postulates for update and revision operators from the area of theory change and nonmonotonic reasoning, and some new properties are considered as well. We then consider refinements of our semantics which incorporate a notion of minimality of change. As well, we investigate the relationship to other approaches, showing that our approach is semantically equivalent to inheritance programs by Buccafurri et al. and that it coincides with certain classes of dynamic logic programs, for which we provide characterizations in terms of graph conditions. Therefore, most of our results about properties of causal rejection principle apply to these approaches as well. Finally, we deal with computational complexity of our approach, and outline how the update semantics and its refinements can be implemented on top of existing logic programming engines.\n    ",
+        "submission_date": "2001-09-05T00:00:00",
+        "last_modified_date": "2001-09-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109034",
+        "title": "Relevant Knowledge First - Reinforcement Learning and Forgetting in Knowledge Based Configuration",
+        "authors": [
+            "Ingo Kreuz",
+            "Dieter Roller"
+        ],
+        "abstract": "  In order to solve complex configuration tasks in technical domains, various knowledge based methods have been developed. However their applicability is often unsuccessful due to their low efficiency. One of the reasons for this is that (parts of the) problems have to be solved again and again, instead of being \"learnt\" from preceding processes. However, learning processes bring with them the problem of conservatism, for in technical domains innovation is a deciding factor in competition. On the other hand a certain amount of conservatism is often desired since uncontrolled innovation as a rule is also detrimental. This paper proposes the heuristic RKF (Relevant Knowledge First) for making decisions in configuration processes based on the so-called relevance of objects in a knowledge base. The underlying relevance-function has two components, one based on reinforcement learning and the other based on forgetting (fading). Relevance of an object increases with its successful use and decreases with age when it is not used. RKF has been developed to speed up the configuration process and to improve the quality of the solutions relative to the reward value that is given by users.\n    ",
+        "submission_date": "2001-09-19T00:00:00",
+        "last_modified_date": "2001-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0110003",
+        "title": "The temporal calculus of conditional objects and conditional events",
+        "authors": [
+            "Jerzy Tyszkiewicz",
+            "Arthur Ramer",
+            "Achim Hoffmann"
+        ],
+        "abstract": "  We consider the problem of defining conditional objects (a|b), which would allow one to regard the conditional probability Pr(a|b) as a probability of a well-defined event rather than as a shorthand for Pr(ab)/Pr(b). The next issue is to define boolean combinations of conditional objects, and possibly also the operator of further conditioning. These questions have been investigated at least since the times of George Boole, leading to a number of formalisms proposed for conditional objects, mostly of syntactical, proof-theoretic vein.\n",
+        "submission_date": "2001-10-01T00:00:00",
+        "last_modified_date": "2001-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0110004",
+        "title": "Embedding conditional event algebras into temporal calculus of conditionals",
+        "authors": [
+            "Jerzy Tyszkiewicz",
+            "Achim Hoffmann",
+            "Arthur Ramer"
+        ],
+        "abstract": "  In this paper we prove that all the existing conditional event algebras embed into a three-valued extension of temporal logic of discrete past time, which the authors of this paper have proposed in anothe paper as a general model of conditional events.\n",
+        "submission_date": "2001-10-01T00:00:00",
+        "last_modified_date": "2001-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111012",
+        "title": "Intelligent Anticipated Exploration of Web Sites",
+        "authors": [
+            "Giovambattista Ianni"
+        ],
+        "abstract": "  In this paper we describe a web search agent, called Global Search Agent (hereafter GSA for short). GSA integrates and enhances several search techniques in order to achieve significant improvements in the user-perceived quality of delivered information as compared to usual web search engines. GSA features intelligent merging of relevant documents from different search engines, anticipated selective exploration and evaluation of links from the current result set, automated derivation of refined queries based on user relevance feedback. System architecture as well as experimental accounts are also illustrated.\n    ",
+        "submission_date": "2001-11-06T00:00:00",
+        "last_modified_date": "2001-11-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111038",
+        "title": "Arc consistency for soft constraints",
+        "authors": [
+            "Martin Cooper",
+            "Thomas Schiex"
+        ],
+        "abstract": "  The notion of arc consistency plays a central role in constraint satisfaction. It is known that the notion of local consistency can be extended to constraint optimisation problems defined by soft constraint frameworks based on an idempotent cost combination operator. This excludes non idempotent operators such as + which define problems which are very important in practical applications such as Max-CSP, where the aim is to minimize the number of violated constraints. In this paper, we show that using a weak additional axiom satisfied by most existing soft constraints proposals, it is possible to define a notion of soft arc consistency that extends the classical notion of arc consistency and this even in the case of non idempotent cost combination operators. A polynomial time algorithm for enforcing this soft arc consistency exists and its space and time complexities are identical to that of enforcing arc consistency in CSPs when the cost combination operator is strictly monotonic (for example Max-CSP). A directional version of arc consistency is potentially even stronger than the non-directional version, since it allows non local propagation of penalties. We demonstrate the utility of directional arc consistency by showing that it not only solves soft constraint problems on trees, but that it also implies a form of local optimality, which we call arc irreducibility.\n    ",
+        "submission_date": "2001-11-14T00:00:00",
+        "last_modified_date": "2001-11-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111058",
+        "title": "Bayesian Logic Programs",
+        "authors": [
+            "Kristian Kersting",
+            "Luc De Raedt"
+        ],
+        "abstract": "  Bayesian networks provide an elegant formalism for representing and reasoning about uncertainty using probability theory. Theyare a probabilistic extension of propositional logic and, hence, inherit some of the limitations of propositional logic, such as the difficulties to represent objects and relations. We introduce a generalization of Bayesian networks, called Bayesian logic programs, to overcome these limitations. In order to represent objects and relations it combines Bayesian networks with definite clause logic by establishing a one-to-one mapping between ground atoms and random variables. We show that Bayesian logic programs combine the advantages of both definite clause logic and Bayesian networks. This includes the separation of quantitative and qualitative aspects of the model. Furthermore, Bayesian logic programs generalize both Bayesian networks as well as logic programs. So, many ideas developed\n    ",
+        "submission_date": "2001-11-23T00:00:00",
+        "last_modified_date": "2001-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111060",
+        "title": "Gradient-based Reinforcement Planning in Policy-Search Methods",
+        "authors": [
+            "Ivo Kwee",
+            "Marcus Hutter",
+            "Juergen Schmidhuber"
+        ],
+        "abstract": "  We introduce a learning method called ``gradient-based reinforcement planning'' (GREP). Unlike traditional DP methods that improve their policy backwards in time, GREP is a gradient-based method that plans ahead and improves its policy before it actually acts in the environment. We derive formulas for the exact policy gradient that maximizes the expected future reward and confirm our ideas with numerical experiments.\n    ",
+        "submission_date": "2001-11-28T00:00:00",
+        "last_modified_date": "2001-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112006",
+        "title": "A Logic Programming Approach to Knowledge-State Planning: Semantics and Complexity",
+        "authors": [
+            "Thomas Eiter",
+            "Wolfgang Faber",
+            "Nicola Leone",
+            "Gerald Pfeifer",
+            "Axel Polleres"
+        ],
+        "abstract": "  We propose a new declarative planning language, called K, which is based on principles and methods of logic programming. In this language, transitions between states of knowledge can be described, rather than transitions between completely described states of the world, which makes the language well-suited for planning under incomplete knowledge. Furthermore, it enables the use of default principles in the planning process by supporting negation as failure. Nonetheless, K also supports the representation of transitions between states of the world (i.e., states of complete knowledge) as a special case, which shows that the language is very flexible. As we demonstrate on particular examples, the use of knowledge states may allow for a natural and compact problem representation. We then provide a thorough analysis of the computational complexity of K, and consider different planning problems, including standard planning and secure planning (also known as conformant planning) problems. We show that these problems have different complexities under various restrictions, ranging from NP to NEXPTIME in the propositional case. Our results form the theoretical basis for the DLV^K system, which implements the language K on top of the DLV logic programming system.\n    ",
+        "submission_date": "2001-12-05T00:00:00",
+        "last_modified_date": "2001-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112008",
+        "title": "Representation of Uncertainty for Limit Processes",
+        "authors": [
+            "Mark Burgin"
+        ],
+        "abstract": "  Many mathematical models utilize limit processes. Continuous functions and the calculus, differential equations and topology, all are based on limits and continuity. However, when we perform measurements and computations, we can achieve only approximate results. In some cases, this discrepancy between theoretical schemes and practical actions changes drastically outcomes of a research and decision-making resulting in uncertainty of knowledge. In the paper, a mathematical approach to such kind of uncertainty, which emerges in computation and measurement, is suggested on the base of the concept of a fuzzy limit. A mathematical technique is developed for differential models with uncertainty. To take into account the intrinsic uncertainty of a model, it is suggested to use fuzzy derivatives instead of conventional derivatives of functions in this model.\n    ",
+        "submission_date": "2001-12-07T00:00:00",
+        "last_modified_date": "2001-12-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112015",
+        "title": "Rational Competitive Analysis",
+        "authors": [
+            "Moshe Tennenholtz"
+        ],
+        "abstract": "  Much work in computer science has adopted competitive analysis as a tool for decision making under uncertainty. In this work we extend competitive analysis to the context of multi-agent systems. Unlike classical competitive analysis where the behavior of an agent's environment is taken to be arbitrary, we consider the case where an agent's environment consists of other agents. These agents will usually obey some (minimal) rationality constraints. This leads to the definition of rational competitive analysis. We introduce the concept of rational competitive analysis, and initiate the study of competitive analysis for multi-agent systems. We also discuss the application of rational competitive analysis to the context of bidding games, as well as to the classical one-way trading problem.\n    ",
+        "submission_date": "2001-12-13T00:00:00",
+        "last_modified_date": "2001-12-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112019",
+        "title": "Distribution of Mutual Information",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  The mutual information of two random variables i and j with joint probabilities t_ij is commonly used in learning Bayesian nets as well as in many other fields. The chances t_ij are usually estimated by the empirical sampling frequency n_ij/n leading to a point estimate I(n_ij/n) for the mutual information. To answer questions like \"is I(n_ij/n) consistent with zero?\" or \"what is the probability that the true mutual information is much larger than the point estimate?\" one has to go beyond the point estimate. In the Bayesian framework one can answer these questions by utilizing a (second order) prior distribution p(t) comprising prior information about t. From the prior p(t) one can compute the posterior p(t|n), from which the distribution p(I|n) of the mutual information can be calculated. We derive reliable and quickly computable approximations for p(I|n). We concentrate on the mean, variance, skewness, and kurtosis, and non-informative priors. For the mean we also give an exact expression. Numerical issues and the range of validity are discussed.\n    ",
+        "submission_date": "2001-12-15T00:00:00",
+        "last_modified_date": "2001-12-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0101014",
+        "title": "On the problem of computing the well-founded semantics",
+        "authors": [
+            "Zbigniew Lonc",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  The well-founded semantics is one of the most widely studied and used semantics of logic programs with negation. In the case of finite propositional programs, it can be computed in polynomial time, more specifically, in O(|At(P)|size(P)) steps, where size(P) denotes the total number of occurrences of atoms in a logic program P. This bound is achieved by an algorithm introduced by Van Gelder and known as the alternating-fixpoint algorithm. Improving on the alternating-fixpoint algorithm turned out to be difficult. In this paper we study extensions and modifications of the alternating-fixpoint approach. We then restrict our attention to the class of programs whose rules have no more than one positive occurrence of an atom in their bodies. For programs in that class we propose a new implementation of the alternating-fixpoint method in which false atoms are computed in a top-down fashion. We show that our algorithm is faster than other known algorithms and that for a wide class of programs it is linear and so, asymptotically optimal.\n    ",
+        "submission_date": "2001-01-17T00:00:00",
+        "last_modified_date": "2001-01-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0101036",
+        "title": "The Generalized Universal Law of Generalization",
+        "authors": [
+            "Nick Chater",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  It has been argued by Shepard that there is a robust psychological law that relates the distance between a pair of items in psychological space and the probability that they will be confused with each other. Specifically, the probability of confusion is a negative exponential function of the distance between the pair of items. In experimental contexts, distance is typically defined in terms of a multidimensional Euclidean space-but this assumption seems unlikely to hold for complex stimuli. We show that, nonetheless, the Universal Law of Generalization can be derived in the more complex setting of arbitrary stimuli, using a much more universal measure of distance. This universal distance is defined as the length of the shortest program that transforms the representations of the two items of interest into one another: the algorithmic information distance. It is universal in the sense that it minorizes every computable distance: it is the smallest computable distance. We show that the universal law of generalization holds with probability going to one-provided the confusion probabilities are computable. We also give a mathematically more appealing form\n    ",
+        "submission_date": "2001-01-29T00:00:00",
+        "last_modified_date": "2001-01-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0102014",
+        "title": "On the predictability of Rainfall in Kerala- An application of ABF Neural Network",
+        "authors": [
+            "Ninan Sajeeth Philip",
+            "K. Babu Joseph"
+        ],
+        "abstract": "  Rainfall in Kerala State, the southern part of Indian Peninsula in particular is caused by the two monsoons and the two cyclones every year. In general, climate and rainfall are highly nonlinear phenomena in nature giving rise to what is known as the `butterfly effect'. We however attempt to train an ABF neural network on the time series rainfall data and show for the first time that in spite of the fluctuations resulting from the nonlinearity in the system, the trends in the rainfall pattern in this corner of the globe have remained unaffected over the past 87 years from 1893 to 1980. We also successfully filter out the chaotic part of the system and illustrate that its effects are marginal over long term predictions.\n    ",
+        "submission_date": "2001-02-18T00:00:00",
+        "last_modified_date": "2001-02-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0102018",
+        "title": "An effective Procedure for Speeding up Algorithms",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  The provably asymptotically fastest algorithm within a factor of 5 for formally described problems will be constructed. The main idea is to enumerate all programs provably equivalent to the original problem by enumerating all proofs. The algorithm could be interpreted as a generalization and improvement of Levin search, which is, within a multiplicative constant, the fastest algorithm for inverting functions. Blum's speed-up theorem is avoided by taking into account only programs for which a correctness proof exists. Furthermore, it is shown that the fastest program that computes a certain function is also one of the shortest programs provably computing this function. To quantify this statement, the definition of Kolmogorov complexity is extended, and two new natural measures for the complexity of a function are defined.\n    ",
+        "submission_date": "2001-02-21T00:00:00",
+        "last_modified_date": "2001-02-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0103002",
+        "title": "Quantitative Neural Network Model of the Tip-of-the-Tongue Phenomenon Based on Synthesized Memory-Psycholinguistic-Metacognitive Approach",
+        "authors": [
+            "Petro M. Gopych"
+        ],
+        "abstract": "  A new three-stage computer artificial neural network model of the tip-of-the-tongue phenomenon is proposed. Each word's node is build from some interconnected learned auto-associative two-layer neural networks each of which represents separate word's semantic, lexical, or phonological components. The model synthesizes memory, psycholinguistic, and metamemory approaches, bridges speech errors and naming chronometry research traditions, and can explain quantitatively many tip-of-the-tongue effects.\n    ",
+        "submission_date": "2001-03-02T00:00:00",
+        "last_modified_date": "2001-03-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0104017",
+        "title": "Local Search Techniques for Constrained Portfolio Selection Problems",
+        "authors": [
+            "Andrea Schaerf"
+        ],
+        "abstract": "  We consider the problem of selecting a portfolio of assets that provides the investor a suitable balance of expected return and risk. With respect to the seminal mean-variance model of Markowitz, we consider additional constraints on the cardinality of the portfolio and on the quantity of individual shares. Such constraints better capture the real-world trading system, but make the problem more difficult to be solved with exact methods. We explore the use of local search techniques, mainly tabu search, for the portfolio selection problem. We compare and combine previous work on portfolio selection that makes use of the local search approach and we propose new algorithms that combine different neighborhood relations. In addition, we show how the use of randomization and of a simple form of adaptiveness simplifies the setting of a large number of critical parameters. Finally, we show how our techniques perform on public benchmarks.\n    ",
+        "submission_date": "2001-04-18T00:00:00",
+        "last_modified_date": "2001-04-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0104020",
+        "title": "Coaxing Confidences from an Old Friend: Probabilistic Classifications from Transformation Rule Lists",
+        "authors": [
+            "Radu Florian",
+            "John C. Henderson",
+            "Grace Ngai"
+        ],
+        "abstract": "  Transformation-based learning has been successfully employed to solve many natural language processing problems. It has many positive features, but one drawback is that it does not provide estimates of class membership probabilities.\n",
+        "submission_date": "2001-04-27T00:00:00",
+        "last_modified_date": "2001-04-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105003",
+        "title": "Rule Writing or Annotation: Cost-efficient Resource Usage for Base Noun Phrase Chunking",
+        "authors": [
+            "Grace Ngai",
+            "David Yarowsky"
+        ],
+        "abstract": "  This paper presents a comprehensive empirical comparison between two approaches for developing a base noun phrase chunker: human rule writing and active learning using interactive real-time human annotation. Several novel variations on active learning are investigated, and underlying cost models for cross-modal machine learning comparison are presented and explored. Results show that it is more efficient and more successful by several measures to train a system using active learning annotation rather than hand-crafted rule writing at a comparable level of human labor investment.\n    ",
+        "submission_date": "2001-05-02T00:00:00",
+        "last_modified_date": "2001-05-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105015",
+        "title": "The alldifferent Constraint: A Survey",
+        "authors": [
+            "W.J. van Hoeve"
+        ],
+        "abstract": "  The constraint of difference is known to the constraint programming community since Lauriere introduced Alice in 1978. Since then, several solving strategies have been designed for this constraint. In this paper we give both a practical overview and an abstract comparison of these different strategies.\n    ",
+        "submission_date": "2001-05-08T00:00:00",
+        "last_modified_date": "2001-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105017",
+        "title": "Optimization Over Zonotopes and Training Support Vector Machines",
+        "authors": [
+            "Marshall Bern",
+            "David Eppstein"
+        ],
+        "abstract": "  We make a connection between classical polytopes called zonotopes and Support Vector Machine (SVM) classifiers. We combine this connection with the ellipsoid method to give some new theoretical results on training SVMs. We also describe some special properties of soft margin C-SVMs as parameter C goes to infinity.\n    ",
+        "submission_date": "2001-05-08T00:00:00",
+        "last_modified_date": "2001-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105021",
+        "title": "Solving Composed First-Order Constraints from Discrete-Time Robust Control",
+        "authors": [
+            "Stefan Ratschan",
+            "Luc Jaulin"
+        ],
+        "abstract": "  This paper deals with a problem from discrete-time robust control which requires the solution of constraints over the reals that contain both universal and existential quantifiers. For solving this problem we formulate it as a program in a (fictitious) constraint logic programming language with explicit quantifier notation. This allows us to clarify the special structure of the problem, and to extend an algorithm for computing approximate solution sets of first-order constraints over the reals to exploit this structure. As a result we can deal with inputs that are clearly out of reach for current symbolic solvers.\n    ",
+        "submission_date": "2001-05-11T00:00:00",
+        "last_modified_date": "2001-05-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105027",
+        "title": "Bounds on sample size for policy evaluation in Markov environments",
+        "authors": [
+            "Leonid Peshkin",
+            "Sayan Mukherjee"
+        ],
+        "abstract": "  Reinforcement learning means finding the optimal course of action in Markovian environments without knowledge of the environment's dynamics. Stochastic optimization algorithms used in the field rely on estimates of the value of a policy. Typically, the value of a policy is estimated from results of simulating that very policy in the environment. This approach requires a large amount of simulation as different points in the policy space are considered. In this paper, we develop value estimators that utilize data gathered when using one policy to estimate the value of using another policy, resulting in much more data-efficient algorithms. We consider the question of accumulating a sufficient experience and give PAC-style bounds.\n    ",
+        "submission_date": "2001-05-17T00:00:00",
+        "last_modified_date": "2001-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105036",
+        "title": "Disjunctive Logic Programs with Inheritance",
+        "authors": [
+            "Francesco Buccafurri",
+            "Wolfgang Faber",
+            "Nicola Leone"
+        ],
+        "abstract": "  The paper proposes a new knowledge representation language, called DLP<, which extends disjunctive logic programming (with strong negation) by inheritance. The addition of inheritance enhances the knowledge modeling features of the language providing a natural representation of default reasoning with exceptions.\n",
+        "submission_date": "2001-05-30T00:00:00",
+        "last_modified_date": "2001-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106008",
+        "title": "Computing Functional and Relational Box Consistency by Structured Propagation in Atomic Constraint Systems",
+        "authors": [
+            "M.H. van Emden"
+        ],
+        "abstract": "  Box consistency has been observed to yield exponentially better performance than chaotic constraint propagation in the interval constraint system obtained by decomposing the original expression into primitive constraints. The claim was made that the improvement is due to avoiding decomposition. In this paper we argue that the improvement is due to replacing chaotic iteration by a more structured alternative.\n",
+        "submission_date": "2001-06-07T00:00:00",
+        "last_modified_date": "2001-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106014",
+        "title": "L.T.Kuzin: Research Program",
+        "authors": [
+            "Viacheslav Wolfengagen"
+        ],
+        "abstract": "  Lev T. Kuzin (1928--1997) is one of the founders of modern cybernetics and information science in Russia. He was awarded and honored the USSR State Prize for inspiring vision into the future of technical cybernetics and his invention and innovation of key technologies.\n",
+        "submission_date": "2001-06-08T00:00:00",
+        "last_modified_date": "2001-06-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106016",
+        "title": "File mapping Rule-based DBMS and Natural Language Processing",
+        "authors": [
+            "Vjacheslav M. Novikov"
+        ],
+        "abstract": "  This paper describes the system of storage, extract and processing of information structured similarly to the natural language. For recursive inference the system uses the rules having the same representation, as the data. The environment of storage of information is provided with the File Mapping (SHM) mechanism of operating system. In the paper the main principles of construction of dynamic data structure and language for record of the inference rules are stated; the features of available implementation are considered and the description of the application realizing semantic information retrieval on the natural language is given.\n    ",
+        "submission_date": "2001-06-10T00:00:00",
+        "last_modified_date": "2001-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106031",
+        "title": "Complexity Results and Practical Algorithms for Logics in Knowledge Representation",
+        "authors": [
+            "Stephan Tobies"
+        ],
+        "abstract": "  Description Logics (DLs) are used in knowledge-based systems to represent and reason about terminological knowledge of the application domain in a semantically well-defined manner. In this thesis, we establish a number of novel complexity results and give practical algorithms for expressive DLs that provide different forms of counting quantifiers.\n",
+        "submission_date": "2001-06-13T00:00:00",
+        "last_modified_date": "2001-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106036",
+        "title": "Convergence and Error Bounds for Universal Prediction of Nonbinary Sequences",
+        "authors": [
+            "Marcus Hutter"
+        ],
+        "abstract": "  Solomonoff's uncomputable universal prediction scheme $\\xi$ allows to predict the next symbol $x_k$ of a sequence $x_1...x_{k-1}$ for any Turing computable, but otherwise unknown, probabilistic environment $\\mu$. This scheme will be generalized to arbitrary environmental classes, which, among others, allows the construction of computable universal prediction schemes $\\xi$. Convergence of $\\xi$ to $\\mu$ in a conditional mean squared sense and with $\\mu$ probability 1 is proven. It is shown that the average number of prediction errors made by the universal $\\xi$ scheme rapidly converges to those made by the best possible informed $\\mu$ scheme. The schemes, theorems and proofs are given for general finite alphabet, which results in additional complications as compared to the binary case. Several extensions of the presented theory and results are outlined. They include general loss functions and bounds, games of chance, infinite alphabet, partial and delayed prediction, classification, and more active systems.\n    ",
+        "submission_date": "2001-06-15T00:00:00",
+        "last_modified_date": "2001-06-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0106040",
+        "title": "Stacking classifiers for anti-spam filtering of e-mail",
+        "authors": [
+            "G. Sakkis",
+            "I. Androutsopoulos",
+            "G. Paliouras",
+            "V. Karkaletsis",
+            "C. D. Spyropoulos",
+            "P. Stamatopoulos"
+        ],
+        "abstract": "  We evaluate empirically a scheme for combining classifiers, known as stacked generalization, in the context of anti-spam filtering, a novel cost-sensitive application of text categorization. Unsolicited commercial e-mail, or \"spam\", floods mailboxes, causing frustration, wasting bandwidth, and exposing minors to unsuitable content. Using a public corpus, we show that stacking can improve the efficiency of automatically induced anti-spam filters, and that such filters can be used in real-life applications.\n    ",
+        "submission_date": "2001-06-19T00:00:00",
+        "last_modified_date": "2001-06-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107012",
+        "title": "Three-Stage Quantitative Neural Network Model of the Tip-of-the-Tongue Phenomenon",
+        "authors": [
+            "Petro M. Gopych"
+        ],
+        "abstract": "  A new three-stage computer artificial neural network model of the tip-of-the-tongue phenomenon is shortly described, and its stochastic nature was demonstrated. A way to calculate strength and appearance probability of tip-of-the-tongue states, neural network mechanism of feeling-of-knowing phenomenon are proposed. The model synthesizes memory, psycholinguistic, and metamemory approaches, bridges speech errors and naming chronometry research traditions. A model analysis of a tip-of-the-tongue case from Anton Chekhov's short story 'A Horsey Name' is performed. A new 'throw-up-one's-arms effect' is defined.\n    ",
+        "submission_date": "2001-07-09T00:00:00",
+        "last_modified_date": "2001-07-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107013",
+        "title": "The Logic Programming Paradigm and Prolog",
+        "authors": [
+            "Krzysztof R. Apt"
+        ],
+        "abstract": "  This is a tutorial on logic programming and Prolog appropriate for a course on programming languages for students familiar with imperative programming.\n    ",
+        "submission_date": "2001-07-10T00:00:00",
+        "last_modified_date": "2001-07-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107014",
+        "title": "Transformations of CCP programs",
+        "authors": [
+            "Sandro Etalle",
+            "Maurizio Gabbrielli",
+            "Maria Chiara Meo"
+        ],
+        "abstract": "  We introduce a transformation system for concurrent constraint programming (CCP). We define suitable applicability conditions for the transformations which guarantee that the input/output CCP semantics is preserved also when distinguishing deadlocked computations from successful ones and when considering intermediate results of (possibly) non-terminating computations.\n",
+        "submission_date": "2001-07-10T00:00:00",
+        "last_modified_date": "2001-07-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0107027",
+        "title": "Fixed-parameter complexity of semantics for logic programs",
+        "authors": [
+            "Zbigniew Lonc",
+            "Miroslaw Truszczynski"
+        ],
+        "abstract": "  A decision problem is called parameterized if its input is a pair of strings. One of these strings is referred to as a parameter. The problem: given a propositional logic program P and a non-negative integer k, decide whether P has a stable model of size no more than k, is an example of a parameterized decision problem with k serving as a parameter. Parameterized problems that are NP-complete often become solvable in polynomial time if the parameter is fixed. The problem to decide whether a program P has a stable model of size no more than k, where k is fixed and not a part of input, can be solved in time O(mn^k), where m is the size of P and n is the number of atoms in P. Thus, this problem is in the class P. However, algorithms with the running time given by a polynomial of order k are not satisfactory even for relatively small values of k.\n",
+        "submission_date": "2001-07-19T00:00:00",
+        "last_modified_date": "2001-07-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0108008",
+        "title": "Using Methods of Declarative Logic Programming for Intelligent Information Agents",
+        "authors": [
+            "T. Eiter",
+            "M. Fink",
+            "G. Sabbatini",
+            "H. Tompits"
+        ],
+        "abstract": "  The search for information on the web is faced with several problems, which arise on the one hand from the vast number of available sources, and on the other hand from their heterogeneity. A promising approach is the use of multi-agent systems of information agents, which cooperatively solve advanced information-retrieval problems. This requires capabilities to address complex tasks, such as search and assessment of sources, query planning, information merging and fusion, dealing with incomplete information, and handling of inconsistency. In this paper, our interest is in the role which some methods from the field of declarative logic programming can play in the realization of reasoning capabilities for information agents. In particular, we are interested in how they can be used and further developed for the specific needs of this application domain. We review some existing systems and current projects, which address information-integration problems. We then focus on declarative knowledge-representation methods, and review and evaluate approaches from logic programming and nonmonotonic reasoning for information agents. We discuss advantages and drawbacks, and point out possible extensions and open issues.\n    ",
+        "submission_date": "2001-08-14T00:00:00",
+        "last_modified_date": "2001-08-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0108013",
+        "title": "Convergent Approximate Solving of First-Order Constraints by Approximate Quantifiers",
+        "authors": [
+            "Stefan Ratschan"
+        ],
+        "abstract": "  Exactly solving first-order constraints (i.e., first-order formulas over a certain predefined structure) can be a very hard, or even undecidable problem. In continuous structures like the real numbers it is promising to compute approximate solutions instead of exact ones. However, the quantifiers of the first-order predicate language are an obstacle to allowing approximations to arbitrary small error bounds. In this paper we solve the problem by modifying the first-order language and replacing the classical quantifiers with approximate quantifiers. These also have two additional advantages: First, they are tunable, in the sense that they allow the user to decide on the trade-off between precision and efficiency. Second, they introduce additional expressivity into the first-order language by allowing reasoning over the size of solution sets.\n    ",
+        "submission_date": "2001-08-22T00:00:00",
+        "last_modified_date": "2002-12-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109014",
+        "title": "Assigning Satisfaction Values to Constraints: An Algorithm to Solve Dynamic Meta-Constraints",
+        "authors": [
+            "Janet van der Linden"
+        ],
+        "abstract": "  The model of Dynamic Meta-Constraints has special activity constraints which can activate other constraints. It also has meta-constraints which range over other constraints. An algorithm is presented in which constraints can be assigned one of five different satisfaction values, which leads to the assignment of domain values to the variables in the CSP. An outline of the model and the algorithm is presented, followed by some initial results for two problems: a simple classic CSP and the Car Configuration Problem. The algorithm is shown to perform few backtracks per solution, but to have overheads in the form of historical records required for the implementation of state.\n    ",
+        "submission_date": "2001-09-13T00:00:00",
+        "last_modified_date": "2001-09-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109022",
+        "title": "Interactive Timetabling",
+        "authors": [
+            "Tomas Muller",
+            "Roman Bartak"
+        ],
+        "abstract": "  Timetabling is a typical application of constraint programming whose task is to allocate activities to slots in available resources respecting various constraints like precedence and capacity. In this paper we present a basic concept, a constraint model, and the solving algorithms for interactive timetabling. Interactive timetabling combines automated timetabling (the machine allocates the activities) with user interaction (the user can interfere with the process of timetabling). Because the user can see how the timetabling proceeds and can intervene this process, we believe that such approach is more convenient than full automated timetabling which behaves like a black-box. The contribution of this paper is twofold: we present a generic model to describe timetabling (and scheduling in general) problems and we propose an interactive algorithm for solving such problems.\n    ",
+        "submission_date": "2001-09-17T00:00:00",
+        "last_modified_date": "2001-09-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109023",
+        "title": "Integrating Multiple Knowledge Sources for Robust Semantic Parsing",
+        "authors": [
+            "Jordi Atserias",
+            "Lluis Padro",
+            "German Rigau"
+        ],
+        "abstract": "  This work explores a new robust approach for Semantic Parsing of unrestricted texts. Our approach considers Semantic Parsing as a Consistent Labelling Problem (CLP), allowing the integration of several knowledge types (syntactic and semantic) obtained from different sources (linguistic and statistic). The current implementation obtains 95% accuracy in model identification and 72% in case-role filling.\n    ",
+        "submission_date": "2001-09-17T00:00:00",
+        "last_modified_date": "2001-09-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109025",
+        "title": "Dynamic Global Constraints: A First View",
+        "authors": [
+            "Roman Bartak"
+        ],
+        "abstract": "  Global constraints proved themselves to be an efficient tool for modelling and solving large-scale real-life combinatorial problems. They encapsulate a set of binary constraints and using global reasoning about this set they filter the domains of involved variables better than arc consistency among the set of binary constraints. Moreover, global constraints exploit semantic information to achieve more efficient filtering than generalised consistency algorithms for n-ary constraints. Continued expansion of constraint programming (CP) to various application areas brings new challenges for design of global constraints. In particular, application of CP to advanced planning and scheduling (APS) requires dynamic additions of new variables and constraints during the process of constraint satisfaction and, thus, it would be helpful if the global constraints could adopt new variables. In the paper, we give a motivation for such dynamic global constraints and we describe a dynamic version of the well-known alldifferent constraint.\n    ",
+        "submission_date": "2001-09-18T00:00:00",
+        "last_modified_date": "2001-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109042",
+        "title": "Intelligent Search of Correlated Alarms from Database containing Noise Data",
+        "authors": [
+            "Qingguo Zheng",
+            "Ke Xu",
+            "Weifeng Lv",
+            "Shilong Ma"
+        ],
+        "abstract": "  Alarm correlation plays an important role in improving the service and reliability in modern telecommunications networks. Most previous research of alarm correlation didn't consider the effect of noise data in Database. This paper focuses on the method of discovering alarm correlation rules from database containing noise data. We firstly define two parameters Win_freq and Win_add as the measure of noise data and then present the Robust_search algorithm to solve the problem. At different size of Win_freq and Win_add, experiments with alarm data containing noise data show that the Robust_search Algorithm can discover the more rules with the bigger size of Win_add. We also experimentally compare two different interestingness measures of confidence and correlation.\n    ",
+        "submission_date": "2001-09-21T00:00:00",
+        "last_modified_date": "2001-12-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0110023",
+        "title": "Set Unification",
+        "authors": [
+            "Agostino Dovier",
+            "Enrico Pontelli",
+            "Gianfranco Rossi"
+        ],
+        "abstract": "  The unification problem in algebras capable of describing sets has been tackled, directly or indirectly, by many researchers and it finds important applications in various research areas--e.g., deductive databases, theorem proving, static analysis, rapid software prototyping. The various solutions proposed are spread across a large literature. In this paper we provide a uniform presentation of unification of sets, formalizing it at the level of set theory. We address the problem of deciding existence of solutions at an abstract level. This provides also the ability to classify different types of set unification problems. Unification algorithms are uniformly proposed to solve the unification problem in each of such classes.\n",
+        "submission_date": "2001-10-09T00:00:00",
+        "last_modified_date": "2005-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0110032",
+        "title": "A logic-based approach to data integration",
+        "authors": [
+            "J. Grant",
+            "J. Minker"
+        ],
+        "abstract": "  An important aspect of data integration involves answering queries using various resources rather than by accessing database relations. The process of transforming a query from the database relations to the resources is often referred to as query folding or answering queries using views, where the views are the resources. We present a uniform approach that includes as special cases much of the previous work on this subject. Our approach is logic-based using resolution. We deal with integrity constraints, negation, and recursion also within this framework.\n    ",
+        "submission_date": "2001-10-16T00:00:00",
+        "last_modified_date": "2001-10-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0110057",
+        "title": "Generating Multilingual Personalized Descriptions of Museum Exhibits - The M-PIRO Project",
+        "authors": [
+            "Ion Androutsopoulos",
+            "Vassiliki Kokkinaki",
+            "Aggeliki Dimitromanolaki",
+            "Jo Calder",
+            "Jon Oberlander",
+            "Elena Not"
+        ],
+        "abstract": "  This paper provides an overall presentation of the M-PIRO project. M-PIRO is developing technology that will allow museums to generate automatically textual or spoken descriptions of exhibits for collections available over the Web or in virtual reality environments. The descriptions are generated in several languages from information in a language-independent database and small fragments of text, and they can be tailored according to the backgrounds of the users, their ages, and their previous interaction with the system. An authoring tool allows museum curators to update the system's database and to control the language and content of the resulting descriptions. Although the project is still in progress, a Web-based demonstrator that supports English, Greek and Italian is already available, and it is used throughout the paper to highlight the capabilities of the emerging technology.\n    ",
+        "submission_date": "2001-10-29T00:00:00",
+        "last_modified_date": "2001-10-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111018",
+        "title": "Data Acquisition and Database Management System for Samsung Superconductor Test Facility",
+        "authors": [
+            "Y. Chu",
+            "S. Baek",
+            "H. Yonekawa",
+            "A. Chertovskikh",
+            "M. Kim",
+            "J. S. Kim",
+            "K. Park",
+            "S. Baang",
+            "Y. Chang",
+            "J. H. Kim",
+            "S. Lee",
+            "B. Lim",
+            "W. Chung",
+            "H. Park",
+            "K. Kim"
+        ],
+        "abstract": "  In order to fulfill the test requirement of KSTAR (Korea Superconducting Tokamak Advanced Research) superconducting magnet system, a large scale superconducting magnet and conductor test facility, SSTF (Samsung Superconductor Test Facility), has been constructed at Samsung Advanced Institute of Technology. The computer system for SSTF DAC (Data Acquisition and Control) is based on UNIX system and VxWorks is used for the real-time OS of the VME system. EPICS (Experimental Physics and Industrial Control System) is used for the communication between IOC server and client. A database program has been developed for the efficient management of measured data and a Linux workstation with PENTIUM-4 CPU is used for the database server. In this paper, the current status of SSTF DAC system, the database management system and recent test results are presented.\n    ",
+        "submission_date": "2001-11-08T00:00:00",
+        "last_modified_date": "2001-11-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112007",
+        "title": "A Tight Upper Bound on the Number of Candidate Patterns",
+        "authors": [
+            "Floris Geerts",
+            "Bart Goethals",
+            "Jan Van den Bussche"
+        ],
+        "abstract": "  In the context of mining for frequent patterns using the standard levelwise algorithm, the following question arises: given the current level and the current set of frequent patterns, what is the maximal number of candidate patterns that can be generated on the next level? We answer this question by providing a tight upper bound, derived from a combinatorial result from the sixties by Kruskal and Katona. Our result is useful to reduce the number of database scans.\n    ",
+        "submission_date": "2001-12-07T00:00:00",
+        "last_modified_date": "2002-11-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112011",
+        "title": "Interactive Constrained Association Rule Mining",
+        "authors": [
+            "Bart Goethals",
+            "Jan Van den Bussche"
+        ],
+        "abstract": "  We investigate ways to support interactive mining sessions, in the setting of association rule mining. In such sessions, users specify conditions (queries) on the associations to be generated. Our approach is a combination of the integration of querying conditions inside the mining phase, and the incremental querying of already generated associations. We present several concrete algorithms and compare their performance.\n    ",
+        "submission_date": "2001-12-10T00:00:00",
+        "last_modified_date": "2003-02-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0112013",
+        "title": "A Data Mining Framework for Optimal Product Selection in Retail Supermarket Data: The Generalized PROFSET Model",
+        "authors": [
+            "Tom Brijs",
+            "Bart Goethals",
+            "Gilbert Swinnen",
+            "Koen Vanhoof",
+            "Geert Wets"
+        ],
+        "abstract": "  In recent years, data mining researchers have developed efficient association rule algorithms for retail market basket analysis. Still, retailers often complain about how to adopt association rules to optimize concrete retail marketing-mix decisions. It is in this context that, in a previous paper, the authors have introduced a product selection model called PROFSET. This model selects the most interesting products from a product assortment based on their cross-selling potential given some retailer defined constraints. However this model suffered from an important deficiency: it could not deal effectively with supermarket data, and no provisions were taken to include retail category management principles. Therefore, in this paper, the authors present an important generalization of the existing model in order to make it suitable for supermarket data as well, and to enable retailers to add category restrictions to the model. Experiments on real world data obtained from a Belgian supermarket chain produce very promising results and demonstrate the effectiveness of the generalized PROFSET model.\n    ",
+        "submission_date": "2001-12-11T00:00:00",
+        "last_modified_date": "2001-12-11T00:00:00"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0101010",
+        "title": "An Even Faster and More Unifying Algorithm for Comparing Trees via Unbalanced Bipartite Matchings",
+        "authors": [
+            "Ming-Yang Kao",
+            "Tak-Wah Lam",
+            "Wing-Kin Sung",
+            "Hing-Fung Ting"
+        ],
+        "abstract": "  A widely used method for determining the similarity of two labeled trees is to compute a maximum agreement subtree of the two trees. Previous work on this similarity measure is only concerned with the comparison of labeled trees of two special kinds, namely, uniformly labeled trees (i.e., trees with all their nodes labeled by the same symbol) and evolutionary trees (i.e., leaf-labeled trees with distinct symbols for distinct leaves). This paper presents an algorithm for comparing trees that are labeled in an arbitrary manner. In addition to this generality, this algorithm is faster than the previous algorithms.\n",
+        "submission_date": "2001-01-14T00:00:00",
+        "last_modified_date": "2001-01-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0101036",
+        "title": "The Generalized Universal Law of Generalization",
+        "authors": [
+            "Nick Chater",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  It has been argued by Shepard that there is a robust psychological law that relates the distance between a pair of items in psychological space and the probability that they will be confused with each other. Specifically, the probability of confusion is a negative exponential function of the distance between the pair of items. In experimental contexts, distance is typically defined in terms of a multidimensional Euclidean space-but this assumption seems unlikely to hold for complex stimuli. We show that, nonetheless, the Universal Law of Generalization can be derived in the more complex setting of arbitrary stimuli, using a much more universal measure of distance. This universal distance is defined as the length of the shortest program that transforms the representations of the two items of interest into one another: the algorithmic information distance. It is universal in the sense that it minorizes every computable distance: it is the smallest computable distance. We show that the universal law of generalization holds with probability going to one-provided the confusion probabilities are computable. We also give a mathematically more appealing form\n    ",
+        "submission_date": "2001-01-29T00:00:00",
+        "last_modified_date": "2001-01-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0105026",
+        "title": "Toward Natural Gesture/Speech Control of a Large Display",
+        "authors": [
+            "S. Kettebekov",
+            "R. Sharma"
+        ],
+        "abstract": "  In recent years because of the advances in computer vision research, free hand gestures have been explored as means of human-computer interaction (HCI). Together with improved speech processing technology it is an important step toward natural multimodal HCI. However, inclusion of non-predefined continuous gestures into a multimodal framework is a challenging problem. In this paper, we propose a structured approach for studying patterns of multimodal language in the context of a 2D-display control. We consider systematic analysis of gestures from observable kinematical primitives to their semantics as pertinent to a linguistic structure. Proposed semantic classification of co-verbal gestures distinguishes six categories based on their spatio-temporal deixis. We discuss evolution of a computational framework for gesture and speech integration which was used to develop an interactive testbed (iMAP). The testbed enabled elicitation of adequate, non-sequential, multimodal patterns in a narrative mode of HCI. Conducted user studies illustrate significance of accounting for the temporal alignment of gesture and speech parts in semantic mapping. Furthermore, co-occurrence analysis of gesture/speech production suggests syntactic organization of gestures at the lexical level.\n    ",
+        "submission_date": "2001-05-17T00:00:00",
+        "last_modified_date": "2001-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0109116",
+        "title": "Digital Color Imaging",
+        "authors": [
+            "Gaurav Sharma",
+            "H. Joel Trussell"
+        ],
+        "abstract": "  This paper surveys current technology and research in the area of digital color imaging. In order to establish the background and lay down terminology, fundamental concepts of color perception and measurement are first presented us-ing vector-space notation and terminology. Present-day color recording and reproduction systems are reviewed along with the common mathematical models used for representing these devices. Algorithms for processing color images for display and communication are surveyed, and a forecast of research trends is attempted. An extensive bibliography is provided.\n    ",
+        "submission_date": "2001-09-26T00:00:00",
+        "last_modified_date": "2001-09-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0111054",
+        "title": "The similarity metric",
+        "authors": [
+            "Ming Li",
+            "Xin Chen",
+            "Xin Li",
+            "Bin Ma",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  A new class of distances appropriate for measuring similarity relations between sequences, say one type of similarity per distance, is studied. We propose a new ``normalized information distance'', based on the noncomputable notion of Kolmogorov complexity, and show that it is in this class and it minorizes every computable distance in the class (that is, it is universal in that it discovers all computable similarities). We demonstrate that it is a metric and call it the {\\em similarity metric}. This theory forms the foundation for a new practical tool. To evidence generality and robustness we give two distinctive applications in widely divergent areas using standard compression programs like gzip and GenCompress. First, we compare whole mitochondrial genomes and infer their evolutionary history. This results in a first completely automatic computed whole mitochondrial phylogeny tree. Secondly, we fully automatically compute the language tree of 52 different languages.\n    ",
+        "submission_date": "2001-11-20T00:00:00",
+        "last_modified_date": "2004-08-05T00:00:00"
+    }
+]

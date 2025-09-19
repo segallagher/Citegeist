@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9810003",
+        "title": "A Linear Shift Invariant Multiscale Transform",
+        "authors": [
+            "Andreas Siebert"
+        ],
+        "abstract": "  This paper presents a multiscale decomposition algorithm. Unlike standard wavelet transforms, the proposed operator is both linear and shift invariant. The central idea is to obtain shift invariance by averaging the aligned wavelet transform projections over all circular shifts of the signal. It is shown how the same transform can be obtained by a linear filter bank.\n    ",
+        "submission_date": "1998-10-02T00:00:00",
+        "last_modified_date": "1998-10-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9810017",
+        "title": "General Theory of Image Normalization",
+        "authors": [
+            "Stephen L. Adler"
+        ],
+        "abstract": "  We give a systematic, abstract formulation of the image normalization method as applied to a general group of image transformations, and then illustrate the abstract analysis by applying it to the hierarchy of viewing transformations of a planar object.\n    ",
+        "submission_date": "1998-10-19T00:00:00",
+        "last_modified_date": "1998-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/quant-ph/9802028",
+        "title": "Analogue Quantum Computers for Data Analysis",
+        "authors": [
+            "Alexander Yu. Vlasov"
+        ],
+        "abstract": "  Analogue computers use continuous properties of physical system for modeling. In the paper is described possibility of modeling by analogue quantum computers for some model of data analysis. It is analogue associative memory and a formal neural network. A particularity of the models is combination of continuous internal processes with discrete set of output states. The modeling of the system by classical analogue computers was offered long times ago, but now it is not very effectively in comparison with modern digital computers. The application of quantum analogue modelling looks quite possible for modern level of technology and it may be more effective than digital one, because number of element may be about Avogadro number (N=6.0E23).\n    ",
+        "submission_date": "1998-02-11T00:00:00",
+        "last_modified_date": "1998-02-11T00:00:00"
+    }
+]

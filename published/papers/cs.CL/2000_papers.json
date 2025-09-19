@@ -1,0 +1,1407 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0001002",
+        "title": "Minimum Description Length and Compositionality",
+        "authors": [
+            "Wlodek Zadrozny"
+        ],
+        "abstract": "  We present a non-vacuous definition of compositionality. It is based on the idea of combining the minimum description length principle with the original definition of compositionality (that is, that the meaning of the whole is a function of the meaning of the parts).\n",
+        "submission_date": "2000-01-04T00:00:00",
+        "last_modified_date": "2000-01-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001006",
+        "title": "Compositionality, Synonymy, and the Systematic Representation of Meaning",
+        "authors": [
+            "Shalom Lappin",
+            "Wlodek Zadrozny"
+        ],
+        "abstract": "  In a recent issue of Linguistics and Philosophy Kasmi and Pelletier (1998) (K&P), and Westerstahl (1998) criticize Zadrozny's (1994) argument that any semantics can be represented compositionally. The argument is based upon Zadrozny's theorem that every meaning function m can be encoded by a function \\mu such that (i) for any expression E of a specified language L, m(E) can be recovered from \\mu(E), and (ii) \\mu is a homomorphism from the syntactic structures of L to interpretations of L.\n",
+        "submission_date": "2000-01-09T00:00:00",
+        "last_modified_date": "2000-01-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001010",
+        "title": "A Real World Implementation of Answer Extraction",
+        "authors": [
+            "D. Molla",
+            "J. Berri",
+            "M. Hess"
+        ],
+        "abstract": "  In this paper we describe ExtrAns, an answer extraction system. Answer extraction (AE) aims at retrieving those exact passages of a document that directly answer a given user question. AE is more ambitious than information retrieval and information extraction in that the retrieval results are phrases, not entire documents, and in that the queries may be arbitrarily specific. It is less ambitious than full-fledged question answering in that the answers are not generated from a knowledge base but looked up in the text of documents. The current version of ExtrAns is able to parse unedited Unix \"man pages\", and derive the logical form of their sentences. User queries are also translated into logical forms. A theorem prover then retrieves the relevant phrases, which are presented through selective highlighting in their context.\n    ",
+        "submission_date": "2000-01-14T00:00:00",
+        "last_modified_date": "2000-01-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001012",
+        "title": "Measures of Distributional Similarity",
+        "authors": [
+            "Lillian Lee"
+        ],
+        "abstract": "  We study distributional similarity measures for the purpose of improving probability estimation for unseen cooccurrences. Our contributions are three-fold: an empirical comparison of a broad range of measures; a classification of similarity functions based on the information that they incorporate; and the introduction of a novel function that is superior at evaluating potential proxy distributions.\n    ",
+        "submission_date": "2000-01-18T00:00:00",
+        "last_modified_date": "2000-01-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001020",
+        "title": "Exploiting Syntactic Structure for Natural Language Modeling",
+        "authors": [
+            "Ciprian Chelba"
+        ],
+        "abstract": "  The thesis presents an attempt at using the syntactic structure in natural language for improved language models for speech recognition. The structured language model merges techniques in automatic parsing and language modeling using an original probabilistic parameterization of a shift-reduce parser. A maximum likelihood reestimation procedure belonging to the class of expectation-maximization algorithms is employed for training the model. Experiments on the Wall Street Journal, Switchboard and Broadcast News corpora show improvement in both perplexity and word error rate - word lattice rescoring - over the standard 3-gram language model. The significance of the thesis lies in presenting an original approach to language modeling that uses the hierarchical - syntactic - structure in natural language to improve on current 3-gram modeling techniques for large vocabulary speech recognition.\n    ",
+        "submission_date": "2000-01-24T00:00:00",
+        "last_modified_date": "2000-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001021",
+        "title": "Refinement of a Structured Language Model",
+        "authors": [
+            "Ciprian Chelba",
+            "Frederick Jelinek"
+        ],
+        "abstract": "  A new language model for speech recognition inspired by linguistic analysis is presented. The model develops hidden hierarchical structure incrementally and uses it to extract meaningful information from the word history - thus enabling the use of extended distance dependencies - in an attempt to complement the locality of currently used n-gram Markov models. The model, its probabilistic parametrization, a reestimation algorithm for the model parameters and a set of experiments meant to evaluate its potential for speech recognition are presented.\n    ",
+        "submission_date": "2000-01-24T00:00:00",
+        "last_modified_date": "2000-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001022",
+        "title": "Recognition Performance of a Structured Language Model",
+        "authors": [
+            "Ciprian Chelba",
+            "Frederick Jelinek"
+        ],
+        "abstract": "  A new language model for speech recognition inspired by linguistic analysis is presented. The model develops hidden hierarchical structure incrementally and uses it to extract meaningful information from the word history - thus enabling the use of extended distance dependencies - in an attempt to complement the locality of currently used trigram models. The structured language model, its probabilistic parameterization and performance in a two-pass speech recognizer are presented. Experiments on the SWITCHBOARD corpus show an improvement in both perplexity and word error rate over conventional trigram models.\n    ",
+        "submission_date": "2000-01-24T00:00:00",
+        "last_modified_date": "2000-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001023",
+        "title": "Structured Language Modeling for Speech Recognition",
+        "authors": [
+            "Ciprian Chelba",
+            "Frederick Jelinek"
+        ],
+        "abstract": "  A new language model for speech recognition is presented. The model develops hidden hierarchical syntactic-like structure incrementally and uses it to extract meaningful information from the word history, thus complementing the locality of currently used trigram models. The structured language model (SLM) and its performance in a two-pass speech recognizer --- lattice decoding --- are presented. Experiments on the WSJ corpus show an improvement in both perplexity (PPL) and word error rate (WER) over conventional trigram models.\n    ",
+        "submission_date": "2000-01-25T00:00:00",
+        "last_modified_date": "2000-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0002007",
+        "title": "Requirements of Text Processing Lexicons",
+        "authors": [
+            "K. Litkowski"
+        ],
+        "abstract": "  As text processing systems expand in scope, they will require ever larger lexicons along with a parsing capability for discriminating among many senses of a word. Existing systems do not incorporate such subtleties in meaning for their lexicons. Ordinary dictionaries contain such information, but are largely untapped. When the contents of dictionaries are scrutinized, they reveal many requirements that must be satisfied in representing meaning and in developing semantic parsers. These requirements were identified in research designed to find primitive verb concepts. The requirements are outlined and general procedures for satisfying them through the use of ordinary dictionaries are described, illustrated by building frames for and examining the definitions of \"change\" and its uses as a hypernym in other definitions.\n    ",
+        "submission_date": "2000-02-11T00:00:00",
+        "last_modified_date": "2000-02-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0002017",
+        "title": "An Usage Measure Based on Psychophysical Relations",
+        "authors": [
+            "V. Kromer"
+        ],
+        "abstract": "  A new word usage measure is proposed. It is based on psychophysical relations and allows to reveal words by its degree of \"importance\" for making basic dictionaries of sublanguages.\n    ",
+        "submission_date": "2000-02-27T00:00:00",
+        "last_modified_date": "2000-02-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003055",
+        "title": "TnT - A Statistical Part-of-Speech Tagger",
+        "authors": [
+            "Thorsten Brants"
+        ],
+        "abstract": "  Trigrams'n'Tags (TnT) is an efficient statistical part-of-speech tagger. Contrary to claims found elsewhere in the literature, we argue that a tagger based on Markov models performs at least as well as other current approaches, including the Maximum Entropy framework. A recent comparison has even shown that TnT performs significantly better for the tested corpora. We describe the basic model of TnT, the techniques used for smoothing and for handling unknown words. Furthermore, we present evaluations on two corpora.\n    ",
+        "submission_date": "2000-03-13T00:00:00",
+        "last_modified_date": "2000-03-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003060",
+        "title": "Message Classification in the Call Center",
+        "authors": [
+            "Stephan Busemann",
+            "Sven Schmeier",
+            "Roman G. Arens"
+        ],
+        "abstract": "  Customer care in technical domains is increasingly based on e-mail communication, allowing for the reproduction of approved solutions. Identifying the customer's problem is often time-consuming, as the problem space changes if new products are launched. This paper describes a new approach to the classification of e-mail requests based on shallow text processing and machine learning techniques. It is implemented within an assistance system for call center agents that is used in a commercial setting.\n    ",
+        "submission_date": "2000-03-14T00:00:00",
+        "last_modified_date": "2000-03-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003074",
+        "title": "A Finite State and Data-Oriented Method for Grapheme to Phoneme Conversion",
+        "authors": [
+            "Gosse Bouma"
+        ],
+        "abstract": "  A finite-state method, based on leftmost longest-match replacement, is presented for segmenting words into graphemes, and for converting graphemes into phonemes. A small set of hand-crafted conversion rules for Dutch achieves a phoneme accuracy of over 93%. The accuracy of the system is further improved by using transformation-based learning. The phoneme accuracy of the best system (using a large set of rule templates and a `lazy' variant of Brill's algoritm), trained on only 40K words, reaches 99% accuracy.\n    ",
+        "submission_date": "2000-03-23T00:00:00",
+        "last_modified_date": "2000-03-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003081",
+        "title": "Variable Word Rate N-grams",
+        "authors": [
+            "Yoshihiko Gotoh",
+            "Steve Renals"
+        ],
+        "abstract": "  The rate of occurrence of words is not uniform but varies from document to document. Despite this observation, parameters for conventional n-gram language models are usually derived using the assumption of a constant word rate. In this paper we investigate the use of variable word rate assumption, modelled by a Poisson distribution or a continuous mixture of Poissons. We present an approach to estimating the relative frequencies of words or n-grams taking prior information of their occurrences into account. Discounting and smoothing schemes are also considered. Using the Broadcast News task, the approach demonstrates a reduction of perplexity up to 10%.\n    ",
+        "submission_date": "2000-03-29T00:00:00",
+        "last_modified_date": "2000-03-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003083",
+        "title": "Advances in domain independent linear text segmentation",
+        "authors": [
+            "Freddy Y. Y. Choi"
+        ],
+        "abstract": "  This paper describes a method for linear text segmentation which is twice as accurate and over seven times as fast as the state-of-the-art (Reynar, 1998). Inter-sentence similarity is replaced by rank in the local context. Boundary locations are discovered by divisive clustering.\n    ",
+        "submission_date": "2000-03-30T00:00:00",
+        "last_modified_date": "2000-03-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003084",
+        "title": "Information Extraction from Broadcast News",
+        "authors": [
+            "Yoshihiko Gotoh",
+            "Steve Renals"
+        ],
+        "abstract": "  This paper discusses the development of trainable statistical models for extracting content from television and radio news broadcasts. In particular we concentrate on statistical finite state models for identifying proper names and other named entities in broadcast speech. Two models are presented: the first represents name class information as a word attribute; the second represents both word-word and class-class transitions explicitly. A common n-gram based formulation is used for both models. The task of named entity identification is characterized by relatively sparse training data and issues related to smoothing are discussed. Experiments are reported using the DARPA/NIST Hub-4E evaluation for North American Broadcast News.\n    ",
+        "submission_date": "2000-03-30T00:00:00",
+        "last_modified_date": "2000-03-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0004008",
+        "title": "How to Evaluate your Question Answering System Every Day and Still Get Real Work Done",
+        "authors": [
+            "Eric Breck",
+            "John D. Burger",
+            "Lisa Ferro",
+            "Lynette Hirschman",
+            "David House",
+            "Marc Light",
+            "Inderjeet Mani"
+        ],
+        "abstract": "  In this paper, we report on Qaviar, an experimental automated evaluation system for question answering applications. The goal of our research was to find an automatically calculated measure that correlates well with human judges' assessment of answer correctness in the context of question answering tasks. Qaviar judges the response by computing recall against the stemmed content words in the human-generated answer key. It counts the answer correct if it exceeds agiven recall threshold. We determined that the answer correctness predicted by Qaviar agreed with the human 93% to 95% of the time. 41 question-answering systems were ranked by both Qaviar and human assessors, and these rankings correlated with a Kendall's Tau measure of 0.920, compared to a correlation of 0.956 between human assessors on the same data.\n    ",
+        "submission_date": "2000-04-17T00:00:00",
+        "last_modified_date": "2000-04-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0004016",
+        "title": "Looking at discourse in a corpus: The role of lexical cohesion",
+        "authors": [
+            "Tony Berber Sardinha"
+        ],
+        "abstract": "  This paper is aimed at reporting on the development and application of a computer model for discourse analysis through segmentation. Segmentation refers to the principled division of texts into contiguous constituents. Other studies have looked at the application of a number of models to the analysis of discourse by computer. The segmentation procedure developed for the present investigation is called LSM ('Link Set Median'). It was applied to three corpus of 300 texts from three different genres. The results obtained by application of the LSM procedure on the corpus were then compared to segmentation carried out at random. Statistical analyses suggested that LSM significantly outperformed random segmentation, thus indicating that the segmentation was meaningful.\n    ",
+        "submission_date": "2000-04-28T00:00:00",
+        "last_modified_date": "2000-04-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005006",
+        "title": "A Simple Approach to Building Ensembles of Naive Bayesian Classifiers for Word Sense Disambiguation",
+        "authors": [
+            "Ted Pedersen"
+        ],
+        "abstract": "  This paper presents a corpus-based approach to word sense disambiguation that builds an ensemble of Naive Bayesian classifiers, each of which is based on lexical features that represent co--occurring words in varying sized windows of context. Despite the simplicity of this approach, empirical results disambiguating the widely studied nouns line and interest show that such an ensemble achieves accuracy rivaling the best previously published results.\n    ",
+        "submission_date": "2000-05-07T00:00:00",
+        "last_modified_date": "2000-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005015",
+        "title": "Noun Phrase Recognition by System Combination",
+        "authors": [
+            "Erik F. Tjong Kim Sang"
+        ],
+        "abstract": "  The performance of machine learning algorithms can be improved by combining the output of different systems. In this paper we apply this idea to the recognition of noun ",
+        "submission_date": "2000-05-10T00:00:00",
+        "last_modified_date": "2000-05-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005016",
+        "title": "Improving Testsuites via Instrumentation",
+        "authors": [
+            "Norbert Broeker"
+        ],
+        "abstract": "  This paper explores the usefulness of a technique from software engineering, namely code instrumentation, for the development of large-scale natural language grammars. Information about the usage of grammar rules in test sentences is used to detect untested rules, redundant test sentences, and likely causes of overgeneration. Results show that less than half of a large-coverage grammar for German is actually tested by two large testsuites, and that 10-30% of testing time is redundant. The methodology applied can be seen as a re-use of grammar writing knowledge for testsuite compilation.\n    ",
+        "submission_date": "2000-05-10T00:00:00",
+        "last_modified_date": "2000-05-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005019",
+        "title": "On the Scalability of the Answer Extraction System \"ExtrAns\"",
+        "authors": [
+            "Diego Moll'a Aliod",
+            "Michael Hess"
+        ],
+        "abstract": "  This paper reports on the scalability of the answer extraction system ExtrAns. An answer extraction system locates the exact phrases in the documents that contain the explicit answers to the user queries. Answer extraction systems are therefore more convenient than document retrieval systems in situations where the user wants to find specific information in limited time.\n",
+        "submission_date": "2000-05-12T00:00:00",
+        "last_modified_date": "2000-05-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005020",
+        "title": "Centroid-based summarization of multiple documents: sentence extraction, utility-based evaluation, and user studies",
+        "authors": [
+            "Dragomir R. Radev",
+            "Hongyan Jing",
+            "Malgorzata Budzikowska"
+        ],
+        "abstract": "  We present a multi-document summarizer, called MEAD, which generates summaries using cluster centroids produced by a topic detection and tracking system. We also describe two new techniques, based on sentence utility and subsumption, which we have applied to the evaluation of both single and multiple document summaries. Finally, we describe two user studies that test our models of multi-document summarization.\n    ",
+        "submission_date": "2000-05-12T00:00:00",
+        "last_modified_date": "2000-05-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005025",
+        "title": "Finite-State Reduplication in One-Level Prosodic Morphology",
+        "authors": [
+            "Markus Walther"
+        ],
+        "abstract": "  Reduplication, a central instance of prosodic morphology, is particularly challenging for state-of-the-art computational morphology, since it involves copying of some part of a phonological string. In this paper I advocate a finite-state method that combines enriched lexical representations via intersection to implement the copying. The proposal includes a resource-conscious variant of automata and can benefit from the existence of lazy algorithms. Finally, the implementation of a complex case from Koasati is presented.\n    ",
+        "submission_date": "2000-05-22T00:00:00",
+        "last_modified_date": "2000-05-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005029",
+        "title": "Ranking suspected answers to natural language questions using predictive annotation",
+        "authors": [
+            "Dragomir R. Radev",
+            "John Prager",
+            "Valerie Samn"
+        ],
+        "abstract": "  In this paper, we describe a system to rank suspected answers to natural language questions. We process both corpus and query using a new technique, predictive annotation, which augments phrases in texts with labels anticipating their being targets of certain kinds of questions. Given a natural language question, an IR system returns a set of matching passages, which are then analyzed and ranked according to various criteria described in this paper. We provide an evaluation of the techniques based on results from the TREC Q&A evaluation in which our system participated.\n    ",
+        "submission_date": "2000-05-30T00:00:00",
+        "last_modified_date": "2000-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006003",
+        "title": "Exploiting Diversity in Natural Language Processing: Combining Parsers",
+        "authors": [
+            "John C. Henderson",
+            "Eric Brill"
+        ],
+        "abstract": "  Three state-of-the-art statistical parsers are combined to produce more accurate parses, as well as new bounds on achievable Treebank parsing accuracy. Two general approaches are presented and two combination techniques are described for each approach. Both parametric and non-parametric models are explored. The resulting parsers surpass the best previously published performance results for the Penn Treebank.\n    ",
+        "submission_date": "2000-06-01T00:00:00",
+        "last_modified_date": "2000-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006011",
+        "title": "Bagging and Boosting a Treebank Parser",
+        "authors": [
+            "John C. Henderson",
+            "Eric Brill"
+        ],
+        "abstract": "  Bagging and boosting, two effective machine learning techniques, are applied to natural language parsing. Experiments using these techniques with a trainable statistical parser are described. The best resulting system provides roughly as large of a gain in F-measure as doubling the corpus size. Error analysis of the result of the boosting technique reveals some inconsistent annotations in the Penn Treebank, suggesting a semi-automatic method for finding inconsistent treebank annotations.\n    ",
+        "submission_date": "2000-06-05T00:00:00",
+        "last_modified_date": "2000-06-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006012",
+        "title": "Exploiting Diversity for Natural Language Parsing",
+        "authors": [
+            "John C. Henderson"
+        ],
+        "abstract": "  The popularity of applying machine learning methods to computational linguistics problems has produced a large supply of trainable natural language processing systems. Most problems of interest have an array of off-the-shelf products or downloadable code implementing solutions using various techniques. Where these solutions are developed independently, it is observed that their errors tend to be independently distributed. This thesis is concerned with approaches for capitalizing on this situation in a sample problem domain, Penn Treebank-style parsing.\n",
+        "submission_date": "2000-06-05T00:00:00",
+        "last_modified_date": "2000-06-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006013",
+        "title": "An evaluation of Naive Bayesian anti-spam filtering",
+        "authors": [
+            "Ion Androutsopoulos",
+            "John Koutsias",
+            "Konstantinos V. Chandrinos",
+            "George Paliouras",
+            "Constantine D. Spyropoulos"
+        ],
+        "abstract": "  It has recently been argued that a Naive Bayesian classifier can be used to filter unsolicited bulk e-mail (\"spam\"). We conduct a thorough evaluation of this proposal on a corpus that we make publicly available, contributing towards standard benchmarks. At the same time we investigate the effect of attribute-set size, training-corpus size, lemmatization, and stop-lists on the filter's performance, issues that had not been previously explored. After introducing appropriate cost-sensitive evaluation measures, we reach the conclusion that additional safety nets are needed for the Naive Bayesian anti-spam filter to be viable in practice.\n    ",
+        "submission_date": "2000-06-07T00:00:00",
+        "last_modified_date": "2000-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006017",
+        "title": "Turning Speech Into Scripts",
+        "authors": [
+            "Manny Rayner",
+            "Beth Ann Hockey",
+            "Frankie James"
+        ],
+        "abstract": "  We describe an architecture for implementing spoken natural language dialogue interfaces to semi-autonomous systems, in which the central idea is to transform the input speech signal through successive levels of representation corresponding roughly to linguistic knowledge, dialogue knowledge, and domain knowledge. The final representation is an executable program in a simple scripting language equivalent to a subset of Cshell. At each stage of the translation process, an input is transformed into an output, producing as a byproduct a \"meta-output\" which describes the nature of the transformation performed. We show how consistent use of the output/meta-output distinction permits a simple and perspicuous treatment of apparently diverse topics including resolution of pronouns, correction of user misconceptions, and optimization of scripts. The methods described have been concretely realized in a prototype speech interface to a simulation of the Personal Satellite Assistant.\n    ",
+        "submission_date": "2000-06-09T00:00:00",
+        "last_modified_date": "2000-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006018",
+        "title": "Accuracy, Coverage, and Speed: What Do They Mean to Users?",
+        "authors": [
+            "Frankie James",
+            "Manny Rayner",
+            "Beth Ann Hockey"
+        ],
+        "abstract": "  Speech is becoming increasingly popular as an interface modality, especially in hands- and eyes-busy situations where the use of a keyboard or mouse is difficult. However, despite the fact that many have hailed speech as being inherently usable (since everyone already knows how to talk), most users of speech input are left feeling disappointed by the quality of the interaction. Clearly, there is much work to be done on the design of usable spoken interfaces. We believe that there are two major problems in the design of speech interfaces, namely, (a) the people who are currently working on the design of speech interfaces are, for the most part, not interface designers and therefore do not have as much experience with usability issues as we in the CHI community do, and (b) speech, as an interface modality, has vastly different properties than other modalities, and therefore requires different usability measures.\n    ",
+        "submission_date": "2000-06-09T00:00:00",
+        "last_modified_date": "2000-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006019",
+        "title": "A Compact Architecture for Dialogue Management Based on Scripts and Meta-Outputs",
+        "authors": [
+            "Manny Rayner",
+            "Beth Ann Hockey",
+            "Frankie James"
+        ],
+        "abstract": "  We describe an architecture for spoken dialogue interfaces to semi-autonomous systems that transforms speech signals through successive representations of linguistic, dialogue, and domain knowledge. Each step produces an output, and a meta-output describing the transformation, with an executable program in a simple scripting language as the final result. The output/meta-output distinction permits perspicuous treatment of diverse tasks such as resolving pronouns, correcting user misconceptions, and optimizing scripts.\n    ",
+        "submission_date": "2000-06-09T00:00:00",
+        "last_modified_date": "2000-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006020",
+        "title": "A Comparison of the XTAG and CLE Grammars for English",
+        "authors": [
+            "Beth Ann Hockey",
+            "Manny Rayner",
+            "Frankie James"
+        ],
+        "abstract": "  When people develop something intended as a large broad-coverage grammar, they usually have a more specific goal in mind. Sometimes this goal is covering a corpus; sometimes the developers have theoretical ideas they wish to investigate; most often, work is driven by a combination of these two main types of goal. What tends to happen after a while is that the community of people working with the grammar starts thinking of some phenomena as ``central'', and makes serious efforts to deal with them; other phenomena are labelled ``marginal'', and ignored. Before long, the distinction between ``central'' and ``marginal'' becomes so ingrained that it is automatic, and people virtually stop thinking about the ``marginal'' phenomena. In practice, the only way to bring the marginal things back into focus is to look at what other people are doing and compare it with one's own work. In this paper, we will take two large grammars, XTAG and the CLE, and examine each of them from the other's point of view. We will find in both cases not only that important things are missing, but that the perspective offered by the other grammar suggests simple and practical ways of filling in the holes. It turns out that there is a pleasing symmetry to the picture. XTAG has a very good treatment of complement structure, which the CLE to some extent lacks; conversely, the CLE offers a powerful and general account of adjuncts, which the XTAG grammar does not fully duplicate. If we examine the way in which each grammar does the thing it is good at, we find that the relevant methods are quite easy to port to the other framework, and in fact only involve generalization and systematization of existing mechanisms.\n    ",
+        "submission_date": "2000-06-09T00:00:00",
+        "last_modified_date": "2000-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006021",
+        "title": "Compiling Language Models from a Linguistically Motivated Unification Grammar",
+        "authors": [
+            "Manny Rayner",
+            "Beth Ann Hockey",
+            "Frankie James",
+            "Elizabeth O. Bratt",
+            "Sharon Goldwater",
+            "Mark Gawron"
+        ],
+        "abstract": "  Systems now exist which are able to compile unification grammars into language models that can be included in a speech recognizer, but it is so far unclear whether non-trivial linguistically principled grammars can be used for this purpose. We describe a series of experiments which investigate the question empirically, by incrementally constructing a grammar and discovering what problems emerge when successively larger versions are compiled into finite state graph representations and used as language models for a medium-vocabulary recognition task.\n    ",
+        "submission_date": "2000-06-09T00:00:00",
+        "last_modified_date": "2000-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006023",
+        "title": "Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech",
+        "authors": [
+            "A. Stolcke",
+            "K. Ries",
+            "N. Coccaro",
+            "E. Shriberg",
+            "R. Bates",
+            "D. Jurafsky",
+            "P. Taylor",
+            "R. Martin",
+            "C. Van Ess-Dykema",
+            "M. Meteer"
+        ],
+        "abstract": "  We describe a statistical approach for modeling dialogue acts in conversational speech, i.e., speech-act-like units such as Statement, Question, Backchannel, Agreement, Disagreement, and Apology. Our model detects and predicts dialogue acts based on lexical, collocational, and prosodic cues, as well as on the discourse coherence of the dialogue act sequence. The dialogue model is based on treating the discourse structure of a conversation as a hidden Markov model and the individual dialogue acts as observations emanating from the model states. Constraints on the likely sequence of dialogue acts are modeled via a dialogue act n-gram. The statistical dialogue grammar is combined with word n-grams, decision trees, and neural networks modeling the idiosyncratic lexical and prosodic manifestations of each dialogue act. We develop a probabilistic integration of speech recognition with dialogue modeling, to improve both speech recognition and dialogue act classification accuracy. Models are trained and evaluated using a large hand-labeled database of 1,155 conversations from the Switchboard corpus of spontaneous human-to-human telephone speech. We achieved good dialogue act labeling accuracy (65% based on errorful, automatically recognized words and prosody, and 71% based on word transcripts, compared to a chance baseline accuracy of 35% and human accuracy of 84%) and a small reduction in word recognition error.\n    ",
+        "submission_date": "2000-06-11T00:00:00",
+        "last_modified_date": "2000-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006024",
+        "title": "Can Prosody Aid the Automatic Classification of Dialog Acts in Conversational Speech?",
+        "authors": [
+            "E. Shriberg",
+            "R. Bates",
+            "A. Stolcke",
+            "P. Taylor",
+            "D. Jurafsky",
+            "K. Ries",
+            "N. Coccaro",
+            "R. Martin",
+            "M. Meteer",
+            "C. Van Ess-Dykema"
+        ],
+        "abstract": "  Identifying whether an utterance is a statement, question, greeting, and so forth is integral to effective automatic understanding of natural dialog. Little is known, however, about how such dialog acts (DAs) can be automatically classified in truly natural conversation. This study asks whether current approaches, which use mainly word information, could be improved by adding prosodic information. The study is based on more than 1000 conversations from the Switchboard corpus. DAs were hand-annotated, and prosodic features (duration, pause, F0, energy, and speaking rate) were automatically extracted for each DA. In training, decision trees based on these features were inferred; trees were then applied to unseen test data to evaluate performance. Performance was evaluated for prosody models alone, and after combining the prosody models with word information -- either from true words or from the output of an automatic speech recognizer. For an overall classification task, as well as three subtasks, prosody made significant contributions to classification. Feature-specific analyses further revealed that although canonical features (such as F0 for questions) were important, less obvious features could compensate if canonical features were removed. Finally, in each task, integrating the prosodic model with a DA-specific statistical language model improved performance over that of the language model alone, especially for the case of recognized words. Results suggest that DAs are redundantly marked in natural conversation, and that a variety of automatically extractable prosodic features could aid dialog processing in speech applications.\n    ",
+        "submission_date": "2000-06-11T00:00:00",
+        "last_modified_date": "2000-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006025",
+        "title": "Entropy-based Pruning of Backoff Language Models",
+        "authors": [
+            "A. Stolcke"
+        ],
+        "abstract": "  A criterion for pruning parameters from N-gram backoff language models is developed, based on the relative entropy between the original and the pruned model. It is shown that the relative entropy resulting from pruning a single N-gram can be computed exactly and efficiently for backoff models. The relative entropy measure can be expressed as a relative change in training set perplexity. This leads to a simple pruning criterion whereby all N-grams that change perplexity by less than a threshold are removed from the model. Experiments show that a production-quality Hub4 LM can be reduced to 26% its original size without increasing recognition error. We also compare the approach to a heuristic pruning criterion by Seymore and Rosenfeld (1996), and show that their approach can be interpreted as an approximation to the relative entropy criterion. Experimentally, both approaches select similar sets of N-grams (about 85% overlap), with the exact relative entropy criterion giving marginally better performance.\n    ",
+        "submission_date": "2000-06-11T00:00:00",
+        "last_modified_date": "2000-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006027",
+        "title": "Verbal Interactions in Virtual Worlds",
+        "authors": [
+            "Pierre Nugues"
+        ],
+        "abstract": "  We first discuss respective advantages of language interaction in virtual worlds and of using 3D images in dialogue systems. Then, we describe an example of a verbal interaction system in virtual reality: Ulysse. Ulysse is a conversational agent that helps a user navigate in virtual worlds. It has been designed to be embedded in the representation of a participant of a virtual conference and it responds positively to motion orders. Ulysse navigates the user's viewpoint on his/her behalf in the virtual world. On tests we carried out, we discovered that users, novices as well as experienced ones have difficulties moving in a 3D environment. Agents such as Ulysse enable a user to carry out navigation motions that would have been impossible with classical interaction devices. From the whole Ulysse system, we have stripped off a skeleton architecture that we have ported to VRML, Java, and Prolog. We hope this skeleton helps the design of language applications in virtual worlds.\n    ",
+        "submission_date": "2000-06-13T00:00:00",
+        "last_modified_date": "2000-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006028",
+        "title": "Trainable Methods for Surface Natural Language Generation",
+        "authors": [
+            "Adwait Ratnaparkhi"
+        ],
+        "abstract": "  We present three systems for surface natural language generation that are trainable from annotated corpora. The first two systems, called NLG1 and NLG2, require a corpus marked only with domain-specific semantic attributes, while the last system, called NLG3, requires a corpus marked with both semantic attributes and syntactic dependency information. All systems attempt to produce a grammatical natural language phrase from a domain-specific semantic representation. NLG1 serves a baseline system and uses phrase frequencies to generate a whole phrase in one step, while NLG2 and NLG3 use maximum entropy probability models to individually generate each word in the phrase. The systems NLG2 and NLG3 learn to determine both the word choice and the word order of the phrase. We present experiments in which we generate phrases to describe flights in the air travel domain.\n    ",
+        "submission_date": "2000-06-13T00:00:00",
+        "last_modified_date": "2000-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006032",
+        "title": "Estimation of English and non-English Language Use on the WWW",
+        "authors": [
+            "Gregory Grefenstette",
+            "Julien Nioche"
+        ],
+        "abstract": "  The World Wide Web has grown so big, in such an anarchic fashion, that it is difficult to describe. One of the evident intrinsic characteristics of the World Wide Web is its multilinguality. Here, we present a technique for estimating the size of a language-specific corpus given the frequency of commonly occurring words in the corpus. We apply this technique to estimating the number of words available through Web browsers for given languages. Comparing data from 1996 to data from 1999 and 2000, we calculate the growth of a number of European languages on the Web. As expected, non-English languages are growing at a faster pace than English, though the position of English is still dominant.\n    ",
+        "submission_date": "2000-06-23T00:00:00",
+        "last_modified_date": "2000-06-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006036",
+        "title": "Prosody-Based Automatic Segmentation of Speech into Sentences and Topics",
+        "authors": [
+            "E. Shriberg",
+            "A. Stolcke",
+            "D. Hakkani-Tur",
+            "G. Tur"
+        ],
+        "abstract": "  A crucial step in processing speech audio data for information extraction, topic detection, or browsing/playback is to segment the input into sentence and topic units. Speech segmentation is challenging, since the cues typically present for segmenting text (headers, paragraphs, punctuation) are absent in spoken language. We investigate the use of prosody (information gleaned from the timing and melody of speech) for these tasks. Using decision tree and hidden Markov modeling techniques, we combine prosodic cues with word-based approaches, and evaluate performance on two speech corpora, Broadcast News and Switchboard. Results show that the prosodic model alone performs on par with, or better than, word-based statistical language models -- for both true and automatically recognized words in news speech. The prosodic model achieves comparable performance with significantly less training data, and requires no hand-labeling of prosodic events. Across tasks and corpora, we obtain a significant improvement over word-only models using a probabilistic combination of prosodic and lexical information. Inspection reveals that the prosodic models capture language-independent boundary indicators described in the literature. Finally, cue usage is task and corpus dependent. For example, pause and pitch features are highly informative for segmenting news speech, whereas pause, duration and word-based cues dominate for natural conversation.\n    ",
+        "submission_date": "2000-06-27T00:00:00",
+        "last_modified_date": "2000-06-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006038",
+        "title": "Approximation and Exactness in Finite State Optimality Theory",
+        "authors": [
+            "Dale Gerdemann",
+            "Gertjan van Noord"
+        ],
+        "abstract": "  Previous work (Frank and Satta 1998; Karttunen, 1998) has shown that Optimality Theory with gradient constraints generally is not finite state. A new finite-state treatment of gradient constraints is presented which improves upon the approximation of Karttunen (1998). The method turns out to be exact, and very compact, for the syllabification analysis of Prince and Smolensky (1993).\n    ",
+        "submission_date": "2000-06-28T00:00:00",
+        "last_modified_date": "2000-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006041",
+        "title": "Using a Diathesis Model for Semantic Parsing",
+        "authors": [
+            "Jordi Atserias",
+            "Irene Castellon",
+            "Montse Civit",
+            "German Rigau"
+        ],
+        "abstract": "  This paper presents a semantic parsing approach for unrestricted texts. Semantic parsing is one of the major bottlenecks of Natural Language Understanding (NLU) systems and usually requires building expensive resources not easily portable to other domains. Our approach obtains a case-role analysis, in which the semantic roles of the verb are identified. In order to cover all the possible syntactic realisations of a verb, our system combines their argument structure with a set of general semantic labelled diatheses models. Combining them, the system builds a set of syntactic-semantic patterns with their own role-case representation. Once the patterns are build, we use an approximate tree pattern-matching algorithm to identify the most reliable pattern for a sentence. The pattern matching is performed between the syntactic-semantic patterns and the feature-structure tree representing the morphological, syntactical and semantic information of the analysed sentence. For sentences assigned to the correct model, the semantic parsing system we are presenting identifies correctly more than 73% of possible semantic case-roles.\n    ",
+        "submission_date": "2000-06-29T00:00:00",
+        "last_modified_date": "2000-06-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006042",
+        "title": "Semantic Parsing based on Verbal Subcategorization",
+        "authors": [
+            "Jordi Atserias",
+            "Irene Castellon",
+            "Montse Civit",
+            "German Rigau"
+        ],
+        "abstract": "  The aim of this work is to explore new methodologies on Semantic Parsing for unrestricted texts. Our approach follows the current trends in Information Extraction (IE) and is based on the application of a verbal subcategorization lexicon (LEXPIR) by means of complex pattern recognition techniques. LEXPIR is framed on the theoretical model of the verbal subcategorization developed in the Pirapides project.\n    ",
+        "submission_date": "2000-06-29T00:00:00",
+        "last_modified_date": "2000-06-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006044",
+        "title": "Finite-State Non-Concatenative Morphotactics",
+        "authors": [
+            "Kenneth R. Beesley",
+            "Lauri Karttunen"
+        ],
+        "abstract": "  Finite-state morphology in the general tradition of the Two-Level and Xerox implementations has proved very successful in the production of robust morphological analyzer-generators, including many large-scale commercial systems. However, it has long been recognized that these implementations have serious limitations in handling non-concatenative phenomena. We describe a new technique for constructing finite-state transducers that involves reapplying the regular-expression compiler to its own output. Implemented in an algorithm called compile-replace, this technique has proved useful for handling non-concatenative phenomena; and we demonstrate it on Malay full-stem reduplication and Arabic stem interdigitation.\n    ",
+        "submission_date": "2000-06-30T00:00:00",
+        "last_modified_date": "2000-06-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007009",
+        "title": "Incremental construction of minimal acyclic finite-state automata",
+        "authors": [
+            "Jan Daciuk",
+            "Stoyan Mihov",
+            "Bruce Watson",
+            "Richard Watson"
+        ],
+        "abstract": "  In this paper, we describe a new method for constructing minimal, deterministic, acyclic finite-state automata from a set of strings. Traditional methods consist of two phases: the first to construct a trie, the second one to minimize it. Our approach is to construct a minimal automaton in a single phase by adding new strings one by one and minimizing the resulting automaton on-the-fly. We present a general algorithm as well as a specialization that relies upon the lexicographical ordering of the input strings.\n    ",
+        "submission_date": "2000-07-06T00:00:00",
+        "last_modified_date": "2000-07-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007010",
+        "title": "Boosting Applied to Word Sense Disambiguation",
+        "authors": [
+            "Gerard Escudero",
+            "Lluis Marquez",
+            "German Rigau"
+        ],
+        "abstract": "  In this paper Schapire and Singer's ",
+        "submission_date": "2000-07-07T00:00:00",
+        "last_modified_date": "2000-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007011",
+        "title": "Naive Bayes and Exemplar-Based approaches to Word Sense Disambiguation Revisited",
+        "authors": [
+            "Gerard Escudero",
+            "Lluis Marquez",
+            "German Rigau"
+        ],
+        "abstract": "  This paper describes an experimental comparison between two standard supervised learning methods, namely Naive Bayes and Exemplar-based classification, on the Word Sense Disambiguation (WSD) problem. The aim of the work is twofold. Firstly, it attempts to contribute to clarify some confusing information about the comparison between both methods appearing in the related literature. In doing so, several directions have been explored, including: testing several modifications of the basic learning algorithms and varying the feature space. Secondly, an improvement of both algorithms is proposed, in order to deal with large attribute sets. This modification, which basically consists in using only the positive information appearing in the examples, allows to improve greatly the efficiency of the methods, with no loss in accuracy. The experiments have been performed on the largest sense-tagged corpus available containing the most frequent and ambiguous English words. Results show that the Exemplar-based approach to WSD is generally superior to the Bayesian approach, especially when a specific metric for dealing with symbolic attributes is used.\n    ",
+        "submission_date": "2000-07-07T00:00:00",
+        "last_modified_date": "2000-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007012",
+        "title": "Using Learning-based Filters to Detect Rule-based Filtering Obsolescence",
+        "authors": [
+            "Francis Wolinski",
+            "Frantz Vichot",
+            "Mathieu Stricker"
+        ],
+        "abstract": "  For years, Caisse des Depots et Consignations has produced information filtering applications. To be operational, these applications require high filtering performances which are achieved by using rule-based filters. With this technique, an administrator has to tune a set of rules for each topic. However, filters become obsolescent over time. The decrease of their performances is due to diachronic polysemy of terms that involves a loss of precision and to diachronic polymorphism of concepts that involves a loss of recall.\n",
+        "submission_date": "2000-07-07T00:00:00",
+        "last_modified_date": "2000-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007013",
+        "title": "Applying Constraint Handling Rules to HPSG",
+        "authors": [
+            "Gerald Penn"
+        ],
+        "abstract": "  Constraint Handling Rules (CHR) have provided a realistic solution to an over-arching problem in many fields that deal with constraint logic programming: how to combine recursive functions or relations with constraints while avoiding non-termination problems. This paper focuses on some other benefits that CHR, specifically their implementation in SICStus Prolog, have provided to computational linguists working on grammar design tools. CHR rules are applied by means of a subsumption check and this check is made only when their variables are instantiated or bound. The former functionality is at best difficult to simulate using more primitive coroutining statements such as SICStus when/2, and the latter simply did not exist in any form before CHR.\n",
+        "submission_date": "2000-07-07T00:00:00",
+        "last_modified_date": "2000-07-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007016",
+        "title": "Two Steps Feature Selection and Neural Network Classification for the TREC-8 Routing",
+        "authors": [
+            "Mathieu Stricker",
+            "Frantz Vichot",
+            "Gerard Dreyfus",
+            "Francis Wolinski"
+        ],
+        "abstract": "  For the TREC-8 routing, one specific filter is built for each topic. Each filter is a classifier trained to recognize the documents that are relevant to the topic. When presented with a document, each classifier estimates the probability for the document to be relevant to the topic for which it has been trained. Since the procedure for building a filter is topic-independent, the system is fully automatic.\n",
+        "submission_date": "2000-07-11T00:00:00",
+        "last_modified_date": "2000-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007018",
+        "title": "Bootstrapping a Tagged Corpus through Combination of Existing Heterogeneous Taggers",
+        "authors": [
+            "Jakub Zavrel",
+            "Walter Daelemans"
+        ],
+        "abstract": "  This paper describes a new method, Combi-bootstrap, to exploit existing taggers and lexical resources for the annotation of corpora with new tagsets. Combi-bootstrap uses existing resources as features for a second level machine learning module, that is trained to make the mapping to the new tagset on a very small sample of annotated corpus material. Experiments show that Combi-bootstrap: i) can integrate a wide variety of existing resources, and ii) achieves much higher accuracy (up to 44.7 % error reduction) than both the best single tagger and an ensemble tagger constructed out of the same small training sample.\n    ",
+        "submission_date": "2000-07-13T00:00:00",
+        "last_modified_date": "2000-07-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007022",
+        "title": "ATLAS: A flexible and extensible architecture for linguistic annotation",
+        "authors": [
+            "Steven Bird",
+            "David Day",
+            "John Garofolo",
+            "John Henderson",
+            "Christophe Laprun",
+            "Mark Liberman"
+        ],
+        "abstract": "  We describe a formal model for annotating linguistic artifacts, from which we derive an application programming interface (API) to a suite of tools for manipulating these annotations. The abstract logical model provides for a range of storage formats and promotes the reuse of tools that interact through this API. We focus first on ``Annotation Graphs,'' a graph model for annotations on linear signals (such as text and speech) indexed by intervals, for which efficient database storage and querying techniques are applicable. We note how a wide range of existing annotated corpora can be mapped to this annotation graph model. This model is then generalized to encompass a wider variety of linguistic ``signals,'' including both naturally occuring phenomena (as recorded in images, video, multi-modal interactions, etc.), as well as the derived resources that are increasingly important to the engineering of natural language processing systems (such as word lists, dictionaries, aligned bilingual corpora, etc.). We conclude with a review of the current efforts towards implementing key pieces of this architecture.\n    ",
+        "submission_date": "2000-07-13T00:00:00",
+        "last_modified_date": "2000-07-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007023",
+        "title": "Towards a query language for annotation graphs",
+        "authors": [
+            "Steven Bird",
+            "Peter Buneman",
+            "Wang-Chiew Tan"
+        ],
+        "abstract": "  The multidimensional, heterogeneous, and temporal nature of speech databases raises interesting challenges for representation and query. Recently, annotation graphs have been proposed as a general-purpose representational framework for speech databases. Typical queries on annotation graphs require path expressions similar to those used in semistructured query languages. However, the underlying model is rather different from the customary graph models for semistructured data: the graph is acyclic and unrooted, and both temporal and inclusion relationships are important. We develop a query language and describe optimization techniques for an underlying relational representation.\n    ",
+        "submission_date": "2000-07-13T00:00:00",
+        "last_modified_date": "2000-07-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007024",
+        "title": "Many uses, many annotations for large speech corpora: Switchboard and TDT as case studies",
+        "authors": [
+            "David Graff",
+            "Steven Bird"
+        ],
+        "abstract": "  This paper discusses the challenges that arise when large speech corpora receive an ever-broadening range of diverse and distinct annotations. Two case studies of this process are presented: the Switchboard Corpus of telephone conversations and the TDT2 corpus of broadcast news. Switchboard has undergone two independent transcriptions and various types of additional annotation, all carried out as separate projects that were dispersed both geographically and chronologically. The TDT2 corpus has also received a variety of annotations, but all directly created or managed by a core group. In both cases, issues arise involving the propagation of repairs, consistency of references, and the ability to integrate annotations having different formats and levels of detail. We describe a general framework whereby these issues can be addressed successfully.\n    ",
+        "submission_date": "2000-07-13T00:00:00",
+        "last_modified_date": "2000-07-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007031",
+        "title": "Parameter-free Model of Rank Polysemantic Distribution",
+        "authors": [
+            "Victor Kromer"
+        ],
+        "abstract": "  A model of rank polysemantic distribution with a minimal number of fitting parameters is offered. In an ideal case a parameter-free description of the dependence on the basis of one or several immediate features of the distribution is possible.\n    ",
+        "submission_date": "2000-07-21T00:00:00",
+        "last_modified_date": "2000-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007035",
+        "title": "Mapping WordNets Using Structural Information",
+        "authors": [
+            "J. Daude",
+            "L. Padro",
+            "G. Rigau"
+        ],
+        "abstract": "  We present a robust approach for linking already existing lexical/semantic hierarchies. We used a constraint satisfaction algorithm (relaxation labeling) to select --among a set of candidates-- the node in a target taxonomy that bests matches each node in a source taxonomy. In particular, we use it to map the nominal part of WordNet 1.5 onto WordNet 1.6, with a very high precision and a very low remaining ambiguity.\n    ",
+        "submission_date": "2000-07-25T00:00:00",
+        "last_modified_date": "2000-07-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007036",
+        "title": "Language identification of controlled systems: Modelling, control and anomaly detection",
+        "authors": [
+            "J. F. Martins",
+            "J. A. Dente",
+            "A. J. Pires",
+            "R. Vilela Mendes"
+        ],
+        "abstract": "  Formal language techniques have been used in the past to study autonomous dynamical systems. However, for controlled systems, new features are needed to distinguish between information generated by the system and input control. We show how the modelling framework for controlled dynamical systems leads naturally to a formulation in terms of context-dependent grammars. A learning algorithm is proposed for on-line generation of the grammar productions, this formulation being then used for modelling, control and anomaly detection. Practical applications are described for electromechanical drives. Grammatical interpolation techniques yield accurate results and the pattern detection capabilities of the language-based formulation makes it a promising technique for the early detection of anomalies or faulty behaviour.\n    ",
+        "submission_date": "2000-07-25T00:00:00",
+        "last_modified_date": "2000-07-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008003",
+        "title": "Interfacing Constraint-Based Grammars and Generation Algorithms",
+        "authors": [
+            "Stephan Busemann"
+        ],
+        "abstract": "  Constraint-based grammars can, in principle, serve as the major linguistic knowledge source for both parsing and generation. Surface generation starts from input semantics representations that may vary across grammars. For many declarative grammars, the concept of derivation implicitly built in is that of parsing. They may thus not be interpretable by a generation algorithm. We show that linguistically plausible semantic analyses can cause severe problems for semantic-head-driven approaches for generation (SHDG). We use SeReal, a variant of SHDG and the DISCO grammar of German as our source of examples. We propose a new, general approach that explicitly accounts for the interface between the grammar and the generation algorithm by adding a control-oriented layer to the linguistic knowledge base that reorganizes the semantics in a way suitable for generation.\n    ",
+        "submission_date": "2000-08-07T00:00:00",
+        "last_modified_date": "2000-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008004",
+        "title": "Comparing two trainable grammatical relations finders",
+        "authors": [
+            "Alexander Yeh"
+        ],
+        "abstract": "  Grammatical relationships (GRs) form an important level of natural language processing, but different sets of GRs are useful for different purposes. Therefore, one may often only have time to obtain a small training corpus with the desired GR annotations. On such a small training corpus, we compare two systems. They use different learning techniques, but we find that this difference by itself only has a minor effect. A larger factor is that in English, a different GR length measure appears better suited for finding simple argument GRs than for finding modifier GRs. We also find that partitioning the data may help memory-based learning.\n    ",
+        "submission_date": "2000-08-08T00:00:00",
+        "last_modified_date": "2000-08-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008005",
+        "title": "More accurate tests for the statistical significance of result differences",
+        "authors": [
+            "Alexander Yeh"
+        ],
+        "abstract": "  Statistical significance testing of differences in values of metrics like recall, precision and balanced F-score is a necessary part of empirical natural language processing. Unfortunately, we find in a set of experiments that many commonly used tests often underestimate the significance and so are less likely to detect differences that exist between different techniques. This underestimation comes from an independence assumption that is often violated. We point out some useful tests that do not make this assumption, including computationally-intensive randomization tests.\n    ",
+        "submission_date": "2000-08-08T00:00:00",
+        "last_modified_date": "2000-08-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008007",
+        "title": "Tagger Evaluation Given Hierarchical Tag Sets",
+        "authors": [
+            "I. Dan Melamed",
+            "Philip Resnik"
+        ],
+        "abstract": "  We present methods for evaluating human and automatic taggers that extend current practice in three ways. First, we show how to evaluate taggers that assign multiple tags to each test instance, even if they do not assign probabilities. Second, we show how to accommodate a common property of manually constructed ``gold standards'' that are typically used for objective evaluation, namely that there is often more than one correct answer. Third, we show how to measure performance when the set of possible tags is tree-structured in an IS-A hierarchy. To illustrate how our methods can be used to measure inter-annotator agreement, we show how to compute the kappa coefficient over hierarchical tag sets.\n    ",
+        "submission_date": "2000-08-10T00:00:00",
+        "last_modified_date": "2000-08-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008012",
+        "title": "Applying System Combination to Base Noun Phrase Identification",
+        "authors": [
+            "Erik F. Tjong Kim Sang",
+            "Walter Daelemans",
+            "Herve Dejean",
+            "Rob Koeling",
+            "Yuval Krymolowski",
+            "Vasin Punyakanok",
+            "Dan Roth"
+        ],
+        "abstract": "  We use seven machine learning algorithms for one task: identifying base noun phrases. The results have been processed by different system combination methods and all of these outperformed the best individual result. We have applied the seven learners with the best combinator, a majority vote of the top five systems, to a standard data set and managed to improve the best published result for this data set.\n    ",
+        "submission_date": "2000-08-17T00:00:00",
+        "last_modified_date": "2000-08-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008013",
+        "title": "Meta-Learning for Phonemic Annotation of Corpora",
+        "authors": [
+            "Veronique Hoste",
+            "Walter Daelemans",
+            "Erik Tjong Kim Sang",
+            "Steven Gillis"
+        ],
+        "abstract": "  We apply rule induction, classifier combination and meta-learning (stacked classifiers) to the problem of bootstrapping high accuracy automatic annotation of corpora with pronunciation information. The task we address in this paper consists of generating phonemic representations reflecting the Flemish and Dutch pronunciations of a word on the basis of its orthographic representation (which in turn is based on the actual speech recordings). We compare several possible approaches to achieve the text-to-pronunciation mapping task: memory-based learning, transformation-based learning, rule induction, maximum entropy modeling, combination of classifiers in stacked learning, and stacking of meta-learners. We are interested both in optimal accuracy and in obtaining insight into the linguistic regularities involved. As far as accuracy is concerned, an already high accuracy level (93% for Celex and 86% for Fonilex at word level) for single classifiers is boosted significantly with additional error reductions of 31% and 38% respectively using combination of classifiers, and a further 5% using combination of meta-learners, bringing overall word level accuracy to 96% for the Dutch variant and 92% for the Flemish variant. We also show that the application of machine learning methods indeed leads to increased insight into the linguistic regularities determining the variation between the two pronunciation variants studied.\n    ",
+        "submission_date": "2000-08-18T00:00:00",
+        "last_modified_date": "2000-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008014",
+        "title": "Aspects of Pattern-Matching in Data-Oriented Parsing",
+        "authors": [
+            "Guy De Pauw"
+        ],
+        "abstract": "  Data-Oriented Parsing (dop) ranks among the best parsing schemes, pairing state-of-the art parsing accuracy to the psycholinguistic insight that larger chunks of syntactic structures are relevant grammatical and probabilistic units. Parsing with the dop-model, however, seems to involve a lot of CPU cycles and a considerable amount of double work, brought on by the concept of multiple derivations, which is necessary for probabilistic processing, but which is not convincingly related to a proper linguistic backbone. It is however possible to re-interpret the dop-model as a pattern-matching model, which tries to maximize the size of the substructures that construct the parse, rather than the probability of the parse. By emphasizing this memory-based aspect of the dop-model, it is possible to do away with multiple derivations, opening up possibilities for efficient Viterbi-style optimizations, while still retaining acceptable parsing accuracy through enhanced context-sensitivity.\n    ",
+        "submission_date": "2000-08-18T00:00:00",
+        "last_modified_date": "2000-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008015",
+        "title": "Temiar Reduplication in One-Level Prosodic Morphology",
+        "authors": [
+            "Markus Walther"
+        ],
+        "abstract": "  Temiar reduplication is a difficult piece of prosodic morphology. This paper presents the first computational analysis of Temiar reduplication, using the novel finite-state approach of One-Level Prosodic Morphology originally developed by Walther (1999b, 2000). After reviewing both the data and the basic tenets of One-level Prosodic Morphology, the analysis is laid out in some detail, using the notation of the FSA Utilities finite-state toolkit (van Noord 1997). One important discovery is that in this approach one can easily define a regular expression operator which ambiguously scans a string in the left- or rightward direction for a certain prosodic property. This yields an elegant account of base-length-dependent triggering of reduplication as found in Temiar.\n    ",
+        "submission_date": "2000-08-18T00:00:00",
+        "last_modified_date": "2000-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008016",
+        "title": "Processing Self Corrections in a speech to speech system",
+        "authors": [
+            "Joerg Spilker",
+            "Martin Klarner",
+            "Guenther Goerz"
+        ],
+        "abstract": "  Speech repairs occur often in spontaneous spoken dialogues. The ability to detect and correct those repairs is necessary for any spoken language system. We present a framework to detect and correct speech repairs where all relevant levels of information, i.e., acoustics, lexis, syntax and semantics can be integrated. The basic idea is to reduce the search space for repairs as soon as possible by cascading filters that involve more and more features. At first an acoustic module generates hypotheses about the existence of a repair. Second a stochastic model suggests a correction for every hypothesis. Well scored corrections are inserted as new paths in the word lattice. Finally a lattice parser decides on accepting the rep air.\n    ",
+        "submission_date": "2000-08-21T00:00:00",
+        "last_modified_date": "2000-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008017",
+        "title": "Efficient probabilistic top-down and left-corner parsing",
+        "authors": [
+            "Brian Roark",
+            "Mark Johnson"
+        ],
+        "abstract": "  This paper examines efficient predictive broad-coverage parsing without dynamic programming. In contrast to bottom-up methods, depth-first top-down parsing produces partial parses that are fully connected trees spanning the entire left context, from which any kind of non-local dependency or partial semantic interpretation can in principle be read. We contrast two predictive parsing approaches, top-down and left-corner parsing, and find both to be viable. In addition, we find that enhancement with non-local information not only improves parser accuracy, but also substantially improves the search efficiency.\n    ",
+        "submission_date": "2000-08-21T00:00:00",
+        "last_modified_date": "2000-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008019",
+        "title": "An Experimental Comparison of Naive Bayesian and Keyword-Based Anti-Spam Filtering with Personal E-mail Messages",
+        "authors": [
+            "Ion Androutsopoulos",
+            "John Koutsias",
+            "Konstantinos V. Chandrinos",
+            "Constantine D. Spyropoulos"
+        ],
+        "abstract": "  The growing problem of unsolicited bulk e-mail, also known as \"spam\", has generated a need for reliable anti-spam e-mail filters. Filters of this type have so far been based mostly on manually constructed keyword patterns. An alternative approach has recently been proposed, whereby a Naive Bayesian classifier is trained automatically to detect spam messages. We test this approach on a large collection of personal e-mail messages, which we make publicly available in \"encrypted\" form contributing towards standard benchmarks. We introduce appropriate cost-sensitive measures, investigating at the same time the effect of attribute-set size, training-corpus size, lemmatization, and stop lists, issues that have not been explored in previous experiments. Finally, the Naive Bayesian filter is compared, in terms of performance, to a filter that uses keyword patterns, and which is part of a widely used e-mail reader.\n    ",
+        "submission_date": "2000-08-22T00:00:00",
+        "last_modified_date": "2000-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008020",
+        "title": "Explaining away ambiguity: Learning verb selectional preference with Bayesian networks",
+        "authors": [
+            "Massimiliano Ciaramita",
+            "Mark Johnson"
+        ],
+        "abstract": "  This paper presents a Bayesian model for unsupervised learning of verb selectional preferences. For each verb the model creates a Bayesian network whose architecture is determined by the lexical hierarchy of Wordnet and whose parameters are estimated from a list of verb-object pairs found from a corpus. ``Explaining away'', a well-known property of Bayesian networks, helps the model deal in a natural fashion with word sense ambiguity in the training data. On a word sense disambiguation test our model performed better than other state of the art systems for unsupervised learning of selectional preferences. Computational complexity problems, ways of improving this approach and methods for implementing ``explaining away'' in other graphical frameworks are discussed.\n    ",
+        "submission_date": "2000-08-22T00:00:00",
+        "last_modified_date": "2000-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008021",
+        "title": "Compact non-left-recursive grammars using the selective left-corner transform and factoring",
+        "authors": [
+            "Mark Johnson",
+            "Brian Roark"
+        ],
+        "abstract": "  The left-corner transform removes left-recursion from (probabilistic) context-free grammars and unification grammars, permitting simple top-down parsing techniques to be used. Unfortunately the grammars produced by the standard left-corner transform are usually much larger than the original. The selective left-corner transform described in this paper produces a transformed grammar which simulates left-corner recognition of a user-specified set of the original productions, and top-down recognition of the others. Combined with two factorizations, it produces non-left-recursive grammars that are not much larger than the original.\n    ",
+        "submission_date": "2000-08-22T00:00:00",
+        "last_modified_date": "2000-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008023",
+        "title": "Selectional Restrictions in HPSG",
+        "authors": [
+            "Ion Androutsopoulos",
+            "Robert Dale"
+        ],
+        "abstract": "  Selectional restrictions are semantic sortal constraints imposed on the participants of linguistic constructions to capture contextually-dependent constraints on interpretation. Despite their limitations, selectional restrictions have proven very useful in natural language applications, where they have been used frequently in word sense disambiguation, syntactic disambiguation, and anaphora resolution. Given their practical value, we explore two methods to incorporate selectional restrictions in the HPSG theory, assuming that the reader is familiar with HPSG. The first method employs HPSG's Background feature and a constraint-satisfaction component pipe-lined after the parser. The second method uses subsorts of referential indices, and blocks readings that violate selectional restrictions during parsing. While theoretically less satisfactory, we have found the second method particularly useful in the development of practical systems.\n    ",
+        "submission_date": "2000-08-23T00:00:00",
+        "last_modified_date": "2000-08-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008024",
+        "title": "Estimation of Stochastic Attribute-Value Grammars using an Informative Sample",
+        "authors": [
+            "Miles Osborne"
+        ],
+        "abstract": "  We argue that some of the computational complexity associated with estimation of stochastic attribute-value grammars can be reduced by training upon an informative subset of the full training set. Results using the parsed Wall Street Journal corpus show that in some circumstances, it is possible to obtain better estimation results using an informative sample than when training upon all the available material. Further experimentation demonstrates that with unlexicalised models, a Gaussian Prior can reduce overfitting. However, when models are lexicalised and contain overlapping features, overfitting does not seem to be a problem, and a Gaussian Prior makes minimal difference to performance. Our approach is applicable for situations when there are an infeasibly large number of parses in the training set, or else for when recovery of these parses from a packed representation is itself computationally expensive.\n    ",
+        "submission_date": "2000-08-23T00:00:00",
+        "last_modified_date": "2000-08-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008026",
+        "title": "Noun-phrase co-occurrence statistics for semi-automatic semantic lexicon construction",
+        "authors": [
+            "Brian Roark",
+            "Eugene Charniak"
+        ],
+        "abstract": "  Generating semantic lexicons semi-automatically could be a great time saver, relative to creating them by hand. In this paper, we present an algorithm for extracting potential entries for a category from an on-line corpus, based upon a small set of exemplars. Our algorithm finds more correct terms and fewer incorrect ones than previous work in this area. Additionally, the entries that are generated potentially provide broader coverage of the category than would occur to an individual coding them by hand. Our algorithm finds many terms not included within Wordnet (many more than previous algorithms), and could be viewed as an ``enhancer'' of existing broad-coverage resources.\n    ",
+        "submission_date": "2000-08-24T00:00:00",
+        "last_modified_date": "2000-08-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008027",
+        "title": "Measuring efficiency in high-accuracy, broad-coverage statistical parsing",
+        "authors": [
+            "Brian Roark",
+            "Eugene Charniak"
+        ],
+        "abstract": "  Very little attention has been paid to the comparison of efficiency between high accuracy statistical parsers. This paper proposes one machine-independent metric that is general enough to allow comparisons across very different parsing architectures. This metric, which we call ``events considered'', measures the number of ``events'', however they are defined for a particular parser, for which a probability must be calculated, in order to find the parse. It is applicable to single-pass or multi-stage parsers. We discuss the advantages of the metric, and demonstrate its usefulness by using it to compare two parsers which differ in several fundamental ways.\n    ",
+        "submission_date": "2000-08-24T00:00:00",
+        "last_modified_date": "2000-08-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008028",
+        "title": "Estimators for Stochastic ``Unification-Based'' Grammars",
+        "authors": [
+            "Mark Johnson",
+            "Stuart Geman",
+            "Stephen Canon",
+            "Zhiyi Chi",
+            "Stefan Riezler"
+        ],
+        "abstract": "  Log-linear models provide a statistically sound framework for Stochastic ``Unification-Based'' Grammars (SUBGs) and stochastic versions of other kinds of grammars. We describe two computationally-tractable ways of estimating the parameters of such grammars from a training corpus of syntactic analyses, and apply these to estimate a stochastic version of Lexical-Functional Grammar.\n    ",
+        "submission_date": "2000-08-25T00:00:00",
+        "last_modified_date": "2000-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008029",
+        "title": "Exploiting auxiliary distributions in stochastic unification-based grammars",
+        "authors": [
+            "Mark Johnson",
+            "Stefan Riezler"
+        ],
+        "abstract": "  This paper describes a method for estimating conditional probability distributions over the parses of ``unification-based'' grammars which can utilize auxiliary distributions that are estimated by other means. We show how this can be used to incorporate information about lexical selectional preferences gathered from other sources into Stochastic ``Unification-based'' Grammars (SUBGs). While we apply this estimator to a Stochastic Lexical-Functional Grammar, the method is general, and should be applicable to stochastic versions of HPSGs, categorial grammars and transformational grammars.\n    ",
+        "submission_date": "2000-08-25T00:00:00",
+        "last_modified_date": "2000-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008030",
+        "title": "Metonymy Interpretation Using X NO Y Examples",
+        "authors": [
+            "Masaki Murata",
+            "Qing Ma",
+            "Atsumu Yamamoto",
+            "Hitoshi Isahara"
+        ],
+        "abstract": "  We developed on example-based method of metonymy interpretation. One advantages of this method is that a hand-built database of metonymy is not necessary because it instead uses examples in the form ``Noun X no Noun Y (Noun Y of Noun X).'' Another advantage is that we will be able to interpret newly-coined metonymic sentences by using a new corpus. We experimented with metonymy interpretation and obtained a precision rate of 66% when using this method.\n    ",
+        "submission_date": "2000-08-28T00:00:00",
+        "last_modified_date": "2000-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008031",
+        "title": "Bunsetsu Identification Using Category-Exclusive Rules",
+        "authors": [
+            "Masaki Murata",
+            "Kiyotaka Uchimoto",
+            "Qing Ma",
+            "Hitoshi Isahara"
+        ],
+        "abstract": "  This paper describes two new bunsetsu identification methods using supervised learning. Since Japanese syntactic analysis is usually done after bunsetsu identification, bunsetsu identification is important for analyzing Japanese sentences. In experiments comparing the four previously available machine-learning methods (decision tree, maximum-entropy method, example-based approach and decision list) and two new methods using category-exclusive rules, the new method using the category-exclusive rules with the highest similarity performed best.\n    ",
+        "submission_date": "2000-08-28T00:00:00",
+        "last_modified_date": "2000-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008032",
+        "title": "Japanese Probabilistic Information Retrieval Using Location and Category Information",
+        "authors": [
+            "Masaki Murata",
+            "Qing Ma",
+            "Kiyotaka Uchimoto",
+            "Hiromi Ozaku",
+            "Masao Utiyama",
+            "Hitoshi Isahara"
+        ],
+        "abstract": "  Robertson's 2-poisson information retrieve model does not use location and category information. We constructed a framework using location and category information in a 2-poisson model. We submitted two systems based on this framework to the IREX contest, Japanese language information retrieval contest held in Japan in 1999. For precision in the A-judgement measure they scored 0.4926 and 0.4827, the highest values among the 15 teams and 22 systems that participated in the IREX contest. We describe our systems and the comparative experiments done when various parameters were changed. These experiments confirmed the effectiveness of using location and category information.\n    ",
+        "submission_date": "2000-08-28T00:00:00",
+        "last_modified_date": "2000-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008033",
+        "title": "Temporal Expressions in Japanese-to-English Machine Translation",
+        "authors": [
+            "Francis Bond",
+            "Kentaro Ogura",
+            "Hajime Uchino"
+        ],
+        "abstract": "  This paper describes in outline a method for translating Japanese temporal expressions into English. We argue that temporal expressions form a special subset of language that is best handled as a special module in machine translation. The paper deals with problems of lexical idiosyncrasy as well as the choice of articles and prepositions within temporal expressions. In addition temporal expressions are considered as parts of larger structures, and the question of whether to translate them as noun phrases or adverbials is addressed.\n    ",
+        "submission_date": "2000-08-28T00:00:00",
+        "last_modified_date": "2000-08-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008034",
+        "title": "Lexicalized Stochastic Modeling of Constraint-Based Grammars using Log-Linear Measures and EM Training",
+        "authors": [
+            "Stefan Riezler",
+            "Detlef Prescher",
+            "Jonas Kuhn",
+            "Mark Johnson"
+        ],
+        "abstract": "  We present a new approach to stochastic modeling of constraint-based grammars that is based on log-linear models and uses EM for estimation from unannotated data. The techniques are applied to an LFG grammar for German. Evaluation on an exact match task yields 86% precision for an ambiguity rate of 5.4, and 90% precision on a subcat frame match for an ambiguity rate of 25. Experimental comparison to training from a parsebank shows a 10% gain from EM training. Also, a new class-based grammar lexicalization is presented, showing a 10% gain over unlexicalized models.\n    ",
+        "submission_date": "2000-08-30T00:00:00",
+        "last_modified_date": "2000-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008035",
+        "title": "Using a Probabilistic Class-Based Lexicon for Lexical Ambiguity Resolution",
+        "authors": [
+            "Detlef Prescher",
+            "Stefan Riezler",
+            "Mats Rooth"
+        ],
+        "abstract": "  This paper presents the use of probabilistic class-based lexica for disambiguation in target-word selection. Our method employs minimal but precise contextual information for disambiguation. That is, only information provided by the target-verb, enriched by the condensed information of a probabilistic class-based lexicon, is used. Induction of classes and fine-tuning to verbal arguments is done in an unsupervised manner by EM-based clustering techniques. The method shows promising results in an evaluation on real-world translations.\n    ",
+        "submission_date": "2000-08-30T00:00:00",
+        "last_modified_date": "2000-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008036",
+        "title": "Probabilistic Constraint Logic Programming. Formal Foundations of Quantitative and Statistical Inference in Constraint-Based Natural Language Processing",
+        "authors": [
+            "Stefan Riezler"
+        ],
+        "abstract": "  In this thesis, we present two approaches to a rigorous mathematical and algorithmic foundation of quantitative and statistical inference in constraint-based natural language processing. The first approach, called quantitative constraint logic programming, is conceptualized in a clear logical framework, and presents a sound and complete system of quantitative inference for definite clauses annotated with subjective weights. This approach combines a rigorous formal semantics for quantitative inference based on subjective weights with efficient weight-based pruning for constraint-based systems. The second approach, called probabilistic constraint logic programming, introduces a log-linear probability distribution on the proof trees of a constraint logic program and an algorithm for statistical inference of the parameters and properties of such probability models from incomplete, i.e., unparsed data. The possibility of defining arbitrary properties of proof trees as properties of the log-linear probability model and efficiently estimating appropriate parameter values for them permits the probabilistic modeling of arbitrary context-dependencies in constraint logic programs. The usefulness of these ideas is evaluated empirically in a small-scale experiment on finding the correct parses of a constraint-based grammar. In addition, we address the problem of computational intractability of the calculation of expectations in the inference task and present various techniques to approximately solve this task. Moreover, we present an approximate heuristic technique for searching for the most probable analysis in probabilistic constraint logic programs.\n    ",
+        "submission_date": "2000-08-30T00:00:00",
+        "last_modified_date": "2000-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009003",
+        "title": "Automatic Extraction of Subcategorization Frames for Czech",
+        "authors": [
+            "Anoop Sarkar",
+            "Daniel Zeman"
+        ],
+        "abstract": "  We present some novel machine learning techniques for the identification of subcategorization information for verbs in Czech. We compare three different statistical techniques applied to this problem. We show how the learning algorithm can be used to discover previously unknown subcategorization frames from the Czech Prague Dependency Treebank. The algorithm can then be used to label dependents of a verb in the Czech treebank as either arguments or adjuncts. Using our techniques, we ar able to achieve 88% precision on unseen parsed text.\n    ",
+        "submission_date": "2000-09-08T00:00:00",
+        "last_modified_date": "2000-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009008",
+        "title": "Introduction to the CoNLL-2000 Shared Task: Chunking",
+        "authors": [
+            "Erik F. Tjong Kim Sang",
+            "Sabine Buchholz"
+        ],
+        "abstract": "  We describe the CoNLL-2000 shared task: dividing text into syntactically related non-overlapping groups of words, so-called text chunking. We give background information on the data sets, present a general overview of the systems that have taken part in the shared task and briefly discuss their performance.\n    ",
+        "submission_date": "2000-09-18T00:00:00",
+        "last_modified_date": "2000-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009009",
+        "title": "Learning to Filter Spam E-Mail: A Comparison of a Naive Bayesian and a Memory-Based Approach",
+        "authors": [
+            "Ion Androutsopoulos",
+            "Georgios Paliouras",
+            "Vangelis Karkaletsis",
+            "Georgios Sakkis",
+            "Constantine D. Spyropoulos",
+            "Panagiotis Stamatopoulos"
+        ],
+        "abstract": "  We investigate the performance of two machine learning algorithms in the context of anti-spam filtering. The increasing volume of unsolicited bulk e-mail (spam) has generated a need for reliable anti-spam filters. Filters of this type have so far been based mostly on keyword patterns that are constructed by hand and perform poorly. The Naive Bayesian classifier has recently been suggested as an effective method to construct automatically anti-spam filters with superior performance. We investigate thoroughly the performance of the Naive Bayesian filter on a publicly available corpus, contributing towards standard benchmarks. At the same time, we compare the performance of the Naive Bayesian filter to an alternative memory-based learning approach, after introducing suitable cost-sensitive evaluation measures. Both methods achieve very accurate spam filtering, outperforming clearly the keyword-based filter of a widely used e-mail reader.\n    ",
+        "submission_date": "2000-09-18T00:00:00",
+        "last_modified_date": "2000-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009011",
+        "title": "Anaphora Resolution in Japanese Sentences Using Surface Expressions and Examples",
+        "authors": [
+            "Masaki Murata"
+        ],
+        "abstract": "  Anaphora resolution is one of the major problems in natural language processing. It is also one of the important tasks in machine translation and man/machine dialogue. We solve the problem by using surface expressions and examples. Surface expressions are the words in sentences which provide clues for anaphora resolution. Examples are linguistic data which are actually used in conversations and texts. The method using surface expressions and examples is a practical method. This thesis handles almost all kinds of anaphora: i. The referential property and number of a noun phrase ii. Noun phrase direct anaphora iii. Noun phrase indirect anaphora iv. Pronoun anaphora v. Verb phrase ellipsis\n    ",
+        "submission_date": "2000-09-19T00:00:00",
+        "last_modified_date": "2000-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009012",
+        "title": "Modeling Ambiguity in a Multi-Agent System",
+        "authors": [
+            "Christof Monz"
+        ],
+        "abstract": "  This paper investigates the formal pragmatics of ambiguous expressions by modeling ambiguity in a multi-agent system. Such a framework allows us to give a more refined notion of the kind of information that is conveyed by ambiguous expressions. We analyze how ambiguity affects the knowledge of the dialog participants and, especially, what they know about each other after an ambiguous sentence has been uttered. The agents communicate with each other by means of a TELL-function, whose application is constrained by an implementation of some of Grice's maxims. The information states of the multi-agent system itself are represented as a Kripke structures and TELL is an update function on those structures. This framework enables us to distinguish between the information conveyed by ambiguous sentences vs. the information conveyed by disjunctions, and between semantic ambiguity vs. perceived ambiguity.\n    ",
+        "submission_date": "2000-09-19T00:00:00",
+        "last_modified_date": "2000-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009014",
+        "title": "Combining Linguistic and Spatial Information for Document Analysis",
+        "authors": [
+            "Marco Aiello",
+            "Christof Monz",
+            "Leon Todoran"
+        ],
+        "abstract": "  We present a framework to analyze color documents of complex layout. In addition, no assumption is made on the layout. Our framework combines in a content-driven bottom-up approach two different sources of information: textual and spatial. To analyze the text, shallow natural language processing tools, such as taggers and partial parsers, are used. To infer relations of the logical layout we resort to a qualitative spatial calculus closely related to Allen's calculus. We evaluate the system against documents from a color journal and present the results of extracting the reading order from the journal's pages. In this case, our analysis is successful as it extracts the intended reading order from the document.\n    ",
+        "submission_date": "2000-09-20T00:00:00",
+        "last_modified_date": "2000-09-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009015",
+        "title": "A Tableaux Calculus for Ambiguous Quantification",
+        "authors": [
+            "Christof Monz",
+            "Maarten de Rijke"
+        ],
+        "abstract": "  Coping with ambiguity has recently received a lot of attention in natural language processing. Most work focuses on the semantic representation of ambiguous expressions. In this paper we complement this work in two ways. First, we provide an entailment relation for a language with ambiguous expressions. Second, we give a sound and complete tableaux calculus for reasoning with statements involving ambiguous quantification. The calculus interleaves partial disambiguation steps with steps in a traditional deductive process, so as to minimize and postpone branching in the proof process, and thereby increases its efficiency.\n    ",
+        "submission_date": "2000-09-20T00:00:00",
+        "last_modified_date": "2000-09-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009016",
+        "title": "Contextual Inference in Computational Semantics",
+        "authors": [
+            "Christof Monz"
+        ],
+        "abstract": "  In this paper, an application of automated theorem proving techniques to computational semantics is considered. In order to compute the presuppositions of a natural language discourse, several inference tasks arise. Instead of treating these inferences independently of each other, we show how integrating techniques from formal approaches to context into deduction can help to compute presuppositions more efficiently. Contexts are represented as Discourse Representation Structures and the way they are nested is made explicit. In addition, a tableau calculus is present which keeps track of contextual information, and thereby allows to avoid carrying out redundant inference steps as it happens in approaches that neglect explicit nesting of contexts.\n    ",
+        "submission_date": "2000-09-20T00:00:00",
+        "last_modified_date": "2000-09-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009017",
+        "title": "A Tableau Calculus for Pronoun Resolution",
+        "authors": [
+            "Christof Monz",
+            "Maarten de Rijke"
+        ],
+        "abstract": "  We present a tableau calculus for reasoning in fragments of natural language. We focus on the problem of pronoun resolution and the way in which it complicates automated theorem proving for natural language processing. A method for explicitly manipulating contextual information during deduction is proposed, where pronouns are resolved against this context during deduction. As a result, pronoun resolution and deduction can be interleaved in such a way that pronouns are only resolved if this is licensed by a deduction rule; this helps us to avoid the combinatorial complexity of total pronoun disambiguation.\n    ",
+        "submission_date": "2000-09-21T00:00:00",
+        "last_modified_date": "2000-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009018",
+        "title": "A Resolution Calculus for Dynamic Semantics",
+        "authors": [
+            "Christof Monz",
+            "Maarten de Rijke"
+        ],
+        "abstract": "  This paper applies resolution theorem proving to natural language semantics. The aim is to circumvent the computational complexity triggered by natural language ambiguities like pronoun binding, by interleaving pronoun binding with resolution deduction. Therefore disambiguation is only applied to expression that actually occur during derivations.\n    ",
+        "submission_date": "2000-09-21T00:00:00",
+        "last_modified_date": "2000-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009022",
+        "title": "A Comparison between Supervised Learning Algorithms for Word Sense Disambiguation",
+        "authors": [
+            "Gerard Escudero",
+            "Lluis Marquez",
+            "German Rigau"
+        ],
+        "abstract": "  This paper describes a set of comparative experiments, including cross-corpus evaluation, between five alternative algorithms for supervised Word Sense Disambiguation (WSD), namely Naive Bayes, Exemplar-based learning, SNoW, Decision Lists, and Boosting. Two main conclusions can be drawn: 1) The LazyBoosting algorithm outperforms the other four state-of-the-art algorithms in terms of accuracy and ability to tune to new domains; 2) The domain dependence of WSD systems seems very strong and suggests that some kind of adaptation or tuning is required for cross-corpus application.\n    ",
+        "submission_date": "2000-09-22T00:00:00",
+        "last_modified_date": "2000-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009025",
+        "title": "Parsing with the Shortest Derivation",
+        "authors": [
+            "Rens Bod"
+        ],
+        "abstract": "  Common wisdom has it that the bias of stochastic grammars in favor of shorter derivations of a sentence is harmful and should be redressed. We show that the common wisdom is wrong for stochastic grammars that use elementary trees instead of context-free rules, such as Stochastic Tree-Substitution Grammars used by Data-Oriented Parsing models. For such grammars a non-probabilistic metric based on the shortest derivation outperforms a probabilistic metric on the ATIS and OVIS corpora, while it obtains very competitive results on the Wall Street Journal corpus. This paper also contains the first published experiments with DOP on the Wall Street Journal.\n    ",
+        "submission_date": "2000-09-27T00:00:00",
+        "last_modified_date": "2000-09-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009026",
+        "title": "An improved parser for data-oriented lexical-functional analysis",
+        "authors": [
+            "Rens Bod"
+        ],
+        "abstract": "  We present an LFG-DOP parser which uses fragments from LFG-annotated sentences to parse new sentences. Experiments with the Verbmobil and Homecentre corpora show that (1) Viterbi n best search performs about 100 times faster than Monte Carlo search while both achieve the same accuracy; (2) the DOP hypothesis which states that parse accuracy increases with increasing fragment size is confirmed for LFG-DOP; (3) LFG-DOP's relative frequency estimator performs worse than a discounted frequency estimator; and (4) LFG-DOP significantly outperforms Tree-DOP is evaluated on tree structures only.\n    ",
+        "submission_date": "2000-09-27T00:00:00",
+        "last_modified_date": "2000-09-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009027",
+        "title": "A Classification Approach to Word Prediction",
+        "authors": [
+            "Yair Even-Zohar",
+            "Dan Roth"
+        ],
+        "abstract": "  The eventual goal of a language model is to accurately predict the value of a missing word given its context. We present an approach to word prediction that is based on learning a representation for each word as a function of words and linguistics predicates in its context. This approach raises a few new questions that we address. First, in order to learn good word representations it is necessary to use an expressive representation of the context. We present a way that uses external knowledge to generate expressive context representations, along with a learning method capable of handling the large number of features generated this way that can, potentially, contribute to each prediction. Second, since the number of words ``competing'' for each prediction is large, there is a need to ``focus the attention'' on a smaller subset of these. We exhibit the contribution of a ``focus of attention'' mechanism to the performance of the word predictor. Finally, we describe a large scale experimental study in which the approach presented is shown to yield significant improvements in word prediction tasks.\n    ",
+        "submission_date": "2000-09-28T00:00:00",
+        "last_modified_date": "2000-09-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010012",
+        "title": "Finding consensus in speech recognition: word error minimization and other applications of confusion networks",
+        "authors": [
+            "L. Mangu",
+            "E. Brill",
+            "A. Stolcke"
+        ],
+        "abstract": "  We describe a new framework for distilling information from word lattices to improve the accuracy of speech recognition and obtain a more perspicuous representation of a set of alternative hypotheses. In the standard MAP decoding approach the recognizer outputs the string of words corresponding to the path with the highest posterior probability given the acoustics and a language model. However, even given optimal models, the MAP decoder does not necessarily minimize the commonly used performance metric, word error rate (WER). We describe a method for explicitly minimizing WER by extracting word hypotheses with the highest posterior probabilities from word lattices. We change the standard problem formulation by replacing global search over a large set of sentence hypotheses with local search over a small set of word candidates. In addition to improving the accuracy of the recognizer, our method produces a new representation of the set of candidate hypotheses that specifies the sequence of word-level confusions in a compact lattice format. We study the properties of confusion networks and examine their use for other tasks, such as lattice compression, word spotting, confidence annotation, and reevaluation of recognition hypotheses using higher-level knowledge sources.\n    ",
+        "submission_date": "2000-10-07T00:00:00",
+        "last_modified_date": "2000-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010014",
+        "title": "On a cepstrum-based speech detector robust to white noise",
+        "authors": [
+            "Sergei Skorik",
+            "Frederic Berthommier"
+        ],
+        "abstract": "  We study effects of additive white noise on the cepstral representation of speech signals. Distribution of each individual cepstrum coefficient of speech is shown to depend strongly on noise and to overlap significantly with the cepstrum distribution of noise. Based on these studies, we suggest a scalar quantity, V, equal to the sum of weighted cepstral coefficients, which is able to classify frames containing speech against noise-like frames. The distributions of V for speech and noise frames are reasonably well separated above SNR = 5 dB, demonstrating the feasibility of robust speech detector based on V.\n    ",
+        "submission_date": "2000-10-10T00:00:00",
+        "last_modified_date": "2000-10-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010020",
+        "title": "Using existing systems to supplement small amounts of annotated grammatical relations training data",
+        "authors": [
+            "Alexander Yeh"
+        ],
+        "abstract": "  Grammatical relationships (GRs) form an important level of natural language processing, but different sets of GRs are useful for different purposes. Therefore, one may often only have time to obtain a small training corpus with the desired GR annotations. To boost the performance from using such a small training corpus on a transformation rule learner, we use existing systems that find related types of annotations.\n    ",
+        "submission_date": "2000-10-11T00:00:00",
+        "last_modified_date": "2000-10-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010024",
+        "title": "Exploring automatic word sense disambiguation with decision lists and the Web",
+        "authors": [
+            "Eneko Agirre",
+            "David Martinez"
+        ],
+        "abstract": "  The most effective paradigm for word sense disambiguation, supervised learning, seems to be stuck because of the knowledge acquisition bottleneck. In this paper we take an in-depth study of the performance of decision lists on two publicly available corpora and an additional corpus automatically acquired from the Web, using the fine-grained highly polysemous senses in WordNet. Decision lists are shown a versatile state-of-the-art technique. The experiments reveal, among other facts, that SemCor can be an acceptable (0.7 precision for polysemous words) starting point for an all-words system. The results on the DSO corpus show that for some highly polysemous words 0.7 precision seems to be the current state-of-the-art limit. On the other hand, independently constructed hand-tagged corpora are not mutually useful, and a corpus automatically acquired from the Web is shown to fail.\n    ",
+        "submission_date": "2000-10-17T00:00:00",
+        "last_modified_date": "2000-10-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010025",
+        "title": "Extraction of semantic relations from a Basque monolingual dictionary using Constraint Grammar",
+        "authors": [
+            "Eneko Agirre",
+            "Olatz Ansa",
+            "Xabier Arregi",
+            "Xabier Artola",
+            "Arantza Diaz de Ilarraza",
+            "Mikel Lersundi",
+            "David Martinez",
+            "Kepa Sarasola",
+            "Ruben Urizar"
+        ],
+        "abstract": "  This paper deals with the exploitation of dictionaries for the semi-automatic construction of lexicons and lexical knowledge bases. The final goal of our research is to enrich the Basque Lexical Database with semantic information such as senses, definitions, semantic relations, etc., extracted from a Basque monolingual dictionary. The work here presented focuses on the extraction of the semantic relations that best characterise the headword, that is, those of synonymy, antonymy, hypernymy, and other relations marked by specific relators and derivation. All nominal, verbal and adjectival entries were treated. Basque uses morphological inflection to mark case, and therefore semantic relations have to be inferred from suffixes rather than from prepositions. Our approach combines a morphological analyser and surface syntax parsing (based on Constraint Grammar), and has proven very successful for highly inflected languages such as Basque. Both the effort to write the rules and the actual processing time of the dictionary have been very low. At present we have extracted 42,533 relations, leaving only 2,943 (9%) definitions without any extracted relation. The error rate is extremely low, as only 2.2% of the extracted relations are wrong.\n    ",
+        "submission_date": "2000-10-17T00:00:00",
+        "last_modified_date": "2000-10-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010026",
+        "title": "Enriching very large ontologies using the WWW",
+        "authors": [
+            "Eneko Agirre",
+            "Olatz Ansa",
+            "Eduard Hovy",
+            "David Martinez"
+        ],
+        "abstract": "  This paper explores the possibility to exploit text on the world wide web in order to enrich the concepts in existing ontologies. First, a method to retrieve documents from the WWW related to a concept is described. These document collections are used 1) to construct topic signatures (lists of topically related words) for each concept in WordNet, and 2) to build hierarchical clusters of the concepts (the word senses) that lexicalize a given word. The overall goal is to overcome two shortcomings of WordNet: the lack of topical links among concepts, and the proliferation of senses. Topic signatures are validated on a word sense disambiguation task with good results, which are improved when the hierarchical clusters are used.\n    ",
+        "submission_date": "2000-10-17T00:00:00",
+        "last_modified_date": "2000-10-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010027",
+        "title": "One Sense per Collocation and Genre/Topic Variations",
+        "authors": [
+            "David Martinez",
+            "Eneko Agirre"
+        ],
+        "abstract": "  This paper revisits the one sense per collocation hypothesis using fine-grained sense distinctions and two different corpora. We show that the hypothesis is weaker for fine-grained sense distinctions (70% vs. 99% reported earlier on 2-way ambiguities). We also show that one sense per collocation does hold across corpora, but that collocations vary from one corpus to the other, following genre and topic variations. This explains the low results when performing word sense disambiguation across corpora. In fact, we demonstrate that when two independent corpora share a related genre/topic, the word sense disambiguation results would be better. Future work on word sense disambiguation will have to take into account genre and topic as important parameters on their models.\n    ",
+        "submission_date": "2000-10-17T00:00:00",
+        "last_modified_date": "2000-10-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010030",
+        "title": "Reduction of Intermediate Alphabets in Finite-State Transducer Cascades",
+        "authors": [
+            "Andre Kempe"
+        ],
+        "abstract": "  This article describes an algorithm for reducing the intermediate alphabets in cascades of finite-state transducers (FSTs). Although the method modifies the component FSTs, there is no change in the overall relation described by the whole cascade. No additional information or special algorithm, that could decelerate the processing of input, is required at runtime. Two examples from Natural Language Processing are used to illustrate the effect of the algorithm on the sizes of the FSTs and their alphabets. With some FSTs the number of arcs and symbols shrank considerably.\n    ",
+        "submission_date": "2000-10-23T00:00:00",
+        "last_modified_date": "2000-10-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010033",
+        "title": "A Formal Framework for Linguistic Annotation (revised version)",
+        "authors": [
+            "Steven Bird",
+            "Mark Liberman"
+        ],
+        "abstract": "  `Linguistic annotation' covers any descriptive or analytic notations applied to raw language data. The basic data may be in the form of time functions - audio, video and/or physiological recordings - or it may be textual. The added notations may include transcriptions of all sorts (from phonetic features to discourse structures), part-of-speech and sense tagging, syntactic analysis, `named entity' identification, co-reference annotation, and so on. While there are several ongoing efforts to provide formats and tools for such annotations and to publish annotated linguistic databases, the lack of widely accepted standards is becoming a critical problem. Proposed standards, to the extent they exist, have focused on file formats. This paper focuses instead on the logical structure of linguistic annotations. We survey a wide variety of existing annotation formats and demonstrate a common conceptual core, the annotation graph. This provides a formal framework for constructing, maintaining and searching linguistic annotations, while remaining consistent with many alternative data structures and file formats.\n    ",
+        "submission_date": "2000-10-26T00:00:00",
+        "last_modified_date": "2000-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011001",
+        "title": "Utilizing the World Wide Web as an Encyclopedia: Extracting Term Descriptions from Semi-Structured Texts",
+        "authors": [
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  In this paper, we propose a method to extract descriptions of technical terms from Web pages in order to utilize the World Wide Web as an encyclopedia. We use linguistic patterns and HTML text structures to extract text fragments containing term descriptions. We also use a language model to discard extraneous descriptions, and a clustering method to summarize resultant descriptions. We show the effectiveness of our method by way of experiments.\n    ",
+        "submission_date": "2000-11-02T00:00:00",
+        "last_modified_date": "2000-11-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011002",
+        "title": "A Novelty-based Evaluation Method for Information Retrieval",
+        "authors": [
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  In information retrieval research, precision and recall have long been used to evaluate IR systems. However, given that a number of retrieval systems resembling one another are already available to the public, it is valuable to retrieve novel relevant documents, i.e., documents that cannot be retrieved by those existing systems. In view of this problem, we propose an evaluation method that favors systems retrieving as many novel documents as possible. We also used our method to evaluate systems that participated in the IREX workshop.\n    ",
+        "submission_date": "2000-11-02T00:00:00",
+        "last_modified_date": "2000-11-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011003",
+        "title": "Applying Machine Translation to Two-Stage Cross-Language Information Retrieval",
+        "authors": [
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  Cross-language information retrieval (CLIR), where queries and documents are in different languages, needs a translation of queries and/or documents, so as to standardize both of them into a common representation. For this purpose, the use of machine translation is an effective approach. However, computational cost is prohibitive in translating large-scale document collections. To resolve this problem, we propose a two-stage CLIR method. First, we translate a given query into the document language, and retrieve a limited number of foreign documents. Second, we machine translate only those documents into the user language, and re-rank them based on the translation result. We also show the effectiveness of our method by way of experiments using Japanese queries and English technical documents.\n    ",
+        "submission_date": "2000-11-02T00:00:00",
+        "last_modified_date": "2000-11-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011007",
+        "title": "Tree-gram Parsing: Lexical Dependencies and Structural Relations",
+        "authors": [
+            "Khalil Sima'an"
+        ],
+        "abstract": "  This paper explores the kinds of probabilistic relations that are important in syntactic disambiguation. It proposes that two widely used kinds of relations, lexical dependencies and structural relations, have complementary disambiguation capabilities. It presents a new model based on structural relations, the Tree-gram model, and reports experiments showing that structural relations should benefit from enrichment by lexical dependencies.\n    ",
+        "submission_date": "2000-11-06T00:00:00",
+        "last_modified_date": "2000-11-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011020",
+        "title": "The Use of Instrumentation in Grammar Engineering",
+        "authors": [
+            "Norbert Broeker"
+        ],
+        "abstract": "  This paper explores the usefulness of a technique from software engineering, code instrumentation, for the development of large-scale natural language grammars. Information about the usage of grammar rules in test and corpus sentences is used to improve grammar and testsuite, as well as adapting a grammar to a specific genre. Results show that less than half of a large-coverage grammar for German is actually tested by two large testsuites, and that 10--30% of testing time is redundant. This methodology applied can be seen as a re-use of grammar writing knowledge for testsuite compilation.\n    ",
+        "submission_date": "2000-11-16T00:00:00",
+        "last_modified_date": "2000-11-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011028",
+        "title": "Retrieval from Captioned Image Databases Using Natural Language Processing",
+        "authors": [
+            "David Elworthy"
+        ],
+        "abstract": "  It might appear that natural language processing should improve the accuracy of information retrieval systems, by making available a more detailed analysis of queries and documents. Although past results appear to show that this is not so, if the focus is shifted to short phrases rather than full documents, the situation becomes somewhat different. The ANVIL system uses a natural language technique to obtain high accuracy retrieval of images which have been annotated with a descriptive textual caption. The natural language techniques also allow additional contextual information to be derived from the relation between the query and the caption, which can help users to understand the overall collection of retrieval results. The techniques have been successfully used in a information retrieval system which forms both a testbed for research and the basis of a commercial system.\n    ",
+        "submission_date": "2000-11-20T00:00:00",
+        "last_modified_date": "2000-11-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011034",
+        "title": "Semantic interpretation of temporal information by abductive inference",
+        "authors": [
+            "Sven Verdoolaege",
+            "Marc Denecker",
+            "Ness Schelkens",
+            "Danny De Schreye",
+            "Frank Van Eynde"
+        ],
+        "abstract": "  Besides temporal information explicitly available in verbs and adjuncts, the temporal interpretation of a text also depends on general world knowledge and default assumptions. We will present a theory for describing the relation between, on the one hand, verbs, their tenses and adjuncts and, on the other, the eventualities and periods of time they represent and their relative temporal locations.\n",
+        "submission_date": "2000-11-22T00:00:00",
+        "last_modified_date": "2000-11-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011035",
+        "title": "Abductive reasoning with temporal information",
+        "authors": [
+            "Sven Verdoolaege",
+            "Marc Denecker",
+            "Frank Van Eynde"
+        ],
+        "abstract": "  Texts in natural language contain a lot of temporal information, both explicit and implicit. Verbs and temporal adjuncts carry most of the explicit information, but for a full understanding general world knowledge and default assumptions have to be taken into account. We will present a theory for describing the relation between, on the one hand, verbs, their tenses and adjuncts and, on the other, the eventualities and periods of time they represent and their relative temporal locations, while allowing interaction with general world knowledge.\n",
+        "submission_date": "2000-11-23T00:00:00",
+        "last_modified_date": "2000-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011040",
+        "title": "Do All Fragments Count?",
+        "authors": [
+            "Rens Bod"
+        ],
+        "abstract": "  We aim at finding the minimal set of fragments which achieves maximal parse accuracy in Data Oriented Parsing. Experiments with the Penn Wall Street Journal treebank show that counts of almost arbitrary fragments within parse trees are important, leading to improved parse accuracy over previous models tested on this treebank. We isolate a number of dependency relations which previous models neglect but which contribute to higher parse accuracy.\n    ",
+        "submission_date": "2000-11-24T00:00:00",
+        "last_modified_date": "2000-11-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003003",
+        "title": "Prospects for in-depth story understanding by computer",
+        "authors": [
+            "Erik T. Mueller"
+        ],
+        "abstract": "  While much research on the hard problem of in-depth story understanding by computer was performed starting in the 1970s, interest shifted in the 1990s to information extraction and word sense disambiguation. Now that a degree of success has been achieved on these easier problems, I propose it is time to return to in-depth story understanding. In this paper I examine the shift away from story understanding, discuss some of the major problems in building a story understanding system, present some possible solutions involving a set of interacting understanding agents, and provide pointers to useful tools and resources for building story understanding systems.\n    ",
+        "submission_date": "2000-03-01T00:00:00",
+        "last_modified_date": "2000-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003004",
+        "title": "A database and lexicon of scripts for ThoughtTreasure",
+        "authors": [
+            "Erik T. Mueller"
+        ],
+        "abstract": "  Since scripts were proposed in the 1970's as an inferencing mechanism for AI and natural language processing programs, there have been few attempts to build a database of scripts. This paper describes a database and lexicon of scripts that has been added to the ThoughtTreasure commonsense platform. The database provides the following information about scripts: sequence of events, roles, props, entry conditions, results, goals, emotions, places, duration, frequency, and cost. English and French words and phrases are linked to script concepts.\n    ",
+        "submission_date": "2000-03-01T00:00:00",
+        "last_modified_date": "2000-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003022",
+        "title": "Hypothetical revision and matter-of-fact supposition",
+        "authors": [
+            "Horacio Arlo-Costa"
+        ],
+        "abstract": "  The paper studies the notion of supposition encoded in non-Archimedean conditional probability (and revealed in the acceptance of the so-called indicative conditionals). The notion of qualitative change of view that thus arises is axiomatized and compared with standard notions like AGM and UPDATE. Applications in the following fields are discussed: (1) theory of games and decisions, (2) causal models, (3) non-monotonic logic.\n    ",
+        "submission_date": "2000-03-08T00:00:00",
+        "last_modified_date": "2000-03-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0008022",
+        "title": "A Learning Approach to Shallow Parsing",
+        "authors": [
+            "Marcia Mu\u00f1oz",
+            "Vasin Punyakanok",
+            "Dan Roth",
+            "Dav Zimak"
+        ],
+        "abstract": "  A SNoW based learning approach to shallow parsing tasks is presented and studied experimentally. The approach learns to identify syntactic patterns by combining simple predictors to produce a coherent inference. Two instantiations of this approach are studied and experimental results for Noun-Phrases (NP) and Subject-Verb (SV) phrases that compare favorably with the best published results are presented. In doing that, we compare two ways of modeling the problem of learning to recognize patterns and suggest that shallow parsing patterns are better learned using open/close predictors than using inside/outside predictors.\n    ",
+        "submission_date": "2000-08-22T00:00:00",
+        "last_modified_date": "2000-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0009019",
+        "title": "Computing Presuppositions by Contextual Reasoning",
+        "authors": [
+            "Christof Monz"
+        ],
+        "abstract": "  This paper describes how automated deduction methods for natural language processing can be applied more efficiently by encoding context in a more elaborate way. Our work is based on formal approaches to context, and we provide a tableau calculus for contextual reasoning. This is explained by considering an example from the problem area of presupposition projection.\n    ",
+        "submission_date": "2000-09-21T00:00:00",
+        "last_modified_date": "2000-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0011011",
+        "title": "Formal Properties of XML Grammars and Languages",
+        "authors": [
+            "Jean Berstel",
+            "Luc Boasson"
+        ],
+        "abstract": "  XML documents are described by a document type definition (DTD). An XML-grammar is a formal grammar that captures the syntactic features of a DTD. We investigate properties of this family of grammars. We show that every XML-language basically has a unique XML-grammar. We give two characterizations of languages generated by XML-grammars, one is set-theoretic, the other is by a kind of saturation property. We investigate decidability problems and prove that some properties that are undecidable for general context-free languages become decidable for XML-languages. We also characterize those XML-grammars that generate regular XML-languages.\n    ",
+        "submission_date": "2000-11-07T00:00:00",
+        "last_modified_date": "2000-11-07T00:00:00"
+    }
+]

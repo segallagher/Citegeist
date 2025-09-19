@@ -1,0 +1,967 @@
+[
+    {
+        "url": "https://arxiv.org/abs/0801.3654",
+        "title": "A path following algorithm for the graph matching problem",
+        "authors": [
+            "Mikhail Zaslavskiy",
+            "Francis Bach",
+            "Jean-Philippe Vert"
+        ],
+        "abstract": "  We propose a convex-concave programming approach for the labeled weighted graph matching problem. The convex-concave programming formulation is obtained by rewriting the weighted graph matching problem as a least-square problem on the set of permutation matrices and relaxing it to two different optimization problems: a quadratic convex and a quadratic concave optimization problem on the set of doubly stochastic matrices. The concave relaxation has the same global minimum as the initial graph matching problem, but the search for its global minimum is also a hard combinatorial problem. We therefore construct an approximation of the concave problem solution by following a solution path of a convex-concave problem obtained by linear interpolation of the convex and concave formulations, starting from the convex relaxation. This method allows to easily integrate the information on graph label similarities into the optimization problem, and therefore to perform labeled weighted graph matching. The algorithm is compared with some of the best performing graph matching methods on four datasets: simulated graphs, QAPLib, retina vessel images and handwritten chinese characters. In all cases, the results are competitive with the state-of-the-art.\n    ",
+        "submission_date": "2008-01-23T00:00:00",
+        "last_modified_date": "2008-10-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0801.4807",
+        "title": "Automatic Text Area Segmentation in Natural Images",
+        "authors": [
+            "Syed Ali Raza Jafri",
+            "Mireille Boutin",
+            "Edward J. Delp"
+        ],
+        "abstract": "  We present a hierarchical method for segmenting text areas in natural images. The method assumes that the text is written with a contrasting color on a more or less uniform background. But no assumption is made regarding the language or character set used to write the text. In particular, the text can contain simple graphics or symbols. The key feature of our approach is that we first concentrate on finding the background of the text, before testing whether there is actually text on the background. Since uniform areas are easy to find in natural images, and since text backgrounds define areas which contain \"holes\" (where the text is written) we thus look for uniform areas containing \"holes\" and label them as text backgrounds candidates. Each candidate area is then further tested for the presence of text within its convex hull. We tested our method on a database of 65 images including English and Urdu text. The method correctly segmented all the text areas in 63 of these images, and in only 4 of these were areas that do not contain text also segmented.\n    ",
+        "submission_date": "2008-01-31T00:00:00",
+        "last_modified_date": "2008-01-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.1258",
+        "title": "Bayesian Nonlinear Principal Component Analysis Using Random Fields",
+        "authors": [
+            "Heng Lian"
+        ],
+        "abstract": "  We propose a novel model for nonlinear dimension reduction motivated by the probabilistic formulation of principal component analysis. Nonlinearity is achieved by specifying different transformation matrices at different locations of the latent space and smoothing the transformation using a Markov random field type prior. The computation is made feasible by the recent advances in sampling from von Mises-Fisher distributions.\n    ",
+        "submission_date": "2008-02-09T00:00:00",
+        "last_modified_date": "2008-02-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.3285",
+        "title": "Some Aspects of Testing Process for Transport Streams in Digital Video Broadcasting",
+        "authors": [
+            "Radu Arsinte",
+            "Ciprian Ilioaei"
+        ],
+        "abstract": "  This paper presents some aspects related to the DVB (Digital Video Broadcasting) investigation. The basic aspects of DVB are presented, with an emphasis on DVB-T version of standard. The main purpose of this research is to analyze the way that the transmission of the transport streams is realized in case of the Terrestrial Digital Video Broadcasting (DVB-T). To accomplish this, first, Digital Video Broadcasting standard is presented, and then the main aspects of DVB testing and analysis of the transport streams are investigated. The paper presents also the results obtained using two programs designed for DVB analysis: Mosalina and TSA.\n    ",
+        "submission_date": "2008-02-22T00:00:00",
+        "last_modified_date": "2008-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.3288",
+        "title": "Implementing a Test Strategy for an Advanced Video Acquisition and Processing Architecture",
+        "authors": [
+            "Radu Arsinte"
+        ],
+        "abstract": "  This paper presents some aspects related to test process of an advanced video system used in remote IP surveillance. The system is based on a Pentium compatible architecture using the industrial standard PC104+. First the overall architecture of the system is presented, involving both hardware or software aspects. The acquisition board which is developed in a special, nonstandard architecture, is also briefly presented. The main purpose of this research was to set a coherent set of procedures in order to test all the aspects of the video acquisition board. To accomplish this, it was necessary to set-up a procedure in two steps: stand alone video board test (functional test) and an in-system test procedure verifying the compatibility with both OS: Linux and Windows. The paper presents also the results obtained using this procedure.\n    ",
+        "submission_date": "2008-02-22T00:00:00",
+        "last_modified_date": "2008-02-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.3528",
+        "title": "Wavelet and Curvelet Moments for Image Classification: Application to Aggregate Mixture Grading",
+        "authors": [
+            "Fionn Murtagh",
+            "Jean-Luc Starck"
+        ],
+        "abstract": "  We show the potential for classifying images of mixtures of aggregate, based themselves on varying, albeit well-defined, sizes and shapes, in order to provide a far more effective approach compared to the classification of individual sizes and shapes. While a dominant (additive, stationary) Gaussian noise component in image data will ensure that wavelet coefficients are of Gaussian distribution, long tailed distributions (symptomatic, for example, of extreme values) may well hold in practice for wavelet coefficients. Energy (2nd order moment) has often been used for image characterization for image content-based retrieval, and higher order moments may be important also, not least for capturing long tailed distributional behavior. In this work, we assess 2nd, 3rd and 4th order moments of multiresolution transform -- wavelet and curvelet transform -- coefficients as features. As analysis methodology, taking account of image types, multiresolution transforms, and moments of coefficients in the scales or bands, we use correspondence analysis as well as k-nearest neighbors supervised classification.\n    ",
+        "submission_date": "2008-02-24T00:00:00",
+        "last_modified_date": "2008-02-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.0146",
+        "title": "Polynomial time algorithms for bi-criteria, multi-objective and ratio problems in clustering and imaging. Part I: Normalized cut and ratio regions",
+        "authors": [
+            "Dorit S. Hochbaum"
+        ],
+        "abstract": "  Partitioning and grouping of similar objects plays a fundamental role in image segmentation and in clustering problems. In such problems a typical goal is to group together similar objects, or pixels in the case of image processing. At the same time another goal is to have each group distinctly dissimilar from the rest and possibly to have the group size fairly large. These goals are often combined as a ratio optimization problem. One example of such problem is the normalized cut problem, another is the ratio regions problem. We devise here the first polynomial time algorithms solving these problems optimally. The algorithms are efficient and combinatorial. This contrasts with the heuristic approaches used in the image segmentation literature that formulate those problems as nonlinear optimization problems, which are then relaxed and solved with spectral techniques in real numbers. These approaches not only fail to deliver an optimal solution, but they are also computationally expensive. The algorithms presented here use as a subroutine a minimum $s,t-cut procedure on a related graph which is of polynomial size. The output consists of the optimal solution to the respective ratio problem, as well as a sequence of nested solution with respect to any relative weighting of the objectives of the numerator and denominator.\n",
+        "submission_date": "2008-03-02T00:00:00",
+        "last_modified_date": "2008-03-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.0194",
+        "title": "Acquisition Accuracy Evaluation in Visual Inspection Systems - a Practical Approach",
+        "authors": [
+            "Radu Arsinte",
+            "Costin Miron"
+        ],
+        "abstract": "  This paper draws a proposal of a set of parameters and methods for accuracy evaluation of visual inspection systems. The case of a monochrome board is treated, but practically all conclusions and methods may be extended for colour acquisition. Basically, the proposed parameters are grouped in five sets as follows:Internal noise;Video ADC cuantisation parameters;Analogue processing section parameters;Dominant frequencies;Synchronisation (lock-in) accuracy. On basis of this set of parameters was developed a software environment, in conjunction with a test signal generator that allows the \"test\" images. The paper also presents conclusions of evaluation for two types of video acquisition boards\n    ",
+        "submission_date": "2008-03-03T00:00:00",
+        "last_modified_date": "2008-03-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.1586",
+        "title": "Spatio-activity based object detection",
+        "authors": [
+            "Jarrad Springett",
+            "Jeroen Vendrig"
+        ],
+        "abstract": "  We present the SAMMI lightweight object detection method which has a high level of accuracy and robustness, and which is able to operate in an environment with a large number of cameras. Background modeling is based on DCT coefficients provided by cameras. Foreground detection uses similarity in temporal characteristics of adjacent blocks of pixels, which is a computationally inexpensive way to make use of object coherence. Scene model updating uses the approximated median method for improved performance. Evaluation at pixel level and application level shows that SAMMI object detection performs better and faster than the conventional Mixture of Gaussians method.\n    ",
+        "submission_date": "2008-03-11T00:00:00",
+        "last_modified_date": "2008-03-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.2363",
+        "title": "lambda-Connectedness Determination for Image Segmentation",
+        "authors": [
+            "Li Chen"
+        ],
+        "abstract": "  Image segmentation is to separate an image into distinct homogeneous regions belonging to different objects. It is an essential step in image analysis and computer vision. This paper compares some segmentation technologies and attempts to find an automated way to better determine the parameters for image segmentation, especially the connectivity value of $\\lambda$ in $\\lambda$-connected segmentation.\n",
+        "submission_date": "2008-03-16T00:00:00",
+        "last_modified_date": "2008-03-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.2812",
+        "title": "Using Spatially Varying Pixels Exposures and Bayer-covered Photosensors for High Dynamic Range Imaging",
+        "authors": [
+            "Mikhail V. Konnik"
+        ],
+        "abstract": "  The method of a linear high dynamic range imaging using solid-state photosensors with Bayer colour filters array is provided in this paper. Using information from neighbour pixels, it is possible to reconstruct linear images with wide dynamic range from the oversaturated images. Bayer colour filters array is considered as an array of neutral filters in a quasimonochromatic light. If the camera's response function to the desirable light source is known then one can calculate correction coefficients to reconstruct oversaturated images. Reconstructed images are linearized in order to provide a linear high dynamic range images for optical-digital imaging systems. The calibration procedure for obtaining the camera's response function to the desired light source is described. Experimental results of the reconstruction of the images from the oversaturated images are presented for red, green, and blue quasimonochromatic light sources. Quantitative analysis of the accuracy of the reconstructed images is provided.\n    ",
+        "submission_date": "2008-03-19T00:00:00",
+        "last_modified_date": "2008-03-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.1046",
+        "title": "Discrete schemes for Gaussian curvature and their convergence",
+        "authors": [
+            "Zhiqiang Xu",
+            "Guoliang Xu"
+        ],
+        "abstract": "  In this paper, several discrete schemes for Gaussian curvature are surveyed. The convergence property of a modified discrete scheme for the Gaussian curvature is considered. Furthermore, a new discrete scheme for Gaussian curvature is resented. We prove that the new scheme converges at the regular vertex with valence not less than 5. By constructing a counterexample, we also show that it is impossible for building a discrete scheme for Gaussian curvature which converges over the regular vertex with valence 4. Finally, asymptotic errors of several discrete scheme for Gaussian curvature are compared.\n    ",
+        "submission_date": "2008-04-07T00:00:00",
+        "last_modified_date": "2008-04-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.1448",
+        "title": "Fast k Nearest Neighbor Search using GPU",
+        "authors": [
+            "Vincent Garcia",
+            "Eric Debreuve",
+            "Michel Barlaud"
+        ],
+        "abstract": "  The recent improvements of graphics processing units (GPU) offer to the computer vision community a powerful processing platform. Indeed, a lot of highly-parallelizable computer vision problems can be significantly accelerated using GPU architecture. Among these algorithms, the k nearest neighbor search (KNN) is a well-known problem linked with many applications such as classification, estimation of statistical properties, etc. The main drawback of this task lies in its computation burden, as it grows polynomially with the data size. In this paper, we show that the use of the NVIDIA CUDA API accelerates the search for the KNN up to a factor of 120.\n    ",
+        "submission_date": "2008-04-09T00:00:00",
+        "last_modified_date": "2008-04-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.1982",
+        "title": "Linear Time Recognition Algorithms for Topological Invariants in 3D",
+        "authors": [
+            "Li Chen",
+            "Yongwu Rong"
+        ],
+        "abstract": "  In this paper, we design linear time algorithms to recognize and determine topological invariants such as the genus and homology groups in 3D. These properties can be used to identify patterns in 3D image recognition. This has tremendous amount of applications in 3D medical image analysis. Our method is based on cubical images with direct adjacency, also called (6,26)-connectivity images in discrete geometry. According to the fact that there are only six types of local surface points in 3D and a discrete version of the well-known Gauss-Bonnett Theorem in differential geometry, we first determine the genus of a closed 2D-connected component (a closed digital surface). Then, we use Alexander duality to obtain the homology groups of a 3D object in 3D space.\n    ",
+        "submission_date": "2008-04-12T00:00:00",
+        "last_modified_date": "2008-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.3234",
+        "title": "Technical Report - Automatic Contour Extraction from 2D Neuron Images",
+        "authors": [
+            "J. J. G. Leandro",
+            "R. M. Cesar Jr",
+            "L. da F. Costa"
+        ],
+        "abstract": "  This work describes a novel methodology for automatic contour extraction from 2D images of 3D neurons (e.g. camera lucida images and other types of 2D microscopy). Most contour-based shape analysis methods can not be used to characterize such cells because of overlaps between neuronal processes. The proposed framework is specifically aimed at the problem of contour following even in presence of multiple overlaps. First, the input image is preprocessed in order to obtain an 8-connected skeleton with one-pixel-wide branches, as well as a set of critical regions (i.e., bifurcations and crossings). Next, for each subtree, the tracking stage iteratively labels all valid pixel of branches, up to a critical region, where it determines the suitable direction to proceed. Finally, the labeled skeleton segments are followed in order to yield the parametric contour of the neuronal shape under analysis. The reported system was successfully tested with respect to several images and the results from a set of three neuron images are presented here, each pertaining to a different class, i.e. alpha, delta and epsilon ganglion cells, containing a total of 34 crossings. The algorithms successfully got across all these overlaps. The method has also been found to exhibit robustness even for images with close parallel segments. The proposed method is robust and may be implemented in an efficient manner. The introduction of this approach should pave the way for more systematic application of contour-based shape analysis methods in neuronal morphology.\n    ",
+        "submission_date": "2008-04-21T00:00:00",
+        "last_modified_date": "2008-10-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.1854",
+        "title": "A New Algorithm for Interactive Structural Image Segmentation",
+        "authors": [
+            "Alexandre Noma",
+            "Ana B. V. Graciano",
+            "Luis Augusto Consularo",
+            "Roberto M. Cesar-Jr",
+            "Isabelle Bloch"
+        ],
+        "abstract": "  This paper proposes a novel algorithm for the problem of structural image segmentation through an interactive model-based approach. Interaction is expressed in the model creation, which is done according to user traces drawn over a given input image. Both model and input are then represented by means of attributed relational graphs derived on the fly. Appearance features are taken into account as object attributes and structural properties are expressed as relational attributes. To cope with possible topological differences between both graphs, a new structure called the deformation graph is introduced. The segmentation process corresponds to finding a labelling of the input graph that minimizes the deformations introduced in the model when it is updated with input information. This approach has shown to be faster than other segmentation methods, with competitive output quality. Therefore, the method solves the problem of multiple label segmentation in an efficient way. Encouraging results on both natural and target-specific color images, as well as examples showing the reusability of the model, are presented and discussed.\n    ",
+        "submission_date": "2008-05-13T00:00:00",
+        "last_modified_date": "2008-05-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.2324",
+        "title": "A multilateral filtering method applied to airplane runway image",
+        "authors": [
+            "Zhang Yu",
+            "Shi Zhong-ke",
+            "Wang Run-quan"
+        ],
+        "abstract": "  By considering the features of the airport runway image filtering, an improved bilateral filtering method was proposed which can remove noise with edge preserving. Firstly the steerable filtering decomposition is used to calculate the sub-band parameters of 4 orients, and the texture feature matrix is then obtained from the sub-band local median energy. The texture similar, the spatial closer and the color similar functions are used to filter the ",
+        "submission_date": "2008-05-15T00:00:00",
+        "last_modified_date": "2008-05-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.2690",
+        "title": "Increasing Linear Dynamic Range of Commercial Digital Photocamera Used in Imaging Systems with Optical Coding",
+        "authors": [
+            "M.V. Konnik",
+            "E.A. Manykin",
+            "S.N. Starikov"
+        ],
+        "abstract": "  Methods of increasing linear optical dynamic range of commercial photocamera for optical-digital imaging systems are described. Use of such methods allows to use commercial photocameras for optical measurements. Experimental results are reported.\n    ",
+        "submission_date": "2008-05-17T00:00:00",
+        "last_modified_date": "2008-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.3217",
+        "title": "Statistical region-based active contours with exponential family observations",
+        "authors": [
+            "Fran\u00e7ois Lecellier",
+            "St\u00e9phanie Jehan-Besson",
+            "Jalal Fadili",
+            "Gilles Aubert",
+            "Marinette Revenu"
+        ],
+        "abstract": "  In this paper, we focus on statistical region-based active contour models where image features (e.g. intensity) are random variables whose distribution belongs to some parametric family (e.g. exponential) rather than confining ourselves to the special Gaussian case. Using shape derivation tools, our effort focuses on constructing a general expression for the derivative of the energy (with respect to a domain) and derive the corresponding evolution speed. A general result is stated within the framework of multi-parameter exponential family. More particularly, when using Maximum Likelihood estimators, the evolution speed has a closed-form expression that depends simply on the probability density function, while complicating additive terms appear when using other estimators, e.g. moments method. Experimental results on both synthesized and real images demonstrate the applicability of our approach.\n    ",
+        "submission_date": "2008-05-21T00:00:00",
+        "last_modified_date": "2008-05-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.3218",
+        "title": "Region-based active contour with noise and shape priors",
+        "authors": [
+            "Fran\u00e7ois Lecellier",
+            "St\u00e9phanie Jehan-Besson",
+            "Jalal Fadili",
+            "Gilles Aubert",
+            "Marinette Revenu",
+            "Eric Saloux"
+        ],
+        "abstract": "  In this paper, we propose to combine formally noise and shape priors in region-based active contours. On the one hand, we use the general framework of exponential family as a prior model for noise. On the other hand, translation and scale invariant Legendre moments are considered to incorporate the shape prior (e.g. fidelity to a reference shape). The combination of the two prior terms in the active contour functional yields the final evolution equation whose evolution speed is rigorously derived using shape derivative tools. Experimental results on both synthetic images and real life cardiac echography data clearly demonstrate the robustness to initialization and noise, flexibility and large potential applicability of our segmentation algorithm.\n    ",
+        "submission_date": "2008-05-21T00:00:00",
+        "last_modified_date": "2008-05-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0805.3964",
+        "title": "DimReduction - Interactive Graphic Environment for Dimensionality Reduction",
+        "authors": [
+            "Fabricio Martins Lopes",
+            "David Correa Martins-Jr",
+            "Roberto M. Cesar-Jr"
+        ],
+        "abstract": "Feature selection is a pattern recognition approach to choose important variables according to some criteria to distinguish or explain certain phenomena. There are many genomic and proteomic applications which rely on feature selection to answer questions such as: selecting signature genes which are informative about some biological state, e.g. normal tissues and several types of cancer; or defining a network of prediction or inference among elements such as genes, proteins, external stimuli and other elements of interest. In these applications, a recurrent problem is the lack of samples to perform an adequate estimate of the joint probabilities between element states. A myriad of feature selection algorithms and criterion functions are proposed, although it is difficult to point the best solution in general. The intent of this work is to provide an open-source multiplataform graphical environment to apply, test and compare many feature selection approaches suitable to be used in bioinformatics problems.\n    ",
+        "submission_date": "2008-05-26T00:00:00",
+        "last_modified_date": "2011-05-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.0689",
+        "title": "Directional Cross Diamond Search Algorithm for Fast Block Motion Estimation",
+        "authors": [
+            "Hongjun Jia",
+            "Li Zhang"
+        ],
+        "abstract": "  In block-matching motion estimation (BMME), the search patterns have a significant impact on the algorithm's performance, both the search speed and the search quality. The search pattern should be designed to fit the motion vector probability (MVP) distribution characteristics of the real-world sequences. In this paper, we build a directional model of MVP distribution to describe the directional-center-biased characteristic of the MVP distribution and the directional characteristics of the conditional MVP distribution more exactly based on the detailed statistical data of motion vectors of eighteen popular sequences. Three directional search patterns are firstly designed by utilizing the directional characteristics and they are the smallest search patterns among the popular ones. A new algorithm is proposed using the horizontal cross search pattern as the initial step and the horizontal/vertical diamond search pattern as the subsequent step for the fast BMME, which is called the directional cross diamond search (DCDS) algorithm. The DCDS algorithm can obtain the motion vector with fewer search points than CDS, DS or HEXBS while maintaining the similar or even better search quality. The gain on speedup of DCDS over CDS or DS can be up to 54.9%. The simulation results show that DCDS is efficient, effective and robust, and it can always give the faster search speed on different sequences than other fast block-matching algorithm in common use.\n    ",
+        "submission_date": "2008-06-04T00:00:00",
+        "last_modified_date": "2008-06-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.0870",
+        "title": "The Euler-Poincare theory of Metamorphosis",
+        "authors": [
+            "Darryl D. Holm",
+            "Alain Trouve",
+            "Laurent Younes"
+        ],
+        "abstract": "  In the pattern matching approach to imaging science, the process of ``metamorphosis'' is template matching with dynamical templates. Here, we recast the metamorphosis equations of into the Euler-Poincare variational framework of and show that the metamorphosis equations contain the equations for a perfect complex fluid \\cite{Ho2002}. This result connects the ideas underlying the process of metamorphosis in image matching to the physical concept of order parameter in the theory of complex fluids. After developing the general theory, we reinterpret various examples, including point set, image and density metamorphosis. We finally discuss the issue of matching measures with metamorphosis, for which we provide existence theorems for the initial and boundary value problems.\n    ",
+        "submission_date": "2008-06-04T00:00:00",
+        "last_modified_date": "2008-06-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.1446",
+        "title": "Fast Wavelet-Based Visual Classification",
+        "authors": [
+            "Guoshen Yu",
+            "Jean-Jacques Slotine"
+        ],
+        "abstract": "  We investigate a biologically motivated approach to fast visual classification, directly inspired by the recent work of Serre et al. Specifically, trading-off biological accuracy for computational efficiency, we explore using wavelet and grouplet-like transforms to parallel the tuning of visual cortex V1 and V2 cells, alternated with max operations to achieve scale and translation invariance. A feature selection procedure is applied during learning to accelerate recognition. We introduce a simple attention-like feedback mechanism, significantly improving recognition and robustness in multiple-object scenes. In experiments, the proposed algorithm achieves or exceeds state-of-the-art success rate on object recognition, texture and satellite image classification, language identification and sound classification.\n    ",
+        "submission_date": "2008-06-08T00:00:00",
+        "last_modified_date": "2008-06-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.1796",
+        "title": "Evaluation for Uncertain Image Classification and Segmentation",
+        "authors": [
+            "Arnaud Martin",
+            "Hicham Laanaya",
+            "Andreas Arnold-Bos"
+        ],
+        "abstract": "  Each year, numerous segmentation and classification algorithms are invented or reused to solve problems where machine vision is needed. Generally, the efficiency of these algorithms is compared against the results given by one or many human experts. However, in many situations, the location of the real boundaries of the objects as well as their classes are not known with certainty by the human experts. Furthermore, only one aspect of the segmentation and classification problem is generally evaluated. In this paper we present a new evaluation method for classification and segmentation of image, where we take into account both the classification and segmentation results as well as the level of certainty given by the experts. As a concrete example of our method, we evaluate an automatic seabed characterization algorithm based on sonar images.\n    ",
+        "submission_date": "2008-06-11T00:00:00",
+        "last_modified_date": "2008-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.1798",
+        "title": "Human expert fusion for image classification",
+        "authors": [
+            "Arnaud Martin",
+            "Christophe Osswald"
+        ],
+        "abstract": "  In image classification, merging the opinion of several human experts is very important for different tasks such as the evaluation or the training. Indeed, the ground truth is rarely known before the scene imaging. We propose here different models in order to fuse the informations given by two or more experts. The considered unit for the classification, a small tile of the image, can contain one or more kind of the considered classes given by the experts. A second problem that we have to take into account, is the amount of certainty of the expert has for each pixel of the tile. In order to solve these problems we define five models in the context of the Dempster-Shafer Theory and in the context of the Dezert-Smarandache Theory and we study the possible decisions with these models.\n    ",
+        "submission_date": "2008-06-11T00:00:00",
+        "last_modified_date": "2008-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.1984",
+        "title": "Classification of curves in 2D and 3D via affine integral signatures",
+        "authors": [
+            "S. Feng",
+            "I. A. Kogan",
+            "H. Krim"
+        ],
+        "abstract": "  We propose a robust classification algorithm for curves in 2D and 3D, under the special and full groups of affine transformations. To each plane or spatial curve we assign a plane signature curve. Curves, equivalent under an affine transformation, have the same signature. The signatures introduced in this paper are based on integral invariants, which behave much better on noisy images than classically known differential invariants. The comparison with other types of invariants is given in the introduction. Though the integral invariants for planar curves were known before, the affine integral invariants for spatial curves are proposed here for the first time. Using the inductive variation of the moving frame method we compute affine invariants in terms of Euclidean invariants. We present two types of signatures, the global signature and the local signature. Both signatures are independent of parameterization (curve sampling). The global signature depends on the choice of the initial point and does not allow us to compare fragments of curves, and is therefore sensitive to occlusions. The local signature, although is slightly more sensitive to noise, is independent of the choice of the initial point and is not sensitive to occlusions in an image. It helps establish local equivalence of curves. The robustness of these invariants and signatures in their application to the problem of classification of noisy spatial curves extracted from a 3D object is analyzed.\n    ",
+        "submission_date": "2008-06-12T00:00:00",
+        "last_modified_date": "2008-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.2006",
+        "title": "Fusion de classifieurs pour la classification d'images sonar",
+        "authors": [
+            "Arnaud Martin"
+        ],
+        "abstract": "In this paper, we present some high level information fusion approaches for numeric and symbolic data. We study the interest of such method particularly for classifier fusion. A comparative study is made in a context of sea bed characterization from sonar images. The classi- fication of kind of sediment is a difficult problem because of the data complexity. We compare high level information fusion and give the obtained performance.\n    ",
+        "submission_date": "2008-06-12T00:00:00",
+        "last_modified_date": "2012-01-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.2007",
+        "title": "Experts Fusion and Multilayer Perceptron Based on Belief Learning for Sonar Image Classification",
+        "authors": [
+            "Arnaud Martin",
+            "Christophe Osswald"
+        ],
+        "abstract": "  The sonar images provide a rapid view of the seabed in order to characterize it. However, in such as uncertain environment, real seabed is unknown and the only information we can obtain, is the interpretation of different human experts, sometimes in conflict. In this paper, we propose to manage this conflict in order to provide a robust reality for the learning step of classification algorithms. The classification is conducted by a multilayer perceptron, taking into account the uncertainty of the reality in the learning stage. The results of this seabed characterization are presented on real sonar images.\n    ",
+        "submission_date": "2008-06-12T00:00:00",
+        "last_modified_date": "2008-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.2008",
+        "title": "Generalized proportional conflict redistribution rule applied to Sonar imagery and Radar targets classification",
+        "authors": [
+            "Arnaud Martin",
+            "Christophe Osswald"
+        ],
+        "abstract": "  In this chapter, we present two applications in information fusion in order to evaluate the generalized proportional conflict redistribution rule presented in the chapter \\cite{Martin06a}. Most of the time the combination rules are evaluated only on simple examples. We study here different combination rules and compare them in terms of decision on real data. Indeed, in real applications, we need a reliable decision and it is the final results that matter. Two applications are presented here: a fusion of human experts opinions on the kind of underwater sediments depict on sonar image and a classifier fusion for radar targets recognition.\n    ",
+        "submission_date": "2008-06-12T00:00:00",
+        "last_modified_date": "2008-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.2890",
+        "title": "Learning Graph Matching",
+        "authors": [
+            "Tiberio S. Caetano",
+            "Julian J. McAuley",
+            "Li Cheng",
+            "Quoc V. Le",
+            "Alex J. Smola"
+        ],
+        "abstract": "  As a fundamental problem in pattern recognition, graph matching has applications in a variety of fields, from computer vision to computational biology. In graph matching, patterns are modeled as graphs and pattern recognition amounts to finding a correspondence between the nodes of different graphs. Many formulations of this problem can be cast in general as a quadratic assignment problem, where a linear term in the objective function encodes node compatibility and a quadratic term encodes edge compatibility. The main research focus in this theme is about designing efficient algorithms for approximately solving the quadratic assignment problem, since it is NP-hard. In this paper we turn our attention to a different question: how to estimate compatibility functions such that the solution of the resulting graph matching problem best matches the expected solution that a human would manually provide. We present a method for learning graph matching: the training examples are pairs of graphs and the `labels' are matches between them. Our experimental results reveal that learning can substantially improve the performance of standard graph matching algorithms. In particular, we find that simple linear assignment with such a learning scheme outperforms Graduated Assignment with bistochastic normalisation, a state-of-the-art quadratic assignment relaxation algorithm.\n    ",
+        "submission_date": "2008-06-17T00:00:00",
+        "last_modified_date": "2008-06-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3885",
+        "title": "Conceptualization of seeded region growing by pixels aggregation. Part 1: the framework",
+        "authors": [
+            "Vincent Tariel"
+        ],
+        "abstract": "  Adams and Bishop have proposed in 1994 a novel region growing algorithm called seeded region growing by pixels aggregation (SRGPA). This paper introduces a framework to implement an algorithm using SRGPA. This framework is built around two concepts: localization and organization of applied action. This conceptualization gives a quick implementation of algorithms, a direct translation between the mathematical idea and the numerical implementation, and an improvement of algorithms efficiency.\n    ",
+        "submission_date": "2008-06-24T00:00:00",
+        "last_modified_date": "2008-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3887",
+        "title": "Conceptualization of seeded region growing by pixels aggregation. Part 2: how to localize a final partition invariant about the seeded region initialisation order",
+        "authors": [
+            "Vincent Tariel"
+        ],
+        "abstract": "  In the previous paper, we have conceptualized the localization and the organization of seeded region growing by pixels aggregation (SRGPA) but we do not give the issue when there is a collision between two distinct regions during the growing process. In this paper, we propose two implementations to manage two classical growing processes: one without a boundary region region to divide the other regions and another with. Unfortunately, as noticed by Mehnert and Jakway (1997), this partition depends on the seeded region initialisation order (SRIO). We propose a growing process, invariant about SRIO such as the boundary region is the set of ambiguous pixels.\n    ",
+        "submission_date": "2008-06-24T00:00:00",
+        "last_modified_date": "2008-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3928",
+        "title": "Conceptualization of seeded region growing by pixels aggregation. Part 3: a wide range of algorithms",
+        "authors": [
+            "Vincent Tariel"
+        ],
+        "abstract": "  In the two previous papers of this serie, we have created a library, called Population, dedicated to seeded region growing by pixels aggregation and we have proposed different growing processes to get a partition with or without a boundary region to divide the other regions or to get a partition invariant about the seeded region initialisation order. Using this work, we implement some algorithms belonging to the field of SRGPA using this library and these growing processes.\n    ",
+        "submission_date": "2008-06-24T00:00:00",
+        "last_modified_date": "2008-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.3939",
+        "title": "Conceptualization of seeded region growing by pixels aggregation. Part 4: Simple, generic and robust extraction of grains in granular materials obtained by X-ray tomography",
+        "authors": [
+            "Vincent Tariel"
+        ],
+        "abstract": "  This paper proposes a simple, generic and robust method to extract the grains from experimental tridimensionnal images of granular materials obtained by X-ray tomography. This extraction has two steps: segmentation and splitting. For the segmentation step, if there is a sufficient contrast between the different components, a classical threshold procedure followed by a succession of morphological filters can be applied. If not, and if the boundary needs to be localized precisely, a watershed transformation controlled by labels is applied. The basement of this transformation is to localize a label included in the component and another label in the component complementary. A \"soft\" threshold following by an opening is applied on the initial image to localize a label in a component. For any segmentation procedure, the visualisation shows a problem: some groups of two grains, close one to each other, become connected. So if a classical cluster procedure is applied on the segmented binary image, these numerical connected grains are considered as a single grain. To overcome this problem, we applied a procedure introduced by L. Vincent in 1993. This grains extraction is tested for various complexes porous media and granular material, to predict various properties (diffusion, electrical conductivity, deformation field) in a good agreement with experiment data.\n    ",
+        "submission_date": "2008-06-24T00:00:00",
+        "last_modified_date": "2008-07-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.2047",
+        "title": "The Five Points Pose Problem : A New and Accurate Solution Adapted to any Geometric Configuration",
+        "authors": [
+            "Mahzad Kalantari",
+            "Franck Jung",
+            "JeanPierre Guedon",
+            "Nicolas Paparoditis"
+        ],
+        "abstract": "  The goal of this paper is to estimate directly the rotation and translation between two stereoscopic images with the help of five homologous points. The methodology presented does not mix the rotation and translation parameters, which is comparably an important advantage over the methods using the well-known essential matrix. This results in correct behavior and accuracy for situations otherwise known as quite unfavorable, such as planar scenes, or panoramic sets of images (with a null base length), while providing quite comparable results for more \"standard\" cases. The resolution of the algebraic polynomials resulting from the modeling of the coplanarity constraint is made with the help of powerful algebraic solver tools (the Groebner bases and the Rational Univariate Representation).\n    ",
+        "submission_date": "2008-07-13T00:00:00",
+        "last_modified_date": "2008-07-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.2928",
+        "title": "Visual Grouping by Neural Oscillators",
+        "authors": [
+            "Guoshen Yu",
+            "Jean-Jacques Slotine"
+        ],
+        "abstract": "  Distributed synchronization is known to occur at several scales in the brain, and has been suggested as playing a key functional role in perceptual grouping. State-of-the-art visual grouping algorithms, however, seem to give comparatively little attention to neural synchronization analogies. Based on the framework of concurrent synchronization of dynamic systems, simple networks of neural oscillators coupled with diffusive connections are proposed to solve visual grouping problems. Multi-layer algorithms and feedback mechanisms are also studied. The same algorithm is shown to achieve promising results on several classical visual grouping problems, including point clustering, contour integration and image segmentation.\n    ",
+        "submission_date": "2008-07-18T00:00:00",
+        "last_modified_date": "2008-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.4478",
+        "title": "An Image-Based Sensor System for Autonomous Rendez-Vous with Uncooperative Satellites",
+        "authors": [
+            "Carlos Miravet",
+            "Luis Pascual",
+            "Eloise Krouch",
+            "Juan Manuel del Cura"
+        ],
+        "abstract": "  In this paper are described the image processing algorithms developed by SENER, Ingenieria y Sistemas to cope with the problem of image-based, autonomous rendez-vous (RV) with an orbiting satellite. The methods developed have a direct application in the OLEV (Orbital Life Extension Extension Vehicle) mission. OLEV is a commercial mission under development by a consortium formed by Swedish Space Corporation, Kayser-Threde and SENER, aimed to extend the operational life of geostationary telecommunication satellites by supplying them control, navigation and guidance services. OLEV is planned to use a set of cameras to determine the angular position and distance to the client satellite during the complete phases of rendez-vous and docking, thus enabling the operation with satellites not equipped with any specific navigational aid to provide support during the approach. The ability to operate with un-equipped client satellites significantly expands the range of applicability of the system under development, compared to other competing video technologies already tested in previous spatial missions, such as the ones described here below.\n    ",
+        "submission_date": "2008-07-28T00:00:00",
+        "last_modified_date": "2008-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.4701",
+        "title": "An image processing analysis of skin textures",
+        "authors": [
+            "A. Sparavigna",
+            "R. Marazzato"
+        ],
+        "abstract": "  Colour and coarseness of skin are visually different. When image processing is involved in the skin analysis, it is important to quantitatively evaluate such differences using texture features. In this paper, we discuss a texture analysis and measurements based on a statistical approach to the pattern recognition. Grain size and anisotropy are evaluated with proper diagrams. The possibility to determine the presence of pattern defects is also discussed.\n    ",
+        "submission_date": "2008-07-29T00:00:00",
+        "last_modified_date": "2008-07-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.2227",
+        "title": "Higher Order Moments Generation by Mellin Transform for Compound Models of Clutter",
+        "authors": [
+            "C Bhattacharya"
+        ],
+        "abstract": "  The compound models of clutter statistics are found suitable to describe the nonstationary nature of radar backscattering from high-resolution observations. In this letter, we show that the properties of Mellin transform can be utilized to generate higher order moments of simple and compound models of clutter statistics in a compact manner.\n    ",
+        "submission_date": "2008-08-16T00:00:00",
+        "last_modified_date": "2008-08-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.1802",
+        "title": "Automatic Identification and Data Extraction from 2-Dimensional Plots in Digital Documents",
+        "authors": [
+            "William Brouwer",
+            "Saurabh Kataria",
+            "Sujatha Das",
+            "Prasenjit Mitra",
+            "C. L. Giles"
+        ],
+        "abstract": "  Most search engines index the textual content of documents in digital libraries. However, scholarly articles frequently report important findings in figures for visual impact and the contents of these figures are not indexed. These contents are often invaluable to the researcher in various fields, for the purposes of direct comparison with their own work. Therefore, searching for figures and extracting figure data are important problems. To the best of our knowledge, there exists no tool to automatically extract data from figures in digital documents. If we can extract data from these images automatically and store them in a database, an end-user can query and combine data from multiple digital documents simultaneously and efficiently. We propose a framework based on image analysis and machine learning to extract information from 2-D plot images and store them in a database. The proposed algorithm identifies a 2-D plot and extracts the axis labels, legend and the data points from the 2-D plot. We also segregate overlapping shapes that correspond to different data points. We demonstrate performance of individual algorithms, using a combination of generated and real-life images.\n    ",
+        "submission_date": "2008-09-10T00:00:00",
+        "last_modified_date": "2008-09-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.3083",
+        "title": "Supervised Dictionary Learning",
+        "authors": [
+            "Julien Mairal",
+            "Francis Bach",
+            "Jean Ponce",
+            "Guillermo Sapiro",
+            "Andrew Zisserman"
+        ],
+        "abstract": "  It is now well established that sparse signal models are well suited to restoration tasks and can effectively be learned from audio, image, and video data. Recent research has been aimed at learning discriminative sparse models instead of purely reconstructive ones. This paper proposes a new step in that direction, with a novel sparse representation for signals belonging to different classes in terms of a shared dictionary and multiple class-decision functions. The linear variant of the proposed model admits a simple probabilistic interpretation, while its most general variant admits an interpretation in terms of kernels. An optimization framework for learning all the components of the proposed model is presented, along with experimental results on standard handwritten digit and texture classification tasks.\n    ",
+        "submission_date": "2008-09-18T00:00:00",
+        "last_modified_date": "2008-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.3352",
+        "title": "Generalized Prediction Intervals for Arbitrary Distributed High-Dimensional Data",
+        "authors": [
+            "Steffen Kuehn"
+        ],
+        "abstract": "  This paper generalizes the traditional statistical concept of prediction intervals for arbitrary probability density functions in high-dimensional feature spaces by introducing significance level distributions, which provides interval-independent probabilities for continuous random variables. The advantage of the transformation of a probability density function into a significance level distribution is that it enables one-class classification or outlier detection in a direct manner.\n    ",
+        "submission_date": "2008-09-19T00:00:00",
+        "last_modified_date": "2008-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.3618",
+        "title": "Robust Near-Isometric Matching via Structured Learning of Graphical Models",
+        "authors": [
+            "Julian J. McAuley",
+            "Tiberio S. Caetano",
+            "Alexander J. Smola"
+        ],
+        "abstract": "  Models for near-rigid shape matching are typically based on distance-related features, in order to infer matches that are consistent with the isometric assumption. However, real shapes from image datasets, even when expected to be related by \"almost isometric\" transformations, are actually subject not only to noise but also, to some limited degree, to variations in appearance and scale. In this paper, we introduce a graphical model that parameterises appearance, distance, and angle features and we learn all of the involved parameters via structured prediction. The outcome is a model for near-rigid shape matching which is robust in the sense that it is able to capture the possibly limited but still important scale and appearance variations. Our experimental results reveal substantial improvements upon recent successful models, while maintaining similar running times.\n    ",
+        "submission_date": "2008-09-21T00:00:00",
+        "last_modified_date": "2008-09-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.3690",
+        "title": "Modeling and Control with Local Linearizing Nadaraya Watson Regression",
+        "authors": [
+            "Steffen K\u00fchn",
+            "Clemens G\u00fchmann"
+        ],
+        "abstract": "  Black box models of technical systems are purely descriptive. They do not explain why a system works the way it does. Thus, black box models are insufficient for some problems. But there are numerous applications, for example, in control engineering, for which a black box model is absolutely sufficient. In this article, we describe a general stochastic framework with which such models can be built easily and fully automated by observation. Furthermore, we give a practical example and show how this framework can be used to model and control a motorcar powertrain.\n    ",
+        "submission_date": "2008-09-22T00:00:00",
+        "last_modified_date": "2008-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0809.4501",
+        "title": "Audio Classification from Time-Frequency Texture",
+        "authors": [
+            "Guoshen Yu",
+            "Jean-Jacques Slotine"
+        ],
+        "abstract": "  Time-frequency representations of audio signals often resemble texture images. This paper derives a simple audio classification algorithm based on treating sound spectrograms as texture images. The algorithm is inspired by an earlier visual classification scheme particularly efficient at classifying textures. While solely based on time-frequency texture features, the algorithm achieves surprisingly good performance in musical instrument classification experiments.\n    ",
+        "submission_date": "2008-09-25T00:00:00",
+        "last_modified_date": "2008-09-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.2434",
+        "title": "Faster and better: a machine learning approach to corner detection",
+        "authors": [
+            "Edward Rosten",
+            "Reid Porter",
+            "Tom Drummond"
+        ],
+        "abstract": "  The repeatability and efficiency of a corner detector determines how likely it is to be useful in a real-world application. The repeatability is importand because the same scene viewed from different positions should yield features which correspond to the same real-world 3D locations [Schmid et al 2000]. The efficiency is important because this determines whether the detector combined with further processing can operate at frame rate.\n",
+        "submission_date": "2008-10-14T00:00:00",
+        "last_modified_date": "2008-10-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3418",
+        "title": "Detecting the Most Unusual Part of a Digital Image",
+        "authors": [
+            "K.Koroutchev",
+            "E. Korutcheva"
+        ],
+        "abstract": "  The purpose of this paper is to introduce an algorithm that can detect the most unusual part of a digital image. The most unusual part of a given shape is defined as a part of the image that has the maximal distance to all non intersecting shapes with the same form.\n",
+        "submission_date": "2008-10-19T00:00:00",
+        "last_modified_date": "2008-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3579",
+        "title": "Hierarchical Bag of Paths for Kernel Based Shape Classification",
+        "authors": [
+            "Fran\u00e7ois-Xavier Dup\u00e9",
+            "Luc Brun"
+        ],
+        "abstract": "  Graph kernels methods are based on an implicit embedding of graphs within a vector space of large dimension. This implicit embedding allows to apply to graphs methods which where until recently solely reserved to numerical data. Within the shape classification framework, graphs are often produced by a skeletonization step which is sensitive to noise. We propose in this paper to integrate the robustness to structural noise by using a kernel based on a bag of path where each path is associated to a hierarchy encoding successive simplifications of the path. Several experiments prove the robustness and the flexibility of our approach compared to alternative shape classification methods.\n    ",
+        "submission_date": "2008-10-20T00:00:00",
+        "last_modified_date": "2008-10-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.4426",
+        "title": "Camera distortion self-calibration using the plumb-line constraint and minimal Hough entropy",
+        "authors": [
+            "Edward Rosten",
+            "Rohan Loveland"
+        ],
+        "abstract": "  In this paper we present a simple and robust method for self-correction of camera distortion using single images of scenes which contain straight lines. Since the most common distortion can be modelled as radial distortion, we illustrate the method using the Harris radial distortion model, but the method is applicable to any distortion model. The method is based on transforming the edgels of the distorted image to a 1-D angular Hough space, and optimizing the distortion correction parameters which minimize the entropy of the corresponding normalized histogram. Properly corrected imagery will have fewer curved lines, and therefore less spread in Hough space. Since the method does not rely on any image structure beyond the existence of edgels sharing some common orientations and does not use edge fitting, it is applicable to a wide variety of image types. For instance, it can be applied equally well to images of texture with weak but dominant orientations, or images with strong vanishing points. Finally, the method is performed on both synthetic and real data revealing that it is particularly robust to noise.\n    ",
+        "submission_date": "2008-10-24T00:00:00",
+        "last_modified_date": "2009-01-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.4617",
+        "title": "Graph-based classification of multiple observation sets",
+        "authors": [
+            "Effrosyni Kokiopoulou",
+            "Pascal Frossard"
+        ],
+        "abstract": "  We consider the problem of classification of an object given multiple observations that possibly include different transformations. The possible transformations of the object generally span a low-dimensional manifold in the original signal space. We propose to take advantage of this manifold structure for the effective classification of the object represented by the observation set. In particular, we design a low complexity solution that is able to exploit the properties of the data manifolds with a graph-based algorithm. Hence, we formulate the computation of the unknown label matrix as a smoothing process on the manifold under the constraint that all observations represent an object of one single class. It results into a discrete optimization problem, which can be solved by an efficient and low complexity algorithm. We demonstrate the performance of the proposed graph-based algorithm in the classification of sets of multiple images. Moreover, we show its high potential in video-based face recognition, where it outperforms state-of-the-art solutions that fall short of exploiting the manifold structure of the face image data sets.\n    ",
+        "submission_date": "2008-10-25T00:00:00",
+        "last_modified_date": "2009-07-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.5325",
+        "title": "3D Face Recognition with Sparse Spherical Representations",
+        "authors": [
+            "R. Sala Llonch",
+            "E. Kokiopoulou",
+            "I. Tosic",
+            "P. Frossard"
+        ],
+        "abstract": "  This paper addresses the problem of 3D face recognition using simultaneous sparse approximations on the sphere. The 3D face point clouds are first aligned with a novel and fully automated registration process. They are then represented as signals on the 2D sphere in order to preserve depth and geometry information. Next, we implement a dimensionality reduction process with simultaneous sparse approximations and subspace projection. It permits to represent each 3D face by only a few spherical functions that are able to capture the salient facial characteristics, and hence to preserve the discriminant facial information. We eventually perform recognition by effective matching in the reduced space, where Linear Discriminant Analysis can be further activated for improved recognition performance. The 3D face recognition algorithm is evaluated on the FRGC v.1.0 data set, where it is shown to outperform classical state-of-the-art solutions that work with depth images.\n    ",
+        "submission_date": "2008-10-29T00:00:00",
+        "last_modified_date": "2008-10-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.5573",
+        "title": "A branch-and-bound feature selection algorithm for U-shaped cost functions",
+        "authors": [
+            "Marcelo Ris",
+            "Junior Barrera",
+            "David C. Martins Jr"
+        ],
+        "abstract": "  This paper presents the formulation of a combinatorial optimization problem with the following characteristics: ",
+        "submission_date": "2008-10-30T00:00:00",
+        "last_modified_date": "2008-10-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.4699",
+        "title": "Mapping Images with the Coherence Length Diagrams",
+        "authors": [
+            "A. Sparavigna",
+            "R. Marazzato"
+        ],
+        "abstract": "  Statistical pattern recognition methods based on the Coherence Length Diagram (CLD) have been proposed for medical image analyses, such as quantitative characterisation of human skin textures, and for polarized light microscopy of liquid crystal textures. Further investigations are made on image maps originated from such diagram and some examples related to irregularity of microstructures are shown.\n    ",
+        "submission_date": "2008-11-28T00:00:00",
+        "last_modified_date": "2009-03-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.0340",
+        "title": "A Matlab Implementation of a Flat Norm Motivated Polygonal Edge Matching Method using a Decomposition of Boundary into Four 1-Dimensional Currents",
+        "authors": [
+            "Simon P. Morgan",
+            "Wotao Yin",
+            "Kevin R. Vixie"
+        ],
+        "abstract": "  We describe and provide code and examples for a polygonal edge matching method.\n    ",
+        "submission_date": "2008-12-01T00:00:00",
+        "last_modified_date": "2009-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.1340",
+        "title": "Obtaining Depth Maps From Color Images By Region Based Stereo Matching Algorithms",
+        "authors": [
+            "B. Baykant Alagoz"
+        ],
+        "abstract": "  In the paper, region based stereo matching algorithms are developed for extraction depth information from two color stereo image pair. A filter eliminating unreliable disparity estimation was used for increasing reliability of the disparity map. Obtained results by algorithms were represented and compared.\n    ",
+        "submission_date": "2008-12-07T00:00:00",
+        "last_modified_date": "2009-02-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.2574",
+        "title": "Feature Selection By KDDA For SVM-Based MultiView Face Recognition",
+        "authors": [
+            "Seyyed Majid Valiollahzadeh",
+            "Abolghasem Sayadiyan",
+            "Mohammad Nazari"
+        ],
+        "abstract": "  Applications such as face recognition that deal with high-dimensional data need a mapping technique that introduces representation of low-dimensional features with enhanced discriminatory power and a proper classifier, able to classify those complex features. Most of traditional Linear Discriminant Analysis suffer from the disadvantage that their optimality criteria are not directly related to the classification ability of the obtained feature representation. Moreover, their classification accuracy is affected by the \"small sample size\" problem which is often encountered in FR tasks. In this short paper, we combine nonlinear kernel based mapping of data called KDDA with Support Vector machine classifier to deal with both of the shortcomings in an efficient and cost effective manner. The proposed here method is compared, in terms of classification accuracy, to other commonly used FR methods on UMIST face database. Results indicate that the performance of the proposed method is overall superior to those of traditional FR approaches, such as the Eigenfaces, Fisherfaces, and D-LDA methods and traditional linear classifiers.\n    ",
+        "submission_date": "2008-12-13T00:00:00",
+        "last_modified_date": "2008-12-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.2575",
+        "title": "Face Detection Using Adaboosted SVM-Based Component Classifier",
+        "authors": [
+            "Seyyed Majid Valiollahzadeh",
+            "Abolghasem Sayadiyan",
+            "Mohammad Nazari"
+        ],
+        "abstract": "  Recently, Adaboost has been widely used to improve the accuracy of any given learning algorithm. In this paper we focus on designing an algorithm to employ combination of Adaboost with Support Vector Machine as weak component classifiers to be used in Face Detection Task. To obtain a set of effective SVM-weaklearner Classifier, this algorithm adaptively adjusts the kernel parameter in SVM instead of using a fixed one. Proposed combination outperforms in generalization in comparison with SVM on imbalanced classification problem. The proposed here method is compared, in terms of classification accuracy, to other commonly used Adaboost methods, such as Decision Trees and Neural Networks, on CMU+MIT face database. Results indicate that the performance of the proposed method is overall superior to previous Adaboost approaches.\n    ",
+        "submission_date": "2008-12-13T00:00:00",
+        "last_modified_date": "2008-12-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.2892",
+        "title": "Sparse Component Analysis (SCA) in Random-valued and Salt and Pepper Noise Removal",
+        "authors": [
+            "Hadi. Zayyani",
+            "Seyyedmajid Valiollahzadeh",
+            "Massoud. Babaie-Zadeh"
+        ],
+        "abstract": "  In this paper, we propose a new method for impulse noise removal from images. It uses the sparsity of images in the Discrete Cosine Transform (DCT) domain. The zeros in this domain give us the exact mathematical equation to reconstruct the pixels that are corrupted by random-value impulse noises. The proposed method can also detect and correct the corrupted pixels. Moreover, in a simpler case that salt and pepper noise is the brightest and darkest pixels in the image, we propose a simpler version of our method. In addition to the proposed method, we suggest a combination of the traditional median filter method with our method to yield better results when the percentage of the corrupted samples is high.\n    ",
+        "submission_date": "2008-12-15T00:00:00",
+        "last_modified_date": "2008-12-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.1412",
+        "title": "Extreme Learning Machine for land cover classification",
+        "authors": [
+            "Mahesh Pal"
+        ],
+        "abstract": "  This paper explores the potential of extreme learning machine based supervised classification algorithm for land cover classification. In comparison to a backpropagation neural network, which requires setting of several user-defined parameters and may produce local minima, extreme learning machine require setting of one parameter and produce a unique solution. ETM+ multispectral data set (England) was used to judge the suitability of extreme learning machine for remote sensing classifications. A back propagation neural network was used to compare its performance in term of classification accuracy and computational cost. Results suggest that the extreme learning machine perform equally well to back propagation neural network in term of classification accuracy with this data set. The computational cost using extreme learning machine is very small in comparison to back propagation neural network.\n    ",
+        "submission_date": "2008-02-11T00:00:00",
+        "last_modified_date": "2008-02-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.2138",
+        "title": "Support Vector classifiers for Land Cover Classification",
+        "authors": [
+            "Mahesh Pal",
+            "Paul M. Mather"
+        ],
+        "abstract": "  Support vector machines represent a promising development in machine learning research that is not widely used within the remote sensing community. This paper reports the results of Multispectral(Landsat-7 ETM+) and Hyperspectral DAIS)data in which multi-class SVMs are compared with maximum likelihood and artificial neural network methods in terms of classification accuracy. Our results show that the SVM achieves a higher level of classification accuracy than either the maximum likelihood or the neural classifier, and that the support vector machine can be used with small training datasets and high-dimensional data.\n    ",
+        "submission_date": "2008-02-15T00:00:00",
+        "last_modified_date": "2008-02-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0802.2411",
+        "title": "Multiclass Approaches for Support Vector Machine Based Land Cover Classification",
+        "authors": [
+            "Mahesh Pal"
+        ],
+        "abstract": "  SVMs were initially developed to perform binary classification; though, applications of binary classification are very limited. Most of the practical applications involve multiclass classification, especially in remote sensing land cover classification. A number of methods have been proposed to implement SVMs to produce multiclass classification. A number of methods to generate multiclass SVMs from binary SVMs have been proposed by researchers and is still a continuing research topic. This paper compares the performance of six multi-class approaches to solve classification problem with remote sensing data in term of classification accuracy and computational cost. One vs. one, one vs. rest, Directed Acyclic Graph (DAG), and Error Corrected Output Coding (ECOC) based multiclass approaches creates many binary classifiers and combines their results to determine the class label of a test pixel. Another catogery of multi class approach modify the binary class objective function and allows simultaneous computation of multiclass classification by solving a single optimisation problem. Results from this study conclude the usefulness of One vs. One multi class approach in term of accuracy and computational cost over other multi class approaches.\n    ",
+        "submission_date": "2008-02-18T00:00:00",
+        "last_modified_date": "2008-02-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0803.2695",
+        "title": "KohonAnts: A Self-Organizing Ant Algorithm for Clustering and Pattern Classification",
+        "authors": [
+            "C. Fernandes",
+            "A.M. Mora",
+            "J.J. Merelo",
+            "V. Ramos",
+            "J.L.J. Laredo"
+        ],
+        "abstract": "  In this paper we introduce a new ant-based method that takes advantage of the cooperative self-organization of Ant Colony Systems to create a naturally inspired clustering and pattern recognition method. The approach considers each data item as an ant, which moves inside a grid changing the cells it goes through, in a fashion similar to Kohonen's Self-Organizing Maps. The resulting algorithm is conceptually more simple, takes less free parameters than other ant-based clustering algorithms, and, after some parameter tuning, yields very good results on some benchmark problems.\n    ",
+        "submission_date": "2008-03-18T00:00:00",
+        "last_modified_date": "2008-03-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.2346",
+        "title": "Theory and Applications of Two-dimensional, Null-boundary, Nine-Neighborhood, Cellular Automata Linear rules",
+        "authors": [
+            "Pabitra Pal Choudhury",
+            "Birendra Kumar Nayak",
+            "Sudhakar Sahoo",
+            "Sunil Pankaj Rath"
+        ],
+        "abstract": "  This paper deals with the theory and application of 2-Dimensional, nine-neighborhood, null- boundary, uniform as well as hybrid Cellular Automata (2D CA) linear rules in image processing. These rules are classified into nine groups depending upon the number of neighboring cells influences the cell under consideration. All the Uniform rules have been found to be rendering multiple copies of a given image depending on the groups to which they belong where as Hybrid rules are also shown to be characterizing the phenomena of zooming in, zooming out, thickening and thinning of a given image. Further, using hybrid CA rules a new searching algorithm is developed called Sweepers algorithm which is found to be applicable to simulate many inter disciplinary research areas like migration of organisms towards a single point destination, Single Attractor and Multiple Attractor Cellular Automata Theory, Pattern Classification and Clustering Problem, Image compression, Encryption and Decryption problems, Density Classification problem etc.\n    ",
+        "submission_date": "2008-04-15T00:00:00",
+        "last_modified_date": "2008-04-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.3361",
+        "title": "A New Approach to Automated Epileptic Diagnosis Using EEG and Probabilistic Neural Network",
+        "authors": [
+            "Forrest Sheng Bao",
+            "Donald Yu-Chun Lie",
+            "Yuanlin Zhang"
+        ],
+        "abstract": "  Epilepsy is one of the most common neurological disorders that greatly impair patient' daily lives. Traditional epileptic diagnosis relies on tedious visual screening by neurologists from lengthy EEG recording that requires the presence of seizure (ictal) activities. Nowadays, there are many systems helping the neurologists to quickly find interesting segments of the lengthy signal by automatic seizure detection. However, we notice that it is very difficult, if not impossible, to obtain long-term EEG data with seizure activities for epilepsy patients in areas lack of medical resources and trained neurologists. Therefore, we propose to study automated epileptic diagnosis using interictal EEG data that is much easier to collect than ictal data. The authors are not aware of any report on automated EEG diagnostic system that can accurately distinguish patients' interictal EEG from the EEG of normal people. The research presented in this paper, therefore, aims to develop an automated diagnostic system that can use interictal EEG data to diagnose whether the person is epileptic. Such a system should also detect seizure activities for further investigation by doctors and potential patient monitoring. To develop such a system, we extract four classes of features from the EEG data and build a Probabilistic Neural Network (PNN) fed with these features. Leave-one-out cross-validation (LOO-CV) on a widely used epileptic-normal data set reflects an impressive 99.5% accuracy of our system on distinguishing normal people's EEG from patient's interictal EEG. We also find our system can be used in patient monitoring (seizure detection) and seizure focus localization, with 96.7% and 77.5% accuracy respectively on the data set.\n    ",
+        "submission_date": "2008-04-21T00:00:00",
+        "last_modified_date": "2008-07-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0804.3500",
+        "title": "Natural pseudo-distance and optimal matching between reduced size functions",
+        "authors": [
+            "M. d'Amico",
+            "P. Frosini",
+            "C.Landi"
+        ],
+        "abstract": "  This paper studies the properties of a new lower bound for the natural pseudo-distance. The natural pseudo-distance is a dissimilarity measure between shapes, where a shape is viewed as a topological space endowed with a real-valued continuous function. Measuring dissimilarity amounts to minimizing the change in the functions due to the application of homeomorphisms between topological spaces, with respect to the $L_\\infty$-norm. In order to obtain the lower bound, a suitable metric between size functions, called matching distance, is introduced. It compares size functions by solving an optimal matching problem between countable point sets. The matching distance is shown to be resistant to perturbations, implying that it is always smaller than the natural pseudo-distance. We also prove that the lower bound so obtained is sharp and cannot be improved by any other distance between size functions.\n    ",
+        "submission_date": "2008-04-22T00:00:00",
+        "last_modified_date": "2008-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0806.0899",
+        "title": "A Nonparametric Approach to 3D Shape Analysis from Digital Camera Images - I. in Memory of W.P. Dayawansa",
+        "authors": [
+            "V. Patrangenaru",
+            "X. Liu",
+            "S. Sugathadasa"
+        ],
+        "abstract": "  In this article, for the first time, one develops a nonparametric methodology for an analysis of shapes of configurations of landmarks on real 3D objects from regular camera photographs, thus making 3D shape analysis very accessible. A fundamental result in computer vision by Faugeras (1992), Hartley, Gupta and Chang (1992) is that generically, a finite 3D configuration of points can be retrieved up to a projective transformation, from corresponding configurations in a pair of camera images. Consequently, the projective shape of a 3D configuration can be retrieved from two of its planar views. Given the inherent registration errors, the 3D projective shape can be estimated from a sample of photos of the scene containing that configuration. Projective shapes are here regarded as points on projective shape manifolds. Using large sample and nonparametric bootstrap methodology for extrinsic means on manifolds, one gives confidence regions and tests for the mean projective shape of a 3D configuration from its 2D camera images.\n    ",
+        "submission_date": "2008-06-05T00:00:00",
+        "last_modified_date": "2008-06-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0807.2043",
+        "title": "Intrusion Detection Using Cost-Sensitive Classification",
+        "authors": [
+            "Aikaterini Mitrokotsa",
+            "Christos Dimitrakakis",
+            "Christos Douligeris"
+        ],
+        "abstract": "  Intrusion Detection is an invaluable part of computer networks defense. An important consideration is the fact that raising false alarms carries a significantly lower cost than not detecting at- tacks. For this reason, we examine how cost-sensitive classification methods can be used in Intrusion Detection systems. The performance of the approach is evaluated under different experimental conditions, cost matrices and different classification models, in terms of expected cost, as well as detection and false alarm rates. We find that even under unfavourable conditions, cost-sensitive classification can improve performance significantly, if only slightly.\n    ",
+        "submission_date": "2008-07-13T00:00:00",
+        "last_modified_date": "2008-07-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.0056",
+        "title": "I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong",
+        "authors": [
+            "Emanuel Diamant"
+        ],
+        "abstract": "  The ongoing discussion whether modern vision systems have to be viewed as visually-enabled cognitive systems or cognitively-enabled vision systems is groundless, because perceptual and cognitive faculties of vision are separate components of human (and consequently, artificial) information processing system modeling.\n    ",
+        "submission_date": "2008-08-01T00:00:00",
+        "last_modified_date": "2008-08-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.0374",
+        "title": "A 8 bits Pipeline Analog to Digital Converter Design for High Speed Camera Application",
+        "authors": [
+            "Eri Prasetyo",
+            "Hamzah Afandi",
+            "Nurul Huda Dominique Ginhac",
+            "Michel Paindavoine"
+        ],
+        "abstract": "  - This paper describes a pipeline analog-to-digital converter is implemented for high speed camera. In the pipeline ADC design, prime factor is designing operational amplifier with high gain so ADC have been high speed. The other advantage of pipeline is simple on concept, easy to implement in layout and have flexibility to increase speed. We made design and simulation using Mentor Graphics Software with 0.6 \\mu m CMOS technology with a total power dissipation of 75.47 mW. Circuit techniques used include a precise comparator, operational amplifier and clock management. A switched capacitor is used to sample and multiplying at each stage. Simulation a worst case DNL and INL of 0.75 LSB. The design operates at 5 V dc. The ADC achieves a SNDR of 44.86 dB. keywords: pipeline, switched capacitor, clock management\n    ",
+        "submission_date": "2008-08-04T00:00:00",
+        "last_modified_date": "2008-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0808.0387",
+        "title": "Design and Implementation a 8 bits Pipeline Analog to Digital Converter in the Technology 0.6 \u03bcm CMOS Process",
+        "authors": [
+            "Eri Prasetyo",
+            "Dominique Ginhac",
+            "Michel Paindavoine"
+        ],
+        "abstract": "  This paper describes a 8 bits, 20 Msamples/s pipeline analog-to-digital converter implemented in 0.6 \\mu m CMOS technology with a total power dissipation of 75.47 mW. Circuit techniques used include a precise comparator, operational amplifier and clock management. A switched capacitor is used to sample and multiplying at each stage. Simulation a worst case DNL and INL of 0.75 LSB. The design operate at 5 V dc. The ADC achieves a SNDR of 44.86 dB. keywords : pipeline, switched capacitor, clock management\n    ",
+        "submission_date": "2008-08-04T00:00:00",
+        "last_modified_date": "2008-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.2311",
+        "title": "Non-Negative Matrix Factorization, Convexity and Isometry",
+        "authors": [
+            "Nikolaos Vasiloglou",
+            "Alexander G. Gray",
+            "David V. Anderson"
+        ],
+        "abstract": "  In this paper we explore avenues for improving the reliability of dimensionality reduction methods such as Non-Negative Matrix Factorization (NMF) as interpretive exploratory data analysis tools. We first explore the difficulties of the optimization problem underlying NMF, showing for the first time that non-trivial NMF solutions always exist and that the optimization problem is actually convex, by using the theory of Completely Positive Factorization. We subsequently explore four novel approaches to finding globally-optimal NMF solutions using various ideas from convex optimization. We then develop a new method, isometric NMF (isoNMF), which preserves non-negativity while also providing an isometric embedding, simultaneously achieving two properties which are helpful for interpretation. Though it results in a more difficult optimization problem, we show experimentally that the resulting method is scalable and even achieves more compact spectra than standard NMF.\n    ",
+        "submission_date": "2008-10-13T00:00:00",
+        "last_modified_date": "2009-04-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.3851",
+        "title": "Astronomical imaging: The theory of everything",
+        "authors": [
+            "David W. Hogg",
+            "Dustin Lang"
+        ],
+        "abstract": "  We are developing automated systems to provide homogeneous calibration meta-data for heterogeneous imaging data, using the pixel content of the image alone where necessary. Standardized and complete calibration meta-data permit generative modeling: A good model of the sky through wavelength and time--that is, a model of the positions, motions, spectra, and variability of all stellar sources, plus an intensity map of all cosmological sources--could synthesize or generate any astronomical image ever taken at any time with any equipment in any configuration. We argue that the best-fit or highest likelihood model of the data is also the best possible astronomical catalog constructed from those data. A generative model or catalog of this form is the best possible platform for automated discovery, because it is capable of identifying informative failures of the model in new data at the pixel level, or as statistical anomalies in the joint distribution of residuals from many images. It is also, in some sense, an astronomer's \"theory of everything\".\n    ",
+        "submission_date": "2008-10-21T00:00:00",
+        "last_modified_date": "2008-10-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0810.4401",
+        "title": "Efficient Exact Inference in Planar Ising Models",
+        "authors": [
+            "Nicol N. Schraudolph",
+            "Dmitry Kamenetsky"
+        ],
+        "abstract": "  We give polynomial-time algorithms for the exact computation of lowest-energy (ground) states, worst margin violators, log partition functions, and marginal edge probabilities in certain binary undirected graphical models. Our approach provides an interesting alternative to the well-known graph cut paradigm in that it does not impose any submodularity constraints; instead we require planarity to establish a correspondence with perfect matchings (dimer coverings) in an expanded dual graph. We implement a unified framework while delegating complex but well-understood subproblems (planar embedding, maximum-weight perfect matching) to established algorithms for which efficient implementations are freely available. Unlike graph cut methods, we can perform penalized maximum-likelihood as well as maximum-margin parameter estimation in the associated conditional random fields (CRFs), and employ marginal posterior probabilities as well as maximum a posteriori (MAP) states for prediction. Maximum-margin CRF parameter estimation on image denoising and segmentation problems shows our approach to be efficient and effective. A C++ implementation is available from ",
+        "submission_date": "2008-10-24T00:00:00",
+        "last_modified_date": "2008-12-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.1868",
+        "title": "Necessary Conditions for Discontinuities of Multidimensional Size Functions",
+        "authors": [
+            "Andrea Cerri",
+            "Patrizio Frosini"
+        ],
+        "abstract": "  Some new results about multidimensional Topological Persistence are presented, proving that the discontinuity points of a k-dimensional size function are necessarily related to the pseudocritical or special values of the associated measuring function.\n    ",
+        "submission_date": "2008-11-12T00:00:00",
+        "last_modified_date": "2009-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.1885",
+        "title": "The Expressive Power of Binary Submodular Functions",
+        "authors": [
+            "Stanislav Zivny",
+            "David A. Cohen",
+            "Peter G. Jeavons"
+        ],
+        "abstract": "  It has previously been an open problem whether all Boolean submodular functions can be decomposed into a sum of binary submodular functions over a possibly larger set of variables. This problem has been considered within several different contexts in computer science, including computer vision, artificial intelligence, and pseudo-Boolean optimisation. Using a connection between the expressive power of valued constraints and certain algebraic properties of functions, we answer this question negatively.\n",
+        "submission_date": "2008-11-12T00:00:00",
+        "last_modified_date": "2008-11-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.3301",
+        "title": "Faster Retrieval with a Two-Pass Dynamic-Time-Warping Lower Bound",
+        "authors": [
+            "Daniel Lemire"
+        ],
+        "abstract": "  The Dynamic Time Warping (DTW) is a popular similarity measure between time series. The DTW fails to satisfy the triangle inequality and its computation requires quadratic time. Hence, to find closest neighbors quickly, we use bounding techniques. We can avoid most DTW computations with an inexpensive lower bound (LB Keogh). We compare LB Keogh with a tighter lower bound (LB Improved). We find that LB Improved-based search is faster. As an example, our approach is 2-3 times faster over random-walk and shape time series.\n    ",
+        "submission_date": "2008-11-20T00:00:00",
+        "last_modified_date": "2009-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.3328",
+        "title": "chi2TeX Semi-automatic translation from chiwriter to LaTeX",
+        "authors": [
+            "Justislav Bogevolnov"
+        ],
+        "abstract": "  Semi-automatic translation of math-filled book from obsolete ChiWriter format to LaTeX. Is it possible? Idea of criterion whether to use automatic or hand mode for translation. Illustrations.\n    ",
+        "submission_date": "2008-11-20T00:00:00",
+        "last_modified_date": "2008-11-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0811.4489",
+        "title": "Automatic Generation of the Axial Lines of Urban Environments to Capture What We Perceive",
+        "authors": [
+            "Bin Jiang",
+            "Xintao Liu"
+        ],
+        "abstract": "  Based on the concepts of isovists and medial axes, we developed a set of algorithms that can automatically generate axial lines for representing individual linearly stretched parts of open space of an urban environment. Open space is the space between buildings, where people can freely move around. The generation of the axial lines has been a key aspect of space syntax research, conventionally relying on hand-drawn axial lines of an urban environment, often called axial map, for urban morphological analysis. Although various attempts have been made towards an automatic solution, few of them can produce the axial map that consists of the least number of longest visibility lines, and none of them really works for different urban environments. Our algorithms provide a better solution than existing ones. Throughout this paper, we have also argued and demonstrated that the axial lines constitute a true skeleton, superior to medial axes, in capturing what we perceive about the urban environment.\n",
+        "submission_date": "2008-11-27T00:00:00",
+        "last_modified_date": "2009-03-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.0743",
+        "title": "A Novel Clustering Algorithm Based on Quantum Games",
+        "authors": [
+            "Qiang Li",
+            "Yan He",
+            "Jing-ping Jiang"
+        ],
+        "abstract": "  Enormous successes have been made by quantum algorithms during the last decade. In this paper, we combine the quantum game with the problem of data clustering, and then develop a quantum-game-based clustering algorithm, in which data points in a dataset are considered as players who can make decisions and implement quantum strategies in quantum games. After each round of a quantum game, each player's expected payoff is calculated. Later, he uses a link-removing-and-rewiring (LRR) function to change his neighbors and adjust the strength of links connecting to them in order to maximize his payoff. Further, algorithms are discussed and analyzed in two cases of strategies, two payoff matrixes and two LRR functions. Consequently, the simulation results have demonstrated that data points in datasets are clustered reasonably and efficiently, and the clustering algorithms have fast rates of convergence. Moreover, the comparison with other algorithms also provides an indication of the effectiveness of the proposed approach.\n    ",
+        "submission_date": "2008-12-03T00:00:00",
+        "last_modified_date": "2009-10-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.0874",
+        "title": "Stroke Fragmentation based on Geometry Features and HMM",
+        "authors": [
+            "Guihuan Feng",
+            "Christian Viard-Gaudin"
+        ],
+        "abstract": "  Stroke fragmentation is one of the key steps in pen-based interaction. In this letter, we present a unified HMM-based stroke fragmentation technique that can do segment point location and primitive type determination simultaneously. The geometry features included are used to evaluate local features, and the HMM model is utilized to measure the global drawing context. Experiments prove that the model can efficiently represent smooth curves as well as strokes made up of arbitrary lines and circular arcs.\n    ",
+        "submission_date": "2008-12-04T00:00:00",
+        "last_modified_date": "2008-12-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.2309",
+        "title": "Classification of Cell Images Using MPEG-7-influenced Descriptors and Support Vector Machines in Cell Morphology",
+        "authors": [
+            "Tobias Abenius"
+        ],
+        "abstract": "  Counting and classifying blood cells is an important diagnostic tool in medicine. Support Vector Machines are increasingly popular and efficient and could replace artificial neural network systems. Here a method to classify blood cells is proposed using SVM. A set of statistics on images are implemented in C++. The MPEG-7 descriptors Scalable Color Descriptor, Color Structure Descriptor, Color Layout Descriptor and Homogeneous Texture Descriptor are extended in size and combined with textural features corresponding to textural properties perceived visually by humans. From a set of images of human blood cells these statistics are collected. A SVM is implemented and trained to classify the cell images. The cell images come from a CellaVision DM-96 machine which classify cells from images from microscopy. The output images and classification of the CellaVision machine is taken as ground truth, a truth that is 90-95% correct. The problem is divided in two -- the primary and the simplified. The primary problem is to classify the same classes as the CellaVision machine. The simplified problem is to differ between the five most common types of white blood cells. An encouraging result is achieved in both cases -- error rates of 10.8% and 3.1% -- considering that the SVM is misled by the errors in ground truth. Conclusion is that further investigation of performance is worthwhile.\n    ",
+        "submission_date": "2008-12-12T00:00:00",
+        "last_modified_date": "2008-12-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.5032",
+        "title": "A New Clustering Algorithm Based Upon Flocking On Complex Network",
+        "authors": [
+            "Qiang Li",
+            "Yan He",
+            "Jing-ping Jiang"
+        ],
+        "abstract": "  We have proposed a model based upon flocking on a complex network, and then developed two clustering algorithms on the basis of it. In the algorithms, firstly a \\textit{k}-nearest neighbor (knn) graph as a weighted and directed graph is produced among all data points in a dataset each of which is regarded as an agent who can move in space, and then a time-varying complex network is created by adding long-range links for each data point. Furthermore, each data point is not only acted by its \\textit{k} nearest neighbors but also \\textit{r} long-range neighbors through fields established in space by them together, so it will take a step along the direction of the vector sum of all fields. It is more important that these long-range links provides some hidden information for each data point when it moves and at the same time accelerate its speed converging to a center. As they move in space according to the proposed model, data points that belong to the same class are located at a same position gradually, whereas those that belong to different classes are away from one another. Consequently, the experimental results have demonstrated that data points in datasets are clustered reasonably and efficiently, and the rates of convergence of clustering algorithms are fast enough. Moreover, the comparison with other algorithms also provides an indication of the effectiveness of the proposed approach.\n    ",
+        "submission_date": "2008-12-30T00:00:00",
+        "last_modified_date": "2008-12-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0812.5064",
+        "title": "A Novel Clustering Algorithm Based Upon Games on Evolving Network",
+        "authors": [
+            "Qiang Li",
+            "Zhuo Chen",
+            "Yan He",
+            "Jing-ping Jiang"
+        ],
+        "abstract": "This paper introduces a model based upon games on an evolving network, and develops three clustering algorithms according to it. In the clustering algorithms, data points for clustering are regarded as players who can make decisions in games. On the network describing relationships among data points, an edge-removing-and-rewiring (ERR) function is employed to explore in a neighborhood of a data point, which removes edges connecting to neighbors with small payoffs, and creates new edges to neighbors with larger payoffs. As such, the connections among data points vary over time. During the evolution of network, some strategies are spread in the network. As a consequence, clusters are formed automatically, in which data points with the same evolutionarily stable strategy are collected as a cluster, so the number of evolutionarily stable strategies indicates the number of clusters. Moreover, the experimental results have demonstrated that data points in datasets are clustered reasonably and efficiently, and the comparison with other algorithms also provides an indication of the effectiveness of the proposed algorithms.\n    ",
+        "submission_date": "2008-12-30T00:00:00",
+        "last_modified_date": "2010-03-19T00:00:00"
+    }
+]

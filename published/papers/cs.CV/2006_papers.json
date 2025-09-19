@@ -1,0 +1,448 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0601105",
+        "title": "The Perceptron Algorithm: Image and Signal Decomposition, Compression, and Analysis by Iterative Gaussian Blurring",
+        "authors": [
+            "Vassilios S. Vassiliadis"
+        ],
+        "abstract": "  A novel algorithm for tunable compression to within the precision of reproduction targets, or storage, is proposed. The new algorithm is termed the `Perceptron Algorithm', which utilises simple existing concepts in a novel way, has multiple immediate commercial application aspects as well as it opens up a multitude of fronts in computational science and technology. The aims of this paper are to present the concepts underlying the algorithm, observations by its application to some example cases, and the identification of a multitude of potential areas of applications such as: image compression by orders of magnitude, signal compression including sound as well, image analysis in a multilayered detailed analysis, pattern recognition and matching and rapid database searching (e.g. face recognition), motion analysis, biomedical applications e.g. in MRI and CAT scan image analysis and compression, as well as hints on the link of these ideas to the way how biological memory might work leading to new points of view in neural computation. Commercial applications of immediate interest are the compression of images at the source (e.g. photographic equipment, scanners, satellite imaging systems), DVD film compression, pay-per-view downloads acceleration and many others identified in the present paper at its conclusion and future work section.\n    ",
+        "submission_date": "2006-01-24T00:00:00",
+        "last_modified_date": "2006-01-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601106",
+        "title": "The `Face on Mars': a photographic approach for the search of signs of past civilizations from a macroscopic point of view, factoring long-term erosion in image reconstruction",
+        "authors": [
+            "Vassilios S. Vassiliadis"
+        ],
+        "abstract": "  This short article presents an alternative view of high resolution imaging from various sources with the aim of the discovery of potential sites of archaeological importance, or sites that exhibit `anomalies' such that they may merit closer inspection and analysis. It is conjectured, and to a certain extent demonstrated here, that it is possible for advanced civilizations to factor in erosion by natural processes into a large scale design so that main features be preserved even with the passage of millions of years. Alternatively viewed, even without such intent embedded in a design left for posterity, it is possible that a gigantic construction may naturally decay in such a way that even cataclysmic (massive) events may leave sufficient information intact with the passage of time, provided one changes the point of view from high resolution images to enhanced blurred renderings of the sites in question.\n    ",
+        "submission_date": "2006-01-24T00:00:00",
+        "last_modified_date": "2006-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601108",
+        "title": "Fast Lexically Constrained Viterbi Algorithm (FLCVA): Simultaneous Optimization of Speed and Memory",
+        "authors": [
+            "Alain Lifchitz",
+            "Frederic Maire",
+            "Dominique Revuz"
+        ],
+        "abstract": "  Lexical constraints on the input of speech and on-line handwriting systems improve the performance of such systems. A significant gain in speed can be achieved by integrating in a digraph structure the different Hidden Markov Models (HMM) corresponding to the words of the relevant lexicon. This integration avoids redundant computations by sharing intermediate results between HMM's corresponding to different words of the lexicon. In this paper, we introduce a token passing method to perform simultaneously the computation of the a posteriori probabilities of all the words of the lexicon. The coding scheme that we introduce for the tokens is optimal in the information theory sense. The tokens use the minimum possible number of bits. Overall, we optimize simultaneously the execution speed and the memory requirement of the recognition systems.\n    ",
+        "submission_date": "2006-01-25T00:00:00",
+        "last_modified_date": "2006-03-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0602044",
+        "title": "Multilevel Thresholding for Image Segmentation through a Fast Statistical Recursive Algorithm",
+        "authors": [
+            "Siddharth Arora",
+            "Jayadev Acharya",
+            "Amit Verma",
+            "Prasanta K. Panigrahi"
+        ],
+        "abstract": "  A novel algorithm is proposed for segmenting an image into multiple levels using its mean and variance. Starting from the extreme pixel values at both ends of the histogram plot, the algorithm is applied recursively on sub-ranges computed from the previous step, so as to find a threshold level and a new sub-range for the next step, until no significant improvement in image quality can be achieved. The method makes use of the fact that a number of distributions tend towards Dirac delta function, peaking at the mean, in the limiting condition of vanishing variance. The procedure naturally provides for variable size segmentation with bigger blocks near the extreme pixel values and finer divisions around the mean or other chosen value for better visualization. Experiments on a variety of images show that the new algorithm effectively segments the image in computationally very less time.\n    ",
+        "submission_date": "2006-02-12T00:00:00",
+        "last_modified_date": "2006-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0602065",
+        "title": "Similarity of Objects and the Meaning of Words",
+        "authors": [
+            "Rudi Cilibrasi",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  We survey the emerging area of compression-based, parameter-free, similarity distance measures useful in data-mining, pattern recognition, learning and automatic semantics extraction. Given a family of distances on a set of objects, a distance is universal up to a certain precision for that family if it minorizes every distance in the family between every two objects in the set, up to the stated precision (we do not require the universal distance to be an element of the family). We consider similarity distances for two types of objects: literal objects that as such contain all of their meaning, like genomes or books, and names for objects. The latter may have literal embodyments like the first type, but may also be abstract like ``red'' or ``christianity.'' For the first type we consider a family of computable distance measures corresponding to parameters expressing similarity according to particular featuresdistances generated by web users corresponding to particular semantic relations between the (names for) the designated objects. For both families we give universal similarity distance measures, incorporating all particular distance measures in the family. In the first case the universal distance is based on compression and in the second case it is based on Google page counts related to search terms. In both cases experiments on a massive scale give evidence of the viability of the approaches. between pairs of literal objects. For the second type we consider similarity\n    ",
+        "submission_date": "2006-02-17T00:00:00",
+        "last_modified_date": "2006-02-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0602083",
+        "title": "A third level trigger programmable on FPGA for the gamma/hadron separation in a Cherenkov telescope using pseudo-Zernike moments and the SVM classifier",
+        "authors": [
+            "Marco Frailis",
+            "Oriana Mansutti",
+            "Praveen Boinee",
+            "Giuseppe Cabras",
+            "Alessandro De Angelis",
+            "Barbara De Lotto",
+            "Alberto Forti",
+            "Mauro Dell'Orso",
+            "Riccardo Paoletti",
+            "Angelo Scribano",
+            "Nicola Turini",
+            "Mose' Mariotti",
+            "Luigi Peruzzo",
+            "Antonio Saggion"
+        ],
+        "abstract": "  We studied the application of the Pseudo-Zernike features as image parameters (instead of the Hillas parameters) for the discrimination between the images produced by atmospheric electromagnetic showers caused by gamma-rays and the ones produced by atmospheric electromagnetic showers caused by hadrons in the MAGIC Experiment. We used a Support Vector Machine as classification algorithm with the computed Pseudo-Zernike features as classification parameters. We implemented on a FPGA board a kernel function of the SVM and the Pseudo-Zernike features to build a third level trigger for the gamma-hadron separation task of the MAGIC Experiment.\n    ",
+        "submission_date": "2006-02-24T00:00:00",
+        "last_modified_date": "2006-02-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0603041",
+        "title": "Locally Adaptive Block Thresholding Method with Continuity Constraint",
+        "authors": [
+            "S. Hemachander",
+            "Amit Verma",
+            "Siddharth Arora",
+            "Prasanta K. Panigrahi"
+        ],
+        "abstract": "  We present an algorithm that enables one to perform locally adaptive block thresholding, while maintaining image continuity. Images are divided into sub-images based some standard image attributes and thresholding technique is employed over the sub-images. The present algorithm makes use of the thresholds of neighboring sub-images to calculate a range of values. The image continuity is taken care by choosing the threshold of the sub-image under consideration to lie within the above range. After examining the average range values for various sub-image sizes of a variety of images, it was found that the range of acceptable threshold values is substantially high, justifying our assumption of exploiting the freedom of range for bringing out local details.\n    ",
+        "submission_date": "2006-03-09T00:00:00",
+        "last_modified_date": "2006-03-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0603086",
+        "title": "Matching Edges in Images ; Application to Face Recognition",
+        "authors": [
+            "Joel Le Roux",
+            "Philippe Chaurand",
+            "Mickael Urrutia"
+        ],
+        "abstract": "  This communication describes a representation of images as a set of edges characterized by their position and orientation. This representation allows the comparison of two images and the computation of their similarity. The first step in this computation of similarity is the seach of a geometrical basis of the two dimensional space where the two images are represented simultaneously after transformation of one of them. Presently, this simultaneous representation takes into account a shift and a scaling ; it may be extended to rotations or other global geometrical transformations. An elementary probabilistic computation shows that a sufficient but not excessive number of trials (a few tens) ensures that the exhibition of this common basis is guaranteed in spite of possible errors in the detection of edges. When this first step is performed, the search of similarity between the two images reduces to counting the coincidence of edges in the two images. The approach may be applied to many problems of pattern matching ; it was checked on face recognition.\n    ",
+        "submission_date": "2006-03-22T00:00:00",
+        "last_modified_date": "2006-03-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0603116",
+        "title": "Fourier Analysis and Holographic Representations of 1D and 2D Signals",
+        "authors": [
+            "G.A. Giraldi",
+            "B.F. Moutinho",
+            "D.M.L. de Carvalho",
+            "J.C. de Oliveira"
+        ],
+        "abstract": "  In this paper, we focus on Fourier analysis and holographic transforms for signal representation. For instance, in the case of image processing, the holographic representation has the property that an arbitrary portion of the transformed image enables reconstruction of the whole image with details missing. We focus on holographic representation defined through the Fourier Transforms. Thus, We firstly review some results in Fourier transform and Fourier series. Next, we review the Discrete Holographic Fourier Transform (DHFT) for image representation. Then, we describe the contributions of our work. We show a simple scheme for progressive transmission based on the DHFT. Next, we propose the Continuous Holographic Fourier Transform (CHFT) and discuss some theoretical aspects of it for 1D signals. Finally, some testes are presented in the experimental results\n    ",
+        "submission_date": "2006-03-29T00:00:00",
+        "last_modified_date": "2006-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604062",
+        "title": "Biologically Inspired Hierarchical Model for Feature Extraction and Localization",
+        "authors": [
+            "Liang Wu"
+        ],
+        "abstract": "  Feature extraction and matching are among central problems of computer vision. It is inefficent to search features over all locations and scales. Neurophysiological evidence shows that to locate objects in a digital image the human visual system employs visual attention to a specific object while ignoring others. The brain also has a mechanism to search from coarse to fine. In this paper, we present a feature extractor and an associated hierarchical searching model to simulate such processes. With the hierarchical representation of the object, coarse scanning is done through the matching of the larger scale and precise localization is conducted through the matching of the smaller scale. Experimental results justify the proposed model in its effectiveness and efficiency to localize features.\n    ",
+        "submission_date": "2006-04-14T00:00:00",
+        "last_modified_date": "2006-04-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605025",
+        "title": "Face Recognition using Principal Component Analysis and Log-Gabor Filters",
+        "authors": [
+            "Vytautas Perlibakas"
+        ],
+        "abstract": "  In this article we propose a novel face recognition method based on Principal Component Analysis (PCA) and Log-Gabor filters. The main advantages of the proposed method are its simple implementation, training, and very high recognition accuracy. For recognition experiments we used 5151 face images of 1311 persons from different sets of the FERET and AR databases that allow to analyze how recognition accuracy is affected by the change of facial expressions, illumination, and aging. Recognition experiments with the FERET database (containing photographs of 1196 persons) showed that our method can achieve maximal 97-98% first one recognition rate and 0.3-0.4% Equal Error Rate. The experiments also showed that the accuracy of our method is less affected by eye location errors and used image normalization method than of traditional PCA -based recognition method.\n    ",
+        "submission_date": "2006-05-07T00:00:00",
+        "last_modified_date": "2006-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605027",
+        "title": "Recognition of expression variant faces using masked log-Gabor features and Principal Component Analysis",
+        "authors": [
+            "Vytautas Perlibakas"
+        ],
+        "abstract": "  In this article we propose a method for the recognition of faces with different facial expressions. For recognition we extract feature vectors by using log-Gabor filters of multiple orientations and scales. Using sliding window algorithm and variances -based masking these features are extracted at image regions that are less affected by the changes of facial expressions. Extracted features are passed to the Principal Component Analysis (PCA) -based recognition method. The results of face recognition experiments using expression variant faces showed that the proposed method could achieve higher recognition accuracy than many other methods. For development and testing we used facial images from the AR and FERET databases. Using facial photographs of more than one thousand persons from the FERET database the proposed method achieved 96.6-98.9% first one recognition rate and 0.2-0.6% Equal Error Rate (EER).\n    ",
+        "submission_date": "2006-05-07T00:00:00",
+        "last_modified_date": "2006-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605131",
+        "title": "Notes on Geometric Measure Theory Applications to Image Processing; De-noising, Segmentation, Pattern, Texture, Lines, Gestalt and Occlusion",
+        "authors": [
+            "Simon P Morgan"
+        ],
+        "abstract": "  Regularization functionals that lower level set boundary length when used with L^1 fidelity functionals on signal de-noising on images create artifacts. These are (i) rounding of corners, (ii) shrinking of radii, (iii) shrinking of cusps, and (iv) non-smoothing of staircasing. Regularity functionals based upon total curvature of level set boundaries do not create artifacts (i) and (ii). An adjusted fidelity term based on the flat norm on the current (a distributional graph) representing the density of curvature of level sets boundaries can minimize (iii) by weighting the position of a cusp. A regularity term to eliminate staircasing can be based upon the mass of the current representing the graph of an image function or its second derivatives. Densities on the Grassmann bundle of the Grassmann bundle of the ambient space of the graph can be used to identify patterns, textures, occlusion and lines.\n    ",
+        "submission_date": "2006-05-29T00:00:00",
+        "last_modified_date": "2006-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606060",
+        "title": "Complex Networks: New Concepts and Tools for Real-Time Imaging and Vision",
+        "authors": [
+            "Luciano da Fontoura Costa"
+        ],
+        "abstract": "  This article discusses how concepts and methods of complex networks can be applied to real-time imaging and computer vision. After a brief introduction of complex networks basic concepts, their use as means to represent and characterize images, as well as for modeling visual saliency, are briefly described. The possibility to apply complex networks in order to model and simulate the performance of parallel and distributed computing systems for performance of visual methods is also proposed.\n    ",
+        "submission_date": "2006-06-13T00:00:00",
+        "last_modified_date": "2006-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0608073",
+        "title": "Parametrical Neural Networks and Some Other Similar Architectures",
+        "authors": [
+            "Leonid B. Litinskii"
+        ],
+        "abstract": "  A review of works on associative neural networks accomplished during last four years in the Institute of Optical Neural Technologies RAS is given. The presentation is based on description of parametrical neural networks (PNN). For today PNN have record recognizing characteristics (storage capacity, noise immunity and speed of operation). Presentation of basic ideas and principles is accentuated.\n    ",
+        "submission_date": "2006-08-18T00:00:00",
+        "last_modified_date": "2006-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0608115",
+        "title": "Neural Network Clustering Based on Distances Between Objects",
+        "authors": [
+            "Leonid B. Litinskii",
+            "Dmitry E. Romanov"
+        ],
+        "abstract": "  We present an algorithm of clustering of many-dimensional objects, where only the distances between objects are used. Centers of classes are found with the aid of neuron-like procedure with lateral inhibition. The result of clustering does not depend on starting conditions. Our algorithm makes it possible to give an idea about classes that really exist in the empirical data. The results of computer simulations are presented.\n    ",
+        "submission_date": "2006-08-29T00:00:00",
+        "last_modified_date": "2006-08-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609003",
+        "title": "In Quest of Image Semantics: Are We Looking for It Under the Right Lamppost?",
+        "authors": [
+            "Emanuel Diamant"
+        ],
+        "abstract": "  In the last years we witness a dramatic growth of research focused on semantic image understanding. Indeed, without understanding image content successful accomplishment of any image-processing task is simply incredible. Up to the recent times, the ultimate need for such understanding has been met by the knowledge that a domain expert or a vision system supervisor have contributed to every image-processing application. The advent of the Internet has drastically changed this situation. Internet sources of visual information are diffused and dispersed over the whole Web, so the duty of information content discovery and evaluation must be relegated now to an image understanding agent (a machine or a computer program) capable to perform image content assessment at a remote image location. Development of Content Based Image Retrieval (CBIR) techniques was a right move in a right direction, launched about ten years ago. Unfortunately, very little progress has been made since then. The reason for this can be seen in a rank of long lasting misconceptions that CBIR designers are continuing to adhere to. I hope, my arguments will help them to change their minds.\n    ",
+        "submission_date": "2006-09-02T00:00:00",
+        "last_modified_date": "2006-09-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609010",
+        "title": "An effective edge--directed frequency filter for removal of aliasing in upsampled images",
+        "authors": [
+            "Artur Rataj"
+        ],
+        "abstract": "  Raster images can have a range of various distortions connected to their raster structure. Upsampling them might in effect substantially yield the raster structure of the original image, known as aliasing. The upsampling itself may introduce aliasing into the upsampled image as well. The presented method attempts to remove the aliasing using frequency filters based on the discrete fast Fourier transform, and applied directionally in certain regions placed along the edges in the image.\n",
+        "submission_date": "2006-09-04T00:00:00",
+        "last_modified_date": "2006-09-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609100",
+        "title": "Total Variation Minimization and Graph Cuts for Moving Objects Segmentation",
+        "authors": [
+            "Florent Ranchin",
+            "Antonin Chambolle",
+            "Fran\u00e7oise Dibos"
+        ],
+        "abstract": "  In this paper, we are interested in the application to video segmentation of the discrete shape optimization problem involving the shape weighted perimeter and an additional term depending on a parameter. Based on recent works and in particular the one of Darbon and Sigelle, we justify the equivalence of the shape optimization problem and a weighted total variation regularization. For solving this problem, we adapt the projection algorithm proposed recently for solving the basic TV regularization problem. Another solution to the shape optimization investigated here is the graph cut technique. Both methods have the advantage to lead to a global minimum. Since we can distinguish moving objects from static elements of a scene by analyzing norm of the optical flow vectors, we choose the optical flow norm as initial data. In order to have the contour as close as possible to an edge in the image, we use a classical edge detector function as the weight of the weighted total variation. This model has been used in one of our former works. We also apply the same methods to a video segmentation model used by Jehan-Besson, Barlaud and Aubert. In this case, only standard perimeter is incorporated in the shape functional. We also propose another way for finding moving objects by using an a contrario detection of objects on the image obtained by solving the Rudin-Osher-Fatemi Total Variation regularization ",
+        "submission_date": "2006-09-18T00:00:00",
+        "last_modified_date": "2006-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609164",
+        "title": "Conditional Expressions for Blind Deconvolution: Multi-point form",
+        "authors": [
+            "S. Aogaki",
+            "I. Moritani",
+            "T. Sugai",
+            "F. Takeutchi",
+            "F.M. Toyama"
+        ],
+        "abstract": "  We present conditional expression (CE) for finding blurs convolved in given images. The CE is given in terms of the zero-values of the blurs evaluated at multi-point. The CE can detect multiple blur all at once. We illustrate the multiple blur-detection by using a test image.\n    ",
+        "submission_date": "2006-09-29T00:00:00",
+        "last_modified_date": "2006-09-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609165",
+        "title": "Simple method to eliminate blur based on Lane and Bates algorithm",
+        "authors": [
+            "S. Aogaki",
+            "I. Moritani",
+            "T. Sugai",
+            "F. Takeutchi",
+            "F.M. Toyama"
+        ],
+        "abstract": "  A simple search method for finding a blur convolved in a given image is presented. The method can be easily extended to a large blur. The method has been experimentally tested with a model blurred image.\n    ",
+        "submission_date": "2006-09-29T00:00:00",
+        "last_modified_date": "2006-09-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610002",
+        "title": "Conditional Expressions for Blind Deconvolution: Derivative form",
+        "authors": [
+            "S. Aogaki",
+            "I. Moritani",
+            "T. Sugai",
+            "F. Takeutchi",
+            "F.M. Toyama"
+        ],
+        "abstract": "  We developed novel conditional expressions (CEs) for Lane and Bates' blind deconvolution. The CEs are given in term of the derivatives of the zero-values of the z-transform of given images. The CEs make it possible to automatically detect multiple blur convolved in the given images all at once without performing any analysis of the zero-sheets of the given images. We illustrate the multiple blur-detection by the CEs for a model image\n    ",
+        "submission_date": "2006-09-30T00:00:00",
+        "last_modified_date": "2006-09-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610033",
+        "title": "A kernel for time series based on global alignments",
+        "authors": [
+            "Marco Cuturi",
+            "Jean-Philippe Vert",
+            "Oystein Birkenes",
+            "Tomoko Matsui"
+        ],
+        "abstract": "  We propose in this paper a new family of kernels to handle times series, notably speech data, within the framework of kernel methods which includes popular algorithms such as the Support Vector Machine. These kernels elaborate on the well known Dynamic Time Warping (DTW) family of distances by considering the same set of elementary operations, namely substitutions and repetitions of tokens, to map a sequence onto another. Associating to each of these operations a given score, DTW algorithms use dynamic programming techniques to compute an optimal sequence of operations with high overall score. In this paper we consider instead the score spanned by all possible alignments, take a smoothed version of their maximum and derive a kernel out of this formulation. We prove that this kernel is positive definite under favorable conditions and show how it can be tuned effectively for practical applications as we report encouraging results on a speech recognition task.\n    ",
+        "submission_date": "2006-10-06T00:00:00",
+        "last_modified_date": "2006-10-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610059",
+        "title": "Camera motion estimation through planar deformation determination",
+        "authors": [
+            "Claire Jonchery",
+            "Fran\u00e7oise Dibos",
+            "Georges Koepfler"
+        ],
+        "abstract": "  In this paper, we propose a global method for estimating the motion of a camera which films a static scene. Our approach is direct, fast and robust, and deals with adjacent frames of a sequence. It is based on a quadratic approximation of the deformation between two images, in the case of a scene with constant depth in the camera coordinate system. This condition is very restrictive but we show that provided translation and depth inverse variations are small enough, the error on optical flow involved by the approximation of depths by a constant is small. In this context, we propose a new model of camera motion, that allows to separate the image deformation in a similarity and a ``purely'' projective application, due to change of optical axis direction. This model leads to a quadratic approximation of image deformation that we estimate with an M-estimator; we can immediatly deduce camera motion parameters.\n    ",
+        "submission_date": "2006-10-11T00:00:00",
+        "last_modified_date": "2008-03-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0611115",
+        "title": "A higher-order active contour model of a `gas of circles' and its application to tree crown extraction",
+        "authors": [
+            "Peter Horvath",
+            "Ian Jermyn",
+            "Zoltan Kato",
+            "Josiane Zerubia"
+        ],
+        "abstract": "  Many image processing problems involve identifying the region in the image domain occupied by a given entity in the scene. Automatic solution of these problems requires models that incorporate significant prior knowledge about the shape of the region. Many methods for including such knowledge run into difficulties when the topology of the region is unknown a priori, for example when the entity is composed of an unknown number of similar objects. Higher-order active contours (HOACs) represent one method for the modelling of non-trivial prior knowledge about shape without necessarily constraining region topology, via the inclusion of non-local interactions between region boundary points in the energy defining the model. The case of an unknown number of circular objects arises in a number of domains, e.g. medical, biological, nanotechnological, and remote sensing imagery. Regions composed of an a priori unknown number of circles may be referred to as a `gas of circles'. In this report, we present a HOAC model of a `gas of circles'. In order to guarantee stable circles, we conduct a stability analysis via a functional Taylor expansion of the HOAC energy around a circular shape. This analysis fixes one of the model parameters in terms of the others and constrains the rest. In conjunction with a suitable likelihood energy, we apply the model to the extraction of tree crowns from aerial imagery, and show that the new model outperforms other techniques.\n    ",
+        "submission_date": "2006-11-22T00:00:00",
+        "last_modified_date": "2006-11-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601102",
+        "title": "Geometric symmetry in the quadratic Fisher discriminant operating on image pixels",
+        "authors": [
+            "Robert S. Caprari"
+        ],
+        "abstract": "  This article examines the design of Quadratic Fisher Discriminants (QFDs) that operate directly on image pixels, when image ensembles are taken to comprise all rotated and reflected versions of distinct sample images. A procedure based on group theory is devised to identify and discard QFD coefficients made redundant by symmetry, for arbitrary sampling lattices. This procedure introduces the concept of a degeneracy matrix. Tensor representations are established for the square lattice point group (8-fold symmetry) and hexagonal lattice point group (12-fold symmetry). The analysis is largely applicable to the symmetrisation of any quadratic filter, and generalises to higher order polynomial (Volterra) filters. Experiments on square lattice sampled synthetic aperture radar (SAR) imagery verify that symmetrisation of QFDs can improve their generalisation and discrimination ability.\n    ",
+        "submission_date": "2006-01-24T00:00:00",
+        "last_modified_date": "2006-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604004",
+        "title": "The Poincare conjecture for digital spaces. Properties of digital n-dimensional disks and spheres",
+        "authors": [
+            "Alexander V. Evako"
+        ],
+        "abstract": "  Motivated by the Poincare conjecture, we study properties of digital n-dimensional spheres and disks, which are digital models of their continuous counterparts. We introduce homeomorphic transformations of digital manifolds, which retain the connectedness, the dimension, the Euler characteristics and the homology groups of manifolds. We find conditions where an n-dimensional digital manifold is the n-dimensional digital sphere and discuss the link between continuous closed n-manifolds and their digital models.\n    ",
+        "submission_date": "2006-04-02T00:00:00",
+        "last_modified_date": "2006-04-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604011",
+        "title": "Semi-Supervised Learning -- A Statistical Physics Approach",
+        "authors": [
+            "Gad Getz",
+            "Noam Shental",
+            "Eytan Domany"
+        ],
+        "abstract": "  We present a novel approach to semi-supervised learning which is based on statistical physics. Most of the former work in the field of semi-supervised learning classifies the points by minimizing a certain energy function, which corresponds to a minimal k-way cut solution. In contrast to these methods, we estimate the distribution of classifications, instead of the sole minimal k-way cut, which yields more accurate and robust results. Our approach may be applied to all energy functions used for semi-supervised learning. The method is based on sampling using a Multicanonical Markov chain Monte-Carlo algorithm, and has a straightforward probabilistic interpretation, which allows for soft assignments of points to classes, and also to cope with yet unseen class types. The suggested approach is demonstrated on a toy data set and on two real-life data sets of gene expression.\n    ",
+        "submission_date": "2006-04-05T00:00:00",
+        "last_modified_date": "2006-04-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604094",
+        "title": "A Fast and Accurate Nonlinear Spectral Method for Image Recognition and Registration",
+        "authors": [
+            "Luciano da Fontoura Costa",
+            "Erik Bollt"
+        ],
+        "abstract": "  This article addresses the problem of two- and higher dimensional pattern matching, i.e. the identification of instances of a template within a larger signal space, which is a form of registration. Unlike traditional correlation, we aim at obtaining more selective matchings by considering more strict comparisons of gray-level intensity. In order to achieve fast matching, a nonlinear thresholded version of the fast Fourier transform is applied to a gray-level decomposition of the original 2D image. The potential of the method is substantiated with respect to real data involving the selective identification of neuronal cell bodies in gray-level images.\n    ",
+        "submission_date": "2006-04-24T00:00:00",
+        "last_modified_date": "2006-04-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605103",
+        "title": "A Better Alternative to Piecewise Linear Time Series Segmentation",
+        "authors": [
+            "Daniel Lemire"
+        ],
+        "abstract": "  Time series are difficult to monitor, summarize and predict. Segmentation organizes time series into few intervals having uniform characteristics (flatness, linearity, modality, monotonicity and so on). For scalability, we require fast linear time algorithms. The popular piecewise linear model can determine where the data goes up or down and at what rate. Unfortunately, when the data does not follow a linear model, the computation of the local slope creates overfitting. We propose an adaptive time series model where the polynomial degree of each interval vary (constant, linear and so on). Given a number of regressors, the cost of each interval is its polynomial degree: constant intervals cost 1 regressor, linear intervals cost 2 regressors, and so on. Our goal is to minimize the Euclidean (l_2) error for a given model complexity. Experimentally, we investigate the model where intervals can be either constant or linear. Over synthetic random walks, historical stock market prices, and electrocardiograms, the adaptive model provides a more accurate segmentation than the piecewise linear model without increasing the cross-validation error or the running time, while providing a richer vocabulary to applications. Implementation issues, such as numerical stability and real-world performance, are discussed.\n    ",
+        "submission_date": "2006-05-24T00:00:00",
+        "last_modified_date": "2007-04-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606048",
+        "title": "A New Quartet Tree Heuristic for Hierarchical Clustering",
+        "authors": [
+            "Rudi Cilibrasi",
+            "Paul M.B. Vitanyi"
+        ],
+        "abstract": "  We consider the problem of constructing an an optimal-weight tree from the 3*(n choose 4) weighted quartet topologies on n objects, where optimality means that the summed weight of the embedded quartet topologiesis optimal (so it can be the case that the optimal tree embeds all quartets as non-optimal topologies). We present a heuristic for reconstructing the optimal-weight tree, and a canonical manner to derive the quartet-topology weights from a given distance matrix. The method repeatedly transforms a bifurcating tree, with all objects involved as leaves, achieving a monotonic approximation to the exact single globally optimal tree. This contrasts to other heuristic search methods from biological phylogeny, like DNAML or quartet puzzling, which, repeatedly, incrementally construct a solution from a random order of objects, and subsequently add agreement values.\n    ",
+        "submission_date": "2006-06-11T00:00:00",
+        "last_modified_date": "2006-06-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0608009",
+        "title": "Stability in multidimensional Size Theory",
+        "authors": [
+            "Andrea Cerri",
+            "Patrizio Frosini",
+            "Claudia Landi"
+        ],
+        "abstract": "  This paper proves that in Size Theory the comparison of multidimensional size functions can be reduced to the 1-dimensional case by a suitable change of variables. Indeed, we show that a foliation in half-planes can be given, such that the restriction of a multidimensional size function to each of these half-planes turns out to be a classical size function in two scalar variables. This leads to the definition of a new distance between multidimensional size functions, and to the proof of their stability with respect to that distance.\n    ",
+        "submission_date": "2006-08-02T00:00:00",
+        "last_modified_date": "2006-08-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0608093",
+        "title": "Connection between continuous and digital n-manifolds and the Poincare conjecture",
+        "authors": [
+            "Alexander Evako"
+        ],
+        "abstract": "  We introduce LCL covers of closed n-dimensional manifolds by n-dimensional disks and study their properties. We show that any LCL cover of an n-dimensional sphere can be converted to the minimal LCL cover, which consists of 2n+2 disks. We prove that an LCL collection of n-disks is a cover of a continuous n-sphere if and only if the intersection graph of this collection is a digital n-sphere. Using a link between LCL covers of closed continuous n-manifolds and digital n-manifolds, we find conditions where a continuous closed three-dimensional manifold is the three-dimensional sphere. We discuss a connection between the classification problems for closed continuous three-dimensional manifolds and digital three-manifolds.\n    ",
+        "submission_date": "2006-08-24T00:00:00",
+        "last_modified_date": "2006-08-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609071",
+        "title": "A kernel method for canonical correlation analysis",
+        "authors": [
+            "Shotaro Akaho"
+        ],
+        "abstract": "  Canonical correlation analysis is a technique to extract common features from a pair of multivariate data. In complex situations, however, it does not extract useful features because of its linearity. On the other hand, kernel method used in support vector machine is an efficient approach to improve such a linear method. In this paper, we investigate the effectiveness of applying kernel method to canonical correlation analysis.\n    ",
+        "submission_date": "2006-09-13T00:00:00",
+        "last_modified_date": "2007-02-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0606643",
+        "title": "Entropy And Vision",
+        "authors": [
+            "Rami Kanhouche"
+        ],
+        "abstract": "  In vector quantization the number of vectors used to construct the codebook is always an undefined problem, there is always a compromise between the number of vectors and the quantity of information lost during the compression. In this text we present a minimum of Entropy principle that gives solution to this compromise and represents an Entropy point of view of signal compression in general. Also we present a new adaptive Object Quantization technique that is the same for the compression and the perception.\n    ",
+        "submission_date": "2006-06-26T00:00:00",
+        "last_modified_date": "2006-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0607243",
+        "title": "An active curve approach for tomographic reconstruction of binary radially symmetric objects",
+        "authors": [
+            "Isabelle Abraham",
+            "Romain Abraham",
+            "Maitine Bergounioux"
+        ],
+        "abstract": "  This paper deals with a method of tomographic reconstruction of radially symmetric objects from a single radiograph, in order to study the behavior of shocked material. The usual tomographic reconstruction algorithms such as generalized inverse or filtered back-projection cannot be applied here because data are very noisy and the inverse problem associated to single view tomographic reconstruction is highly unstable. In order to improve the reconstruction, we propose here to add some a priori assumptions on the looked after object. One of these assumptions is that the object is binary and consequently, the object may be described by the curves that separate the two materials. We present a model that lives in BV space and leads to a non local Hamilton-Jacobi equation, via a level set strategy. Numerical experiments are performed (using level sets methods) on synthetic objects.\n    ",
+        "submission_date": "2006-07-10T00:00:00",
+        "last_modified_date": "2006-07-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/physics/0603002",
+        "title": "Functional dissipation microarrays for classification",
+        "authors": [
+            "D. Napoletani",
+            "D. C. Struppa",
+            "T. Sauer",
+            "V. Morozov",
+            "N. Vsevolodov",
+            "C. Bailey"
+        ],
+        "abstract": "  In this article, we describe a new method of extracting information from signals, called functional dissipation, that proves to be very effective for enhancing classification of high resolution, texture-rich data. Our algorithm bypasses to some extent the need to have very specialized feature extraction techniques, and can potentially be used as an intermediate, feature enhancement step in any classification scheme.\n",
+        "submission_date": "2006-02-28T00:00:00",
+        "last_modified_date": "2007-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/q-bio/0612013",
+        "title": "Clustering fetal heart rate tracings by compression",
+        "authors": [
+            "C. Costa Santos",
+            "J. Bernardes",
+            "P. Vitanyi",
+            "L. Antunes"
+        ],
+        "abstract": "  Fetal heart rate (FHR) monitoring, before and during labor, is a very important medical practice in the detection of fetuses in danger. We clustered FHR tracings by compression in order to identify abnormal ones. We use a recently introduced approach based on algorithmic information theory, a theoretical, rigorous and well-studied notion of information content in individual objects. The new method can mine patterns in completely different areas, there are no domain-specific parameters to set, and it does not require specific background knowledge. At the highest level the FHR tracings were clustered according to an unanticipated feature, namely the technology used in signal acquisition. At the lower levels all tracings with abnormal or suspicious patterns were clustered together, independent of the technology used. Moreover, FHR tracings with future poor neonatal outcomes were included in the cluster with other suspicious patterns.\n    ",
+        "submission_date": "2006-12-07T00:00:00",
+        "last_modified_date": "2006-12-07T00:00:00"
+    }
+]

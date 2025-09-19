@@ -1,0 +1,737 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0201008",
+        "title": "Using Tree Automata and Regular Expressions to Manipulate Hierarchically Structured Data",
+        "authors": [
+            "Nikita Schmidt",
+            "Ahmed Patel"
+        ],
+        "abstract": "  Information, stored or transmitted in digital form, is often structured. Individual data records are usually represented as hierarchies of their elements. Together, records form larger structures. Information processing applications have to take account of this structuring, which assigns different semantics to different data elements or records. Big variety of structural schemata in use today often requires much flexibility from applications--for example, to process information coming from different sources. To ensure application interoperability, translators are needed that can convert one structure into another. This paper puts forward a formal data model aimed at supporting hierarchical data processing in a simple and flexible way. The model is based on and extends results of two classical theories, studying finite string and tree automata. The concept of finite automata and regular languages is applied to the case of arbitrarily structured tree-like hierarchical data records, represented as \"structured strings.\" These automata are compared with classical string and tree automata; the model is shown to be a superset of the classical models. Regular grammars and expressions over structured strings are introduced. Regular expression matching and substitution has been widely used for efficient unstructured text processing; the model described here brings the power of this proven technique to applications that deal with information trees. A simple generic alternative is offered to replace today's specialised ad-hoc approaches. The model unifies structural and content transformations, providing applications with a single data type. An example scenario of how to build applications based on this theory is discussed. Further research directions are outlined.\n    ",
+        "submission_date": "2002-01-11T00:00:00",
+        "last_modified_date": "2002-01-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204003",
+        "title": "Blind Normalization of Speech From Different Channels and Speakers",
+        "authors": [
+            "David N. Levin"
+        ],
+        "abstract": "  This paper describes representations of time-dependent signals that are invariant under any invertible time-independent transformation of the signal time series. Such a representation is created by rescaling the signal in a non-linear dynamic manner that is determined by recently encountered signal levels. This technique may make it possible to normalize signals that are related by channel-dependent and speaker-dependent transformations, without having to characterize the form of the signal transformations, which remain unknown. The technique is illustrated by applying it to the time-dependent spectra of speech that has been filtered to simulate the effects of different channels. The experimental results show that the rescaled speech representations are largely normalized (i.e., channel-independent), despite the channel-dependence of the raw (unrescaled) speech.\n    ",
+        "submission_date": "2002-04-02T00:00:00",
+        "last_modified_date": "2002-04-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204004",
+        "title": "Models and Tools for Collaborative Annotation",
+        "authors": [
+            "Xiaoyi Ma",
+            "Haejoong Lee",
+            "Steven Bird",
+            "Kazuaki Maeda"
+        ],
+        "abstract": "  The Annotation Graph Toolkit (AGTK) is a collection of software which facilitates development of linguistic annotation tools. AGTK provides a database interface which allows applications to use a database server for persistent storage. This paper discusses various modes of collaborative annotation and how they can be supported with tools built using AGTK and its database interface. We describe the relational database schema and API, and describe a version of the TableTrans tool which supports collaborative annotation. The remainder of the paper discusses a high-level query language for annotation graphs, along with optimizations, in support of expressive and efficient access to the annotations held on a large central server. The paper demonstrates that it is straightforward to support a variety of different levels of collaborative annotation with existing AGTK-based tools, with a minimum of additional programming effort.\n    ",
+        "submission_date": "2002-04-03T00:00:00",
+        "last_modified_date": "2002-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204005",
+        "title": "Creating Annotation Tools with the Annotation Graph Toolkit",
+        "authors": [
+            "Kazuaki Maeda",
+            "Steven Bird",
+            "Xiaoyi Ma",
+            "Haejoong Lee"
+        ],
+        "abstract": "  The Annotation Graph Toolkit is a collection of software supporting the development of annotation tools based on the annotation graph model. The toolkit includes application programming interfaces for manipulating annotation graph data and for importing data from other formats. There are interfaces for the scripting languages Tcl and Python, a database interface, specialized graphical user interfaces for a variety of annotation tasks, and several sample applications. This paper describes all the toolkit components for the benefit of would-be application developers.\n    ",
+        "submission_date": "2002-04-03T00:00:00",
+        "last_modified_date": "2002-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204006",
+        "title": "TableTrans, MultiTrans, InterTrans and TreeTrans: Diverse Tools Built on the Annotation Graph Toolkit",
+        "authors": [
+            "Steven Bird",
+            "Kazuaki Maeda",
+            "Xiaoyi Ma",
+            "Haejoong Lee",
+            "Beth Randall",
+            "Salim Zayat"
+        ],
+        "abstract": "  Four diverse tools built on the Annotation Graph Toolkit are described. Each tool associates linguistic codes and structures with time-series data. All are based on the same software library and tool architecture. TableTrans is for observational coding, using a spreadsheet whose rows are aligned to a signal. MultiTrans is for transcribing multi-party communicative interactions recorded using multi-channel signals. InterTrans is for creating interlinear text aligned to audio. TreeTrans is for creating and manipulating syntactic trees. This work demonstrates that the development of diverse tools and re-use of software components is greatly facilitated by a common high-level application programming interface for representing the data and managing input/output, together with a common architecture for managing the interaction of multiple components.\n    ",
+        "submission_date": "2002-04-03T00:00:00",
+        "last_modified_date": "2002-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204007",
+        "title": "An Integrated Framework for Treebanks and Multilayer Annotations",
+        "authors": [
+            "Scott Cotton",
+            "Steven Bird"
+        ],
+        "abstract": "  Treebank formats and associated software tools are proliferating rapidly, with little consideration for interoperability. We survey a wide variety of treebank structures and operations, and show how they can be mapped onto the annotation graph model, and leading to an integrated framework encompassing tree and non-tree annotations alike. This development opens up new possibilities for managing and exploiting multilayer annotations.\n    ",
+        "submission_date": "2002-04-03T00:00:00",
+        "last_modified_date": "2002-04-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204008",
+        "title": "The tip-of-the-tongue phenomenon: Irrelevant neural network localization or disruption of its interneuron links ?",
+        "authors": [
+            "Petro M. Gopych"
+        ],
+        "abstract": "  On the base of recently proposed three-stage quantitative neural network model of the tip-of-the-tongue (TOT) phenomenon a possibility to occur of TOT states coursed by neural network interneuron links' disruption has been studied. Using a numerical example it was found that TOTs coursed by interneron links' disruption are in (1.5 + - 0.3)x1000 times less probable then those coursed by irrelevant (incomplete) neural network localization. It was shown that delayed TOT states' etiology cannot be related to neural network interneuron links' disruption.\n    ",
+        "submission_date": "2002-04-04T00:00:00",
+        "last_modified_date": "2002-04-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204020",
+        "title": "Seven Dimensions of Portability for Language Documentation and Description",
+        "authors": [
+            "Steven Bird",
+            "Gary Simons"
+        ],
+        "abstract": "  The process of documenting and describing the world's languages is undergoing radical transformation with the rapid uptake of new digital technologies for capture, storage, annotation and dissemination. However, uncritical adoption of new tools and technologies is leading to resources that are difficult to reuse and which are less portable than the conventional printed resources they replace. We begin by reviewing current uses of software tools and digital technologies for language documentation and description. This sheds light on how digital language documentation and description are created and managed, leading to an analysis of seven portability problems under the following headings: content, format, discovery, access, citation, preservation and rights. After characterizing each problem we provide a series of value statements, and this provides the framework for a broad range of best practice recommendations.\n    ",
+        "submission_date": "2002-04-10T00:00:00",
+        "last_modified_date": "2002-04-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204022",
+        "title": "Annotation Graphs and Servers and Multi-Modal Resources: Infrastructure for Interdisciplinary Education, Research and Development",
+        "authors": [
+            "Christopher Cieri",
+            "Steven Bird"
+        ],
+        "abstract": "  Annotation graphs and annotation servers offer infrastructure to support the analysis of human language resources in the form of time-series data such as text, audio and video. This paper outlines areas of common need among empirical linguists and computational linguists. After reviewing examples of data and tools used or under development for each of several areas, it proposes a common framework for future tool development, data annotation and resource sharing based upon annotation graphs and servers.\n    ",
+        "submission_date": "2002-04-10T00:00:00",
+        "last_modified_date": "2002-04-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204023",
+        "title": "Computational Phonology",
+        "authors": [
+            "Steven Bird"
+        ],
+        "abstract": "  Phonology, as it is practiced, is deeply computational. Phonological analysis is data-intensive and the resulting models are nothing other than specialized data structures and algorithms. In the past, phonological computation - managing data and developing analyses - was done manually with pencil and paper. Increasingly, with the proliferation of affordable computers, IPA fonts and drawing software, phonologists are seeking to move their computation work online. Computational Phonology provides the theoretical and technological framework for this migration, building on methodologies and tools from computational linguistics. This piece consists of an apology for computational phonology, a history, and an overview of current research.\n    ",
+        "submission_date": "2002-04-10T00:00:00",
+        "last_modified_date": "2002-04-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204025",
+        "title": "Phonology",
+        "authors": [
+            "Steven Bird"
+        ],
+        "abstract": "  Phonology is the systematic study of the sounds used in language, their internal structure, and their composition into syllables, words and phrases. Computational phonology is the application of formal and computational techniques to the representation and processing of phonological information. This chapter will present the fundamentals of descriptive phonology along with a brief overview of computational phonology.\n    ",
+        "submission_date": "2002-04-11T00:00:00",
+        "last_modified_date": "2002-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204026",
+        "title": "Querying Databases of Annotated Speech",
+        "authors": [
+            "Steve Cassidy",
+            "Steven Bird"
+        ],
+        "abstract": "  Annotated speech corpora are databases consisting of signal data along with time-aligned symbolic `transcriptions'. Such databases are typically multidimensional, heterogeneous and dynamic. These properties present a number of tough challenges for representation and query. The temporal nature of the data adds an additional layer of complexity. This paper presents and harmonises two independent efforts to model annotated speech databases, one at Macquarie University and one at the University of Pennsylvania. Various query languages are described, along with illustrative applications to a variety of analytical problems. The research reported here forms a part of several ongoing projects to develop platform-independent open-source tools for creating, browsing, searching, querying and transforming linguistic databases, and to disseminate large linguistic databases over the internet.\n    ",
+        "submission_date": "2002-04-11T00:00:00",
+        "last_modified_date": "2002-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204027",
+        "title": "Integrating selectional preferences in WordNet",
+        "authors": [
+            "Eneko Agirre",
+            "David Martinez"
+        ],
+        "abstract": "  Selectional preference learning methods have usually focused on word-to-class relations, e.g., a verb selects as its subject a given nominal class. This paper extends previous statistical models to class-to-class preferences, and presents a model that learns selectional preferences for classes of verbs, together with an algorithm to integrate the learned preferences in WordNet. The theoretical motivation is twofold: different senses of a verb may have different preferences, and classes of verbs may share preferences. On the practical side, class-to-class selectional preferences can be learned from untagged corpora (the same as word-to-class), they provide selectional preferences for less frequent word senses via inheritance, and more important, they allow for easy integration in WordNet. The model is trained on subject-verb and object-verb relationships extracted from a small corpus disambiguated with WordNet senses. Examples are provided illustrating that the theoretical motivations are well founded, and showing that the approach is feasible. Experimental results on a word sense disambiguation task are also provided.\n    ",
+        "submission_date": "2002-04-11T00:00:00",
+        "last_modified_date": "2002-04-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204028",
+        "title": "Decision Lists for English and Basque",
+        "authors": [
+            "Eneko Agirre",
+            "David Martinez"
+        ],
+        "abstract": "  In this paper we describe the systems we developed for the English (lexical and all-words) and Basque tasks. They were all supervised systems based on Yarowsky's Decision Lists. We used Semcor for training in the English all-words task. We defined different feature sets for each language. For Basque, in order to extract all the information from the text, we defined features that have not been used before in the literature, using a morphological analyzer. We also implemented systems that selected automatically good features and were able to obtain a prefixed precision (85%) at the cost of coverage. The systems that used all the features were identified as BCU-ehu-dlist-all and the systems that selected some features as BCU-ehu-dlist-best.\n    ",
+        "submission_date": "2002-04-12T00:00:00",
+        "last_modified_date": "2002-04-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204029",
+        "title": "The Basque task: did systems perform in the upperbound?",
+        "authors": [
+            "Eneko Agirre",
+            "Elena Garcia",
+            "Mikel Lersundi",
+            "David Martinez",
+            "Eli Pociello"
+        ],
+        "abstract": "  In this paper we describe the Senseval 2 Basque lexical-sample task. The task comprised 40 words (15 nouns, 15 verbs and 10 adjectives) selected from Euskal Hiztegia, the main Basque dictionary. Most examples were taken from the Egunkaria newspaper. The method used to hand-tag the examples produced low inter-tagger agreement (75%) before arbitration. The four competing systems attained results well above the most frequent baseline and the best system scored 75% precision at 100% coverage. The paper includes an analysis of the tagging procedure used, as well as the performance of the competing systems. In particular, we argue that inter-tagger agreement is not a real upperbound for the Basque WSD task.\n    ",
+        "submission_date": "2002-04-12T00:00:00",
+        "last_modified_date": "2002-04-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0204049",
+        "title": "Memory-Based Shallow Parsing",
+        "authors": [
+            "Erik F. Tjong Kim Sang"
+        ],
+        "abstract": "  We present memory-based learning approaches to shallow parsing and apply these to five tasks: base noun phrase identification, arbitrary base phrase recognition, clause detection, noun phrase parsing and full parsing. We use feature selection techniques and system combination methods for improving the performance of the memory-based learner. Our approach is evaluated on standard data sets and the results are compared with that of other systems. This reveals that our approach works well for base phrase identification while its application towards recognizing embedded structures leaves some room for improvement.\n    ",
+        "submission_date": "2002-04-24T00:00:00",
+        "last_modified_date": "2002-04-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205006",
+        "title": "Unsupervised discovery of morphologically related words based on orthographic and semantic similarity",
+        "authors": [
+            "Marco Baroni",
+            "Johannes Matiasek",
+            "Harald Trost"
+        ],
+        "abstract": "  We present an algorithm that takes an unannotated corpus as its input, and returns a ranked list of probable morphologically related pairs as its output. The algorithm tries to discover morphologically related pairs by looking for pairs that are both orthographically and semantically similar, where orthographic similarity is measured in terms of minimum edit distance, and semantic similarity is measured in terms of mutual information. The procedure does not rely on a morpheme concatenation model, nor on distributional properties of word substrings (such as affix frequency). Experiments with German and English input give encouraging results, both in terms of precision (proportion of good pairs found at various cutoff points of the ranked list), and in terms of a qualitative analysis of the types of morphological patterns discovered by the algorithm.\n    ",
+        "submission_date": "2002-05-08T00:00:00",
+        "last_modified_date": "2002-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205009",
+        "title": "Mostly-Unsupervised Statistical Segmentation of Japanese Kanji Sequences",
+        "authors": [
+            "Rie Kubota Ando",
+            "Lillian Lee"
+        ],
+        "abstract": "  Given the lack of word delimiters in written Japanese, word segmentation is generally considered a crucial first step in processing Japanese texts. Typical Japanese segmentation algorithms rely either on a lexicon and syntactic analysis or on pre-segmented data; but these are labor-intensive, and the lexico-syntactic techniques are vulnerable to the unknown word problem. In contrast, we introduce a novel, more robust statistical method utilizing unsegmented training data. Despite its simplicity, the algorithm yields performance on long kanji sequences comparable to and sometimes surpassing that of state-of-the-art morphological analyzers over a variety of error metrics. The algorithm also outperforms another mostly-unsupervised statistical algorithm previously proposed for Chinese.\n",
+        "submission_date": "2002-05-10T00:00:00",
+        "last_modified_date": "2002-05-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205017",
+        "title": "Ellogon: A New Text Engineering Platform",
+        "authors": [
+            "Georgios Petasis",
+            "Vangelis Karkaletsis",
+            "Georgios Paliouras",
+            "Ion Androutsopoulos",
+            "Constantine D. Spyropoulos"
+        ],
+        "abstract": "  This paper presents Ellogon, a multi-lingual, cross-platform, general-purpose text engineering environment. Ellogon was designed in order to aid both researchers in natural language processing, as well as companies that produce language engineering systems for the end-user. Ellogon provides a powerful TIPSTER-based infrastructure for managing, storing and exchanging textual data, embedding and managing text processing components as well as visualising textual data and their associated linguistic information. Among its key features are full Unicode support, an extensive multi-lingual graphical user interface, its modular architecture and the reduced hardware requirements.\n    ",
+        "submission_date": "2002-05-13T00:00:00",
+        "last_modified_date": "2002-05-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205026",
+        "title": "Monads for natural language semantics",
+        "authors": [
+            "Chung-chieh Shan"
+        ],
+        "abstract": "  Accounts of semantic phenomena often involve extending types of meanings and revising composition rules at the same time. The concept of monads allows many such accounts -- for intensionality, variable binding, quantification and focus -- to be stated uniformly and compositionally.\n    ",
+        "submission_date": "2002-05-17T00:00:00",
+        "last_modified_date": "2002-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205027",
+        "title": "A variable-free dynamic semantics",
+        "authors": [
+            "Chung-chieh Shan"
+        ],
+        "abstract": "  I propose a variable-free treatment of dynamic semantics. By \"dynamic semantics\" I mean analyses of donkey sentences (\"Every farmer who owns a donkey beats it\") and other binding and anaphora phenomena in natural language where meanings of constituents are updates to information states, for instance as proposed by Groenendijk and Stokhof. By \"variable-free\" I mean denotational semantics in which functional combinators replace variable indices and assignment functions, for instance as advocated by Jacobson.\n",
+        "submission_date": "2002-05-17T00:00:00",
+        "last_modified_date": "2002-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205028",
+        "title": "NLTK: The Natural Language Toolkit",
+        "authors": [
+            "Edward Loper",
+            "Steven Bird"
+        ],
+        "abstract": "  NLTK, the Natural Language Toolkit, is a suite of open source program modules, tutorials and problem sets, providing ready-to-use computational linguistics courseware. NLTK covers symbolic and statistical natural language processing, and is interfaced to annotated corpora. Students augment and replace existing components, learn structured programming by example, and manipulate sophisticated models from the outset.\n    ",
+        "submission_date": "2002-05-17T00:00:00",
+        "last_modified_date": "2002-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205057",
+        "title": "Unsupervised Discovery of Morphemes",
+        "authors": [
+            "Mathias Creutz",
+            "Krista Lagus"
+        ],
+        "abstract": "  We present two methods for unsupervised segmentation of words into morpheme-like units. The model utilized is especially suited for languages with a rich morphology, such as Finnish. The first method is based on the Minimum Description Length (MDL) principle and works online. In the second method, Maximum Likelihood (ML) optimization is used. The quality of the segmentations is measured using an evaluation method that compares the segmentations produced to an existing morphological analysis. Experiments on both Finnish and English corpora show that the presented methods perform well compared to a current state-of-the-art system.\n    ",
+        "submission_date": "2002-05-21T00:00:00",
+        "last_modified_date": "2002-05-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205065",
+        "title": "Bootstrapping Lexical Choice via Multiple-Sequence Alignment",
+        "authors": [
+            "Regina Barzilay",
+            "Lillian Lee"
+        ],
+        "abstract": "  An important component of any generation system is the mapping dictionary, a lexicon of elementary semantic expressions and corresponding natural language realizations. Typically, labor-intensive knowledge-based methods are used to construct the dictionary. We instead propose to acquire it automatically via a novel multiple-pass algorithm employing multiple-sequence alignment, a technique commonly used in bioinformatics. Crucially, our method leverages latent information contained in multi-parallel corpora -- datasets that supply several verbalizations of the corresponding semantics rather than just one.\n",
+        "submission_date": "2002-05-25T00:00:00",
+        "last_modified_date": "2002-05-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205067",
+        "title": "Evaluating the Effectiveness of Ensembles of Decision Trees in Disambiguating Senseval Lexical Samples",
+        "authors": [
+            "Ted Pedersen"
+        ],
+        "abstract": "  This paper presents an evaluation of an ensemble--based system that participated in the English and Spanish lexical sample tasks of Senseval-2. The system combines decision trees of unigrams, bigrams, and co--occurrences into a single classifier. The analysis is extended to include the Senseval-1 data.\n    ",
+        "submission_date": "2002-05-27T00:00:00",
+        "last_modified_date": "2002-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205068",
+        "title": "Assessing System Agreement and Instance Difficulty in the Lexical Sample Tasks of Senseval-2",
+        "authors": [
+            "Ted Pedersen"
+        ],
+        "abstract": "  This paper presents a comparative evaluation among the systems that participated in the Spanish and English lexical sample tasks of Senseval-2. The focus is on pairwise comparisons among systems to assess the degree to which they agree, and on measuring the difficulty of the test instances included in these tasks.\n    ",
+        "submission_date": "2002-05-27T00:00:00",
+        "last_modified_date": "2002-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205069",
+        "title": "Machine Learning with Lexical Features: The Duluth Approach to Senseval-2",
+        "authors": [
+            "Ted Pedersen"
+        ],
+        "abstract": "  This paper describes the sixteen Duluth entries in the Senseval-2 comparative exercise among word sense disambiguation systems. There were eight pairs of Duluth systems entered in the Spanish and English lexical sample tasks. These are all based on standard machine learning algorithms that induce classifiers from sense-tagged training text where the context in which ambiguous words occur are represented by simple lexical features. These are highly portable, robust methods that can serve as a foundation for more tailored approaches.\n    ",
+        "submission_date": "2002-05-27T00:00:00",
+        "last_modified_date": "2002-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205070",
+        "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques",
+        "authors": [
+            "Bo Pang",
+            "Lillian Lee",
+            "Shivakumar Vaithyanathan"
+        ],
+        "abstract": "  We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative. Using movie reviews as data, we find that standard machine learning techniques definitively outperform human-produced baselines. However, the three machine learning methods we employed (Naive Bayes, maximum entropy classification, and support vector machines) do not perform as well on sentiment classification as on traditional topic-based categorization. We conclude by examining factors that make the sentiment classification problem more challenging.\n    ",
+        "submission_date": "2002-05-28T00:00:00",
+        "last_modified_date": "2002-05-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205072",
+        "title": "Unsupervised Learning of Morphology without Morphemes",
+        "authors": [
+            "Sylvain Neuvel",
+            "Sean A. Fulop"
+        ],
+        "abstract": "  The first morphological learner based upon the theory of Whole Word Morphology Ford et al. (1997) is outlined, and preliminary evaluation results are presented. The program, Whole Word Morphologizer, takes a POS-tagged lexicon as input, induces morphological relationships without attempting to discover or identify morphemes, and is then able to generate new words beyond the learning sample. The accuracy (precision) of the generated new words is as high as 80% using the pure Whole Word theory, and 92% after a post-hoc adjustment is added to the routine.\n    ",
+        "submission_date": "2002-05-29T00:00:00",
+        "last_modified_date": "2002-05-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206007",
+        "title": "Using the Annotated Bibliography as a Resource for Indicative Summarization",
+        "authors": [
+            "Min-Yen Kan",
+            "Judith L. Klavans",
+            "Kathleen R. McKeown"
+        ],
+        "abstract": "  We report on a language resource consisting of 2000 annotated bibliography entries, which is being analyzed as part of our research on indicative document summarization. We show how annotated bibliographies cover certain aspects of summarization that have not been well-covered by other summary corpora, and motivate why they constitute an important form to study for information retrieval. We detail our methodology for collecting the corpus, and overview our document feature markup that we introduced to facilitate summary analysis. We present the characteristics of the corpus, methods of collection, and show its use in finding the distribution of types of information included in indicative summaries and their relative ordering within the summaries.\n    ",
+        "submission_date": "2002-06-04T00:00:00",
+        "last_modified_date": "2002-06-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206014",
+        "title": "A Method for Open-Vocabulary Speech-Driven Text Retrieval",
+        "authors": [
+            "Atsushi Fujii",
+            "Katunobu Itou",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  While recent retrieval techniques do not limit the number of index terms, out-of-vocabulary (OOV) words are crucial in speech recognition. Aiming at retrieving information with spoken queries, we fill the gap between speech recognition and text retrieval in terms of the vocabulary size. Given a spoken query, we generate a transcription and detect OOV words through speech recognition. We then correspond detected OOV words to terms indexed in a target collection to complete the transcription, and search the collection for documents relevant to the completed transcription. We show the effectiveness of our method by way of experiments.\n    ",
+        "submission_date": "2002-06-09T00:00:00",
+        "last_modified_date": "2002-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206015",
+        "title": "Japanese/English Cross-Language Information Retrieval: Exploration of Query Translation and Transliteration",
+        "authors": [
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  Cross-language information retrieval (CLIR), where queries and documents are in different languages, has of late become one of the major topics within the information retrieval community. This paper proposes a Japanese/English CLIR system, where we combine a query translation and retrieval modules. We currently target the retrieval of technical documents, and therefore the performance of our system is highly dependent on the quality of the translation of technical terms. However, the technical term translation is still problematic in that technical terms are often compound words, and thus new terms are progressively created by combining existing base words. In addition, Japanese often represents loanwords based on its special phonogram. Consequently, existing dictionaries find it difficult to achieve sufficient coverage. To counter the first problem, we produce a Japanese/English dictionary for base words, and translate compound words on a word-by-word basis. We also use a probabilistic method to resolve translation ambiguity. For the second problem, we use a transliteration method, which corresponds words unlisted in the base word dictionary to their phonetic equivalents in the target language. We evaluate our system using a test collection for CLIR, and show that both the compound word translation and transliteration methods improve the system performance.\n    ",
+        "submission_date": "2002-06-09T00:00:00",
+        "last_modified_date": "2002-06-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206026",
+        "title": "Interleaved semantic interpretation in environment-based parsing",
+        "authors": [
+            "William Schuler"
+        ],
+        "abstract": "  This paper extends a polynomial-time parsing algorithm that resolves structural ambiguity in input to a speech-based user interface by calculating and comparing the denotations of rival constituents, given some model of the interfaced application environment (Schuler 2001). The algorithm is extended to incorporate a full set of logical operators, including quantifiers and conjunctions, into this calculation without increasing the complexity of the overall algorithm beyond polynomial time, both in terms of the length of the input and the number of entities in the environment model.\n    ",
+        "submission_date": "2002-06-18T00:00:00",
+        "last_modified_date": "2002-06-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206030",
+        "title": "A Probabilistic Method for Analyzing Japanese Anaphora Integrating Zero Pronoun Detection and Resolution",
+        "authors": [
+            "Kazuhiro Seki",
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  This paper proposes a method to analyze Japanese anaphora, in which zero pronouns (omitted obligatory cases) are used to refer to preceding entities (antecedents). Unlike the case of general coreference resolution, zero pronouns have to be detected prior to resolution because they are not expressed in discourse. Our method integrates two probability parameters to perform zero pronoun detection and resolution in a single framework. The first parameter quantifies the degree to which a given case is a zero pronoun. The second parameter quantifies the degree to which a given entity is the antecedent for a detected zero pronoun. To compute these parameters efficiently, we use corpora with/without annotations of anaphoric relations. We show the effectiveness of our method by way of experiments.\n    ",
+        "submission_date": "2002-06-20T00:00:00",
+        "last_modified_date": "2002-06-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206034",
+        "title": "Applying a Hybrid Query Translation Method to Japanese/English Cross-Language Patent Retrieval",
+        "authors": [
+            "Masatoshi Fukui",
+            "Shigeto Higuchi",
+            "Youichi Nakatani",
+            "Masao Tanaka",
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  This paper applies an existing query translation method to cross-language patent retrieval. In our method, multiple dictionaries are used to derive all possible translations for an input query, and collocational statistics are used to resolve translation ambiguity. We used Japanese/English parallel patent abstracts to perform comparative experiments, where our method outperformed a simple dictionary-based query translation method, and achieved 76% of monolingual retrieval in terms of average precision.\n    ",
+        "submission_date": "2002-06-24T00:00:00",
+        "last_modified_date": "2002-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206035",
+        "title": "PRIME: A System for Multi-lingual Patent Retrieval",
+        "authors": [
+            "Shigeto Higuchi",
+            "Masatoshi Fukui",
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  Given the growing number of patents filed in multiple countries, users are interested in retrieving patents across languages. We propose a multi-lingual patent retrieval system, which translates a user query into the target language, searches a multilingual database for patents relevant to the query, and improves the browsing efficiency by way of machine translation and clustering. Our system also extracts new translations from patent families consisting of comparable patents, to enhance the translation dictionary.\n    ",
+        "submission_date": "2002-06-24T00:00:00",
+        "last_modified_date": "2002-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206036",
+        "title": "Language Modeling for Multi-Domain Speech-Driven Text Retrieval",
+        "authors": [
+            "Katunobu Itou",
+            "Atsushi Fujii",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  We report experimental results associated with speech-driven text retrieval, which facilitates retrieving information in multiple domains with spoken queries. Since users speak contents related to a target collection, we produce language models used for speech recognition based on the target collection, so as to improve both the recognition and retrieval accuracy. Experiments using existing test collections combined with dictated queries showed the effectiveness of our method.\n    ",
+        "submission_date": "2002-06-24T00:00:00",
+        "last_modified_date": "2002-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0206037",
+        "title": "Speech-Driven Text Retrieval: Using Target IR Collections for Statistical Language Model Adaptation in Speech Recognition",
+        "authors": [
+            "Atsushi Fujii",
+            "Katunobu Itou",
+            "Tetsuya Ishikawa"
+        ],
+        "abstract": "  Speech recognition has of late become a practical technology for real world applications. Aiming at speech-driven text retrieval, which facilitates retrieving information with spoken queries, we propose a method to integrate speech recognition and retrieval methods. Since users speak contents related to a target collection, we adapt statistical language models used for speech recognition based on the target collection, so as to improve both the recognition and retrieval accuracy. Experiments using existing test collections combined with dictated queries showed the effectiveness of our method.\n    ",
+        "submission_date": "2002-06-24T00:00:00",
+        "last_modified_date": "2002-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0207002",
+        "title": "Using eigenvectors of the bigram graph to infer morpheme identity",
+        "authors": [
+            "Mikhail Belkin",
+            "John Goldsmith"
+        ],
+        "abstract": "  This paper describes the results of some experiments exploring statistical methods to infer syntactic behavior of words and morphemes from a raw corpus in an unsupervised fashion. It shares certain points in common with Brown et al (1992) and work that has grown out of that: it employs statistical techniques to analyze syntactic behavior based on what words occur adjacent to a given word. However, we use an eigenvector decomposition of a nearest-neighbor graph to produce a two-dimensional rendering of the words of a corpus in which words of the same syntactic category tend to form neighborhoods. We exploit this technique for extending the value of automatic learning of morphology. In particular, we look at the suffixes derived from a corpus by unsupervised learning of morphology, and we ask which of these suffixes have a consistent syntactic function (e.g., in English, -tion is primarily a mark of nouns, but -s marks both noun plurals and 3rd person present on verbs), and we determine that this method works well for this task.\n    ",
+        "submission_date": "2002-07-02T00:00:00",
+        "last_modified_date": "2002-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0207003",
+        "title": "Analysis of Titles and Readers For Title Generation Centered on the Readers",
+        "authors": [
+            "Yasuko Senda",
+            "Yasusi Sinohara"
+        ],
+        "abstract": "  The title of a document has two roles, to give a compact summary and to lead the reader to read the document. Conventional title generation focuses on finding key expressions from the author's wording in the document to give a compact summary and pays little attention to the reader's interest. To make the title play its second role properly, it is indispensable to clarify the content (``what to say'') and wording (``how to say'') of titles that are effective to attract the target reader's interest. In this article, we first identify typical content and wording of titles aimed at general readers in a comparative study between titles of technical papers and headlines rewritten for newspapers. Next, we describe the results of a questionnaire survey on the effects of the content and wording of titles on the reader's interest. The survey of general and knowledgeable readers shows both common and different tendencies in interest.\n    ",
+        "submission_date": "2002-07-02T00:00:00",
+        "last_modified_date": "2002-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0207005",
+        "title": "Efficient Deep Processing of Japanese",
+        "authors": [
+            "Melanie Siegel",
+            "Emily M. Bender"
+        ],
+        "abstract": "  We present a broad coverage Japanese grammar written in the HPSG formalism with MRS semantics. The grammar is created for use in real world applications, such that robustness and performance issues play an important role. It is connected to a POS tagging and word segmentation tool. This grammar is being developed in a multilingual context, requiring MRS structures that are easily comparable across languages.\n    ",
+        "submission_date": "2002-07-03T00:00:00",
+        "last_modified_date": "2002-07-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0207058",
+        "title": "Question Answering over Unstructured Data without Domain Restrictions",
+        "authors": [
+            "Jochen L. Leidner"
+        ],
+        "abstract": "  Information needs are naturally represented as questions. Automatic Natural-Language Question Answering (NLQA) has only recently become a practical task on a larger scale and without domain constraints.\n",
+        "submission_date": "2002-07-14T00:00:00",
+        "last_modified_date": "2002-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0207070",
+        "title": "A continuation semantics of interrogatives that accounts for Baker's ambiguity",
+        "authors": [
+            "Chung-chieh Shan"
+        ],
+        "abstract": "  Wh-phrases in English can appear both raised and in-situ. However, only in-situ wh-phrases can take semantic scope beyond the immediately enclosing clause. I present a denotational semantics of interrogatives that naturally accounts for these two properties. It neither invokes movement or economy, nor posits lexical ambiguity between raised and in-situ occurrences of the same wh-phrase. My analysis is based on the concept of continuations. It uses a novel type system for higher-order continuations to handle wide-scope wh-phrases while remaining strictly compositional. This treatment sheds light on the combinatorics of interrogatives as well as other kinds of so-called A'-movement.\n    ",
+        "submission_date": "2002-07-18T00:00:00",
+        "last_modified_date": "2003-07-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0208020",
+        "title": "Using the DIFF Command for Natural Language Processing",
+        "authors": [
+            "Masaki Murata",
+            "Hitoshi Isahara"
+        ],
+        "abstract": "  Diff is a software program that detects differences between two data sets and is useful in natural language processing. This paper shows several examples of the application of diff. They include the detection of differences between two different datasets, extraction of rewriting rules, merging of two different datasets, and the optimal matching of two different data sets. Since diff comes with any standard UNIX system, it is readily available and very easy to use. Our studies showed that diff is a practical tool for research into natural language processing.\n    ",
+        "submission_date": "2002-08-13T00:00:00",
+        "last_modified_date": "2002-08-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0208035",
+        "title": "Evaluation of Coreference Rules on Complex Narrative Texts",
+        "authors": [
+            "Andrei Popescu-Belis",
+            "Isabelle Robba"
+        ],
+        "abstract": "  This article studies the problem of assessing relevance to each of the rules of a reference resolution system. The reference solver described here stems from a formal model of reference and is integrated in a reference processing workbench. Evaluation of the reference resolution is essential, as it enables differential evaluation of individual rules. Numerical values of these measures are given, and discussed, for simple selection rules and other processing rules; such measures are then studied for numerical parameters.\n    ",
+        "submission_date": "2002-08-21T00:00:00",
+        "last_modified_date": "2002-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0208036",
+        "title": "Three New Methods for Evaluating Reference Resolution",
+        "authors": [
+            "Andrei Popescu-Belis",
+            "Isabelle Robba"
+        ],
+        "abstract": "  Reference resolution on extended texts (several thousand references) cannot be evaluated manually. An evaluation algorithm has been proposed for the MUC tests, using equivalence classes for the coreference relation. However, we show here that this algorithm is too indulgent, yielding good scores even for poor resolution strategies. We elaborate on the same formalism to propose two new evaluation algorithms, comparing them first with the MUC algorithm and giving then results on a variety of examples. A third algorithm using only distributional comparison of equivalence classes is finally described; it assesses the relative importance of the recall vs. precision errors.\n    ",
+        "submission_date": "2002-08-21T00:00:00",
+        "last_modified_date": "2002-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0208037",
+        "title": "Cooperation between Pronoun and Reference Resolution for Unrestricted Texts",
+        "authors": [
+            "Andrei Popescu-Belis",
+            "Isabelle Robba"
+        ],
+        "abstract": "  Anaphora resolution is envisaged in this paper as part of the reference resolution process. A general open architecture is proposed, which can be particularized and configured in order to simulate some classic anaphora resolution methods. With the aim of improving pronoun resolution, the system takes advantage of elementary cues about characters of the text, which are represented through a particular data structure. In its most robust configuration, the system uses only a general lexicon, a local morpho-syntactic parser and a dictionary of synonyms. A short comparative corpus analysis shows that narrative texts are the most suitable for testing such a system.\n    ",
+        "submission_date": "2002-08-21T00:00:00",
+        "last_modified_date": "2002-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0208038",
+        "title": "Reference Resolution Beyond Coreference: a Conceptual Frame and its Application",
+        "authors": [
+            "Andrei Popescu-Belis",
+            "Isabelle Robba",
+            "Gerard Sabah"
+        ],
+        "abstract": "  A model for reference use in communication is proposed, from a representationist point of view. Both the sender and the receiver of a message handle representations of their common environment, including mental representations of objects. Reference resolution by a computer is viewed as the construction of object representations using referring expressions from the discourse, whereas often only coreference links between such expressions are looked for. Differences between these two approaches are discussed. The model has been implemented with elementary rules, and tested on complex narrative texts (hundreds to thousands of referring expressions). The results support the mental representations paradigm.\n    ",
+        "submission_date": "2002-08-21T00:00:00",
+        "last_modified_date": "2002-08-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0209002",
+        "title": "A Chart-Parsing Algorithm for Efficient Semantic Analysis",
+        "authors": [
+            "Pascal Vaillant"
+        ],
+        "abstract": "  In some contexts, well-formed natural language cannot be expected as input to information or communication systems. In these contexts, the use of grammar-independent input (sequences of uninflected semantic units like e.g. language-independent icons) can be an answer to the users' needs. A semantic analysis can be performed, based on lexical semantic knowledge: it is equivalent to a dependency analysis with no syntactic or morphological clues. However, this requires that an intelligent system should be able to interpret this input with reasonable accuracy and in reasonable time. Here we propose a method allowing a purely semantic-based analysis of sequences of semantic units. It uses an algorithm inspired by the idea of ``chart parsing'' known in Natural Language Processing, which stores intermediate parsing results in order to bring the calculation time down. In comparison with using declarative logic programming - where the calculation time, left to a prolog engine, is hyperexponential -, this method brings the calculation time down to a polynomial time, where the order depends on the valency of the predicates.\n    ",
+        "submission_date": "2002-09-02T00:00:00",
+        "last_modified_date": "2002-09-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0209003",
+        "title": "Rerendering Semantic Ontologies: Automatic Extensions to UMLS through Corpus Analytics",
+        "authors": [
+            "J. Pustejovsky",
+            "A. Rumshisky",
+            "J. Castano"
+        ],
+        "abstract": "  In this paper, we discuss the utility and deficiencies of existing ontology resources for a number of language processing applications. We describe a technique for increasing the semantic type coverage of a specific ontology, the National Library of Medicine's UMLS, with the use of robust finite state methods used in conjunction with large-scale corpus analytics of the domain corpus. We call this technique \"semantic rerendering\" of the ontology. This research has been done in the context of Medstract, a joint Brandeis-Tufts effort aimed at developing tools for analyzing biomedical language (i.e., Medline), as well as creating targeted databases of bio-entities, biological relations, and pathway data for biological researchers. Motivating the current research is the need to have robust and reliable semantic typing of syntactic elements in the Medline corpus, in order to improve the overall performance of the information extraction applications mentioned above.\n    ",
+        "submission_date": "2002-09-03T00:00:00",
+        "last_modified_date": "2002-09-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0209008",
+        "title": "The partition semantics of questions, syntactically",
+        "authors": [
+            "Chung-chieh Shan",
+            "Balder D. ten Cate"
+        ],
+        "abstract": "  Groenendijk and Stokhof (1984, 1996; Groenendijk 1999) provide a logically attractive theory of the semantics of natural language questions, commonly referred to as the partition theory. Two central notions in this theory are entailment between questions and answerhood. For example, the question \"Who is going to the party?\" entails the question \"Is John going to the party?\", and \"John is going to the party\" counts as an answer to both. Groenendijk and Stokhof define these two notions in terms of partitions of a set of possible worlds.\n",
+        "submission_date": "2002-09-04T00:00:00",
+        "last_modified_date": "2002-09-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0209009",
+        "title": "Question answering: from partitions to Prolog",
+        "authors": [
+            "Balder D. ten Cate",
+            "Chung-chieh Shan"
+        ],
+        "abstract": "  We implement Groenendijk and Stokhof's partition semantics of questions in a simple question answering algorithm. The algorithm is sound, complete, and based on tableau theorem proving. The algorithm relies on a syntactic characterization of answerhood: Any answer to a question is equivalent to some formula built up only from instances of the question. We prove this characterization by translating the logic of interrogation to classical predicate logic and applying Craig's interpolation theorem.\n    ",
+        "submission_date": "2002-09-04T00:00:00",
+        "last_modified_date": "2002-09-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0209010",
+        "title": "Introduction to the CoNLL-2002 Shared Task: Language-Independent Named Entity Recognition",
+        "authors": [
+            "Erik F. Tjong Kim Sang"
+        ],
+        "abstract": "  We describe the CoNLL-2002 shared task: language-independent named entity recognition. We give background information on the data sets and the evaluation method, present a general overview of the systems that have taken part in the task and discuss their performance.\n    ",
+        "submission_date": "2002-09-05T00:00:00",
+        "last_modified_date": "2002-09-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0211017",
+        "title": "Probabilistic Parsing Strategies",
+        "authors": [
+            "Mark-Jan Nederhof",
+            "Giorgio Satta"
+        ],
+        "abstract": "  We present new results on the relation between purely symbolic context-free parsing strategies and their probabilistic counter-parts. Such parsing strategies are seen as constructions of push-down devices from grammars. We show that preservation of probability distribution is possible under two conditions, viz. the correct-prefix property and the property of strong predictiveness. These results generalize existing results in the literature that were obtained by considering parsing strategies in isolation. From our general results we also derive negative results on so-called generalized LR parsing.\n    ",
+        "submission_date": "2002-11-14T00:00:00",
+        "last_modified_date": "2002-11-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212015",
+        "title": "Answering Subcognitive Turing Test Questions: A Reply to French",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  Robert French has argued that a disembodied computer is incapable of passing a Turing Test that includes subcognitive questions. Subcognitive questions are designed to probe the network of cultural and perceptual associations that humans naturally develop as we live, embodied and embedded in the world. In this paper, I show how it is possible for a disembodied computer to answer subcognitive questions appropriately, contrary to French's claim. My approach to answering subcognitive questions is to use statistical information extracted from a very large collection of text. In particular, I show how it is possible to answer a sample of subcognitive questions taken from French, by issuing queries to a search engine that indexes about 350 million Web pages. This simple algorithm may shed light on the nature of human (sub-) cognition, but the scope of this paper is limited to demonstrating that French is mistaken: a disembodied computer can answer subcognitive questions.\n    ",
+        "submission_date": "2002-12-09T00:00:00",
+        "last_modified_date": "2002-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212024",
+        "title": "Unsupervised Language Acquisition: Theory and Practice",
+        "authors": [
+            "Alexander Clark"
+        ],
+        "abstract": "  In this thesis I present various algorithms for the unsupervised machine learning of aspects of natural languages using a variety of statistical models. The scientific object of the work is to examine the validity of the so-called Argument from the Poverty of the Stimulus advanced in favour of the proposition that humans have language-specific innate knowledge. I start by examining an a priori argument based on Gold's theorem, that purports to prove that natural languages cannot be learned, and some formal issues related to the choice of statistical grammars rather than symbolic grammars. I present three novel algorithms for learning various parts of natural languages: first, an algorithm for the induction of syntactic categories from unlabelled text using distributional information, that can deal with ambiguous and rare words; secondly, a set of algorithms for learning morphological processes in a variety of languages, including languages such as Arabic with non-concatenative morphology; thirdly an algorithm for the unsupervised induction of a context-free grammar from tagged text. I carefully examine the interaction between the various components, and show how these algorithms can form the basis for a empiricist model of language acquisition. I therefore conclude that the Argument from the Poverty of the Stimulus is unsupported by the evidence.\n    ",
+        "submission_date": "2002-12-10T00:00:00",
+        "last_modified_date": "2002-12-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/0201139",
+        "title": "Long-range fractal correlations in literary corpora",
+        "authors": [
+            "Marcelo A. Montemurro",
+            "Pedro A. Pury"
+        ],
+        "abstract": "  In this paper we analyse the fractal structure of long human-language records by mapping large samples of texts onto time series. The particular mapping set up in this work is inspired on linguistic basis in the sense that is retains {\\em the word} as the fundamental unit of communication. The results confirm that beyond the short-range correlations resulting from syntactic rules acting at sentence level, long-range structures emerge in large written language samples that give rise to long-range correlations in the use of words.\n    ",
+        "submission_date": "2002-01-09T00:00:00",
+        "last_modified_date": "2002-01-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/0202383",
+        "title": "Extended Comment on Language Trees and Zipping",
+        "authors": [
+            "Joshua Goodman"
+        ],
+        "abstract": "  This is the extended version of a Comment submitted to Physical Review Letters. I first point out the inappropriateness of publishing a Letter unrelated to physics. Next, I give experimental results showing that the technique used in the Letter is 3 times worse and 17 times slower than a simple baseline. And finally, I review the literature, showing that the ideas of the Letter are not novel. I conclude by suggesting that Physical Review Letters should not publish Letters unrelated to physics.\n    ",
+        "submission_date": "2002-02-21T00:00:00",
+        "last_modified_date": "2002-02-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/0203436",
+        "title": "Entropy estimation of symbol sequences",
+        "authors": [
+            "Thomas Sch\u00fcrmann",
+            "Peter Grassberger"
+        ],
+        "abstract": "  We discuss algorithms for estimating the Shannon entropy h of finite symbol sequences with long range correlations. In particular, we consider algorithms which estimate h from the code lengths produced by some compression algorithm. Our interest is in describing their convergence with sequence length, assuming no limits for the space and time complexities of the compression algorithms. A scaling law is proposed for extrapolation from finite sample lengths. This is applied to sequences of dynamical systems in non-trivial chaotic regimes, a 1-D cellular automaton, and to written English texts.\n    ",
+        "submission_date": "2002-03-21T00:00:00",
+        "last_modified_date": "2002-03-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0201002",
+        "title": "Incremental Construction of Compact Acyclic NFAs",
+        "authors": [
+            "Kyriakos N. Sgarbas",
+            "Nikos D. Fakotakis",
+            "George K. Kokkinakis"
+        ],
+        "abstract": "  This paper presents and analyzes an incremental algorithm for the construction of Acyclic Non-deterministic Finite-state Automata (NFA). Automata of this type are quite useful in computational linguistics, especially for storing lexicons. The proposed algorithm produces compact NFAs, i.e. NFAs that do not contain equivalent states. Unlike Deterministic Finite-state Automata (DFA), this property is not sufficient to ensure minimality, but still the resulting NFAs are considerably smaller than the minimal DFAs for the same languages.\n    ",
+        "submission_date": "2002-01-04T00:00:00",
+        "last_modified_date": "2002-01-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0205025",
+        "title": "Bootstrapping Structure into Language: Alignment-Based Learning",
+        "authors": [
+            "Menno M. van Zaanen"
+        ],
+        "abstract": "  This thesis introduces a new unsupervised learning framework, called Alignment-Based Learning, which is based on the alignment of sentences and Harris's (1951) notion of substitutability. Instances of the framework can be applied to an untagged, unstructured corpus of natural language sentences, resulting in a labelled, bracketed version of that corpus.\n",
+        "submission_date": "2002-05-16T00:00:00",
+        "last_modified_date": "2002-05-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0210025",
+        "title": "An Algorithm for Pattern Discovery in Time Series",
+        "authors": [
+            "Cosma Rohilla Shalizi",
+            "Kristina Lisa Shalizi",
+            "James P. Crutchfield"
+        ],
+        "abstract": "  We present a new algorithm for discovering patterns in time series and other sequential data. We exhibit a reliable procedure for building the minimal set of hidden, Markovian states that is statistically capable of producing the behavior exhibited in the data -- the underlying process's causal states. Unlike conventional methods for fitting hidden Markov models (HMMs) to data, our algorithm makes no assumptions about the process's causal architecture (the number of hidden states and their transition structure), but rather infers it from the data. It starts with assumptions of minimal structure and introduces complexity only when the data demand it. Moreover, the causal states it infers have important predictive optimality properties that conventional HMM states lack. We introduce the algorithm, review the theory behind it, prove its asymptotic reliability, use large deviation theory to estimate its rate of convergence, and compare it to other algorithms which also construct HMMs from data. We also illustrate its behavior on an example process, and report selected numerical results from an implementation.\n    ",
+        "submission_date": "2002-10-29T00:00:00",
+        "last_modified_date": "2002-11-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212018",
+        "title": "Real numbers having ultimately periodic representations in abstract numeration systems",
+        "authors": [
+            "P. Lecomte",
+            "M. Rigo"
+        ],
+        "abstract": "  Using a genealogically ordered infinite regular language, we know how to represent an interval of R. Numbers having an ultimately periodic representation play a special role in classical numeration systems. The aim of this paper is to characterize the numbers having an ultimately periodic representation in generalized systems built on a regular language. The syntactical properties of these words are also investigated. Finally, we show the equivalence of the classical \"theta\"-expansions with our generalized representations in some special case related to a Pisot number \"theta\".\n    ",
+        "submission_date": "2002-12-10T00:00:00",
+        "last_modified_date": "2002-12-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212020",
+        "title": "Learning Algorithms for Keyphrase Extraction",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  Many academic journals ask their authors to provide a list of about five to fifteen keywords, to appear on the first page of each article. Since these key words are often phrases of two or more words, we prefer to call them keyphrases. There is a wide variety of tasks for which keyphrases are useful, as we discuss in this paper. We approach the problem of automatically extracting keyphrases from text as a supervised learning task. We treat a document as a set of phrases, which the learning algorithm must learn to classify as positive or negative examples of keyphrases. Our first set of experiments applies the C4.5 decision tree induction algorithm to this learning task. We evaluate the performance of nine different configurations of C4.5. The second set of experiments applies the GenEx algorithm to the task. We developed the GenEx algorithm specifically for automatically extracting keyphrases from text. The experimental results support the claim that a custom-designed algorithm (GenEx), incorporating specialized procedural domain knowledge, can generate better keyphrases than a generalpurpose algorithm (C4.5). Subjective human evaluation of the keyphrases generated by Extractor suggests that about 80% of the keyphrases are acceptable to human readers. This level of performance should be satisfactory for a wide variety of applications.\n    ",
+        "submission_date": "2002-12-10T00:00:00",
+        "last_modified_date": "2002-12-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212032",
+        "title": "Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  This paper presents a simple unsupervised learning algorithm for classifying reviews as recommended (thumbs up) or not recommended (thumbs down). The classification of a review is predicted by the average semantic orientation of the phrases in the review that contain adjectives or adverbs. A phrase has a positive semantic orientation when it has good associations (e.g., \"subtle nuances\") and a negative semantic orientation when it has bad associations (e.g., \"very cavalier\"). In this paper, the semantic orientation of a phrase is calculated as the mutual information between the given phrase and the word \"excellent\" minus the mutual information between the given phrase and the word \"poor\". A review is classified as recommended if the average semantic orientation of its phrases is positive. The algorithm achieves an average accuracy of 74% when evaluated on 410 reviews from Epinions, sampled from four different domains (reviews of automobiles, banks, movies, and travel destinations). The accuracy ranges from 84% for automobile reviews to 66% for movie reviews.\n    ",
+        "submission_date": "2002-12-11T00:00:00",
+        "last_modified_date": "2002-12-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0212033",
+        "title": "Mining the Web for Synonyms: PMI-IR versus LSA on TOEFL",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  This paper presents a simple unsupervised learning algorithm for recognizing synonyms, based on statistical data acquired by querying a Web search engine. The algorithm, called PMI-IR, uses Pointwise Mutual Information (PMI) and Information Retrieval (IR) to measure the similarity of pairs of words. PMI-IR is empirically evaluated using 80 synonym test questions from the Test of English as a Foreign Language (TOEFL) and 50 synonym test questions from a collection of tests for students of English as a Second Language (ESL). On both tests, the algorithm obtains a score of 74%. PMI-IR is contrasted with Latent Semantic Analysis (LSA), which achieves a score of 64% on the same 80 TOEFL questions. The paper discusses potential applications of the new unsupervised learning algorithm and some implications of the results for LSA and LSI (Latent Semantic Indexing).\n    ",
+        "submission_date": "2002-12-11T00:00:00",
+        "last_modified_date": "2002-12-11T00:00:00"
+    }
+]

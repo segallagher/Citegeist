@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9308101",
+        "title": "Dynamic Backtracking",
+        "authors": [
+            "M. L. Ginsberg"
+        ],
+        "abstract": "  Because of their occasional need to return to shallow points in a search tree, existing backtracking methods can sometimes erase meaningful progress toward solving a search problem. In this paper, we present a method by which backtrack points can be moved deeper in the search space, thereby avoiding this difficulty. The technique developed is a variant of dependency-directed backtracking that uses only polynomial space while still providing useful control information and retaining the completeness guarantees provided by earlier approaches.\n    ",
+        "submission_date": "1993-08-01T00:00:00",
+        "last_modified_date": "1993-08-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9308102",
+        "title": "A Market-Oriented Programming Environment and its Application to Distributed Multicommodity Flow Problems",
+        "authors": [
+            "M. P. Wellman"
+        ],
+        "abstract": "  Market price systems constitute a well-understood class of mechanisms that under certain conditions provide effective decentralization of decision making with minimal communication overhead. In a market-oriented programming approach to distributed problem solving, we derive the activities and resource allocations for a set of computational agents by computing the competitive equilibrium of an artificial economy. WALRAS provides basic constructs for defining computational market structures, and protocols for deriving their corresponding price equilibria. In a particular realization of this approach for a form of multicommodity flow problem, we see that careful construction of the decision process according to economic principles can lead to efficient distributed resource allocation, and that the behavior of the system can be meaningfully analyzed in economic terms.\n    ",
+        "submission_date": "1993-08-01T00:00:00",
+        "last_modified_date": "1993-08-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9309101",
+        "title": "An Empirical Analysis of Search in GSAT",
+        "authors": [
+            "I. P. Gent",
+            "T. Walsh"
+        ],
+        "abstract": "  We describe an extensive study of search in GSAT, an approximation procedure for propositional satisfiability. GSAT performs greedy hill-climbing on the number of satisfied clauses in a truth assignment. Our experiments provide a more complete picture of GSAT's search than previous accounts. We describe in detail the two phases of search: rapid hill-climbing followed by a long plateau search. We demonstrate that when applied to randomly generated 3SAT problems, there is a very simple scaling with problem size for both the mean number of satisfied clauses and the mean branching rate. Our results allow us to make detailed numerical conjectures about the length of the hill-climbing phase, the average gradient of this phase, and to conjecture that both the average score and average branching rate decay exponentially during plateau search. We end by showing how these results can be used to direct future theoretical analysis. This work provides a case study of how computer experiments can be used to improve understanding of the theoretical properties of algorithms.\n    ",
+        "submission_date": "1993-09-01T00:00:00",
+        "last_modified_date": "1993-09-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9311101",
+        "title": "The Difficulties of Learning Logic Programs with Cut",
+        "authors": [
+            "F. Bergadano",
+            "D. Gunetti",
+            "U. Trinchero"
+        ],
+        "abstract": "  As real logic programmers normally use cut (!), an effective learning procedure for logic programs should be able to deal with it. Because the cut predicate has only a procedural meaning, clauses containing cut cannot be learned using an extensional evaluation method, as is done in most learning systems. On the other hand, searching a space of possible programs (instead of a space of independent clauses) is unfeasible. An alternative solution is to generate first a candidate base program which covers the positive examples, and then make it consistent by inserting cut where appropriate. The problem of learning programs with cut has not been investigated before and this seems to be a natural and reasonable approach. We generalize this scheme and investigate the difficulties that arise. Some of the major shortcomings are actually caused, in general, by the need for intensional evaluation. As a conclusion, the analysis of this paper suggests, on precise and technical grounds, that learning cut is difficult, and current induction techniques should probably be restricted to purely declarative logic languages.\n    ",
+        "submission_date": "1993-11-01T00:00:00",
+        "last_modified_date": "1993-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9311102",
+        "title": "Software Agents: Completing Patterns and Constructing User Interfaces",
+        "authors": [
+            "J. C. Schlimmer",
+            "L. A. Hermens"
+        ],
+        "abstract": "  To support the goal of allowing users to record and retrieve information, this paper describes an interactive note-taking system for pen-based computers with two distinctive features. First, it actively predicts what the user is going to write. Second, it automatically constructs a custom, button-box user interface on request. The system is an example of a learning-apprentice software- agent. A machine learning component characterizes the syntax and semantics of the user's information. A performance system uses this learned information to generate completion strings and construct a user interface. Description of Online Appendix: People like to record information. Doing this on paper is initially efficient, but lacks flexibility. Recording information on a computer is less efficient but more powerful. In our new note taking softwre, the user records information directly on a computer. Behind the interface, an agent acts for the user. To help, it provides defaults and constructs a custom user interface. The demonstration is a QuickTime movie of the note taking agent in action. The file is a binhexed self-extracting archive. Macintosh utilities for binhex are available from ",
+        "submission_date": "1993-11-01T00:00:00",
+        "last_modified_date": "1993-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9312101",
+        "title": "Decidable Reasoning in Terminological Knowledge Representation Systems",
+        "authors": [
+            "M. Buchheit",
+            "F. M. Donini",
+            "A. Schaerf"
+        ],
+        "abstract": "  Terminological knowledge representation systems (TKRSs) are tools for designing and using knowledge bases that make use of terminological languages (or concept languages). We analyze from a theoretical point of view a TKRS whose capabilities go beyond the ones of presently available TKRSs. The new features studied, often required in practical applications, can be summarized in three main points. First, we consider a highly expressive terminological language, called ALCNR, including general complements of concepts, number restrictions and role conjunction. Second, we allow to express inclusion statements between general concepts, and terminological cycles as a particular case. Third, we prove the decidability of a number of desirable TKRS-deduction services (like satisfiability, subsumption and instance checking) through a sound, complete and terminating calculus for reasoning in ALCNR-knowledge bases. Our calculus extends the general technique of constraint systems. As a byproduct of the proof, we get also the result that inclusion statements in ALCNR can be simulated by terminological cycles, if descriptive semantics is adopted.\n    ",
+        "submission_date": "1993-12-01T00:00:00",
+        "last_modified_date": "1993-12-01T00:00:00"
+    }
+]

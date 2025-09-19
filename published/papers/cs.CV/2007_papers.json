@@ -1,0 +1,688 @@
+[
+    {
+        "url": "https://arxiv.org/abs/0704.1267",
+        "title": "Text Line Segmentation of Historical Documents: a Survey",
+        "authors": [
+            "Laurence Likforman-Sulem",
+            "Abderrazak Zahour",
+            "Bruno Taconet"
+        ],
+        "abstract": "  There is a huge amount of historical documents in libraries and in various National Archives that have not been exploited electronically. Although automatic reading of complete pages remains, in most cases, a long-term objective, tasks such as word spotting, text/image alignment, authentication and extraction of specific fields are in use today. For all these tasks, a major step is document segmentation into text lines. Because of the low quality and the complexity of these documents (background noise, artifacts due to aging, interfering lines),automatic text line segmentation remains an open research field. The objective of this paper is to present a survey of existing methods, developed during the last decade, and dedicated to documents of historical interest.\n    ",
+        "submission_date": "2007-04-10T00:00:00",
+        "last_modified_date": "2007-04-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0704.3635",
+        "title": "Rough Sets Computations to Impute Missing Data",
+        "authors": [
+            "Fulufhelo Vincent Nelwamondo",
+            "Tshilidzi Marwala"
+        ],
+        "abstract": "  Many techniques for handling missing data have been proposed in the literature. Most of these techniques are overly complex. This paper explores an imputation technique based on rough set computations. In this paper, characteristic relations are introduced to describe incompletely specified decision ",
+        "submission_date": "2007-04-26T00:00:00",
+        "last_modified_date": "2007-04-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0214",
+        "title": "Riemannian level-set methods for tensor-valued data",
+        "authors": [
+            "Mourad Zerai",
+            "Maher Moakher"
+        ],
+        "abstract": "  We present a novel approach for the derivation of PDE modeling curvature-driven flows for matrix-valued data. This approach is based on the Riemannian geometry of the manifold of Symmetric Positive Definite Matrices Pos(n).\n    ",
+        "submission_date": "2007-05-02T00:00:00",
+        "last_modified_date": "2007-05-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0449",
+        "title": "Multiresolution Approximation of Polygonal Curves in Linear Complexity",
+        "authors": [
+            "Pierre-Fran\u00e7ois Marteau",
+            "Gilbas M\u00e9nier"
+        ],
+        "abstract": "  We propose a new algorithm to the problem of polygonal curve approximation based on a multiresolution approach. This algorithm is suboptimal but still maintains some optimality between successive levels of resolution using dynamic programming. We show theoretically and experimentally that this algorithm has a linear complexity in time and space. We experimentally compare the outcomes of our algorithm to the optimal \"full search\" dynamic programming solution and finally to classical merge and split approaches. The experimental evaluations confirm the theoretical derivations and show that the proposed approach evaluated on 2D coastal maps either show a lower time complexity or provide polygonal approximations closer to the input discrete curves.\n    ",
+        "submission_date": "2007-05-03T00:00:00",
+        "last_modified_date": "2007-05-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0781",
+        "title": "Medical Image Segmentation and Localization using Deformable Templates",
+        "authors": [
+            "Jonathan M.Spiller",
+            "T. Marwala"
+        ],
+        "abstract": "  This paper presents deformable templates as a tool for segmentation and localization of biological structures in medical images. Structures are represented by a prototype template, combined with a parametric warp mapping used to deform the original shape. The localization procedure is achieved using a multi-stage, multi-resolution algorithm de-signed to reduce computational complexity and time. The algorithm initially identifies regions in the image most likely to contain the desired objects and then examines these regions at progressively increasing resolutions. The final stage of the algorithm involves warping the prototype template to match the localized objects. The algorithm is presented along with the results of four example applications using MRI, x-ray and ultrasound images.\n    ",
+        "submission_date": "2007-05-06T00:00:00",
+        "last_modified_date": "2007-05-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0828",
+        "title": "Enhancement of Noisy Planar Nuclear Medicine Images using Mean Field Annealing",
+        "authors": [
+            "D.L. Falk",
+            "D. M. Rubin",
+            "T. Marwala"
+        ],
+        "abstract": "  Nuclear medicine (NM) images inherently suffer from large amounts of noise and blur. The purpose of this research is to reduce the noise and blur while maintaining image integrity for improved diagnosis. The proposed solution is to increase image quality after the standard pre- and post-processing undertaken by a gamma camera system. Mean Field Annealing (MFA) is the image processing technique used in this research. It is a computational iterative technique that makes use of the Point Spread Function (PSF) and the noise associated with the NM image. MFA is applied to NM images with the objective of reducing noise while not compromising edge integrity. Using a sharpening filter as a post-processing technique (after MFA) yields image enhancement of planar NM images.\n    ",
+        "submission_date": "2007-05-06T00:00:00",
+        "last_modified_date": "2007-05-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0952",
+        "title": "An Independent Evaluation of Subspace Face Recognition Algorithms",
+        "authors": [
+            "Dhiresh R. Surajpal",
+            "Tshilidzi Marwala"
+        ],
+        "abstract": "  This paper explores a comparative study of both the linear and kernel implementations of three of the most popular Appearance-based Face Recognition projection classes, these being the methodologies of Principal Component Analysis, Linear Discriminant Analysis and Independent Component Analysis. The experimental procedure provides a platform of equal working conditions and examines the ten algorithms in the categories of expression, illumination, occlusion and temporal delay. The results are then evaluated based on a sequential combination of assessment tools that facilitate both intuitive and statistical decisiveness among the intra and interclass comparisons. The best categorical algorithms are then incorporated into a hybrid methodology, where the advantageous effects of fusion strategies are considered.\n    ",
+        "submission_date": "2007-05-07T00:00:00",
+        "last_modified_date": "2007-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.3593",
+        "title": "MI image registration using prior knowledge",
+        "authors": [
+            "W. Jacquet",
+            "P. de Groen"
+        ],
+        "abstract": "  Subtraction of aligned images is a means to assess changes in a wide variety of clinical applications. In this paper we explore the information theoretical origin of Mutual Information (MI), which is based on Shannon's ",
+        "submission_date": "2007-05-24T00:00:00",
+        "last_modified_date": "2007-06-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0706.0300",
+        "title": "Automatic Detection of Pulmonary Embolism using Computational Intelligence",
+        "authors": [
+            "Simon Scurrell",
+            "Tshilidzi Marwala",
+            "David Rubin"
+        ],
+        "abstract": "  This article describes the implementation of a system designed to automatically detect the presence of pulmonary embolism in lung scans. These images are firstly segmented, before alignment and feature extraction using PCA. The neural network was trained using the Hybrid Monte Carlo method, resulting in a committee of 250 neural networks and good results are obtained.\n    ",
+        "submission_date": "2007-06-03T00:00:00",
+        "last_modified_date": "2007-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0706.1926",
+        "title": "Towards understanding and modelling office daily life",
+        "authors": [
+            "Michele Bezzi",
+            "Robin Groenevelt"
+        ],
+        "abstract": "  Measuring and modeling human behavior is a very complex task. In this paper we present our initial thoughts on modeling and automatic recognition of some human activities in an office. We argue that to successfully model human activities, we need to consider both individual behavior and group dynamics. To demonstrate these theoretical approaches, we introduce an experimental system for analyzing everyday activity in our office.\n    ",
+        "submission_date": "2007-06-13T00:00:00",
+        "last_modified_date": "2007-06-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0707.0808",
+        "title": "The Cyborg Astrobiologist: Porting from a wearable computer to the Astrobiology Phone-cam",
+        "authors": [
+            "Alexandra Bartolo",
+            "Patrick C. McGuire",
+            "Kenneth P. Camilleri",
+            "Christopher Spiteri",
+            "Jonathan C. Borg",
+            "Philip J. Farrugia",
+            "Jens Ormo",
+            "Javier Gomez-Elvira",
+            "Jose Antonio Rodriguez-Manfredi",
+            "Enrique Diaz-Martinez",
+            "Helge Ritter",
+            "Robert Haschke",
+            "Markus Oesker",
+            "Joerg Ontrup"
+        ],
+        "abstract": "  We have used a simple camera phone to significantly improve an `exploration system' for astrobiology and geology. This camera phone will make it much easier to develop and test computer-vision algorithms for future planetary exploration. We envision that the `Astrobiology Phone-cam' exploration system can be fruitfully used in other problem domains as well.\n    ",
+        "submission_date": "2007-07-05T00:00:00",
+        "last_modified_date": "2007-07-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0708.2432",
+        "title": "A structure from motion inequality",
+        "authors": [
+            "Oliver Knill",
+            "Jose Ramirez-Herran"
+        ],
+        "abstract": "  We state an elementary inequality for the structure from motion problem for m cameras and n points. This structure from motion inequality relates space dimension, camera parameter dimension, the number of cameras and number points and global symmetry properties and provides a rigorous criterion for which reconstruction is not possible with probability 1. Mathematically the inequality is based on Frobenius theorem which is a geometric incarnation of the fundamental theorem of linear algebra. The paper also provides a general mathematical formalism for the structure from motion problem. It includes the situation the points can move while the camera takes the pictures.\n    ",
+        "submission_date": "2007-08-18T00:00:00",
+        "last_modified_date": "2007-08-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0708.2438",
+        "title": "On Ullman's theorem in computer vision",
+        "authors": [
+            "Oliver Knill",
+            "Jose Ramirez-Herran"
+        ],
+        "abstract": "  Both in the plane and in space, we invert the nonlinear Ullman transformation for 3 points and 3 orthographic cameras. While Ullman's theorem assures a unique reconstruction modulo a reflection for 3 cameras and 4 points, we find a locally unique reconstruction for 3 cameras and 3 points. Explicit reconstruction formulas allow to decide whether picture data of three cameras seeing three points can be realized as a point-camera configuration.\n    ",
+        "submission_date": "2007-08-17T00:00:00",
+        "last_modified_date": "2007-08-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0708.2442",
+        "title": "Space and camera path reconstruction for omni-directional vision",
+        "authors": [
+            "Oliver Knill",
+            "Jose Ramirez-Herran"
+        ],
+        "abstract": "  In this paper, we address the inverse problem of reconstructing a scene as well as the camera motion from the image sequence taken by an omni-directional camera. Our structure from motion results give sharp conditions under which the reconstruction is unique. For example, if there are three points in general position and three omni-directional cameras in general position, a unique reconstruction is possible up to a similarity. We then look at the reconstruction problem with m cameras and n points, where n and m can be large and the over-determined system is solved by least square methods. The reconstruction is robust and generalizes to the case of a dynamic environment where landmarks can move during the movie capture. Possible applications of the result are computer assisted scene reconstruction, 3D scanning, autonomous robot navigation, medical tomography and city reconstructions.\n    ",
+        "submission_date": "2007-08-17T00:00:00",
+        "last_modified_date": "2007-08-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0708.2974",
+        "title": "The Fuzzy Vault for fingerprints is Vulnerable to Brute Force Attack",
+        "authors": [
+            "Preda Mihailescu"
+        ],
+        "abstract": "  The \\textit{fuzzy vault} approach is one of the best studied and well accepted ideas for binding cryptographic security into biometric authentication. The vault has been implemented in connection with fingerprint data by Uludag and Jain. We show that this instance of the vault is vulnerable to brute force attack. An interceptor of the vault data can recover both secret and template data using only generally affordable computational resources. Some possible alternatives are then discussed and it is suggested that cryptographic security may be preferable to the one - way function approach to biometric security.\n    ",
+        "submission_date": "2007-08-22T00:00:00",
+        "last_modified_date": "2007-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0709.1771",
+        "title": "Variational local structure estimation for image super-resolution",
+        "authors": [
+            "Heng Lian"
+        ],
+        "abstract": "  Super-resolution is an important but difficult problem in image/video processing. If a video sequence or some training set other than the given low-resolution image is available, this kind of extra information can greatly aid in the reconstruction of the high-resolution image. The problem is substantially more difficult with only a single low-resolution image on hand. The image reconstruction methods designed primarily for denoising is insufficient for super-resolution problem in the sense that it tends to oversmooth images with essentially no noise. We propose a new adaptive linear interpolation method based on variational method and inspired by local linear embedding (LLE). The experimental result shows that our method avoids the problem of oversmoothing and preserves image structures well.\n    ",
+        "submission_date": "2007-09-12T00:00:00",
+        "last_modified_date": "2007-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0709.1920",
+        "title": "Bandwidth selection for kernel estimation in mixed multi-dimensional spaces",
+        "authors": [
+            "Aurelie Bugeau",
+            "Patrick P\u00e9rez"
+        ],
+        "abstract": "  Kernel estimation techniques, such as mean shift, suffer from one major drawback: the kernel bandwidth selection. The bandwidth can be fixed for all the data set or can vary at each points. Automatic bandwidth selection becomes a real challenge in case of multidimensional heterogeneous features. This paper presents a solution to this problem. It is an extension of \\cite{Comaniciu03a} which was based on the fundamental property of normal distributions regarding the bias of the normalized density gradient. The selection is done iteratively for each type of features, by looking for the stability of local bandwidth estimates across a predefined range of bandwidths. A pseudo balloon mean shift filtering and partitioning are introduced. The validity of the method is demonstrated in the context of color image segmentation based on a 5-dimensional space.\n    ",
+        "submission_date": "2007-09-12T00:00:00",
+        "last_modified_date": "2007-09-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0709.3013",
+        "title": "Supervised learning on graphs of spatio-temporal similarity in satellite image sequences",
+        "authors": [
+            "Patrick H\u00e9as",
+            "Mihai Datcu"
+        ],
+        "abstract": "  High resolution satellite image sequences are multidimensional signals composed of spatio-temporal patterns associated to numerous and various phenomena. Bayesian methods have been previously proposed in (Heas and Datcu, 2005) to code the information contained in satellite image sequences in a graph representation using Bayesian methods. Based on such a representation, this paper further presents a supervised learning methodology of semantics associated to spatio-temporal patterns occurring in satellite image sequences. It enables the recognition and the probabilistic retrieval of similar events. Indeed, graphs are attached to statistical models for spatio-temporal processes, which at their turn describe physical changes in the observed scene. Therefore, we adjust a parametric model evaluating similarity types between graph patterns in order to represent user-specific semantics attached to spatio-temporal phenomena. The learning step is performed by the incremental definition of similarity types via user-provided spatio-temporal pattern examples attached to positive or/and negative semantics. From these examples, probabilities are inferred using a Bayesian network and a Dirichlet model. This enables to links user interest to a specific similarity model between graph patterns. According to the current state of learning, semantic posterior probabilities are updated for all possible graph patterns so that similar spatio-temporal phenomena can be recognized and retrieved from the image sequence. Few experiments performed on a multi-spectral SPOT image sequence illustrate the proposed spatio-temporal recognition method.\n    ",
+        "submission_date": "2007-09-19T00:00:00",
+        "last_modified_date": "2007-09-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.0043",
+        "title": "Graph rigidity, Cyclic Belief Propagation and Point Pattern Matching",
+        "authors": [
+            "Julian J. McAuley",
+            "Tiberio S. Caetano",
+            "Marconi S. Barbosa"
+        ],
+        "abstract": "  A recent paper \\cite{CaeCaeSchBar06} proposed a provably optimal, polynomial time method for performing near-isometric point pattern matching by means of exact probabilistic inference in a chordal graphical model. Their fundamental result is that the chordal graph in question is shown to be globally rigid, implying that exact inference provides the same matching solution as exact inference in a complete graphical model. This implies that the algorithm is optimal when there is no noise in the point patterns. In this paper, we present a new graph which is also globally rigid but has an advantage over the graph proposed in \\cite{CaeCaeSchBar06}: its maximal clique size is smaller, rendering inference significantly more efficient. However, our graph is not chordal and thus standard Junction Tree algorithms cannot be directly applied. Nevertheless, we show that loopy belief propagation in such a graph converges to the optimal solution. This allows us to retain the optimality guarantee in the noiseless case, while substantially reducing both memory requirements and processing time. Our experimental results show that the accuracy of the proposed solution is indistinguishable from that of \\cite{CaeCaeSchBar06} when there is noise in the point patterns.\n    ",
+        "submission_date": "2007-09-29T00:00:00",
+        "last_modified_date": "2007-10-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.0243",
+        "title": "High-Order Nonparametric Belief-Propagation for Fast Image Inpainting",
+        "authors": [
+            "Julian John McAuley",
+            "Tiberio S. Caetano"
+        ],
+        "abstract": "  In this paper, we use belief-propagation techniques to develop fast algorithms for image inpainting. Unlike traditional gradient-based approaches, which may require many iterations to converge, our techniques achieve competitive results after only a few iterations. On the other hand, while belief-propagation techniques are often unable to deal with high-order models due to the explosion in the size of messages, we avoid this problem by approximating our high-order prior model using a Gaussian mixture. By using such an approximation, we are able to inpaint images quickly while at the same time retaining good visual results.\n    ",
+        "submission_date": "2007-10-01T00:00:00",
+        "last_modified_date": "2007-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.0736",
+        "title": "Colour image segmentation by the vector-valued Allen-Cahn phase-field model: a multigrid solution",
+        "authors": [
+            "David A Kay",
+            "Alessandro Tomasi"
+        ],
+        "abstract": "  We propose a new method for the numerical solution of a PDE-driven model for colour image segmentation and give numerical examples of the results. The method combines the vector-valued Allen-Cahn phase field equation with initial data fitting terms. This method is known to be closely related to the Mumford-Shah problem and the level set segmentation by Chan and Vese. Our numerical solution is performed using a multigrid splitting of a finite element space, thereby producing an efficient and robust method for the segmentation of large images.\n    ",
+        "submission_date": "2007-10-03T00:00:00",
+        "last_modified_date": "2007-10-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.2037",
+        "title": "An Affinity Propagation Based method for Vector Quantization Codebook Design",
+        "authors": [
+            "Wu Jiang",
+            "Fei Ding",
+            "Qiao-liang Xiang"
+        ],
+        "abstract": "  In this paper, we firstly modify a parameter in affinity propagation (AP) to improve its convergence ability, and then, we apply it to vector quantization (VQ) codebook design problem. In order to improve the quality of the resulted codebook, we combine the improved AP (IAP) with the conventional LBG algorithm to generate an effective algorithm call IAP-LBG. According to the experimental results, the proposed method not only enhances the convergence abilities but also is capable of providing higher-quality codebooks than conventional LBG method.\n    ",
+        "submission_date": "2007-10-10T00:00:00",
+        "last_modified_date": "2007-10-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.2231",
+        "title": "Comparison and Combination of State-of-the-art Techniques for Handwritten Character Recognition: Topping the MNIST Benchmark",
+        "authors": [
+            "Daniel Keysers"
+        ],
+        "abstract": "  Although the recognition of isolated handwritten digits has been a research topic for many years, it continues to be of interest for the research community and for commercial applications. We show that despite the maturity of the field, different approaches still deliver results that vary enough to allow improvements by using their combination. We do so by choosing four well-motivated state-of-the-art recognition systems for which results on the standard MNIST benchmark are available. When comparing the errors made, we observe that the errors made differ between all four systems, suggesting the use of classifier combination. We then determine the error rate of a hypothetical system that combines the output of the four systems. The result obtained in this manner is an error rate of 0.35% on the MNIST data, the best result published so far. We furthermore discuss the statistical significance of the combined result and of the results of the individual classifiers.\n    ",
+        "submission_date": "2007-10-11T00:00:00",
+        "last_modified_date": "2007-10-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.5547",
+        "title": "Code Similarity on High Level Programs",
+        "authors": [
+            "M. Miron Bernal",
+            "H. Coyote Estrada",
+            "J. Figueroa Nazuno"
+        ],
+        "abstract": "  This paper presents a new approach for code similarity on High Level programs. Our technique is based on Fast Dynamic Time Warping, that builds a warp path or points relation with local restrictions. The source code is represented into Time Series using the operators inside programming languages that makes possible the comparison. This makes possible subsequence detection that represent similar code instructions. In contrast with other code similarity algorithms, we do not make features extraction. The experiments show that two source codes are similar when their respective Time Series are similar.\n    ",
+        "submission_date": "2007-10-29T00:00:00",
+        "last_modified_date": "2007-10-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0711.0784",
+        "title": "Addendum to Research MMMCV; A Man/Microbio/Megabio/Computer Vision",
+        "authors": [
+            "Philip B. Alipour"
+        ],
+        "abstract": "  In October 2007, a Research Proposal for the University of Sydney, Australia, the author suggested that biovie-physical phenomenon as `electrodynamic dependant biological vision', is governed by relativistic quantum laws and biovision. The phenomenon on the basis of `biovielectroluminescence', satisfies man/microbio/megabio/computer vision (MMMCV), as a robust candidate for physical and visual sciences. The general aim of this addendum is to present a refined text of Sections 1-3 of that proposal and highlighting the contents of its Appendix in form of a `Mechanisms' Section. We then briefly remind in an article aimed for December 2007, by appending two more equations into Section 3, a theoretical II-time scenario as a time model well-proposed for the phenomenon. The time model within the core of the proposal, plays a significant role in emphasizing the principle points on Objectives no. 1-8, Sub-hypothesis 3.1.2, mentioned in Article [",
+        "submission_date": "2007-11-06T00:00:00",
+        "last_modified_date": "2007-11-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.0131",
+        "title": "Learning Similarity for Character Recognition and 3D Object Recognition",
+        "authors": [
+            "Thomas M. Breuel"
+        ],
+        "abstract": "  I describe an approach to similarity motivated by Bayesian methods. This yields a similarity function that is learnable using a standard Bayesian methods. The relationship of the approach to variable kernel and variable metric methods is discussed. The approach is related to variable kernel Experimental results on character recognition and 3D object recognition are presented..\n    ",
+        "submission_date": "2007-12-02T00:00:00",
+        "last_modified_date": "2007-12-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.0136",
+        "title": "Learning View Generalization Functions",
+        "authors": [
+            "Thomas M. Breuel"
+        ],
+        "abstract": "  Learning object models from views in 3D visual object recognition is usually formulated either as a function approximation problem of a function describing the view-manifold of an object, or as that of learning a class-conditional density. This paper describes an alternative framework for learning in visual object recognition, that of learning the view-generalization function. Using the view-generalization function, an observer can perform Bayes-optimal 3D object recognition given one or more 2D training views directly, without the need for a separate model acquisition step. The paper shows that view generalization functions can be computationally practical by restating two widely-used methods, the eigenspace and linear combination of views approaches, in a view generalization framework. The paper relates the approach to recent methods for object recognition based on non-uniform blurring. The paper presents results both on simulated 3D ``paperclip'' objects and real-world images from the COIL-100 database showing that useful view-generalization functions can be realistically be learned from a comparatively small number of training examples.\n    ",
+        "submission_date": "2007-12-02T00:00:00",
+        "last_modified_date": "2007-12-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.0137",
+        "title": "View Based Methods can achieve Bayes-Optimal 3D Recognition",
+        "authors": [
+            "Thomas M. Breuel"
+        ],
+        "abstract": "  This paper proves that visual object recognition systems using only 2D Euclidean similarity measurements to compare object views against previously seen views can achieve the same recognition performance as observers having access to all coordinate information and able of using arbitrary 3D models internally. Furthermore, it demonstrates that such systems do not require more training views than Bayes-optimal 3D model-based systems. For building computer vision systems, these results imply that using view-based or appearance-based techniques with carefully constructed combination of evidence mechanisms may not be at a disadvantage relative to 3D model-based systems. For computational approaches to human vision, they show that it is impossible to distinguish view-based and 3D model-based techniques for 3D object recognition solely by comparing the performance achievable by human and 3D model-based systems.}\n    ",
+        "submission_date": "2007-12-02T00:00:00",
+        "last_modified_date": "2007-12-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.0932",
+        "title": "Dimensionality Reduction and Reconstruction using Mirroring Neural Networks and Object Recognition based on Reduced Dimension Characteristic Vector",
+        "authors": [
+            "Dasika Ratna Deepthi",
+            "Sujeet Kuchibhotla",
+            "K.Eswaran"
+        ],
+        "abstract": "  In this paper, we present a Mirroring Neural Network architecture to perform non-linear dimensionality reduction and Object Recognition using a reduced lowdimensional characteristic vector. In addition to dimensionality reduction, the network also reconstructs (mirrors) the original high-dimensional input vector from the reduced low-dimensional data. The Mirroring Neural Network architecture has more number of processing elements (adalines) in the outer layers and the least number of elements in the central layer to form a converging-diverging shape in its configuration. Since this network is able to reconstruct the original image from the output of the innermost layer (which contains all the information about the input pattern), these outputs can be used as object signature to classify patterns. The network is trained to minimize the discrepancy between actual output and the input by back propagating the mean squared error from the output layer to the input layer. After successfully training the network, it can reduce the dimension of input vectors and mirror the patterns fed to it. The Mirroring Neural Network architecture gave very good results on various test patterns.\n    ",
+        "submission_date": "2007-12-06T00:00:00",
+        "last_modified_date": "2007-12-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.1878",
+        "title": "Hierarchy construction schemes within the Scale set framework",
+        "authors": [
+            "Jean Hugues Pruvot",
+            "Luc Brun"
+        ],
+        "abstract": "  Segmentation algorithms based on an energy minimisation framework often depend on a scale parameter which balances a fit to data and a regularising term. Irregular pyramids are defined as a stack of graphs successively reduced. Within this framework, the scale is often defined implicitly as the height in the pyramid. However, each level of an irregular pyramid can not usually be readily associated to the global optimum of an energy or a global criterion on the base level graph. This last drawback is addressed by the scale set framework designed by Guigues. The methods designed by this author allow to build a hierarchy and to design cuts within this hierarchy which globally minimise an energy. This paper studies the influence of the construction scheme of the initial hierarchy on the resulting optimal cuts. We propose one sequential and one parallel method with two variations within both. Our sequential methods provide partitions near the global optima while parallel methods require less execution times than the sequential method of Guigues even on sequential machines.\n    ",
+        "submission_date": "2007-12-12T00:00:00",
+        "last_modified_date": "2007-12-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.2923",
+        "title": "A Class of LULU Operators on Multi-Dimensional Arrays",
+        "authors": [
+            "Roumen Anguelov",
+            "Inger Plaskitt"
+        ],
+        "abstract": "  The LULU operators for sequences are extended to multi-dimensional arrays via the morphological concept of connection in a way which preserves their essential properties, e.g. they are separators and form a four element fully ordered semi-group. The power of the operators is demonstrated by deriving a total variation preserving discrete pulse decomposition of images.\n    ",
+        "submission_date": "2007-12-18T00:00:00",
+        "last_modified_date": "2007-12-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.4015",
+        "title": "A Fast Hierarchical Multilevel Image Segmentation Method using Unbiased Estimators",
+        "authors": [
+            "Sreechakra Goparaju",
+            "Jayadev Acharya",
+            "Ajoy K. Ray",
+            "Jaideva C. Goswami"
+        ],
+        "abstract": "  This paper proposes a novel method for segmentation of images by hierarchical multilevel thresholding. The method is global, agglomerative in nature and disregards pixel locations. It involves the optimization of the ratio of the unbiased estimators of within class to between class variances. We obtain a recursive relation at each step for the variances which expedites the process. The efficacy of the method is shown in a comparison with some well-known methods.\n    ",
+        "submission_date": "2007-12-24T00:00:00",
+        "last_modified_date": "2007-12-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0701057",
+        "title": "Cooperative Optimization for Energy Minimization: A Case Study of Stereo Matching",
+        "authors": [
+            "Xiaofei Huang"
+        ],
+        "abstract": "  Often times, individuals working together as a team can solve hard problems beyond the capability of any individual in the team. Cooperative optimization is a newly proposed general method for attacking hard optimization problems inspired by cooperation principles in team playing. It has an established theoretical foundation and has demonstrated outstanding performances in solving real-world optimization problems. With some general settings, a cooperative optimization algorithm has a unique equilibrium and converges to it with an exponential rate regardless initial conditions and insensitive to perturbations. It also possesses a number of global optimality conditions for identifying global optima so that it can terminate its search process efficiently. This paper offers a general description of cooperative optimization, addresses a number of design issues, and presents a case study to demonstrate its power.\n    ",
+        "submission_date": "2007-01-09T00:00:00",
+        "last_modified_date": "2007-01-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0701127",
+        "title": "A novel set of rotationally and translationally invariant features for images based on the non-commutative bispectrum",
+        "authors": [
+            "Risi Kondor"
+        ],
+        "abstract": "  We propose a new set of rotationally and translationally invariant features for image or pattern recognition and classification. The new features are cubic polynomials in the pixel intensities and provide a richer representation of the original image than most existing systems of invariants. Our construction is based on the generalization of the concept of bispectrum to the three-dimensional rotation group SO(3), and a projection of the image onto the sphere.\n    ",
+        "submission_date": "2007-01-20T00:00:00",
+        "last_modified_date": "2007-12-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0701150",
+        "title": "Contains and Inside relationships within combinatorial Pyramids",
+        "authors": [
+            "Luc Brun",
+            "Walter G. Kropatsch"
+        ],
+        "abstract": "  Irregular pyramids are made of a stack of successively reduced graphs embedded in the plane. Such pyramids are used within the segmentation framework to encode a hierarchy of partitions. The different graph models used within the irregular pyramid framework encode different types of relationships between regions. This paper compares different graph models used within the irregular pyramid framework according to a set of relationships between regions. We also define a new algorithm based on a pyramid of combinatorial maps which allows to determine if one region contains the other using only local calculus.\n    ",
+        "submission_date": "2007-01-24T00:00:00",
+        "last_modified_date": "2007-01-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0702082",
+        "title": "Invariant template matching in systems with spatiotemporal coding: a vote for instability",
+        "authors": [
+            "Ivan Tyukin",
+            "Tatiana Tyukina",
+            "Cees van Leeuwen"
+        ],
+        "abstract": "  We consider the design of a pattern recognition that matches templates to images, both of which are spatially sampled and encoded as temporal sequences. The image is subject to a combination of various perturbations. These include ones that can be modeled as parameterized uncertainties such as image blur, luminance, translation, and rotation as well as unmodeled ones. Biological and neural systems require that these perturbations be processed through a minimal number of channels by simple adaptation mechanisms. We found that the most suitable mathematical framework to meet this requirement is that of weakly attracting sets. This framework provides us with a normative and unifying solution to the pattern recognition problem. We analyze the consequences of its explicit implementation in neural systems. Several properties inherent to the systems designed in accordance with our normative mathematical argument coincide with known empirical facts. This is illustrated in mental rotation, visual search and blur/intensity adaptation. We demonstrate how our results can be applied to a range of practical problems in template matching and pattern recognition.\n    ",
+        "submission_date": "2007-02-14T00:00:00",
+        "last_modified_date": "2007-02-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0703053",
+        "title": "Extraction of cartographic objects in high resolution satellite images for object model generation",
+        "authors": [
+            "Guray Erus",
+            "Nicolas Lom\u00e9nie"
+        ],
+        "abstract": "  The aim of this study is to detect man-made cartographic objects in high-resolution satellite images. New generation satellites offer a sub-metric spatial resolution, in which it is possible (and necessary) to develop methods at object level rather than at pixel level, and to exploit structural features of objects. With this aim, a method to generate structural object models from manually segmented images has been developed. To generate the model from non-segmented images, extraction of the objects from the sample images is required. A hybrid method of extraction (both in terms of input sources and segmentation algorithms) is proposed: A region based segmentation is applied on a 10 meter resolution multi-spectral image. The result is used as marker in a \"marker-controlled watershed method using edges\" on a 2.5 meter resolution panchromatic image. Very promising results have been obtained even on images where the limits of the target objects are not apparent.\n    ",
+        "submission_date": "2007-03-12T00:00:00",
+        "last_modified_date": "2007-03-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0703088",
+        "title": "Plot 94 in ambiance X-Window",
+        "authors": [
+            "Ignacio Vega-Paez",
+            "Carlos Alberto Hernandez-Hernandez"
+        ],
+        "abstract": "  <PLOT > is a collection of routines to draw surfaces, contours and so on. In this work we are presenting a version, that functions over work stations with the operative system UNIX, that count with the graphic ambiance X-WINDOW with the tools XLIB and OSF/MOTIF. This implant was realized for the work stations DEC 5000-200, DEC IPX, and DEC ALFA of the CINVESTAV (Center of Investigation and Advanced Studies). Also implanted in SILICON GRAPHICS of the CENAC (National Center of Calculation of the Polytechnic National Institute\n    ",
+        "submission_date": "2007-03-16T00:00:00",
+        "last_modified_date": "2007-03-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.0199",
+        "title": "The Parameter-Less Self-Organizing Map algorithm",
+        "authors": [
+            "Erik Berglund",
+            "Joaquin Sitte"
+        ],
+        "abstract": "  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions.\n    ",
+        "submission_date": "2007-05-02T00:00:00",
+        "last_modified_date": "2007-05-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.1674",
+        "title": "Evolutionary Optimisation Methods for Template Based Image Registration",
+        "authors": [
+            "Lukasz A Machowski",
+            "Tshilidzi Marwala"
+        ],
+        "abstract": "  This paper investigates the use of evolutionary optimisation techniques to register a template with a scene image. An error function is created to measure the correspondence of the template to the image. The problem presented here is to optimise the horizontal, vertical and scaling parameters that register the template with the scene. The Genetic Algorithm, Simulated Annealing and Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation with starting points chosen in a pre-processing stage. The paper investigates the precision and accuracy of each method and shows that all four methods perform favourably for image registration. SA is the most precise, GA is the most accurate. PSO is a good mix of both and the Simplex method returns local minima the most. A pre-processing stage should be investigated for the evolutionary methods in order to improve performance. Discrete versions of the optimisation methods should be investigated to further improve computational performance.\n    ",
+        "submission_date": "2007-05-11T00:00:00",
+        "last_modified_date": "2007-05-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.2011",
+        "title": "Multi-Dimensional Recurrent Neural Networks",
+        "authors": [
+            "Alex Graves",
+            "Santiago Fernandez",
+            "Juergen Schmidhuber"
+        ],
+        "abstract": "  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks.\n    ",
+        "submission_date": "2007-05-14T00:00:00",
+        "last_modified_date": "2007-05-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.2854",
+        "title": "Scanning and Sequential Decision Making for Multi-Dimensional Data - Part II: the Noisy Case",
+        "authors": [
+            "Asaf Cohen",
+            "Tsachy Weissman",
+            "Neri Merhav"
+        ],
+        "abstract": "  We consider the problem of sequential decision making on random fields corrupted by noise. In this scenario, the decision maker observes a noisy version of the data, yet judged with respect to the clean data. In particular, we first consider the problem of sequentially scanning and filtering noisy random fields. In this case, the sequential filter is given the freedom to choose the path over which it traverses the random field (e.g., noisy image or video sequence), thus it is natural to ask what is the best achievable performance and how sensitive this performance is to the choice of the scan. We formally define the problem of scanning and filtering, derive a bound on the best achievable performance and quantify the excess loss occurring when non-optimal scanners are used, compared to optimal scanning and filtering.\n",
+        "submission_date": "2007-05-20T00:00:00",
+        "last_modified_date": "2007-05-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.3669",
+        "title": "Structural Health Monitoring Using Neural Network Based Vibrational System Identification",
+        "authors": [
+            "Donald A. Sofge"
+        ],
+        "abstract": "  Composite fabrication technologies now provide the means for producing high-strength, low-weight panels, plates, spars and other structural components which use embedded fiber optic sensors and piezoelectric transducers. These materials, often referred to as smart structures, make it possible to sense internal characteristics, such as delaminations or structural degradation. In this effort we use neural network based techniques for modeling and analyzing dynamic structural information for recognizing structural defects. This yields an adaptable system which gives a measure of structural integrity for composite structures.\n    ",
+        "submission_date": "2007-05-24T00:00:00",
+        "last_modified_date": "2007-05-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.3693",
+        "title": "Morphing Ensemble Kalman Filters",
+        "authors": [
+            "Jonathan D. Beezley",
+            "Jan Mandel"
+        ],
+        "abstract": "  A new type of ensemble filter is proposed, which combines an ensemble Kalman filter (EnKF) with the ideas of morphing and registration from image processing. This results in filters suitable for nonlinear problems whose solutions exhibit moving coherent features, such as thin interfaces in wildfire modeling. The ensemble members are represented as the composition of one common state with a spatial transformation, called registration mapping, plus a residual. A fully automatic registration method is used that requires only gridded data, so the features in the model state do not need to be identified by the user. The morphing EnKF operates on a transformed state consisting of the registration mapping and the residual. Essentially, the morphing EnKF uses intermediate states obtained by morphing instead of linear combinations of the states.\n    ",
+        "submission_date": "2007-05-25T00:00:00",
+        "last_modified_date": "2007-08-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0705.4654",
+        "title": "Local Area Damage Detection in Composite Structures Using Piezoelectric Transducers",
+        "authors": [
+            "Peter F. Lichtenwalner",
+            "Donald A. Sofge"
+        ],
+        "abstract": "  An integrated and automated smart structures approach for structural health monitoring is presented, utilizing an array of piezoelectric transducers attached to or embedded within the structure for both actuation and sensing. The system actively interrogates the structure via broadband excitation of multiple actuators across a desired frequency range. The structure's vibration signature is then characterized by computing the transfer functions between each actuator/sensor pair, and compared to the baseline signature. Experimental results applying the system to local area damage detection in a MD Explorer rotorcraft composite flexbeam are presented.\n    ",
+        "submission_date": "2007-05-31T00:00:00",
+        "last_modified_date": "2007-05-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0706.0465",
+        "title": "Virtual Sensor Based Fault Detection and Classification on a Plasma Etch Reactor",
+        "authors": [
+            "D. A. Sofge"
+        ],
+        "abstract": "  The SEMATECH sponsored J-88-E project teaming Texas Instruments with NeuroDyne (et al.) focused on Fault Detection and Classification (FDC) on a Lam 9600 aluminum plasma etch reactor, used in the process of semiconductor fabrication. Fault classification was accomplished by implementing a series of virtual sensor models which used data from real sensors (Lam Station sensors, Optical Emission Spectroscopy, and RF Monitoring) to predict recipe setpoints and wafer state characteristics. Fault detection and classification were performed by comparing predicted recipe and wafer state values with expected values. Models utilized include linear PLS, Polynomial PLS, and Neural Network PLS. Prediction of recipe setpoints based upon sensor data provides a capability for cross-checking that the machine is maintaining the desired setpoints. Wafer state characteristics such as Line Width Reduction and Remaining Oxide were estimated on-line using these same process sensors (Lam, OES, RFM). Wafer-to-wafer measurement of these characteristics in a production setting (where typically this information may be only sparsely available, if at all, after batch processing runs with numerous wafers have been completed) would provide important information to the operator that the process is or is not producing wafers within acceptable bounds of product quality. Production yield is increased, and correspondingly per unit cost is reduced, by providing the operator with the opportunity to adjust the process or machine before etching more wafers.\n    ",
+        "submission_date": "2007-06-04T00:00:00",
+        "last_modified_date": "2007-06-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0707.0802",
+        "title": "Very fast watermarking by reversible contrast mapping",
+        "authors": [
+            "Dinu Coltuc",
+            "Jean-Marc Chassery"
+        ],
+        "abstract": "  Reversible contrast mapping (RCM) is a simple integer transform that applies to pairs of pixels. For some pairs of pixels, RCM is invertible, even if the least significant bits (LSBs) of the transformed pixels are lost. The data space occupied by the LSBs is suitable for data hiding. The embedded information bit-rates of the proposed spatial domain reversible watermarking scheme are close to the highest bit-rates reported so far. The scheme does not need additional data compression, and, in terms of mathematical complexity, it appears to be the lowest complexity one proposed up to now. A very fast lookup table implementation is proposed. Robustness against cropping can be ensured as well.\n    ",
+        "submission_date": "2007-07-05T00:00:00",
+        "last_modified_date": "2007-07-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0708.0927",
+        "title": "Modeling Visual Information Processing in Brain: A Computer Vision Point of View and Approach",
+        "authors": [
+            "Emanuel Diamant"
+        ],
+        "abstract": "  We live in the Information Age, and information has become a critically important component of our life. The success of the Internet made huge amounts of it easily available and accessible to everyone. To keep the flow of this information manageable, means for its faultless circulation and effective handling have become urgently required. Considerable research efforts are dedicated today to address this necessity, but they are seriously hampered by the lack of a common agreement about \"What is information?\" In particular, what is \"visual information\" - human's primary input from the surrounding world. The problem is further aggravated by a long-lasting stance borrowed from the biological vision research that assumes human-like information processing as an enigmatic mix of perceptual and cognitive vision faculties. I am trying to find a remedy for this bizarre situation. Relying on a new definition of \"information\", which can be derived from Kolmogorov's compexity theory and Chaitin's notion of algorithmic information, I propose a unifying framework for visual information processing, which explicitly accounts for the perceptual and cognitive image processing peculiarities. I believe that this framework will be useful to overcome the difficulties that are impeding our attempts to develop the right model of human-like intelligent image processing.\n    ",
+        "submission_date": "2007-08-07T00:00:00",
+        "last_modified_date": "2007-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.0410",
+        "title": "The Theory of Unified Relativity for a Biovielectroluminescence Phenomenon via Fly's Visual and Imaging System",
+        "authors": [
+            "Philip B. Alipour"
+        ],
+        "abstract": "  The elucidation upon fly's neuronal patterns as a link to computer graphics and memory cards I/O's, is investigated for the phenomenon by propounding a unified theory of Einstein's two known relativities. It is conclusive that flies could contribute a certain amount of neuromatrices indicating an imagery function of a visual-computational system into computer graphics and storage systems. The visual system involves the time aspect, whereas flies possess faster pulses compared to humans' visual ability due to the E-field state on an active fly's eye surface. This behaviour can be tested on a dissected fly specimen at its ommatidia. Electro-optical contacts and electrodes are wired through the flesh forming organic emitter layer to stimulate light emission, thereby to a computer circuit. The next step is applying a threshold voltage with secondary voltages to the circuit denoting an array of essential electrodes for bit switch. As a result, circuit's dormant pulses versus active pulses at the specimen's area are recorded. The outcome matrix possesses a construction of RGB and time radicals expressing the time problem in consumption, allocating time into computational algorithms, enhancing the technology far beyond. The obtained formulation generates consumed distance cons(x), denoting circuital travel between data source/sink for pixel data and bendable wavelengths. Once 'image logic' is in place, incorporating this point of graphical acceleration permits one to enhance graphics and optimize immensely central processing, data transmissions between memory and computer visual system. The phenomenon can be mainly used in 360-deg. display/viewing, 3D scanning techniques, military and medicine, a robust and cheap substitution for e.g. pre-motion pattern analysis, real-time rendering and LCDs.\n    ",
+        "submission_date": "2007-10-01T00:00:00",
+        "last_modified_date": "2007-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.1870",
+        "title": "Lossless Representation of Graphs using Distributions",
+        "authors": [
+            "Mireille Boutin",
+            "Gregor Kemper"
+        ],
+        "abstract": "  We consider complete graphs with edge weights and/or node weights taking values in some set. In the first part of this paper, we show that a large number of graphs are completely determined, up to isomorphism, by the distribution of their sub-triangles. In the second part, we propose graph representations in terms of one-dimensional distributions (e.g., distribution of the node weights, sum of adjacent weights, etc.). For the case when the weights of the graph are real-valued vectors, we show that all graphs, except for a set of measure zero, are uniquely determined, up to isomorphism, from these distributions. The motivating application for this paper is the problem of browsing through large sets of graphs.\n    ",
+        "submission_date": "2007-10-09T00:00:00",
+        "last_modified_date": "2007-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.3185",
+        "title": "Fuzzy Modeling of Electrical Impedance Tomography Image of the Lungs",
+        "authors": [
+            "Harki Tanaka",
+            "Neli Regina Siqueira Ortega",
+            "Mauricio Stanzione Galizia",
+            "Joao Batista Borges Sobrinho",
+            "Marcelo Britto Passos Amato"
+        ],
+        "abstract": "  Electrical Impedance Tomography (EIT) is a functional imaging method that is being developed for bedside use in critical care medicine. Aiming at improving the chest anatomical resolution of EIT images we developed a fuzzy model based on EIT high temporal resolution and the functional information contained in the pulmonary perfusion and ventilation signals. EIT data from an experimental animal model were collected during normal ventilation and apnea while an injection of hypertonic saline was used as a reference . The fuzzy model was elaborated in three parts: a modeling of the heart, a pulmonary map from ventilation images and, a pulmonary map from perfusion images. Image segmentation was performed using a threshold method and a ventilation/perfusion map was generated. EIT images treated by the fuzzy model were compared with the hypertonic saline injection method and CT-scan images, presenting good results in both qualitative (the image obtained by the model was very similar to that of the CT-scan) and quantitative (the ROC curve provided an area equal to 0.93) point of view. Undoubtedly, these results represent an important step in the EIT images area, since they open the possibility of developing EIT-based bedside clinical methods, which are not available nowadays. These achievements could serve as the base to develop EIT diagnosis system for some life-threatening diseases commonly found in critical care medicine.\n    ",
+        "submission_date": "2007-10-16T00:00:00",
+        "last_modified_date": "2007-10-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0710.5002",
+        "title": "The entropy of keys derived from laser speckle",
+        "authors": [
+            "B. Skoric"
+        ],
+        "abstract": "  Laser speckle has been proposed in a number of papers as a high-entropy source of unpredictable bits for use in security applications. Bit strings derived from speckle can be used for a variety of security purposes such as identification, authentication, anti-counterfeiting, secure key storage, random number generation and tamper protection. The choice of laser speckle as a source of random keys is quite natural, given the chaotic properties of speckle. However, this same chaotic behaviour also causes reproducibility problems. Cryptographic protocols require either zero noise or very low noise in their inputs; hence the issue of error rates is critical to applications of laser speckle in cryptography. Most of the literature uses an error reduction method based on Gabor filtering. Though the method is successful, it has not been thoroughly analysed.\n",
+        "submission_date": "2007-10-26T00:00:00",
+        "last_modified_date": "2007-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0711.2104",
+        "title": "On the Information Rates of the Plenoptic Function",
+        "authors": [
+            "Arthur Cunha",
+            "Minh Do",
+            "Martin Vetterli"
+        ],
+        "abstract": "  The {\\it plenoptic function} (Adelson and Bergen, 91) describes the visual information available to an observer at any point in space and time. Samples of the plenoptic function (POF) are seen in video and in general visual content, and represent large amounts of information. In this paper we propose a stochastic model to study the compression limits of the plenoptic function. In the proposed framework, we isolate the two fundamental sources of information in the POF: the one representing the camera motion and the other representing the information complexity of the \"reality\" being acquired and transmitted. The sources of information are combined, generating a stochastic process that we study in detail. We first propose a model for ensembles of realities that do not change over time. The proposed model is simple in that it enables us to derive precise coding bounds in the information-theoretic sense that are sharp in a number of cases of practical interest. For this simple case of static realities and camera motion, our results indicate that coding practice is in accordance with optimal coding from an information-theoretic standpoint. The model is further extended to account for visual realities that change over time. We derive bounds on the lossless and lossy information rates for this dynamic reality model, stating conditions under which the bounds are tight. Examples with synthetic sources suggest that in the presence of scene dynamics, simple hybrid coding using motion/displacement estimation with DPCM performs considerably suboptimally relative to the true rate-distortion bound.\n    ",
+        "submission_date": "2007-11-14T00:00:00",
+        "last_modified_date": "2009-08-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0711.2914",
+        "title": "Image Classification Using SVMs: One-against-One Vs One-against-All",
+        "authors": [
+            "Gidudu Anthony",
+            "Hulley Gregg",
+            "Marwala Tshilidzi"
+        ],
+        "abstract": "  Support Vector Machines (SVMs) are a relatively new supervised classification technique to the land cover mapping community. They have their roots in Statistical Learning Theory and have gained prominence because they are robust, accurate and are effective even when using a small training sample. By their nature SVMs are essentially binary classifiers, however, they can be adopted to handle the multiple classification tasks common in remote sensing studies. The two approaches commonly used are the One-Against-One (1A1) and One-Against-All (1AA) techniques. In this paper, these approaches are evaluated in as far as their impact and implication for land cover mapping. The main finding from this research is that whereas the 1AA technique is more predisposed to yielding unclassified and mixed pixels, the resulting classification accuracy is not significantly different from 1A1 approach. It is the authors conclusion therefore that ultimately the choice of technique adopted boils down to personal preference and the uniqueness of the dataset at hand.\n    ",
+        "submission_date": "2007-11-19T00:00:00",
+        "last_modified_date": "2007-11-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0711.4508",
+        "title": "Representation and Measure of Structural Information",
+        "authors": [
+            "Hiroshi Ishikawa"
+        ],
+        "abstract": "  We introduce a uniform representation of general objects that captures the regularities with respect to their structure. It allows a representation of a general class of objects including geometric patterns and images in a sparse, modular, hierarchical, and recursive manner. The representation can exploit any computable regularity in objects to compactly describe them, while also being capable of representing random objects as raw data. A set of rules uniformly dictates the interpretation of the representation into raw signal, which makes it possible to ask what pattern a given raw signal contains. Also, it allows simple separation of the information that we wish to ignore from that which we measure, by using a set of maps to delineate the a priori parts of the objects, leaving only the information in the structure.\n",
+        "submission_date": "2007-11-28T00:00:00",
+        "last_modified_date": "2008-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.2870",
+        "title": "The source coding game with a cheating switcher",
+        "authors": [
+            "Hari Palaiyanur",
+            "Cheng Chang",
+            "Anant Sahai"
+        ],
+        "abstract": "  Motivated by the lossy compression of an active-vision video stream, we consider the problem of finding the rate-distortion function of an arbitrarily varying source (AVS) composed of a finite number of subsources with known distributions. Berger's paper `The Source Coding Game', \\emph{IEEE Trans. Inform. Theory}, 1971, solves this problem under the condition that the adversary is allowed only strictly causal access to the subsource realizations. We consider the case when the adversary has access to the subsource realizations non-causally. Using the type-covering lemma, this new rate-distortion function is determined to be the maximum of the IID rate-distortion function over a set of source distributions attainable by the adversary. We then extend the results to allow for partial or noisy observations of subsource realizations. We further explore the model by attempting to find the rate-distortion function when the adversary is actually helpful. \n",
+        "submission_date": "2007-12-18T00:00:00",
+        "last_modified_date": "2007-12-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.3587",
+        "title": "Pattern Recognition System Design with Linear Encoding for Discrete Patterns",
+        "authors": [
+            "Po-Hsiang Lai",
+            "Joseph A. O'Sullivan"
+        ],
+        "abstract": "  In this paper, designs and analyses of compressive recognition systems are discussed, and also a method of establishing a dual connection between designs of good communication codes and designs of recognition systems is presented. Pattern recognition systems based on compressed patterns and compressed sensor measurements can be designed using low-density matrices. We examine truncation encoding where a subset of the patterns and measurements are stored perfectly while the rest is discarded. We also examine the use of LDPC parity check matrices for compressing measurements and patterns. We show how more general ensembles of good linear codes can be used as the basis for pattern recognition system design, yielding system design strategies for more general noise models.\n    ",
+        "submission_date": "2007-12-20T00:00:00",
+        "last_modified_date": "2007-12-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0712.4183",
+        "title": "Probabilistic Visual Secret Sharing Schemes for Gray-scale images and Color images",
+        "authors": [
+            "Dao-Shun Wang",
+            "Feng Yi",
+            "Xiaobo Li"
+        ],
+        "abstract": "  Visual secrete sharing (VSS) is an encryption technique that utilizes human visual system in the recovering of the secret image and it does not require any complex calculation. Pixel expansion has been a major issue of VSS schemes. A number of probabilistic VSS schemes with minimum pixel expansion have been proposed for binary secret images. This paper presents a general probabilistic (k, n)-VSS scheme for gray-scale images and another scheme for color images. With our schemes, the pixel expansion can be set to a user-defined value. When this value is 1, there is no pixel expansion at all. The quality of reconstructed secret images, measured by Average Relative Difference, is equivalent to Relative Difference of existing deterministic schemes. Previous probabilistic VSS schemes for black-and-white images with respect to pixel expansion can be viewed as special cases of the schemes proposed here\n    ",
+        "submission_date": "2007-12-27T00:00:00",
+        "last_modified_date": "2007-12-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0703101",
+        "title": "A Note on Approximate Nearest Neighbor Methods",
+        "authors": [
+            "Thomas M. Breuel"
+        ],
+        "abstract": "  A number of authors have described randomized algorithms for solving the epsilon-approximate nearest neighbor problem. In this note I point out that the epsilon-approximate nearest neighbor property often fails to be a useful approximation property, since epsilon-approximate solutions fail to satisfy the necessary preconditions for using nearest neighbors for classification and related tasks.\n    ",
+        "submission_date": "2007-03-21T00:00:00",
+        "last_modified_date": "2007-03-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/math/0701791",
+        "title": "Linear versus Non-linear Acquisition of Step-Functions",
+        "authors": [
+            "Boris Ettinger",
+            "Niv Sarig",
+            "Yosef Yomdin"
+        ],
+        "abstract": "  We address in this paper the following two closely related problems:\n",
+        "submission_date": "2007-01-27T00:00:00",
+        "last_modified_date": "2007-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/physics/0701081",
+        "title": "Spatio-Temporal Electromagnetic Field Shapes and their Logical Processing",
+        "authors": [
+            "G.A. Kouzaev"
+        ],
+        "abstract": "  This paper is on the spatio-temporal signals with the topologically modulated electromagnetic fields. The carrier of the digital information is the topological scheme composed of the separatrices-manifolds and equilibrium positions of the field. The signals and developed hardware for their processing in the space-time domain are considered\n    ",
+        "submission_date": "2007-01-07T00:00:00",
+        "last_modified_date": "2007-01-07T00:00:00"
+    }
+]

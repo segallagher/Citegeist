@@ -1,0 +1,3 @@
+run_name,yes_proportion,no_proportion
+no_context,0.525253,0.474747
+rag_multi_query,0.727273,0.272727

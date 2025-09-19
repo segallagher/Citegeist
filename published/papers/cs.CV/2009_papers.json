@@ -1,0 +1,1726 @@
+[
+    {
+        "url": "https://arxiv.org/abs/0901.0065",
+        "title": "Exact Histogram Specification Optimized for Structural Similarity",
+        "authors": [
+            "Alireza Avanaki"
+        ],
+        "abstract": "  An exact histogram specification (EHS) method modifies its input image to have a specified histogram. Applications of EHS include image (contrast) enhancement (e.g., by histogram equalization) and histogram watermarking. Performing EHS on an image, however, reduces its visual quality. Starting from the output of a generic EHS method, we maximize the structural similarity index (SSIM) between the original image (before EHS) and the result of EHS iteratively. Essential in this process is the computationally simple and accurate formula we derive for SSIM gradient. As it is based on gradient ascent, the proposed EHS always converges. Experimental results confirm that while obtaining the histogram exactly as specified, the proposed method invariably outperforms the existing methods in terms of visual quality of the result. The computational complexity of the proposed method is shown to be of the same order as that of the existing methods.\n",
+        "submission_date": "2008-12-31T00:00:00",
+        "last_modified_date": "2008-12-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.4953",
+        "title": "A Keygraph Classification Framework for Real-Time Object Detection",
+        "authors": [
+            "Marcelo Hashimoto",
+            "Roberto M. Cesar Jr"
+        ],
+        "abstract": "  In this paper, we propose a new approach for keypoint-based object detection. Traditional keypoint-based methods consist in classifying individual points and using pose estimation to discard misclassifications. Since a single point carries no relational features, such methods inherently restrict the usage of structural information to the pose estimation phase. Therefore, the classifier considers purely appearance-based feature vectors, thus requiring computationally expensive feature extraction or complex probabilistic modelling to achieve satisfactory robustness. In contrast, our approach consists in classifying graphs of keypoints, which incorporates structural information during the classification phase and allows the extraction of simpler feature vectors that are naturally robust. In the present work, 3-vertices graphs have been considered, though the methodology is general and larger order graphs may be adopted. Successful experimental results obtained for real-time object detection in video sequences are reported.\n    ",
+        "submission_date": "2009-01-30T00:00:00",
+        "last_modified_date": "2009-01-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.0221",
+        "title": "Over-enhancement Reduction in Local Histogram Equalization using its Degrees of Freedom",
+        "authors": [
+            "Alireza Avanaki"
+        ],
+        "abstract": "  A well-known issue of local (adaptive) histogram equalization (LHE) is over-enhancement (i.e., generation of spurious details) in homogenous areas of the image. In this paper, we show that the LHE problem has many solutions due to the ambiguity in ranking pixels with the same intensity. The LHE solution space can be searched for the images having the maximum PSNR or structural similarity (SSIM) with the input image. As compared to the results of the prior art, these solutions are more similar to the input image while offering the same local contrast.\n",
+        "submission_date": "2009-02-02T00:00:00",
+        "last_modified_date": "2009-09-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.2187",
+        "title": "A Standalone Markerless 3D Tracker for Handheld Augmented Reality",
+        "authors": [
+            "Joao Paulo Lima",
+            "Veronica Teichrieb",
+            "Judith Kelner"
+        ],
+        "abstract": "  This paper presents an implementation of a markerless tracking technique targeted to the Windows Mobile Pocket PC platform. The primary aim of this work is to allow the development of standalone augmented reality applications for handheld devices based on natural feature tracking. In order to achieve this goal, a subset of two computer vision libraries was ported to the Pocket PC platform. They were also adapted to use fixed point math, with the purpose of improving the overall performance of the routines. The port of these libraries opens up the possibility of having other computer vision tasks being executed on mobile platforms. A model based tracking approach that relies on edge information was adopted. Since it does not require a high processing power, it is suitable for constrained devices such as handhelds. The OpenGL ES graphics library was used to perform computer vision tasks, taking advantage of existing graphics hardware acceleration. An augmented reality application was created using the implemented technique and evaluations were done regarding tracking performance and accuracy\n    ",
+        "submission_date": "2009-02-12T00:00:00",
+        "last_modified_date": "2009-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.2788",
+        "title": "Using SLP Neural Network to Persian Handwritten Digits Recognition",
+        "authors": [
+            "Ali Pourmohammad",
+            "Seyed Mohammad Ahadi"
+        ],
+        "abstract": "  This paper has been withdrawn by the author ali pourmohammad.\n    ",
+        "submission_date": "2009-02-16T00:00:00",
+        "last_modified_date": "2010-01-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.4073",
+        "title": "Dipole and Quadrupole Moments in Image Processing",
+        "authors": [
+            "Amelia Sparavigna"
+        ],
+        "abstract": "  This paper proposes an algorithm for image processing, obtained by adapting to image maps the definitions of two well-known physical quantities. These quantities are the dipole and quadrupole moments of a charge distribution. We will see how it is possible to define dipole and quadrupole moments for the gray-tone maps and apply them in the development of algorithms for edge detection.\n    ",
+        "submission_date": "2009-02-24T00:00:00",
+        "last_modified_date": "2009-02-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.4521",
+        "title": "Are Tensor Decomposition Solutions Unique? On the global convergence of HOSVD and ParaFac algorithms",
+        "authors": [
+            "Dijun Luo",
+            "Heng Huang",
+            "Chris Ding"
+        ],
+        "abstract": "  For tensor decompositions such as HOSVD and ParaFac, the objective functions are nonconvex. This implies, theoretically, there exists a large number of local optimas: starting from different starting point, the iteratively improved solution will converge to different local solutions. This non-uniqueness present a stability and reliability problem for image compression and retrieval. In this paper, we present the results of a comprehensive investigation of this problem. We found that although all tensor decomposition algorithms fail to reach a unique global solution on random data and severely scrambled data; surprisingly however, on all real life several data sets (even with substantial scramble and occlusions), HOSVD always produce the unique global solution in the parameter region suitable to practical applications, while ParaFac produce non-unique solutions. We provide an eigenvalue based rule for the assessing the solution uniqueness.\n    ",
+        "submission_date": "2009-02-26T00:00:00",
+        "last_modified_date": "2009-02-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.4663",
+        "title": "Dipole Vectors in Images Processing",
+        "authors": [
+            "Amelia Sparavigna"
+        ],
+        "abstract": "  Instead of evaluating the gradient field of the brightness map of an image, we propose the use of dipole vectors. This approach is obtained by adapting to the image gray-tone distribution the definition of the dipole moment of charge distributions. We will show how to evaluate the dipoles and obtain a vector field, which can be a good alternative to the gradient field in pattern recognition.\n    ",
+        "submission_date": "2009-02-26T00:00:00",
+        "last_modified_date": "2009-02-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.0134",
+        "title": "Recognition of Regular Shapes in Satelite Images",
+        "authors": [
+            "Ahmad Reza Eskandari",
+            "Ali Pourmohammad"
+        ],
+        "abstract": "  This paper has been withdrawn by the author ali pourmohammad.\n    ",
+        "submission_date": "2009-03-01T00:00:00",
+        "last_modified_date": "2010-01-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.0538",
+        "title": "Real-time Texture Error Detection",
+        "authors": [
+            "Dan Laurentiu Lacrama",
+            "Florin Alexa",
+            "Adriana Balta"
+        ],
+        "abstract": "  This paper advocates an improved solution for real-time error detection of texture errors that occurs in the production process in textile industry. The research is focused on the mono-color products with 3D texture model (Jaquard fabrics). This is a more difficult task than, for example, 2D multicolor textures.\n    ",
+        "submission_date": "2009-03-03T00:00:00",
+        "last_modified_date": "2009-03-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.1448",
+        "title": "The Digital Restoration of Da Vinci's Sketches",
+        "authors": [
+            "Amelia Sparavigna"
+        ],
+        "abstract": "  A sketch, found in one of Leonardo da Vinci's notebooks and covered by the written notes of this genius, has been recently restored. The restoration reveals a possible self-portrait of the artist, drawn when he was young. Here, we discuss the discovery of this self-portrait and the procedure used for restoration. Actually, this is a restoration performed on the digital image of the sketch, a procedure that can easily extended and applied to ancient documents for studies of art and palaeography.\n    ",
+        "submission_date": "2009-03-09T00:00:00",
+        "last_modified_date": "2009-03-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.3114",
+        "title": "Markov Random Field Segmentation of Brain MR Images",
+        "authors": [
+            "Karsten Held",
+            "Elena Rota Kops",
+            "Bernd J. Krause",
+            "William M. Wells III",
+            "Ron Kikinis",
+            "Hans-Wilhelm Mueller-Gaertner"
+        ],
+        "abstract": "  We describe a fully-automatic 3D-segmentation technique for brain MR images. Using Markov random fields the segmentation algorithm captures three important MR features, i.e. non-parametric distributions of tissue intensities, neighborhood correlations and signal inhomogeneities. Detailed simulations and real MR images demonstrate the performance of the segmentation algorithm. The impact of noise, inhomogeneity, smoothing and structure thickness is analyzed quantitatively. Even single echo MR images are well classified into gray matter, white matter, cerebrospinal fluid, scalp-bone and background. A simulated annealing and an iterated conditional modes implementation are presented.\n",
+        "submission_date": "2009-03-18T00:00:00",
+        "last_modified_date": "2009-03-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.3676",
+        "title": "Combinatorial Ricci Curvature and Laplacians for Image Processing",
+        "authors": [
+            "Emil Saucan",
+            "Eli Appleboilm",
+            "Gershon Wolansky",
+            "Yehoshua Y. Zeevi"
+        ],
+        "abstract": "  A new Combinatorial Ricci curvature and Laplacian operators for grayscale images are introduced and tested on 2D synthetic, natural and medical images. Analogue formulae for voxels are also obtained. These notions are based upon more general concepts developed by R. Forman. Further applications, in particular a fitting Ricci flow, are discussed.\n    ",
+        "submission_date": "2009-03-23T00:00:00",
+        "last_modified_date": "2009-03-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.4513",
+        "title": "Building the information kernel and the problem of recognition",
+        "authors": [
+            "Elena S. Vishnevskaya"
+        ],
+        "abstract": "  At this point in time there is a need for a new representation of different information, to identify and organize descending its characteristics. Today, science is a powerful tool for the description of reality - the numbers. Why the most important property of numbers. Suppose we have a number 0.2351734, it is clear that the figures are there in order of importance. If necessary, we can round the number up to some value, eg 0.235. Arguably, the 0,235 - the most important information of 0.2351734. Thus, we can reduce the size of numbers is not losing much with the accuracy. Clearly, if learning to provide a graphical or audio information kernel, we can provide the most relevant information, discarding the rest. Introduction of various kinds of information in an information kernel, is an important task, to solve many problems in artificial intelligence and information theory.\n    ",
+        "submission_date": "2009-03-26T00:00:00",
+        "last_modified_date": "2011-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.5045",
+        "title": "Digital Restoration of Ancient Papyri",
+        "authors": [
+            "Amelia Sparavigna"
+        ],
+        "abstract": "  Image processing can be used for digital restoration of ancient papyri, that is, for a restoration performed on their digital images. The digital manipulation allows reducing the background signals and enhancing the readability of texts. In the case of very old and damaged documents, this is fundamental for identification of the patterns of letters. Some examples of restoration, obtained with an image processing which uses edges detection and Fourier filtering, are shown. One of them concerns 7Q5 fragment of the Dead Sea Scrolls.\n    ",
+        "submission_date": "2009-03-30T00:00:00",
+        "last_modified_date": "2009-03-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.0962",
+        "title": "Color Dipole Moments for Edge Detection",
+        "authors": [
+            "Amelia Sparavigna"
+        ],
+        "abstract": "  Dipole and higher moments are physical quantities used to describe a charge distribution. In analogy with electromagnetism, it is possible to define the dipole moments for a gray-scale image, according to the single aspect of a gray-tone map. In this paper we define the color dipole moments for color images. For color maps in fact, we have three aspects, the three primary colors, to consider. Associating three color charges to each pixel, color dipole moments can be easily defined and used for edge detection.\n    ",
+        "submission_date": "2009-04-06T00:00:00",
+        "last_modified_date": "2009-04-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.1613",
+        "title": "On the closed-form solution of the rotation matrix arising in computer vision problems",
+        "authors": [
+            "Andriy Myronenko",
+            "Xubo Song"
+        ],
+        "abstract": "  We show the closed-form solution to the maximization of trace(A'R), where A is given and R is unknown rotation matrix. This problem occurs in many computer vision tasks involving optimal rotation matrix estimation. The solution has been continuously reinvented in different fields as part of specific problems. We summarize the historical evolution of the problem and present the general proof of the solution. We contribute to the proof by considering the degenerate cases of A and discuss the uniqueness of R.\n    ",
+        "submission_date": "2009-04-09T00:00:00",
+        "last_modified_date": "2009-04-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.3944",
+        "title": "Better Global Polynomial Approximation for Image Rectification",
+        "authors": [
+            "Christopher O. Ward"
+        ],
+        "abstract": "  When using images to locate objects, there is the problem of correcting for distortion and misalignment in the images. An elegant way of solving this problem is to generate an error correcting function that maps points in an image to their corrected locations. We generate such a function by fitting a polynomial to a set of sample points. The objective is to identify a polynomial that passes \"sufficiently close\" to these points with \"good\" approximation of intermediate points. In the past, it has been difficult to achieve good global polynomial approximation using only sample points. We report on the development of a global polynomial approximation algorithm for solving this problem. Key Words: Polynomial approximation, interpolation, image rectification.\n    ",
+        "submission_date": "2009-04-24T00:00:00",
+        "last_modified_date": "2009-04-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2459",
+        "title": "On Design and Implementation of the Distributed Modular Audio Recognition Framework: Requirements and Specification Design Document",
+        "authors": [
+            "Serguei A. Mokhov"
+        ],
+        "abstract": "  We present the requirements and design specification of the open-source Distributed Modular Audio Recognition Framework (DMARF), a distributed extension of MARF. The distributed version aggregates a number of distributed technologies (e.g. Java RMI, CORBA, Web Services) in a pluggable and modular model along with the provision of advanced distributed systems algorithms. We outline the associated challenges incurred during the design and implementation as well as overall specification of the project and its advantages and limitations.\n    ",
+        "submission_date": "2009-05-15T00:00:00",
+        "last_modified_date": "2009-07-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2463",
+        "title": "Generalized Kernel-based Visual Tracking",
+        "authors": [
+            "Chunhua Shen",
+            "Junae Kim",
+            "Hanzi Wang"
+        ],
+        "abstract": "  In this work we generalize the plain MS trackers and attempt to overcome standard mean shift trackers' two limitations.\n",
+        "submission_date": "2009-05-15T00:00:00",
+        "last_modified_date": "2009-06-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2635",
+        "title": "Point-Set Registration: Coherent Point Drift",
+        "authors": [
+            "Andriy Myronenko",
+            "Xubo Song"
+        ],
+        "abstract": "  Point set registration is a key component in many computer vision tasks. The goal of point set registration is to assign correspondences between two sets of points and to recover the transformation that maps one point set to the other. Multiple factors, including an unknown non-rigid spatial transformation, large dimensionality of point set, noise and outliers, make the point set registration a challenging problem. We introduce a probabilistic method, called the Coherent Point Drift (CPD) algorithm, for both rigid and non-rigid point set registration. We consider the alignment of two point sets as a probability density estimation problem. We fit the GMM centroids (representing the first point set) to the data (the second point set) by maximizing the likelihood. We force the GMM centroids to move coherently as a group to preserve the topological structure of the point sets. In the rigid case, we impose the coherence constraint by re-parametrization of GMM centroid locations with rigid parameters and derive a closed form solution of the maximization step of the EM algorithm in arbitrary dimensions. In the non-rigid case, we impose the coherence constraint by regularizing the displacement field and using the variational calculus to derive the optimal transformation. We also introduce a fast algorithm that reduces the method computation complexity to linear. We test the CPD algorithm for both rigid and non-rigid transformations in the presence of noise, outliers and missing points, where CPD shows accurate results and outperforms current state-of-the-art methods.\n    ",
+        "submission_date": "2009-05-15T00:00:00",
+        "last_modified_date": "2009-05-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2924",
+        "title": "Colorization of Natural Images via L1 Optimization",
+        "authors": [
+            "Nassir Mohammad",
+            "Alexander Balinsky"
+        ],
+        "abstract": "  Natural images in the colour space YUV have been observed to have a non-Gaussian, heavy tailed distribution (called 'sparse') when the filter G(U)(r) = U(r) - sum_{s \\in N(r)} w{(Y)_{rs}} U(s), is applied to the chromacity channel U (and equivalently to V), where w is a weighting function constructed from the intensity component Y [1]. In this paper we develop Bayesian analysis of the colorization problem using the filter response as a regularization term to arrive at a non-convex optimization problem. This problem is convexified using L1 optimization which often gives the same results for sparse signals [2]. It is observed that L1 optimization, in many cases, over-performs the famous colorization algorithm by Levin et al [3].\n    ",
+        "submission_date": "2009-05-18T00:00:00",
+        "last_modified_date": "2009-05-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2958",
+        "title": "A statistical learning approach to color demosaicing",
+        "authors": [
+            "J.H. Oaknin"
+        ],
+        "abstract": "  A statistical learning/inference framework for color demosaicing is presented. We start with simplistic assumptions about color constancy, and recast color demosaicing as a blind linear inverse problem: color parameterizes the unknown kernel, while brightness takes on the role of a latent variable. An expectation-maximization algorithm naturally suggests itself for the estimation of them both. Then, as we gradually broaden the family of hypothesis where color is learned, we let our demosaicing behave adaptively, in a manner that reflects our prior knowledge about the statistics of color images. We show that we can incorporate realistic, learned priors without essentially changing the complexity of the simple expectation-maximization algorithm we started with.\n    ",
+        "submission_date": "2009-05-18T00:00:00",
+        "last_modified_date": "2010-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.3347",
+        "title": "Information Distance in Multiples",
+        "authors": [
+            "Paul M.B. Vitanyi"
+        ],
+        "abstract": "  Information distance is a parameter-free similarity measure based on compression, used in pattern recognition, data mining, phylogeny, clustering, and classification. The notion of information distance is extended from pairs to multiples (finite lists). We study maximal overlap, metricity, universality, minimal overlap, additivity, and normalized information distance in multiples. We use the theoretical notion of Kolmogorov complexity which for practical purposes is approximated by the length of the compressed version of the file involved, using a real-world compression program.\n",
+        "submission_date": "2009-05-20T00:00:00",
+        "last_modified_date": "2009-05-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.3964",
+        "title": "A New Solution to the Relative Orientation Problem using only 3 Points and the Vertical Direction",
+        "authors": [
+            "Mahzad Kalantari",
+            "Amir Hashemi",
+            "Franck Jung",
+            "JeanPierre Guedon"
+        ],
+        "abstract": "  This paper presents a new method to recover the relative pose between two images, using three points and the vertical direction information. The vertical direction can be determined in two ways: 1- using direct physical measurement like IMU (inertial measurement unit), 2- using vertical vanishing point. This knowledge of the vertical direction solves 2 unknowns among the 3 parameters of the relative rotation, so that only 3 homologous points are requested to position a couple of images. Rewriting the coplanarity equations leads to a simpler solution. The remaining unknowns resolution is performed by an algebraic method using Grobner bases. The elements necessary to build a specific algebraic solver are given in this paper, allowing for a real-time implementation. The results on real and synthetic data show the efficiency of this method.\n    ",
+        "submission_date": "2009-05-25T00:00:00",
+        "last_modified_date": "2009-05-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.0434",
+        "title": "Total Variation, Adaptive Total Variation and Nonconvex Smoothly Clipped Absolute Deviation Penalty for Denoising Blocky Images",
+        "authors": [
+            "Aditya Chopra",
+            "Heng Lian"
+        ],
+        "abstract": "  The total variation-based image denoising model has been generalized and extended in numerous ways, improving its performance in different contexts. We propose a new penalty function motivated by the recent progress in the statistical literature on high-dimensional variable selection. Using a particular instantiation of the majorization-minimization algorithm, the optimization problem can be efficiently solved and the computational procedure realized is similar to the spatially adaptive total variation model. Our two-pixel image model shows theoretically that the new penalty function solves the bias problem inherent in the total variation model. The superior performance of the new penalty is demonstrated through several experiments. Our investigation is limited to \"blocky\" images which have small total variation.\n    ",
+        "submission_date": "2009-06-02T00:00:00",
+        "last_modified_date": "2009-06-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.1763",
+        "title": "Segmentation of Facial Expressions Using Semi-Definite Programming and Generalized Principal Component Analysis",
+        "authors": [
+            "Behnood Gholami",
+            "Allen R. Tannenbaum",
+            "Wassim M. Haddad"
+        ],
+        "abstract": "  In this paper, we use semi-definite programming and generalized principal component analysis (GPCA) to distinguish between two or more different facial expressions. In the first step, semi-definite programming is used to reduce the dimension of the image data and \"unfold\" the manifold which the data points (corresponding to facial expressions) reside on. Next, GPCA is used to fit a series of subspaces to the data points and associate each data point with a subspace. Data points that belong to the same subspace are claimed to belong to the same facial expression category. An example is provided.\n    ",
+        "submission_date": "2009-06-09T00:00:00",
+        "last_modified_date": "2009-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2716",
+        "title": "Maximal digital straight segments and convergence of discrete geometric estimators",
+        "authors": [
+            "F. De Vieilleville",
+            "Jacques-Olivier Lachaud",
+            "F. Feschet"
+        ],
+        "abstract": "  Discrete geometric estimators approach geometric quantities on digitized shapes without any knowledge of the continuous shape. A classical yet difficult problem is to show that an estimator asymptotically converges toward the true geometric quantity as the resolution increases. We study here the convergence of local estimators based on Digital Straight Segment (DSS) recognition. It is closely linked to the asymptotic growth of maximal DSS, for which we show bounds both about their number and sizes. These results not only give better insights about digitized curves but indicate that curvature estimators based on local DSS recognition are not likely to converge. We indeed invalidate an hypothesis which was essential in the only known convergence theorem of a discrete curvature estimator. The proof involves results from arithmetic properties of digital lines, digital convexity, combinatorics, continued fractions and random polytopes.\n    ",
+        "submission_date": "2009-06-15T00:00:00",
+        "last_modified_date": "2009-06-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2770",
+        "title": "Combinatorial pyramids and discrete geometry for energy-minimizing segmentation",
+        "authors": [
+            "Martin Braure De Calignon",
+            "Luc Brun",
+            "Jacques-Olivier Lachaud"
+        ],
+        "abstract": "  This paper defines the basis of a new hierarchical framework for segmentation algorithms based on energy minimization schemes. This new framework is based on two formal tools. First, a combinatorial pyramid encode efficiently a hierarchy of partitions. Secondly, discrete geometric estimators measure precisely some important geometric parameters of the regions. These measures combined with photometrical and topological features of the partition allows to design energy terms based on discrete measures. Our segmentation framework exploits these energies to build a pyramid of image partitions with a minimization scheme. Some experiments illustrating our framework are shown and discussed.\n    ",
+        "submission_date": "2009-06-15T00:00:00",
+        "last_modified_date": "2009-06-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3068",
+        "title": "Deformable Model with a Complexity Independent from Image Resolution",
+        "authors": [
+            "Jacques-Olivier Lachaud",
+            "Benjamin Taton"
+        ],
+        "abstract": "  We present a parametric deformable model which recovers image components with a complexity independent from the resolution of input images. The proposed model also automatically changes its topology and remains fully compatible with the general framework of deformable models. More precisely, the image space is equipped with a metric that expands salient image details according to their strength and their curvature. During the whole evolution of the model, the sampling of the contour is kept regular with respect to this metric. By this way, the vertex density is reduced along most parts of the curve while a high quality of shape representation is preserved. The complexity of the deformable model is thus improved and is no longer influenced by feature-preserving changes in the resolution of input images. Building the metric requires a prior estimation of contour curvature. It is obtained using a robust estimator which investigates the local variations in the orientation of image gradient. Experimental results on both computer generated and biomedical images are presented to illustrate the advantages of our approach.\n    ",
+        "submission_date": "2009-06-17T00:00:00",
+        "last_modified_date": "2009-06-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3323",
+        "title": "Adaptive Regularization of Ill-Posed Problems: Application to Non-rigid Image Registration",
+        "authors": [
+            "Andriy Myronenko",
+            "Xubo Song"
+        ],
+        "abstract": "  We introduce an adaptive regularization approach. In contrast to conventional Tikhonov regularization, which specifies a fixed regularization operator, we estimate it simultaneously with parameters. From a Bayesian perspective we estimate the prior distribution on parameters assuming that it is close to some given model distribution. We constrain the prior distribution to be a Gauss-Markov random field (GMRF), which allows us to solve for the prior distribution analytically and provides a fast optimization algorithm. We apply our approach to non-rigid image registration to estimate the spatial transformation between two images. Our evaluation shows that the adaptive regularization approach significantly outperforms standard variational methods.\n    ",
+        "submission_date": "2009-06-17T00:00:00",
+        "last_modified_date": "2009-06-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3770",
+        "title": "Automatic Defect Detection and Classification Technique from Image: A Special Case Using Ceramic Tiles",
+        "authors": [
+            "G. M. Atiqur Rahaman",
+            "Md. Mobarak Hossain"
+        ],
+        "abstract": "  Quality control is an important issue in the ceramic tile industry. On the other hand maintaining the rate of production with respect to time is also a major issue in ceramic tile manufacturing. Again, price of ceramic tiles also depends on purity of texture, accuracy of color, shape etc. Considering this criteria, an automated defect detection and classification technique has been proposed in this report that can have ensured the better quality of tiles in manufacturing process as well as production rate. Our proposed method plays an important role in ceramic tiles industries to detect the defects and to control the quality of ceramic tiles. This automated classification method helps us to acquire knowledge about the pattern of defect within a very short period of time and also to decide about the recovery process so that the defected tiles may not be mixed with the fresh tiles.\n    ",
+        "submission_date": "2009-06-20T00:00:00",
+        "last_modified_date": "2009-06-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.4036",
+        "title": "Physical Modeling Techniques in Active Contours for Image Segmentation",
+        "authors": [
+            "Hongyu Lu",
+            "Shanglian Bao"
+        ],
+        "abstract": "  Physical modeling method, represented by simulation and visualization of the principles in physics, is introduced in the shape extraction of the active contours. The objectives of adopting this concept are to address the several major difficulties in the application of Active Contours. Primarily, a technique is developed to realize the topological changes of Parametric Active Contours (Snakes). The key strategy is to imitate the process of a balloon expanding and filling in a closed space with several objects. After removing the touched balloon surfaces, the objects can be identified by surrounded remaining balloon surfaces. A burned region swept by Snakes is utilized to trace the contour and to give a criterion for stopping the movement of Snake curve. When the Snakes terminates evolution totally, through ignoring this criterion, it can form a connected area by evolving the Snakes again and continuing the region burning. The contours extracted from the boundaries of the burned area can represent the child snake of each object respectively. Secondly, a novel scheme is designed to solve the problems of leakage of the contour from the large gaps, and the segmentation error in Geometric Active Contours (GAC). It divides the segmentation procedure into two processing stages. By simulating the wave propagating in the isotropic substance at the final stage, it can significantly enhance the effect of image force in GAC based on Level Set and give the satisfied solutions to the two problems. Thirdly, to support the physical models for active contours above, we introduce a general image force field created on a template plane over the image plane. This force is more adaptable to noisy images with complicated geometric shapes.\n    ",
+        "submission_date": "2009-06-22T00:00:00",
+        "last_modified_date": "2009-06-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.4131",
+        "title": "Automatic Spatially-Adaptive Balancing of Energy Terms for Image Segmentation",
+        "authors": [
+            "Josna Rao",
+            "Ghassan Hamarneh",
+            "Rafeef Abugharbieh"
+        ],
+        "abstract": "  Image segmentation techniques are predominately based on parameter-laden optimization. The objective function typically involves weights for balancing competing image fidelity and segmentation regularization cost terms. Setting these weights suitably has been a painstaking, empirical process. Even if such ideal weights are found for a novel image, most current approaches fix the weight across the whole image domain, ignoring the spatially-varying properties of object shape and image appearance. We propose a novel technique that autonomously balances these terms in a spatially-adaptive manner through the incorporation of image reliability in a graph-based segmentation framework. We validate on synthetic data achieving a reduction in mean error of 47% (p-value << 0.05) when compared to the best fixed parameter segmentation. We also present results on medical images (including segmentations of the corpus callosum and brain tissue in MRI data) and on natural images.\n    ",
+        "submission_date": "2009-06-22T00:00:00",
+        "last_modified_date": "2009-06-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.4789",
+        "title": "Efficient IRIS Recognition through Improvement of Feature Extraction and subset Selection",
+        "authors": [
+            "Amir Azizi",
+            "Hamid Reza Pourreza"
+        ],
+        "abstract": "  The selection of the optimal feature subset and the classification has become an important issue in the field of iris recognition. In this paper we propose several methods for iris feature subset selection and vector creation. The deterministic feature sequence is extracted from the iris image by using the contourlet transform technique. Contourlet transform captures the intrinsic geometrical structures of iris image. It decomposes the iris image into a set of directional sub-bands with texture details captured in different orientations at various scales so for reducing the feature vector dimensions we use the method for extract only significant bit and information from normalized iris images. In this method we ignore fragile bits. And finally we use SVM (Support Vector Machine) classifier for approximating the amount of people identification in our proposed system. Experimental result show that most proposed method reduces processing time and increase the classification accuracy and also the iris feature vector length is much smaller versus the other methods.\n    ",
+        "submission_date": "2009-06-25T00:00:00",
+        "last_modified_date": "2009-06-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.5039",
+        "title": "A new approach for digit recognition based on hand gesture analysis",
+        "authors": [
+            "Ahmed Ben Jmaa",
+            "Walid Mahdi",
+            "Yousra Ben Jemaa",
+            "Abdelmajid Ben Hamadou"
+        ],
+        "abstract": "  We present in this paper a new approach for hand gesture analysis that allows digit recognition. The analysis is based on extracting a set of features from a hand image and then combining them by using an induction graph. The most important features we extract from each image are the fingers locations, their heights and the distance between each pair of fingers. Our approach consists of three steps: (i) Hand detection and localization, (ii) fingers extraction and (iii) features identification and combination to digit recognition. Each input image is assumed to contain only one person, thus we apply a fuzzy classifier to identify the skin pixels. In the finger extraction step, we attempt to remove all the hand components except the fingers, this process is based on the hand anatomy properties. The final step consists on representing histogram of the detected fingers in order to extract features that will be used for digit recognition. The approach is invariant to scale, rotation and translation of the hand. Some experiments have been undertaken to show the effectiveness of the proposed approach.\n    ",
+        "submission_date": "2009-06-27T00:00:00",
+        "last_modified_date": "2009-06-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.5120",
+        "title": "Comments on \"A new combination of evidence based on compromise\" by K. Yamada",
+        "authors": [
+            "Jean Dezert",
+            "Arnaud Martin",
+            "Florentin Smarandache"
+        ],
+        "abstract": "  Comments on ``A new combination of evidence based on compromise'' by K. Yamada\n    ",
+        "submission_date": "2009-06-28T00:00:00",
+        "last_modified_date": "2009-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0204",
+        "title": "Multi-Label MRF Optimization via Least Squares s-t Cuts",
+        "authors": [
+            "Ghassan Hamarneh"
+        ],
+        "abstract": "  There are many applications of graph cuts in computer vision, e.g. segmentation. We present a novel method to reformulate the NP-hard, k-way graph partitioning problem as an approximate minimal s-t graph cut problem, for which a globally optimal solution is found in polynomial time. Each non-terminal vertex in the original graph is replaced by a set of ceil(log_2(k)) new vertices. The original graph edges are replaced by new edges connecting the new vertices to each other and to only two, source s and sink t, terminal nodes. The weights of the new edges are obtained using a novel least squares solution approximating the constraints of the initial k-way setup. The minimal s-t cut labels each new vertex with a binary (s vs t) \"Gray\" encoding, which is then decoded into a decimal label number that assigns each of the original vertices to one of k classes. We analyze the properties of the approximation and present quantitative as well as qualitative segmentation results.\n    ",
+        "submission_date": "2009-07-01T00:00:00",
+        "last_modified_date": "2009-07-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0288",
+        "title": "An Iterative Fingerprint Enhancement Algorithm Based on Accurate Determination of Orientation Flow",
+        "authors": [
+            "Simant Dube"
+        ],
+        "abstract": "  We describe an algorithm to enhance and binarize a fingerprint image. The algorithm is based on accurate determination of orientation flow of the ridges of the fingerprint image by computing variance of the neighborhood pixels around a pixel in different directions. We show that an iterative algorithm which captures the mutual interdependence of orientation flow computation, enhancement and binarization gives very good results on poor quality images.\n    ",
+        "submission_date": "2009-07-02T00:00:00",
+        "last_modified_date": "2009-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0418",
+        "title": "Bounding the Probability of Error for High Precision Recognition",
+        "authors": [
+            "Andrew Kae",
+            "Gary B. Huang",
+            "Erik Learned-Miller"
+        ],
+        "abstract": "  We consider models for which it is important, early in processing, to estimate some variables with high precision, but perhaps at relatively low rates of recall. If some variables can be identified with near certainty, then they can be conditioned upon, allowing further inference to be done efficiently. Specifically, we consider optical character recognition (OCR) systems that can be bootstrapped by identifying a subset of correctly translated document words with very high precision. This \"clean set\" is subsequently used as document-specific training data. While many current OCR systems produce measures of confidence for the identity of each letter or word, thresholding these confidence values, even at very high values, still produces some errors.\n",
+        "submission_date": "2009-07-02T00:00:00",
+        "last_modified_date": "2009-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.1545",
+        "title": "Augmenting Light Field to model Wave Optics effects",
+        "authors": [
+            "Se Baek Oh",
+            "George Barbastathis",
+            "Ramesh Raskar"
+        ],
+        "abstract": "  The ray-based 4D light field representation cannot be directly used to analyze diffractive or phase--sensitive optical elements. In this paper, we exploit tools from wave optics and extend the light field representation via a novel \"light field transform\". We introduce a key modification to the ray--based model to support the transform. We insert a \"virtual light source\", with potentially negative valued radiance for certain emitted rays. We create a look-up table of light field transformers of canonical optical elements. The two key conclusions are that (i) in free space, the 4D light field completely represents wavefront propagation via rays with real (positive as well as negative) valued radiance and (ii) at occluders, a light field composed of light field transformers plus insertion of (ray--based) virtual light sources represents resultant phase and amplitude of wavefronts. For free--space propagation, we analyze different wavefronts and coherence possibilities. For occluders, we show that the light field transform is simply based on a convolution followed by a multiplication operation. This formulation brings powerful concepts from wave optics to computer vision and graphics. We show applications in cubic-phase plate imaging and holographic displays.\n    ",
+        "submission_date": "2009-07-09T00:00:00",
+        "last_modified_date": "2009-07-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.2075",
+        "title": "Multiresolution Elastic Medical Image Registration in Standard Intensity Scale",
+        "authors": [
+            "Ulas Bagci",
+            "Li Bai"
+        ],
+        "abstract": "  Medical image registration is a difficult problem. Not only a registration algorithm needs to capture both large and small scale image deformations, it also has to deal with global and local image intensity variations. In this paper we describe a new multiresolution elastic image registration method that challenges these difficulties in image registration. To capture large and small scale image deformations, we use both global and local affine transformation algorithms. To address global and local image intensity variations, we apply an image intensity standardization algorithm to correct image intensity variations. This transforms image intensities into a standard intensity scale, which allows highly accurate registration of medical images.\n    ",
+        "submission_date": "2009-07-12T00:00:00",
+        "last_modified_date": "2009-07-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.3209",
+        "title": "Registration of Standardized Histological Images in Feature Space",
+        "authors": [
+            "Ulas Bagci",
+            "Li Bai"
+        ],
+        "abstract": "  In this paper, we propose three novel and important methods for the registration of histological images for 3D reconstruction. First, possible intensity variations and nonstandardness in images are corrected by an intensity standardization process which maps the image scale into a standard scale where the similar intensities correspond to similar tissues meaning. Second, 2D histological images are mapped into a feature space where continuous variables are used as high confidence image features for accurate registration. Third, we propose an automatic best reference slice selection algorithm that improves reconstruction quality based on both image entropy and mean square error of the registration process. We demonstrate that the choice of reference slice has a significant impact on registration error, standardization, feature space and entropy information. After 2D histological slices are registered through an affine transformation with respect to an automatically chosen reference, the 3D volume is reconstructed by co-registering 2D slices elastically.\n    ",
+        "submission_date": "2009-07-18T00:00:00",
+        "last_modified_date": "2009-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.3215",
+        "title": "Fully Automatic 3D Reconstruction of Histological Images",
+        "authors": [
+            "Ulas Bagci",
+            "Li Bai"
+        ],
+        "abstract": "  In this paper, we propose a computational framework for 3D volume reconstruction from 2D histological slices using registration algorithms in feature space. To improve the quality of reconstructed 3D volume, first, intensity variations in images are corrected by an intensity standardization process which maps image intensity scale to a standard scale where similar intensities correspond to similar tissues. Second, a subvolume approach is proposed for 3D reconstruction by dividing standardized slices into groups. Third, in order to improve the quality of the reconstruction process, an automatic best reference slice selection algorithm is developed based on an iterative assessment of image entropy and mean square error of the registration process. Finally, we demonstrate that the choice of the reference slice has a significant impact on registration quality and subsequent 3D reconstruction.\n    ",
+        "submission_date": "2009-07-18T00:00:00",
+        "last_modified_date": "2009-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.3218",
+        "title": "Parallel AdaBoost Algorithm for Gabor Wavelet Selection in Face Recognition",
+        "authors": [
+            "Ulas Bagci",
+            "Li Bai"
+        ],
+        "abstract": "  In this paper, the problem of automatic Gabor wavelet selection for face recognition is tackled by introducing an automatic algorithm based on Parallel AdaBoosting method. Incorporating mutual information into the algorithm leads to the selection procedure not only based on classification accuracy but also on efficiency. Effective image features are selected by using properly chosen Gabor wavelets optimised with Parallel AdaBoost method and mutual information to get high recognition rates with low computational cost. Experiments are conducted using the well-known FERET face database. In proposed framework, memory and computation costs are reduced significantly and high classification accuracy is obtained.\n    ",
+        "submission_date": "2009-07-18T00:00:00",
+        "last_modified_date": "2009-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.3604",
+        "title": "Image Sampling with Quasicrystals",
+        "authors": [
+            "Mark Grundland",
+            "Jiri Patera",
+            "Zuzana Masakova",
+            "Neil A. Dodgson"
+        ],
+        "abstract": "  We investigate the use of quasicrystals in image sampling. Quasicrystals produce space-filling, non-periodic point sets that are uniformly discrete and relatively dense, thereby ensuring the sample sites are evenly spread out throughout the sampled image. Their self-similar structure can be attractive for creating sampling patterns endowed with a decorative symmetry. We present a brief general overview of the algebraic theory of cut-and-project quasicrystals based on the geometry of the golden ratio. To assess the practical utility of quasicrystal sampling, we evaluate the visual effects of a variety of non-adaptive image sampling strategies on photorealistic image reconstruction and non-photorealistic image rendering used in multiresolution image representations. For computer visualization of point sets used in image sampling, we introduce a mosaic rendering technique.\n    ",
+        "submission_date": "2009-07-21T00:00:00",
+        "last_modified_date": "2009-07-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.4354",
+        "title": "Learning Object Location Predictors with Boosting and Grammar-Guided Feature Extraction",
+        "authors": [
+            "Damian Eads",
+            "Edward Rosten",
+            "David Helmbold"
+        ],
+        "abstract": "  We present BEAMER: a new spatially exploitative approach to learning object detectors which shows excellent results when applied to the task of detecting objects in greyscale aerial imagery in the presence of ambiguous and noisy data. There are four main contributions used to produce these results. First, we introduce a grammar-guided feature extraction system, enabling the exploration of a richer feature space while constraining the features to a useful subset. This is specified with a rule-based generative grammar crafted by a human expert. Second, we learn a classifier on this data using a newly proposed variant of AdaBoost which takes into account the spatially correlated nature of the data. Third, we perform another round of training to optimize the method of converting the pixel classifications generated by boosting into a high quality set of (x, y) locations. Lastly, we carefully define three common problems in object detection and define two evaluation criteria that are tightly matched to these problems. Major strengths of this approach are: (1) a way of randomly searching a broad feature space, (2) its performance when evaluated on well-matched evaluation criteria, and (3) its use of the location prediction domain to learn object detectors as well as to generate detections that perform well on several tasks: object counting, tracking, and target detection. We demonstrate the efficacy of BEAMER with a comprehensive experimental evaluation on a challenging data set.\n    ",
+        "submission_date": "2009-07-24T00:00:00",
+        "last_modified_date": "2009-07-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.4984",
+        "title": "Automatic local Gabor Features extraction for face recognition",
+        "authors": [
+            "Yousra Ben Jemaa",
+            "Sana Khanfir"
+        ],
+        "abstract": "  We present in this paper a biometric system of face detection and recognition in color images. The face detection technique is based on skin color information and fuzzy classification. A new algorithm is proposed in order to detect automatically face features (eyes, mouth and nose) and extract their correspondent geometrical points. These fiducial points are described by sets of wavelet components which are used for recognition. To achieve the face recognition, we use neural networks and we study its performances for different inputs. We compare the two types of features used for recognition: geometric distances and Gabor coefficients which can be used either independently or jointly. This comparison shows that Gabor coefficients are more powerful than geometric distances. We show with experimental results how the importance recognition ratio makes our system an effective tool for automatic face detection and recognition.\n    ",
+        "submission_date": "2009-07-28T00:00:00",
+        "last_modified_date": "2009-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.5321",
+        "title": "Multiple pattern classification by sparse subspace decomposition",
+        "authors": [
+            "Tomoya Sakai"
+        ],
+        "abstract": "  A robust classification method is developed on the basis of sparse subspace decomposition. This method tries to decompose a mixture of subspaces of unlabeled data (queries) into class subspaces as few as possible. Each query is classified into the class whose subspace significantly contributes to the decomposed subspace. Multiple queries from different classes can be simultaneously classified into their respective classes. A practical greedy algorithm of the sparse subspace decomposition is designed for the classification. The present method achieves high recognition rate and robust performance exploiting joint sparsity.\n    ",
+        "submission_date": "2009-07-30T00:00:00",
+        "last_modified_date": "2009-08-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.1369",
+        "title": "Segmentation for radar images based on active contour",
+        "authors": [
+            "Meijun Zhu",
+            "Pengfei Zhang"
+        ],
+        "abstract": "  We exam various geometric active contour methods for radar image segmentation. Due to special properties of radar images, we propose our new model based on modified Chan-Vese functional. Our method is efficient in separating non-meteorological noises from meteorological images.\n    ",
+        "submission_date": "2009-08-10T00:00:00",
+        "last_modified_date": "2009-08-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.1919",
+        "title": "A dyadic solution of relative pose problems",
+        "authors": [
+            "Patrick Erik Bradley"
+        ],
+        "abstract": "  A hierarchical interval subdivision is shown to lead to a $p$-adic encoding of image data. This allows in the case of the relative pose problem in computer vision and photogrammetry to derive equations having 2-adic numbers as coefficients, and to use Hensel's lifting method to their solution. This method is applied to the linear and non-linear equations coming from eight, seven or five point correspondences. An inherent property of the method is its robustness.\n    ",
+        "submission_date": "2009-08-13T00:00:00",
+        "last_modified_date": "2009-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.2656",
+        "title": "Semantic Robot Vision Challenge: Current State and Future Directions",
+        "authors": [
+            "Scott Helmer",
+            "David Meger",
+            "Pooja Viswanathan",
+            "Sancho McCann",
+            "Matthew Dockrey",
+            "Pooyan Fazli",
+            "Tristram Southey",
+            "Marius Muja",
+            "Michael Joya",
+            "Jim Little",
+            "David Lowe",
+            "Alan Mackworth"
+        ],
+        "abstract": "  The Semantic Robot Vision Competition provided an excellent opportunity for our research lab to integrate our many ideas under one umbrella, inspiring both collaboration and new research. The task, visual search for an unknown object, is relevant to both the vision and robotics communities. Moreover, since the interplay of robotics and vision is sometimes ignored, the competition provides a venue to integrate two communities. In this paper, we outline a number of modifications to the competition to both improve the state-of-the-art and increase participation.\n    ",
+        "submission_date": "2009-08-19T00:00:00",
+        "last_modified_date": "2009-08-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3252",
+        "title": "Non-quadratic convex regularized reconstruction of MR images from spiral acquisitions",
+        "authors": [
+            "R. Boubertakh",
+            "J.-F. Giovannelli",
+            "A. Herment",
+            "A. De Cesare"
+        ],
+        "abstract": "  Combining fast MR acquisition sequences and high resolution imaging is a major issue in dynamic imaging. Reducing the acquisition time can be achieved by using non-Cartesian and sparse acquisitions. The reconstruction of MR images from these measurements is generally carried out using gridding that interpolates the missing data to obtain a dense Cartesian k-space filling. The MR image is then reconstructed using a conventional Fast Fourier Transform. The estimation of the missing data unavoidably introduces artifacts in the image that remain difficult to quantify.\n",
+        "submission_date": "2009-08-22T00:00:00",
+        "last_modified_date": "2009-08-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3359",
+        "title": "Geometric Analysis of the Conformal Camera for Intermediate-Level Vision and Perisaccadic Perception",
+        "authors": [
+            "Jacek Turski"
+        ],
+        "abstract": "  A binocular system developed by the author in terms of projective Fourier transform (PFT) of the conformal camera, which numerically integrates the head, eyes, and visual cortex, is used to process visual information during saccadic eye movements. Although we make three saccades per second at the eyeball's maximum speed of 700 deg/sec, our visual system accounts for these incisive eye movements to produce a stable percept of the world. This visual constancy is maintained by neuronal receptive field shifts in various retinotopically organized cortical areas prior to saccade onset, giving the brain access to visual information from the saccade's target before the eyes' arrival. It integrates visual information acquisition across saccades. Our modeling utilizes basic properties of PFT. First, PFT is computable by FFT in complex logarithmic coordinates that approximate the retinotopy. Second, a translation in retinotopic (logarithmic) coordinates, modeled by the shift property of the Fourier transform, remaps the presaccadic scene into a postsaccadic reference frame. It also accounts for the perisaccadic mislocalization observed by human subjects in laboratory experiments. Because our modeling involves cross-disciplinary areas of conformal geometry, abstract and computational harmonic analysis, computational vision, and visual neuroscience, we include the corresponding background material and elucidate how these different areas interwove in our modeling of primate perception. In particular, we present the physiological and behavioral facts underlying the neural processes related to our modeling. We also emphasize the conformal camera's geometry and discuss how it is uniquely useful in the intermediate-level vision computational aspects of natural scene understanding.\n    ",
+        "submission_date": "2009-08-24T00:00:00",
+        "last_modified_date": "2009-08-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.4386",
+        "title": "Handwritten Farsi Character Recognition using Artificial Neural Network",
+        "authors": [
+            "Reza Gharoie Ahangar",
+            "Mohammad Farajpoor Ahangar"
+        ],
+        "abstract": "  Neural Networks are being used for character recognition from last many years but most of the work was confined to English character recognition. Till date, a very little work has been reported for Handwritten Farsi Character recognition. In this paper, we have made an attempt to recognize handwritten Farsi characters by using a multilayer perceptron with one hidden layer. The error backpropagation algorithm has been used to train the MLP network. In addition, an analysis has been carried out to determine the number of hidden nodes to achieve high performance of backpropagation network in the recognition of handwritten Farsi characters. The system has been trained using several different forms of handwriting provided by both male and female participants of different age groups. Finally, this rigorous training results an automatic HCR system using MLP network. In this work, the experiments were carried out on two hundred fifty samples of five writers. The results showed that the MLP networks trained by the error backpropagation algorithm are superior in recognition accuracy and memory usage. The result indicates that the backpropagation network provides good recognition accuracy of more than 80% of handwritten Farsi characters.\n    ",
+        "submission_date": "2009-08-30T00:00:00",
+        "last_modified_date": "2009-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.0481",
+        "title": "Scale-Based Gaussian Coverings: Combining Intra and Inter Mixture Models in Image Segmentation",
+        "authors": [
+            "Fionn Murtagh",
+            "Pedro Contreras",
+            "Jean-Luc Starck"
+        ],
+        "abstract": "  By a \"covering\" we mean a Gaussian mixture model fit to observed data. Approximations of the Bayes factor can be availed of to judge model fit to the data within a given Gaussian mixture model. Between families of Gaussian mixture models, we propose the R\u00e9nyi quadratic entropy as an excellent and tractable model comparison framework. We exemplify this using the segmentation of an MRI image volume, based (1) on a direct Gaussian mixture model applied to the marginal distribution function, and (2) Gaussian model fit through k-means applied to the 4D multivalued image volume furnished by the wavelet transform. Visual preference for one model over another is not immediate. The R\u00e9nyi quadratic entropy allows us to show clearly that one of these modelings is superior to the other.\n    ",
+        "submission_date": "2009-09-02T00:00:00",
+        "last_modified_date": "2009-09-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.1605",
+        "title": "Kernel Spectral Curvature Clustering (KSCC)",
+        "authors": [
+            "G. Chen",
+            "S. Atev",
+            "G. Lerman"
+        ],
+        "abstract": "  Multi-manifold modeling is increasingly used in segmentation and data representation tasks in computer vision and related fields. While the general problem, modeling data by mixtures of manifolds, is very challenging, several approaches exist for modeling data by mixtures of affine subspaces (which is often referred to as hybrid linear modeling). We translate some important instances of multi-manifold modeling to hybrid linear modeling in embedded spaces, without explicitly performing the embedding but applying the kernel trick. The resulting algorithm, Kernel Spectral Curvature Clustering, uses kernels at two levels - both as an implicit embedding method to linearize nonflat manifolds and as a principled method to convert a multiway affinity problem into a spectral clustering one. We demonstrate the effectiveness of the method by comparing it with other state-of-the-art methods on both synthetic data and a real-world problem of segmenting multiple motions from two perspective camera views.\n    ",
+        "submission_date": "2009-09-09T00:00:00",
+        "last_modified_date": "2009-09-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.1608",
+        "title": "Motion Segmentation by SCC on the Hopkins 155 Database",
+        "authors": [
+            "G. Chen",
+            "G. Lerman"
+        ],
+        "abstract": "  We apply the Spectral Curvature Clustering (SCC) algorithm to a benchmark database of 155 motion sequences, and show that it outperforms all other state-of-the-art methods. The average misclassification rate by SCC is 1.41% for sequences having two motions and 4.85% for three motions.\n    ",
+        "submission_date": "2009-09-09T00:00:00",
+        "last_modified_date": "2009-09-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2017",
+        "title": "Sparsity and `Something Else': An Approach to Encrypted Image Folding",
+        "authors": [
+            "James Bowley",
+            "Laura Rebollo-Neira"
+        ],
+        "abstract": "A property of sparse representations in relation to their capacity for information storage is discussed. It is shown that this feature can be used for an application that we term Encrypted Image Folding. The proposed procedure is realizable through any suitable transformation. In particular, in this paper we illustrate the approach by recourse to the Discrete Cosine Transform and a combination of redundant Cosine and Dirac dictionaries. The main advantage of the proposed technique is that both storage and encryption can be achieved simultaneously using simple processing steps.\n    ",
+        "submission_date": "2009-09-10T00:00:00",
+        "last_modified_date": "2012-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2373",
+        "title": "An Efficient Secure Multimodal Biometric Fusion Using Palmprint and Face Image",
+        "authors": [
+            "M. Nageshkumar",
+            "P.K. Mahesh",
+            "M.N.S. Swamy"
+        ],
+        "abstract": "  Biometrics based personal identification is regarded as an effective method for automatically recognizing, with a high confidence a person's identity. A multimodal biometric systems consolidate the evidence presented by multiple biometric sources and typically better recognition performance compare to system based on a single biometric modality. This paper proposes an authentication method for a multimodal biometric system identification using two traits i.e. face and palmprint. The proposed system is designed for application where the training data contains a face and palmprint. Integrating the palmprint and face features increases robustness of the person authentication. The final decision is made by fusion at matching score level architecture in which features vectors are created independently for query measures and are then compared to the enrolment template, which are stored during database preparation. Multimodal biometric system is developed through fusion of face and palmprint recognition.\n    ",
+        "submission_date": "2009-09-12T00:00:00",
+        "last_modified_date": "2009-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3123",
+        "title": "Median K-flats for hybrid linear modeling with many outliers",
+        "authors": [
+            "Teng Zhang",
+            "Arthur Szlam",
+            "Gilad Lerman"
+        ],
+        "abstract": "  We describe the Median K-Flats (MKF) algorithm, a simple online method for hybrid linear modeling, i.e., for approximating data by a mixture of flats. This algorithm simultaneously partitions the data into clusters while finding their corresponding best approximating l1 d-flats, so that the cumulative l1 error is minimized. The current implementation restricts d-flats to be d-dimensional linear subspaces. It requires a negligible amount of storage, and its complexity, when modeling data consisting of N points in D-dimensional Euclidean space with K d-dimensional linear subspaces, is of order O(n K d D+n d^2 D), where n is the number of iterations required for convergence (empirically on the order of 10^4). Since it is an online algorithm, data can be supplied to it incrementally and it can incrementally produce the corresponding output. The performance of the algorithm is carefully evaluated using synthetic and real data.\n    ",
+        "submission_date": "2009-09-16T00:00:00",
+        "last_modified_date": "2009-09-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3395",
+        "title": "A possible low-level explanation of \"temporal dynamics of brightness induction and White's illusion\"",
+        "authors": [
+            "Subhajit Karmakar",
+            "Sandip Sarkar"
+        ],
+        "abstract": "  Based upon physiological observation on time dependent orientation selectivity in the cells of macaque's primary visual cortex together with the psychophysical studies on the tuning of orientation detectors in human vision we suggest that time dependence in brightness perception can be accommodated through the time evolution of cortical contribution to the orientation tuning of the ODoG filter responses. A set of Difference of Gaussians functions has been used to mimic the time dependence of orientation tuning. The tuning of orientation preference and its inversion at a later time have been considered in explaining qualitatively the temporal dynamics of brightness perception observed in \"Brief presentations reveal the temporal dynamics of brightness induction and White's illusion\" for 58 and 82 ms of stimulus exposure.\n    ",
+        "submission_date": "2009-09-18T00:00:00",
+        "last_modified_date": "2009-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3911",
+        "title": "A Method for Extraction and Recognition of Isolated License Plate Characters",
+        "authors": [
+            "Yon Ping Chen",
+            "Tien Der Yeh"
+        ],
+        "abstract": "  A method to extract and recognize isolated characters in license plates is proposed. In extraction stage, the proposed method detects isolated characters by using Difference-of-Gaussian (DOG) function, The DOG function, similar to Laplacian of Gaussian function, was proven to produce the most stable image features compared to a range of other possible image functions. The candidate characters are extracted by doing connected component analysis on different scale DOG images. In recognition stage, a novel feature vector named accumulated gradient projection vector (AGPV) is used to compare the candidate character with the standard ones. The AGPV is calculated by first projecting pixels of similar gradient orientations onto specific axes, and then accumulates the projected gradient magnitudes by each axis. In the experiments, the AGPVs are proven to be invariant from image scaling and rotation, and robust to noise and illumination change.\n    ",
+        "submission_date": "2009-09-22T00:00:00",
+        "last_modified_date": "2009-09-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.5458",
+        "title": "Information tracking approach to segmentation of ultrasound imagery of prostate",
+        "authors": [
+            "Robert Sheng Xu",
+            "Oleg Michailovich",
+            "Magdy Salama"
+        ],
+        "abstract": "  The size and geometry of the prostate are known to be pivotal quantities used by clinicians to assess the condition of the gland during prostate cancer screening. As an alternative to palpation, an increasing number of methods for estimation of the above-mentioned quantities are based on using imagery data of prostate. The necessity to process large volumes of such data creates a need for automatic segmentation tools which would allow the estimation to be carried out with maximum accuracy and efficiency. In particular, the use of transrectal ultrasound (TRUS) imaging in prostate cancer screening seems to be becoming a standard clinical practice due to the high benefit-to-cost ratio of this imaging modality. Unfortunately, the segmentation of TRUS images is still hampered by relatively low contrast and reduced SNR of the images, thereby requiring the segmentation algorithms to incorporate prior knowledge about the geometry of the gland. In this paper, a novel approach to the problem of segmenting the TRUS images is described. The proposed approach is based on the concept of distribution tracking, which provides a unified framework for modeling and fusing image-related and morphological features of the prostate. Moreover, the same framework allows the segmentation to be regularized via using a new type of \"weak\" shape priors, which minimally bias the estimation procedure, while rendering the latter stable and robust.\n    ",
+        "submission_date": "2009-09-29T00:00:00",
+        "last_modified_date": "2009-09-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.5460",
+        "title": "Iterative Shrinkage Approach to Restoration of Optical Imagery",
+        "authors": [
+            "E. Shaked",
+            "O. Michailovich"
+        ],
+        "abstract": "  The problem of reconstruction of digital images from their degraded measurements is regarded as a problem of central importance in various fields of engineering and imaging sciences. In such cases, the degradation is typically caused by the resolution limitations of an imaging device in use and/or by the destructive influence of measurement noise. Specifically, when the noise obeys a Poisson probability law, standard approaches to the problem of image reconstruction are based on using fixed-point algorithms which follow the methodology first proposed by Richardson and Lucy. The practice of using these methods, however, shows that their convergence properties tend to deteriorate at relatively high noise levels. Accordingly, in the present paper, a novel method for de-noising and/or de-blurring of digital images corrupted by Poisson noise is introduced. The proposed method is derived under the assumption that the image of interest can be sparsely represented in the domain of a linear transform. Consequently, a shrinkage-based iterative procedure is proposed, which guarantees the solution to converge to the global maximizer of an associated maximum-a-posteriori criterion. It is shown in a series of both computer-simulated and real-life experiments that the proposed method outperforms a number of existing alternatives in terms of stability, precision, and computational efficiency.\n    ",
+        "submission_date": "2009-09-29T00:00:00",
+        "last_modified_date": "2010-01-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.5656",
+        "title": "Improvements of the 3D images captured with Time-of-Flight cameras",
+        "authors": [
+            "D. Falie"
+        ],
+        "abstract": "  3D Time-of-Flight camera's images are affected by errors due to the diffuse (indirect) light and to the flare light. The presented method improves the 3D image reducing the distance's errors to dark surface objects. This is achieved by placing one or two contrast tags in the scene at different distances from the ToF camera. The white and black parts of the tags are situated at the same distance to the camera but the distances measured by the camera are different. This difference is used to compute a correction vector. The distance to black surfaces is corrected by subtracting this vector from the captured vector image.\n    ",
+        "submission_date": "2009-09-30T00:00:00",
+        "last_modified_date": "2009-09-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1273",
+        "title": "Adaboost with \"Keypoint Presence Features\" for Real-Time Vehicle Visual Detection",
+        "authors": [
+            "Taoufik Bdiri",
+            "Fabien Moutarde",
+            "Nicolas Bourdis",
+            "Bruno Steux"
+        ],
+        "abstract": "  We present promising results for real-time vehicle visual detection, obtained with adaBoost using new original ?keypoints presence features?. These weak-classifiers produce a boolean response based on presence or absence in the tested image of a ?keypoint? (~ a SURF interest point) with a descriptor sufficiently similar (i.e. within a given distance) to a reference descriptor characterizing the feature. A first experiment was conducted on a public image dataset containing lateral-viewed cars, yielding 95% recall with 95% precision on test set. Moreover, analysis of the positions of adaBoost-selected keypoints show that they correspond to a specific part of the object category (such as ?wheel? or ?side skirt?) and thus have a ?semantic? meaning.\n    ",
+        "submission_date": "2009-10-07T00:00:00",
+        "last_modified_date": "2009-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1293",
+        "title": "Introducing New AdaBoost Features for Real-Time Vehicle Detection",
+        "authors": [
+            "Bogdan Stanciulescu",
+            "Amaury Breheret",
+            "Fabien Moutarde"
+        ],
+        "abstract": "  This paper shows how to improve the real-time object detection in complex robotics applications, by exploring new visual features as AdaBoost weak classifiers. These new features are symmetric Haar filters (enforcing global horizontal and vertical symmetry) and N-connexity control points. Experimental evaluation on a car database show that the latter appear to provide the best results for the vehicle-detection problem.\n    ",
+        "submission_date": "2009-10-07T00:00:00",
+        "last_modified_date": "2009-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1294",
+        "title": "Visual object categorization with new keypoint-based adaBoost features",
+        "authors": [
+            "Taoufik Bdiri",
+            "Fabien Moutarde",
+            "Bruno Steux"
+        ],
+        "abstract": "  We present promising results for visual object categorization, obtained with adaBoost using new original ?keypoints-based features?. These weak-classifiers produce a boolean response based on presence or absence in the tested image of a ?keypoint? (a kind of SURF interest point) with a descriptor sufficiently similar (i.e. within a given distance) to a reference descriptor characterizing the feature. A first experiment was conducted on a public image dataset containing lateral-viewed cars, yielding 95% recall with 95% precision on test set. Preliminary tests on a small subset of a pedestrians database also gives promising 97% recall with 92 % precision, which shows the generality of our new family of features. Moreover, analysis of the positions of adaBoost-selected keypoints show that they correspond to a specific part of the object category (such as ?wheel? or ?side skirt? in the case of lateral-cars) and thus have a ?semantic? meaning. We also made a first test on video for detecting vehicles from adaBoostselected keypoints filtered in real-time from all detected keypoints.\n    ",
+        "submission_date": "2009-10-07T00:00:00",
+        "last_modified_date": "2009-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1295",
+        "title": "Modular Traffic Sign Recognition applied to on-vehicle real-time visual detection of American and European speed limit signs",
+        "authors": [
+            "Fabien Moutarde",
+            "Alexandre Bargeton",
+            "Anne Herbin",
+            "Lowik Chanussot"
+        ],
+        "abstract": "  We present a new modular traffic signs recognition system, successfully applied to both American and European speed limit signs. Our sign detection step is based only on shape-detection (rectangles or circles). This enables it to work on grayscale images, contrary to most European competitors, which eases robustness to illumination conditions (notably night operation). Speed sign candidates are classified (or rejected) by segmenting potential digits inside them (which is rather original and has several advantages), and then applying a neural digit recognition. The global detection rate is ~90% for both (standard) U.S. and E.U. speed signs, with a misclassification rate <1%, and no validated false alarm in >150 minutes of video. The system processes in real-time ~20 frames/s on a standard high-end laptop.\n    ",
+        "submission_date": "2009-10-07T00:00:00",
+        "last_modified_date": "2009-10-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1844",
+        "title": "3D/2D Registration of Mapping Catheter Images for Arrhythmia Interventional Assistance",
+        "authors": [
+            "Pascal Fallavollita"
+        ],
+        "abstract": "  Radiofrequency (RF) catheter ablation has transformed treatment for tachyarrhythmias and has become first-line therapy for some tachycardias. The precise localization of the arrhythmogenic site and the positioning of the RF catheter over that site are problematic: they can impair the efficiency of the procedure and are time consuming (several hours). Electroanatomic mapping technologies are available that enable the display of the cardiac chambers and the relative position of ablation lesions. However, these are expensive and use custom-made catheters. The proposed methodology makes use of standard catheters and inexpensive technology in order to create a 3D volume of the heart chamber affected by the arrhythmia. Further, we propose a novel method that uses a priori 3D information of the mapping catheter in order to estimate the 3D locations of multiple electrodes across single view C-arm images. The monoplane algorithm is tested for feasibility on computer simulations and initial canine data.\n    ",
+        "submission_date": "2009-10-09T00:00:00",
+        "last_modified_date": "2009-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1849",
+        "title": "Color Image Clustering using Block Truncation Algorithm",
+        "authors": [
+            "Sanjay Silakari",
+            "Mahesh Motwani",
+            "Manish Maheshwari"
+        ],
+        "abstract": "  With the advancement in image capturing device, the image data been generated at high volume. If images are analyzed properly, they can reveal useful information to the human users. Content based image retrieval address the problem of retrieving images relevant to the user needs from image databases on the basis of low-level visual features that can be derived from the images. Grouping images into meaningful categories to reveal useful information is a challenging and important problem. Clustering is a data mining technique to group a set of unsupervised data based on the conceptual clustering principal: maximizing the intraclass similarity and minimizing the interclass similarity. Proposed framework focuses on color as feature. Color Moment and Block Truncation Coding (BTC) are used to extract features for image dataset. Experimental study using K-Means clustering algorithm is conducted to group the image dataset into various clusters.\n    ",
+        "submission_date": "2009-10-09T00:00:00",
+        "last_modified_date": "2009-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.2279",
+        "title": "Positive Semidefinite Metric Learning with Boosting",
+        "authors": [
+            "Chunhua Shen",
+            "Junae Kim",
+            "Lei Wang",
+            "Anton van den Hengel"
+        ],
+        "abstract": "  The learning of appropriate distance metrics is a critical problem in image classification and retrieval. In this work, we propose a boosting-based technique, termed \\BoostMetric, for learning a Mahalanobis distance metric. One of the primary difficulties in learning such a metric is to ensure that the Mahalanobis matrix remains positive semidefinite. Semidefinite programming is sometimes used to enforce this constraint, but does not scale well. \\BoostMetric is instead based on a key observation that any positive semidefinite matrix can be decomposed into a linear positive combination of trace-one rank-one matrices. \\BoostMetric thus uses rank-one positive semidefinite matrices as weak learners within an efficient and scalable boosting-based learning process. The resulting method is easy to implement, does not require tuning, and can accommodate various types of constraints. Experiments on various datasets show that the proposed algorithm compares favorably to those state-of-the-art methods in terms of classification accuracy and running time.\n    ",
+        "submission_date": "2009-10-13T00:00:00",
+        "last_modified_date": "2009-10-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.2381",
+        "title": "Fractional differentiation based image processing",
+        "authors": [
+            "Amelia Carolina Sparavigna"
+        ],
+        "abstract": "There are many resources useful for processing images, most of them freely available and quite friendly to use. In spite of this abundance of tools, a study of the processing methods is still worthy of efforts. Here, we want to discuss the possibilities arising from the use of fractional differential calculus. This calculus evolved in the research field of pure mathematics until 1920, when applied science started to use it. Only recently, fractional calculus was involved in image processing methods. As we shall see, the fractional calculation is able to enhance the quality of images, with interesting possibilities in edge detection and image restoration. We suggest also the fractional differentiation as a tool to reveal faint objects in astronomical images.\n    ",
+        "submission_date": "2009-10-13T00:00:00",
+        "last_modified_date": "2015-04-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.2917",
+        "title": "Behavior Subtraction",
+        "authors": [
+            "P. M. Jodoin",
+            "V. Saligrama",
+            "J. Konrad"
+        ],
+        "abstract": "  Background subtraction has been a driving engine for many computer vision and video analytics tasks. Although its many variants exist, they all share the underlying assumption that photometric scene properties are either static or exhibit temporal stationarity. While this works in some applications, the model fails when one is interested in discovering {\\it changes in scene dynamics} rather than those in a static background; detection of unusual pedestrian and motor traffic patterns is but one example. We propose a new model and computational framework that address this failure by considering stationary scene dynamics as a ``background'' with which observed scene dynamics are compared. Central to our approach is the concept of an {\\it event}, that we define as short-term scene dynamics captured over a time window at a specific spatial location in the camera field of view. We compute events by time-aggregating motion labels, obtained by background subtraction, as well as object descriptors (e.g., object size). Subsequently, we characterize events probabilistically, but use a low-memory, low-complexity surrogates in practical implementation. Using these surrogates amounts to {\\it behavior subtraction}, a new algorithm with some surprising properties. As demonstrated here, behavior subtraction is an effective tool in anomaly detection and localization. It is resilient to spurious background motion, such as one due to camera jitter, and is content-blind, i.e., it works equally well on humans, cars, animals, and other objects in both uncluttered and highly-cluttered scenes. Clearly, treating video as a collection of events rather than colored pixels opens new possibilities for video analytics.\n    ",
+        "submission_date": "2009-10-15T00:00:00",
+        "last_modified_date": "2009-10-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.3348",
+        "title": "Algorithms for Image Analysis and Combination of Pattern Classifiers with Application to Medical Diagnosis",
+        "authors": [
+            "Harris Georgiou"
+        ],
+        "abstract": "  Medical Informatics and the application of modern signal processing in the assistance of the diagnostic process in medical imaging is one of the more recent and active research areas today. This thesis addresses a variety of issues related to the general problem of medical image analysis, specifically in mammography, and presents a series of algorithms and design approaches for all the intermediate levels of a modern system for computer-aided diagnosis (CAD). The diagnostic problem is analyzed with a systematic approach, first defining the imaging characteristics and features that are relevant to probable pathology in mammo-grams. Next, these features are quantified and fused into new, integrated radio-logical systems that exhibit embedded digital signal processing, in order to improve the final result and minimize the radiological dose for the patient. In a higher level, special algorithms are designed for detecting and encoding these clinically interest-ing imaging features, in order to be used as input to advanced pattern classifiers and machine learning models. Finally, these approaches are extended in multi-classifier models under the scope of Game Theory and optimum collective deci-sion, in order to produce efficient solutions for combining classifiers with minimum computational costs for advanced diagnostic systems. The material covered in this thesis is related to a total of 18 published papers, 6 in scientific journals and 12 in international conferences.\n    ",
+        "submission_date": "2009-10-18T00:00:00",
+        "last_modified_date": "2009-10-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.4711",
+        "title": "Parallelization of the LBG Vector Quantization Algorithm for Shared Memory Systems",
+        "authors": [
+            "Rajashekar Annaji",
+            "Shrisha Rao"
+        ],
+        "abstract": "  This paper proposes a parallel approach for the Vector Quantization (VQ) problem in image processing. VQ deals with codebook generation from the input training data set and replacement of any arbitrary data with the nearest codevector. Most of the efforts in VQ have been directed towards designing parallel search algorithms for the codebook, and little has hitherto been done in evolving a parallelized procedure to obtain an optimum codebook. This parallel algorithm addresses the problem of designing an optimum codebook using the traditional LBG type of vector quantization algorithm for shared memory systems and for the efficient usage of parallel processors. Using the codebook formed from a training set, any arbitrary input data is replaced with the nearest codevector from the codebook. The effectiveness of the proposed algorithm is indicated.\n    ",
+        "submission_date": "2009-10-26T00:00:00",
+        "last_modified_date": "2009-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.4839",
+        "title": "A $p$-adic RanSaC algorithm for stereo vision using Hensel lifting",
+        "authors": [
+            "Patrick Erik Bradley"
+        ],
+        "abstract": "  A $p$-adic variation of the Ran(dom) Sa(mple) C(onsensus) method for solving the relative pose problem in stereo vision is developped. From two 2-adically encoded images a random sample of five pairs of corresponding points is taken, and the equations for the essential matrix are solved by lifting solutions modulo 2 to the 2-adic integers. A recently devised $p$-adic hierarchical classification algorithm imitating the known LBG quantisation method classifies the solutions for all the samples after having determined the number of clusters using the known intra-inter validity of clusterings. In the successful case, a cluster ranking will determine the cluster containing a 2-adic approximation to the \"true\" solution of the problem.\n    ",
+        "submission_date": "2009-10-26T00:00:00",
+        "last_modified_date": "2009-11-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5002",
+        "title": "An Iterative Shrinkage Approach to Total-Variation Image Restoration",
+        "authors": [
+            "Oleg Michailovich"
+        ],
+        "abstract": "  The problem of restoration of digital images from their degraded measurements plays a central role in a multitude of practically important applications. A particularly challenging instance of this problem occurs in the case when the degradation phenomenon is modeled by an ill-conditioned operator. In such a case, the presence of noise makes it impossible to recover a valuable approximation of the image of interest without using some a priori information about its properties. Such a priori information is essential for image restoration, rendering it stable and robust to noise. Particularly, if the original image is known to be a piecewise smooth function, one of the standard priors used in this case is defined by the Rudin-Osher-Fatemi model, which results in total variation (TV) based image restoration. The current arsenal of algorithms for TV-based image restoration is vast. In the present paper, a different approach to the solution of the problem is proposed based on the method of iterative shrinkage (aka iterated thresholding). In the proposed method, the TV-based image restoration is performed through a recursive application of two simple procedures, viz. linear filtering and soft thresholding. Therefore, the method can be identified as belonging to the group of first-order algorithms which are efficient in dealing with images of relatively large sizes. Another valuable feature of the proposed method consists in its working directly with the TV functional, rather then with its smoothed versions. Moreover, the method provides a single solution for both isotropic and anisotropic definitions of the TV functional, thereby establishing a useful connection between the two formulae.\n    ",
+        "submission_date": "2009-10-26T00:00:00",
+        "last_modified_date": "2009-10-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5454",
+        "title": "The Cyborg Astrobiologist: Testing a Novelty-Detection Algorithm on Two Mobile Exploration Systems at Rivas Vaciamadrid in Spain and at the Mars Desert Research Station in Utah",
+        "authors": [
+            "P.C. McGuire",
+            "C. Gross",
+            "L. Wendt",
+            "A. Bonnici",
+            "V. Souza-Egipsy",
+            "J. Ormo",
+            "E. Diaz-Martinez",
+            "B.H. Foing",
+            "R. Bose",
+            "S. Walter",
+            "M. Oesker",
+            "J. Ontrup",
+            "R. Haschke",
+            "H. Ritter"
+        ],
+        "abstract": "  (ABRIDGED) In previous work, two platforms have been developed for testing computer-vision algorithms for robotic planetary exploration (McGuire et al. 2004b,2005; Bartolo et al. 2007). The wearable-computer platform has been tested at geological and astrobiological field sites in Spain (Rivas Vaciamadrid and Riba de Santiuste), and the phone-camera has been tested at a geological field site in Malta. In this work, we (i) apply a Hopfield neural-network algorithm for novelty detection based upon color, (ii) integrate a field-capable digital microscope on the wearable computer platform, (iii) test this novelty detection with the digital microscope at Rivas Vaciamadrid, (iv) develop a Bluetooth communication mode for the phone-camera platform, in order to allow access to a mobile processing computer at the field sites, and (v) test the novelty detection on the Bluetooth-enabled phone-camera connected to a netbook computer at the Mars Desert Research Station in Utah. This systems engineering and field testing have together allowed us to develop a real-time computer-vision system that is capable, for example, of identifying lichens as novel within a series of images acquired in semi-arid desert environments. We acquired sequences of images of geologic outcrops in Utah and Spain consisting of various rock types and colors to test this algorithm. The algorithm robustly recognized previously-observed units by their color, while requiring only a single image or a few images to learn colors as familiar, demonstrating its fast learning capability.\n    ",
+        "submission_date": "2009-10-28T00:00:00",
+        "last_modified_date": "2009-10-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0481",
+        "title": "An Optimal Method For Wake Detection In SAR Images Using Radon Transformation Combined With Wavelet Filters",
+        "authors": [
+            "M.Krishnaveni",
+            "Suresh Kumar Thakur",
+            "P.Subashini"
+        ],
+        "abstract": "  A new fangled method for ship wake detection in synthetic aperture radar (SAR) images is explored here. Most of the detection procedure applies the Radon transform as its properties outfit more than any other transformation for the detection purpose. But still it holds problems when the transform is applied to an image with a high level of noise. Here this paper articulates the combination between the radon transformation and the shrinkage methods which increase the mode of wake detection process. The latter shrinkage method with RT maximize the signal to noise ratio hence it leads to most optimal detection of lines in the SAR images. The originality mainly works on the denoising segment of the proposed algorithm. Experimental work outs are carried over both in simulated and real SAR images. The detection process is more adequate with the proposed method and improves better than the conventional methods.\n    ",
+        "submission_date": "2009-11-03T00:00:00",
+        "last_modified_date": "2009-11-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0490",
+        "title": "Breast Cancer Detection Using Multilevel Thresholding",
+        "authors": [
+            "Y. Ireaneus Anna Rejani",
+            "S.Thamarai Selvi"
+        ],
+        "abstract": "  This paper presents an algorithm which aims to assist the radiologist in identifying breast cancer at its earlier stages. It combines several image processing techniques like image negative, thresholding and segmentation techniques for detection of tumor in mammograms. The algorithm is verified by using mammograms from Mammographic Image Analysis Society. The results obtained by applying these techniques are described.\n    ",
+        "submission_date": "2009-11-03T00:00:00",
+        "last_modified_date": "2009-11-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0499",
+        "title": "An Innovative Scheme For Effectual Fingerprint Data Compression Using Bezier Curve Representations",
+        "authors": [
+            "Vani Perumal",
+            "Jagannathan Ramaswamy"
+        ],
+        "abstract": "  Naturally, with the mounting application of biometric systems, there arises a difficulty in storing and handling those acquired biometric data. Fingerprint recognition has been recognized as one of the most mature and established technique among all the biometrics systems. In recent times, with fingerprint recognition receiving increasingly more attention the amount of fingerprints collected has been constantly creating enormous problems in storage and transmission. Henceforth, the compression of fingerprints has emerged as an indispensable step in automated fingerprint recognition systems. Several researchers have presented approaches for fingerprint image compression. In this paper, we propose a novel and efficient scheme for fingerprint image compression. The presented scheme utilizes the Bezier curve representations for effective compression of fingerprint images. Initially, the ridges present in the fingerprint image are extracted along with their coordinate values using the approach presented. Subsequently, the control points are determined for all the ridges by visualizing each ridge as a Bezier curve. The control points of all the ridges determined are stored and are used to represent the fingerprint image. When needed, the fingerprint image is reconstructed from the stored control points using Bezier curves. The quality of the reconstructed fingerprint is determined by a formal evaluation. The proposed scheme achieves considerable memory reduction in storing the fingerprint.\n    ",
+        "submission_date": "2009-11-03T00:00:00",
+        "last_modified_date": "2009-11-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.4385",
+        "title": "Bio-inspired speed detection and discrimination",
+        "authors": [
+            "Mauricio Cerda",
+            "Lucas Terissi",
+            "Bernard Girau"
+        ],
+        "abstract": "  In the field of computer vision, a crucial task is the detection of motion (also called optical flow extraction). This operation allows analysis such as 3D reconstruction, feature tracking, time-to-collision and novelty detection among others. Most of the optical flow extraction techniques work within a finite range of speeds. Usually, the range of detection is extended towards higher speeds by combining some multiscale information in a serial architecture. This serial multi-scale approach suffers from the problem of error propagation related to the number of scales used in the algorithm. On the other hand, biological experiments show that human motion perception seems to follow a parallel multiscale scheme. In this work we present a bio-inspired parallel architecture to perform detection of motion, providing a wide range of operation and avoiding error propagation associated with the serial architecture. To test our algorithm, we perform relative error comparisons between both classical and proposed techniques, showing that the parallel architecture is able to achieve motion detection with results similar to the serial approach.\n    ",
+        "submission_date": "2009-11-23T00:00:00",
+        "last_modified_date": "2009-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.4414",
+        "title": "Designing fuzzy rule based classifier using self-organizing feature map for analysis of multispectral satellite images",
+        "authors": [
+            "Nikhil R. Pal",
+            "Arijit Laha",
+            "J. Das"
+        ],
+        "abstract": "  We propose a novel scheme for designing fuzzy rule based classifier. An SOFM based method is used for generating a set of prototypes which is used to generate a set of fuzzy rules. Each rule represents a region in the feature space that we call the context of the rule. The rules are tuned with respect to their context. We justified that the reasoning scheme may be different in different context leading to context sensitive inferencing. To realize context sensitive inferencing we used a softmin operator with a tunable parameter. The proposed scheme is tested on several multispectral satellite image data sets and the performance is found to be much better than the results reported in the literature.\n    ",
+        "submission_date": "2009-11-23T00:00:00",
+        "last_modified_date": "2009-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.4416",
+        "title": "Land cover classification using fuzzy rules and aggregation of contextual information through evidence theory",
+        "authors": [
+            "Arijit Laha",
+            "Nikhil R. Pal",
+            "J. Das"
+        ],
+        "abstract": "  Land cover classification using multispectral satellite image is a very challenging task with numerous practical applications. We propose a multi-stage classifier that involves fuzzy rule extraction from the training data and then generation of a possibilistic label vector for each pixel using the fuzzy rule base. To exploit the spatial correlation of land cover types we propose four different information aggregation methods which use the possibilistic class label of a pixel and those of its eight spatial neighbors for making the final classification decision. Three of the aggregation methods use Dempster-Shafer theory of evidence while the remaining one is modeled after the fuzzy k-NN rule. The proposed methods are tested with two benchmark seven channel satellite images and the results are found to be quite satisfactory. They are also compared with a Markov random field (MRF) model-based contextual classification method and found to perform consistently better.\n    ",
+        "submission_date": "2009-11-23T00:00:00",
+        "last_modified_date": "2009-11-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.4650",
+        "title": "CanICA: Model-based extraction of reproducible group-level ICA patterns from fMRI time series",
+        "authors": [
+            "Ga\u00ebl Varoquaux",
+            "Sepideh Sadaghiani",
+            "Jean Baptiste Poline",
+            "Bertrand Thirion"
+        ],
+        "abstract": "  Spatial Independent Component Analysis (ICA) is an increasingly used data-driven method to analyze functional Magnetic Resonance Imaging (fMRI) data. To date, it has been used to extract meaningful patterns without prior information. However, ICA is not robust to mild data variation and remains a parameter-sensitive algorithm. The validity of the extracted patterns is hard to establish, as well as the significance of differences between patterns extracted from different groups of subjects. We start from a generative model of the fMRI group data to introduce a probabilistic ICA pattern-extraction algorithm, called CanICA (Canonical ICA). Thanks to an explicit noise model and canonical correlation analysis, our method is auto-calibrated and identifies the group-reproducible data subspace before performing ICA. We compare our method to state-of-the-art multi-subject fMRI ICA methods and show that the features extracted are more reproducible.\n    ",
+        "submission_date": "2009-11-24T00:00:00",
+        "last_modified_date": "2009-11-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.4874",
+        "title": "Non-photorealistic image processing: an Impressionist rendering",
+        "authors": [
+            "Amelia Carolina Sparavigna",
+            "Roberto Marazzato"
+        ],
+        "abstract": "  The paper describes an image processing for a non-photorealistic rendering. The algorithm is based on a random choice of a set of pixels from those ot the original image and substitution of them with colour spots. An iterative procedure is applied to cover, at a desired level, the canvas. The resulting effect mimics the impressionist painting and Pointillism.\n    ",
+        "submission_date": "2009-11-25T00:00:00",
+        "last_modified_date": "2009-12-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5372",
+        "title": "Maximin affinity learning of image segmentation",
+        "authors": [
+            "Srinivas C. Turaga",
+            "Kevin L. Briggman",
+            "Moritz Helmstaedter",
+            "Winfried Denk",
+            "H. Sebastian Seung"
+        ],
+        "abstract": "  Images can be segmented by first using a classifier to predict an affinity graph that reflects the degree to which image pixels must be grouped together and then partitioning the graph to yield a segmentation. Machine learning has been applied to the affinity classifier to produce affinity graphs that are good in the sense of minimizing edge misclassification rates. However, this error measure is only indirectly related to the quality of segmentations produced by ultimately partitioning the affinity graph. We present the first machine learning algorithm for training a classifier to produce affinity graphs that are good in the sense of producing segmentations that directly minimize the Rand index, a well known segmentation performance measure. The Rand index measures segmentation performance by quantifying the classification of the connectivity of image pixel pairs after segmentation. By using the simple graph partitioning algorithm of finding the connected components of the thresholded affinity graph, we are able to train an affinity classifier to directly minimize the Rand index of segmentations resulting from the graph partitioning. Our learning algorithm corresponds to the learning of maximin affinities between image pixel pairs, which are predictive of the pixel-pair connectivity.\n    ",
+        "submission_date": "2009-11-28T00:00:00",
+        "last_modified_date": "2009-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5462",
+        "title": "Pigment Melanin: Pattern for Iris Recognition",
+        "authors": [
+            "Mahdi S. Hosseini",
+            "Babak N. Araabi",
+            "Hamid Soltanian-Zadeh"
+        ],
+        "abstract": "  Recognition of iris based on Visible Light (VL) imaging is a difficult problem because of the light reflection from the cornea. Nonetheless, pigment melanin provides a rich feature source in VL, unavailable in Near-Infrared (NIR) imaging. This is due to biological spectroscopy of eumelanin, a chemical not stimulated in NIR. In this case, a plausible solution to observe such patterns may be provided by an adaptive procedure using a variational technique on the image histogram. To describe the patterns, a shape analysis method is used to derive feature-code for each subject. An important question is how much the melanin patterns, extracted from VL, are independent of iris texture in NIR. With this question in mind, the present investigation proposes fusion of features extracted from NIR and VL to boost the recognition performance. We have collected our own database (UTIRIS) consisting of both NIR and VL images of 158 eyes of 79 individuals. This investigation demonstrates that the proposed algorithm is highly sensitive to the patterns of cromophores and improves the iris recognition rate.\n    ",
+        "submission_date": "2009-11-29T00:00:00",
+        "last_modified_date": "2009-11-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0600",
+        "title": "Sequential Clustering based Facial Feature Extraction Method for Automatic Creation of Facial Models from Orthogonal Views",
+        "authors": [
+            "Alireza Ghahari",
+            "Reza Aghaeizadeh Zoroofi"
+        ],
+        "abstract": "  Multiview 3D face modeling has attracted increasing attention recently and has become one of the potential avenues in future video systems. We aim to make more reliable and robust automatic feature extraction and natural 3D feature construction from 2D features detected on a pair of frontal and profile view face images. We propose several heuristic algorithms to minimize possible errors introduced by prevalent nonperfect orthogonal condition and noncoherent luminance. In our approach, we first extract the 2D features that are visible to both cameras in both views. Then, we estimate the coordinates of the features in the hidden profile view based on the visible features extracted in the two orthogonal views. Finally, based on the coordinates of the extracted features, we deform a 3D generic model to perform the desired 3D clone modeling. Present study proves the scope of resulted facial models for practical applications like face recognition and facial animation.\n    ",
+        "submission_date": "2009-12-03T00:00:00",
+        "last_modified_date": "2009-12-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0986",
+        "title": "Fish recognition based on the combination between robust feature selection, image segmentation and geometrical parameter techniques using Artificial Neural Network and Decision Tree",
+        "authors": [
+            "Mutasem Khalil Sari Alsmadi",
+            "Khairuddin Bin Omar",
+            "Shahrul Azman Noah",
+            "Ibrahim Almarashdah"
+        ],
+        "abstract": "  We presents in this paper a novel fish classification methodology based on a combination between robust feature selection, image segmentation and geometrical parameter techniques using Artificial Neural Network and Decision Tree. Unlike existing works for fish classification, which propose descriptors and do not analyze their individual impacts in the whole classification task and do not make the combination between the feature selection, image segmentation and geometrical parameter, we propose a general set of features extraction using robust feature selection, image segmentation and geometrical parameter and their correspondent weights that should be used as a priori information by the classifier. In this sense, instead of studying techniques for improving the classifiers structure itself, we consider it as a black box and focus our research in the determination of which input information must bring a robust fish ",
+        "submission_date": "2009-12-05T00:00:00",
+        "last_modified_date": "2009-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1009",
+        "title": "Biogeography based Satellite Image Classification",
+        "authors": [
+            "V.K.Panchal",
+            "Parminder Singh",
+            "Navdeep Kaur",
+            "Harish Kundra"
+        ],
+        "abstract": "  Biogeography is the study of the geographical distribution of biological organisms. The mindset of the engineer is that we can learn from nature. Biogeography Based Optimization is a burgeoning nature inspired technique to find the optimal solution of the problem. Satellite image classification is an important task because it is the only way we can know about the land cover map of inaccessible areas. Though satellite images have been classified in past by using various techniques, the researchers are always finding alternative strategies for satellite image classification so that they may be prepared to select the most appropriate technique for the feature extraction task in hand. This paper is focused on classification of the satellite image of a particular land cover using the theory of Biogeography based Optimization. The original BBO algorithm does not have the inbuilt property of clustering which is required during image classification. Hence modifications have been proposed to the original algorithm and the modified algorithm is used to classify the satellite image of a given region. The results indicate that highly accurate land cover features can be extracted effectively when the proposed algorithm is used.\n    ",
+        "submission_date": "2009-12-05T00:00:00",
+        "last_modified_date": "2009-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1310",
+        "title": "Automatic creation of urban velocity fields from aerial video",
+        "authors": [
+            "Edward Rosten",
+            "Rohan Loveland",
+            "Mark Hickman"
+        ],
+        "abstract": "  In this paper, we present a system for modelling vehicle motion in an urban scene from low frame-rate aerial video. In particular, the scene is modelled as a probability distribution over velocities at every pixel in the image.\n",
+        "submission_date": "2009-12-07T00:00:00",
+        "last_modified_date": "2009-12-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1830",
+        "title": "Gesture Recognition with a Focus on Important Actions by Using a Path Searching Method in Weighted Graph",
+        "authors": [
+            "Kazumoto Tanaka"
+        ],
+        "abstract": "  This paper proposes a method of gesture recognition with a focus on important actions for distinguishing similar gestures. The method generates a partial action sequence by using optical flow images, expresses the sequence in the eigenspace, and checks the feature vector sequence by applying an optimum path-searching method of weighted graph to focus the important actions. Also presented are the results of an experiment on the recognition of similar sign language words.\n    ",
+        "submission_date": "2009-12-09T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.2302",
+        "title": "Synthesis of supervised classification algorithm using intelligent and statistical tools",
+        "authors": [
+            "Ali Douik",
+            "Mourad Moussa Jlassi"
+        ],
+        "abstract": "  A fundamental task in detecting foreground objects in both static and dynamic scenes is to take the best choice of color system representation and the efficient technique for background modeling. We propose in this paper a non-parametric algorithm dedicated to segment and to detect objects in color images issued from a football sports meeting. Indeed segmentation by pixel concern many applications and revealed how the method is robust to detect objects, even in presence of strong shadows and highlights. In the other hand to refine their playing strategy such as in football, handball, volley ball, Rugby..., the coach need to have a maximum of technical-tactics information about the on-going of the game and the players. We propose in this paper a range of algorithms allowing the resolution of many problems appearing in the automated process of team identification, where each player is affected to his corresponding team relying on visual data. The developed system was tested on a match of the Tunisian national competition. This work is prominent for many next computer vision studies as it's detailed in this study.\n    ",
+        "submission_date": "2009-12-11T00:00:00",
+        "last_modified_date": "2009-12-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.2316",
+        "title": "Heart Rate Variability Analysis Using Threshold of Wavelet Package Coefficients",
+        "authors": [
+            "G. Kheder",
+            "A. Kachouri",
+            "M. Ben Massoued",
+            "M. Samet"
+        ],
+        "abstract": "  In this paper, a new efficient feature extraction method based on the adaptive threshold of wavelet package coefficients is presented. This paper especially deals with the assessment of autonomic nervous system using the background variation of the signal Heart Rate Variability HRV extracted from the wavelet package coefficients. The application of a wavelet package transform allows us to obtain a time-frequency representation of the signal, which provides better insight in the frequency distribution of the signal with time. A 6 level decomposition of HRV was achieved with db4 as mother wavelet, and the above two bands LF and HF were combined in 12 specialized frequencies sub-bands obtained in wavelet package transform. Features extracted from these coefficients can efficiently represent the characteristics of the original signal. ANOVA statistical test is used for the evaluation of proposed algorithm.\n    ",
+        "submission_date": "2009-12-11T00:00:00",
+        "last_modified_date": "2009-12-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.3589",
+        "title": "Matching 2-D Ellipses to 3-D Circles with Application to Vehicle Pose Estimation",
+        "authors": [
+            "Marcus Hutter",
+            "Nathan Brewer"
+        ],
+        "abstract": "  Finding the three-dimensional representation of all or a part of a scene from a single two dimensional image is a challenging task. In this paper we propose a method for identifying the pose and location of objects with circular protrusions in three dimensions from a single image and a 3d representation or model of the object of interest. To do this, we present a method for identifying ellipses and their properties quickly and reliably with a novel technique that exploits intensity differences between objects and a geometric technique for matching an ellipse in 2d to a circle in 3d.\n",
+        "submission_date": "2009-12-18T00:00:00",
+        "last_modified_date": "2009-12-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.3973",
+        "title": "A Novel Feature Extraction for Robust EMG Pattern Recognition",
+        "authors": [
+            "Angkoon Phinyomark",
+            "Chusak Limsakul",
+            "Pornchai Phukpattaranont"
+        ],
+        "abstract": "  Varieties of noises are major problem in recognition of Electromyography (EMG) signal. Hence, methods to remove noise become most significant in EMG signal analysis. White Gaussian noise (WGN) is used to represent interference in this paper. Generally, WGN is difficult to be removed using typical filtering and solutions to remove WGN are limited. In addition, noise removal is an important step before performing feature extraction, which is used in EMG-based recognition. This research is aimed to present a novel feature that tolerate with WGN. As a result, noise removal algorithm is not needed. Two novel mean and median frequencies (MMNF and MMDF) are presented for robust feature extraction. Sixteen existing features and two novelties are evaluated in a noisy environment. WGN with various signal-to-noise ratios (SNRs), i.e. 20-0 dB, was added to the original EMG signal. The results showed that MMNF performed very well especially in weak EMG signal compared with others. The error of MMNF in weak EMG signal with very high noise, 0 dB SNR, is about 5-10 percent and closed by MMDF and Histogram, whereas the error of other features is more than 20 percent. While in strong EMG signal, the error of MMNF is better than those from other features. Moreover, the combination of MMNF, Histrogram of EMG and Willison amplitude is used as feature vector in classification task. The experimental result shows the better recognition result in noisy environment than other success feature candidates. From the above results demonstrate that MMNF can be used for new robust feature extraction.\n    ",
+        "submission_date": "2009-12-20T00:00:00",
+        "last_modified_date": "2009-12-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.4936",
+        "title": "Genus Computing for 3D digital objects: algorithm and implementation",
+        "authors": [
+            "Li Chen"
+        ],
+        "abstract": "  This paper deals with computing topological invariants such as connected components, boundary surface genus, and homology groups. For each input data set, we have designed or implemented algorithms to calculate connected components, boundary surfaces and their genus, and homology groups. Due to the fact that genus calculation dominates the entire task for 3D object in 3D space, in this paper, we mainly discuss the calculation of the genus. The new algorithms designed in this paper will perform:\n",
+        "submission_date": "2009-12-25T00:00:00",
+        "last_modified_date": "2009-12-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.5502",
+        "title": "Writer Identification Using Inexpensive Signal Processing Techniques",
+        "authors": [
+            "Serguei A. Mokhov",
+            "Miao Song",
+            "Ching Y. Suen"
+        ],
+        "abstract": "  We propose to use novel and classical audio and text signal-processing and otherwise techniques for \"inexpensive\" fast writer identification tasks of scanned hand-written documents \"visually\". The \"inexpensive\" refers to the efficiency of the identification process in terms of CPU cycles while preserving decent accuracy for preliminary identification. This is a comparative study of multiple algorithm combinations in a pattern recognition pipeline implemented in Java around an open-source Modular Audio Recognition Framework (MARF) that can do a lot more beyond audio. We present our preliminary experimental findings in such an identification task. We simulate \"visual\" identification by \"looking\" at the hand-written document as a whole rather than trying to extract fine-grained features out of it prior classification.\n    ",
+        "submission_date": "2009-12-30T00:00:00",
+        "last_modified_date": "2009-12-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.0760",
+        "title": "A Theoretical Analysis of Joint Manifolds",
+        "authors": [
+            "Mark A. Davenport",
+            "Chinmay Hegde",
+            "Marco F. Duarte",
+            "Richard G. Baraniuk"
+        ],
+        "abstract": "  The emergence of low-cost sensor architectures for diverse modalities has made it possible to deploy sensor arrays that capture a single event from a large number of vantage points and using multiple modalities. In many scenarios, these sensors acquire very high-dimensional data such as audio signals, images, and video. To cope with such high-dimensional data, we typically rely on low-dimensional models. Manifold models provide a particularly powerful model that captures the structure of high-dimensional data when it is governed by a low-dimensional set of parameters. However, these models do not typically take into account dependencies among multiple sensors. We thus propose a new joint manifold framework for data ensembles that exploits such dependencies. We show that simple algorithms can exploit the joint manifold structure to improve their performance on standard signal processing applications. Additionally, recent results concerning dimensionality reduction for manifolds enable us to formulate a network-scalable data compression scheme that uses random projections of the sensed data. This scheme efficiently fuses the data from all sensors through the addition of such projections, regardless of the data modalities and dimensions.\n    ",
+        "submission_date": "2009-01-07T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.2954",
+        "title": "An Upper Limit of AC Huffman Code Length in JPEG Compression",
+        "authors": [
+            "Kenichi Horie"
+        ],
+        "abstract": "  A strategy for computing upper code-length limits of AC Huffman codes for an 8x8 block in JPEG Baseline coding is developed. The method is based on a geometric interpretation of the DCT, and the calculated limits are as close as 14% to the maximum code-lengths. The proposed strategy can be adapted to other transform coding methods, e.g., MPEG 2 and 4 video compressions, to calculate close upper code length limits for the respective processing blocks.\n    ",
+        "submission_date": "2009-01-19T00:00:00",
+        "last_modified_date": "2009-01-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3590",
+        "title": "On the Dual Formulation of Boosting Algorithms",
+        "authors": [
+            "Chunhua Shen",
+            "Hanxi Li"
+        ],
+        "abstract": "We study boosting algorithms from a new perspective. We show that the Lagrange dual problems of AdaBoost, LogitBoost and soft-margin LPBoost with generalized hinge loss are all entropy maximization problems. By looking at the dual problems of these boosting algorithms, we show that the success of boosting algorithms can be understood in terms of maintaining a better margin distribution by maximizing margins and at the same time controlling the margin ",
+        "submission_date": "2009-01-23T00:00:00",
+        "last_modified_date": "2023-05-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3762",
+        "title": "Enhancing the capabilities of LIGO time-frequency plane searches through clustering",
+        "authors": [
+            "Rubab Khan",
+            "Shourov Chatterji"
+        ],
+        "abstract": "  One class of gravitational wave signals LIGO is searching for consists of short duration bursts of unknown waveforms. Potential sources include core collapse supernovae, gamma ray burst progenitors, and mergers of binary black holes or neutron stars. We present a density-based clustering algorithm to improve the performance of time-frequency searches for such gravitational-wave bursts when they are extended in time and/or frequency, and not sufficiently well known to permit matched filtering. We have implemented this algorithm as an extension to the QPipeline, a gravitational-wave data analysis pipeline for the detection of bursts, which currently determines the statistical significance of events based solely on the peak significance observed in minimum uncertainty regions of the time-frequency plane. Density based clustering improves the performance of such a search by considering the aggregate significance of arbitrarily shaped regions in the time-frequency plane and rejecting the isolated minimum uncertainty features expected from the background detector noise. In this paper, we present test results for simulated signals and demonstrate that density based clustering improves the performance of the QPipeline for signals extended in time and/or frequency.\n    ",
+        "submission_date": "2009-01-23T00:00:00",
+        "last_modified_date": "2009-06-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3923",
+        "title": "Model-Based Event Detection in Wireless Sensor Networks",
+        "authors": [
+            "Jayant Gupchup",
+            "Andreas Terzis",
+            "Randal Burns",
+            "Alex Szalay"
+        ],
+        "abstract": "  In this paper we present an application of techniques from statistical signal processing to the problem of event detection in wireless sensor networks used for environmental monitoring. The proposed approach uses the well-established Principal Component Analysis (PCA) technique to build a compact model of the observed phenomena that is able to capture daily and seasonal trends in the collected measurements. We then use the divergence between actual measurements and model predictions to detect the existence of discrete events within the collected data streams. Our preliminary results show that this event detection mechanism is sensitive enough to detect the onset of rain events using the temperature modality of a wireless sensor network.\n    ",
+        "submission_date": "2009-01-25T00:00:00",
+        "last_modified_date": "2009-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.1850",
+        "title": "Free actions and Grassmanian variety",
+        "authors": [
+            "Burzin Bhavnagri"
+        ],
+        "abstract": "  An algebraic notion of representational consistency is defined. A theorem relating it to free actions is proved. A metrizability problem of the quotient (a shape space) is discussed. This leads to a new algebraic variety with a metrizability result. A concrete example is given from stereo vision.\n    ",
+        "submission_date": "2009-03-11T00:00:00",
+        "last_modified_date": "2009-03-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.2862",
+        "title": "Tracking using explanation-based modeling",
+        "authors": [
+            "Kamalika Chaudhuri",
+            "Yoav Freund",
+            "Daniel Hsu"
+        ],
+        "abstract": "  We study the tracking problem, namely, estimating the hidden state of an object over time, from unreliable and noisy measurements. The standard framework for the tracking problem is the generative framework, which is the basis of solutions such as the Bayesian algorithm and its approximation, the particle filters. However, the problem with these solutions is that they are very sensitive to model mismatches. In this paper, motivated by online learning, we introduce a new framework -- an {\\em explanatory} framework -- for tracking. We provide an efficient tracking algorithm for this framework. We provide experimental results comparing our algorithm to the Bayesian algorithm on simulated data. Our experiments show that when there are slight model mismatches, our algorithm vastly outperforms the Bayesian algorithm.\n    ",
+        "submission_date": "2009-03-16T00:00:00",
+        "last_modified_date": "2010-01-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.3995",
+        "title": "Gradient-based adaptive interpolation in super-resolution image restoration",
+        "authors": [
+            "Jinyu Chu",
+            "Ju Liu",
+            "Jianping Qiao",
+            "Xiaoling Wang",
+            "Yujun Li"
+        ],
+        "abstract": "  This paper presents a super-resolution method based on gradient-based adaptive interpolation. In this method, in addition to considering the distance between the interpolated pixel and the neighboring valid pixel, the interpolation coefficients take the local gradient of the original image into account. The smaller the local gradient of a pixel is, the more influence it should have on the interpolated pixel. And the interpolated high resolution image is finally deblurred by the application of wiener filter. Experimental results show that our proposed method not only substantially improves the subjective and objective quality of restored images, especially enhances edges, but also is robust to the registration error and has low computational complexity.\n    ",
+        "submission_date": "2009-03-24T00:00:00",
+        "last_modified_date": "2009-03-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.4817",
+        "title": "An Exponential Lower Bound on the Complexity of Regularization Paths",
+        "authors": [
+            "Bernd G\u00e4rtner",
+            "Martin Jaggi",
+            "Cl\u00e9ment Maria"
+        ],
+        "abstract": "For a variety of regularized optimization problems in machine learning, algorithms computing the entire solution path have been developed recently. Most of these methods are quadratic programs that are parameterized by a single parameter, as for example the Support Vector Machine (SVM). Solution path algorithms do not only compute the solution for one particular value of the regularization parameter but the entire path of solutions, making the selection of an optimal parameter much easier.\n",
+        "submission_date": "2009-03-27T00:00:00",
+        "last_modified_date": "2012-10-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.4856",
+        "title": "A Combinatorial Algorithm to Compute Regularization Paths",
+        "authors": [
+            "Bernd G\u00e4rtner",
+            "Joachim Giesen",
+            "Martin Jaggi",
+            "Torsten Welsch"
+        ],
+        "abstract": "  For a wide variety of regularization methods, algorithms computing the entire solution path have been developed recently. Solution path algorithms do not only compute the solution for one particular value of the regularization parameter but the entire path of solutions, making the selection of an optimal parameter much easier. Most of the currently used algorithms are not robust in the sense that they cannot deal with general or degenerate input. Here we present a new robust, generic method for parametric quadratic programming. Our algorithm directly applies to nearly all machine learning applications, where so far every application required its own different algorithm.\n",
+        "submission_date": "2009-03-27T00:00:00",
+        "last_modified_date": "2009-03-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.2037",
+        "title": "Boosting through Optimization of Margin Distributions",
+        "authors": [
+            "Chunhua Shen",
+            "Hanxi Li"
+        ],
+        "abstract": "  Boosting has attracted much research attention in the past decade. The success of boosting algorithms may be interpreted in terms of the margin theory. Recently it has been shown that generalization error of classifiers can be obtained by explicitly taking the margin distribution of the training data into account. Most of the current boosting algorithms in practice usually optimizes a convex loss function and do not make use of the margin distribution. In this work we design a new boosting algorithm, termed margin-distribution boosting (MDBoost), which directly maximizes the average margin and minimizes the margin variance simultaneously. This way the margin distribution is optimized. A totally-corrective optimization algorithm based on column generation is proposed to implement MDBoost. Experiments on UCI datasets show that MDBoost outperforms AdaBoost and LPBoost in most cases.\n    ",
+        "submission_date": "2009-04-14T00:00:00",
+        "last_modified_date": "2010-01-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.3808",
+        "title": "Automated Epilepsy Diagnosis Using Interictal Scalp EEG",
+        "authors": [
+            "Forrest Sheng Bao",
+            "Jue-Ming Gao",
+            "Jing Hu",
+            "Donald Y.-C. Lie",
+            "Yuanlin Zhang",
+            "K. J. Oommen"
+        ],
+        "abstract": "  Approximately over 50 million people worldwide suffer from epilepsy. Traditional diagnosis of epilepsy relies on tedious visual screening by highly trained clinicians from lengthy EEG recording that contains the presence of seizure (ictal) activities. Nowadays, there are many automatic systems that can recognize seizure-related EEG signals to help the diagnosis. However, it is very costly and inconvenient to obtain long-term EEG data with seizure activities, especially in areas short of medical resources. We demonstrate in this paper that we can use the interictal scalp EEG data, which is much easier to collect than the ictal data, to automatically diagnose whether a person is epileptic. In our automated EEG recognition system, we extract three classes of features from the EEG data and build Probabilistic Neural Networks (PNNs) fed with these features. We optimize the feature extraction parameters and combine these PNNs through a voting mechanism. As a result, our system achieves an impressive 94.07% accuracy, which is very close to reported human recognition accuracy by experienced medical professionals.\n    ",
+        "submission_date": "2009-04-24T00:00:00",
+        "last_modified_date": "2009-04-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.4836",
+        "title": "FaceBots: Steps Towards Enhanced Long-Term Human-Robot Interaction by Utilizing and Publishing Online Social Information",
+        "authors": [
+            "Nikolaos Mavridis",
+            "Shervin Emami",
+            "Chandan Datta",
+            "Wajahat Kamzi",
+            "Chiraz BenAbdelkader",
+            "Panos Toulis",
+            "Andry Tanoto",
+            "Tamer Rabie"
+        ],
+        "abstract": "  Our project aims at supporting the creation of sustainable and meaningful longer-term human-robot relationships through the creation of embodied robots with face recognition and natural language dialogue capabilities, which exploit and publish social information available on the web (Facebook). Our main underlying experimental hypothesis is that such relationships can be significantly enhanced if the human and the robot are gradually creating a pool of shared episodic memories that they can co-refer to (shared memories), and if they are both embedded in a social web of other humans and robots they both know and encounter (shared friends). In this paper, we are presenting such a robot, which as we will see achieves two significant novelties.\n    ",
+        "submission_date": "2009-04-30T00:00:00",
+        "last_modified_date": "2009-04-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.1235",
+        "title": "The Modular Audio Recognition Framework (MARF) and its Applications: Scientific and Software Engineering Notes",
+        "authors": [
+            "Serguei A. Mokhov",
+            "Stephen Sinclair",
+            "Ian Cl\u00e9ment",
+            "Dimitrios Nicolacopoulos"
+        ],
+        "abstract": "  MARF is an open-source research platform and a collection of voice/sound/speech/text and natural language processing (NLP) algorithms written in Java and arranged into a modular and extensible framework facilitating addition of new algorithms. MARF can run distributively over the network and may act as a library in applications or be used as a source for learning and extension. A few example applications are provided to show how to use the framework. There is an API reference in the Javadoc format as well as this set of accompanying notes with the detailed description of the architectural design, algorithms, and applications. MARF and its applications are released under a BSD-style license and is hosted at ",
+        "submission_date": "2009-05-08T00:00:00",
+        "last_modified_date": "2009-07-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.0065",
+        "title": "Managing Distributed MARF with SNMP",
+        "authors": [
+            "Serguei A. Mokhov",
+            "Lee Wei Huynh",
+            "Jian Li"
+        ],
+        "abstract": "  The scope of this project's work focuses on the research and prototyping of the extension of the Distributed MARF such that its services can be managed through the most popular management protocol familiarly, SNMP. The rationale behind SNMP vs. MARF's proprietary management protocols, is that can be integrated with the use of common network service and device management, so the administrators can manage MARF nodes via a already familiar protocol, as well as monitor their performance, gather statistics, set desired configuration, etc. perhaps using the same management tools they've been using for other network devices and application servers.\n    ",
+        "submission_date": "2009-05-30T00:00:00",
+        "last_modified_date": "2009-07-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.0667",
+        "title": "Quality assessment of the MPEG-4 scalable video CODEC",
+        "authors": [
+            "Florian Niedermeier",
+            "Michael Niedermeier",
+            "Harald Kosch"
+        ],
+        "abstract": "  In this paper, the performance of the emerging MPEG-4 SVC CODEC is evaluated. In the first part, a brief introduction on the subject of quality assessment and the development of the MPEG-4 SVC CODEC is given. After that, the used test methodologies are described in detail, followed by an explanation of the actual test scenarios. The main part of this work concentrates on the performance analysis of the MPEG-4 SVC CODEC - both objective and subjective.\n    ",
+        "submission_date": "2009-06-03T00:00:00",
+        "last_modified_date": "2009-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.1905",
+        "title": "The VOISE Algorithm: a Versatile Tool for Automatic Segmentation of Astronomical Images",
+        "authors": [
+            "P. Guio",
+            "N. Achilleos"
+        ],
+        "abstract": "  The auroras on Jupiter and Saturn can be studied with a high sensitivity and resolution by the Hubble Space Telescope (HST) ultraviolet (UV) and far-ultraviolet (FUV) Space Telescope spectrograph (STIS) and Advanced Camera for Surveys (ACS) instruments. We present results of automatic detection and segmentation of Jupiter's auroral emissions as observed by HST ACS instrument with VOronoi Image SEgmentation (VOISE). VOISE is a dynamic algorithm for partitioning the underlying pixel grid of an image into regions according to a prescribed homogeneity criterion. The algorithm consists of an iterative procedure that dynamically constructs a tessellation of the image plane based on a Voronoi Diagram, until the intensity of the underlying image within each region is classified as homogeneous. The computed tessellations allow the extraction of quantitative information about the auroral features such as mean intensity, latitudinal and longitudinal extents and length scales. These outputs thus represent a more automated and objective method of characterising auroral emissions than manual inspection.\n    ",
+        "submission_date": "2009-06-10T00:00:00",
+        "last_modified_date": "2009-06-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2767",
+        "title": "Coding cells of digital spaces: a framework to write generic digital topology algorithms",
+        "authors": [
+            "Jacques-Olivier Lachaud"
+        ],
+        "abstract": "  This paper proposes a concise coding of the cells of n-dimensional finite regular grids. It induces a simple, generic and efficient framework for implementing classical digital topology data structures and algorithms. Discrete subsets of multidimensional images (e.g. regions, digital surfaces, cubical cell complexes) have then a common and compact representation. Moreover, algorithms have a straightforward and efficient implementation, which is independent from the dimension or sizes of digital images. We illustrate that point with generic hypersurface boundary extraction algorithms by scanning or tracking. This framework has been implemented and basic operations as well as the presented applications have been benchmarked.\n    ",
+        "submission_date": "2009-06-15T00:00:00",
+        "last_modified_date": "2009-06-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3585",
+        "title": "Finding Significant Subregions in Large Image Databases",
+        "authors": [
+            "Vishwakarma Singh",
+            "Arnab Bhattacharya",
+            "Ambuj K. Singh"
+        ],
+        "abstract": "  Images have become an important data source in many scientific and commercial domains. Analysis and exploration of image collections often requires the retrieval of the best subregions matching a given query. The support of such content-based retrieval requires not only the formulation of an appropriate scoring function for defining relevant subregions but also the design of new access methods that can scale to large databases. In this paper, we propose a solution to this problem of querying significant image subregions. We design a scoring scheme to measure the similarity of subregions. Our similarity measure extends to any image descriptor. All the images are tiled and each alignment of the query and a database image produces a tile score matrix. We show that the problem of finding the best connected subregion from this matrix is NP-hard and develop a dynamic programming heuristic. With this heuristic, we develop two index based scalable search strategies, TARS and SPARS, to query patterns in a large image repository. These strategies are general enough to work with other scoring schemes and heuristics. Experimental results on real image datasets show that TARS saves more than 87% query time on small queries, and SPARS saves up to 52% query time on large queries as compared to linear search. Qualitative tests on synthetic and real datasets achieve precision of more than 80%.\n    ",
+        "submission_date": "2009-06-19T00:00:00",
+        "last_modified_date": "2009-06-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3722",
+        "title": "Two-Dimensional ARMA Modeling for Breast Cancer Detection and Classification",
+        "authors": [
+            "Nidhal Bouaynaya",
+            "Jerzy Zielinski",
+            "Dan Schonfeld"
+        ],
+        "abstract": "  We propose a new model-based computer-aided diagnosis (CAD) system for tumor detection and classification (cancerous v.s. benign) in breast images. Specifically, we show that (x-ray, ultrasound and MRI) images can be accurately modeled by two-dimensional autoregressive-moving average (ARMA) random fields. We derive a two-stage Yule-Walker Least-Squares estimates of the model parameters, which are subsequently used as the basis for statistical inference and biophysical interpretation of the breast image. We use a k-means classifier to segment the breast image into three regions: healthy tissue, benign tumor, and cancerous tumor. Our simulation results on ultrasound breast images illustrate the power of the proposed approach.\n    ",
+        "submission_date": "2009-06-19T00:00:00",
+        "last_modified_date": "2009-06-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.4582",
+        "title": "On landmark selection and sampling in high-dimensional data analysis",
+        "authors": [
+            "Mohamed-Ali Belabbas",
+            "Patrick J. Wolfe"
+        ],
+        "abstract": "  In recent years, the spectral analysis of appropriately defined kernel matrices has emerged as a principled way to extract the low-dimensional structure often prevalent in high-dimensional data. Here we provide an introduction to spectral methods for linear and nonlinear dimension reduction, emphasizing ways to overcome the computational limitations currently faced by practitioners with massive datasets. In particular, a data subsampling or landmark selection process is often employed to construct a kernel based on partial information, followed by an approximate spectral analysis termed the Nystrom extension. We provide a quantitative framework to analyse this procedure, and use it to demonstrate algorithmic performance bounds on a range of practical approaches designed to optimize the landmark selection process. We compare the practical implications of these bounds by way of real-world examples drawn from the field of computer vision, whereby low-dimensional manifold structure is shown to emerge from high-dimensional video data streams.\n    ",
+        "submission_date": "2009-06-24T00:00:00",
+        "last_modified_date": "2009-06-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.1185",
+        "title": "Side-channel attack on labeling CAPTCHAs",
+        "authors": [
+            "Carlos Javier Hernandez-Castro",
+            "Arturo Ribagorda",
+            "Yago Saez"
+        ],
+        "abstract": "  We propose a new scheme of attack on the Microsoft's ASIRRA CAPTCHA which represents a significant shortcut to the intended attacking path, as it is not based in any advance in the state of the art on the field of image recognition. After studying the ASIRRA Public Corpus, we conclude that the security margin as stated by their authors seems to be quite optimistic. Then, we analyze which of the studied parameters for the image files seems to disclose the most valuable information for helping in correct classification, arriving at a surprising discovery. This represents a completely new approach to breaking CAPTCHAs that can be applied to many of the currently proposed image-labeling algorithms, and to prove this point we show how to use the very same approach against the HumanAuth CAPTCHA. Lastly, we investigate some measures that could be used to secure the ASIRRA and HumanAuth schemes, but conclude no easy solutions are at hand.\n    ",
+        "submission_date": "2009-08-08T00:00:00",
+        "last_modified_date": "2009-08-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3380",
+        "title": "Construction of Hilbert Transform Pairs of Wavelet Bases and Gabor-like Transforms",
+        "authors": [
+            "Kunal Narayan Chaudhury",
+            "Michael Unser"
+        ],
+        "abstract": "  We propose a novel method for constructing Hilbert transform (HT) pairs of wavelet bases based on a fundamental approximation-theoretic characterization of scaling functions--the B-spline factorization theorem. In particular, starting from well-localized scaling functions, we construct HT pairs of biorthogonal wavelet bases of L^2(R) by relating the corresponding wavelet filters via a discrete form of the continuous HT filter. As a concrete application of this methodology, we identify HT pairs of spline wavelets of a specific flavor, which are then combined to realize a family of complex wavelets that resemble the optimally-localized Gabor function for sufficiently large orders.\n",
+        "submission_date": "2009-08-24T00:00:00",
+        "last_modified_date": "2009-08-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3383",
+        "title": "On the Shiftability of Dual-Tree Complex Wavelet Transforms",
+        "authors": [
+            "Kunal Narayan Chaudhury",
+            "Michael Unser"
+        ],
+        "abstract": "  The dual-tree complex wavelet transform (DT-CWT) is known to exhibit better shift-invariance than the conventional discrete wavelet transform. We propose an amplitude-phase representation of the DT-CWT which, among other things, offers a direct explanation for the improvement in the shift-invariance. The representation is based on the shifting action of the group of fractional Hilbert transform (fHT) operators, which extends the notion of arbitrary phase-shifts from sinusoids to finite-energy signals (wavelets in particular). In particular, we characterize the shiftability of the DT-CWT in terms of the shifting property of the fHTs. At the heart of the representation are certain fundamental invariances of the fHT group, namely that of translation, dilation, and norm, which play a decisive role in establishing the key properties of the transform. It turns out that these fundamental invariances are exclusive to this group.\n",
+        "submission_date": "2009-08-24T00:00:00",
+        "last_modified_date": "2009-08-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3855",
+        "title": "Gabor wavelet analysis and the fractional Hilbert transform",
+        "authors": [
+            "Kunal Narayan Chaudhury",
+            "Michael Unser"
+        ],
+        "abstract": "  We propose an amplitude-phase representation of the dual-tree complex wavelet transform (DT-CWT) which provides an intuitive interpretation of the associated complex wavelet coefficients. The representation, in particular, is based on the shifting action of the group of fractional Hilbert transforms (fHT) which allow us to extend the notion of arbitrary phase-shifts beyond pure sinusoids. We explicitly characterize this shifting action for a particular family of Gabor-like wavelets which, in effect, links the corresponding dual-tree transform with the framework of windowed-Fourier analysis.\n",
+        "submission_date": "2009-08-26T00:00:00",
+        "last_modified_date": "2009-08-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.3861",
+        "title": "Fast adaptive elliptical filtering using box splines",
+        "authors": [
+            "Kunal Narayan Chaudhury",
+            "Arrate Munoz Barrutia",
+            "Michael Unser"
+        ],
+        "abstract": "  We demonstrate that it is possible to filter an image with an elliptic window of varying size, elongation and orientation with a fixed computational cost per pixel. Our method involves the application of a suitable global pre-integrator followed by a pointwise-adaptive localization mesh. We present the basic theory for the 1D case using a B-spline formalism and then appropriately extend it to 2D using radially-uniform box splines. The size and ellipticity of these radially-uniform box splines is adaptively controlled. Moreover, they converge to Gaussians as the order increases. Finally, we present a fast and practical directional filtering algorithm that has the capability of adapting to the local image features.\n    ",
+        "submission_date": "2009-08-26T00:00:00",
+        "last_modified_date": "2009-08-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.4310",
+        "title": "Co-occurrence Matrix and Fractal Dimension for Image Segmentation",
+        "authors": [
+            "Beatriz Marron"
+        ],
+        "abstract": "  One of the most important tasks in image processing problem and machine vision is object recognition, and the success of many proposed methods relies on a suitable choice of algorithm for the segmentation of an image. This paper focuses on how to apply texture operators based on the concept of fractal dimension and cooccurence matrix, to the problem of object recognition and a new method based on fractal dimension is introduced. Several images, in which the result of the segmentation can be shown, are used to illustrate the use of each method and a comparative study of each operator is made.\n    ",
+        "submission_date": "2009-08-29T00:00:00",
+        "last_modified_date": "2011-12-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.1310",
+        "title": "Sparse image representation by discrete cosine/spline based dictionaries",
+        "authors": [
+            "James Bowley",
+            "Laura Rebollo-Neira"
+        ],
+        "abstract": "  Mixed dictionaries generated by cosine and B-spline functions are considered. It is shown that, by highly nonlinear approaches such as Orthogonal Matching Pursuit, the discrete version of the proposed dictionaries yields a significant gain in the sparsity of an image representation.\n    ",
+        "submission_date": "2009-09-07T00:00:00",
+        "last_modified_date": "2009-09-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3606",
+        "title": "Extension of Path Probability Method to Approximate Inference over Time",
+        "authors": [
+            "Vinay Jethava"
+        ],
+        "abstract": "  There has been a tremendous growth in publicly available digital video footage over the past decade. This has necessitated the development of new techniques in computer vision geared towards efficient analysis, storage and retrieval of such data. Many mid-level computer vision tasks such as segmentation, object detection, tracking, etc. involve an inference problem based on the video data available. Video data has a high degree of spatial and temporal coherence. The property must be intelligently leveraged in order to obtain better results.\n",
+        "submission_date": "2009-09-19T00:00:00",
+        "last_modified_date": "2009-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1650",
+        "title": "Local and global approaches of affinity propagation clustering for large scale data",
+        "authors": [
+            "Dingyin Xia",
+            "Fei Wu",
+            "Xuqing Zhang",
+            "Yueting Zhuang"
+        ],
+        "abstract": "  Recently a new clustering algorithm called 'affinity propagation' (AP) has been proposed, which efficiently clustered sparsely related data by passing messages between data points. However, we want to cluster large scale data where the similarities are not sparse in many cases. This paper presents two variants of AP for grouping large scale data with a dense similarity matrix. The local approach is partition affinity propagation (PAP) and the global method is landmark affinity propagation (LAP). PAP passes messages in the subsets of data first and then merges them as the number of initial step of iterations; it can effectively reduce the number of iterations of clustering. LAP passes messages between the landmark data points first and then clusters non-landmark data points; it is a large global approximation method to speed up clustering. Experiments are conducted on many datasets, such as random data points, manifold subspaces, images of faces and Chinese calligraphy, and the results demonstrate that the two approaches are feasible and practicable.\n    ",
+        "submission_date": "2009-10-09T00:00:00",
+        "last_modified_date": "2009-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1857",
+        "title": "Distributed Object Medical Imaging Model",
+        "authors": [
+            "Ahmad Shukri Mohd Noor",
+            "Md Yazid Md Saman"
+        ],
+        "abstract": "  Digital medical informatics and images are commonly used in hospitals today,. Because of the interrelatedness of the radiology department and other departments, especially the intensive care unit and emergency department, the transmission and sharing of medical images has become a critical issue. Our research group has developed a Java-based Distributed Object Medical Imaging Model(DOMIM) to facilitate the rapid development and deployment of medical imaging applications in a distributed environment that can be shared and used by related departments and mobile physiciansDOMIM is a unique suite of multimedia telemedicine applications developed for the use by medical related organizations. The applications support realtime patients' data, image files, audio and video diagnosis annotation exchanges. The DOMIM enables joint collaboration between radiologists and physicians while they are at distant geographical locations. The DOMIM environment consists of heterogeneous, autonomous, and legacy resources. The Common Object Request Broker Architecture (CORBA), Java Database Connectivity (JDBC), and Java language provide the capability to combine the DOMIM resources into an integrated, interoperable, and scalable system. The underneath technology, including IDL ORB, Event Service, IIOP JDBC/ODBC, legacy system wrapping and Java implementation are explored. This paper explores a distributed collaborative CORBA/JDBC based framework that will enhance medical information management requirements and development. It encompasses a new paradigm for the delivery of health services that requires process reengineering, cultural changes, as well as organizational changes\n    ",
+        "submission_date": "2009-10-09T00:00:00",
+        "last_modified_date": "2009-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1955",
+        "title": "Microstructure reconstruction using entropic descriptors",
+        "authors": [
+            "R. Piasecki"
+        ],
+        "abstract": "A multi-scale approach to the inverse reconstruction of a pattern's microstructure is reported. Instead of a correlation function, a pair of entropic descriptors (EDs) is proposed for stochastic optimization method. The first of them measures a spatial inhomogeneity, for a binary pattern, or compositional one, for a greyscale image. The second one quantifies a spatial or compositional statistical complexity. The EDs reveal structural information that is dissimilar, at least in part, to that given by correlation functions at almost all of discrete length scales. The method is tested on a few digitized binary and greyscale images. In each of the cases, the persuasive reconstruction of the microstructure is found.\n    ",
+        "submission_date": "2009-10-10T00:00:00",
+        "last_modified_date": "2010-08-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5932",
+        "title": "Metric and Kernel Learning using a Linear Transformation",
+        "authors": [
+            "Prateek Jain",
+            "Brian Kulis",
+            "Jason V. Davis",
+            "Inderjit S. Dhillon"
+        ],
+        "abstract": "  Metric and kernel learning are important in several machine learning applications. However, most existing metric learning algorithms are limited to learning metrics over low-dimensional data, while existing kernel learning algorithms are often limited to the transductive setting and do not generalize to new data points. In this paper, we study metric learning as a problem of learning a linear transformation of the input data. We show that for high-dimensional data, a particular framework for learning a linear transformation of the data based on the LogDet divergence can be efficiently kernelized to learn a metric (or equivalently, a kernel function) over an arbitrarily high dimensional space. We further demonstrate that a wide class of convex loss functions for learning linear transformations can similarly be kernelized, thereby considerably expanding the potential applications of metric learning. We demonstrate our learning approach by applying it to large-scale real world problems in computer vision and text mining.\n    ",
+        "submission_date": "2009-10-30T00:00:00",
+        "last_modified_date": "2009-10-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0787",
+        "title": "Generalized Discriminant Analysis algorithm for feature reduction in Cyber Attack Detection System",
+        "authors": [
+            "Shailendra Singh",
+            "Sanjay Silakari"
+        ],
+        "abstract": "  This Generalized Discriminant Analysis (GDA) has provided an extremely powerful approach to extracting non linear features. The network traffic data provided for the design of intrusion detection system always are large with ineffective information, thus we need to remove the worthless information from the original high dimensional database. To improve the generalization ability, we usually generate a small set of features from the original input variables by feature extraction. The conventional Linear Discriminant Analysis (LDA) feature reduction technique has its limitations. It is not suitable for non linear dataset. Thus we propose an efficient algorithm based on the Generalized Discriminant Analysis (GDA) feature reduction technique which is novel approach used in the area of cyber attack detection. This not only reduces the number of the input features but also increases the classification accuracy and reduces the training and testing time of the classifiers by selecting most discriminating features. We use Artificial Neural Network (ANN) and C4.5 classifiers to compare the performance of the proposed technique. The result indicates the superiority of algorithm.\n    ",
+        "submission_date": "2009-11-04T00:00:00",
+        "last_modified_date": "2009-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.3349",
+        "title": "Seeing Science",
+        "authors": [
+            "Alyssa Goodman"
+        ],
+        "abstract": "  The ability to represent scientific data and concepts visually is becoming increasingly important due to the unprecedented exponential growth of computational power during the present digital age. The data sets and simulations scientists in all fields can now create are literally thousands of times as large as those created just 20 years ago. Historically successful methods for data visualization can, and should, be applied to today's huge data sets, but new approaches, also enabled by technology, are needed as well. Increasingly, \"modular craftsmanship\" will be applied, as relevant functionality from the graphically and technically best tools for a job are combined as-needed, without low-level programming.\n    ",
+        "submission_date": "2009-11-17T00:00:00",
+        "last_modified_date": "2009-11-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5404",
+        "title": "Laser Actuated Presentation System",
+        "authors": [
+            "Atul Chowdhary",
+            "Vivek Agrawal",
+            "Subhajit Karmakar",
+            "Sandip Sarkar"
+        ],
+        "abstract": "  We present here a pattern sensitive PowerPoint presentation scheme. The presentation is actuated by simple patterns drawn on the presentation screen by a laser pointer. A specific pattern corresponds to a particular command required to operate the presentation. Laser spot on the screen is captured by a RGB webcam with a red filter mounted, and its location is identified at the blue layer of each captured frame by estimating the mean position of the pixels whose intensity is above a given threshold value. Measured Reliability, Accuracy and Latency of our system are 90%, 10 pixels (in the worst case) and 38 ms respectively.\n    ",
+        "submission_date": "2009-11-28T00:00:00",
+        "last_modified_date": "2009-11-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0265",
+        "title": "Mapping the spatiotemporal dynamics of calcium signaling in cellular neural networks using optical flow",
+        "authors": [
+            "Marius Buibas",
+            "Diana Yu",
+            "Krystal Nizar",
+            "Gabriel A. Silva"
+        ],
+        "abstract": "  An optical flow gradient algorithm was applied to spontaneously forming net- works of neurons and glia in culture imaged by fluorescence optical microscopy in order to map functional calcium signaling with single pixel resolution. Optical flow estimates the direction and speed of motion of objects in an image between subsequent frames in a recorded digital sequence of images (i.e. a movie). Computed vector field outputs by the algorithm were able to track the spatiotemporal dynamics of calcium signaling pat- terns. We begin by briefly reviewing the mathematics of the optical flow algorithm, and then describe how to solve for the displacement vectors and how to measure their reliability. We then compare computed flow vectors with manually estimated vectors for the progression of a calcium signal recorded from representative astrocyte cultures. Finally, we applied the algorithm to preparations of primary astrocytes and hippocampal neurons and to the rMC-1 Muller glial cell line in order to illustrate the capability of the algorithm for capturing different types of spatiotemporal calcium activity. We discuss the imaging requirements, parameter selection and threshold selection for reliable measurements, and offer perspectives on uses of the vector data.\n    ",
+        "submission_date": "2009-12-01T00:00:00",
+        "last_modified_date": "2010-01-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0572",
+        "title": "Isometric Multi-Manifolds Learning",
+        "authors": [
+            "Mingyu Fan",
+            "Hong Qiao",
+            "Bo Zhang"
+        ],
+        "abstract": "  Isometric feature mapping (Isomap) is a promising manifold learning method. However, Isomap fails to work on data which distribute on clusters in a single manifold or manifolds. Many works have been done on extending Isomap to multi-manifolds learning. In this paper, we first proposed a new multi-manifolds learning algorithm (M-Isomap) with help of a general procedure. The new algorithm preserves intra-manifold geodesics and multiple inter-manifolds edges precisely. Compared with previous methods, this algorithm can isometrically learn data distributed on several manifolds. Secondly, the original multi-cluster manifold learning algorithm first proposed in \\cite{DCIsomap} and called D-C Isomap has been revised so that the revised D-C Isomap can learn multi-manifolds data. Finally, the features and effectiveness of the proposed multi-manifolds learning algorithms are demonstrated and compared through experiments.\n    ",
+        "submission_date": "2009-12-03T00:00:00",
+        "last_modified_date": "2009-12-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0607",
+        "title": "Reversible Image Authentication with Tamper Localization Based on Integer Wavelet Transform",
+        "authors": [
+            "P. Meenakshi Devi",
+            "M.Venkatesan",
+            "K.Duraiswamy"
+        ],
+        "abstract": "  In this paper, a new reversible image authentication technique with tamper localization based on watermarking in integer wavelet transform is proposed. If the image authenticity is verified, then the distortion due to embedding the watermark can be completely removed from the watermarked image. If the image is tampered, then the tampering positions can also be localized. Two layers of watermarking are used. The first layer embedded in spatial domain verifies authenticity and the second layer embedded in transform domain provides reversibility. This technique utilizes selective LSB embedding and histogram characteristics of the difference images of the wavelet coefficients and modifies pixel values slightly to embed the watermark. Experimental results demonstrate that the proposed scheme can detect any modifications of the watermarked image.\n    ",
+        "submission_date": "2009-12-03T00:00:00",
+        "last_modified_date": "2009-12-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0717",
+        "title": "Behavior and performance of the deep belief networks on image classification",
+        "authors": [
+            "Karol Gregor",
+            "Gregory Griffin"
+        ],
+        "abstract": "  We apply deep belief networks of restricted Boltzmann machines to bags of words of sift features obtained from databases of 13 Scenes, 15 Scenes and Caltech 256 and study experimentally their behavior and performance. We find that the final performance in the supervised phase is reached much faster if the system is pre-trained. Pre-training the system on a larger dataset keeping the supervised dataset fixed improves the performance (for the 13 Scenes case). After the unsupervised pre-training, neurons arise that form approximate explicit representations for several categories (meaning they are mostly active for this category). The last three facts suggest that unsupervised training really discovers structure in these data. Pre-training can be done on a completely different dataset (we use Corel dataset) and we find that the supervised phase performs just as good (on the 15 Scenes dataset). This leads us to conjecture that one can pre-train the system once (e.g. in a factory) and subsequently apply it to many supervised problems which then learn much faster. The best performance is obtained with single hidden layer system suggesting that the histogram of sift features doesn't have much high level structure. The overall performance is almost equal, but slightly worse then that of the support vector machine and the spatial pyramidal matching.\n    ",
+        "submission_date": "2009-12-03T00:00:00",
+        "last_modified_date": "2009-12-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0950",
+        "title": "Fingerprint Verification based on Gabor Filter Enhancement",
+        "authors": [
+            "B N Lavanya",
+            "K B Raja",
+            "K R Venugopal"
+        ],
+        "abstract": "  Human fingerprints are reliable characteristics for personnel identification as it is unique and persistence. A fingerprint pattern consists of ridges, valleys and minutiae. In this paper we propose Fingerprint Verification based on Gabor Filter Enhancement (FVGFE) algorithm for minutiae feature extraction and post processing based on 9 pixel neighborhood. A global feature extraction and fingerprints enhancement are based on Hong enhancement method which is simultaneously able to extract local ridge orientation and ridge frequency. It is observed that the Sensitivity and Specificity values are better compared to the existing algorithms.\n    ",
+        "submission_date": "2009-12-04T00:00:00",
+        "last_modified_date": "2009-12-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0955",
+        "title": "Robust Multi biometric Recognition Using Face and Ear Images",
+        "authors": [
+            "Nazmeen Bibi Boodoo",
+            "R. K. Subramanian"
+        ],
+        "abstract": "  This study investigates the use of ear as a biometric for authentication and shows experimental results obtained on a newly created dataset of 420 images. Images are passed to a quality module in order to reduce False Rejection Rate. The Principal Component Analysis (eigen ear) approach was used, obtaining 90.7 percent recognition rate. Improvement in recognition results is obtained when ear biometric is fused with face biometric. The fusion is done at decision level, achieving a recognition rate of 96 percent.\n    ",
+        "submission_date": "2009-12-04T00:00:00",
+        "last_modified_date": "2009-12-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1005",
+        "title": "Performance analysis of Non Linear Filtering Algorithms for underwater images",
+        "authors": [
+            "Dr. G. Padmavathi",
+            "Dr. P. Subashini",
+            "Mr. M. Muthu Kumar",
+            "Suresh Kumar Thakur"
+        ],
+        "abstract": "  Image filtering algorithms are applied on images to remove the different types of noise that are either present in the image during capturing or injected in to the image during transmission. Underwater images when captured usually have Gaussian noise, speckle noise and salt and pepper noise. In this work, five different image filtering algorithms are compared for the three different noise types. The performances of the filters are compared using the Peak Signal to Noise Ratio (PSNR) and Mean Square Error (MSE). The modified spatial median filter gives desirable results in terms of the above two parameters for the three different noise. Forty underwater images are taken for study.\n    ",
+        "submission_date": "2009-12-05T00:00:00",
+        "last_modified_date": "2009-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1017",
+        "title": "Genetic Programming Framework for Fingerprint Matching",
+        "authors": [
+            "Ismail A. Ismail",
+            "Nabawia A. ElRamly",
+            "Mohammed A. Abd-ElWahid",
+            "Passent M. ElKafrawy",
+            "Mohammed M. Nasef"
+        ],
+        "abstract": "  A fingerprint matching is a very difficult problem. Minutiae based matching is the most popular and widely used technique for fingerprint matching. The minutiae points considered in automatic identification systems are based normally on termination and bifurcation points. In this paper we propose a new technique for fingerprint matching using minutiae points and genetic programming. The goal of this paper is extracting the mathematical formula that defines the minutiae points.\n    ",
+        "submission_date": "2009-12-05T00:00:00",
+        "last_modified_date": "2009-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.2492",
+        "title": "Learning an Interactive Segmentation System",
+        "authors": [
+            "Hannes Nickisch",
+            "Pushmeet Kohli",
+            "Carsten Rother"
+        ],
+        "abstract": "  Many successful applications of computer vision to image or video manipulation are interactive by nature. However, parameters of such systems are often trained neglecting the user. Traditionally, interactive systems have been treated in the same manner as their fully automatic counterparts. Their performance is evaluated by computing the accuracy of their solutions under some fixed set of user interactions. This paper proposes a new evaluation and learning method which brings the user in the loop. It is based on the use of an active robot user - a simulated model of a human user. We show how this approach can be used to evaluate and learn parameters of state-of-the-art interactive segmentation systems. We also show how simulated user models can be integrated into the popular max-margin method for parameter learning and propose an algorithm to solve the resulting optimisation problem.\n    ",
+        "submission_date": "2009-12-13T00:00:00",
+        "last_modified_date": "2009-12-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.2563",
+        "title": "A Model-Based Approach to Predicting Predator-Prey & Friend-Foe Relationships in Ant Colonies",
+        "authors": [
+            "Karthik Narayanaswami"
+        ],
+        "abstract": "  Understanding predator-prey relationships among insects is a challenging task in the domain of insect-colony research. This is due to several factors involved, such as determining whether a particular behavior is the result of a predator-prey interaction, a friend-foe interaction or another kind of interaction. In this paper, we analyze a series of predator-prey and friend-foe interactions in two colonies of carpenter ants to better understand and predict such behavior. Using the data gathered, we have also come up with a preliminary model for predicting such behavior under the specific conditions the experiment was conducted in. In this paper, we present the results of our data analysis as well as an overview of the processes involved.\n    ",
+        "submission_date": "2009-12-14T00:00:00",
+        "last_modified_date": "2009-12-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.4571",
+        "title": "Fast Alternating Linearization Methods for Minimizing the Sum of Two Convex Functions",
+        "authors": [
+            "Donald Goldfarb",
+            "Shiqian Ma",
+            "Katya Scheinberg"
+        ],
+        "abstract": "We present in this paper first-order alternating linearization algorithms based on an alternating direction augmented Lagrangian approach for minimizing the sum of two convex functions. Our basic methods require at most $O(1/\\epsilon)$ iterations to obtain an $\\epsilon$-optimal solution, while our accelerated (i.e., fast) versions of them require at most $O(1/\\sqrt{\\epsilon})$ iterations, with little change in the computational effort required at each iteration. For both types of methods, we present one algorithm that requires both functions to be smooth with Lipschitz continuous gradients and one algorithm that needs only one of the functions to be so. Algorithms in this paper are Gauss-Seidel type methods, in contrast to the ones proposed by Goldfarb and Ma in [21] where the algorithms are Jacobi type methods. Numerical results are reported to support our theoretical conclusions and demonstrate the practical potential of our algorithms.\n    ",
+        "submission_date": "2009-12-23T00:00:00",
+        "last_modified_date": "2010-10-13T00:00:00"
+    }
+]

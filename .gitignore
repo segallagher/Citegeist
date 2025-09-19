@@ -7,3 +7,4 @@ vectorstore
 arxiv_papers
 outputs
 *.zip
+!published/outputs

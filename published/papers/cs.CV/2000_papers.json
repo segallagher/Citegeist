@@ -1,0 +1,167 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0001024",
+        "title": "A Parallel Algorithm for Dilated Contour Extraction from Bilevel Images",
+        "authors": [
+            "B. R. Schlei",
+            "L. Prasad"
+        ],
+        "abstract": "  We describe a simple, but efficient algorithm for the generation of dilated contours from bilevel images. The initial part of the contour extraction is explained to be a good candidate for parallel computer code generation. The remainder of the algorithm is of linear nature.\n    ",
+        "submission_date": "2000-01-25T00:00:00",
+        "last_modified_date": "2000-01-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003065",
+        "title": "Image Compression with Iterated Function Systems, Finite Automata and Zerotrees: Grand Unification",
+        "authors": [
+            "Oleg Kiselyov",
+            "Paul Fisher"
+        ],
+        "abstract": "  Fractal image compression, Culik's image compression and zerotree prediction coding of wavelet image decomposition coefficients succeed only because typical images being compressed possess a significant degree of self-similarity. Besides the common concept, these methods turn out to be even more tightly related, to the point of algorithmical reducibility of one technique to another. The goal of the present paper is to demonstrate these relations.\n",
+        "submission_date": "2000-03-15T00:00:00",
+        "last_modified_date": "2000-03-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0003079",
+        "title": "Differential Invariants under Gamma Correction",
+        "authors": [
+            "Andreas Siebert"
+        ],
+        "abstract": "  This paper presents invariants under gamma correction and similarity transformations. The invariants are local features based on differentials which are implemented using derivatives of the Gaussian. The use of the proposed invariant representation is shown to yield improved correlation results in a template matching scenario.\n    ",
+        "submission_date": "2000-03-26T00:00:00",
+        "last_modified_date": "2000-03-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0004012",
+        "title": "Assisted Video Sequences Indexing : Motion Analysis Based on Interest Points",
+        "authors": [
+            "Emmanuel Etievent",
+            "Frank Lebourgeois",
+            "Jean-Michel Jolion"
+        ],
+        "abstract": "  This work deals with content-based video indexing. Our viewpoint is semi-automatic analysis of compressed video. We consider the possible applications of motion analysis and moving object detection : assisting moving object indexing, summarising videos, and allowing image and motion queries. We propose an approach based on interest points. As first results, we test and compare the stability of different types of interest point detectors in compressed sequences.\n    ",
+        "submission_date": "2000-04-21T00:00:00",
+        "last_modified_date": "2000-04-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005001",
+        "title": "Robustness of Regional Matching Scheme over Global Matching Scheme",
+        "authors": [
+            "Liang Chen",
+            "Naoyuki Tokuda"
+        ],
+        "abstract": "  The paper has established and verified the theory prevailing widely among image and pattern recognition specialists that the bottom-up indirect regional matching process is the more stable and the more robust than the global matching process against concentrated types of noise represented by clutter, outlier or occlusion in the imagery. We have demonstrated this by analyzing the effect of concentrated noise on a typical decision making process of a simplified two candidate voting model where our theorem establishes the lower bounds to a critical breakdown point of election (or decision) result by the bottom-up matching process are greater than the exact bound of the global matching process implying that the former regional process is capable of accommodating a higher level of noise than the latter global process before the result of decision overturns. We present a convincing experimental verification supporting not only the theory by a white-black flag recognition problem in the presence of localized noise but also the validity of the conjecture by a facial recognition problem that the theorem remains valid for other decision making processes involving an important dimension-reducing transform such as principal component analysis or a Gabor transform.\n    ",
+        "submission_date": "2000-05-03T00:00:00",
+        "last_modified_date": "2000-05-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0005027",
+        "title": "A Bayesian Reflection on Surfaces",
+        "authors": [
+            "David R. Wolf"
+        ],
+        "abstract": "  The topic of this paper is a novel Bayesian continuous-basis field representation and inference framework. Within this paper several problems are solved: The maximally informative inference of continuous-basis fields, that is where the basis for the field is itself a continuous object and not representable in a finite manner; the tradeoff between accuracy of representation in terms of information learned, and memory or storage capacity in bits; the approximation of probability distributions so that a maximal amount of information about the object being inferred is preserved; an information theoretic justification for multigrid methodology. The maximally informative field inference framework is described in full generality and denoted the Generalized Kalman Filter. The Generalized Kalman Filter allows the update of field knowledge from previous knowledge at any scale, and new data, to new knowledge at any other scale. An application example instance, the inference of continuous surfaces from measurements (for example, camera image data), is presented.\n    ",
+        "submission_date": "2000-05-26T00:00:00",
+        "last_modified_date": "2000-05-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006001",
+        "title": "Boosting the Differences: A fast Bayesian classifier neural network",
+        "authors": [
+            "Ninan Sajeeth Philip",
+            "K. Babu Joseph"
+        ],
+        "abstract": "  A Bayesian classifier that up-weights the differences in the attribute values is discussed. Using four popular datasets from the UCI repository, some interesting features of the network are illustrated. The network is suitable for classification problems.\n    ",
+        "submission_date": "2000-05-31T00:00:00",
+        "last_modified_date": "2000-05-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006002",
+        "title": "Distorted English Alphabet Identification : An application of Difference Boosting Algorithm",
+        "authors": [
+            "Ninan Sajeeth Philip",
+            "K. Babu Joseph"
+        ],
+        "abstract": "  The difference-boosting algorithm is used on letters dataset from the UCI repository to classify distorted raster images of English alphabets. In contrast to rather complex networks, the difference-boosting is found to produce comparable or better classification efficiency on this complex problem.\n    ",
+        "submission_date": "2000-05-31T00:00:00",
+        "last_modified_date": "2000-05-31T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006040",
+        "title": "Correlation over Decomposed Signals: A Non-Linear Approach to Fast and Effective Sequences Comparison",
+        "authors": [
+            "Luciano da Fontoura Costa"
+        ],
+        "abstract": "  A novel non-linear approach to fast and effective comparison of sequences is presented, compared to the traditional cross-correlation operator, and illustrated with respect to DNA sequences.\n    ",
+        "submission_date": "2000-06-28T00:00:00",
+        "last_modified_date": "2000-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0006047",
+        "title": "Geometric Morphology of Granular Materials",
+        "authors": [
+            "B. R. Schlei",
+            "L. Prasad",
+            "A. N. Skourikhine"
+        ],
+        "abstract": "  We present a new method to transform the spectral pixel information of a micrograph into an affine geometric description, which allows us to analyze the morphology of granular materials. We use spectral and pulse-coupled neural network based segmentation techniques to generate blobs, and a newly developed algorithm to extract dilated contours. A constrained Delaunay tesselation of the contour points results in a triangular mesh. This mesh is the basic ingredient of the Chodal Axis Transform, which provides a morphological decomposition of shapes. Such decomposition allows for grain separation and the efficient computation of the statistical features of granular materials.\n    ",
+        "submission_date": "2000-06-30T00:00:00",
+        "last_modified_date": "2000-06-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0001025",
+        "title": "Computational Geometry Column 38",
+        "authors": [
+            "Joseph O'Rourke"
+        ],
+        "abstract": "  Recent results on curve reconstruction are described.\n    ",
+        "submission_date": "2000-01-28T00:00:00",
+        "last_modified_date": "2000-01-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0007026",
+        "title": "Integrating E-Commerce and Data Mining: Architecture and Challenges",
+        "authors": [
+            "Suhail Ansari",
+            "Ron Kohavi",
+            "Llew Mason",
+            "Zijian Zheng"
+        ],
+        "abstract": "  We show that the e-commerce domain can provide all the right ingredients for successful data mining and claim that it is a killer domain for data mining. We describe an integrated architecture, based on our expe-rience at Blue Martini Software, for supporting this integration. The architecture can dramatically reduce the pre-processing, cleaning, and data understanding effort often documented to take 80% of the time in knowledge discovery projects. We emphasize the need for data collection at the application server layer (not the web server) in order to support logging of data and metadata that is essential to the discovery process. We describe the data transformation bridges required from the transaction processing systems and customer event streams (e.g., clickstreams) to the data warehouse. We detail the mining workbench, which needs to provide multiple views of the data through reporting, data mining algorithms, visualization, and OLAP. We con-clude with a set of challenges.\n    ",
+        "submission_date": "2000-07-14T00:00:00",
+        "last_modified_date": "2000-07-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010014",
+        "title": "On a cepstrum-based speech detector robust to white noise",
+        "authors": [
+            "Sergei Skorik",
+            "Frederic Berthommier"
+        ],
+        "abstract": "  We study effects of additive white noise on the cepstral representation of speech signals. Distribution of each individual cepstrum coefficient of speech is shown to depend strongly on noise and to overlap significantly with the cepstrum distribution of noise. Based on these studies, we suggest a scalar quantity, V, equal to the sum of weighted cepstral coefficients, which is able to classify frames containing speech against noise-like frames. The distributions of V for speech and noise frames are reasonably well separated above SNR = 5 dB, demonstrating the feasibility of robust speech detector based on V.\n    ",
+        "submission_date": "2000-10-10T00:00:00",
+        "last_modified_date": "2000-10-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0010023",
+        "title": "Oracle Complexity and Nontransitivity in Pattern Recognition",
+        "authors": [
+            "Vadim Bulitko"
+        ],
+        "abstract": "  Different mathematical models of recognition processes are known. In the present paper we consider a pattern recognition algorithm as an oracle computation on a Turing machine. Such point of view seems to be useful in pattern recognition as well as in recursion theory. Use of recursion theory in pattern recognition shows connection between a recognition algorithm comparison problem and complexity problems of oracle computation. That is because in many cases we can take into account only the number of sign computations or in other words volume of oracle information needed. Therefore, the problem of recognition algorithm preference can be formulated as a complexity optimization problem of oracle computation. Furthermore, introducing a certain \"natural\" preference relation on a set of recognizing algorithms, we discover it to be nontransitive. This relates to the well known nontransitivity paradox in probability theory.\n",
+        "submission_date": "2000-10-16T00:00:00",
+        "last_modified_date": "2000-10-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/physics/0005062",
+        "title": "Applying MDL to Learning Best Model Granularity",
+        "authors": [
+            "Qiong Gao",
+            "Ming Li",
+            "Paul Vitanyi"
+        ],
+        "abstract": "  The Minimum Description Length (MDL) principle is solidly based on a provably ideal method of inference using Kolmogorov complexity. We test how the theory behaves in practice on a general problem in model selection: that of learning the best model granularity. The performance of a model depends critically on the granularity, for example the choice of precision of the parameters. Too high precision generally involves modeling of accidental noise and too low precision may lead to confusion of models that should be distinguished. This precision is often determined ad hoc. In MDL the best model is the one that most compresses a two-part code of the data set: this embodies ``Occam's Razor.'' In two quite different experimental settings the theoretical value determined using MDL coincides with the best value found experimentally. In the first experiment the task is to recognize isolated handwritten characters in one subject's handwriting, irrespective of size and orientation. Based on a new modification of elastic matching, using multiple prototypes per character, the optimal prediction rate is predicted for the learned parameter (length of sampling interval) considered most likely by MDL, which is shown to coincide with the best value found experimentally. In the second experiment the task is to model a robot arm with two degrees of freedom using a three layer feed-forward neural network where we need to determine the number of nodes in the hidden layer giving best modeling performance. The optimal model (the one that extrapolizes best on unseen examples) is predicted for the number of nodes in the hidden layer considered most likely by MDL, which again is found to coincide with the best value found experimentally.\n    ",
+        "submission_date": "2000-05-23T00:00:00",
+        "last_modified_date": "2000-05-23T00:00:00"
+    }
+]

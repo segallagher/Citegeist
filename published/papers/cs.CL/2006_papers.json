@@ -1,0 +1,621 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/0601005",
+        "title": "Analyzing language development from a network approach",
+        "authors": [
+            "J-Y Ke",
+            "Y. Yao"
+        ],
+        "abstract": "  In this paper we propose some new measures of language development using network analyses, which is inspired by the recent surge of interests in network studies of many real-world systems. Children's and care-takers' speech data from a longitudinal study are represented as a series of networks, word forms being taken as nodes and collocation of words as links. Measures on the properties of the networks, such as size, connectivity, hub and authority analyses, etc., allow us to make quantitative comparison so as to reveal different paths of development. For example, the asynchrony of development in network size and average degree suggests that children cannot be simply classified as early talkers or late talkers by one or two measures. Children follow different paths in a multi-dimensional space. They may develop faster in one dimension but slower in another dimension. The network approach requires little preprocessing of words and analyses on sentence structures, and the characteristics of words and their usage emerge from the network and are independent of any grammatical presumptions. We show that the change of the two articles \"the\" and \"a\" in their roles as important nodes in the network reflects the progress of children's syntactic development: the two articles often start in children's networks as hubs and later shift to authorities, while they are authorities constantly in the adult's networks. The network analyses provide a new approach to study language development, and at the same time language development also presents a rich area for network theories to explore.\n    ",
+        "submission_date": "2006-01-04T00:00:00",
+        "last_modified_date": "2006-01-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601037",
+        "title": "Constraint-based verification of abstract models of multitreaded programs",
+        "authors": [
+            "Giorgio Delzanno"
+        ],
+        "abstract": "  We present a technique for the automated verification of abstract models of multithreaded programs providing fresh name generation, name mobility, and unbounded control.\n",
+        "submission_date": "2006-01-10T00:00:00",
+        "last_modified_date": "2006-01-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604027",
+        "title": "Unification of multi-lingual scientific terminological resources using the ISO 16642 standard. The TermSciences initiative",
+        "authors": [
+            "Majid Khayari",
+            "St\u00e9phane Schneider",
+            "Isabelle Kramer",
+            "Laurent Romary",
+            "termsciences Collaboration"
+        ],
+        "abstract": "  This paper presents the TermSciences portal, which deals with the implementation of a conceptual model that uses the recent ISO 16642 standard (Terminological Markup Framework). This standard turns out to be suitable for concept modeling since it allowed for organizing the original resources by concepts and to associate the various terms for a given concept. Additional structuring is produced by sharing conceptual relationships, that is, cross-linking of resource results through the introduction of semantic relations which may have initially be missing.\n    ",
+        "submission_date": "2006-04-07T00:00:00",
+        "last_modified_date": "2006-04-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605076",
+        "title": "Numeration-automatic sequences",
+        "authors": [
+            "J. F. J. Laros"
+        ],
+        "abstract": "  We present a base class of automata that induce a numeration system and we give an algorithm to give the n-th word in the language of the automaton when the expansion of n in the induced numeration system is feeded to the automaton. Furthermore we give some algorithms for reverse reading of this expansion and a way to combine automata to other automata having the same properties.\n    ",
+        "submission_date": "2006-05-17T00:00:00",
+        "last_modified_date": "2006-05-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606006",
+        "title": "Foundations of Modern Language Resource Archives",
+        "authors": [
+            "Peter Wittenburg",
+            "Daan Broeder",
+            "Wolfgang Klein",
+            "Stephen Levinson",
+            "Laurent Romary"
+        ],
+        "abstract": "  A number of serious reasons will convince an increasing amount of researchers to store their relevant material in centers which we will call \"language resource archives\". They combine the duty of taking care of long-term preservation as well as the task to give access to their material to different user groups. Access here is meant in the sense that an active interaction with the data will be made possible to support the integration of new data, new versions or commentaries of all sort. Modern Language Resource Archives will have to adhere to a number of basic principles to fulfill all requirements and they will have to be involved in federations to create joint language resource domains making it even more simple for the researchers to access the data. This paper makes an attempt to formulate the essential pillars language resource archives have to adhere to.\n    ",
+        "submission_date": "2006-06-01T00:00:00",
+        "last_modified_date": "2006-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606096",
+        "title": "Building a resource for studying translation shifts",
+        "authors": [
+            "Lea Cyrus"
+        ],
+        "abstract": "  This paper describes an interdisciplinary approach which brings together the fields of corpus linguistics and translation studies. It presents ongoing work on the creation of a corpus resource in which translation shifts are explicitly annotated. Translation shifts denote departures from formal correspondence between source and target text, i.e. deviations that have occurred during the translation process. A resource in which such shifts are annotated in a systematic way will make it possible to study those phenomena that need to be addressed if machine translation output is to resemble human translation. The resource described in this paper contains English source texts (parliamentary proceedings) and their German translations. The shift annotation is based on predicate-argument structures and proceeds in two steps: first, predicates and their arguments are annotated monolingually in a straightforward manner. Then, the corresponding English and German predicates and arguments are aligned with each other. Whenever a shift - mainly grammatical or semantic -has occurred, the alignment is tagged accordingly.\n    ",
+        "submission_date": "2006-06-22T00:00:00",
+        "last_modified_date": "2006-06-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606118",
+        "title": "Adapting a general parser to a sublanguage",
+        "authors": [
+            "Sophie Aubin",
+            "Adeline Nazarenko",
+            "Claire N\u00e9dellec"
+        ],
+        "abstract": "  In this paper, we propose a method to adapt a general parser (Link Parser) to sublanguages, focusing on the parsing of texts in biology. Our main proposal is the use of terminology (identication and analysis of terms) in order to reduce the complexity of the text to be parsed. Several other strategies are explored and finally combined among which text normalization, lexicon and morpho-guessing module extensions and grammar rules adaptation. We compare the parsing results before and after these adaptations.\n    ",
+        "submission_date": "2006-06-28T00:00:00",
+        "last_modified_date": "2006-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606119",
+        "title": "Lexical Adaptation of Link Grammar to the Biomedical Sublanguage: a Comparative Evaluation of Three Approaches",
+        "authors": [
+            "Sampo Pyysalo",
+            "Tapio Salakoski",
+            "Sophie Aubin",
+            "Adeline Nazarenko"
+        ],
+        "abstract": "  We study the adaptation of Link Grammar Parser to the biomedical sublanguage with a focus on domain terms not found in a general parser lexicon. Using two biomedical corpora, we implement and evaluate three approaches to addressing unknown words: automatic lexicon expansion, the use of morphological clues, and disambiguation using a part-of-speech tagger. We evaluate each approach separately for its effect on parsing performance and consider combinations of these approaches. In addition to a 45% increase in parsing efficiency, we find that the best approach, incorporating information from a domain part-of-speech tagger, offers a statistically signicant 10% relative decrease in error. The adapted parser is available under an open-source license at ",
+        "submission_date": "2006-06-28T00:00:00",
+        "last_modified_date": "2006-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607051",
+        "title": "Raisonner avec des diagrammes : perspectives cognitives et computationnelles",
+        "authors": [
+            "Catherine Recanati"
+        ],
+        "abstract": "  Diagrammatic, analogical or iconic representations are often contrasted with linguistic or logical representations, in which the shape of the symbols is arbitrary. The aim of this paper is to make a case for the usefulness of diagrams in inferential knowledge representation systems. Although commonly used, diagrams have for a long time suffered from the reputation of being only a heuristic tool or a mere support for intuition. The first part of this paper is an historical background paying tribute to the logicians, psychologists and computer scientists who put an end to this formal prejudice against diagrams. The second part is a discussion of their characteristics as opposed to those of linguistic forms. The last part is aimed at reviving the interest for heterogeneous representation systems including both linguistic and diagrammatic representations.\n    ",
+        "submission_date": "2006-07-11T00:00:00",
+        "last_modified_date": "2006-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607062",
+        "title": "Get out the vote: Determining support or opposition from Congressional floor-debate transcripts",
+        "authors": [
+            "Matt Thomas",
+            "Bo Pang",
+            "Lillian Lee"
+        ],
+        "abstract": "We investigate whether one can determine from the transcripts of U.S. Congressional floor debates whether the speeches represent support of or opposition to proposed legislation. To address this problem, we exploit the fact that these speeches occur as part of a discussion; this allows us to use sources of information regarding relationships between discourse segments, such as whether a given utterance indicates agreement with the opinion expressed by another. We find that the incorporation of such information yields substantial improvements over classifying speeches in isolation.\n    ",
+        "submission_date": "2006-07-12T00:00:00",
+        "last_modified_date": "2012-06-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607088",
+        "title": "Using Answer Set Programming in an Inference-Based approach to Natural Language Semantics",
+        "authors": [
+            "Farid Nouioua",
+            "Pascal Nicolas"
+        ],
+        "abstract": "  Using Answer Set Programming in an Inference-Based approach to Natural Language Semantics\n    ",
+        "submission_date": "2006-07-18T00:00:00",
+        "last_modified_date": "2006-07-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607120",
+        "title": "Expressing Implicit Semantic Relations without Supervision",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  We present an unsupervised learning algorithm that mines large text corpora for patterns that express implicit semantic relations. For a given input word pair X:Y with some unspecified semantic relations, the corresponding output list of patterns <P1,...,Pm> is ranked according to how well each pattern Pi expresses the relations between X and Y. For example, given X=ostrich and Y=bird, the two highest ranking output patterns are \"X is the largest Y\" and \"Y such as the X\". The output patterns are intended to be useful for finding further pairs with the same relations, to support the construction of lexicons, ontologies, and semantic networks. The patterns are sorted by pertinence, where the pertinence of a pattern Pi for a word pair X:Y is the expected relational similarity between the given pair and typical pairs for Pi. The algorithm is empirically evaluated on two tasks, solving multiple-choice SAT word analogy questions and classifying semantic relations in noun-modifier pairs. On both tasks, the algorithm achieves state-of-the-art results, performing significantly better than several alternative pattern ranking algorithms, based on tf-idf.\n    ",
+        "submission_date": "2006-07-27T00:00:00",
+        "last_modified_date": "2006-07-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0608100",
+        "title": "Similarity of Semantic Relations",
+        "authors": [
+            "Peter D. Turney"
+        ],
+        "abstract": "  There are at least two kinds of similarity. Relational similarity is correspondence between relations, in contrast with attributional similarity, which is correspondence between attributes. When two words have a high degree of attributional similarity, we call them synonyms. When two pairs of words have a high degree of relational similarity, we say that their relations are analogous. For example, the word pair mason:stone is analogous to the pair carpenter:wood. This paper introduces Latent Relational Analysis (LRA), a method for measuring relational similarity. LRA has potential applications in many areas, including information extraction, word sense disambiguation, and information retrieval. Recently the Vector Space Model (VSM) of information retrieval has been adapted to measuring relational similarity, achieving a score of 47% on a collection of 374 college-level multiple-choice word analogy questions. In the VSM approach, the relation between a pair of words is characterized by a vector of frequencies of predefined patterns in a large corpus. LRA extends the VSM approach in three ways: (1) the patterns are derived automatically from the corpus, (2) the Singular Value Decomposition (SVD) is used to smooth the frequency data, and (3) automatically generated synonyms are used to explore variations of the word pairs. LRA achieves 56% on the 374 analogy questions, statistically equivalent to the average human score of 57%. On the related problem of classifying semantic relations, LRA achieves similar gains over the VSM.\n    ",
+        "submission_date": "2006-08-25T00:00:00",
+        "last_modified_date": "2006-08-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609019",
+        "title": "Improving Term Extraction with Terminological Resources",
+        "authors": [
+            "Sophie Aubin",
+            "Thierry Hamon"
+        ],
+        "abstract": "  Studies of different term extractors on a corpus of the biomedical domain revealed decreasing performances when applied to highly technical texts. The difficulty or impossibility of customising them to new domains is an additional limitation. In this paper, we propose to use external terminologies to influence generic linguistic data in order to augment the quality of the extraction. The tool we implemented exploits testified terms at different steps of the process: chunking, parsing and extraction of term candidates. Experiments reported here show that, using this method, more term candidates can be acquired with a higher level of reliability. We further describe the extraction process involving endogenous disambiguation implemented in the term extractor YaTeA.\n    ",
+        "submission_date": "2006-09-06T00:00:00",
+        "last_modified_date": "2006-09-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609043",
+        "title": "Challenging the principle of compositionality in interpreting natural language texts",
+        "authors": [
+            "Fran\u00e7oise Gayral",
+            "Daniel Kayser",
+            "Fran\u00e7ois L\u00e9vy"
+        ],
+        "abstract": "  The paper aims at emphasizing that, even relaxed, the hypothesis of compositionality has to face many problems when used for interpreting natural language texts. Rather than fixing these problems within the compositional framework, we believe that a more radical change is necessary, and propose another approach.\n    ",
+        "submission_date": "2006-09-08T00:00:00",
+        "last_modified_date": "2006-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609044",
+        "title": "The role of time in considering collections",
+        "authors": [
+            "Fran\u00e7oise Gayral",
+            "Daniel Kayser",
+            "Fran\u00e7ois L\u00e9vy"
+        ],
+        "abstract": "  The paper concerns the understanding of plurals in the framework of Artificial Intelligence and emphasizes the role of time. The construction of collection(s) and their evolution across time is often crucial and has to be accounted for. The paper contrasts a \"de dicto\" collection where the collection can be considered as persisting over these situations even if its members change with a \"de re\" collection whose composition does not vary through time. It expresses different criteria of choice between the two interpretations (de re and de dicto) depending on the context of enunciation.\n    ",
+        "submission_date": "2006-09-08T00:00:00",
+        "last_modified_date": "2006-09-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609051",
+        "title": "Multilingual person name recognition and transliteration",
+        "authors": [
+            "Bruno Pouliquen",
+            "Ralf Steinberger",
+            "Camelia Ignat",
+            "Irina Temnikova",
+            "Anna Widiger",
+            "Wajdi Zaghouani",
+            "Jan Zizka"
+        ],
+        "abstract": "  We present an exploratory tool that extracts person names from multilingual news collections, matches name variants referring to the same person, and infers relationships between people based on the co-occurrence of their names in related news. A novel feature is the matching of name variants across languages and writing systems, including names written with the Greek, Cyrillic and Arabic writing system. Due to our highly multilingual setting, we use an internal standard representation for name representation and matching, instead of adopting the traditional bilingual approach to transliteration. This work is part of the news analysis system NewsExplorer that clusters an average of 25,000 news articles per day to detect related news within the same and across different languages.\n    ",
+        "submission_date": "2006-09-11T00:00:00",
+        "last_modified_date": "2006-09-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609053",
+        "title": "Navigating multilingual news collections using automatically extracted information",
+        "authors": [
+            "Ralf Steinberger",
+            "Bruno Pouliquen",
+            "Camelia Ignat"
+        ],
+        "abstract": "  We are presenting a text analysis tool set that allows analysts in various fields to sieve through large collections of multilingual news items quickly and to find information that is of relevance to them. For a given document collection, the tool set automatically clusters the texts into groups of similar articles, extracts names of places, people and organisations, lists the user-defined specialist terms found, links clusters and entities, and generates hyperlinks. Through its daily news analysis operating on thousands of articles per day, the tool also learns relationships between people and other entities. The fully functional prototype system allows users to explore and navigate multilingual document collections across languages and time.\n    ",
+        "submission_date": "2006-09-11T00:00:00",
+        "last_modified_date": "2006-09-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609058",
+        "title": "The JRC-Acquis: A multilingual aligned parallel corpus with 20+ languages",
+        "authors": [
+            "Ralf Steinberger",
+            "Bruno Pouliquen",
+            "Anna Widiger",
+            "Camelia Ignat",
+            "Tomaz Erjavec",
+            "Dan Tufis",
+            "Daniel Varga"
+        ],
+        "abstract": "  We present a new, unique and freely available parallel corpus containing European Union (EU) documents of mostly legal nature. It is available in all 20 official EUanguages, with additional documents being available in the languages of the EU candidate countries. The corpus consists of almost 8,000 documents per language, with an average size of nearly 9 million words per language. Pair-wise paragraph alignment information produced by two different aligners (Vanilla and HunAlign) is available for all 190+ language pair combinations. Most texts have been manually classified according to the EUROVOC subject domains so that the collection can also be used to train and test multi-label classification algorithms and keyword-assignment software. The corpus is encoded in XML, according to the Text Encoding Initiative Guidelines. Due to the large number of parallel texts in many languages, the JRC-Acquis is particularly suitable to carry out all types of cross-language research, as well as to test and benchmark text analysis software across different languages (for instance for alignment, sentence splitting and term extraction).\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609059",
+        "title": "Automatic annotation of multilingual text collections with a conceptual thesaurus",
+        "authors": [
+            "Bruno Pouliquen",
+            "Ralf Steinberger",
+            "Camelia Ignat"
+        ],
+        "abstract": "  Automatic annotation of documents with controlled vocabulary terms (descriptors) from a conceptual thesaurus is not only useful for document indexing and retrieval. The mapping of texts onto the same thesaurus furthermore allows to establish links between similar documents. This is also a substantial requirement of the Semantic Web. This paper presents an almost language-independent system that maps documents written in different languages onto the same multilingual conceptual thesaurus, EUROVOC. Conceptual thesauri differ from Natural Language Thesauri in that they consist of relatively small controlled lists of words or phrases with a rather abstract meaning. To automatically identify which thesaurus descriptors describe the contents of a document best, we developed a statistical, associative system that is trained on texts that have previously been indexed manually. In addition to describing the large number of empirically optimised parameters of the fully functional application, we present the performance of the software according to a human evaluation by professional indexers.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609060",
+        "title": "Automatic Identification of Document Translations in Large Multilingual Document Collections",
+        "authors": [
+            "Bruno Pouliquen",
+            "Ralf Steinberger",
+            "Camelia Ignat"
+        ],
+        "abstract": "  Texts and their translations are a rich linguistic resource that can be used to train and test statistics-based Machine Translation systems and many other applications. In this paper, we present a working system that can identify translations and other very similar documents among a large number of candidates, by representing the document contents with a vector of thesaurus terms from a multilingual thesaurus, and by then measuring the semantic similarity between the vectors. Tests on different text types have shown that the system can detect translations with over 96% precision in a large search space of 820 documents or more. The system was tuned to ignore language-specific similarities and to give similar documents in a second language the same similarity score as equivalent documents in the same language. The application can also be used to detect cross-lingual document plagiarism.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609061",
+        "title": "Cross-lingual keyword assignment",
+        "authors": [
+            "Ralf Steinberger"
+        ],
+        "abstract": "  This paper presents a language-independent approach to controlled vocabulary keyword assignment using the EUROVOC thesaurus. Due to the multilingual nature of EUROVOC, the keywords for a document written in one language can be displayed in all eleven official European Union languages. The mapping of documents written in different languages to the same multilingual thesaurus furthermore allows cross-language document comparison. The assignment of the controlled vocabulary thesaurus descriptors is achieved by applying a statistical method that uses a collection of manually indexed documents to identify, for each thesaurus descriptor, a large number of lemmas that are statistically associated to the descriptor. These associated words are then used during the assignment procedure to identify a ranked list of those EUROVOC terms that are most likely to be good keywords for a given document. The paper also describes the challenges of this task and discusses the achieved results of the fully functional prototype.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609063",
+        "title": "Extending an Information Extraction tool set to Central and Eastern European languages",
+        "authors": [
+            "Camelia Ignat",
+            "Bruno Pouliquen",
+            "Antonio Ribeiro",
+            "Ralf Steinberger"
+        ],
+        "abstract": "  In a highly multilingual and multicultural environment such as in the European Commission with soon over twenty official languages, there is an urgent need for text analysis tools that use minimal linguistic knowledge so that they can be adapted to many languages without much human effort. We are presenting two such Information Extraction tools that have already been adapted to various Western and Eastern European languages: one for the recognition of date expressions in text, and one for the detection of geographical place names and the visualisation of the results in geographical maps. An evaluation of the performance has produced very satisfying results.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609064",
+        "title": "Exploiting multilingual nomenclatures and language-independent text features as an interlingua for cross-lingual text analysis applications",
+        "authors": [
+            "Ralf Steinberger",
+            "Bruno Pouliquen",
+            "Camelia Ignat"
+        ],
+        "abstract": "  We are proposing a simple, but efficient basic approach for a number of multilingual and cross-lingual language technology applications that are not limited to the usual two or three languages, but that can be applied with relatively little effort to larger sets of languages. The approach consists of using existing multilingual linguistic resources such as thesauri, nomenclatures and gazetteers, as well as exploiting the existence of additional more or less language-independent text items such as dates, currency expressions, numbers, names and cognates. Mapping texts onto the multilingual resources and identifying word token links between texts in different languages are basic ingredients for applications such as cross-lingual document similarity calculation, multilingual clustering and categorisation, cross-lingual document retrieval, and tools to provide cross-lingual information access.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609065",
+        "title": "Geocoding multilingual texts: Recognition, disambiguation and visualisation",
+        "authors": [
+            "Bruno Pouliquen",
+            "Marco Kimler",
+            "Ralf Steinberger",
+            "Camelia Ignat",
+            "Tamara Oellinger",
+            "Ken Blackler",
+            "Flavio Fuart",
+            "Wajdi Zaghouani",
+            "Anna Widiger",
+            "Ann-Charlotte Forslund",
+            "Clive Best"
+        ],
+        "abstract": "  We are presenting a method to recognise geographical references in free text. Our tool must work on various languages with a minimum of language-dependent resources, except a gazetteer. The main difficulty is to disambiguate these place names by distinguishing places from persons and by selecting the most likely place out of a list of homographic place names world-wide. The system uses a number of language-independent clues and heuristics to disambiguate place name homographs. The final aim is to index texts with the countries and cities they mention and to automatically visualise this information on geographical maps using various tools.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609066",
+        "title": "Building and displaying name relations using automatic unsupervised analysis of newspaper articles",
+        "authors": [
+            "Bruno Pouliquen",
+            "Ralf Steinberger",
+            "Camelia Ignat",
+            "Tamara Oellinger"
+        ],
+        "abstract": "  We present a tool that, from automatically recognised names, tries to infer inter-person relations in order to present associated people on maps. Based on an in-house Named Entity Recognition tool, applied on clusters of an average of 15,000 news articles per day, in 15 different languages, we build a knowledge base that allows extracting statistical co-occurrences of persons and visualising them on a per-person page or in various graphs.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0609067",
+        "title": "A tool set for the quick and efficient exploration of large document collections",
+        "authors": [
+            "Camelia Ignat",
+            "Bruno Pouliquen",
+            "Ralf Steinberger",
+            "Tomaz Erjavec"
+        ],
+        "abstract": "  We are presenting a set of multilingual text analysis tools that can help analysts in any field to explore large document collections quickly in order to determine whether the documents contain information of interest, and to find the relevant text passages. The automatic tool, which currently exists as a fully functional prototype, is expected to be particularly useful when users repeatedly have to sieve through large collections of documents such as those downloaded automatically from the internet. The proposed system takes a whole document collection as input. It first carries out some automatic analysis tasks (named entity recognition, geo-coding, clustering, term extraction), annotates the texts with the generated meta-information and stores the meta-information in a database. The system then generates a zoomable and hyperlinked geographic map enhanced with information on entities and terms found. When the system is used on a regular basis, it builds up a historical database that contains information on which names have been mentioned together with which other names or places, and users can query this database to retrieve information extracted in the past.\n    ",
+        "submission_date": "2006-09-12T00:00:00",
+        "last_modified_date": "2006-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610004",
+        "title": "Rapport technique du projet OGRE",
+        "authors": [
+            "G\u00e9rard B\u00e9cher",
+            "Patrice Enjalbert",
+            "Estelle Fiev\u00e9",
+            "Laurent Gosselin",
+            "Fran\u00e7ois L\u00e9vy",
+            "G\u00e9rard Ligozat"
+        ],
+        "abstract": "  This repport concerns automatic understanding of (french) iterative sentences, i.e. sentences where one single verb has to be interpreted by a more or less regular plurality of events. A linguistic analysis is proposed along an extension of Reichenbach's theory, several formal representations are considered and a corpus of 18000 newspaper extracts is described.\n    ",
+        "submission_date": "2006-10-01T00:00:00",
+        "last_modified_date": "2006-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610116",
+        "title": "DepAnn - An Annotation Tool for Dependency Treebanks",
+        "authors": [
+            "Tuomo Kakkonen"
+        ],
+        "abstract": "  DepAnn is an interactive annotation tool for dependency treebanks, providing both graphical and text-based annotation interfaces. The tool is aimed for semi-automatic creation of treebanks. It aids the manual inspection and correction of automatically created parses, making the annotation process faster and less error-prone. A novel feature of the tool is that it enables the user to view outputs from several parsers as the basis for creating the final tree to be saved to the treebank. DepAnn uses TIGER-XML, an XML-based general encoding format for both, representing the parser outputs and saving the annotated treebank. The tool includes an automatic consistency checker for sentence structures. In addition, the tool enables users to build structures manually, add comments on the annotations, modify the tagsets, and mark sentences for further revision.\n    ",
+        "submission_date": "2006-10-19T00:00:00",
+        "last_modified_date": "2006-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610124",
+        "title": "Dependency Treebanks: Methods, Annotation Schemes and Tools",
+        "authors": [
+            "Tuomo Kakkonen"
+        ],
+        "abstract": "  In this paper, current dependencybased treebanks are introduced and analyzed. The methods used for building the resources, the annotation schemes applied, and the tools used (such as POS taggers, parsers and annotation software) are discussed.\n    ",
+        "submission_date": "2006-10-20T00:00:00",
+        "last_modified_date": "2006-10-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0611026",
+        "title": "Un mod\u00e8le g\u00e9n\u00e9rique d'organisation de corpus en ligne: application \u00e0 la FReeBank",
+        "authors": [
+            "Susanne Salmon-Alt",
+            "Laurent Romary",
+            "Jean-Marie Pierrel"
+        ],
+        "abstract": "  The few available French resources for evaluating linguistic models or algorithms on other linguistic levels than morpho-syntax are either insufficient from quantitative as well as qualitative point of view or not freely accessible. Based on this fact, the FREEBANK project intends to create French corpora constructed using manually revised output from a hybrid Constraint Grammar parser and annotated on several linguistic levels (structure, morpho-syntax, syntax, coreference), with the objective to make them available on-line for research purposes. Therefore, we will focus on using standard annotation schemes, integration of existing resources and maintenance allowing for continuous enrichment of the annotations. Prior to the actual presentation of the prototype that has been implemented, this paper describes a generic model for the organization and deployment of a linguistic resource archive, in compliance with the various works currently conducted within international standardization initiatives (TEI and ISO/TC 37/SC 4).\n    ",
+        "submission_date": "2006-11-06T00:00:00",
+        "last_modified_date": "2006-11-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0611069",
+        "title": "Scaling Construction Grammar up to Production Systems: the SCIM",
+        "authors": [
+            "Guillaume Pitel"
+        ],
+        "abstract": "  While a great effort has concerned the development of fully integrated modular understanding systems, few researches have focused on the problem of unifying existing linguistic formalisms with cognitive processing models. The Situated Constructional Interpretation Model is one of these attempts. In this model, the notion of \"construction\" has been adapted in order to be able to mimic the behavior of Production Systems. The Construction Grammar approach establishes a model of the relations between linguistic forms and meaning, by the mean of constructions. The latter can be considered as pairings from a topologically structured space to an unstructured space, in some way a special kind of production rules.\n    ",
+        "submission_date": "2006-11-15T00:00:00",
+        "last_modified_date": "2006-11-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0611113",
+        "title": "An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor",
+        "authors": [
+            "Maurice HT Ling"
+        ],
+        "abstract": "  MontyLingua, an integral part of ConceptNet which is currently the largest commonsense knowledge base, is an English text processor developed using Python programming language in MIT Media Lab. The main feature of MontyLingua is the coverage for all aspects of English text processing from raw input text to semantic meanings and summary generation, yet each component in MontyLingua is loosely-coupled to each other at the architectural and code level, which enabled individual components to be used independently or substituted. However, there has been no review exploring the role of MontyLingua in recent research work utilizing it. This paper aims to review the use of and roles played by MontyLingua and its components in research work published in 19 articles between October 2004 and August 2006. We had observed a diversified use of MontyLingua in many different areas, both generic and domain-specific. Although the use of text summarizing component had not been observe, we are optimistic that it will have a crucial role in managing the current trend of information overload in future research.\n    ",
+        "submission_date": "2006-11-22T00:00:00",
+        "last_modified_date": "2006-11-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0612033",
+        "title": "Acronym-Meaning Extraction from Corpora Using Multi-Tape Weighted Finite-State Machines",
+        "authors": [
+            "Andr\u00e9 Kempe"
+        ],
+        "abstract": "  The automatic extraction of acronyms and their meaning from corpora is an important sub-task of text mining. It can be seen as a special case of string alignment, where a text chunk is aligned with an acronym. Alternative alignments have different cost, and ideally the least costly one should give the correct meaning of the acronym. We show how this approach can be implemented by means of a 3-tape weighted finite-state machine (3-WFSM) which reads a text chunk on tape 1 and an acronym on tape 2, and generates all alternative alignments on tape 3. The 3-WFSM can be automatically generated from a simple regular expression. No additional algorithms are required at any stage. Our 3-WFSM has a size of 27 states and 64 transitions, and finds the best analysis of an acronym in a few milliseconds.\n    ",
+        "submission_date": "2006-12-06T00:00:00",
+        "last_modified_date": "2006-12-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0612041",
+        "title": "Viterbi Algorithm Generalized for n-Tape Best-Path Search",
+        "authors": [
+            "Andr\u00e9 Kempe"
+        ],
+        "abstract": "  We present a generalization of the Viterbi algorithm for identifying the path with minimal (resp. maximal) weight in a n-tape weighted finite-state machine (n-WFSM), that accepts a given n-tuple of input strings (s_1,... s_n). It also allows us to compile the best transduction of a given input n-tuple by a weighted (n+m)-WFSM (transducer) with n input and m output tapes. Our algorithm has a worst-case time complexity of O(|s|^n |E| log (|s|^n |Q|)), where n and |s| are the number and average length of the strings in the n-tuple, and |Q| and |E| the number of states and transitions in the n-WFSM, respectively. A straight forward alternative, consisting in intersection followed by classical shortest-distance search, operates in O(|s|^n (|E|+|Q|) log (|s|^n |Q|)) time.\n    ",
+        "submission_date": "2006-12-07T00:00:00",
+        "last_modified_date": "2006-12-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601045",
+        "title": "PageRank without hyperlinks: Structural re-ranking using links induced by language models",
+        "authors": [
+            "Oren Kurland",
+            "Lillian Lee"
+        ],
+        "abstract": "  Inspired by the PageRank and HITS (hubs and authorities) algorithms for Web search, we propose a structural re-ranking approach to ad hoc information retrieval: we reorder the documents in an initially retrieved set by exploiting asymmetric relationships between them. Specifically, we consider generation links, which indicate that the language model induced from one document assigns high probability to the text of another; in doing so, we take care to prevent bias against long documents. We study a number of re-ranking criteria based on measures of centrality in the graphs formed by generation links, and show that integrating centrality into standard language-model-based retrieval is quite effective at improving precision at top ranks.\n    ",
+        "submission_date": "2006-01-11T00:00:00",
+        "last_modified_date": "2006-01-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0601046",
+        "title": "Better than the real thing? Iterative pseudo-query processing using cluster-based language models",
+        "authors": [
+            "Oren Kurland",
+            "Lillian Lee",
+            "Carmel Domshlak"
+        ],
+        "abstract": "  We present a novel approach to pseudo-feedback-based ad hoc retrieval that uses language models induced from both documents and clusters. First, we treat the pseudo-feedback documents produced in response to the original query as a set of pseudo-queries that themselves can serve as input to the retrieval process. Observing that the documents returned in response to the pseudo-queries can then act as pseudo-queries for subsequent rounds, we arrive at a formulation of pseudo-query-based retrieval as an iterative process. Experiments show that several concrete instantiations of this idea, when applied in conjunction with techniques designed to heighten precision, yield performance results rivaling those of a number of previously-proposed algorithms, including the standard language-modeling approach. The use of cluster-based language models is a key contributing factor to our algorithms' success.\n    ",
+        "submission_date": "2006-01-11T00:00:00",
+        "last_modified_date": "2006-01-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0602018",
+        "title": "Improving the CSIEC Project and Adapting It to the English Teaching and Learning in China",
+        "authors": [
+            "Jiyou Jia",
+            "Shufen Hou",
+            "Weichao Chen"
+        ],
+        "abstract": "  In this paper after short review of the CSIEC project initialized by us in 2003 we present the continuing development and improvement of the CSIEC project in details, including the design of five new Microsoft agent characters representing different virtual chatting partners and the limitation of simulated dialogs in specific practical scenarios like graduate job application interview, then briefly analyze the actual conditions and features of its application field: web-based English education in China. Finally we introduce our efforts to adapt this system to the requirements of English teaching and learning in China and point out the work next to do.\n    ",
+        "submission_date": "2006-02-06T00:00:00",
+        "last_modified_date": "2006-02-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0602093",
+        "title": "Rational stochastic languages",
+        "authors": [
+            "Fran\u00e7ois Denis",
+            "Yann Esposito"
+        ],
+        "abstract": "  The goal of the present paper is to provide a systematic and comprehensive study of rational stochastic languages over a semiring K \\in {Q, Q +, R, R+}. A rational stochastic language is a probability distribution over a free monoid \\Sigma^* which is rational over K, that is which can be generated by a multiplicity automata with parameters in K. We study the relations between the classes of rational stochastic languages S rat K (\\Sigma). We define the notion of residual of a stochastic language and we use it to investigate properties of several subclasses of rational stochastic languages. Lastly, we study the representation of rational stochastic languages by means of multiplicity automata.\n    ",
+        "submission_date": "2006-02-27T00:00:00",
+        "last_modified_date": "2006-02-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0604087",
+        "title": "Probabilistic Automata for Computing with Words",
+        "authors": [
+            "Yongzhi Cao",
+            "Lirong Xia",
+            "Mingsheng Ying"
+        ],
+        "abstract": "  Usually, probabilistic automata and probabilistic grammars have crisp symbols as inputs, which can be viewed as the formal models of computing with values. In this paper, we first introduce probabilistic automata and probabilistic grammars for computing with (some special) words in a probabilistic framework, where the words are interpreted as probabilistic distributions or possibility distributions over a set of crisp symbols. By probabilistic conditioning, we then establish a retraction principle from computing with words to computing with values for handling crisp inputs and a generalized extension principle from computing with words to computing with all words for handling arbitrary inputs. These principles show that computing with values and computing with all words can be respectively implemented by computing with some special words. To compare the transition probabilities of two near inputs, we also examine some analytical properties of the transition probability functions of generalized extensions. Moreover, the retractions and the generalized extensions are shown to be equivalence-preserving. Finally, we clarify some relationships among the retractions, the generalized extensions, and the extensions studied recently by Qiu and Wang.\n    ",
+        "submission_date": "2006-04-23T00:00:00",
+        "last_modified_date": "2006-04-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605101",
+        "title": "Modeling the Dynamics of Social Networks",
+        "authors": [
+            "Victor V. Kryssanov",
+            "Frank J. Rinaldo",
+            "Evgeny L. Kuleshov",
+            "Hitoshi Ogawa"
+        ],
+        "abstract": "  Modeling human dynamics responsible for the formation and evolution of the so-called social networks - structures comprised of individuals or organizations and indicating connectivities existing in a community - is a topic recently attracting a significant research interest. It has been claimed that these dynamics are scale-free in many practically important cases, such as impersonal and personal communication, auctioning in a market, accessing sites on the WWW, etc., and that human response times thus conform to the power law. While a certain amount of progress has recently been achieved in predicting the general response rate of a human population, existing formal theories of human behavior can hardly be found satisfactory to accommodate and comprehensively explain the scaling observed in social networks. In the presented study, a novel system-theoretic modeling approach is proposed and successfully applied to determine important characteristics of a communication network and to analyze consumer behavior on the WWW.\n    ",
+        "submission_date": "2006-05-24T00:00:00",
+        "last_modified_date": "2006-05-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605121",
+        "title": "Communication of Social Agents and the Digital City - A Semiotic Perspective",
+        "authors": [
+            "Victor V. Kryssanov",
+            "Masayuki Okabe",
+            "Koh Kakusho",
+            "Michihiko Minoh"
+        ],
+        "abstract": "  This paper investigates the concept of digital city. First, a functional analysis of a digital city is made in the light of the modern study of urbanism; similarities between the virtual and urban constructions are pointed out. Next, a semiotic perspective on the subject matter is elaborated, and a terminological basis is introduced to treat a digital city as a self-organizing meaning-producing system intended to support social or spatial navigation. An explicit definition of a digital city is formulated. Finally, the proposed approach is discussed, conclusions are given, and future work is outlined.\n    ",
+        "submission_date": "2006-05-25T00:00:00",
+        "last_modified_date": "2006-05-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0605147",
+        "title": "Utilisation de la linguistique en reconnaissance de la parole : un \u00e9tat de l'art",
+        "authors": [
+            "St\u00e9phane Huet",
+            "Pascale S\u00e9billot",
+            "Guillaume Gravier"
+        ],
+        "abstract": "  To transcribe speech, automatic speech recognition systems use statistical methods, particularly hidden Markov model and N-gram models. Although these techniques perform well and lead to efficient systems, they approach their maximum possibilities. It seems thus necessary, in order to outperform current results, to use additional information, especially bound to language. However, introducing such knowledge must be realized taking into account specificities of spoken language (hesitations for example) and being robust to possible misrecognized words. This document presents a state of the art of these researches, evaluating the impact of the insertion of linguistic information on the quality of the transcription.\n    ",
+        "submission_date": "2006-05-30T00:00:00",
+        "last_modified_date": "2006-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606017",
+        "title": "From semiotics of hypermedia to physics of semiosis: A view from system theory",
+        "authors": [
+            "V.V. Kryssanov",
+            "K. Kakusho"
+        ],
+        "abstract": "  Given that theoretical analysis and empirical validation is fundamental to any model, whether conceptual or formal, it is surprising that these two tools of scientific discovery are so often ignored in the contemporary studies of communication. In this paper, we pursued the ideas of a) correcting and expanding the modeling approaches of linguistics, which are otherwise inapplicable (more precisely, which should not but are widely applied), to the general case of hypermedia-based communication, and b) developing techniques for empirical validation of semiotic models, which are nowadays routinely used to explore (in fact, to conjecture about) internal mechanisms of complex systems, yet on a purely speculative basis. This study thus offers two experimentally tested substantive contributions: the formal representation of communication as the mutually-orienting behavior of coupled autonomous systems, and the mathematical interpretation of the semiosis of communication, which together offer a concrete and parsimonious understanding of diverse communication phenomena.\n    ",
+        "submission_date": "2006-06-05T00:00:00",
+        "last_modified_date": "2006-06-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0606069",
+        "title": "Inference and Evaluation of the Multinomial Mixture Model for Text Clustering",
+        "authors": [
+            "Lo\u00efs Rigouste",
+            "Olivier Capp\u00e9",
+            "Fran\u00e7ois Yvon"
+        ],
+        "abstract": "  In this article, we investigate the use of a probabilistic model for unsupervised clustering in text collections. Unsupervised clustering has become a basic module for many intelligent text processing applications, such as information retrieval, text classification or information extraction. The model considered in this contribution consists of a mixture of multinomial distributions over the word counts, each component corresponding to a different theme. We present and contrast various estimation procedures, which apply both in supervised and unsupervised contexts. In supervised learning, this work suggests a criterion for evaluating the posterior odds of new documents which is more statistically sound than the \"naive Bayes\" approach. In an unsupervised context, we propose measures to set up a systematic evaluation framework and start with examining the Expectation-Maximization (EM) algorithm as the basic tool for inference. We discuss the importance of initialization and the influence of other features such as the smoothing strategy or the size of the vocabulary, thereby illustrating the difficulties incurred by the high dimensionality of the parameter space. We also propose a heuristic algorithm based on iterative EM with vocabulary reduction to solve this problem. Using the fact that the latent variables can be analytically integrated out, we finally show that Gibbs sampling algorithm is tractable and compares favorably to the basic expectation maximization approach.\n    ",
+        "submission_date": "2006-06-14T00:00:00",
+        "last_modified_date": "2006-06-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607052",
+        "title": "Dealing with Metonymic Readings of Named Entities",
+        "authors": [
+            "Thierry Poibeau"
+        ],
+        "abstract": "  The aim of this paper is to propose a method for tagging named entities (NE), using natural language processing techniques. Beyond their literal meaning, named entities are frequently subject to metonymy. We show the limits of current NE type hierarchies and detail a new proposal aiming at dynamically capturing the semantics of entities in context. This model can analyze complex linguistic phenomena like metonymy, which are known to be difficult for natural language processing but crucial for most applications. We present an implementation and some test using the French ESTER corpus and give significant results.\n    ",
+        "submission_date": "2006-07-11T00:00:00",
+        "last_modified_date": "2006-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0607053",
+        "title": "Linguistically Grounded Models of Language Change",
+        "authors": [
+            "Thierry Poibeau"
+        ],
+        "abstract": "  Questions related to the evolution of language have recently known an impressive increase of interest (Briscoe, 2002). This short paper aims at questioning the scientific status of these models and their relations to attested data. We show that one cannot directly model non-linguistic factors (exogenous factors) even if they play a crucial role in language evolution. We then examine the relation between linguistic models and attested language data, as well as their contribution to cognitive linguistics.\n    ",
+        "submission_date": "2006-07-11T00:00:00",
+        "last_modified_date": "2006-07-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610010",
+        "title": "One-Pass, One-Hash n-Gram Statistics Estimation",
+        "authors": [
+            "Daniel Lemire",
+            "Owen Kaser"
+        ],
+        "abstract": "In multimedia, text or bioinformatics databases, applications query sequences of n consecutive symbols called n-grams. Estimating the number of distinct n-grams is a view-size estimation problem. While view sizes can be estimated by sampling under statistical assumptions, we desire an unassuming algorithm with universally valid accuracy bounds. Most related work has focused on repeatedly hashing the data, which is prohibitive for large data sources. We prove that a one-pass one-hash algorithm is sufficient for accurate estimates if the hashing is sufficiently independent. To reduce costs further, we investigate recursive random hashing algorithms and show that they are sufficiently independent in practice. We compare our running times with exact counts using suffix arrays and show that, while we use hardly any storage, we are an order of magnitude faster. The approach further is extended to a one-pass/one-hash computation of n-gram entropy and iceberg counts. The experiments use a large collection of English text from the Gutenberg Project as well as synthetic data.\n    ",
+        "submission_date": "2006-10-03T00:00:00",
+        "last_modified_date": "2014-02-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610016",
+        "title": "Norm Based Causal Reasoning in Textual Corpus",
+        "authors": [
+            "Farid Nouioua"
+        ],
+        "abstract": "  Truth based entailments are not sufficient for a good comprehension of NL. In fact, it can not deduce implicit information necessary to understand a text. On the other hand, norm based entailments are able to reach this goal. This idea was behind the development of Frames (Minsky 75) and Scripts (Schank 77, Schank 79) in the 70's. But these theories are not formalized enough and their adaptation to new situations is far from being obvious. In this paper, we present a reasoning system which uses norms in a causal reasoning process in order to find the cause of an accident from a text describing it.\n    ",
+        "submission_date": "2006-10-04T00:00:00",
+        "last_modified_date": "2006-10-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610018",
+        "title": "Raisonnement stratifi\u00e9 \u00e0 base de normes pour inf\u00e9rer les causes dans un corpus textuel",
+        "authors": [
+            "Farid Nouioua"
+        ],
+        "abstract": "  To understand texts written in natural language (LN), we use our knowledge about the norms of the domain. Norms allow to infer more implicit information from the text. This kind of information can, in general, be defeasible, but it remains useful and acceptable while the text do not contradict it explicitly. In this paper we describe a non-monotonic reasoning system based on the norms of the car crash domain. The system infers the cause of an accident from its textual description. The cause of an accident is seen as the most specific norm which has been violated. The predicates and the rules of the system are stratified: organized on layers in order to obtain an efficient reasoning.\n    ",
+        "submission_date": "2006-10-04T00:00:00",
+        "last_modified_date": "2006-10-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0610118",
+        "title": "Applying Part-of-Seech Enhanced LSA to Automatic Essay Grading",
+        "authors": [
+            "Tuomo Kakkonen",
+            "Niko Myller",
+            "Erkki Sutinen"
+        ],
+        "abstract": "  Latent Semantic Analysis (LSA) is a widely used Information Retrieval method based on \"bag-of-words\" assumption. However, according to general conception, syntax plays a role in representing meaning of sentences. Thus, enhancing LSA with part-of-speech (POS) information to capture the context of word occurrences appears to be theoretically feasible extension. The approach is tested empirically on a automatic essay grading system using LSA for document similarity comparisons. A comparison on several POS-enhanced LSA models is reported. Our findings show that the addition of contextual information in the form of POS tags can raise the accuracy of the LSA-based scoring models up to 10.77 per cent.\n    ",
+        "submission_date": "2006-10-19T00:00:00",
+        "last_modified_date": "2006-10-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/0611148",
+        "title": "Next Generation Language Resources using GRID",
+        "authors": [
+            "Federico Calzolari",
+            "Eva Sassolini",
+            "Manuela Sassi",
+            "Sebastiana Cucurullo",
+            "Eugenio Picchi",
+            "Francesca Bertagna",
+            "Alessandro Enea",
+            "Monica Monachini",
+            "Claudia Soria",
+            "Nicoletta Calzolari"
+        ],
+        "abstract": "  This paper presents a case study concerning the challenges and requirements posed by next generation language resources, realized as an overall model of open, distributed and collaborative language infrastructure. If a sort of \"new paradigm\" is required, we think that the emerging and still evolving technology connected to Grid computing is a very interesting and suitable one for a concrete realization of this vision. Given the current limitations of Grid computing, it is very important to test the new environment on basic language analysis tools, in order to get the feeling of what are the potentialities and possible limitations connected to its use in NLP. For this reason, we have done some experiments on a module of Linguistic Miner, i.e. the extraction of linguistic patterns from restricted domain corpora.\n    ",
+        "submission_date": "2006-11-29T00:00:00",
+        "last_modified_date": "2006-12-13T00:00:00"
+    }
+]

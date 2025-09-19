@@ -1,0 +1,1044 @@
+[
+    {
+        "url": "https://arxiv.org/abs/0901.2216",
+        "title": "Discovering Global Patterns in Linguistic Networks through Spectral Analysis: A Case Study of the Consonant Inventories",
+        "authors": [
+            "Animesh Mukherjee",
+            "Monojit Choudhury",
+            "Ravi Kannan"
+        ],
+        "abstract": "  Recent research has shown that language and the socio-cognitive phenomena associated with it can be aptly modeled and visualized through networks of linguistic entities. However, most of the existing works on linguistic networks focus only on the local properties of the networks. This study is an attempt to analyze the structure of languages via a purely structural technique, namely spectral analysis, which is ideally suited for discovering the global correlations in a network. Application of this technique to PhoNet, the co-occurrence network of consonants, not only reveals several natural linguistic principles governing the structure of the consonant inventories, but is also able to quantify their relative importance. We believe that this powerful technique can be successfully applied, in general, to study the structure of natural languages.\n    ",
+        "submission_date": "2009-01-15T00:00:00",
+        "last_modified_date": "2009-01-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.2349",
+        "title": "Beyond word frequency: Bursts, lulls, and scaling in the temporal distributions of words",
+        "authors": [
+            "Eduardo G. Altmann",
+            "Janet B. Pierrehumbert",
+            "Adilson E. Motter"
+        ],
+        "abstract": "  Background: Zipf's discovery that word frequency distributions obey a power law established parallels between biological and physical processes, and language, laying the groundwork for a complex systems perspective on human communication. More recent research has also identified scaling regularities in the dynamics underlying the successive occurrences of events, suggesting the possibility of similar findings for language as well.\n",
+        "submission_date": "2009-01-15T00:00:00",
+        "last_modified_date": "2009-11-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3017",
+        "title": "Statistical analysis of the Indus script using $n$-grams",
+        "authors": [
+            "Nisha Yadav",
+            "Hrishikesh Joglekar",
+            "Rajesh P. N. Rao",
+            "M. N. Vahia",
+            "Iravatham Mahadevan",
+            "R. Adhikari"
+        ],
+        "abstract": "  The Indus script is one of the major undeciphered scripts of the ancient world. The small size of the corpus, the absence of bilingual texts, and the lack of definite knowledge of the underlying language has frustrated efforts at decipherment since the discovery of the remains of the Indus civilisation. Recently, some researchers have questioned the premise that the Indus script encodes spoken language. Building on previous statistical approaches, we apply the tools of statistical language processing, specifically $n$-gram Markov chains, to analyse the Indus script for syntax. Our main results are that the script has well-defined signs which begin and end texts, that there is directionality and strong correlations in the sign order, and that there are groups of signs which appear to have identical syntactic function. All these require no {\\it a priori} suppositions regarding the syntactic or semantic content of the signs, but follow directly from the statistical analysis. Using information theoretic measures, we find the information in the script to be intermediate between that of a completely random and a completely fixed ordering of signs. Our study reveals that the Indus script is a structured sign system showing features of a formal language, but, at present, cannot conclusively establish that it encodes {\\it natural} language. Our $n$-gram Markov model is useful for predicting signs which are missing or illegible in a corpus of Indus texts. This work forms the basis for the development of a stochastic grammar which can be used to explore the syntax of the Indus script in greater detail.\n    ",
+        "submission_date": "2009-01-20T00:00:00",
+        "last_modified_date": "2009-01-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3291",
+        "title": "Approaching the linguistic complexity",
+        "authors": [
+            "Stanislaw Drozdz",
+            "Jaroslaw Kwapien",
+            "Adam Orczyk"
+        ],
+        "abstract": "  We analyze the rank-frequency distributions of words in selected English and Polish texts. We compare scaling properties of these distributions in both languages. We also study a few small corpora of Polish literary texts and find that for a corpus consisting of texts written by different authors the basic scaling regime is broken more strongly than in the case of comparable corpus consisting of texts written by the same author. Similarly, for a corpus consisting of texts translated into Polish from other languages the scaling regime is broken more strongly than for a comparable corpus of native Polish texts. Moreover, based on the British National Corpus, we consider the rank-frequency distributions of the grammatically basic forms of words (lemmas) tagged with their proper part of speech. We find that these distributions do not scale if each part of speech is analyzed separately. The only part of speech that independently develops a trace of scaling is verbs.\n    ",
+        "submission_date": "2009-01-21T00:00:00",
+        "last_modified_date": "2009-01-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.3990",
+        "title": "Du corpus au dictionnaire",
+        "authors": [
+            "Bernard Jacquemin",
+            "Sabine Ploux"
+        ],
+        "abstract": "  In this article, we propose an automatic process to build multi-lingual lexico-semantic resources. The goal of these resources is to browse semantically textual information contained in texts of different languages. This method uses a mathematical model called Atlas s\u00e9mantiques in order to represent the different senses of each word. It uses the linguistic relations between words to create graphs that are projected into a semantic space. These projections constitute semantic maps that denote the sense trends of each given word. This model is fed with syntactic relations between words extracted from a corpus. Therefore, the lexico-semantic resource produced describes all the words and all their meanings observed in the corpus. The sense trends are expressed by syntactic contexts, typical for a given meaning. The link between each sense trend and the utterances used to build the sense trend are also stored in an index. Thus all the instances of a word in a particular sense are linked and can be browsed easily. And by using several corpora of different languages, several resources are built that correspond with each other through languages. It makes it possible to browse information through languages thanks to syntactic contexts translations (even if some of them are partial).\n    ",
+        "submission_date": "2009-01-26T00:00:00",
+        "last_modified_date": "2009-01-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.4180",
+        "title": "Google distance between words",
+        "authors": [
+            "Bj\u00f8rn Kjos-Hanssen",
+            "Alberto J. Evangelista"
+        ],
+        "abstract": "Cilibrasi and Vitanyi have demonstrated that it is possible to extract the meaning of words from the world-wide web. To achieve this, they rely on the number of webpages that are found through a Google search containing a given word and they associate the page count to the probability that the word appears on a webpage. Thus, conditional probabilities allow them to correlate one word with another word's meaning. Furthermore, they have developed a similarity distance function that gauges how closely related a pair of words is. We present a specific counterexample to the triangle inequality for this similarity distance function.\n    ",
+        "submission_date": "2009-01-27T00:00:00",
+        "last_modified_date": "2015-01-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.4784",
+        "title": "On the Entropy of Written Spanish",
+        "authors": [
+            "Fabio G. Guerrero"
+        ],
+        "abstract": "  This paper reports on results on the entropy of the Spanish language. They are based on an analysis of natural language for n-word symbols (n = 1 to 18), trigrams, digrams, and characters. The results obtained in this work are based on the analysis of twelve different literary works in Spanish, as well as a 279917 word news file provided by the Spanish press agency EFE. Entropy values are calculated by a direct method using computer processing and the probability law of large numbers. Three samples of artificial Spanish language produced by a first-order model software source are also analyzed and compared with natural Spanish language.\n    ",
+        "submission_date": "2009-01-30T00:00:00",
+        "last_modified_date": "2009-01-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.0606",
+        "title": "Beyond Zipf's law: Modeling the structure of human language",
+        "authors": [
+            "M. Angeles Serrano",
+            "Alessandro Flammini",
+            "Filippo Menczer"
+        ],
+        "abstract": "  Human language, the most powerful communication system in history, is closely associated with cognition. Written text is one of the fundamental manifestations of language, and the study of its universal regularities can give clues about how our brains process information and how we, as a society, organize and share it. Still, only classical patterns such as Zipf's law have been explored in depth. In contrast, other basic properties like the existence of bursts of rare words in specific documents, the topical organization of collections, or the sublinear growth of vocabulary size with the length of a document, have only been studied one by one and mainly applying heuristic methodologies rather than basic principles and general mechanisms. As a consequence, there is a lack of understanding of linguistic processes as complex emergent phenomena. Beyond Zipf's law for word frequencies, here we focus on Heaps' law, burstiness, and the topicality of document collections, which encode correlations within and across documents absent in random null models. We introduce and validate a generative model that explains the simultaneous emergence of all these patterns from simple rules. As a result, we find a connection between the bursty nature of rare words and the topical organization of texts and identify dynamic word ranking and memory across documents as key mechanisms explaining the non trivial organization of written text. Our research can have broad implications and practical applications in computer science, cognitive science, and linguistics.\n    ",
+        "submission_date": "2009-02-03T00:00:00",
+        "last_modified_date": "2009-02-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.1033",
+        "title": "New Confidence Measures for Statistical Machine Translation",
+        "authors": [
+            "Sylvain Raybaud",
+            "Caroline Lavecchia",
+            "David Langlois",
+            "Kamel Sma\u00efli"
+        ],
+        "abstract": "  A confidence measure is able to estimate the reliability of an hypothesis provided by a machine translation system. The problem of confidence measure can be seen as a process of testing : we want to decide whether the most probable sequence of words provided by the machine translation system is correct or not. In the following we describe several original word-level confidence measures for machine translation, based on mutual information, n-gram language model and lexical features language model. We evaluate how well they perform individually or together, and show that using a combination of confidence measures based on mutual information yields a classification error rate as low as 25.1% with an F-measure of 0.708.\n    ",
+        "submission_date": "2009-02-06T00:00:00",
+        "last_modified_date": "2009-02-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.2230",
+        "title": "BagPack: A general framework to represent semantic relations",
+        "authors": [
+            "Ama\u00e7 Herda\u011fdelen",
+            "Marco Baroni"
+        ],
+        "abstract": "  We introduce a way to represent word pairs instantiating arbitrary semantic relations that keeps track of the contexts in which the words in the pair occur both together and independently. The resulting features are of sufficient generality to allow us, with the help of a standard supervised machine learning algorithm, to tackle a variety of unrelated semantic tasks with good results and almost no task-specific tailoring.\n    ",
+        "submission_date": "2009-02-12T00:00:00",
+        "last_modified_date": "2009-02-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.2345",
+        "title": "What's in a Message?",
+        "authors": [
+            "Stergos D. Afantenos",
+            "Nicolas Hernandez"
+        ],
+        "abstract": "  In this paper we present the first step in a larger series of experiments for the induction of predicate/argument structures. The structures that we are inducing are very similar to the conceptual structures that are used in Frame Semantics (such as FrameNet). Those structures are called messages and they were previously used in the context of a multi-document summarization system of evolving events. The series of experiments that we are proposing are essentially composed from two stages. In the first stage we are trying to extract a representative vocabulary of words. This vocabulary is later used in the second stage, during which we apply to it various clustering approaches in order to identify the clusters of predicates and arguments--or frames and semantic roles, to use the jargon of Frame Semantics. This paper presents in detail and evaluates the first stage.\n    ",
+        "submission_date": "2009-02-13T00:00:00",
+        "last_modified_date": "2009-02-13T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.3072",
+        "title": "Syntactic variation of support verb constructions",
+        "authors": [
+            "Eric Laporte",
+            "Elisabete Ranchhod",
+            "Anastasia Yannacopoulou"
+        ],
+        "abstract": "  We report experiments about the syntactic variations of support verb constructions, a special type of multiword expressions (MWEs) containing predicative nouns. In these expressions, the noun can occur with or without the verb, with no clear-cut semantic difference. We extracted from a large French corpus a set of examples of the two situations and derived statistical results from these data. The extraction involved large-coverage language resources and finite-state techniques. The results show that, most frequently, predicative nouns occur without a support verb. This fact has consequences on methods of extracting or recognising MWEs.\n    ",
+        "submission_date": "2009-02-18T00:00:00",
+        "last_modified_date": "2009-02-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0902.4060",
+        "title": "Network of two-Chinese-character compound words in Japanese language",
+        "authors": [
+            "Ken Yamamoto",
+            "Yoshihiro Yamazaki"
+        ],
+        "abstract": "  Some statistical properties of a network of two-Chinese-character compound words in Japanese language are reported. In this network, a node represents a Chinese character and an edge represents a two-Chinese-character compound word. It is found that this network has properties of \"small-world\" and \"scale-free.\" A network formed by only Chinese characters for common use ({\\it joyo-kanji} in Japanese), which is regarded as a subclass of the original network, also has small-world property. However, a degree distribution of the network exhibits no clear power law. In order to reproduce disappearance of the power-law property, a model for a selecting process of the Chinese characters for common use is proposed.\n    ",
+        "submission_date": "2009-02-24T00:00:00",
+        "last_modified_date": "2009-02-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.5168",
+        "title": "Mathematical Model for Transformation of Sentences from Active Voice to Passive Voice",
+        "authors": [
+            "Rakesh Pandey",
+            "H.S. Dhami"
+        ],
+        "abstract": "  Formal work in linguistics has both produced and used important mathematical tools. Motivated by a survey of models for context and word meaning, syntactic categories, phrase structure rules and trees, an attempt is being made in the present paper to present a mathematical model for structuring of sentences from active voice to passive voice, which is is the form of a transitive verb whose grammatical subject serves as the patient, receiving the action of the verb.\n",
+        "submission_date": "2009-03-30T00:00:00",
+        "last_modified_date": "2009-03-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0904.1289",
+        "title": "Language Diversity across the Consonant Inventories: A Study in the Framework of Complex Networks",
+        "authors": [
+            "Monojit Choudhury",
+            "Animesh Mukherjee",
+            "Anupam Basu",
+            "Niloy Ganguly",
+            "Ashish Garg",
+            "Vaibhav Jalan"
+        ],
+        "abstract": "  n this paper, we attempt to explain the emergence of the linguistic diversity that exists across the consonant inventories of some of the major language families of the world through a complex network based growth model. There is only a single parameter for this model that is meant to introduce a small amount of randomness in the otherwise preferential attachment based growth process. The experiments with this model parameter indicates that the choice of consonants among the languages within a family are far more preferential than it is across the families. The implications of this result are twofold -- (a) there is an innate preference of the speakers towards acquiring certain linguistic structures over others and (b) shared ancestry propels the stronger preferential connection between the languages within a family than across them. Furthermore, our observations indicate that this parameter might bear a correlation with the period of existence of the language families under investigation.\n    ",
+        "submission_date": "2009-04-08T00:00:00",
+        "last_modified_date": "2009-04-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.0740",
+        "title": "A FORTRAN coded regular expression Compiler for IBM 1130 Computing System",
+        "authors": [
+            "Gerardo Cisneros"
+        ],
+        "abstract": "  REC (Regular Expression Compiler) is a concise programming language which allows students to write programs without knowledge of the complicated syntax of languages like FORTRAN and ALGOL. The language is recursive and contains only four elements for control. This paper describes an interpreter of REC written in FORTRAN.\n    ",
+        "submission_date": "2009-05-06T00:00:00",
+        "last_modified_date": "2009-05-06T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.1609",
+        "title": "Acquisition of morphological families and derivational series from a machine readable dictionary",
+        "authors": [
+            "Nabil Hathout"
+        ],
+        "abstract": "  The paper presents a linguistic and computational model aiming at making the morphological structure of the lexicon emerge from the formal and semantic regularities of the words it contains. The model is word-based. The proposed morphological structure consists of (1) binary relations that connect each headword with words that are morphologically related, and especially with the members of its morphological family and its derivational series, and of (2) the analogies that hold between the words. The model has been tested on the lexicon of French using the TLFi machine readable dictionary.\n    ",
+        "submission_date": "2009-05-11T00:00:00",
+        "last_modified_date": "2009-05-11T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.3318",
+        "title": "An Object-Oriented and Fast Lexicon for Semantic Generation",
+        "authors": [
+            "Maarten Hijzelendoorn",
+            "Crit Cremers"
+        ],
+        "abstract": "  This paper is about the technical design of a large computational lexicon, its storage, and its access from a Prolog environment. Traditionally, efficient access and storage of data structures is implemented by a relational database management system. In Delilah, a lexicon-based NLP system, efficient access to the lexicon by the semantic generator is vital. We show that our highly detailed HPSG-style lexical specifications do not fit well in the Relational Model, and that they cannot be efficiently retrieved. We argue that they fit more naturally in the Object-Oriented Model. Although storage of objects is redundant, we claim that efficient access is still possible by applying indexing, and compression techniques from the Relational Model to the Object-Oriented Model. We demonstrate that it is possible to implement object-oriented storage and fast access in ISO Prolog.\n    ",
+        "submission_date": "2009-05-20T00:00:00",
+        "last_modified_date": "2009-05-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.4039",
+        "title": "Normalized Web Distance and Word Similarity",
+        "authors": [
+            "Rudi L. Cilibrasi",
+            "Paul M.B. Vitanyi"
+        ],
+        "abstract": "  There is a great deal of work in cognitive psychology, linguistics, and computer science, about using word (or phrase) frequencies in context in text corpora to develop measures for word similarity or word association, going back to at least the 1960s. The goal of this chapter is to introduce the normalizedis a general way to tap the amorphous low-grade knowledge available for free on the Internet, typed in by local users aiming at personal gratification of diverse objectives, and yet globally achieving what is effectively the largest semantic electronic database in the world. Moreover, this database is available for all by using any search engine that can return aggregate page-count estimates for a large range of search-queries. In the paper introducing the NWD it was called `normalized Google distance (NGD),' but since Google doesn't allow computer searches anymore, we opt for the more neutral and descriptive NWD. web distance (NWD) method to determine similarity between words and phrases. It\n    ",
+        "submission_date": "2009-05-25T00:00:00",
+        "last_modified_date": "2009-05-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.0675",
+        "title": "Encoding models for scholarly literature",
+        "authors": [
+            "Martin Holmes",
+            "Laurent Romary"
+        ],
+        "abstract": "  We examine the issue of digital formats for document encoding, archiving and publishing, through the specific example of \"born-digital\" scholarly journal articles. We will begin by looking at the traditional workflow of journal editing and publication, and how these practices have made the transition into the online domain. We will examine the range of different file formats in which electronic articles are currently stored and published. We will argue strongly that, despite the prevalence of binary and proprietary formats such as PDF and MS Word, XML is a far superior encoding choice for journal articles. Next, we look at the range of XML document structures (DTDs, Schemas) which are in common use for encoding journal articles, and consider some of their strengths and weaknesses. We will suggest that, despite the existence of specialized schemas intended specifically for journal articles (such as NLM), and more broadly-used publication-oriented schemas such as DocBook, there are strong arguments in favour of developing a subset or customization of the Text Encoding Initiative (TEI) schema for the purpose of journal-article encoding; TEI is already in use in a number of journal publication projects, and the scale and precision of the TEI tagset makes it particularly appropriate for encoding scholarly articles. We will outline the document structure of a TEI-encoded journal article, and look in detail at suggested markup patterns for specific features of journal articles.\n    ",
+        "submission_date": "2009-06-03T00:00:00",
+        "last_modified_date": "2009-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.0716",
+        "title": "Size dependent word frequencies and translational invariance of books",
+        "authors": [
+            "Sebastian Bernhardsson",
+            "Luis Enrique Correa da Rocha",
+            "Petter Minnhagen"
+        ],
+        "abstract": "  It is shown that a real novel shares many characteristic features with a null model in which the words are randomly distributed throughout the text. Such a common feature is a certain translational invariance of the text. Another is that the functional form of the word-frequency distribution of a novel depends on the length of the text in the same way as the null model. This means that an approximate power-law tail ascribed to the data will have an exponent which changes with the size of the text-section which is analyzed. A further consequence is that a novel cannot be described by text-evolution models like the Simon model. The size-transformation of a novel is found to be well described by a specific Random Book Transformation. This size transformation in addition enables a more precise determination of the functional form of the word-frequency distribution. The implications of the results are discussed.\n    ",
+        "submission_date": "2009-06-03T00:00:00",
+        "last_modified_date": "2009-06-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2369",
+        "title": "Properties of quasi-alphabetic tree bimorphisms",
+        "authors": [
+            "Andreas Maletti",
+            "Catalin Ionut Tirnauca"
+        ],
+        "abstract": "  We study the class of quasi-alphabetic relations, i.e., tree transformations defined by tree bimorphisms with two quasi-alphabetic tree homomorphisms and a regular tree language. We present a canonical representation of these relations; as an immediate consequence, we get the closure under union. Also, we show that they are not closed under intersection and complement, and do not preserve most common operations on trees (branches, subtrees, v-product, v-quotient, f-top-catenation). Moreover, we prove that the translations defined by quasi-alphabetic tree bimorphism are exactly products of context-free string languages. We conclude by presenting the connections between quasi-alphabetic relations, alphabetic relations and classes of tree transformations defined by several types of top-down tree transducers. Furthermore, we get that quasi-alphabetic relations preserve the recognizable and algebraic tree languages.\n    ",
+        "submission_date": "2009-06-12T00:00:00",
+        "last_modified_date": "2009-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2415",
+        "title": "Without a 'doubt'? Unsupervised discovery of downward-entailing operators",
+        "authors": [
+            "Cristian Danescu-Niculescu-Mizil",
+            "Lillian Lee",
+            "Richard Ducott"
+        ],
+        "abstract": "  An important part of textual inference is making deductions involving monotonicity, that is, determining whether a given assertion entails restrictions or relaxations of that assertion. For instance, the statement 'We know the epidemic spread quickly' does not entail 'We know the epidemic spread quickly via fleas', but 'We doubt the epidemic spread quickly' entails 'We doubt the epidemic spread quickly via fleas'. Here, we present the first algorithm for the challenging lexical-semantics problem of learning linguistic constructions that, like 'doubt', are downward entailing (DE). Our algorithm is unsupervised, resource-lean, and effective, accurately recovering many DE operators that are missing from the hand-constructed lists that textual-inference systems currently use.\n    ",
+        "submission_date": "2009-06-12T00:00:00",
+        "last_modified_date": "2009-06-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.3741",
+        "title": "How opinions are received by online communities: A case study on Amazon.com helpfulness votes",
+        "authors": [
+            "Cristian Danescu-Niculescu-Mizil",
+            "Gueorgi Kossinets",
+            "Jon Kleinberg",
+            "Lillian Lee"
+        ],
+        "abstract": "  There are many on-line settings in which users publicly express opinions. A number of these offer mechanisms for other users to evaluate these opinions; a canonical example is ",
+        "submission_date": "2009-06-21T00:00:00",
+        "last_modified_date": "2009-06-21T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.5114",
+        "title": "Non-Parametric Bayesian Areal Linguistics",
+        "authors": [
+            "Hal Daum\u00e9 III"
+        ],
+        "abstract": "  We describe a statistical model over linguistic areas and phylogeny.\n",
+        "submission_date": "2009-06-28T00:00:00",
+        "last_modified_date": "2009-06-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0785",
+        "title": "A Bayesian Model for Discovering Typological Implications",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "Lyle Campbell"
+        ],
+        "abstract": "  A standard form of analysis for linguistic typology is the universal implication. These implications state facts about the range of extant languages, such as ``if objects come after verbs, then adjectives come after nouns.'' Such implications are typically discovered by painstaking hand analysis over a small sample of languages. We propose a computational model for assisting at this process. Our model is able to discover both well-known implications as well as some novel implications that deserve further study. Moreover, through a careful application of hierarchical analysis, we are able to cope with the well-known sampling problem: languages are not independent.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0804",
+        "title": "Induction of Word and Phrase Alignments for Automatic Document Summarization",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "Daniel Marcu"
+        ],
+        "abstract": "  Current research in automatic single document summarization is dominated by two effective, yet naive approaches: summarization by sentence extraction, and headline generation via bag-of-words models. While successful in some tasks, neither of these models is able to adequately capture the large set of linguistic devices utilized by humans when they produce summaries. One possible explanation for the widespread use of these models is that good techniques have been developed to extract appropriate training data for them from existing document/abstract and document/headline corpora. We believe that future progress in automatic summarization will be driven both by the development of more sophisticated, linguistically informed models, as well as a more effective leveraging of document/abstract corpora. In order to open the doors to simultaneously achieving both of these goals, we have developed techniques for automatically producing word-to-word and phrase-to-phrase alignments between documents and their human-written abstracts. These alignments make explicit the correspondences that exist in such document/abstract pairs, and create a potentially rich data source from which complex summarization algorithms may learn. This paper describes experiments we have carried out to analyze the ability of humans to perform such alignments, and based on these analyses, we describe experiments for creating them automatically. Our model for the alignment task is based on an extension of the standard hidden Markov model, and learns to create alignments in a completely unsupervised fashion. We describe our model in detail and present experimental results that show that our model is able to learn to reliably identify word- and phrase-level alignments in a corpus of <document,abstract> pairs.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0806",
+        "title": "A Noisy-Channel Model for Document Compression",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "Daniel Marcu"
+        ],
+        "abstract": "  We present a document compression system that uses a hierarchical noisy-channel model of text production. Our compression system first automatically derives the syntactic structure of each sentence and the overall discourse structure of the text given as input. The system then uses a statistical hierarchical model of text production in order to drop non-important syntactic and discourse constituents so as to generate coherent, grammatical document compressions of arbitrary length. The system outperforms both a baseline and a sentence-based compression system that operates by simplifying sequentially all sentences in a text. Our results support the claim that discourse knowledge plays an important role in document summarization.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0807",
+        "title": "A Large-Scale Exploration of Effective Global Features for a Joint Entity Detection and Tracking Model",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "Daniel Marcu"
+        ],
+        "abstract": "  Entity detection and tracking (EDT) is the task of identifying textual mentions of real-world entities in documents, extending the named entity detection and coreference resolution task by considering mentions other than names (pronouns, definite descriptions, etc.). Like NE tagging and coreference resolution, most solutions to the EDT task separate out the mention detection aspect from the coreference aspect. By doing so, these solutions are limited to using only local features for learning. In contrast, by modeling both aspects of the EDT task simultaneously, we are able to learn using highly complex, non-local features. We develop a new joint EDT model and explore the utility of many features, demonstrating their effectiveness on this task.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.1814",
+        "title": "Bayesian Query-Focused Summarization",
+        "authors": [
+            "Hal Daum\u00e9 III"
+        ],
+        "abstract": "  We present BayeSum (for ``Bayesian summarization''), a model for sentence extraction in query-focused summarization. BayeSum leverages the common case in which multiple documents are relevant to a single query. Using these documents as reinforcement for query terms, BayeSum is not afflicted by the paucity of information in short queries. We show that approximate inference in BayeSum is possible on large data sets and results in a state-of-the-art summarization system. Furthermore, we show how BayeSum can be understood as a justified query expansion technique in the language modeling for IR framework.\n    ",
+        "submission_date": "2009-07-10T00:00:00",
+        "last_modified_date": "2009-07-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.2452",
+        "title": "Pattern Based Term Extraction Using ACABIT System",
+        "authors": [
+            "Koichi Takeuchi",
+            "Kyo Kageura",
+            "Teruo Koyama",
+            "B\u00e9atrice Daille",
+            "Laurent Romary"
+        ],
+        "abstract": "  In this paper, we propose a pattern-based term extraction approach for Japanese, applying ACABIT system originally developed for French. The proposed approach evaluates termhood using morphological patterns of basic terms and term variants. After extracting term candidates, ACABIT system filters out non-terms from the candidates based on log-likelihood. This approach is suitable for Japanese term extraction because most of Japanese terms are compound nouns or simple phrasal patterns.\n    ",
+        "submission_date": "2009-07-14T00:00:00",
+        "last_modified_date": "2009-07-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.3781",
+        "title": "Un syst\u00e8me modulaire d'acquisition automatique de traductions \u00e0 partir du Web",
+        "authors": [
+            "St\u00e9phanie L\u00e9on"
+        ],
+        "abstract": "  We present a method of automatic translation (French/English) of Complex Lexical Units (CLU) for aiming at extracting a bilingual lexicon. Our modular system is based on linguistic properties (compositionality, polysemy, etc.). Different aspects of the multilingual Web are used to validate candidate translations and collect new terms. We first build a French corpus of Web pages to collect CLU. Three adapted processing stages are applied for each linguistic property : compositional and non polysemous translations, compositional polysemous translations and non compositional translations. Our evaluation on a sample of CLU shows that our technique based on the Web can reach a very high precision.\n    ",
+        "submission_date": "2009-07-22T00:00:00",
+        "last_modified_date": "2009-07-22T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.4413",
+        "title": "Multiple Retrieval Models and Regression Models for Prior Art Search",
+        "authors": [
+            "Patrice Lopez",
+            "Laurent Romary"
+        ],
+        "abstract": "  This paper presents the system called PATATRAS (PATent and Article Tracking, Retrieval and AnalysiS) realized for the IP track of CLEF 2009. Our approach presents three main characteristics: 1. The usage of multiple retrieval models (KL, Okapi) and term index definitions (lemma, phrase, concept) for the three languages considered in the present track (English, French, German) producing ten different sets of ranked results. 2. The merging of the different results based on multiple regression models using an additional validation set created from the patent collection. 3. The exploitation of patent metadata and of the citation structures for creating restricted initial working sets of patents and for producing a final re-ranking regression model. As we exploit specific metadata of the patent documents and the citation relations only at the creation of initial working sets and during the final post ranking step, our architecture remains generic and easy to extend.\n    ",
+        "submission_date": "2009-08-30T00:00:00",
+        "last_modified_date": "2009-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0908.4431",
+        "title": "An OLAC Extension for Dravidian Languages",
+        "authors": [
+            "B Prabhulla Chandran Pillai"
+        ],
+        "abstract": "  OLAC was founded in 2000 for creating online databases of language resources. This paper intends to review the bottom-up distributed character of the project and proposes an extension of the architecture for Dravidian languages. An ontological structure is considered for effective natural language processing (NLP) and its advantages over statistical methods are reviewed\n    ",
+        "submission_date": "2009-08-30T00:00:00",
+        "last_modified_date": "2009-08-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.1147",
+        "title": "Empowering OLAC Extension using Anusaaraka and Effective text processing using Double Byte coding",
+        "authors": [
+            "B Prabhulla Chandran Pillai"
+        ],
+        "abstract": "  The paper reviews the hurdles while trying to implement the OLAC extension for Dravidian / Indian languages. The paper further explores the possibilities which could minimise or solve these problems. In this context, the Chinese system of text processing and the anusaaraka system are scrutinised.\n    ",
+        "submission_date": "2009-09-07T00:00:00",
+        "last_modified_date": "2009-09-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2379",
+        "title": "Implementation of Rule Based Algorithm for Sandhi-Vicheda Of Compound Hindi Words",
+        "authors": [
+            "Priyanka Gupta",
+            "Vishal Goyal"
+        ],
+        "abstract": "  Sandhi means to join two or more words to coin new word. Sandhi literally means `putting together' or combining (of sounds), It denotes all combinatory sound-changes effected (spontaneously) for ease of pronunciation. Sandhi-vicheda describes [5] the process by which one letter (whether single or cojoined) is broken to form two words. Part of the broken letter remains as the last letter of the first word and part of the letter forms the first letter of the next letter. Sandhi- Vicheda is an easy and interesting way that can give entirely new dimension that add new way to traditional approach to Hindi Teaching. In this paper using the Rule based algorithm we have reported an accuracy of 60-80% depending upon the number of rules to be implemented.\n    ",
+        "submission_date": "2009-09-12T00:00:00",
+        "last_modified_date": "2009-09-12T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2626",
+        "title": "Reference Resolution within the Framework of Cognitive Grammar",
+        "authors": [
+            "Susanne Salmon-Alt",
+            "Laurent Romary"
+        ],
+        "abstract": "  Following the principles of Cognitive Grammar, we concentrate on a model for reference resolution that attempts to overcome the difficulties previous approaches, based on the fundamental assumption that all reference (independent on the type of the referring expression) is accomplished via access to and restructuring of domains of reference rather than by direct linkage to the entities themselves. The model accounts for entities not explicitly mentioned but understood in a discourse, and enables exploitation of discursive and perceptual context to limit the set of potential referents for a given referring expression. As the most important feature, we note that a single mechanism is required to handle what are typically treated as diverse phenomena. Our approach, then, provides a fresh perspective on the relations between Cognitive Grammar and the problem of reference.\n    ",
+        "submission_date": "2009-09-14T00:00:00",
+        "last_modified_date": "2009-09-14T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2715",
+        "title": "Marking-up multiple views of a Text: Discourse and Reference",
+        "authors": [
+            "Dan Cristea",
+            "Nancy Ide",
+            "Laurent Romary"
+        ],
+        "abstract": "  We describe an encoding scheme for discourse structure and reference, based on the TEI Guidelines and the recommendations of the Corpus Encoding Specification (CES). A central feature of the scheme is a CES-based data architecture enabling the encoding of and access to multiple views of a marked-up document. We describe a tool architecture that supports the encoding scheme, and then show how we have used the encoding scheme and the tools to perform a discourse analytic task in support of a model of global discourse cohesion called Veins Theory (Cristea & Ide, 1998).\n    ",
+        "submission_date": "2009-09-15T00:00:00",
+        "last_modified_date": "2009-09-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2718",
+        "title": "A Common XML-based Framework for Syntactic Annotations",
+        "authors": [
+            "Nancy Ide",
+            "Laurent Romary",
+            "Tomaz Erjavec"
+        ],
+        "abstract": "  It is widely recognized that the proliferation of annotation schemes runs counter to the need to re-use language resources, and that standards for linguistic annotation are becoming increasingly mandatory. To answer this need, we have developed a framework comprised of an abstract model for a variety of different annotation types (e.g., morpho-syntactic tagging, syntactic annotation, co-reference annotation, etc.), which can be instantiated in different ways depending on the annotator's approach and goals. In this paper we provide an overview of the framework, demonstrate its applicability to syntactic annotation, and show how it can contribute to comparative evaluation of parser output and diverse syntactic annotation schemes.\n    ",
+        "submission_date": "2009-09-15T00:00:00",
+        "last_modified_date": "2009-09-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.2719",
+        "title": "Standards for Language Resources",
+        "authors": [
+            "Nancy Ide",
+            "Laurent Romary"
+        ],
+        "abstract": "  This paper presents an abstract data model for linguistic annotations and its implementation using XML, RDF and related standards; and to outline the work of a newly formed committee of the International Standards Organization (ISO), ISO/TC 37/SC 4 Language Resource Management, which will use this work as its starting point. The primary motive for presenting the latter is to solicit the participation of members of the research community to contribute to the work of the committee.\n    ",
+        "submission_date": "2009-09-15T00:00:00",
+        "last_modified_date": "2009-09-15T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3027",
+        "title": "Language Models for Handwritten Short Message Services",
+        "authors": [
+            "Emmanuel Ep Prochasson",
+            "Christian Viard-Gaudin",
+            "Emmanuel Morin"
+        ],
+        "abstract": "  Handwriting is an alternative method for entering texts composing Short Message Services. However, a whole new language features the texts which are produced. They include for instance abbreviations and other consonantal writing which sprung up for time saving and fashion. We have collected and processed a significant number of such handwriting SMS, and used various strategies to tackle this challenging area of handwriting recognition. We proposed to study more specifically three different phenomena: consonant skeleton, rebus, and phonetic writing. For each of them, we compare the rough results produced by a standard recognition system with those obtained when using a specific language model.\n    ",
+        "submission_date": "2009-09-16T00:00:00",
+        "last_modified_date": "2009-09-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3028",
+        "title": "Vers la reconnaissance de mini-messages manuscrits",
+        "authors": [
+            "Emmanuel Prochasson",
+            "Emmanuel Morin",
+            "Christian Viard-Gaudin"
+        ],
+        "abstract": "  Handwriting is an alternative method for entering texts which composed Short Message Services. However, a whole new language features the texts which are produced. They include for instance abbreviations and other consonantal writing which sprung up for time saving and fashion. We have collected and processed a significant number of such handwritten SMS, and used various strategies to tackle this challenging area of handwriting recognition. We proposed to study more specifically three different phenomena: consonant skeleton, rebus, and phonetic writing. For each of them, we compare the rough results produced by a standard recognition system with those obtained when using a specific language model to take care of them.\n    ",
+        "submission_date": "2009-09-16T00:00:00",
+        "last_modified_date": "2009-09-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3444",
+        "title": "Analyse en d\u00e9pendances \u00e0 l'aide des grammaires d'interaction",
+        "authors": [
+            "Jonathan Marchand",
+            "Bruno Guillaume",
+            "Guy Perrier"
+        ],
+        "abstract": "  This article proposes a method to extract dependency structures from phrase-structure level parsing with Interaction Grammars. Interaction Grammars are a formalism which expresses interactions among words using a polarity system. Syntactical composition is led by the saturation of polarities. Interactions take place between constituents, but as grammars are lexicalized, these interactions can be translated at the level of words. Dependency relations are extracted from the parsing process: every dependency is the consequence of a polarity saturation. The dependency relations we obtain can be seen as a refinement of the usual dependency tree. Generally speaking, this work sheds new light on links between phrase structure and dependency parsing.\n    ",
+        "submission_date": "2009-09-18T00:00:00",
+        "last_modified_date": "2009-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3445",
+        "title": "Grouping Synonyms by Definitions",
+        "authors": [
+            "Ingrid Falk",
+            "Claire Gardent",
+            "Evelyne Jacquey",
+            "Fabienne Venant"
+        ],
+        "abstract": "  We present a method for grouping the synonyms of a lemma according to its dictionary senses. The senses are defined by a large machine readable dictionary for French, the TLFi (Tr\u00e9sor de la langue fran\u00e7aise informatis\u00e9) and the synonyms are given by 5 synonym dictionaries (also for French). To evaluate the proposed method, we manually constructed a gold standard where for each (word, definition) pair and given the set of synonyms defined for that word by the 5 synonym dictionaries, 4 lexicographers specified the set of synonyms they judge adequate. While inter-annotator agreement ranges on that task from 67% to at best 88% depending on the annotator pair and on the synonym dictionary being considered, the automatic procedure we propose scores a precision of 67% and a recall of 71%. The proposed method is compared with related work namely, word sense disambiguation, synonym lexicon acquisition and WordNet construction.\n    ",
+        "submission_date": "2009-09-18T00:00:00",
+        "last_modified_date": "2009-09-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.3591",
+        "title": "Mathematics, Recursion, and Universals in Human Languages",
+        "authors": [
+            "P. Gilkey",
+            "S. Lopez Ornat",
+            "A. Karousou"
+        ],
+        "abstract": "  There are many scientific problems generated by the multiple and conflicting alternative definitions of linguistic recursion and human recursive processing that exist in the literature. The purpose of this article is to make available to the linguistic community the standard mathematical definition of recursion and to apply it to discuss linguistic recursion. As a byproduct, we obtain an insight into certain \"soft universals\" of human languages, which are related to cognitive constructs necessary to implement mathematical reasoning, i.e. mathematical model theory.\n    ",
+        "submission_date": "2009-09-19T00:00:00",
+        "last_modified_date": "2009-09-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.4280",
+        "title": "Towards Multimodal Content Representation",
+        "authors": [
+            "Harry Bunt",
+            "Laurent Romary"
+        ],
+        "abstract": "  Multimodal interfaces, combining the use of speech, graphics, gestures, and facial expressions in input and output, promise to provide new possibilities to deal with information in more effective and efficient ways, supporting for instance: - the understanding of possibly imprecise, partial or ambiguous multimodal input; - the generation of coordinated, cohesive, and coherent multimodal presentations; - the management of multimodal interaction (e.g., task completion, adapting the interface, error prevention) by representing and exploiting models of the user, the domain, the task, the interactive context, and the media (e.g. text, audio, video). The present document is intended to support the discussion on multimodal content representation, its possible objectives and basic constraints, and how the definition of a generic representation framework for multimodal content representation may be approached. It takes into account the results of the Dagstuhl workshop, in particular those of the informal working group on multimodal meaning representation that was active during the workshop (see ",
+        "submission_date": "2009-09-23T00:00:00",
+        "last_modified_date": "2009-09-23T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.0537",
+        "title": "A Note On Higher Order Grammar",
+        "authors": [
+            "Victor Gluzberg"
+        ],
+        "abstract": "  Both syntax-phonology and syntax-semantics interfaces in Higher Order Grammar (HOG) are expressed as axiomatic theories in higher-order logic (HOL), i.e. a language is defined entirely in terms of provability in the single logical system. An important implication of this elegant architecture is that the meaning of a valid expression turns out to be represented not by a single, nor even by a few \"discrete\" terms (in case of ambiguity), but by a \"continuous\" set of logically equivalent terms. The note is devoted to precise formulation and proof of this observation.\n    ",
+        "submission_date": "2009-10-03T00:00:00",
+        "last_modified_date": "2009-10-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1484",
+        "title": "Ludics and its Applications to natural Language Semantics",
+        "authors": [
+            "Alain Lecomte",
+            "Myriam Quatrini"
+        ],
+        "abstract": "  Proofs, in Ludics, have an interpretation provided by their counter-proofs, that is the objects they interact with. We follow the same idea by proposing that sentence meanings are given by the counter-meanings they are opposed to in a dialectical interaction. The conception is at the intersection of a proof-theoretic and a game-theoretic accounts of semantics, but it enlarges them by allowing to deal with possibly infinite processes.\n    ",
+        "submission_date": "2009-10-08T00:00:00",
+        "last_modified_date": "2009-10-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.1868",
+        "title": "Evaluation of Hindi to Punjabi Machine Translation System",
+        "authors": [
+            "Vishal Goyal",
+            "Gurpreet Singh Lehal"
+        ],
+        "abstract": "  Machine Translation in India is relatively young. The earliest efforts date from the late 80s and early 90s. The success of every system is judged from its evaluation experimental results. Number of machine translation systems has been started for development but to the best of author knowledge, no high quality system has been completed which can be used in real applications. Recently, Punjabi University, Patiala, India has developed Punjabi to Hindi Machine translation system with high accuracy of about 92%. Both the systems i.e. system under question and developed system are between same closely related languages. Thus, this paper presents the evaluation results of Hindi to Punjabi machine translation system. It makes sense to use same evaluation criteria as that of Punjabi to Hindi Punjabi Machine Translation System. After evaluation, the accuracy of the system is found to be about 95%.\n    ",
+        "submission_date": "2009-10-09T00:00:00",
+        "last_modified_date": "2009-10-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5410",
+        "title": "The Uned systems at Senseval-2",
+        "authors": [
+            "David Fernandez-Amoros",
+            "Julio Gonzalo",
+            "Felisa Verdejo"
+        ],
+        "abstract": "  We have participated in the SENSEVAL-2 English tasks (all words and lexical sample) with an unsupervised system based on mutual information measured over a large corpus (277 million words) and some additional heuristics. A supervised extension of the system was also presented to the lexical sample task.\n",
+        "submission_date": "2009-10-28T00:00:00",
+        "last_modified_date": "2009-10-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5419",
+        "title": "Word Sense Disambiguation Based on Mutual Information and Syntactic Patterns",
+        "authors": [
+            "David Fernandez-Amoros"
+        ],
+        "abstract": "  This paper describes a hybrid system for WSD, presented to the English all-words and lexical-sample tasks, that relies on two different unsupervised approaches. The first one selects the senses according to mutual information proximity between a context word a variant of the sense. The second heuristic analyzes the examples of use in the glosses of the senses so that simple syntactic patterns are inferred. This patterns are matched against the disambiguation contexts. We show that the first heuristic obtains a precision and recall of .58 and .35 respectively in the all words task while the second obtains .80 and .25. The high precision obtained recommends deeper research of the techniques. Results for the lexical sample task are also provided.\n    ",
+        "submission_date": "2009-10-28T00:00:00",
+        "last_modified_date": "2009-10-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0910.5682",
+        "title": "Word Sense Disambiguation Using English-Spanish Aligned Phrases over Comparable Corpora",
+        "authors": [
+            "David Fernandez-Amoros"
+        ],
+        "abstract": "  In this paper we describe a WSD experiment based on bilingual English-Spanish comparable corpora in which individual noun phrases have been identified and aligned with their respective counterparts in the other language. The evaluation of the experiment has been carried out against SemCor.\n",
+        "submission_date": "2009-10-29T00:00:00",
+        "last_modified_date": "2009-10-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0894",
+        "title": "A New Computational Schema for Euphonic Conjunctions in Sanskrit Processing",
+        "authors": [
+            "N. Rama",
+            "Meenakshi Lakshmanan"
+        ],
+        "abstract": "  Automated language processing is central to the drive to enable facilitated referencing of increasingly available Sanskrit E texts. The first step towards processing Sanskrit text involves the handling of Sanskrit compound words that are an integral part of Sanskrit texts. This firstly necessitates the processing of euphonic conjunctions or sandhis, which are points in words or between words, at which adjacent letters coalesce and transform. The ancient Sanskrit grammarian Panini's codification of the Sanskrit grammar is the accepted authority in the subject. His famed sutras or aphorisms, numbering approximately four thousand, tersely, precisely and comprehensively codify the rules of the grammar, including all the rules pertaining to sandhis. This work presents a fresh new approach to processing sandhis in terms of a computational schema. This new computational model is based on Panini's complex codification of the rules of grammar. The model has simple beginnings and is yet powerful, comprehensive and computationally lean.\n    ",
+        "submission_date": "2009-11-04T00:00:00",
+        "last_modified_date": "2009-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.0907",
+        "title": "ANN-based Innovative Segmentation Method for Handwritten text in Assamese",
+        "authors": [
+            "Kaustubh Bhattacharyya",
+            "Kandarpa Kumar Sarma"
+        ],
+        "abstract": "  Artificial Neural Network (ANN) s has widely been used for recognition of optically scanned character, which partially emulates human thinking in the domain of the Artificial Intelligence. But prior to recognition, it is necessary to segment the character from the text to sentences, words etc. Segmentation of words into individual letters has been one of the major problems in handwriting recognition. Despite several successful works all over the work, development of such tools in specific languages is still an ongoing process especially in the Indian context. This work explores the application of ANN as an aid to segmentation of handwritten characters in Assamese- an important language in the North Eastern part of India. The work explores the performance difference obtained in applying an ANN-based dynamic segmentation algorithm compared to projection- based static segmentation. The algorithm involves, first training of an ANN with individual handwritten characters recorded from different individuals. Handwritten sentences are separated out from text using a static segmentation method. From the segmented line, individual characters are separated out by first over segmenting the entire line. Each of the segments thus obtained, next, is fed to the trained ANN. The point of segmentation at which the ANN recognizes a segment or a combination of several segments to be similar to a handwritten character, a segmentation boundary for the character is assumed to exist and segmentation performed. The segmented character is next compared to the best available match and the segmentation boundary confirmed.\n    ",
+        "submission_date": "2009-11-04T00:00:00",
+        "last_modified_date": "2009-11-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.1451",
+        "title": "Co-word Analysis using the Chinese Character Set",
+        "authors": [
+            "Loet Leydesdorff",
+            "Ping Zhou"
+        ],
+        "abstract": "  Until recently, Chinese texts could not be studied using co-word analysis because the words are not separated by spaces in Chinese (and Japanese). A word can be composed of one or more characters. The online availability of programs that separate Chinese texts makes it possible to analyze them using semantic maps. Chinese characters contain not only information, but also meaning. This may enhance the readability of semantic maps. In this study, we analyze 58 words which occur ten or more times in the 1652 journal titles of the China Scientific and Technical Papers and Citations Database. The word occurrence matrix is visualized and factor-analyzed.\n    ",
+        "submission_date": "2009-11-07T00:00:00",
+        "last_modified_date": "2009-11-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.1516",
+        "title": "A Discourse-based Approach in Text-based Machine Translation",
+        "authors": [
+            "Sana Ullah",
+            "M.A. Khan",
+            "Kyung Sup Kwak"
+        ],
+        "abstract": "This paper presents a theoretical research based approach to ellipsis resolution in machine translation. The formula of discourse is applied in order to resolve ellipses. The validity of the discourse formula is analyzed by applying it to the real world text, i.e., newspaper fragments. The source text is converted into mono-sentential discourses where complex discourses require further dissection either directly into primitive discourses or first into compound discourses and later into primitive ones. The procedure of dissection needs further improvement, i.e., discovering as many primitive discourse forms as possible. An attempt has been made to investigate new primitive discourses or patterns from the given text.\n    ",
+        "submission_date": "2009-11-08T00:00:00",
+        "last_modified_date": "2010-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.1517",
+        "title": "Resolution of Unidentified Words in Machine Translation",
+        "authors": [
+            "Sana Ullah",
+            "M.Asdaque Hussain",
+            "Kyung Sup Kwak"
+        ],
+        "abstract": "This paper presents a mechanism of resolving unidentified lexical units in Text-based Machine Translation (TBMT). In a Machine Translation (MT) system it is unlikely to have a complete lexicon and hence there is intense need of a new mechanism to handle the problem of unidentified words. These unknown words could be abbreviations, names, acronyms and newly introduced terms. We have proposed an algorithm for the resolution of the unidentified words. This algorithm takes discourse unit (primitive discourse) as a unit of analysis and provides real time updates to the lexicon. We have manually applied the algorithm to news paper fragments. Along with anaphora and cataphora resolution, many unknown words especially names and abbreviations were updated to the lexicon.\n    ",
+        "submission_date": "2009-11-09T00:00:00",
+        "last_modified_date": "2010-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.1842",
+        "title": "Standards for Language Resources",
+        "authors": [
+            "Nancy Ide",
+            "Laurent Romary"
+        ],
+        "abstract": "  The goal of this paper is two-fold: to present an abstract data model for linguistic annotations and its implementation using XML, RDF and related standards; and to outline the work of a newly formed committee of the International Standards Organization (ISO), ISO/TC 37/SC 4 Language Resource Management, which will use this work as its starting point.\n    ",
+        "submission_date": "2009-11-10T00:00:00",
+        "last_modified_date": "2009-11-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.1965",
+        "title": "Active Learning for Mention Detection: A Comparison of Sentence Selection Strategies",
+        "authors": [
+            "Nitin Madnani",
+            "Hongyan Jing",
+            "Nanda Kambhatla",
+            "Salim Roukos"
+        ],
+        "abstract": "  We propose and compare various sentence selection strategies for active learning for the task of detecting mentions of entities. The best strategy employs the sum of confidences of two statistical classifiers trained on different views of the data. Our experimental results show that, compared to the random selection strategy, this strategy reduces the amount of required labeled training data by over 50% while achieving the same performance. The effect is even more significant when only named mentions are considered: the system achieves the same performance by using only 42% of the training data required by the random selection strategy.\n    ",
+        "submission_date": "2009-11-10T00:00:00",
+        "last_modified_date": "2009-11-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.2284",
+        "title": "A New Look at the Classical Entropy of Written English",
+        "authors": [
+            "Fabio G. Guerrero"
+        ],
+        "abstract": "  A simple method for finding the entropy and redundancy of a reasonable long sample of English text by direct computer processing and from first principles according to Shannon theory is presented. As an example, results on the entropy of the English language have been obtained based on a total of 20.3 million characters of written English, considering symbols from one to five hundred characters in length. Besides a more realistic value of the entropy of English, a new perspective on some classic entropy-related concepts is presented. This method can also be extended to other Latin languages. Some implications for practical applications such as plagiarism-detection software, and the minimum number of words that should be used in social Internet network messaging, are discussed.\n    ",
+        "submission_date": "2009-11-12T00:00:00",
+        "last_modified_date": "2009-11-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.3280",
+        "title": "Automated languages phylogeny from Levenshtein distance",
+        "authors": [
+            "Maurizio Serva"
+        ],
+        "abstract": "Languages evolve over time in a process in which reproduction, mutation and extinction are all possible, similar to what happens to living organisms. Using this similarity it is possible, in principle, to build family trees which show the degree of relatedness between languages.\n",
+        "submission_date": "2009-11-17T00:00:00",
+        "last_modified_date": "2012-07-02T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.3292",
+        "title": "Automated words stability and languages phylogeny",
+        "authors": [
+            "Filippo Petroni",
+            "Maurizio Serva"
+        ],
+        "abstract": "  The idea of measuring distance between languages seems to have its roots in the work of the French explorer Dumont D'Urville (D'Urville 1832). He collected comparative words lists of various languages during his voyages aboard the Astrolabe from 1826 to1829 and, in his work about the geographical division of the Pacific, he proposed a method to measure the degree of relation among languages. The method used by modern glottochronology, developed by Morris Swadesh in the 1950s (Swadesh 1952), measures distances from the percentage of shared cognates, which are words with a common historical origin. Recently, we proposed a new automated method which uses normalized Levenshtein distance among words with the same meaning and averages on the words contained in a list. Another classical problem in glottochronology is the study of the stability of words corresponding to different meanings. Words, in fact, evolve because of lexical changes, borrowings and replacement at a rate which is not the same for all of them. The speed of lexical evolution is different for different meanings and it is probably related to the frequency of use of the associated words (Pagel et al. 2007). This problem is tackled here by an automated methodology only based on normalized Levenshtein distance.\n    ",
+        "submission_date": "2009-11-17T00:00:00",
+        "last_modified_date": "2009-12-05T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.3411",
+        "title": "Measuring the Meaning of Words in Contexts: An automated analysis of controversies about Monarch butterflies, Frankenfoods, and stem cells",
+        "authors": [
+            "Loet Leydesdorff",
+            "Iina Hellsten"
+        ],
+        "abstract": "  Co-words have been considered as carriers of meaning across different domains in studies of science, technology, and society. Words and co-words, however, obtain meaning in sentences, and sentences obtain meaning in their contexts of use. At the science/society interface, words can be expected to have different meanings: the codes of communication that provide meaning to words differ on the varying sides of the interface. Furthermore, meanings and interfaces may change over time. Given this structuring of meaning across interfaces and over time, we distinguish between metaphors and diaphors as reflexive mechanisms that facilitate the translation between contexts. Our empirical focus is on three recent scientific controversies: Monarch butterflies, Frankenfoods, and stem-cell therapies. This study explores new avenues that relate the study of co-word analysis in context with the sociological quest for the analysis and processing of meaning.\n    ",
+        "submission_date": "2009-11-17T00:00:00",
+        "last_modified_date": "2009-11-17T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5116",
+        "title": "Standardization of the formal representation of lexical information for NLP",
+        "authors": [
+            "Laurent Romary"
+        ],
+        "abstract": "  A survey of dictionary models and formats is presented as well as a presentation of corresponding recent standardisation activities.\n    ",
+        "submission_date": "2009-11-26T00:00:00",
+        "last_modified_date": "2009-11-26T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5568",
+        "title": "Acquisition d'informations lexicales \u00e0 partir de corpus C\u00e9dric Messiant et Thierry Poibeau",
+        "authors": [
+            "C\u00e9dric Messiant",
+            "Thierry Poibeau"
+        ],
+        "abstract": "  This paper is about automatic acquisition of lexical information from corpora, especially subcategorization acquisition.\n    ",
+        "submission_date": "2009-11-30T00:00:00",
+        "last_modified_date": "2009-11-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.5703",
+        "title": "Hierarchies in Dictionary Definition Space",
+        "authors": [
+            "Olivier Picard",
+            "Alexandre Blondin-Masse",
+            "Stevan Harnad",
+            "Odile Marcotte",
+            "Guillaume Chicoisne",
+            "Yassine Gargouri"
+        ],
+        "abstract": "  A dictionary defines words in terms of other words. Definitions can tell you the meanings of words you don't know, but only if you know the meanings of the defining words. How many words do you need to know (and which ones) in order to be able to learn all the rest from definitions? We reduced dictionaries to their \"grounding kernels\" (GKs), about 10% of the dictionary, from which all the other words could be defined. The GK words turned out to have psycholinguistic correlates: they were learned at an earlier age and more concrete than the rest of the dictionary. But one can compress still more: the GK turns out to have internal structure, with a strongly connected \"kernel core\" (KC) and a surrounding layer, from which a hierarchy of definitional distances can be derived, all the way out to the periphery of the full dictionary. These definitional distances, too, are correlated with psycholinguistic variables (age of acquisition, concreteness, imageability, oral and written frequency) and hence perhaps with the \"mental lexicon\" in each of our heads.\n    ",
+        "submission_date": "2009-11-30T00:00:00",
+        "last_modified_date": "2009-11-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0821",
+        "title": "Lexical evolution rates by automated stability measure",
+        "authors": [
+            "Filippo Petroni",
+            "Maurizio Serva"
+        ],
+        "abstract": "  Phylogenetic trees can be reconstructed from the matrix which contains the distances between all pairs of languages in a family. Recently, we proposed a new method which uses normalized Levenshtein distances among words with same meaning and averages on all the items of a given list. Decisions about the number of items in the input lists for language comparison have been debated since the beginning of glottochronology. The point is that words associated to some of the meanings have a rapid lexical evolution. Therefore, a large vocabulary comparison is only apparently more accurate then a smaller one since many of the words do not carry any useful information. In principle, one should find the optimal length of the input lists studying the stability of the different items. In this paper we tackle the problem with an automated methodology only based on our normalized Levenshtein distance. With this approach, the program of an automated reconstruction of languages relationships is completed.\n    ",
+        "submission_date": "2009-12-04T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.0884",
+        "title": "Measures of lexical distance between languages",
+        "authors": [
+            "Filippo Petroni",
+            "Maurizio Serva"
+        ],
+        "abstract": "  The idea of measuring distance between languages seems to have its roots in the work of the French explorer Dumont D'Urville \\cite{Urv}. He collected comparative words lists of various languages during his voyages aboard the Astrolabe from 1826 to 1829 and, in his work about the geographical division of the Pacific, he proposed a method to measure the degree of relation among languages. The method used by modern glottochronology, developed by Morris Swadesh in the 1950s, measures distances from the percentage of shared cognates, which are words with a common historical origin. Recently, we proposed a new automated method which uses normalized Levenshtein distance among words with the same meaning and averages on the words contained in a list. Recently another group of scholars \\cite{Bak, Hol} proposed a refined of our definition including a second normalization. In this paper we compare the information content of our definition with the refined version in order to decide which of the two can be applied with greater success to resolve relationships among languages.\n    ",
+        "submission_date": "2009-12-04T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1820",
+        "title": "Parsing of part-of-speech tagged Assamese Texts",
+        "authors": [
+            "Mirzanur Rahman",
+            "Sufal Das",
+            "Utpal Sharma"
+        ],
+        "abstract": "  A natural language (or ordinary language) is a language that is spoken, written, or signed by humans for general-purpose communication, as distinguished from formal languages (such as computer-programming languages or the \"languages\" used in the study of formal logic). The computational activities required for enabling a computer to carry out information processing using natural language is called natural language processing. We have taken Assamese language to check the grammars of the input sentence. Our aim is to produce a technique to check the grammatical structures of the sentences in Assamese text. We have made grammar rules by analyzing the structures of Assamese sentences. Our parsing program finds the grammatical errors, if any, in the Assamese sentence. If there is no error, the program will generate the parse tree for the Assamese sentence\n    ",
+        "submission_date": "2009-12-09T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.2881",
+        "title": "Representing human and machine dictionaries in Markup languages",
+        "authors": [
+            "Lothar Lemnitzer",
+            "Laurent Romary",
+            "Andreas Witt"
+        ],
+        "abstract": "  In this chapter we present the main issues in representing machine readable dictionaries in XML, and in particular according to the Text Encoding Dictionary (TEI) guidelines.\n    ",
+        "submission_date": "2009-12-15T00:00:00",
+        "last_modified_date": "2009-12-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.3747",
+        "title": "A Survey of Paraphrasing and Textual Entailment Methods",
+        "authors": [
+            "Ion Androutsopoulos",
+            "Prodromos Malakasiotis"
+        ],
+        "abstract": "Paraphrasing methods recognize, generate, or extract phrases, sentences, or longer natural language expressions that convey almost the same information. Textual entailment methods, on the other hand, recognize, generate, or extract pairs of natural language expressions, such that a human who reads (and trusts) the first element of a pair would most likely infer that the other element is also true. Paraphrasing can be seen as bidirectional textual entailment and methods from the two areas are often similar. Both kinds of methods are useful, at least in principle, in a wide range of natural language processing applications, including question answering, summarization, text generation, and machine translation. We summarize key ideas from the two areas by considering in turn recognition, generation, and extraction methods, also pointing to prominent articles and resources.\n    ",
+        "submission_date": "2009-12-18T00:00:00",
+        "last_modified_date": "2010-05-30T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.3917",
+        "title": "Speech Recognition Oriented Vowel Classification Using Temporal Radial Basis Functions",
+        "authors": [
+            "Mustapha Guezouri",
+            "Larbi Mesbahi",
+            "Abdelkader Benyettou"
+        ],
+        "abstract": "  The recent resurgence of interest in spatio-temporal neural network as speech recognition tool motivates the present investigation. In this paper an approach was developed based on temporal radial basis function \"TRBF\" looking to many advantages: few parameters, speed convergence and time invariance. This application aims to identify vowels taken from natural speech samples from the Timit corpus of American speech. We report a recognition accuracy of 98.06 percent in training and 90.13 in test on a subset of 6 vowel phonemes, with the possibility to expend the vowel sets in future.\n    ",
+        "submission_date": "2009-12-19T00:00:00",
+        "last_modified_date": "2009-12-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.2924",
+        "title": "Universal Complex Structures in Written Language",
+        "authors": [
+            "Alvaro Corral",
+            "Ramon Ferrer-i-Cancho",
+            "Gemma Boleda",
+            "Albert Diaz-Guilera"
+        ],
+        "abstract": "  Quantitative linguistics has provided us with a number of empirical laws that characterise the evolution of languages and competition amongst them. In terms of language usage, one of the most influential results is Zipf's law of word frequencies. Zipf's law appears to be universal, and may not even be unique to human language. However, there is ongoing controversy over whether Zipf's law is a good indicator of complexity. Here we present an alternative approach that puts Zipf's law in the context of critical phenomena (the cornerstone of complexity in physics) and establishes the presence of a large scale \"attraction\" between successive repetitions of words. Moreover, this phenomenon is scale-invariant and universal -- the pattern is independent of word frequency and is observed in texts by different authors and written in different languages. There is evidence, however, that the shape of the scaling relation changes for words that play a key role in the text, implying the existence of different \"universality classes\" in the repetition of words. These behaviours exhibit striking parallels with complex catastrophic phenomena.\n    ",
+        "submission_date": "2009-01-19T00:00:00",
+        "last_modified_date": "2009-01-19T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0901.4375",
+        "title": "Extracting Spooky-activation-at-a-distance from Considerations of Entanglement",
+        "authors": [
+            "P.D. Bruza",
+            "K. Kitto",
+            "D. Nelson",
+            "C. McEvoy"
+        ],
+        "abstract": "  Following an early claim by Nelson & McEvoy \\cite{Nelson:McEvoy:2007} suggesting that word associations can display `spooky action at a distance behaviour', a serious investigation of the potentially quantum nature of such associations is currently underway. This paper presents a simple quantum model of a word association system. It is shown that a quantum model of word entanglement can recover aspects of both the Spreading Activation equation and the Spooky-activation-at-a-distance equation, both of which are used to model the activation level of words in human memory.\n    ",
+        "submission_date": "2009-01-27T00:00:00",
+        "last_modified_date": "2009-01-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0903.2792",
+        "title": "Thermodynamics of Information Retrieval",
+        "authors": [
+            "Kostadin Koroutchev",
+            "Jian Shen",
+            "Elka Koroutcheva",
+            "Manuel Cebrian"
+        ],
+        "abstract": "In this work, we suggest a parameterized statistical model (the gamma distribution) for the frequency of word occurrences in long strings of English text and use this model to build a corresponding thermodynamic picture by constructing the partition function. We then use our partition function to compute thermodynamic quantities such as the free energy and the specific heat. In this approach, the parameters of the word frequency model vary from word to word so that each word has a different corresponding thermodynamics and we suggest that differences in the specific heat reflect differences in how the words are used in language, differentiating keywords from common and function words. Finally, we apply our thermodynamic picture to the problem of retrieval of texts based on keywords and suggest some advantages over traditional information retrieval methods.\n    ",
+        "submission_date": "2009-03-16T00:00:00",
+        "last_modified_date": "2011-02-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.1130",
+        "title": "Statistical Automatic Summarization in Organic Chemistry",
+        "authors": [
+            "Florian Boudin",
+            "Patricia Velazquez-Morales",
+            "Juan-Manuel Torres-Moreno"
+        ],
+        "abstract": "  We present an oriented numerical summarizer algorithm, applied to producing automatic summaries of scientific documents in Organic Chemistry. We present its implementation named Yachs (Yet Another Chemistry Summarizer) that combines a specific document pre-processing with a sentence scoring method relying on the statistical properties of documents. We show that Yachs achieves the best results among several other summarizers on a corpus of Organic Chemistry articles.\n    ",
+        "submission_date": "2009-05-07T00:00:00",
+        "last_modified_date": "2009-05-07T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.1235",
+        "title": "The Modular Audio Recognition Framework (MARF) and its Applications: Scientific and Software Engineering Notes",
+        "authors": [
+            "Serguei A. Mokhov",
+            "Stephen Sinclair",
+            "Ian Cl\u00e9ment",
+            "Dimitrios Nicolacopoulos"
+        ],
+        "abstract": "  MARF is an open-source research platform and a collection of voice/sound/speech/text and natural language processing (NLP) algorithms written in Java and arranged into a modular and extensible framework facilitating addition of new algorithms. MARF can run distributively over the network and may act as a library in applications or be used as a source for learning and extension. A few example applications are provided to show how to use the framework. There is an API reference in the Javadoc format as well as this set of accompanying notes with the detailed description of the architectural design, algorithms, and applications. MARF and its applications are released under a BSD-style license and is hosted at ",
+        "submission_date": "2009-05-08T00:00:00",
+        "last_modified_date": "2009-07-25T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0905.2990",
+        "title": "Automatic Summarization System coupled with a Question-Answering System (QAAS)",
+        "authors": [
+            "Juan-Manuel Torres-Moreno",
+            "Pier-Luc St-Onge",
+            "Michel Gagnon",
+            "Marc El-B\u00e8ze",
+            "Patrice Bellot"
+        ],
+        "abstract": "  To select the most relevant sentences of a document, it uses an optimal decision algorithm that combines several metrics. The metrics processes, weighting and extract pertinence sentences by statistical and informational algorithms. This technique might improve a Question-Answering system, whose function is to provide an exact answer to a question in natural language. In this paper, we present the results obtained by coupling the Cortex summarizer with a Question-Answering system (QAAS). Two configurations have been evaluated. In the first one, a low compression level is selected and the summarization system is only used as a noise filter. In the second configuration, the system actually functions as a summarizer, with a very high level of compression. Our results on French corpus demonstrate that the coupling of Automatic Summarization system with a Question-Answering system is promising. Then the system has been adapted to generate a customized summary depending on the specific question. Tests on a french multi-document corpus have been realized, and the personalized QAAS system obtains the best performances.\n    ",
+        "submission_date": "2009-05-18T00:00:00",
+        "last_modified_date": "2009-05-18T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.1467",
+        "title": "Syntax is from Mars while Semantics from Venus! Insights from Spectral Analysis of Distributional Similarity Networks",
+        "authors": [
+            "Chris Biemann",
+            "Monojit Choudhury",
+            "Animesh Mukherjee"
+        ],
+        "abstract": "  We study the global topology of the syntactic and semantic distributional similarity networks for English through the technique of spectral analysis. We observe that while the syntactic network has a hierarchical structure with strong communities and their mixtures, the semantic network has several tightly knit communities along with a large core without any such well-defined community structure.\n    ",
+        "submission_date": "2009-06-08T00:00:00",
+        "last_modified_date": "2009-06-08T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0906.2835",
+        "title": "Employing Wikipedia's Natural Intelligence For Cross Language Information Retrieval",
+        "authors": [
+            "Mikhail Basilyan"
+        ],
+        "abstract": "  In this paper we present a novel method for retrieving information in languages other than that of the query. We use this technique in combination with existing traditional Cross Language Information Retrieval (CLIR) techniques to improve their results. This method has a number of advantages over traditional techniques that rely on machine translation to translate the query and then search the target document space using a machine translation. This method is not limited to the availability of a machine translation algorithm for the desired language and uses already existing sources of readily available translated information on the internet as a \"middle-man\" approach. In this paper we use Wikipedia; however, any similar multilingual, cross referenced body of documents can be used. For evaluation and comparison purposes we also implemented a traditional machine translation approach separately as well as the Wikipedia approach separately.\n    ",
+        "submission_date": "2009-06-16T00:00:00",
+        "last_modified_date": "2009-06-16T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0784",
+        "title": "Cross-Task Knowledge-Constrained Self Training",
+        "authors": [
+            "Hal Daum\u00e9 III"
+        ],
+        "abstract": "  We present an algorithmic framework for learning multiple related tasks. Our framework exploits a form of prior knowledge that relates the output spaces of these tasks. We present PAC learning results that analyze the conditions under which such learning is possible. We present results on learning a shallow parser and named-entity recognition system that exploits our framework, showing consistent improvements over baseline methods.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0786",
+        "title": "Search-based Structured Prediction",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "John Langford",
+            "Daniel Marcu"
+        ],
+        "abstract": "  We present Searn, an algorithm for integrating search and learning to solve complex structured prediction problems such as those that occur in natural language, speech, computational biology, and vision. Searn is a meta-algorithm that transforms these complex problems into simple classification problems to which any binary classifier may be applied. Unlike current algorithms for structured learning that require decomposition of both the loss function and the feature functions over the predicted structure, Searn is able to learn prediction functions for any loss function and any class of features. Moreover, Searn comes with a strong, natural theoretical guarantee: good performance on the derived classification problems implies good performance on the structured prediction problem.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.0809",
+        "title": "Learning as Search Optimization: Approximate Large Margin Methods for Structured Prediction",
+        "authors": [
+            "Hal Daum\u00e9 III",
+            "Daniel Marcu"
+        ],
+        "abstract": "  Mappings to structured output spaces (strings, trees, partitions, etc.) are typically learned using extensions of classification algorithms to simple graphical structures (eg., linear chains) in which search and parameter estimation can be performed exactly. Unfortunately, in many complex problems, it is rare that exact search or parameter estimation is tractable. Instead of learning exact models and searching via heuristic means, we embrace this difficulty and treat the structured output problem in terms of approximate search. We present a framework for learning as search optimization, and two parameter updates with convergence theorems and bounds. Empirical evidence shows that our integrated approach to learning and decoding can outperform exact models at smaller computational cost.\n    ",
+        "submission_date": "2009-07-04T00:00:00",
+        "last_modified_date": "2009-07-04T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.1558",
+        "title": "Towards the quantification of the semantic information encoded in written language",
+        "authors": [
+            "Marcelo A. Montemurro",
+            "Damian Zanette"
+        ],
+        "abstract": "  Written language is a complex communication signal capable of conveying information encoded in the form of ordered sequences of words. Beyond the local order ruled by grammar, semantic and thematic structures affect long-range patterns in word usage. Here, we show that a direct application of information theory quantifies the relationship between the statistical distribution of words and the semantic content of the text. We show that there is a characteristic scale, roughly around a few thousand words, which establishes the typical size of the most informative segments in written language. Moreover, we find that the words whose contributions to the overall information is larger, are the ones more closely associated with the main subjects and topics of the text. This scenario can be explained by a model of word usage that assumes that words are distributed along the text in domains of a characteristic size where their frequency is higher than elsewhere. Our conclusions are based on the analysis of a large database of written language, diverse in subjects and styles, and thus are likely to be applicable to general language sequences encoding complex information.\n    ",
+        "submission_date": "2009-07-09T00:00:00",
+        "last_modified_date": "2009-07-27T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.1815",
+        "title": "Frustratingly Easy Domain Adaptation",
+        "authors": [
+            "Hal Daum\u00e9 III"
+        ],
+        "abstract": "  We describe an approach to domain adaptation that is appropriate exactly in the case when one has enough ``target'' data to do slightly better than just using only ``source'' data. Our approach is incredibly simple, easy to implement as a preprocessing step (10 lines of Perl!) and outperforms state-of-the-art approaches on a range of datasets. Moreover, it is trivially extended to a multi-domain adaptation problem, where one has data from a variety of different domains.\n    ",
+        "submission_date": "2009-07-10T00:00:00",
+        "last_modified_date": "2009-07-10T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.4960",
+        "title": "Ezhil: A Tamil Programming Language",
+        "authors": [
+            "Muthiah Annamalai"
+        ],
+        "abstract": "  Ezhil is a Tamil language based interpreted procedural programming language. Tamil keywords and grammar are chosen to make the native Tamil speaker write programs in the Ezhil system. Ezhil allows easy representation of computer program closer to the Tamil language logical constructs equivalent to the conditional, branch and loop statements in modern English based programming languages. Ezhil is a compact programming language aimed towards Tamil speaking novice computer users. Grammar for Ezhil and a few example programs are reported here, from the initial proof-of-concept implementation using the Python programming language1. To the best of our knowledge, Ezhil language is the first freely available Tamil programming language.\n    ",
+        "submission_date": "2009-07-28T00:00:00",
+        "last_modified_date": "2009-07-28T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0907.5083",
+        "title": "Serializing the Parallelism in Parallel Communicating Pushdown Automata Systems",
+        "authors": [
+            "M. Sakthi Balan"
+        ],
+        "abstract": "  We consider parallel communicating pushdown automata systems (PCPA) and define a property called known communication for it. We use this property to prove that the power of a variant of PCPA, called returning centralized parallel communicating pushdown automata (RCPCPA), is equivalent to that of multi-head pushdown automata. The above result presents a new sub-class of returning parallel communicating pushdown automata systems (RPCPA) called simple-RPCPA and we show that it can be written as a finite intersection of multi-head pushdown automata systems.\n    ",
+        "submission_date": "2009-07-29T00:00:00",
+        "last_modified_date": "2009-07-29T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.1308",
+        "title": "Efficient Learning of Sparse Conditional Random Fields for Supervised Sequence Labelling",
+        "authors": [
+            "Nataliya Sokolovska",
+            "Thomas Lavergne",
+            "Olivier Capp\u00e9",
+            "Fran\u00e7ois Yvon"
+        ],
+        "abstract": "  Conditional Random Fields (CRFs) constitute a popular and efficient approach for supervised sequence labelling. CRFs can cope with large description spaces and can integrate some form of structural dependency between labels. In this contribution, we address the issue of efficient feature selection for CRFs based on imposing sparsity through an L1 penalty. We first show how sparsity of the parameter set can be exploited to significantly speed up training and labelling. We then introduce coordinate descent parameter update schemes for CRFs with L1 regularization. We finally provide some empirical comparisons of the proposed approach with state-of-the-art CRF training strategies. In particular, it is shown that the proposed approach is able to take profit of the sparsity to speed up processing and hence potentially handle larger dimensional models.\n    ",
+        "submission_date": "2009-09-07T00:00:00",
+        "last_modified_date": "2010-01-03T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0909.4385",
+        "title": "The meta book and size-dependent properties of written language",
+        "authors": [
+            "Sebastian Bernhardsson",
+            "Luis Enrique Correa da Rocha",
+            "Petter Minnhagen"
+        ],
+        "abstract": "  Evidence is given for a systematic text-length dependence of the power-law index gamma of a single book. The estimated gamma values are consistent with a monotonic decrease from 2 to 1 with increasing length of a text. A direct connection to an extended Heap's law is explored. The infinite book limit is, as a consequence, proposed to be given by gamma = 1 instead of the value gamma=2 expected if the Zipf's law was ubiquitously applicable. In addition we explore the idea that the systematic text-length dependence can be described by a meta book concept, which is an abstract representation reflecting the word-frequency structure of a text. According to this concept the word-frequency distribution of a text, with a certain length written by a single author, has the same characteristics as a text of the same length pulled out from an imaginary complete infinite corpus written by the same author.\n    ",
+        "submission_date": "2009-09-24T00:00:00",
+        "last_modified_date": "2009-09-24T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0911.3944",
+        "title": "Likelihood-based semi-supervised model selection with applications to speech processing",
+        "authors": [
+            "Christopher M. White",
+            "Sanjeev P. Khudanpur",
+            "Patrick J. Wolfe"
+        ],
+        "abstract": "  In conventional supervised pattern recognition tasks, model selection is typically accomplished by minimizing the classification error rate on a set of so-called development data, subject to ground-truth labeling by human experts or some other means. In the context of speech processing systems and other large-scale practical applications, however, such labeled development data are typically costly and difficult to obtain. This article proposes an alternative semi-supervised framework for likelihood-based model selection that leverages unlabeled data by using trained classifiers representing each model to automatically generate putative labels. The errors that result from this automatic labeling are shown to be amenable to results from robust statistics, which in turn provide for minimax-optimal censored likelihood ratio tests that recover the nonparametric sign test as a limiting case. This approach is then validated experimentally using a state-of-the-art automatic speech recognition system to select between candidate word pronunciations using unlabeled speech data that only potentially contain instances of the words under test. Results provide supporting evidence for the utility of this approach, and suggest that it may also find use in other applications of machine learning.\n    ",
+        "submission_date": "2009-11-20T00:00:00",
+        "last_modified_date": "2009-11-20T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/0912.1829",
+        "title": "Document Searching System based on Natural Language Query Processing for Vietnam Open Courseware Library",
+        "authors": [
+            "Dang Tuan Nguyen",
+            "Ha Quy-Tinh Luong"
+        ],
+        "abstract": "  The necessary of buiding the searching system being able to support users expressing their searching by natural language queries is very important and opens the researching direction with many potential. It combines the traditional methods of information retrieval and the researching of Question Answering (QA). In this paper, we introduce a searching system built by us for searching courses on the Vietnam OpenCourseWare Program (VOCW). It can be considered as the first tool to be able to perform the user's Vietnamese questions. The experiment results are rather good when we evaluate this system on the precision\n    ",
+        "submission_date": "2009-12-09T00:00:00",
+        "last_modified_date": "2009-12-09T00:00:00"
+    }
+]

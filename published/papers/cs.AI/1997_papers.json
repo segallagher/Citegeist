@@ -1,0 +1,226 @@
+[
+    {
+        "url": "https://arxiv.org/abs/cs/9701101",
+        "title": "Improved Heterogeneous Distance Functions",
+        "authors": [
+            "D. R. Wilson",
+            "T. R. Martinez"
+        ],
+        "abstract": "  Instance-based learning techniques typically handle continuous and linear input values well, but often do not handle nominal input attributes appropriately. The Value Difference Metric (VDM) was designed to find reasonable distance values between nominal attribute values, but it largely ignores continuous attributes, requiring discretization to map continuous values into nominal values. This paper proposes three new heterogeneous distance functions, called the Heterogeneous Value Difference Metric (HVDM), the Interpolated Value Difference Metric (IVDM), and the Windowed Value Difference Metric (WVDM). These new distance functions are designed to handle applications with nominal attributes, continuous attributes, or both. In experiments on 48 applications the new distance metrics achieve higher classification accuracy on average than three previous distance functions on those datasets that have both nominal and continuous attributes.\n    ",
+        "submission_date": "1997-01-01T00:00:00",
+        "last_modified_date": "1997-01-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9701102",
+        "title": "SCREEN: Learning a Flat Syntactic and Semantic Spoken Language Analysis Using Artificial Neural Networks",
+        "authors": [
+            "S. Wermter",
+            "V. Weber"
+        ],
+        "abstract": "  Previous approaches of analyzing spontaneously spoken language often have been based on encoding syntactic and semantic knowledge manually and symbolically. While there has been some progress using statistical or connectionist language models, many current spoken- language systems still use a relatively brittle, hand-coded symbolic grammar or symbolic semantic component. In contrast, we describe a so-called screening approach for learning robust processing of spontaneously spoken language. A screening approach is a flat analysis which uses shallow sequences of category representations for analyzing an utterance at various syntactic, semantic and dialog levels. Rather than using a deeply structured symbolic analysis, we use a flat connectionist analysis. This screening approach aims at supporting speech and language processing by using (1) data-driven learning and (2) robustness of connectionist networks. In order to test this approach, we have developed the SCREEN system which is based on this new robust, learned and flat analysis. In this paper, we focus on a detailed description of SCREEN's architecture, the flat syntactic and semantic analysis, the interaction with a speech recognizer, and a detailed evaluation analysis of the robustness under the influence of noisy or incomplete input. The main result of this paper is that flat representations allow more robust processing of spontaneous spoken language than deeply structured representations. In particular, we show how the fault-tolerance and learning capability of connectionist networks can support a flat analysis for providing more robust spoken-language processing within an overall hybrid symbolic/connectionist framework.\n    ",
+        "submission_date": "1997-01-01T00:00:00",
+        "last_modified_date": "1997-01-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9703101",
+        "title": "A Uniform Framework for Concept Definitions in Description Logics",
+        "authors": [
+            "G. DeGiacomo",
+            "M. Lenzerini"
+        ],
+        "abstract": "  Most modern formalisms used in Databases and Artificial Intelligence for describing an application domain are based on the notions of class (or concept) and relationship among classes. One interesting feature of such formalisms is the possibility of defining a class, i.e., providing a set of properties that precisely characterize the instances of the class. Many recent articles point out that there are several ways of assigning a meaning to a class definition containing some sort of recursion. In this paper, we argue that, instead of choosing a single style of semantics, we achieve better results by adopting a formalism that allows for different semantics to coexist. We demonstrate the feasibility of our argument, by presenting a knowledge representation formalism, the description logic muALCQ, with the above characteristics. In addition to the constructs for conjunction, disjunction, negation, quantifiers, and qualified number restrictions, muALCQ includes special fixpoint constructs to express (suitably interpreted) recursive definitions. These constructs enable the usual frame-based descriptions to be combined with definitions of recursive data structures such as directed acyclic graphs, lists, streams, etc. We establish several properties of muALCQ, including the decidability and the computational complexity of reasoning, by formulating a correspondence with a particular modal logic of programs called the modal mu-calculus.\n    ",
+        "submission_date": "1997-03-01T00:00:00",
+        "last_modified_date": "1997-03-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9704101",
+        "title": "Lifeworld Analysis",
+        "authors": [
+            "P. Agre",
+            "I. Horswill"
+        ],
+        "abstract": "  We argue that the analysis of agent/environment interactions should be extended to include the conventions and invariants maintained by agents throughout their activity. We refer to this thicker notion of environment as a lifeworld and present a partial set of formal tools for describing structures of lifeworlds and the ways in which they computationally simplify activity. As one specific example, we apply the tools to the analysis of the Toast system and show how versions of the system with very different control structures in fact implement a common control structure together with different conventions for encoding task state in the positions or states of objects in the environment.\n    ",
+        "submission_date": "1997-04-01T00:00:00",
+        "last_modified_date": "1997-04-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9705101",
+        "title": "Query DAGs: A Practical Paradigm for Implementing Belief-Network Inference",
+        "authors": [
+            "A. Darwiche",
+            "G. Provan"
+        ],
+        "abstract": "  We describe a new paradigm for implementing inference in belief networks, which consists of two steps: (1) compiling a belief network into an arithmetic expression called a Query DAG (Q-DAG); and (2) answering queries using a simple evaluation algorithm. Each node of a Q-DAG represents a numeric operation, a number, or a symbol for evidence. Each leaf node of a Q-DAG represents the answer to a network query, that is, the probability of some event of interest. It appears that Q-DAGs can be generated using any of the standard algorithms for exact inference in belief networks (we show how they can be generated using clustering and conditioning algorithms). The time and space complexity of a Q-DAG generation algorithm is no worse than the time complexity of the inference algorithm on which it is based. The complexity of a Q-DAG evaluation algorithm is linear in the size of the Q-DAG, and such inference amounts to a standard evaluation of the arithmetic expression it represents. The intended value of Q-DAGs is in reducing the software and hardware resources required to utilize belief networks in on-line, real-world applications. The proposed framework also facilitates the development of on-line inference on different software and hardware platforms due to the simplicity of the Q-DAG evaluation algorithm. Interestingly enough, Q-DAGs were found to serve other purposes: simple techniques for reducing Q-DAGs tend to subsume relatively complex optimization techniques for belief-network inference, such as network-pruning and computation-caching.\n    ",
+        "submission_date": "1997-05-01T00:00:00",
+        "last_modified_date": "1997-05-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9705102",
+        "title": "Connectionist Theory Refinement: Genetically Searching the Space of Network Topologies",
+        "authors": [
+            "D. W. Opitz",
+            "J. W. Shavlik"
+        ],
+        "abstract": "  An algorithm that learns from a set of examples should ideally be able to exploit the available resources of (a) abundant computing power and (b) domain-specific knowledge to improve its ability to generalize. Connectionist theory-refinement systems, which use background knowledge to select a neural network's topology and initial weights, have proven to be effective at exploiting domain-specific knowledge; however, most do not exploit available computing power. This weakness occurs because they lack the ability to refine the topology of the neural networks they produce, thereby limiting generalization, especially when given impoverished domain theories. We present the REGENT algorithm which uses (a) domain-specific knowledge to help create an initial population of knowledge-based neural networks and (b) genetic operators of crossover and mutation (specifically designed for knowledge-based networks) to continually search for better network topologies. Experiments on three real-world domains indicate that our new algorithm is able to significantly increase generalization compared to a standard connectionist theory-refinement system, as well as our previous algorithm for growing knowledge-based networks.\n    ",
+        "submission_date": "1997-05-01T00:00:00",
+        "last_modified_date": "1997-05-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9706101",
+        "title": "Flaw Selection Strategies for Partial-Order Planning",
+        "authors": [
+            "M. E. Pollack",
+            "D. Joslin",
+            "M. Paolucci"
+        ],
+        "abstract": "  Several recent studies have compared the relative efficiency of alternative flaw selection strategies for partial-order causal link (POCL) planning. We review this literature, and present new experimental results that generalize the earlier work and explain some of the discrepancies in it. In particular, we describe the Least-Cost Flaw Repair (LCFR) strategy developed and analyzed by Joslin and Pollack (1994), and compare it with other strategies, including Gerevini and Schubert's (1996) ZLIFO strategy. LCFR and ZLIFO make very different, and apparently conflicting claims about the most effective way to reduce search-space size in POCL planning. We resolve this conflict, arguing that much of the benefit that Gerevini and Schubert ascribe to the LIFO component of their ZLIFO strategy is better attributed to other causes. We show that for many problems, a strategy that combines least-cost flaw selection with the delay of separable threats will be effective in reducing search-space size, and will do so without excessive computational overhead. Although such a strategy thus provides a good default, we also show that certain domain characteristics may reduce its effectiveness.\n    ",
+        "submission_date": "1997-06-01T00:00:00",
+        "last_modified_date": "1997-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9706102",
+        "title": "A Complete Classification of Tractability in RCC-5",
+        "authors": [
+            "P. Jonsson",
+            "T. Drakengren"
+        ],
+        "abstract": "  We investigate the computational properties of the spatial algebra RCC-5 which is a restricted version of the RCC framework for spatial reasoning. The satisfiability problem for RCC-5 is known to be NP-complete but not much is known about its approximately four billion subclasses. We provide a complete classification of satisfiability for all these subclasses into polynomial and NP-complete respectively. In the process, we identify all maximal tractable subalgebras which are four in total.\n    ",
+        "submission_date": "1997-06-01T00:00:00",
+        "last_modified_date": "1997-06-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9707101",
+        "title": "A New Look at the Easy-Hard-Easy Pattern of Combinatorial Search Difficulty",
+        "authors": [
+            "D. L. Mammen",
+            "T. Hogg"
+        ],
+        "abstract": "  The easy-hard-easy pattern in the difficulty of combinatorial search problems as constraints are added has been explained as due to a competition between the decrease in number of solutions and increased pruning. We test the generality of this explanation by examining one of its predictions: if the number of solutions is held fixed by the choice of problems, then increased pruning should lead to a monotonic decrease in search cost. Instead, we find the easy-hard-easy pattern in median search cost even when the number of solutions is held constant, for some search methods. This generalizes previous observations of this pattern and shows that the existing theory does not explain the full range of the peak in search cost. In these cases the pattern appears to be due to changes in the size of the minimal unsolvable subproblems, rather than changing numbers of solutions.\n    ",
+        "submission_date": "1997-07-01T00:00:00",
+        "last_modified_date": "1997-07-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9707102",
+        "title": "Eight Maximal Tractable Subclasses of Allen's Algebra with Metric Time",
+        "authors": [
+            "T. Drakengren",
+            "P. Jonsson"
+        ],
+        "abstract": "  This paper combines two important directions of research in temporal resoning: that of finding maximal tractable subclasses of Allen's interval algebra, and that of reasoning with metric temporal information. Eight new maximal tractable subclasses of Allen's interval algebra are presented, some of them subsuming previously reported tractable algebras. The algebras allow for metric temporal constraints on interval starting or ending points, using the recent framework of Horn DLRs. Two of the algebras can express the notion of sequentiality between intervals, being the first such algebras admitting both qualitative and metric time.\n    ",
+        "submission_date": "1997-07-01T00:00:00",
+        "last_modified_date": "1997-07-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9707103",
+        "title": "Defining Relative Likelihood in Partially-Ordered Preferential Structures",
+        "authors": [
+            "J. Y. Halpern"
+        ],
+        "abstract": "  Starting with a likelihood or preference order on worlds, we extend it to a likelihood ordering on sets of worlds in a natural way, and examine the resulting logic. Lewis earlier considered such a notion of relative likelihood in the context of studying counterfactuals, but he assumed a total preference order on worlds. Complications arise when examining partial orders that are not present for total orders. There are subtleties involving the exact approach to lifting the order on worlds to an order on sets of worlds. In addition, the axiomatization of the logic of relative likelihood in the case of partial orders gives insight into the connection between relative likelihood and default reasoning.\n    ",
+        "submission_date": "1997-07-01T00:00:00",
+        "last_modified_date": "1997-07-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9709101",
+        "title": "Towards Flexible Teamwork",
+        "authors": [
+            "M. Tambe"
+        ],
+        "abstract": "  Many AI researchers are today striving to build agent teams for complex, dynamic multi-agent domains, with intended applications in arenas such as education, training, entertainment, information integration, and collective robotics. Unfortunately, uncertainties in these complex, dynamic domains obstruct coherent teamwork. In particular, team members often encounter differing, incomplete, and possibly inconsistent views of their environment. Furthermore, team members can unexpectedly fail in fulfilling responsibilities or discover unexpected opportunities. Highly flexible coordination and communication is key in addressing such uncertainties. Simply fitting individual agents with precomputed coordination plans will not do, for their inflexibility can cause severe failures in teamwork, and their domain-specificity hinders reusability. Our central hypothesis is that the key to such flexibility and reusability is providing agents with general models of teamwork. Agents exploit such models to autonomously reason about coordination and communication, providing requisite flexibility. Furthermore, the models enable reuse across domains, both saving implementation effort and enforcing consistency. This article presents one general, implemented model of teamwork, called STEAM. The basic building block of teamwork in STEAM is joint intentions (Cohen & Levesque, 1991b); teamwork in STEAM is based on agents' building up a (partial) hierarchy of joint intentions (this hierarchy is seen to parallel Grosz & Kraus's partial SharedPlans, 1996). Furthermore, in STEAM, team members monitor the team's and individual members' performance, reorganizing the team as necessary. Finally, decision-theoretic communication selectivity in STEAM ensures reduction in communication overheads of teamwork, with appropriate sensitivity to the environmental conditions. This article describes STEAM's application in three different complex domains, and presents detailed empirical results.\n    ",
+        "submission_date": "1997-09-01T00:00:00",
+        "last_modified_date": "1997-09-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9709102",
+        "title": "Identifying Hierarchical Structure in Sequences: A linear-time algorithm",
+        "authors": [
+            "C. G. Nevill-Manning",
+            "I. H. Witten"
+        ],
+        "abstract": "  SEQUITUR is an algorithm that infers a hierarchical structure from a sequence of discrete symbols by replacing repeated phrases with a grammatical rule that generates the phrase, and continuing this process recursively. The result is a hierarchical representation of the original sequence, which offers insights into its lexical structure. The algorithm is driven by two constraints that reduce the size of the grammar, and produce structure as a by-product. SEQUITUR breaks new ground by operating incrementally. Moreover, the method's simple structure permits a proof that it operates in space and time that is linear in the size of the input. Our implementation can process 50,000 symbols per second and has been applied to an extensive range of real world sequences.\n    ",
+        "submission_date": "1997-09-01T00:00:00",
+        "last_modified_date": "1997-09-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9710101",
+        "title": "Analysis of Three-Dimensional Protein Images",
+        "authors": [
+            "L. Leherte",
+            "J. Glasgow",
+            "K. Baxter",
+            "E. Steeg",
+            "S. Fortier"
+        ],
+        "abstract": "  A fundamental goal of research in molecular biology is to understand protein structure. Protein crystallography is currently the most successful method for determining the three-dimensional (3D) conformation of a protein, yet it remains labor intensive and relies on an expert's ability to derive and evaluate a protein scene model. In this paper, the problem of protein structure determination is formulated as an exercise in scene analysis. A computational methodology is presented in which a 3D image of a protein is segmented into a graph of critical points. Bayesian and certainty factor approaches are described and used to analyze critical point graphs and identify meaningful substructures, such as alpha-helices and beta-sheets. Results of applying the methodologies to protein images at low and medium resolution are reported. The research is related to approaches to representation, segmentation and classification in vision, as well as to top-down approaches to protein structure prediction.\n    ",
+        "submission_date": "1997-10-01T00:00:00",
+        "last_modified_date": "1997-10-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9711102",
+        "title": "Storing and Indexing Plan Derivations through Explanation-based Analysis of Retrieval Failures",
+        "authors": [
+            "L. H. Ihrig",
+            "S. Kambhampati"
+        ],
+        "abstract": "  Case-Based Planning (CBP) provides a way of scaling up domain-independent planning to solve large problems in complex domains. It replaces the detailed and lengthy search for a solution with the retrieval and adaptation of previous planning experiences. In general, CBP has been demonstrated to improve performance over generative (from-scratch) planning. However, the performance improvements it provides are dependent on adequate judgements as to problem similarity. In particular, although CBP may substantially reduce planning effort overall, it is subject to a mis-retrieval problem. The success of CBP depends on these retrieval errors being relatively rare. This paper describes the design and implementation of a replay framework for the case-based planner DERSNLP+EBL. DERSNLP+EBL extends current CBP methodology by incorporating explanation-based learning techniques that allow it to explain and learn from the retrieval failures it encounters. These techniques are used to refine judgements about case similarity in response to feedback when a wrong decision has been made. The same failure analysis is used in building the case library, through the addition of repairing cases. Large problems are split and stored as single goal subproblems. Multi-goal problems are stored only when these smaller cases fail to be merged into a full solution. An empirical evaluation of this approach demonstrates the advantage of learning from experienced retrieval failure.\n    ",
+        "submission_date": "1997-11-01T00:00:00",
+        "last_modified_date": "1997-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9711103",
+        "title": "A Model Approximation Scheme for Planning in Partially Observable Stochastic Domains",
+        "authors": [
+            "N. L. Zhang",
+            "W. Liu"
+        ],
+        "abstract": "  Partially observable Markov decision processes (POMDPs) are a natural model for planning problems where effects of actions are nondeterministic and the state of the world is not completely observable. It is difficult to solve POMDPs exactly. This paper proposes a new approximation scheme. The basic idea is to transform a POMDP into another one where additional information is provided by an oracle. The oracle informs the planning agent that the current state of the world is in a certain region. The transformed POMDP is consequently said to be region observable. It is easier to solve than the original POMDP. We propose to solve the transformed POMDP and use its optimal policy to construct an approximate policy for the original POMDP. By controlling the amount of additional information that the oracle provides, it is possible to find a proper tradeoff between computational time and approximation quality. In terms of algorithmic contributions, we study in details how to exploit region observability in solving the transformed POMDP. To facilitate the study, we also propose a new exact algorithm for general POMDPs. The algorithm is conceptually simple and yet is significantly more efficient than all previous exact algorithms.\n    ",
+        "submission_date": "1997-11-01T00:00:00",
+        "last_modified_date": "1997-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9711104",
+        "title": "Dynamic Non-Bayesian Decision Making",
+        "authors": [
+            "D. Monderer",
+            "M. Tennenholtz"
+        ],
+        "abstract": "  The model of a non-Bayesian agent who faces a repeated game with incomplete information against Nature is an appropriate tool for modeling general agent-environment interactions. In such a model the environment state (controlled by Nature) may change arbitrarily, and the feedback/reward function is initially unknown. The agent is not Bayesian, that is he does not form a prior probability neither on the state selection strategy of Nature, nor on his reward function. A policy for the agent is a function which assigns an action to every history of observations and actions. Two basic feedback structures are considered. In one of them -- the perfect monitoring case -- the agent is able to observe the previous environment state as part of his feedback, while in the other -- the imperfect monitoring case -- all that is available to the agent is the reward obtained. Both of these settings refer to partially observable processes, where the current environment state is unknown. Our main result refers to the competitive ratio criterion in the perfect monitoring case. We prove the existence of an efficient stochastic policy that ensures that the competitive ratio is obtained at almost all stages with an arbitrarily high probability, where efficiency is measured in terms of rate of convergence. It is further shown that such an optimal policy does not exist in the imperfect monitoring case. Moreover, it is proved that in the perfect monitoring case there does not exist a deterministic policy that satisfies our long run optimality criterion. In addition, we discuss the maxmin criterion and prove that a deterministic efficient optimal strategy does exist in the imperfect monitoring case under this criterion. Finally we show that our approach to long-run optimality can be viewed as qualitative, which distinguishes it from previous work in this area.\n    ",
+        "submission_date": "1997-11-01T00:00:00",
+        "last_modified_date": "1997-11-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9712101",
+        "title": "When Gravity Fails: Local Search Topology",
+        "authors": [
+            "J. Frank",
+            "P. Cheeseman",
+            "J. Stutz"
+        ],
+        "abstract": "  Local search algorithms for combinatorial search problems frequently encounter a sequence of states in which it is impossible to improve the value of the objective function; moves through these regions, called plateau moves, dominate the time spent in local search. We analyze and characterize plateaus for three different classes of randomly generated Boolean Satisfiability problems. We identify several interesting features of plateaus that impact the performance of local search algorithms. We show that local minima tend to be small but occasionally may be very large. We also show that local minima can be escaped without unsatisfying a large number of clauses, but that systematically searching for an escape route may be computationally expensive if the local minimum is large. We show that plateaus with exits, called benches, tend to be much larger than minima, and that some benches have very few exit states which local search can use to escape. We show that the solutions (i.e., global minima) of randomly generated problem instances form clusters, which behave similarly to local minima. We revisit several enhancements of local search algorithms and explain their performance in light of our results. Finally we discuss strategies for creating the next generation of local search algorithms.\n    ",
+        "submission_date": "1997-12-01T00:00:00",
+        "last_modified_date": "1997-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cs/9712102",
+        "title": "Bidirectional Heuristic Search Reconsidered",
+        "authors": [
+            "H. Kaindl",
+            "G. Kainz"
+        ],
+        "abstract": "  The assessment of bidirectional heuristic search has been incorrect since it was first published more than a quarter of a century ago. For quite a long time, this search strategy did not achieve the expected results, and there was a major misunderstanding about the reasons behind it. Although there is still wide-spread belief that bidirectional heuristic search is afflicted by the problem of search frontiers passing each other, we demonstrate that this conjecture is wrong. Based on this finding, we present both a new generic approach to bidirectional heuristic search and a new approach to dynamically improving heuristic values that is feasible in bidirectional search only. These approaches are put into perspective with both the traditional and more recently proposed approaches in order to facilitate a better overall understanding. Empirical results of experiments with our new approaches show that bidirectional heuristic search can be performed very efficiently and also with limited memory. These results suggest that bidirectional heuristic search appears to be better for solving certain difficult problems than corresponding unidirectional search. This provides some evidence for the usefulness of a search strategy that was long neglected. In summary, we show that bidirectional heuristic search is viable and consequently propose that it be reconsidered.\n    ",
+        "submission_date": "1997-12-01T00:00:00",
+        "last_modified_date": "1997-12-01T00:00:00"
+    },
+    {
+        "url": "https://arxiv.org/abs/cond-mat/9703183",
+        "title": "Finite size scaling of the bayesian perceptron",
+        "authors": [
+            "A. Buhot",
+            "J.-M. Torres Moreno",
+            "M. B. Gordon"
+        ],
+        "abstract": "  We study numerically the properties of the bayesian perceptron through a gradient descent on the optimal cost function. The theoretical distribution of stabilities is deduced. It predicts that the optimal generalizer lies close to the boundary of the space of (error-free) solutions. The numerical simulations are in good agreement with the theoretical distribution. The extrapolation of the generalization error to infinite input space size agrees with the theoretical results. Finite size corrections are negative and exhibit two different scaling regimes, depending on the training set size. The variance of the generalization error vanishes for $N \\rightarrow \\infty$ confirming the property of self-averaging.\n    ",
+        "submission_date": "1997-03-20T00:00:00",
+        "last_modified_date": "1997-03-20T00:00:00"
+    }
+]
