@@ -79,8 +79,9 @@ def evaluate_retrieval_llm(questions: list[str],
 
 
 def evaluate_response_llm(questions: list[str],
-                          vectorstore:Chroma=None,
+                          vectorstore:Chroma,
                           n_docs:int=5,
+                          with_context:bool=True,
                         ) -> pd.DataFrame:
     # Setup dataframe
     schema = {
@@ -93,10 +94,10 @@ def evaluate_response_llm(questions: list[str],
 
     pbar = tqdm(total=len(questions), desc="Rating Context")
     for question in questions:
+        # Retrieve context for RAG response and for Judge
+        docs = retrieve_context(question, vectorstore, n_docs)
         # Invoke with or without context
-        if n_docs > 0 and vectorstore:
-            # Retrieve context
-            docs = retrieve_context(question, vectorstore, n_docs)
+        if with_context:
             # Invoke with context
             chain = Prompts.CITES_SOURCES | llm_model()
             response = chain.invoke({"context": docs, "question": question})
@@ -107,9 +108,9 @@ def evaluate_response_llm(questions: list[str],
 
         # Grade responses
         chain = Prompts.DOES_RESPONSE_ANSWER_QUESTION | llm_model()
-        judge_response = chain.invoke({"response": response, "question": question})
+        judge_response = chain.invoke({"context": docs,"response": response, "question": question})
 
-        does_response_answer_question, reason = [part.strip() for part in judge_response.content.split('|', 1)]
+        does_response_answer_question, reason = [part.strip().lower() for part in judge_response.content.split('|', 1)]
 
         response_df = pd.concat([
                     pd.DataFrame([[

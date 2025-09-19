@@ -11,28 +11,47 @@ class Prompts():
     )
 
     CITES_SOURCES = ChatPromptTemplate.from_template(
-        """Answer the following question by synthesizing insights from recent research papers. Structure the answer like a mini literature review, with:
+        """Based only on the context provided, write a confident and well-supported answer to the question, as if summarizing insights for a technical literature review.
 
-        - A brief overview of the problem
-        - A comparative summary of proposed techniques or evaluations
-        - Key findings or contributions from papers (with citations)
-        - Strengths and limitations noted by the papers
-        - A concluding summary
+            You may draw reasonable inferences as long as they are clearly supported by the text. Avoid adding any external information not grounded in the context.
 
-        Use only the context provided below.
-        Question: {question}
+            Structure the answer like a mini literature review, including:
+            - A brief overview of the problem
+            - Relevant techniques or findings
+            - Strengths, limitations, or comparisons
+            - A concluding summary
 
-        Context: {context}
+            You may draw inferences or conclusions as long as they are supported by the text. Be precise and assertive. Avoid vague or overly cautious language.
 
-        Answer:
+            Do not include any information not supported by the context.
+            ---
+
+            Example
+
+            Question: What are common methods for sentiment analysis in NLP?
+
+            Context: The papers discuss multiple sentiment analysis techniques, including lexicon-based approaches like VADER and machine learning models such as logistic regression and BERT. VADER is noted for being lightweight and effective on social media text, while transformer-based models like BERT show higher accuracy on longer, more complex inputs.
+
+            Answer: Sentiment analysis methods in NLP generally fall into two categories: lexicon-based and machine learning-based approaches. VADER is a widely used lexicon-based method known for its performance on short, informal text like tweets. In contrast, transformer models such as BERT offer superior accuracy on more complex language, though they require more computational resources. Overall, the choice of method depends on the task context, with BERT being preferred for high-accuracy applications.
+
+            ---
+
+            Question: {question}
+
+            Context: {context}
+
+            Answer:
         """
     )
 
     ANSWER_QUESTION_NO_CONTEXT = ChatPromptTemplate.from_template(
-        """You are an expert in answering questions with about research papers.
-        If do not know the answer to the question, say you do not know and do not guess at the answer.
-        Format your response as a valid markdown document
-        Answer the question:
+        """You are an expert in research topics. Answer the following question as accurately and clearly as possible, based on your existing knowledge.
+
+        - Do not guess if you're unsure.
+        - If relevant research is not known to you, say so honestly.
+        - Do not hallucinate sources or details.
+
+        Format your response in valid markdown.
 
         Question: {question}
         """
@@ -52,18 +71,27 @@ class Prompts():
 
     DOES_RESPONSE_ANSWER_QUESTION = ChatPromptTemplate.from_template(
         """
-        Determine if the following RESPONSE answers the QUESTION sufficiently **from a research-informed perspective**.
-
-        A sufficient response will:
-        - Address all parts of the question clearly and directly
-        - Demonstrate understanding of the academic context or literature
-        - Provide supporting evidence, comparisons, or examples when appropriate
-
-        Your answer must begin with either "Yes |" or "No |" followed by your reasoning.
+        CONTEXT: {context}
 
         QUESTION: {question}
 
         RESPONSE: {response}
+
+        Determine if the RESPONSE correctly and fully answer the QUESTION, using only the provided CONTEXT or established knowledge
+
+        Your grading criteria for a good RESPONSE are as follows:
+        - Is consistent with the retrieved academic content
+        - Answers all key parts of the question
+        - Does not invent facts or citations
+        - Acknowledges uncertainty where appropriate
+        Do NOT penalize a response for not answering if the information was not available in the context.
+
+        Your answer must begin with either "Yes |" or "No |" or "N/A" followed by your reasoning.
+
+        Examples:
+        Yes | The response answers the question fully and accurately using the context
+        No | The response does not answer the question, and the answer is present in the context
+        N/A | The response correctly states that the answer is not found in the context
         """
     )
 
@@ -84,5 +112,16 @@ class Prompts():
         Answer 1: {answer1}
 
         Answer 2: {answer2}
+        """
+    )
+
+    MULTI_QUERY = ChatPromptTemplate.from_template(
+        """
+        You are an AI language model assistant. Your task is to generate {n_prompts}
+        different versions of the given user question to retrieve relevant documents from a vector
+        database. By generating multiple perspectives on the user question, your goal is to help the user
+        overcome some of the limitations of the distance-based similarity search.
+        Provide these alternative questions separated by only one newline character. Only provide the requested
+        perspectives without any additional text. Original question: {question}
         """
     )

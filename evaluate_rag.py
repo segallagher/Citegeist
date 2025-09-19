@@ -12,8 +12,8 @@ from data_analysis.eval_util import evaluate_retrieval, evaluate_retrieval_llm, 
 load_dotenv()
 
 # Constants
-# Valid operations [score_independent, compare_responses, score_context_relevance]
-OPERATION = "score_independent"
+# Valid operations [score_independent_with_context, score_independent_no_context, compare_responses, score_context_relevance]
+OPERATION = "score_independent_no_context"
 SAVE_SCORES = True
 SAVE_CSV = True
 SAVE_HTML = True
@@ -28,27 +28,40 @@ with open(Path('data_analysis') /'questions.json', 'r') as f:
     questions = json.load(f)
 
 
-if OPERATION == "score_independent":
+if OPERATION == "score_independent_with_context":
     # Grades LLM responses with and without RAG independently with LLM-as-a-judge
     # Judge LLM uses the DOES_RESPONSE_ANSWER_QUESTION prompt
-    # Prints the average performance with each model
+    # Prints the average performance with the model
+    # Runs LLM with RAG context
+
     context_df: pd.DataFrame = evaluate_response_llm(questions, vectorstore=vectorstore, n_docs=5)
     context_print_str = f"Does reponse With-Context answer well:\n{context_df['response_answers_question'].value_counts(normalize=True)}\n"
 
-    no_context_df: pd.DataFrame = evaluate_response_llm(questions)
-    no_context_print_str = f"Does reponse No-Context answer well:\n{no_context_df['response_answers_question'].value_counts(normalize=True)}\n"
-
     print(context_print_str)
-    print(no_context_print_str)
     if SAVE_CSV:
         context_df.to_csv(OUTPUT_DIR / "response_with_context.csv", index=False)
-        no_context_df.to_csv(OUTPUT_DIR / "response_no_context.csv", index=False)
     if SAVE_HTML:
         context_df.to_html(OUTPUT_DIR / "response_with_context.html", index=False)
-        no_context_df.to_html(OUTPUT_DIR / "response_no_context.html", index=False)
     if SAVE_SCORES:
         with open(OUTPUT_DIR / "response_scores.txt", 'w') as f:
             f.write(context_print_str)
+
+elif OPERATION == "score_independent_no_context":
+    # Grades LLM responses with and without RAG independently with LLM-as-a-judge
+    # Judge LLM uses the DOES_RESPONSE_ANSWER_QUESTION prompt
+    # Prints the average performance with the model
+    # Runs LLM without RAG context
+
+    no_context_df: pd.DataFrame = evaluate_response_llm(questions, vectorstore=vectorstore, with_context=False)
+    no_context_print_str = f"Does reponse No-Context answer well:\n{no_context_df['response_answers_question'].value_counts(normalize=True)}\n"
+
+    print(no_context_print_str)
+    if SAVE_CSV:
+        no_context_df.to_csv(OUTPUT_DIR / "response_no_context.csv", index=False)
+    if SAVE_HTML:
+        no_context_df.to_html(OUTPUT_DIR / "response_no_context.html", index=False)
+    if SAVE_SCORES:
+        with open(OUTPUT_DIR / "response_scores.txt", 'w') as f:
             f.write(no_context_print_str)
 
 elif OPERATION == "compare_responses":
