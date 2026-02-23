@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What are the benefits of using argument-based learning for creating interpretable models in AI?",
+        "ground_truth_id": "https://arxiv.org/abs/2202.00383"
+    },
+    {
+        "question": "How does model complexity affect explainable AI?",
+        "ground_truth_id": "https://arxiv.org/abs/2205.10119"
+    },
+    {
+        "question": "How can movie spoilers be reduced using AI?",
+        "ground_truth_id": "https://arxiv.org/abs/2304.11411"
+    },
+    {
+        "question": "How can humans and ai communicate to collaborate on a task?",
+        "ground_truth_id": "https://arxiv.org/abs/2304.11632"
+    },
+    {
+        "question": "How well does ChatGPT perform for ai-assisted coding tasks?",
+        "ground_truth_id": "https://arxiv.org/abs/2304.13187"
+    },
+    {
+        "question": "How does ChatGPT perform for providing information in the healthcare industry?",
+        "ground_truth_id": "https://arxiv.org/abs/2304.13714"
+    },
+    {
+        "question": "Can AI create novel ideas? How can we be sure those AI creations are truely novel?",
+        "ground_truth_id": "https://arxiv.org/abs/2404.00017"
+    },
+    {
+        "question": "How can bias be reduced in LLMs using reinforcement learning?",
+        "ground_truth_id": "https://arxiv.org/abs/2404.10160"
+    },
+    {
+        "question": "How can human preferences be captured by machine learning models?",
+        "ground_truth_id": "https://arxiv.org/abs/2503.17338"
+    },
+    {
+        "question": "Do larger LLMs generalize better?",
+        "ground_truth_id": "https://arxiv.org/abs/2504.03635"
+    },
+    {
+        "question": "How to perform visual speech recognition with LSTMs?",
+        "ground_truth_id": "https://arxiv.org/abs/1701.05847"
+    },
+    {
+        "question": "What models can be used to recognize handwritten characters?",
+        "ground_truth_id": "https://arxiv.org/abs/1702.00723"
+    },
+    {
+        "question": "How can computer vision determine where objects are missing?",
+        "ground_truth_id": "https://arxiv.org/abs/1702.07971"
+    },
+    {
+        "question": "How does DeepNAT address the class imbalance problem in brain segmentation?",
+        "ground_truth_id": "https://arxiv.org/abs/1702.08192"
+    },
+    {
+        "question": "Why is ImageNet considered prone to aging and dataset bias?",
+        "ground_truth_id": "https://arxiv.org/abs/1702.08513"
+    },
+    {
+        "question": "How are 3D shapes represented in the SFCN architecture?",
+        "ground_truth_id": "https://arxiv.org/abs/1702.08675"
+    },
+    {
+        "question": "How does modeling visual compatibility enhance the realism and applicability of fashion image synthesis?",
+        "ground_truth_id": "https://arxiv.org/abs/1902.01096"
+    },
+    {
+        "question": "What problems can come up from building chatbots on domain-specific knowledge bases?",
+        "ground_truth_id": "https://arxiv.org/abs/2001.00100"
+    },
+    {
+        "question": "How can we extract templates from phrases?",
+        "ground_truth_id": "https://arxiv.org/abs/2001.10175"
+    },
+    {
+        "question": "How can you we explain the relationship between two scientific documents?",
+        "ground_truth_id": "https://arxiv.org/abs/2002.00317"
+    },
+    {
+        "question": "How can detect bias in news articles?",
+        "ground_truth_id": "https://arxiv.org/abs/2501.02482"
+    }
+]
